@@ -1,0 +1,4 @@
+# Stage 0 - Data Collection
+requests==2.32.3
+pandas==2.2.3
+python-dotenv==1.0.1
