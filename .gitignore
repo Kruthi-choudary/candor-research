@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .env
 data/raw/
+data/processed/
 *.DS_Store
 .idea/
 .vscode/settings.json
