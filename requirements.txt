@@ -9,3 +9,10 @@ faster-whisper==1.2.1
 # Stage 2 - Sentiment (FinBERT)
 torch==2.14.1
 transformers==5.18.0
+
+# Stage 3 - RAG (LlamaIndex + pgvector)
+# Requires Postgres with the pgvector extension running locally (see Postgres 17 + pgvector setup).
+llama-index-core==0.14.25
+llama-index-embeddings-huggingface==0.8.0
+llama-index-vector-stores-postgres==0.9.0
+psycopg2-binary==2.9.13
