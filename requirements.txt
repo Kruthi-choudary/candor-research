@@ -5,3 +5,7 @@ python-dotenv==1.0.1
 
 # Stage 1 - Transcription
 faster-whisper==1.2.1
+
+# Stage 2 - Sentiment (FinBERT)
+torch==2.14.1
+transformers==5.18.0
