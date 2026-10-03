@@ -20,3 +20,6 @@ psycopg2-binary==2.9.13
 # Stage 4 - Report generation (Groq-hosted LLM)
 # Requires GROQ_API_KEY in .env (free tier: https://console.groq.com)
 groq==1.7.0
+
+# Phase 2 - Prosodic audio features
+librosa==1.0.0
