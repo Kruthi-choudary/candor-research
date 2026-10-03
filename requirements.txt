@@ -23,3 +23,7 @@ groq==1.7.0
 
 # Phase 2 - Prosodic audio features
 librosa==1.0.0
+
+# Phase 3 - Price reaction / multimodal fusion
+# yfinance used only for one-time historical backfill (Alpha Vantage's full-history mode is paid-only)
+yfinance==1.7.0
