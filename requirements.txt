@@ -30,3 +30,7 @@ yfinance==1.7.0
 
 # Pipeline reproducibility - config loading (pipeline.py, config/*.yaml)
 PyYAML==6.0.3
+
+# Local API - serves the pipeline for a demo frontend (api/main.py)
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
