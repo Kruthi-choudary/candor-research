@@ -1,0 +1,54 @@
+{
+  "ticker": "AAPL",
+  "quarter": "Q1_2025",
+  "claims": [
+    {
+      "claim": null,
+      "sentiment": "positive",
+      "evidence_hint": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
+      "timestamp_sec": 1376
+    },
+    {
+      "claim": null,
+      "sentiment": "positive",
+      "evidence_hint": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+      "timestamp_sec": 830
+    },
+    {
+      "claim": null,
+      "sentiment": "positive",
+      "evidence_hint": "growing 14% from a year ago.",
+      "timestamp_sec": 586
+    },
+    {
+      "claim": null,
+      "sentiment": "positive",
+      "evidence_hint": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by",
+      "timestamp_sec": 386
+    },
+    {
+      "claim": null,
+      "sentiment": "negative",
+      "evidence_hint": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+      "timestamp_sec": 1054
+    },
+    {
+      "claim": null,
+      "sentiment": "negative",
+      "evidence_hint": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+      "timestamp_sec": 1492
+    },
+    {
+      "claim": null,
+      "sentiment": "negative",
+      "evidence_hint": "With that headwind, we expect our March quarter total company revenue to grow low to",
+      "timestamp_sec": 1256
+    },
+    {
+      "claim": null,
+      "sentiment": "negative",
+      "evidence_hint": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+      "timestamp_sec": 1249
+    }
+  ]
+}
