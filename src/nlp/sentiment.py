@@ -3,10 +3,17 @@ import json
 from pathlib import Path
 from transformers import pipeline
 
+from src.common.config import load_pipeline_config
+
 TRANSCRIPTS_DIR = Path(__file__).parent.parent.parent / "data" / "processed" / "transcripts"
 OUTPUT_DIR = Path(__file__).parent.parent.parent / "data" / "processed" / "sentiment"
-MODEL_NAME = "ProsusAI/finbert"
 CHUNK_WORDS = 400
+
+
+def load_classifier():
+    model_name = load_pipeline_config()["models"]["sentiment"]
+    print(f"Loading FinBERT ({model_name})...")
+    return pipeline("sentiment-analysis", model=model_name, tokenizer=model_name)
 
 
 def score_text(classifier, text: str) -> dict:
@@ -37,8 +44,7 @@ def score_full_transcript(classifier, full_text: str) -> dict:
 
 
 def run(mode: str):
-    print(f"Loading FinBERT ({MODEL_NAME})...")
-    classifier = pipeline("sentiment-analysis", model=MODEL_NAME, tokenizer=MODEL_NAME)
+    classifier = load_classifier()
 
     for ticker_dir in sorted(TRANSCRIPTS_DIR.iterdir()):
         if not ticker_dir.is_dir():

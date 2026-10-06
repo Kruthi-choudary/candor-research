@@ -2,7 +2,8 @@ import json
 from pathlib import Path
 
 import yfinance as yf
-from companies import COMPANIES
+
+from src.data.companies import COMPANIES
 
 OUTPUT_DIR = Path(__file__).parent.parent.parent / "data" / "raw" / "prices_historical"
 START_DATE = "2024-01-01"

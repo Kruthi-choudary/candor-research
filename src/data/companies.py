@@ -1,21 +1,11 @@
-COMPANIES = {
-    "AAPL": {
-        "name": "Apple",
-        "ir_page": "https://investor.apple.com/earnings/default.aspx",
-    },
-    "MSFT": {
-        "name": "Microsoft",
-        "ir_page": "https://www.microsoft.com/en-us/investor/earnings/default.aspx",
-    },
-    "NVDA": {
-        "name": "Nvidia",
-        "ir_page": "https://investor.nvidia.com/financial-info/quarterly-results/default.aspx",
-    },
-    "META": {
-        "name": "Meta",
-        "ir_page": "https://investor.atmeta.com/investor-relations/default.aspx",
-    },
-}
+from src.common.config import load_companies as _load_companies_config
 
-# Quarters we're collecting: last 4 per company
-QUARTERS = ["Q1_2025", "Q2_2025", "Q3_2025", "Q4_2024"]
+_config = _load_companies_config()
+
+COMPANIES = {
+    ticker: {"name": info["name"], "ir_page": info["ir_page"]}
+    for ticker, info in _config["companies"].items()
+}
+CIK_MAP = {ticker: info["cik"] for ticker, info in _config["companies"].items()}
+CASTIFY_FEEDS = {ticker: info["castify_feed"] for ticker, info in _config["companies"].items()}
+QUARTERS = _config["quarters"]

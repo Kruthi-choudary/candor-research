@@ -47,6 +47,18 @@ def extract_segment_features(y: np.ndarray, sr: int, start: float, end: float, p
     return features
 
 
+def extract_features_for_call(segments: list, audio_path: Path) -> list:
+    y, sr = librosa.load(audio_path, sr=SAMPLE_RATE)
+    scored_segments = []
+    prev_end = None
+    for seg in segments:
+        word_count = len(seg["text"].split())
+        features = extract_segment_features(y, sr, seg["start"], seg["end"], prev_end, word_count)
+        scored_segments.append({**seg, "audio_features": features})
+        prev_end = seg["end"]
+    return scored_segments
+
+
 def run():
     for ticker_dir in sorted(TRANSCRIPTS_DIR.iterdir()):
         if not ticker_dir.is_dir():
@@ -67,20 +79,11 @@ def run():
                 print(f"{ticker} {quarter}: no audio file found, skipping")
                 continue
 
-            print(f"{ticker} {quarter}: loading audio...")
-            y, sr = librosa.load(audio_path, sr=SAMPLE_RATE)
-
             with open(transcript_path) as f:
                 segments = json.load(f)["segments"]
 
             print(f"{ticker} {quarter}: extracting features for {len(segments)} segments...")
-            scored_segments = []
-            prev_end = None
-            for seg in segments:
-                word_count = len(seg["text"].split())
-                features = extract_segment_features(y, sr, seg["start"], seg["end"], prev_end, word_count)
-                scored_segments.append({**seg, "audio_features": features})
-                prev_end = seg["end"]
+            scored_segments = extract_features_for_call(segments, audio_path)
 
             with open(out_path, "w") as f:
                 json.dump({"segments": scored_segments}, f, indent=2)

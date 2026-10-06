@@ -4,18 +4,10 @@ from datetime import datetime
 from pathlib import Path
 
 import requests
-from companies import QUARTERS
+
+from src.data.companies import QUARTERS, CASTIFY_FEEDS
 
 OUTPUT_PATH = Path(__file__).parent.parent.parent / "data" / "processed" / "call_dates.json"
-
-# Castify "Earnings Call Podcast" RSS feeds per ticker — resolved once via iTunes search API,
-# hardcoded here the same way fetch_filings.py hardcodes CIK numbers (fixed, known 4-company scope).
-CASTIFY_FEEDS = {
-    "AAPL": "https://casti.fyi/rss/144ea3762732432e8ec37a1d.xml",
-    "MSFT": "https://casti.fyi/rss/fcacc710e8cdbd861bccc6b3.xml",
-    "NVDA": "https://casti.fyi/rss/b36592e77a525c0f109d1bc9.xml",
-    "META": "https://casti.fyi/rss/3437762148822bf05ced474b.xml",
-}
 
 
 def extract_call_dates(ticker: str, feed_url: str) -> dict:

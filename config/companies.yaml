@@ -1,0 +1,31 @@
+# Single source of truth for the 4 companies Candor currently knows about.
+# Adding a new company means adding an entry here (+ manually dropping its audio
+# files under data/raw/audio/{TICKER}/) — Candor does not discover companies on its own.
+companies:
+  AAPL:
+    name: Apple
+    ir_page: https://investor.apple.com/earnings/default.aspx
+    cik: "0000320193"
+    castify_feed: https://casti.fyi/rss/144ea3762732432e8ec37a1d.xml
+  MSFT:
+    name: Microsoft
+    ir_page: https://www.microsoft.com/en-us/investor/earnings/default.aspx
+    cik: "0000789019"
+    castify_feed: https://casti.fyi/rss/fcacc710e8cdbd861bccc6b3.xml
+  NVDA:
+    name: Nvidia
+    ir_page: https://investor.nvidia.com/financial-info/quarterly-results/default.aspx
+    cik: "0001045810"
+    castify_feed: https://casti.fyi/rss/b36592e77a525c0f109d1bc9.xml
+  META:
+    name: Meta
+    ir_page: https://investor.atmeta.com/investor-relations/default.aspx
+    cik: "0001326801"
+    castify_feed: https://casti.fyi/rss/3437762148822bf05ced474b.xml
+
+# Quarters we're collecting: last 4 per company
+quarters:
+  - Q1_2025
+  - Q2_2025
+  - Q3_2025
+  - Q4_2024

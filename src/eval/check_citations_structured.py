@@ -2,13 +2,17 @@ import json
 from difflib import SequenceMatcher
 from pathlib import Path
 
-from check_citations import MATCH_THRESHOLD, normalize
+from src.common.config import load_pipeline_config
+from src.eval.check_citations import normalize
+
+_cfg = load_pipeline_config()
 
 # Wider than the baseline checker's tolerance: structured timestamps are truncated ints
 # (see generate_structured_report.py), so the true segment can drift up to ~1s from the
 # cited value. Safe to widen since matching now ranks candidates by text similarity,
 # not merely by closest timestamp (see find_segment_at).
-TIMESTAMP_TOLERANCE_SEC = 2
+TIMESTAMP_TOLERANCE_SEC = _cfg["evaluation"]["citation_tolerance_sec"]
+MATCH_THRESHOLD = _cfg["evaluation"]["citation_match_threshold"]
 
 RUN_LABEL = "structured_citations_v1"
 REPORTS_DIR = Path(__file__).parent.parent.parent / "data" / "processed" / f"reports_{RUN_LABEL}"

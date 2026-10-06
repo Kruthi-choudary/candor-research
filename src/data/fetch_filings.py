@@ -1,17 +1,11 @@
 import requests
 import json
 from pathlib import Path
-from companies import COMPANIES
+
+from src.data.companies import CIK_MAP
 
 OUTPUT_DIR = Path(__file__).parent.parent.parent / "data" / "raw" / "filings"
 HEADERS = {"User-Agent": "candor-project research@candor.dev"}
-
-CIK_MAP = {
-    "AAPL": "0000320193",
-    "MSFT": "0000789019",
-    "NVDA": "0001045810",
-    "META": "0001326801",
-}
 
 
 def get_recent_8k(cik: str, ticker: str, limit: int = 5) -> list:

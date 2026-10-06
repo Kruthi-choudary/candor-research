@@ -1,11 +1,18 @@
 import json
 from pathlib import Path
 from faster_whisper import WhisperModel
-from companies import COMPANIES
+
+from src.common.config import load_pipeline_config
+from src.data.companies import COMPANIES
 
 AUDIO_DIR = Path(__file__).parent.parent.parent / "data" / "raw" / "audio"
 OUTPUT_DIR = Path(__file__).parent.parent.parent / "data" / "processed" / "transcripts"
-MODEL_SIZE = "base.en"
+
+
+def load_model() -> WhisperModel:
+    model_size = load_pipeline_config()["models"]["whisper"]
+    print(f"Loading Whisper model ({model_size})...")
+    return WhisperModel(model_size, device="cpu", compute_type="int8")
 
 
 def transcribe_file(model: WhisperModel, audio_path: Path) -> dict:
@@ -23,8 +30,7 @@ def transcribe_file(model: WhisperModel, audio_path: Path) -> dict:
 
 
 def run():
-    print(f"Loading Whisper model ({MODEL_SIZE})...")
-    model = WhisperModel(MODEL_SIZE, device="cpu", compute_type="int8")
+    model = load_model()
 
     for ticker in COMPANIES:
         ticker_audio_dir = AUDIO_DIR / ticker

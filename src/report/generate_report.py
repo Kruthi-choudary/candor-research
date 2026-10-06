@@ -1,20 +1,21 @@
 import argparse
 import json
-import sys
 from pathlib import Path
 
 from dotenv import load_dotenv
 from groq import Groq
 
-sys.path.insert(0, str(Path(__file__).parent.parent / "data"))
-from companies import COMPANIES
+from src.common.config import load_pipeline_config
+from src.data.companies import COMPANIES
+
+_cfg = load_pipeline_config()
 
 SENTIMENT_DIR = Path(__file__).parent.parent.parent / "data" / "processed" / "sentiment" / "segment"
 OUTPUT_DIR = Path(__file__).parent.parent.parent / "data" / "processed" / "reports"
 ENV_PATH = Path(__file__).parent.parent.parent / ".env"
-MODEL_NAME = "openai/gpt-oss-120b"
-TOP_K_QUOTES = 4
-MAX_TOKENS = 1500
+MODEL_NAME = _cfg["generation"]["llm_model"]
+TOP_K_QUOTES = _cfg["generation"]["top_k_quotes"]
+MAX_TOKENS = _cfg["generation"]["max_tokens"]
 
 
 def load_scored_segments(ticker: str, quarter: str) -> list:

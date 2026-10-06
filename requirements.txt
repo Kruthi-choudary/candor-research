@@ -27,3 +27,6 @@ librosa==1.0.0
 # Phase 3 - Price reaction / multimodal fusion
 # yfinance used only for one-time historical backfill (Alpha Vantage's full-history mode is paid-only)
 yfinance==1.7.0
+
+# Pipeline reproducibility - config loading (pipeline.py, config/*.yaml)
+PyYAML==6.0.3

@@ -4,7 +4,8 @@ import time
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-from companies import COMPANIES
+
+from src.data.companies import COMPANIES
 
 load_dotenv(Path(__file__).parent.parent.parent / ".env")
 
