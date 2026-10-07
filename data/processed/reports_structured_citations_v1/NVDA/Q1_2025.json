@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "claim": "Non-GAAP growth margins increased to 78.9% due to lower inventory charges.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1296,
+        "source_text": "and non-gap growth margins to 78.9% on lower inventory charges."
+      }
+    },
+    {
+      "claim": "GAAP operating expenses rose 10% sequentially, and non-GAAP operating expenses also increased.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1309,
+        "source_text": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up"
+      }
+    },
+    {
+      "claim": "Automotive revenue reached $329 million, up 17% sequentially and 11% year-over-year.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1232,
+        "source_text": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year."
+      }
+    },
+    {
+      "claim": "Total revenue hit $26\u202fbillion, up 18% sequentially and 262% year-over-year, far exceeding expectations.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 141,
+        "source_text": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our"
+      }
+    },
+    {
+      "claim": "Gaming revenue fell to $2.65\u202fbillion, an 8% sequential decline.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1037,
+        "source_text": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and"
+      }
+    },
+    {
+      "claim": "ProViz revenue dropped 8% sequentially to $427\u202fmillion, though it grew 45% year-over-year.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1149,
+        "source_text": "Moving to ProViz, revenue of 427 million was down 8% sequentially and up 45% year on year."
+      }
+    },
+    {
+      "claim": "Data center revenue in China has declined sharply from pre-imposition levels.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 582,
+        "source_text": "Our data center revenue in China is down significantly from the level prior to the imposition of"
+      }
+    },
+    {
+      "claim": "Overall business in China remains substantially lower than previous levels.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 3204,
+        "source_text": "It is the case that our business in China is substantially lower than the levels of"
+      }
+    }
+  ],
+  "overall_summary": "The earnings call showed robust overall and automotive revenue growth and high margins, while gaming sales fell and the China business weakened. Sentiment was heavily neutral (81.0%) with modest positive (16.9%) and minimal negative (2.1%) tones."
+}

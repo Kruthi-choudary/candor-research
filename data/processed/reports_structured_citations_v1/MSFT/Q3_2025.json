@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "claim": "Microsoft reported better-than-expected performance across all segments.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 3086,
+        "source_text": "In general, we saw better than expected performance across our segments."
+      }
+    },
+    {
+      "claim": "M365 commercial product revenue grew 5%, driven by medium business and frontline worker offerings.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1245,
+        "source_text": "medium business and frontline worker offerings. M365 commercial products revenue increased 5%"
+      }
+    },
+    {
+      "claim": "Gross margin dollars for the segment rose 9% and 11% in third-party and first-party content.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1466,
+        "source_text": "in third party and first party content. Segment gross margin dollars increased 9% and 11% in"
+      }
+    },
+    {
+      "claim": "Segment gross margin dollars increased 13% and 14% in constant currency for services.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1390,
+        "source_text": "services. Segment gross margin dollars increased 13% and 14% in constant currency,"
+      }
+    },
+    {
+      "claim": "Revenue declined 6% and 4% in constant currency, falling slightly short of expectations.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1365,
+        "source_text": "revenue decreased 6% and 4% in constant currency, slightly below expectations,"
+      }
+    },
+    {
+      "claim": "Year-over-year decline reflects ongoing customer migration to cloud offerings.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1375,
+        "source_text": "The year over year decline is reflective of the continued customer shift to cloud offerings."
+      }
+    },
+    {
+      "claim": "Revenue is expected to drop in the mid-single digits due to continued cloud migration.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1818,
+        "source_text": "expect revenue to decline in the mid-single digits with the ongoing customer shift to cloud offerings."
+      }
+    },
+    {
+      "claim": "Revenue was down 67% year over year, mainly because of scaling AI infrastructure.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1673,
+        "source_text": "67% down year over year, primarily driven by the impact of scaling our AI infrastructure."
+      }
+    }
+  ],
+  "overall_summary": "The call highlighted mixed results, with positive remarks about better\u2011than\u2011expected segment performance, a 5% rise in M365 commercial revenue, and double\u2011digit gross\u2011margin growth, while negative comments pointed to revenue declines of up to 67% driven by cloud migration and AI infrastructure scaling. FinBERT sentiment was 32.9% positive, 6.2% negative, and 60.9% neutral."
+}

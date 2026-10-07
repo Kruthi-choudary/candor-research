@@ -1,0 +1,6304 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.96,
+      "text": "Good afternoon. My name is Rob and I will be your conference operator today. At this time,",
+      "audio_features": {
+        "pause_before_sec": null,
+        "speaking_rate_wps": 3.43,
+        "mean_pitch_hz": 206.85,
+        "pitch_std_hz": 27.76,
+        "mean_energy": 0.0274
+      }
+    },
+    {
+      "start": 4.96,
+      "end": 9.44,
+      "text": "I would like to welcome everyone to the NVIDIA's fourth quarter earnings call. All lines have",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.57,
+        "mean_pitch_hz": 172.64,
+        "pitch_std_hz": 39.44,
+        "mean_energy": 0.0297
+      }
+    },
+    {
+      "start": 9.44,
+      "end": 14.0,
+      "text": "been placed on mute to prevent any background noise. After the speaker's remarks, there will be a",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.73,
+        "mean_pitch_hz": 197.17,
+        "pitch_std_hz": 64.55,
+        "mean_energy": 0.03438
+      }
+    },
+    {
+      "start": 14.0,
+      "end": 18.88,
+      "text": "question and answer session. If you would like to ask a question during this time, simply press star",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.69,
+        "mean_pitch_hz": 268.62,
+        "pitch_std_hz": 132.83,
+        "mean_energy": 0.02821
+      }
+    },
+    {
+      "start": 18.88,
+      "end": 23.36,
+      "text": "followed by the number one on your telephone keypad. If you would like to withdraw your question,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.79,
+        "mean_pitch_hz": 280.54,
+        "pitch_std_hz": 74.61,
+        "mean_energy": 0.03212
+      }
+    },
+    {
+      "start": 23.36,
+      "end": 28.0,
+      "text": "press star one again. Thank you. Simona Jinkowski, you may begin your conference.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.8,
+        "mean_pitch_hz": 180.1,
+        "pitch_std_hz": 66.25,
+        "mean_energy": 0.02746
+      }
+    },
+    {
+      "start": 28.0,
+      "end": 34.480000000000004,
+      "text": "Thank you. Good afternoon, everyone, and welcome to NVIDIA's conference call for the fourth quarter",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.31,
+        "mean_pitch_hz": 228.26,
+        "pitch_std_hz": 41.11,
+        "mean_energy": 0.11618
+      }
+    },
+    {
+      "start": 34.480000000000004,
+      "end": 41.04,
+      "text": "in fiscal 2024. With me today from NVIDIA, our Jensen Huang, President and Chief Executive Officer",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.44,
+        "mean_pitch_hz": 218.34,
+        "pitch_std_hz": 38.36,
+        "mean_energy": 0.13167
+      }
+    },
+    {
+      "start": 41.04,
+      "end": 46.56,
+      "text": "and Collette Kress, Executive Vice President and Chief Financial Officer. I'd like to remind you",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.72,
+        "mean_pitch_hz": 218.1,
+        "pitch_std_hz": 43.62,
+        "mean_energy": 0.10855
+      }
+    },
+    {
+      "start": 46.56,
+      "end": 51.519999999999996,
+      "text": "that our call is being webcast live on NVIDIA's Investor Relations website. The webcast will be",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.23,
+        "mean_pitch_hz": 202.25,
+        "pitch_std_hz": 34.01,
+        "mean_energy": 0.13932
+      }
+    },
+    {
+      "start": 51.519999999999996,
+      "end": 56.56,
+      "text": "available for replay until the conference call to discuss our financial results for the first quarter",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.17,
+        "mean_pitch_hz": 205.4,
+        "pitch_std_hz": 32.66,
+        "mean_energy": 0.14308
+      }
+    },
+    {
+      "start": 56.64,
+      "end": 63.84,
+      "text": "of fiscal 2025. The content of today's call is NVIDIA's property. It can be reproduced or transcribed",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.36,
+        "mean_pitch_hz": 201.67,
+        "pitch_std_hz": 41.35,
+        "mean_energy": 0.11122
+      }
+    },
+    {
+      "start": 63.84,
+      "end": 68.96000000000001,
+      "text": "without a prior written consent. During this call, we may make forward-looking statements",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.54,
+        "mean_pitch_hz": 204.83,
+        "pitch_std_hz": 35.0,
+        "mean_energy": 0.12936
+      }
+    },
+    {
+      "start": 68.96000000000001,
+      "end": 74.32000000000001,
+      "text": "based on current expectations. These are subject to a number of significant risks and uncertainties,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.8,
+        "mean_pitch_hz": 196.2,
+        "pitch_std_hz": 40.52,
+        "mean_energy": 0.11499
+      }
+    },
+    {
+      "start": 74.32000000000001,
+      "end": 79.12,
+      "text": "and are actual results made different materially. For a discussion of factors that could affect",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.13,
+        "mean_pitch_hz": 207.89,
+        "pitch_std_hz": 44.78,
+        "mean_energy": 0.10949
+      }
+    },
+    {
+      "start": 79.12,
+      "end": 83.68,
+      "text": "our future financial results and business, please refer to the disclosure in today's earnings",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.07,
+        "mean_pitch_hz": 203.24,
+        "pitch_std_hz": 46.72,
+        "mean_energy": 0.14009
+      }
+    },
+    {
+      "start": 83.68,
+      "end": 90.0,
+      "text": "release. Our most recent forms, 10K and 10Q, and the reports that we may file on form 8K with",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.01,
+        "mean_pitch_hz": 191.61,
+        "pitch_std_hz": 36.8,
+        "mean_energy": 0.12909
+      }
+    },
+    {
+      "start": 90.0,
+      "end": 95.76,
+      "text": "the Securities and Exchange Commission. All our statements are made as of today, February 21st,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 200.83,
+        "pitch_std_hz": 40.66,
+        "mean_energy": 0.12222
+      }
+    },
+    {
+      "start": 95.76,
+      "end": 102.56,
+      "text": "2024, based on information currently available to us. Accepted required by law, we assume no",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.21,
+        "mean_pitch_hz": 186.75,
+        "pitch_std_hz": 31.83,
+        "mean_energy": 0.11438
+      }
+    },
+    {
+      "start": 102.56,
+      "end": 108.80000000000001,
+      "text": "obligation to update any such statements. During this call, we will discuss non-gap financial measures.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.4,
+        "mean_pitch_hz": 181.82,
+        "pitch_std_hz": 32.56,
+        "mean_energy": 0.1027
+      }
+    },
+    {
+      "start": 108.80000000000001,
+      "end": 112.08000000000001,
+      "text": "You can find a reconciliation of these non-gap financial measures",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.05,
+        "mean_pitch_hz": 212.91,
+        "pitch_std_hz": 45.76,
+        "mean_energy": 0.14632
+      }
+    },
+    {
+      "start": 112.08,
+      "end": 116.88,
+      "text": "to gap financial measures in our CFO commentary, which is posted on our website.",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.92,
+        "mean_pitch_hz": 184.52,
+        "pitch_std_hz": 29.01,
+        "mean_energy": 0.11616
+      }
+    },
+    {
+      "start": 116.88,
+      "end": 119.12,
+      "text": "With that, let me turn the call over to Collette.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.46,
+        "mean_pitch_hz": 192.59,
+        "pitch_std_hz": 41.76,
+        "mean_energy": 0.13296
+      }
+    },
+    {
+      "start": 120.32,
+      "end": 129.12,
+      "text": "Thanks, Simona. Q4 was another record quarter. Revenue of 22.1 billion was up 22% sequentially,",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 1.7,
+        "mean_pitch_hz": 190.85,
+        "pitch_std_hz": 27.98,
+        "mean_energy": 0.10435
+      }
+    },
+    {
+      "start": 129.12,
+      "end": 138.07999999999998,
+      "text": "and up 265% year on year, and well above our outlook of 20 billion. For fiscal 2024,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.9,
+        "mean_pitch_hz": 208.05,
+        "pitch_std_hz": 35.94,
+        "mean_energy": 0.10026
+      }
+    },
+    {
+      "start": 138.08,
+      "end": 147.04000000000002,
+      "text": "revenue was 60.9 billion and up 126% from the prior year. Starting with data center,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.67,
+        "mean_pitch_hz": 215.93,
+        "pitch_std_hz": 37.05,
+        "mean_energy": 0.10199
+      }
+    },
+    {
+      "start": 147.76000000000002,
+      "end": 157.84,
+      "text": "data center revenue for the fiscal 2024 year was 4.7.5 billion, more than tripling from the prior year.",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 1.79,
+        "mean_pitch_hz": 217.0,
+        "pitch_std_hz": 29.9,
+        "mean_energy": 0.1175
+      }
+    },
+    {
+      "start": 158.56,
+      "end": 164.72000000000003,
+      "text": "The world has reached the tipping point of new computing era. The trillion dollar installed base",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 205.6,
+        "pitch_std_hz": 28.23,
+        "mean_energy": 0.12156
+      }
+    },
+    {
+      "start": 164.72,
+      "end": 170.96,
+      "text": "of data center infrastructure is rapidly transitioning from general purpose to accelerated computing.",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 213.73,
+        "pitch_std_hz": 36.45,
+        "mean_energy": 0.10754
+      }
+    },
+    {
+      "start": 171.84,
+      "end": 179.04,
+      "text": "As more law slows, while computing demand continues to skyrocket, companies may accelerate",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 1.81,
+        "mean_pitch_hz": 212.37,
+        "pitch_std_hz": 36.85,
+        "mean_energy": 0.11697
+      }
+    },
+    {
+      "start": 179.04,
+      "end": 185.76,
+      "text": "every workload possible to drive future improvement in performance, TCO, and energy efficiency.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.93,
+        "mean_pitch_hz": 195.9,
+        "pitch_std_hz": 30.13,
+        "mean_energy": 0.11124
+      }
+    },
+    {
+      "start": 186.48,
+      "end": 191.92,
+      "text": "At the same time, companies have started to build the next generation of modern data centers.",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.94,
+        "mean_pitch_hz": 200.54,
+        "pitch_std_hz": 27.35,
+        "mean_energy": 0.11323
+      }
+    },
+    {
+      "start": 192.00000000000003,
+      "end": 200.48000000000002,
+      "text": "What we refer to as AI factories, purpose-built to refine raw data and produce valuable intelligence",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.89,
+        "mean_pitch_hz": 198.07,
+        "pitch_std_hz": 30.1,
+        "mean_energy": 0.10672
+      }
+    },
+    {
+      "start": 200.48000000000002,
+      "end": 210.16000000000003,
+      "text": "in the era of generative AI. In the fourth quarter, data center revenue of 18.4 billion was a record",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.96,
+        "mean_pitch_hz": 211.04,
+        "pitch_std_hz": 30.57,
+        "mean_energy": 0.09958
+      }
+    },
+    {
+      "start": 210.16000000000003,
+      "end": 219.76000000000002,
+      "text": "of 27% sequentially, and up 409% year on year, driven by the NVIDIA Hopper GPU computing platform,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.77,
+        "mean_pitch_hz": 194.6,
+        "pitch_std_hz": 24.45,
+        "mean_energy": 0.09865
+      }
+    },
+    {
+      "start": 219.76,
+      "end": 228.0,
+      "text": "along with Infinibend and End Networking. Compute revenue grew more than 5x and networking revenue",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 1.82,
+        "mean_pitch_hz": 198.91,
+        "pitch_std_hz": 30.99,
+        "mean_energy": 0.1072
+      }
+    },
+    {
+      "start": 228.0,
+      "end": 234.64,
+      "text": "tripled from last year. We are delighted that supply of Hopper architecture products is improving.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.26,
+        "mean_pitch_hz": 193.25,
+        "pitch_std_hz": 25.63,
+        "mean_energy": 0.10023
+      }
+    },
+    {
+      "start": 235.28,
+      "end": 242.48,
+      "text": "Demand for Hopper remains very strong. We expect our next generation products to be supply constrained",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.22,
+        "mean_pitch_hz": 196.16,
+        "pitch_std_hz": 22.3,
+        "mean_energy": 0.09979
+      }
+    },
+    {
+      "start": 242.48000000000002,
+      "end": 250.72000000000003,
+      "text": "as demand far exceeds supply. Fourth quarter data center growth was driven by both training",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.82,
+        "mean_pitch_hz": 195.73,
+        "pitch_std_hz": 28.61,
+        "mean_energy": 0.08586
+      }
+    },
+    {
+      "start": 250.72000000000003,
+      "end": 256.8,
+      "text": "and inference of generative AI and large language models across a broad set of industries,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.47,
+        "mean_pitch_hz": 179.12,
+        "pitch_std_hz": 15.63,
+        "mean_energy": 0.10614
+      }
+    },
+    {
+      "start": 256.8,
+      "end": 264.16,
+      "text": "use cases, and regions. The versatility and leading performance of our data center platform enables",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.04,
+        "mean_pitch_hz": 201.68,
+        "pitch_std_hz": 31.28,
+        "mean_energy": 0.11282
+      }
+    },
+    {
+      "start": 264.16,
+      "end": 271.92,
+      "text": "a high return on investment for many use cases, including AI training and inference, data processing",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 194.88,
+        "pitch_std_hz": 23.49,
+        "mean_energy": 0.12179
+      }
+    },
+    {
+      "start": 271.92,
+      "end": 278.88,
+      "text": "and a broad range of CUDA accelerated workloads. We estimate in the past year approximately 40%",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 193.03,
+        "pitch_std_hz": 31.0,
+        "mean_energy": 0.10544
+      }
+    },
+    {
+      "start": 279.84000000000003,
+      "end": 288.16,
+      "text": "of data center revenue was for AI inference. Building and deploying AI solutions has reached",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 1.8,
+        "mean_pitch_hz": 207.03,
+        "pitch_std_hz": 39.81,
+        "mean_energy": 0.10303
+      }
+    },
+    {
+      "start": 288.16,
+      "end": 294.0,
+      "text": "virtually every industry. Many companies across industries are training and operating",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.88,
+        "mean_pitch_hz": 190.46,
+        "pitch_std_hz": 29.62,
+        "mean_energy": 0.10145
+      }
+    },
+    {
+      "start": 294.0,
+      "end": 300.72,
+      "text": "their AI models and services at scale. Enterprises across NVIDIA AI infrastructure",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.79,
+        "mean_pitch_hz": 213.38,
+        "pitch_std_hz": 23.3,
+        "mean_energy": 0.11857
+      }
+    },
+    {
+      "start": 301.44,
+      "end": 307.6,
+      "text": "through cloud providers, including hyperscales, GPUs specialized, and private clouds,",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 1.62,
+        "mean_pitch_hz": 204.87,
+        "pitch_std_hz": 22.88,
+        "mean_energy": 0.12529
+      }
+    },
+    {
+      "start": 308.16,
+      "end": 316.8,
+      "text": "or on-premise. NVIDIA's computing stack extends seamlessly across cloud and on-premise environments,",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 1.39,
+        "mean_pitch_hz": 202.58,
+        "pitch_std_hz": 28.77,
+        "mean_energy": 0.10427
+      }
+    },
+    {
+      "start": 317.44,
+      "end": 322.8,
+      "text": "allowing customers to deploy with a multi-cloud or hybrid cloud strategy.",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.05,
+        "mean_pitch_hz": 197.05,
+        "pitch_std_hz": 28.27,
+        "mean_energy": 0.10034
+      }
+    },
+    {
+      "start": 324.0,
+      "end": 328.48,
+      "text": "In the fourth quarter, large cloud providers represented more than half of our data center",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 3.35,
+        "mean_pitch_hz": 202.72,
+        "pitch_std_hz": 25.41,
+        "mean_energy": 0.14105
+      }
+    },
+    {
+      "start": 328.48,
+      "end": 334.08,
+      "text": "revenue, supporting both internal workloads and external public cloud customers.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.79,
+        "mean_pitch_hz": 201.62,
+        "pitch_std_hz": 29.02,
+        "mean_energy": 0.10966
+      }
+    },
+    {
+      "start": 335.6,
+      "end": 343.36,
+      "text": "Microsoft recently noted that more than 50,000 organizations use GitHub co-pilot business to",
+      "audio_features": {
+        "pause_before_sec": 1.52,
+        "speaking_rate_wps": 1.68,
+        "mean_pitch_hz": 195.5,
+        "pitch_std_hz": 30.81,
+        "mean_energy": 0.11293
+      }
+    },
+    {
+      "start": 343.36,
+      "end": 350.4,
+      "text": "supercharge the productivity of their developers contributing to GitHub revenue growth accelerating",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.7,
+        "mean_pitch_hz": 193.71,
+        "pitch_std_hz": 26.5,
+        "mean_energy": 0.09629
+      }
+    },
+    {
+      "start": 350.40000000000003,
+      "end": 358.72,
+      "text": "to 40% year on year. And co-pilot for Microsoft 365 adoption grew faster in its first two months",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.16,
+        "mean_pitch_hz": 197.12,
+        "pitch_std_hz": 33.3,
+        "mean_energy": 0.0869
+      }
+    },
+    {
+      "start": 358.72,
+      "end": 364.24,
+      "text": "than the two previous major Microsoft 365 enterprise suite released instead.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 186.81,
+        "pitch_std_hz": 29.59,
+        "mean_energy": 0.08989
+      }
+    },
+    {
+      "start": 365.6,
+      "end": 371.92,
+      "text": "Consumer internet companies have been early adopters of AI and represent one of our largest",
+      "audio_features": {
+        "pause_before_sec": 1.36,
+        "speaking_rate_wps": 2.37,
+        "mean_pitch_hz": 200.37,
+        "pitch_std_hz": 31.17,
+        "mean_energy": 0.13425
+      }
+    },
+    {
+      "start": 371.92,
+      "end": 378.88000000000005,
+      "text": "customer categories, companies from search to e-commerce, social media, news and video services,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.87,
+        "mean_pitch_hz": 197.38,
+        "pitch_std_hz": 24.07,
+        "mean_energy": 0.11973
+      }
+    },
+    {
+      "start": 378.88,
+      "end": 384.64,
+      "text": "and entertainment are using AI for deep learning-based recommendation systems.",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 1.74,
+        "mean_pitch_hz": 194.3,
+        "pitch_std_hz": 39.92,
+        "mean_energy": 0.13057
+      }
+    },
+    {
+      "start": 385.44,
+      "end": 392.32,
+      "text": "These AI investments are generating a strong return by improving customer engagement,",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 1.74,
+        "mean_pitch_hz": 194.53,
+        "pitch_std_hz": 27.17,
+        "mean_energy": 0.13196
+      }
+    },
+    {
+      "start": 392.32,
+      "end": 395.04,
+      "text": "add conversation, and click-throughs rates.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.84,
+        "mean_pitch_hz": 186.98,
+        "pitch_std_hz": 33.4,
+        "mean_energy": 0.09377
+      }
+    },
+    {
+      "start": 396.15999999999997,
+      "end": 402.88,
+      "text": "MEDA in its latest quarter cited more accurate predictions and improved advertiser performance",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 1.93,
+        "mean_pitch_hz": 207.74,
+        "pitch_std_hz": 34.37,
+        "mean_energy": 0.11905
+      }
+    },
+    {
+      "start": 402.88,
+      "end": 407.04,
+      "text": "as contributing to the significant acceleration in its revenue.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.16,
+        "mean_pitch_hz": 200.73,
+        "pitch_std_hz": 39.13,
+        "mean_energy": 0.09365
+      }
+    },
+    {
+      "start": 407.76000000000005,
+      "end": 414.08000000000004,
+      "text": "In addition, consumer internet companies are investing in generative AI to support content",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 202.71,
+        "pitch_std_hz": 26.22,
+        "mean_energy": 0.12233
+      }
+    },
+    {
+      "start": 414.08000000000004,
+      "end": 420.40000000000003,
+      "text": "creators, advertisers, and customers through automation tools for content and ad creation,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.9,
+        "mean_pitch_hz": 200.33,
+        "pitch_std_hz": 28.21,
+        "mean_energy": 0.1016
+      }
+    },
+    {
+      "start": 420.40000000000003,
+      "end": 424.64000000000004,
+      "text": "online product descriptions, and AI shopping assistance.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.65,
+        "mean_pitch_hz": 191.04,
+        "pitch_std_hz": 31.26,
+        "mean_energy": 0.08128
+      }
+    },
+    {
+      "start": 426.08000000000004,
+      "end": 432.40000000000003,
+      "text": "Enterprise software companies are applying generative AI to help customers realize productivity gains.",
+      "audio_features": {
+        "pause_before_sec": 1.44,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 209.95,
+        "pitch_std_hz": 32.3,
+        "mean_energy": 0.11165
+      }
+    },
+    {
+      "start": 433.12000000000006,
+      "end": 439.84000000000003,
+      "text": "Early customers we've partnered with for both training and inference of generative AI are already",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.23,
+        "mean_pitch_hz": 198.58,
+        "pitch_std_hz": 22.64,
+        "mean_energy": 0.12031
+      }
+    },
+    {
+      "start": 439.84000000000003,
+      "end": 447.20000000000005,
+      "text": "seen notable commercial success. Service now's generative AI products in their latest quarter",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.77,
+        "mean_pitch_hz": 186.94,
+        "pitch_std_hz": 24.38,
+        "mean_energy": 0.11181
+      }
+    },
+    {
+      "start": 447.20000000000005,
+      "end": 454.24,
+      "text": "drove their largest ever net new annual contract value contribution of any new product family release.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.27,
+        "mean_pitch_hz": 185.41,
+        "pitch_std_hz": 23.8,
+        "mean_energy": 0.11953
+      }
+    },
+    {
+      "start": 455.20000000000005,
+      "end": 460.24,
+      "text": "We are working with many other leading AI and enterprise software platforms as well,",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 188.05,
+        "pitch_std_hz": 18.09,
+        "mean_energy": 0.11583
+      }
+    },
+    {
+      "start": 460.24,
+      "end": 465.76,
+      "text": "including Adobe Databricks, Getty Images, SAP, and Snowflake.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.45,
+        "mean_pitch_hz": 186.83,
+        "pitch_std_hz": 22.91,
+        "mean_energy": 0.09359
+      }
+    },
+    {
+      "start": 467.2,
+      "end": 474.16,
+      "text": "The field of foundation large language models is thriving, anthropic, Google,",
+      "audio_features": {
+        "pause_before_sec": 1.44,
+        "speaking_rate_wps": 1.58,
+        "mean_pitch_hz": 203.86,
+        "pitch_std_hz": 34.51,
+        "mean_energy": 0.10588
+      }
+    },
+    {
+      "start": 474.16,
+      "end": 482.24,
+      "text": "inflection, Microsoft, OpenAI, and XAI are leading with continued amazing breakthrough",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.36,
+        "mean_pitch_hz": 191.91,
+        "pitch_std_hz": 29.47,
+        "mean_energy": 0.09339
+      }
+    },
+    {
+      "start": 482.24,
+      "end": 490.32,
+      "text": "in generative AI. Exciting companies like ADEPT, AI21, Character AI, Cohere,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.36,
+        "mean_pitch_hz": 189.03,
+        "pitch_std_hz": 31.27,
+        "mean_energy": 0.08327
+      }
+    },
+    {
+      "start": 490.32,
+      "end": 497.44,
+      "text": "Mistoral, Perplexity, and Runway are building platforms to serve enterprises and creators.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.69,
+        "mean_pitch_hz": 187.14,
+        "pitch_std_hz": 19.56,
+        "mean_energy": 0.08795
+      }
+    },
+    {
+      "start": 498.24,
+      "end": 502.96000000000004,
+      "text": "New startups are creating LLMs to serve the specific languages,",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.12,
+        "mean_pitch_hz": 196.76,
+        "pitch_std_hz": 22.87,
+        "mean_energy": 0.10549
+      }
+    },
+    {
+      "start": 502.96000000000004,
+      "end": 508.88,
+      "text": "cultures, and customs of the world's many regions, and others are creating foundation",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.2,
+        "mean_pitch_hz": 183.5,
+        "pitch_std_hz": 25.7,
+        "mean_energy": 0.07715
+      }
+    },
+    {
+      "start": 508.88,
+      "end": 514.96,
+      "text": "models to address entirely different industries, like recursion, pharmaceuticals,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.48,
+        "mean_pitch_hz": 192.06,
+        "pitch_std_hz": 27.05,
+        "mean_energy": 0.08854
+      }
+    },
+    {
+      "start": 514.96,
+      "end": 524.32,
+      "text": "and generative biomedicines for biology. These companies are driving demand for NVIDIA AI infrastructure",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.5,
+        "mean_pitch_hz": 196.65,
+        "pitch_std_hz": 28.07,
+        "mean_energy": 0.10346
+      }
+    },
+    {
+      "start": 524.32,
+      "end": 531.84,
+      "text": "through hyperscale or GPU specialized cloud providers. Just this morning, we announced that we collaborated",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 187.14,
+        "pitch_std_hz": 26.39,
+        "mean_energy": 0.09969
+      }
+    },
+    {
+      "start": 531.84,
+      "end": 539.0400000000001,
+      "text": "with Google to optimize its state-of-the-art new Gemma language models to accelerate their",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.81,
+        "mean_pitch_hz": 188.95,
+        "pitch_std_hz": 22.47,
+        "mean_energy": 0.10263
+      }
+    },
+    {
+      "start": 539.0400000000001,
+      "end": 547.2,
+      "text": "inference performance on NVIDIA GPUs in the cloud, data center, and PC. One of the most notable trends",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.21,
+        "mean_pitch_hz": 192.45,
+        "pitch_std_hz": 37.36,
+        "mean_energy": 0.08469
+      }
+    },
+    {
+      "start": 547.2,
+      "end": 553.76,
+      "text": "over the past year is the significant adoption of AI by enterprises across the industry verticals,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.44,
+        "mean_pitch_hz": 190.36,
+        "pitch_std_hz": 23.94,
+        "mean_energy": 0.10829
+      }
+    },
+    {
+      "start": 553.76,
+      "end": 560.1600000000001,
+      "text": "such as automotive, healthcare, and financial services. NVIDIA offers multiple application",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.72,
+        "mean_pitch_hz": 206.33,
+        "pitch_std_hz": 58.97,
+        "mean_energy": 0.10443
+      }
+    },
+    {
+      "start": 560.24,
+      "end": 567.8399999999999,
+      "text": "frameworks to help companies adopt AI in vertical domains, such as autonomous driving, drug discovery,",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.97,
+        "mean_pitch_hz": 188.0,
+        "pitch_std_hz": 22.87,
+        "mean_energy": 0.1052
+      }
+    },
+    {
+      "start": 567.8399999999999,
+      "end": 574.64,
+      "text": "low-latency machine learning for fraud detection, or robotics, leveraging our full-stack accelerated",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.76,
+        "mean_pitch_hz": 193.21,
+        "pitch_std_hz": 29.42,
+        "mean_energy": 0.1014
+      }
+    },
+    {
+      "start": 574.64,
+      "end": 581.6,
+      "text": "computing platform. We estimate that data center revenue contribution of the automotive vertical",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.87,
+        "mean_pitch_hz": 185.99,
+        "pitch_std_hz": 28.8,
+        "mean_energy": 0.09566
+      }
+    },
+    {
+      "start": 581.6,
+      "end": 587.6,
+      "text": "through the cloud or on-prem exceeded a billion dollars last year. NVIDIA drive infrastructure",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.33,
+        "mean_pitch_hz": 206.28,
+        "pitch_std_hz": 23.75,
+        "mean_energy": 0.12887
+      }
+    },
+    {
+      "start": 587.6,
+      "end": 592.32,
+      "text": "solutions include systems and software for the development of autonomous driving,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.33,
+        "mean_pitch_hz": 201.82,
+        "pitch_std_hz": 26.49,
+        "mean_energy": 0.12123
+      }
+    },
+    {
+      "start": 592.32,
+      "end": 599.6,
+      "text": "including data ingestion, creation, labeling, and AI training, plus validation through simulation.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.65,
+        "mean_pitch_hz": 190.41,
+        "pitch_std_hz": 28.5,
+        "mean_energy": 0.09992
+      }
+    },
+    {
+      "start": 600.72,
+      "end": 607.2,
+      "text": "Almost 80 vehicle manufacturers across global OEMs, new energy vehicles, trucking,",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 1.7,
+        "mean_pitch_hz": 198.11,
+        "pitch_std_hz": 28.39,
+        "mean_energy": 0.1236
+      }
+    },
+    {
+      "start": 607.2,
+      "end": 616.08,
+      "text": "robotaxy, and tier one suppliers are using NVIDIA AI infrastructure to train LLMs and other AI models",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.91,
+        "mean_pitch_hz": 184.62,
+        "pitch_std_hz": 24.4,
+        "mean_energy": 0.10969
+      }
+    },
+    {
+      "start": 616.08,
+      "end": 623.6,
+      "text": "for automated driving and AI cockpit applications. In effect, nearly every automotive company working",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.86,
+        "mean_pitch_hz": 179.7,
+        "pitch_std_hz": 22.11,
+        "mean_energy": 0.09253
+      }
+    },
+    {
+      "start": 623.6,
+      "end": 632.0,
+      "text": "on AI is working with NVIDIA. As AV algorithms move to video transformers and more cars are",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.02,
+        "mean_pitch_hz": 194.94,
+        "pitch_std_hz": 31.09,
+        "mean_energy": 0.10329
+      }
+    },
+    {
+      "start": 632.0,
+      "end": 639.2800000000001,
+      "text": "equipped with cameras, we expect NVIDIA's automotive data center processing demand to grow significantly.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.92,
+        "mean_pitch_hz": 187.51,
+        "pitch_std_hz": 33.12,
+        "mean_energy": 0.09218
+      }
+    },
+    {
+      "start": 640.0799999999999,
+      "end": 647.92,
+      "text": "In healthcare, digital biology and generative AI are helping to reinvent drug discovery, surgery,",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 1.79,
+        "mean_pitch_hz": 194.94,
+        "pitch_std_hz": 32.26,
+        "mean_energy": 0.0905
+      }
+    },
+    {
+      "start": 647.92,
+      "end": 655.36,
+      "text": "medical imaging, and wearable devices. We have built deep domain expertise in healthcare over",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.88,
+        "mean_pitch_hz": 185.91,
+        "pitch_std_hz": 23.31,
+        "mean_energy": 0.09532
+      }
+    },
+    {
+      "start": 655.36,
+      "end": 664.56,
+      "text": "the past decade, creating the NVIDIA Clara healthcare platform and NVIDIA BioNEMO, a generative AI",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.63,
+        "mean_pitch_hz": 191.25,
+        "pitch_std_hz": 25.56,
+        "mean_energy": 0.10096
+      }
+    },
+    {
+      "start": 664.5600000000001,
+      "end": 671.44,
+      "text": "service to develop, customize, and deploy AI foundation models for computer aided drug discovery.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.03,
+        "mean_pitch_hz": 174.4,
+        "pitch_std_hz": 20.13,
+        "mean_energy": 0.08244
+      }
+    },
+    {
+      "start": 672.4000000000001,
+      "end": 679.84,
+      "text": "BioNEMO features a growing collection of pre-trained biomolecular AI models that can be applied to the",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.15,
+        "mean_pitch_hz": 186.91,
+        "pitch_std_hz": 24.46,
+        "mean_energy": 0.10908
+      }
+    },
+    {
+      "start": 679.84,
+      "end": 686.8000000000001,
+      "text": "end-to-end drug discovery processes. We announced recursion is making available for the proprietary",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.87,
+        "mean_pitch_hz": 182.34,
+        "pitch_std_hz": 19.32,
+        "mean_energy": 0.09132
+      }
+    },
+    {
+      "start": 686.8000000000001,
+      "end": 694.24,
+      "text": "AI model through BioNEMO for the drug discovery system. In financial services,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.61,
+        "mean_pitch_hz": 198.41,
+        "pitch_std_hz": 36.8,
+        "mean_energy": 0.08076
+      }
+    },
+    {
+      "start": 694.32,
+      "end": 701.12,
+      "text": "customers are using AI for a growing set of use cases from trading and risk management",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.35,
+        "mean_pitch_hz": 190.74,
+        "pitch_std_hz": 27.01,
+        "mean_energy": 0.10677
+      }
+    },
+    {
+      "start": 701.12,
+      "end": 707.44,
+      "text": "to customer service and fraud detection. For example, American Express improved fraud detection",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 195.35,
+        "pitch_std_hz": 28.43,
+        "mean_energy": 0.08781
+      }
+    },
+    {
+      "start": 707.44,
+      "end": 714.64,
+      "text": "accuracy by 6% using NVIDIA AI. Shifting to our data center revenue by geography,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.94,
+        "mean_pitch_hz": 192.71,
+        "pitch_std_hz": 37.35,
+        "mean_energy": 0.07386
+      }
+    },
+    {
+      "start": 715.44,
+      "end": 720.8,
+      "text": "growth was strong across all regions except for China, where our data center revenue declined",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.8,
+        "mean_pitch_hz": 196.62,
+        "pitch_std_hz": 30.99,
+        "mean_energy": 0.11579
+      }
+    },
+    {
+      "start": 720.8800000000001,
+      "end": 726.0000000000001,
+      "text": "significantly following the U.S. government export control regulations imposed in October.",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.15,
+        "mean_pitch_hz": 174.04,
+        "pitch_std_hz": 17.18,
+        "mean_energy": 0.08703
+      }
+    },
+    {
+      "start": 726.8000000000001,
+      "end": 731.36,
+      "text": "Although we have not received licenses from the U.S. government to ship restricted products to",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 3.29,
+        "mean_pitch_hz": 207.76,
+        "pitch_std_hz": 20.08,
+        "mean_energy": 0.12943
+      }
+    },
+    {
+      "start": 731.36,
+      "end": 737.2,
+      "text": "China, we have started shipping alternatives that don't require license for the China market.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.4,
+        "mean_pitch_hz": 203.6,
+        "pitch_std_hz": 36.44,
+        "mean_energy": 0.10286
+      }
+    },
+    {
+      "start": 738.4000000000001,
+      "end": 743.2,
+      "text": "China represented a mid-single-digit percentage of our data center revenue in Q4,",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 193.76,
+        "pitch_std_hz": 24.4,
+        "mean_energy": 0.11077
+      }
+    },
+    {
+      "start": 743.84,
+      "end": 748.2400000000001,
+      "text": "and we expect it to stay in a similar range in the first quarter.",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 3.18,
+        "mean_pitch_hz": 176.83,
+        "pitch_std_hz": 21.03,
+        "mean_energy": 0.08599
+      }
+    },
+    {
+      "start": 749.2,
+      "end": 755.36,
+      "text": "In regions outside of the U.S. and China, sovereign AI has become an additional demand driver.",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 191.94,
+        "pitch_std_hz": 24.69,
+        "mean_energy": 0.12175
+      }
+    },
+    {
+      "start": 756.0,
+      "end": 761.76,
+      "text": "Countries around the world are investing in AI infrastructure to support the building of large",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 193.52,
+        "pitch_std_hz": 24.37,
+        "mean_energy": 0.11042
+      }
+    },
+    {
+      "start": 761.76,
+      "end": 768.4,
+      "text": "language models in their own language on domestic data and in support of their local research and",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.56,
+        "mean_pitch_hz": 188.33,
+        "pitch_std_hz": 29.27,
+        "mean_energy": 0.09094
+      }
+    },
+    {
+      "start": 768.4,
+      "end": 775.6,
+      "text": "enterprise ecosystems. From a product perspective, the vast majority of revenue was driven by",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.94,
+        "mean_pitch_hz": 204.71,
+        "pitch_std_hz": 41.15,
+        "mean_energy": 0.07446
+      }
+    },
+    {
+      "start": 775.76,
+      "end": 781.9200000000001,
+      "text": "our Hopper architecture along with Infinibon networking. Together, they have emerged as the",
+      "audio_features": {
+        "pause_before_sec": 0.16,
+        "speaking_rate_wps": 2.11,
+        "mean_pitch_hz": 172.6,
+        "pitch_std_hz": 12.77,
+        "mean_energy": 0.07814
+      }
+    },
+    {
+      "start": 781.9200000000001,
+      "end": 790.8000000000001,
+      "text": "de facto standard for accelerated computing and AI infrastructure. We are on track to ramp H200",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.8,
+        "mean_pitch_hz": 200.33,
+        "pitch_std_hz": 33.75,
+        "mean_energy": 0.07805
+      }
+    },
+    {
+      "start": 790.8000000000001,
+      "end": 798.16,
+      "text": "with initial shipments in the second quarter. Demand is strong as H200 nearly doubles the inference",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.17,
+        "mean_pitch_hz": 193.63,
+        "pitch_std_hz": 34.48,
+        "mean_energy": 0.09109
+      }
+    },
+    {
+      "start": 798.24,
+      "end": 807.1999999999999,
+      "text": "performance of H100. Networking exceeded a $13 billion annualized revenue run rate.",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.34,
+        "mean_pitch_hz": 190.2,
+        "pitch_std_hz": 28.65,
+        "mean_energy": 0.08868
+      }
+    },
+    {
+      "start": 807.76,
+      "end": 814.56,
+      "text": "Our end-to-end networking solutions define modern AI data centers. Our quantum Infinibon",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 1.76,
+        "mean_pitch_hz": 190.56,
+        "pitch_std_hz": 21.72,
+        "mean_energy": 0.10881
+      }
+    },
+    {
+      "start": 814.56,
+      "end": 822.48,
+      "text": "solutions grew more than 5x year-on-year. NVIDIA Quantum Infinibon is the standard for the highest",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.89,
+        "mean_pitch_hz": 194.48,
+        "pitch_std_hz": 29.47,
+        "mean_energy": 0.09718
+      }
+    },
+    {
+      "start": 822.48,
+      "end": 829.52,
+      "text": "performance AI dedicated infrastructures. We are now entering the ethernet networking space",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.7,
+        "mean_pitch_hz": 196.3,
+        "pitch_std_hz": 18.34,
+        "mean_energy": 0.1157
+      }
+    },
+    {
+      "start": 829.52,
+      "end": 836.88,
+      "text": "with the launch of our new spectrum X end-to-end offering designed for an AI optimized networking",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.17,
+        "mean_pitch_hz": 180.06,
+        "pitch_std_hz": 19.41,
+        "mean_energy": 0.08486
+      }
+    },
+    {
+      "start": 836.88,
+      "end": 843.6,
+      "text": "for the data center. spectrum X introduces new technologies over ethernet that are purpose-built",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 183.65,
+        "pitch_std_hz": 27.21,
+        "mean_energy": 0.0815
+      }
+    },
+    {
+      "start": 843.6,
+      "end": 852.16,
+      "text": "for AI. Technologies incorporated in our spectrum switch, bluefield, DPU, and software stack deliver",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.64,
+        "mean_pitch_hz": 189.79,
+        "pitch_std_hz": 19.07,
+        "mean_energy": 0.09146
+      }
+    },
+    {
+      "start": 852.16,
+      "end": 859.1999999999999,
+      "text": "1.6x higher networking performance for AI processing compared with traditional ethernet.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.56,
+        "mean_pitch_hz": 187.31,
+        "pitch_std_hz": 33.58,
+        "mean_energy": 0.07291
+      }
+    },
+    {
+      "start": 860.64,
+      "end": 867.6,
+      "text": "Meeting all the ends including Dell, HPE, Lenovo, and Supermicro with their global sales channels",
+      "audio_features": {
+        "pause_before_sec": 1.44,
+        "speaking_rate_wps": 2.16,
+        "mean_pitch_hz": 193.69,
+        "pitch_std_hz": 30.36,
+        "mean_energy": 0.10831
+      }
+    },
+    {
+      "start": 867.6,
+      "end": 874.4,
+      "text": "are partnering with us to expand our AI solution to enterprises worldwide. We are on track to ship",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.65,
+        "mean_pitch_hz": 184.56,
+        "pitch_std_hz": 20.45,
+        "mean_energy": 0.08726
+      }
+    },
+    {
+      "start": 874.4,
+      "end": 881.36,
+      "text": "spectrum X this quarter. We also made great progress with our software and services offerings",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.16,
+        "mean_pitch_hz": 185.89,
+        "pitch_std_hz": 29.43,
+        "mean_energy": 0.0708
+      }
+    },
+    {
+      "start": 881.44,
+      "end": 888.48,
+      "text": "which reached an annualized revenue run rate of $1 billion in Q4. We announced that NVIDIA",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.27,
+        "mean_pitch_hz": 186.95,
+        "pitch_std_hz": 22.99,
+        "mean_energy": 0.11233
+      }
+    },
+    {
+      "start": 888.48,
+      "end": 896.08,
+      "text": "DGX Cloud will expand its list of partners to include Amazon's AWS, joining Microsoft Azure,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.97,
+        "mean_pitch_hz": 188.42,
+        "pitch_std_hz": 25.36,
+        "mean_energy": 0.10557
+      }
+    },
+    {
+      "start": 896.08,
+      "end": 905.76,
+      "text": "Google Cloud, and Oracle Cloud. DGX Cloud is used for NVIDIA's own AI R&D and custom model development",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.86,
+        "mean_pitch_hz": 190.09,
+        "pitch_std_hz": 27.24,
+        "mean_energy": 0.09502
+      }
+    },
+    {
+      "start": 905.76,
+      "end": 912.56,
+      "text": "as well as NVIDIA developers. It brings the CUDA ecosystem to NVIDIA CSP partners.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 182.05,
+        "pitch_std_hz": 23.83,
+        "mean_energy": 0.08981
+      }
+    },
+    {
+      "start": 913.76,
+      "end": 922.3199999999999,
+      "text": "Okay, moving to gaming. Gaming revenue was $2.87 billion with flat sequentially and up 56 percent",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 1.87,
+        "mean_pitch_hz": 198.74,
+        "pitch_std_hz": 28.26,
+        "mean_energy": 0.1097
+      }
+    },
+    {
+      "start": 922.3199999999999,
+      "end": 928.96,
+      "text": "year on year, better than our outlook on solid consumer demand for NVIDIA GeForce RTX GPUs during",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.56,
+        "mean_pitch_hz": 193.3,
+        "pitch_std_hz": 51.51,
+        "mean_energy": 0.09014
+      }
+    },
+    {
+      "start": 928.96,
+      "end": 938.8000000000001,
+      "text": "holidays. Fiscal year revenue of $10.45 billion was up 15 percent. As CES, we announced our GeForce",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.73,
+        "mean_pitch_hz": 204.06,
+        "pitch_std_hz": 32.47,
+        "mean_energy": 0.10456
+      }
+    },
+    {
+      "start": 938.8000000000001,
+      "end": 948.72,
+      "text": "RTX 40 super series family of GPUs. Starting at $599, they deliver incredible gaming performance",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.51,
+        "mean_pitch_hz": 195.04,
+        "pitch_std_hz": 26.71,
+        "mean_energy": 0.09588
+      }
+    },
+    {
+      "start": 948.72,
+      "end": 956.24,
+      "text": "and generative AI capabilities. Sales are off to a great start. NVIDIA AI tensor cores in the GPUs",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.39,
+        "mean_pitch_hz": 181.38,
+        "pitch_std_hz": 27.83,
+        "mean_energy": 0.10771
+      }
+    },
+    {
+      "start": 956.32,
+      "end": 966.0,
+      "text": "deliver up to 836 AI tops. Perfect for calling AI for gaming, creating, and everyday productivity.",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.65,
+        "mean_pitch_hz": 204.53,
+        "pitch_std_hz": 38.08,
+        "mean_energy": 0.08688
+      }
+    },
+    {
+      "start": 967.28,
+      "end": 975.2,
+      "text": "The rich software stack we offer with our RTX GPUs further accelerates AI. With our DLSS",
+      "audio_features": {
+        "pause_before_sec": 1.28,
+        "speaking_rate_wps": 2.02,
+        "mean_pitch_hz": 203.0,
+        "pitch_std_hz": 26.96,
+        "mean_energy": 0.10378
+      }
+    },
+    {
+      "start": 975.2,
+      "end": 982.64,
+      "text": "technology, seven out of eight pixels can be AI generated, resulting up to four X faster",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.15,
+        "mean_pitch_hz": 198.16,
+        "pitch_std_hz": 28.01,
+        "mean_energy": 0.0897
+      }
+    },
+    {
+      "start": 982.64,
+      "end": 989.84,
+      "text": "ray tracing and better image quality. And with the tensor RT LLM for Windows, our open source",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.36,
+        "mean_pitch_hz": 212.37,
+        "pitch_std_hz": 30.16,
+        "mean_energy": 0.12255
+      }
+    },
+    {
+      "start": 989.84,
+      "end": 995.6,
+      "text": "library that accelerates inference performance for the latest large language models, generative AI",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.26,
+        "mean_pitch_hz": 186.49,
+        "pitch_std_hz": 22.12,
+        "mean_energy": 0.11303
+      }
+    },
+    {
+      "start": 995.6,
+      "end": 1007.12,
+      "text": "can run up to five X faster on RTX AI PCs. At CES, we also announced a wave of new RTX 40 series",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.0,
+        "mean_pitch_hz": 193.87,
+        "pitch_std_hz": 33.05,
+        "mean_energy": 0.08336
+      }
+    },
+    {
+      "start": 1007.2,
+      "end": 1014.32,
+      "text": "AI laptops from every major OEM. These bring high performance gaming and AI capabilities",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.97,
+        "mean_pitch_hz": 198.01,
+        "pitch_std_hz": 27.32,
+        "mean_energy": 0.11839
+      }
+    },
+    {
+      "start": 1014.32,
+      "end": 1021.52,
+      "text": "to a wide range of form factors, including 14-inch and thin and light laptops. With up to",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.36,
+        "mean_pitch_hz": 213.72,
+        "pitch_std_hz": 33.3,
+        "mean_energy": 0.10186
+      }
+    },
+    {
+      "start": 1021.52,
+      "end": 1029.68,
+      "text": "686 tops of AI performance, these next generations AI PCs increase generative AI performance by up",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.96,
+        "mean_pitch_hz": 211.87,
+        "pitch_std_hz": 36.08,
+        "mean_energy": 0.10917
+      }
+    },
+    {
+      "start": 1029.68,
+      "end": 1038.8,
+      "text": "to 60 X, making them the best performing AI PC platforms. At CES, we announced NVIDIA",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.75,
+        "mean_pitch_hz": 199.13,
+        "pitch_std_hz": 33.41,
+        "mean_energy": 0.08433
+      }
+    },
+    {
+      "start": 1038.8,
+      "end": 1045.04,
+      "text": "Avatar Cloud Engine microservices, which allowed developers to integrate state-of-the-art",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.6,
+        "mean_pitch_hz": 199.64,
+        "pitch_std_hz": 29.64,
+        "mean_energy": 0.09117
+      }
+    },
+    {
+      "start": 1045.04,
+      "end": 1053.6000000000001,
+      "text": "generative AI models into digital avatars, ACE, when several best of CES 2024 awards.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.64,
+        "mean_pitch_hz": 186.87,
+        "pitch_std_hz": 29.9,
+        "mean_energy": 0.09314
+      }
+    },
+    {
+      "start": 1054.56,
+      "end": 1061.28,
+      "text": "NVIDIA has an end-to-end platform for building and deploying generative AI applications for RTX",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 203.82,
+        "pitch_std_hz": 32.97,
+        "mean_energy": 0.12177
+      }
+    },
+    {
+      "start": 1061.28,
+      "end": 1068.8,
+      "text": "PCs and workstations. This includes libraries, SDKs, tools, and services developers can incorporate",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.73,
+        "mean_pitch_hz": 209.23,
+        "pitch_std_hz": 33.83,
+        "mean_energy": 0.1009
+      }
+    },
+    {
+      "start": 1068.8,
+      "end": 1075.52,
+      "text": "into their generative AI workflows. NVIDIA is fueling the next wave of generative AI applications",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.23,
+        "mean_pitch_hz": 191.34,
+        "pitch_std_hz": 28.5,
+        "mean_energy": 0.09226
+      }
+    },
+    {
+      "start": 1075.6,
+      "end": 1084.4,
+      "text": "coming to the PC. With over 100 million RTX PCs in the installed base and over 500 AI-enabled",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.05,
+        "mean_pitch_hz": 191.3,
+        "pitch_std_hz": 34.98,
+        "mean_energy": 0.11222
+      }
+    },
+    {
+      "start": 1084.4,
+      "end": 1091.6,
+      "text": "PC applications and games, we are on our way. Moving to pro visualization,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.81,
+        "mean_pitch_hz": 206.95,
+        "pitch_std_hz": 33.98,
+        "mean_energy": 0.09907
+      }
+    },
+    {
+      "start": 1092.8,
+      "end": 1100.8,
+      "text": "revenue of 463 million was up 11% sequentially and up 105% year on year.",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 1.75,
+        "mean_pitch_hz": 208.68,
+        "pitch_std_hz": 25.6,
+        "mean_energy": 0.12412
+      }
+    },
+    {
+      "start": 1101.68,
+      "end": 1108.96,
+      "text": "Fiscal year revenue of 1.55 billion was up 1%. Sequential growth in the quarter was driven",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.2,
+        "mean_pitch_hz": 206.42,
+        "pitch_std_hz": 32.58,
+        "mean_energy": 0.12299
+      }
+    },
+    {
+      "start": 1108.96,
+      "end": 1116.32,
+      "text": "by a rich mix of RTX data architecture GPUs continuing to ramp. Enterprises are refreshing",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.04,
+        "mean_pitch_hz": 191.86,
+        "pitch_std_hz": 25.67,
+        "mean_energy": 0.08115
+      }
+    },
+    {
+      "start": 1116.32,
+      "end": 1122.08,
+      "text": "their workstations to support generative AI related workloads such as data preparation,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 198.61,
+        "pitch_std_hz": 21.84,
+        "mean_energy": 0.11291
+      }
+    },
+    {
+      "start": 1122.08,
+      "end": 1131.36,
+      "text": "LLM fine tuning, and retrieval augmented generation. These key industrial verticals driving demand",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.4,
+        "mean_pitch_hz": 205.95,
+        "pitch_std_hz": 31.11,
+        "mean_energy": 0.11155
+      }
+    },
+    {
+      "start": 1131.36,
+      "end": 1138.0,
+      "text": "include manufacturing, automotive, and robotics. The automotive industry has also been an early",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.96,
+        "mean_pitch_hz": 195.53,
+        "pitch_std_hz": 24.25,
+        "mean_energy": 0.11821
+      }
+    },
+    {
+      "start": 1138.0,
+      "end": 1145.1999999999998,
+      "text": "adopter of NVIDIA Omniverse as it seeks to digitalize workflows from design to build,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.94,
+        "mean_pitch_hz": 189.16,
+        "pitch_std_hz": 21.94,
+        "mean_energy": 0.08803
+      }
+    },
+    {
+      "start": 1145.28,
+      "end": 1152.48,
+      "text": "simulate, operate, and experience their factories and cars. At CES, we announced that creative",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.94,
+        "mean_pitch_hz": 200.18,
+        "pitch_std_hz": 27.49,
+        "mean_energy": 0.09206
+      }
+    },
+    {
+      "start": 1152.48,
+      "end": 1159.6000000000001,
+      "text": "partners and developers including Brickland, WPP, and ZeroLight are building Omniverse-powered",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.54,
+        "mean_pitch_hz": 198.3,
+        "pitch_std_hz": 27.47,
+        "mean_energy": 0.10895
+      }
+    },
+    {
+      "start": 1159.6000000000001,
+      "end": 1166.8,
+      "text": "car configurations, leading automakers like Lotus are adopting the technology to bring new levels",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.94,
+        "mean_pitch_hz": 190.09,
+        "pitch_std_hz": 21.38,
+        "mean_energy": 0.09423
+      }
+    },
+    {
+      "start": 1166.8,
+      "end": 1172.72,
+      "text": "of personalization, realism, and interactivity to the car buying experience.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.69,
+        "mean_pitch_hz": 184.04,
+        "pitch_std_hz": 25.31,
+        "mean_energy": 0.07577
+      }
+    },
+    {
+      "start": 1172.8,
+      "end": 1182.4,
+      "text": "Moving to automotive, revenue was 281 million up 8% sequentially and down 4% year on year.",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.67,
+        "mean_pitch_hz": 198.89,
+        "pitch_std_hz": 26.76,
+        "mean_energy": 0.10352
+      }
+    },
+    {
+      "start": 1183.04,
+      "end": 1191.76,
+      "text": "Fiscal year revenue of 1.09 billion was up 21%, crossing the 1 billion mark for the first time on",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.18,
+        "mean_pitch_hz": 198.64,
+        "pitch_std_hz": 28.99,
+        "mean_energy": 0.1157
+      }
+    },
+    {
+      "start": 1191.76,
+      "end": 1200.4,
+      "text": "continued adoption of the NVIDIA drive platform by automakers. NVIDIA drive Oren is the AI car",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.85,
+        "mean_pitch_hz": 183.21,
+        "pitch_std_hz": 27.24,
+        "mean_energy": 0.09675
+      }
+    },
+    {
+      "start": 1200.48,
+      "end": 1208.8000000000002,
+      "text": "computer of choice for software-defined AV fleets. Its successor NVIDIA drive 4 designed for vision",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.8,
+        "mean_pitch_hz": 191.79,
+        "pitch_std_hz": 22.9,
+        "mean_energy": 0.08343
+      }
+    },
+    {
+      "start": 1208.8000000000002,
+      "end": 1216.8000000000002,
+      "text": "transformers, Oren offers more AI performance and integrates a wide range of intelligent capabilities",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.75,
+        "mean_pitch_hz": 185.18,
+        "pitch_std_hz": 20.08,
+        "mean_energy": 0.08752
+      }
+    },
+    {
+      "start": 1216.8000000000002,
+      "end": 1225.2,
+      "text": "into a single AI compute platform including autonomous driving and parking, driver and passenger monitoring",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.79,
+        "mean_pitch_hz": 189.97,
+        "pitch_std_hz": 26.4,
+        "mean_energy": 0.09054
+      }
+    },
+    {
+      "start": 1225.2,
+      "end": 1232.48,
+      "text": "and AI cockpit functionality and will be available next year. There was so that several automotive",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.2,
+        "mean_pitch_hz": 194.78,
+        "pitch_std_hz": 32.99,
+        "mean_energy": 0.06983
+      }
+    },
+    {
+      "start": 1232.48,
+      "end": 1240.56,
+      "text": "customer announcements this quarter. Leato, Great Wall Motor, Zika, the premium EV subsidiary of",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.73,
+        "mean_pitch_hz": 190.84,
+        "pitch_std_hz": 23.92,
+        "mean_energy": 0.08914
+      }
+    },
+    {
+      "start": 1240.56,
+      "end": 1250.16,
+      "text": "DOE, and Xiaomi EV, all announced new vehicles built on NVIDIA. Moving to the rest of the P&L,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.87,
+        "mean_pitch_hz": 186.64,
+        "pitch_std_hz": 29.18,
+        "mean_energy": 0.07686
+      }
+    },
+    {
+      "start": 1251.1200000000001,
+      "end": 1259.28,
+      "text": "gap growth margins expanded sequentially to 76% and non-gap growth margins to 76.7%",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 1.59,
+        "mean_pitch_hz": 208.52,
+        "pitch_std_hz": 24.51,
+        "mean_energy": 0.10625
+      }
+    },
+    {
+      "start": 1260.16,
+      "end": 1268.24,
+      "text": "on strong data center growth and mix. Our growth margins in Q4 benefited from favorable component",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 1.98,
+        "mean_pitch_hz": 194.28,
+        "pitch_std_hz": 25.3,
+        "mean_energy": 0.10099
+      }
+    },
+    {
+      "start": 1268.24,
+      "end": 1276.5600000000002,
+      "text": "costs. Sequentially, gap operating expenses were up 6% and non-gap operating expenses were up",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.68,
+        "mean_pitch_hz": 207.23,
+        "pitch_std_hz": 25.95,
+        "mean_energy": 0.08583
+      }
+    },
+    {
+      "start": 1276.6399999999999,
+      "end": 1283.28,
+      "text": "9%, primarily reflecting higher compute and infrastructure investment and employee growth.",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.66,
+        "mean_pitch_hz": 191.65,
+        "pitch_std_hz": 24.65,
+        "mean_energy": 0.10158
+      }
+    },
+    {
+      "start": 1284.48,
+      "end": 1291.76,
+      "text": "In Q4, we returned 2.8 billion to shareholders in the form of share repurchases and cash dividends.",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 206.9,
+        "pitch_std_hz": 29.71,
+        "mean_energy": 0.13343
+      }
+    },
+    {
+      "start": 1292.32,
+      "end": 1300.96,
+      "text": "During fiscal year 24, we utilized cash of 9.9 billion towards shareholder returns including",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 1.62,
+        "mean_pitch_hz": 186.06,
+        "pitch_std_hz": 22.96,
+        "mean_energy": 0.11441
+      }
+    },
+    {
+      "start": 1301.04,
+      "end": 1309.8400000000001,
+      "text": "9.5 billion in share repurchases. Let me turn to the outlook for the first quarter. Total revenue",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.93,
+        "mean_pitch_hz": 187.3,
+        "pitch_std_hz": 34.9,
+        "mean_energy": 0.07838
+      }
+    },
+    {
+      "start": 1309.8400000000001,
+      "end": 1320.0,
+      "text": "is expected to be 24 billion plus or minus 2%. We expect sequential growth in data center and",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.77,
+        "mean_pitch_hz": 195.12,
+        "pitch_std_hz": 27.48,
+        "mean_energy": 0.08254
+      }
+    },
+    {
+      "start": 1320.0,
+      "end": 1328.8,
+      "text": "provis partially offset by seasonal decline in gaming. Gap and non-gap growth margins are expected",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.7,
+        "mean_pitch_hz": 205.08,
+        "pitch_std_hz": 31.89,
+        "mean_energy": 0.09096
+      }
+    },
+    {
+      "start": 1328.8,
+      "end": 1341.12,
+      "text": "to be 76.3% and 77% respectively plus or minus 50 basis points. Similar to Q4, Q1 growth margins",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.46,
+        "mean_pitch_hz": 196.34,
+        "pitch_std_hz": 29.01,
+        "mean_energy": 0.08985
+      }
+    },
+    {
+      "start": 1341.12,
+      "end": 1349.2,
+      "text": "are benefiting from favorable component costs. Beyond Q1, for the remainder of the year,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.73,
+        "mean_pitch_hz": 197.3,
+        "pitch_std_hz": 27.18,
+        "mean_energy": 0.11114
+      }
+    },
+    {
+      "start": 1349.2,
+      "end": 1357.84,
+      "text": "we expect growth margins to return to the mid-70s percent range. Gap and non-gap operating expenses",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.85,
+        "mean_pitch_hz": 191.07,
+        "pitch_std_hz": 21.45,
+        "mean_energy": 0.08961
+      }
+    },
+    {
+      "start": 1357.84,
+      "end": 1364.6399999999999,
+      "text": "are expected to be approximately 3.5 billion and 2.5 billion respectively.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.62,
+        "mean_pitch_hz": 195.54,
+        "pitch_std_hz": 27.2,
+        "mean_energy": 0.09411
+      }
+    },
+    {
+      "start": 1365.52,
+      "end": 1372.9599999999998,
+      "text": "Fiscal year 2025, gap and non-gap operating expenses are expected to grow in the mid-30%",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.02,
+        "mean_pitch_hz": 201.73,
+        "pitch_std_hz": 25.58,
+        "mean_energy": 0.11064
+      }
+    },
+    {
+      "start": 1372.9599999999998,
+      "end": 1380.1599999999999,
+      "text": "range as we continue to invest in the large opportunities ahead of us. Gap and non-gap,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.22,
+        "mean_pitch_hz": 190.44,
+        "pitch_std_hz": 26.22,
+        "mean_energy": 0.07875
+      }
+    },
+    {
+      "start": 1380.1599999999999,
+      "end": 1386.24,
+      "text": "other income and expenses are expected to be an income of approximately 250 million,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 206.25,
+        "pitch_std_hz": 26.82,
+        "mean_energy": 0.11362
+      }
+    },
+    {
+      "start": 1386.32,
+      "end": 1393.2,
+      "text": "excluding gains and losses from non-affiliated investments. Gap and non-gap tax rates are",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.89,
+        "mean_pitch_hz": 188.95,
+        "pitch_std_hz": 24.3,
+        "mean_energy": 0.08341
+      }
+    },
+    {
+      "start": 1393.2,
+      "end": 1403.76,
+      "text": "expected to be 17% plus or minus 1% excluding any discrete items. Further financial details are",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.52,
+        "mean_pitch_hz": 192.42,
+        "pitch_std_hz": 29.91,
+        "mean_energy": 0.07428
+      }
+    },
+    {
+      "start": 1403.76,
+      "end": 1411.52,
+      "text": "included in the CFO commentary and other information available on our IR website. In closing, let me",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.19,
+        "mean_pitch_hz": 198.0,
+        "pitch_std_hz": 29.48,
+        "mean_energy": 0.11315
+      }
+    },
+    {
+      "start": 1411.52,
+      "end": 1417.6,
+      "text": "highlight some upcoming events for the financial community. We will attend the Morgan Stanley",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 195.1,
+        "pitch_std_hz": 24.03,
+        "mean_energy": 0.11746
+      }
+    },
+    {
+      "start": 1417.6,
+      "end": 1425.2,
+      "text": "Technology and Media and Telecom Conference in San Francisco on March 4th and the TD Cohen's",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.11,
+        "mean_pitch_hz": 184.42,
+        "pitch_std_hz": 18.45,
+        "mean_energy": 0.07875
+      }
+    },
+    {
+      "start": 1425.2,
+      "end": 1433.68,
+      "text": "44th annual healthcare conference in Boston on March 5th. And of course, please join us for our annual",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.12,
+        "mean_pitch_hz": 193.21,
+        "pitch_std_hz": 25.89,
+        "mean_energy": 0.08481
+      }
+    },
+    {
+      "start": 1433.68,
+      "end": 1441.68,
+      "text": "GTC conference starting Monday, March 18th in San Jose, California. To be held in person for the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.12,
+        "mean_pitch_hz": 196.62,
+        "pitch_std_hz": 25.39,
+        "mean_energy": 0.09952
+      }
+    },
+    {
+      "start": 1441.68,
+      "end": 1448.88,
+      "text": "first time in five years, GTC will kick off with Jensen's keynote and we will host a Q&A session",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.64,
+        "mean_pitch_hz": 189.14,
+        "pitch_std_hz": 23.65,
+        "mean_energy": 0.0917
+      }
+    },
+    {
+      "start": 1448.88,
+      "end": 1458.48,
+      "text": "for financial analysts the next day, March 19th. Time. We are now open to call for questions.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.77,
+        "mean_pitch_hz": 195.04,
+        "pitch_std_hz": 33.0,
+        "mean_energy": 0.06714
+      }
+    },
+    {
+      "start": 1458.48,
+      "end": 1464.48,
+      "text": "Operator, would you please pull for questions? At this time, I would like to remind everyone",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.67,
+        "mean_pitch_hz": 216.83,
+        "pitch_std_hz": 72.36,
+        "mean_energy": 0.05111
+      }
+    },
+    {
+      "start": 1464.48,
+      "end": 1469.84,
+      "text": "in order to ask a question, press star, then the number one on your telephone keypad. We'll pause",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.36,
+        "mean_pitch_hz": 186.46,
+        "pitch_std_hz": 77.55,
+        "mean_energy": 0.03104
+      }
+    },
+    {
+      "start": 1469.84,
+      "end": 1475.3600000000001,
+      "text": "for just a moment to compile the Q&A roster. As a reminder, please limit yourself to one question.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.26,
+        "mean_pitch_hz": 180.45,
+        "pitch_std_hz": 48.32,
+        "mean_energy": 0.02973
+      }
+    },
+    {
+      "start": 1476.24,
+      "end": 1481.2,
+      "text": "Your first question comes from a line of Tashiahari from Goldman Sachs. Your line is open.",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 3.23,
+        "mean_pitch_hz": 186.7,
+        "pitch_std_hz": 30.66,
+        "mean_energy": 0.03429
+      }
+    },
+    {
+      "start": 1483.1200000000001,
+      "end": 1487.2,
+      "text": "Hi, thank you so much for taking the question and congratulations on the really strong results.",
+      "audio_features": {
+        "pause_before_sec": 1.92,
+        "speaking_rate_wps": 3.92,
+        "mean_pitch_hz": 127.73,
+        "pitch_std_hz": 12.92,
+        "mean_energy": 0.08374
+      }
+    },
+    {
+      "start": 1488.0800000000002,
+      "end": 1495.04,
+      "text": "My question is for Jensen on the data center business. Clearly, you're doing extremely well",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.16,
+        "mean_pitch_hz": 130.6,
+        "pitch_std_hz": 21.09,
+        "mean_energy": 0.07625
+      }
+    },
+    {
+      "start": 1496.0,
+      "end": 1504.24,
+      "text": "in the business. I'm curious how your expectations for calendar 24 and 25 have evolved over the past",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.18,
+        "mean_pitch_hz": 129.57,
+        "pitch_std_hz": 14.12,
+        "mean_energy": 0.07948
+      }
+    },
+    {
+      "start": 1504.24,
+      "end": 1510.24,
+      "text": "90 days. As you answer the question, I was hoping you can touch on some of the newer buckets within",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.33,
+        "mean_pitch_hz": 130.45,
+        "pitch_std_hz": 11.37,
+        "mean_energy": 0.07734
+      }
+    },
+    {
+      "start": 1510.24,
+      "end": 1515.68,
+      "text": "data center, things like software, sovereign AI. I think you've been pretty vocal about how to think",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 122.1,
+        "pitch_std_hz": 8.32,
+        "mean_energy": 0.08397
+      }
+    },
+    {
+      "start": 1515.68,
+      "end": 1520.8,
+      "text": "about that medium to long-term. Recently, there was an article about NVIDIA potentially",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.54,
+        "mean_pitch_hz": 129.96,
+        "pitch_std_hz": 21.85,
+        "mean_energy": 0.07647
+      }
+    },
+    {
+      "start": 1520.8,
+      "end": 1525.3600000000001,
+      "text": "participating in the ASIC market. Is there any credence to that? And if so,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.07,
+        "mean_pitch_hz": 129.75,
+        "pitch_std_hz": 13.25,
+        "mean_energy": 0.07362
+      }
+    },
+    {
+      "start": 1525.3600000000001,
+      "end": 1529.8400000000001,
+      "text": "in how should we think about you guys playing in that market over the next several years?",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.79,
+        "mean_pitch_hz": 118.69,
+        "pitch_std_hz": 9.78,
+        "mean_energy": 0.05373
+      }
+    },
+    {
+      "start": 1529.8400000000001,
+      "end": 1541.28,
+      "text": "Thank you. Thanks, Tashiah. Let's see. There were three questions. One more time. First question",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.31,
+        "mean_pitch_hz": 154.53,
+        "pitch_std_hz": 63.28,
+        "mean_energy": 0.05667
+      }
+    },
+    {
+      "start": 1542.16,
+      "end": 1548.08,
+      "text": "was, can you? Well, I guess your expectations for data center, how they've evolved. Thank you.",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.7,
+        "mean_pitch_hz": 128.46,
+        "pitch_std_hz": 17.01,
+        "mean_energy": 0.07767
+      }
+    },
+    {
+      "start": 1549.36,
+      "end": 1557.68,
+      "text": "Okay, yeah. Well, you know, we guide one quarter at a time, but fundamentally, the conditions",
+      "audio_features": {
+        "pause_before_sec": 1.28,
+        "speaking_rate_wps": 1.92,
+        "mean_pitch_hz": 143.42,
+        "pitch_std_hz": 30.13,
+        "mean_energy": 0.08234
+      }
+    },
+    {
+      "start": 1558.8,
+      "end": 1566.72,
+      "text": "are excellent for continued growth, calendar 24, calendar 25, and beyond. And let me tell you why.",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 2.15,
+        "mean_pitch_hz": 117.96,
+        "pitch_std_hz": 9.01,
+        "mean_energy": 0.09342
+      }
+    },
+    {
+      "start": 1567.6000000000001,
+      "end": 1576.64,
+      "text": "We're at the beginning of two industry-wide transitions, and both of them are industry-wide.",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 1.55,
+        "mean_pitch_hz": 132.61,
+        "pitch_std_hz": 20.57,
+        "mean_energy": 0.08057
+      }
+    },
+    {
+      "start": 1576.64,
+      "end": 1583.68,
+      "text": "The first one is a transition from general to accelerated computing. General purpose computing,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 142.32,
+        "pitch_std_hz": 25.43,
+        "mean_energy": 0.09514
+      }
+    },
+    {
+      "start": 1583.68,
+      "end": 1590.8,
+      "text": "as you know, is starting to run out of steam. And you could tell by the CSPs extending and many",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.81,
+        "mean_pitch_hz": 121.77,
+        "pitch_std_hz": 9.43,
+        "mean_energy": 0.10353
+      }
+    },
+    {
+      "start": 1590.8,
+      "end": 1595.92,
+      "text": "data centers, including our own, for general purpose computing, extending the depreciation",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 121.06,
+        "pitch_std_hz": 11.23,
+        "mean_energy": 0.11021
+      }
+    },
+    {
+      "start": 1595.92,
+      "end": 1601.3600000000001,
+      "text": "from four to six years. There's just no reason to update with more CPUs when you can't fundamentally",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.31,
+        "mean_pitch_hz": 119.06,
+        "pitch_std_hz": 9.1,
+        "mean_energy": 0.09795
+      }
+    },
+    {
+      "start": 1601.3600000000001,
+      "end": 1607.6000000000001,
+      "text": "and dramatically enhance its throughput, like you're used to. And so you have to accelerate",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.4,
+        "mean_pitch_hz": 139.11,
+        "pitch_std_hz": 32.49,
+        "mean_energy": 0.08892
+      }
+    },
+    {
+      "start": 1607.6000000000001,
+      "end": 1612.64,
+      "text": "everything. This is what NVIDIA has been pioneering for some time. And with accelerated computing,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.98,
+        "mean_pitch_hz": 129.42,
+        "pitch_std_hz": 16.18,
+        "mean_energy": 0.09306
+      }
+    },
+    {
+      "start": 1612.64,
+      "end": 1619.04,
+      "text": "you could dramatically improve your energy efficiency. You can dramatically improve your cost",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.03,
+        "mean_pitch_hz": 133.33,
+        "pitch_std_hz": 15.74,
+        "mean_energy": 0.09907
+      }
+    },
+    {
+      "start": 1619.84,
+      "end": 1626.56,
+      "text": "in data processing by 20 to 1, huge numbers, and of course, the speed.",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 162.97,
+        "pitch_std_hz": 55.02,
+        "mean_energy": 0.07585
+      }
+    },
+    {
+      "start": 1627.84,
+      "end": 1635.76,
+      "text": "That speed is so incredible that we enabled a second industry-wide transition called generative",
+      "audio_features": {
+        "pause_before_sec": 1.28,
+        "speaking_rate_wps": 1.77,
+        "mean_pitch_hz": 140.94,
+        "pitch_std_hz": 22.8,
+        "mean_energy": 0.09025
+      }
+    },
+    {
+      "start": 1635.76,
+      "end": 1641.04,
+      "text": "AI. Generative AI, I'm sure we're going to talk plenty about it during the call.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.84,
+        "mean_pitch_hz": 137.85,
+        "pitch_std_hz": 33.12,
+        "mean_energy": 0.08969
+      }
+    },
+    {
+      "start": 1641.76,
+      "end": 1648.8799999999999,
+      "text": "But remember, generative AI is a new application. It is enabling a new way of doing software.",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.39,
+        "mean_pitch_hz": 144.03,
+        "pitch_std_hz": 14.04,
+        "mean_energy": 0.10858
+      }
+    },
+    {
+      "start": 1648.88,
+      "end": 1655.44,
+      "text": "New types of software being created. It is a new way of computing. You can't do generative AI",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.74,
+        "mean_pitch_hz": 174.71,
+        "pitch_std_hz": 67.17,
+        "mean_energy": 0.11288
+      }
+    },
+    {
+      "start": 1655.44,
+      "end": 1662.16,
+      "text": "on traditional general purpose computing. You have to accelerate it. And the third is it is",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.38,
+        "mean_pitch_hz": 122.89,
+        "pitch_std_hz": 15.82,
+        "mean_energy": 0.07746
+      }
+    },
+    {
+      "start": 1662.16,
+      "end": 1669.2,
+      "text": "enabling a whole new industry. And this is something worthwhile to take a step back and look at,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.56,
+        "mean_pitch_hz": 146.6,
+        "pitch_std_hz": 38.34,
+        "mean_energy": 0.10831
+      }
+    },
+    {
+      "start": 1669.2,
+      "end": 1675.0400000000002,
+      "text": "and it connects to your last question about sovereign AI. A whole new industry in the sense",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.91,
+        "mean_pitch_hz": 172.3,
+        "pitch_std_hz": 65.28,
+        "mean_energy": 0.09839
+      }
+    },
+    {
+      "start": 1675.04,
+      "end": 1681.2,
+      "text": "that for the very first time a data center is not just about computing data and storing data",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.92,
+        "mean_pitch_hz": 132.28,
+        "pitch_std_hz": 10.8,
+        "mean_energy": 0.11846
+      }
+    },
+    {
+      "start": 1681.2,
+      "end": 1689.6,
+      "text": "and serving the employees of a company. We now have a new type of data center that is about AI",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.38,
+        "mean_pitch_hz": 147.99,
+        "pitch_std_hz": 28.69,
+        "mean_energy": 0.09708
+      }
+    },
+    {
+      "start": 1690.96,
+      "end": 1697.36,
+      "text": "generation and AI generation factory. And you've heard me describe it as AI factories.",
+      "audio_features": {
+        "pause_before_sec": 1.36,
+        "speaking_rate_wps": 2.19,
+        "mean_pitch_hz": 154.34,
+        "pitch_std_hz": 38.83,
+        "mean_energy": 0.07921
+      }
+    },
+    {
+      "start": 1698.2400000000002,
+      "end": 1706.2400000000002,
+      "text": "But basically, it takes raw material, which is data. It transforms it with these AI supercomputers",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.0,
+        "mean_pitch_hz": 154.19,
+        "pitch_std_hz": 28.87,
+        "mean_energy": 0.08431
+      }
+    },
+    {
+      "start": 1706.2400000000002,
+      "end": 1714.88,
+      "text": "that NVIDIA builds, and it turns them into incredibly valuable tokens. These tokens are",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.62,
+        "mean_pitch_hz": 168.57,
+        "pitch_std_hz": 54.35,
+        "mean_energy": 0.08319
+      }
+    },
+    {
+      "start": 1714.88,
+      "end": 1721.2800000000002,
+      "text": "what people experience on the amazing chat GPT, or mid-journey, or",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.72,
+        "mean_pitch_hz": 150.28,
+        "pitch_std_hz": 46.64,
+        "mean_energy": 0.11751
+      }
+    },
+    {
+      "start": 1722.24,
+      "end": 1730.16,
+      "text": "you know, search these days are augmented by that. All of your recommender systems are now",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.02,
+        "mean_pitch_hz": 172.44,
+        "pitch_std_hz": 63.09,
+        "mean_energy": 0.08722
+      }
+    },
+    {
+      "start": 1730.16,
+      "end": 1735.36,
+      "text": "augmented by that. The hyper personalization that goes along with it. All of these incredible",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.88,
+        "mean_pitch_hz": 164.92,
+        "pitch_std_hz": 58.77,
+        "mean_energy": 0.10707
+      }
+    },
+    {
+      "start": 1735.36,
+      "end": 1743.2,
+      "text": "startups and digital biology, generating proteins and generating chemicals, and the list goes on.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.79,
+        "mean_pitch_hz": 138.6,
+        "pitch_std_hz": 14.89,
+        "mean_energy": 0.09137
+      }
+    },
+    {
+      "start": 1743.2,
+      "end": 1750.8799999999999,
+      "text": "And so all of these tokens are generated in a very specialized type of data center.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 181.73,
+        "pitch_std_hz": 59.79,
+        "mean_energy": 0.0839
+      }
+    },
+    {
+      "start": 1751.36,
+      "end": 1757.92,
+      "text": "And this data center we call AI supercomputers and AI generation factories. But we're seeing",
+      "audio_features": {
+        "pause_before_sec": 0.48,
+        "speaking_rate_wps": 2.29,
+        "mean_pitch_hz": 139.94,
+        "pitch_std_hz": 34.27,
+        "mean_energy": 0.0899
+      }
+    },
+    {
+      "start": 1757.92,
+      "end": 1765.12,
+      "text": "diversity. One of the other reasons, so the foundation is that the way it manifests into",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.22,
+        "mean_pitch_hz": 250.87,
+        "pitch_std_hz": 122.13,
+        "mean_energy": 0.09076
+      }
+    },
+    {
+      "start": 1765.76,
+      "end": 1773.52,
+      "text": "new markets is in all of the diversity that you're seeing us in. One, the amount of inference that",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.45,
+        "mean_pitch_hz": 150.16,
+        "pitch_std_hz": 43.94,
+        "mean_energy": 0.08879
+      }
+    },
+    {
+      "start": 1773.52,
+      "end": 1779.52,
+      "text": "we do is just off the charts now. Almost every single time you interact with chat GPT, you know",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.17,
+        "mean_pitch_hz": 136.42,
+        "pitch_std_hz": 19.36,
+        "mean_energy": 0.0902
+      }
+    },
+    {
+      "start": 1779.52,
+      "end": 1784.0,
+      "text": "that we're inferencing. Every time you use mid-journey, we're inferencing. Every time you see amazing",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.35,
+        "mean_pitch_hz": 118.58,
+        "pitch_std_hz": 7.93,
+        "mean_energy": 0.11151
+      }
+    },
+    {
+      "start": 1784.0,
+      "end": 1788.6399999999999,
+      "text": "these sort of videos that are being generated or run way, the videos that they're editing,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.45,
+        "mean_pitch_hz": 115.81,
+        "pitch_std_hz": 7.52,
+        "mean_energy": 0.13766
+      }
+    },
+    {
+      "start": 1789.28,
+      "end": 1796.08,
+      "text": "firefly, NVIDIA is doing inferencing. The inference part of our business has grown",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 1.91,
+        "mean_pitch_hz": 134.71,
+        "pitch_std_hz": 24.41,
+        "mean_energy": 0.0937
+      }
+    },
+    {
+      "start": 1796.08,
+      "end": 1802.24,
+      "text": "tremendously. We estimate about 40%. The amount of training is continuing because these models",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.27,
+        "mean_pitch_hz": 131.38,
+        "pitch_std_hz": 21.3,
+        "mean_energy": 0.1086
+      }
+    },
+    {
+      "start": 1802.24,
+      "end": 1806.8,
+      "text": "are getting larger and larger. The amount of inference is increasing. But we're also diversifying",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.29,
+        "mean_pitch_hz": 135.41,
+        "pitch_std_hz": 33.57,
+        "mean_energy": 0.11087
+      }
+    },
+    {
+      "start": 1806.8,
+      "end": 1815.6,
+      "text": "into new industries. The large CSPs are still continuing to build out. You could see from",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.82,
+        "mean_pitch_hz": 169.96,
+        "pitch_std_hz": 68.69,
+        "mean_energy": 0.08807
+      }
+    },
+    {
+      "start": 1815.6,
+      "end": 1821.84,
+      "text": "their CAPEX and their discussions. But there's a whole new category called GPU specialized",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.24,
+        "mean_pitch_hz": 148.28,
+        "pitch_std_hz": 54.36,
+        "mean_energy": 0.10114
+      }
+    },
+    {
+      "start": 1822.8799999999999,
+      "end": 1831.04,
+      "text": "CSPs. They specialize in NVIDIA AI infrastructure, GPU specialized CSPs. You're seeing enterprise",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 1.59,
+        "mean_pitch_hz": 147.76,
+        "pitch_std_hz": 41.51,
+        "mean_energy": 0.1015
+      }
+    },
+    {
+      "start": 1831.04,
+      "end": 1837.52,
+      "text": "software platforms deploying AI. ServiceNow is just a really, really great example.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.85,
+        "mean_pitch_hz": 140.5,
+        "pitch_std_hz": 32.99,
+        "mean_energy": 0.08774
+      }
+    },
+    {
+      "start": 1837.52,
+      "end": 1843.6,
+      "text": "You see Adobe. You see others, SAP and others. You see consumer internet services that are now",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.8,
+        "mean_pitch_hz": 137.59,
+        "pitch_std_hz": 27.8,
+        "mean_energy": 0.09858
+      }
+    },
+    {
+      "start": 1844.1599999999999,
+      "end": 1849.76,
+      "text": "augmenting all of their services of the past with generative AI so they can have even more",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 3.04,
+        "mean_pitch_hz": 138.66,
+        "pitch_std_hz": 15.81,
+        "mean_energy": 0.10453
+      }
+    },
+    {
+      "start": 1849.76,
+      "end": 1857.84,
+      "text": "hyper-personalized content to be created. You see us talking about industrial generative AI.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.61,
+        "mean_pitch_hz": 129.32,
+        "pitch_std_hz": 15.39,
+        "mean_energy": 0.07477
+      }
+    },
+    {
+      "start": 1858.3200000000002,
+      "end": 1866.5600000000002,
+      "text": "Our industries represent multi-billion dollar businesses, auto health, financial services,",
+      "audio_features": {
+        "pause_before_sec": 0.48,
+        "speaking_rate_wps": 1.21,
+        "mean_pitch_hz": 126.48,
+        "pitch_std_hz": 13.43,
+        "mean_energy": 0.08849
+      }
+    },
+    {
+      "start": 1867.7600000000002,
+      "end": 1871.7600000000002,
+      "text": "in total our vertical industries, our multi-billion dollar businesses now.",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 142.64,
+        "pitch_std_hz": 38.51,
+        "mean_energy": 0.12756
+      }
+    },
+    {
+      "start": 1872.4,
+      "end": 1879.5200000000002,
+      "text": "And of course, Sovereign AI. The reason for Sovereign AI has to do with the fact that the language,",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.67,
+        "mean_pitch_hz": 151.26,
+        "pitch_std_hz": 38.69,
+        "mean_energy": 0.0832
+      }
+    },
+    {
+      "start": 1880.32,
+      "end": 1888.56,
+      "text": "the knowledge, the history, the culture of each region are different. And they own their own data.",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 171.15,
+        "pitch_std_hz": 62.38,
+        "mean_energy": 0.08531
+      }
+    },
+    {
+      "start": 1889.12,
+      "end": 1894.96,
+      "text": "They would like to use their data, train it with to create their own digital intelligence",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 2.74,
+        "mean_pitch_hz": 152.71,
+        "pitch_std_hz": 46.82,
+        "mean_energy": 0.10284
+      }
+    },
+    {
+      "start": 1895.6,
+      "end": 1902.4,
+      "text": "and provision it to harness that raw material themselves. It belongs to them. Each one of the",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 144.19,
+        "pitch_std_hz": 12.34,
+        "mean_energy": 0.08759
+      }
+    },
+    {
+      "start": 1902.4,
+      "end": 1908.08,
+      "text": "regions around the world. The data belongs to them. The data is most useful to their society.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 140.49,
+        "pitch_std_hz": 30.2,
+        "mean_energy": 0.1039
+      }
+    },
+    {
+      "start": 1908.08,
+      "end": 1913.4399999999998,
+      "text": "And so they want to protect the data. They want to transform it themselves, value added",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 196.08,
+        "pitch_std_hz": 116.23,
+        "mean_energy": 0.10158
+      }
+    },
+    {
+      "start": 1913.4399999999998,
+      "end": 1921.6,
+      "text": "transformation into AI and provision those services themselves. So we're seeing Sovereign AI",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.59,
+        "mean_pitch_hz": 191.08,
+        "pitch_std_hz": 72.35,
+        "mean_energy": 0.08792
+      }
+    },
+    {
+      "start": 1922.72,
+      "end": 1933.28,
+      "text": "infrastructures being built in Japan, in Canada, in France, so many other regions.",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 1.23,
+        "mean_pitch_hz": 134.91,
+        "pitch_std_hz": 15.56,
+        "mean_energy": 0.08136
+      }
+    },
+    {
+      "start": 1934.16,
+      "end": 1940.48,
+      "text": "And so my expectation is that what is being experienced here in the United States and the West",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.85,
+        "mean_pitch_hz": 142.81,
+        "pitch_std_hz": 32.23,
+        "mean_energy": 0.10906
+      }
+    },
+    {
+      "start": 1941.44,
+      "end": 1948.8,
+      "text": "will surely be replicated around the world. And these AI generation factories are going to be",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.17,
+        "mean_pitch_hz": 151.77,
+        "pitch_std_hz": 43.27,
+        "mean_energy": 0.11065
+      }
+    },
+    {
+      "start": 1948.8,
+      "end": 1958.8799999999999,
+      "text": "in every industry, every company, every region. And so I think the last year we've seen generative",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.69,
+        "mean_pitch_hz": 130.87,
+        "pitch_std_hz": 20.2,
+        "mean_energy": 0.07447
+      }
+    },
+    {
+      "start": 1958.96,
+      "end": 1965.2,
+      "text": "AI really becoming a whole new application space, a whole new way of doing computing,",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.4,
+        "mean_pitch_hz": 120.64,
+        "pitch_std_hz": 10.18,
+        "mean_energy": 0.11463
+      }
+    },
+    {
+      "start": 1965.2,
+      "end": 1968.88,
+      "text": "a whole new industry is being formed. And that's driving our growth.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.26,
+        "mean_pitch_hz": 115.74,
+        "pitch_std_hz": 9.51,
+        "mean_energy": 0.0966
+      }
+    },
+    {
+      "start": 1971.0400000000002,
+      "end": 1975.6000000000001,
+      "text": "Your next question comes from a line of Joe Moore from Morgan Stanley. Your line is open.",
+      "audio_features": {
+        "pause_before_sec": 2.16,
+        "speaking_rate_wps": 3.73,
+        "mean_pitch_hz": 147.52,
+        "pitch_std_hz": 10.3,
+        "mean_energy": 0.03399
+      }
+    },
+    {
+      "start": 1977.44,
+      "end": 1982.3200000000002,
+      "text": "Great. Thank you. I wanted to follow up on the 40% of revenues coming from inference.",
+      "audio_features": {
+        "pause_before_sec": 1.84,
+        "speaking_rate_wps": 3.28,
+        "mean_pitch_hz": 182.66,
+        "pitch_std_hz": 46.16,
+        "mean_energy": 0.08352
+      }
+    },
+    {
+      "start": 1983.0400000000002,
+      "end": 1987.68,
+      "text": "That's a bigger number than I expected. Can you give us some sense of where that number",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 3.66,
+        "mean_pitch_hz": 172.15,
+        "pitch_std_hz": 23.32,
+        "mean_energy": 0.04911
+      }
+    },
+    {
+      "start": 1987.68,
+      "end": 1992.88,
+      "text": "was maybe a year before? How much you're seeing growth around LLMs from inference?",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.69,
+        "mean_pitch_hz": 150.43,
+        "pitch_std_hz": 16.17,
+        "mean_energy": 0.04523
+      }
+    },
+    {
+      "start": 1993.92,
+      "end": 1998.5600000000002,
+      "text": "And how are you measuring that? I assume it's, in some cases, the same GPUs we use for training",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 4.09,
+        "mean_pitch_hz": 151.93,
+        "pitch_std_hz": 20.69,
+        "mean_energy": 0.03907
+      }
+    },
+    {
+      "start": 1998.5600000000002,
+      "end": 2002.3200000000002,
+      "text": "in inference. How solid is that measurement? Thank you.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.39,
+        "mean_pitch_hz": 129.89,
+        "pitch_std_hz": 6.51,
+        "mean_energy": 0.03029
+      }
+    },
+    {
+      "start": 2004.64,
+      "end": 2012.72,
+      "text": "I'll go backwards. The estimate is probably understated. But we estimated it. And let me tell you why.",
+      "audio_features": {
+        "pause_before_sec": 2.32,
+        "speaking_rate_wps": 2.23,
+        "mean_pitch_hz": 160.03,
+        "pitch_std_hz": 44.15,
+        "mean_energy": 0.08783
+      }
+    },
+    {
+      "start": 2013.44,
+      "end": 2022.96,
+      "text": "Whenever a year ago, a year ago, the recommender systems that people are, when you run the internet,",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 1.89,
+        "mean_pitch_hz": 151.51,
+        "pitch_std_hz": 24.02,
+        "mean_energy": 0.07256
+      }
+    },
+    {
+      "start": 2022.96,
+      "end": 2029.76,
+      "text": "the news, the videos, the music, the products that are being recommended to you, because as you know,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.65,
+        "mean_pitch_hz": 156.9,
+        "pitch_std_hz": 53.56,
+        "mean_energy": 0.1113
+      }
+    },
+    {
+      "start": 2029.76,
+      "end": 2036.08,
+      "text": "the internet has trillions, I don't know how many trillions, but trillions of things out there.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.53,
+        "mean_pitch_hz": 140.36,
+        "pitch_std_hz": 32.45,
+        "mean_energy": 0.09562
+      }
+    },
+    {
+      "start": 2036.5600000000002,
+      "end": 2044.9600000000003,
+      "text": "And your phone is three inches squared. And so the ability for them to fit all of that information",
+      "audio_features": {
+        "pause_before_sec": 0.48,
+        "speaking_rate_wps": 2.26,
+        "mean_pitch_hz": 196.49,
+        "pitch_std_hz": 117.15,
+        "mean_energy": 0.09929
+      }
+    },
+    {
+      "start": 2044.9600000000003,
+      "end": 2050.6400000000003,
+      "text": "down to something such a small real estate is through a system, an amazing system called",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.82,
+        "mean_pitch_hz": 157.47,
+        "pitch_std_hz": 41.11,
+        "mean_energy": 0.10185
+      }
+    },
+    {
+      "start": 2050.6400000000003,
+      "end": 2059.76,
+      "text": "recommender systems. These recommender systems used to be all based on CPU approaches.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.43,
+        "mean_pitch_hz": 175.71,
+        "pitch_std_hz": 69.8,
+        "mean_energy": 0.08723
+      }
+    },
+    {
+      "start": 2060.6400000000003,
+      "end": 2068.48,
+      "text": "But the recent migration to deep learning and now generative AI has really put these recommender",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.04,
+        "mean_pitch_hz": 131.11,
+        "pitch_std_hz": 11.21,
+        "mean_energy": 0.09499
+      }
+    },
+    {
+      "start": 2068.48,
+      "end": 2075.6800000000003,
+      "text": "systems now directly into the path of GPU acceleration. It needs GPU acceleration for the embeddings,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.22,
+        "mean_pitch_hz": 133.29,
+        "pitch_std_hz": 47.67,
+        "mean_energy": 0.10363
+      }
+    },
+    {
+      "start": 2075.6800000000003,
+      "end": 2079.92,
+      "text": "it needs GPU acceleration for the nearest neighbor search, it needs GPU acceleration for",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.3,
+        "mean_pitch_hz": 139.09,
+        "pitch_std_hz": 48.75,
+        "mean_energy": 0.10289
+      }
+    },
+    {
+      "start": 2079.92,
+      "end": 2087.2000000000003,
+      "text": "rewanking, and it needs GPU acceleration to generate the augmented information for you.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.79,
+        "mean_pitch_hz": 137.44,
+        "pitch_std_hz": 28.67,
+        "mean_energy": 0.11184
+      }
+    },
+    {
+      "start": 2087.2,
+      "end": 2093.12,
+      "text": "So GPUs are in every single step of a recommender system now. And as you know,",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.7,
+        "mean_pitch_hz": 135.22,
+        "pitch_std_hz": 23.26,
+        "mean_energy": 0.08739
+      }
+    },
+    {
+      "start": 2093.12,
+      "end": 2102.08,
+      "text": "recommender system is the single largest software engine on the planet. Almost every major company",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.67,
+        "mean_pitch_hz": 130.38,
+        "pitch_std_hz": 29.4,
+        "mean_energy": 0.0835
+      }
+    },
+    {
+      "start": 2102.08,
+      "end": 2107.12,
+      "text": "in the world has to run these large recommender systems. Whenever you use chat GPT as being",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.37,
+        "mean_pitch_hz": 140.63,
+        "pitch_std_hz": 41.57,
+        "mean_energy": 0.08948
+      }
+    },
+    {
+      "start": 2107.12,
+      "end": 2112.64,
+      "text": "inference, whenever you hear about mid-journey and just the number of things that they're",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.54,
+        "mean_pitch_hz": 126.93,
+        "pitch_std_hz": 11.96,
+        "mean_energy": 0.11031
+      }
+    },
+    {
+      "start": 2112.64,
+      "end": 2121.2,
+      "text": "generating for consumers, when you see Getty, the work that we do with Getty and Firefly from Adobe,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.1,
+        "mean_pitch_hz": 121.29,
+        "pitch_std_hz": 7.04,
+        "mean_energy": 0.0942
+      }
+    },
+    {
+      "start": 2121.2,
+      "end": 2128.64,
+      "text": "these are all generative models. The list goes on. And none of these, just as I mentioned,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.28,
+        "mean_pitch_hz": 187.05,
+        "pitch_std_hz": 58.89,
+        "mean_energy": 0.0929
+      }
+    },
+    {
+      "start": 2128.64,
+      "end": 2131.04,
+      "text": "existed a year ago. 100% new.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 160.27,
+        "pitch_std_hz": 12.66,
+        "mean_energy": 0.08676
+      }
+    },
+    {
+      "start": 2133.68,
+      "end": 2138.96,
+      "text": "Your next question comes from a line of Stacey Raskin from Bernstein Research. Your line is open.",
+      "audio_features": {
+        "pause_before_sec": 2.64,
+        "speaking_rate_wps": 3.22,
+        "mean_pitch_hz": 202.28,
+        "pitch_std_hz": 71.98,
+        "mean_energy": 0.03044
+      }
+    },
+    {
+      "start": 2139.92,
+      "end": 2145.92,
+      "text": "Hi guys, thanks for taking my question. I wanted to, Collette, I wanted to touch on your",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.83,
+        "mean_pitch_hz": 205.97,
+        "pitch_std_hz": 55.28,
+        "mean_energy": 0.05511
+      }
+    },
+    {
+      "start": 2145.92,
+      "end": 2150.96,
+      "text": "comments that you expected the next generation of products. I see them at Blackwell to be supply",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.37,
+        "mean_pitch_hz": 157.9,
+        "pitch_std_hz": 20.94,
+        "mean_energy": 0.04194
+      }
+    },
+    {
+      "start": 2150.96,
+      "end": 2157.84,
+      "text": "constrained. Can you dig into that a little bit? What is the driver of that? Why does that get",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.76,
+        "mean_pitch_hz": 192.64,
+        "pitch_std_hz": 59.79,
+        "mean_energy": 0.05443
+      }
+    },
+    {
+      "start": 2157.84,
+      "end": 2163.36,
+      "text": "constrained as Hopper is easing up? And how long do you expect that to be constrained? Do you expect",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.44,
+        "mean_pitch_hz": 164.79,
+        "pitch_std_hz": 36.87,
+        "mean_energy": 0.05496
+      }
+    },
+    {
+      "start": 2163.36,
+      "end": 2168.4,
+      "text": "of the next generation to be constrained all the way through calendar 25? When do those start to ease?",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.77,
+        "mean_pitch_hz": 139.97,
+        "pitch_std_hz": 11.83,
+        "mean_energy": 0.04199
+      }
+    },
+    {
+      "start": 2169.92,
+      "end": 2179.12,
+      "text": "Yeah, the first thing is overall our supply is improving. Overall, our supply chain is just",
+      "audio_features": {
+        "pause_before_sec": 1.52,
+        "speaking_rate_wps": 1.74,
+        "mean_pitch_hz": 156.67,
+        "pitch_std_hz": 27.14,
+        "mean_energy": 0.07287
+      }
+    },
+    {
+      "start": 2179.12,
+      "end": 2185.76,
+      "text": "doing an incredible job for us. Everything from, of course, the wafers, the packaging, the memories,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.41,
+        "mean_pitch_hz": 134.74,
+        "pitch_std_hz": 14.12,
+        "mean_energy": 0.08106
+      }
+    },
+    {
+      "start": 2186.7200000000003,
+      "end": 2192.96,
+      "text": "all of the power regulators to transceivers and",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 1.28,
+        "mean_pitch_hz": 175.97,
+        "pitch_std_hz": 82.0,
+        "mean_energy": 0.09486
+      }
+    },
+    {
+      "start": 2192.96,
+      "end": 2202.96,
+      "text": "networking and cables. And you name it. The list of components that we ship, as you know,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.7,
+        "mean_pitch_hz": 170.88,
+        "pitch_std_hz": 69.98,
+        "mean_energy": 0.09031
+      }
+    },
+    {
+      "start": 2202.96,
+      "end": 2209.12,
+      "text": "people think that NVIDIA GPUs is like a chip. But the NVIDIA Hopper GPU has 35,000 parts.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.76,
+        "mean_pitch_hz": 171.33,
+        "pitch_std_hz": 61.9,
+        "mean_energy": 0.10868
+      }
+    },
+    {
+      "start": 2210.2400000000002,
+      "end": 2216.8,
+      "text": "It weighs 70 pounds. These things are really complicated things. We've built people calling",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 2.13,
+        "mean_pitch_hz": 136.27,
+        "pitch_std_hz": 15.57,
+        "mean_energy": 0.09313
+      }
+    },
+    {
+      "start": 2216.8,
+      "end": 2222.08,
+      "text": "the AI supercomputer for good reason. If you ever look in the back of the data center,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.22,
+        "mean_pitch_hz": 136.71,
+        "pitch_std_hz": 13.41,
+        "mean_energy": 0.0932
+      }
+    },
+    {
+      "start": 2222.08,
+      "end": 2229.04,
+      "text": "the systems, the cabling system is mind boggling. It is the most dense, complex cabling system for",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.44,
+        "mean_pitch_hz": 130.21,
+        "pitch_std_hz": 16.5,
+        "mean_energy": 0.07781
+      }
+    },
+    {
+      "start": 2229.04,
+      "end": 2236.64,
+      "text": "networking the world's ever seen. Our infinite band business grew 5X year over year. The supply",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.11,
+        "mean_pitch_hz": 136.44,
+        "pitch_std_hz": 13.54,
+        "mean_energy": 0.06512
+      }
+    },
+    {
+      "start": 2236.64,
+      "end": 2243.6,
+      "text": "chain is really doing fantastic supporting us. And so overall, the supply is improving.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.01,
+        "mean_pitch_hz": 147.82,
+        "pitch_std_hz": 44.42,
+        "mean_energy": 0.08184
+      }
+    },
+    {
+      "start": 2244.64,
+      "end": 2250.56,
+      "text": "We expect the demand will continue to be stronger than our supply provides.",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 2.2,
+        "mean_pitch_hz": 172.38,
+        "pitch_std_hz": 42.8,
+        "mean_energy": 0.10016
+      }
+    },
+    {
+      "start": 2250.56,
+      "end": 2257.2799999999997,
+      "text": "And through the year. And we'll do our best. The cycle times are improving.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 163.89,
+        "pitch_std_hz": 55.6,
+        "mean_energy": 0.09416
+      }
+    },
+    {
+      "start": 2258.0,
+      "end": 2263.84,
+      "text": "And we're going to continue to do our best. However, whenever we have new products,",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.57,
+        "mean_pitch_hz": 158.64,
+        "pitch_std_hz": 35.32,
+        "mean_energy": 0.08715
+      }
+    },
+    {
+      "start": 2263.84,
+      "end": 2270.4,
+      "text": "as you know, it ramps from zero to a very large number. And you can't do that overnight.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.74,
+        "mean_pitch_hz": 144.78,
+        "pitch_std_hz": 17.39,
+        "mean_energy": 0.10007
+      }
+    },
+    {
+      "start": 2271.68,
+      "end": 2279.2,
+      "text": "Everything is ramped up. It doesn't step up. And so whenever we have a new generation of products,",
+      "audio_features": {
+        "pause_before_sec": 1.28,
+        "speaking_rate_wps": 2.39,
+        "mean_pitch_hz": 141.41,
+        "pitch_std_hz": 17.61,
+        "mean_energy": 0.09196
+      }
+    },
+    {
+      "start": 2279.2000000000003,
+      "end": 2289.5200000000004,
+      "text": "and right now we are ramping H200s, there's no way we can reasonably keep up on demand",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.65,
+        "mean_pitch_hz": 143.59,
+        "pitch_std_hz": 26.31,
+        "mean_energy": 0.06891
+      }
+    },
+    {
+      "start": 2289.5200000000004,
+      "end": 2296.1600000000003,
+      "text": "in a short term as we ramp. We're ramping spectrum X. We're doing incredibly well with",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.41,
+        "mean_pitch_hz": 143.23,
+        "pitch_std_hz": 13.14,
+        "mean_energy": 0.08291
+      }
+    },
+    {
+      "start": 2296.8,
+      "end": 2304.0800000000004,
+      "text": "spectrum X. It's our brand new product into the world of ethernet. Infinite band is the standard",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 151.1,
+        "pitch_std_hz": 29.78,
+        "mean_energy": 0.08949
+      }
+    },
+    {
+      "start": 2304.08,
+      "end": 2314.96,
+      "text": "for AI dedicated systems. Ethernet with spectrum X. Ethernet is just not a very good scale out system.",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 1.65,
+        "mean_pitch_hz": 155.03,
+        "pitch_std_hz": 25.32,
+        "mean_energy": 0.07214
+      }
+    },
+    {
+      "start": 2315.92,
+      "end": 2320.72,
+      "text": "But with spectrum X, we've augmented, layered on top of ethernet,",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.29,
+        "mean_pitch_hz": 146.46,
+        "pitch_std_hz": 17.22,
+        "mean_energy": 0.08731
+      }
+    },
+    {
+      "start": 2321.6,
+      "end": 2327.68,
+      "text": "fundamental new capabilities like adaptive routing, congestion control, noise isolation,",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 1.64,
+        "mean_pitch_hz": 137.27,
+        "pitch_std_hz": 17.96,
+        "mean_energy": 0.09847
+      }
+    },
+    {
+      "start": 2327.68,
+      "end": 2336.3999999999996,
+      "text": "or traffic isolation so that we can optimize ethernet for AI. And so infinite band will be our",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 142.4,
+        "pitch_std_hz": 36.73,
+        "mean_energy": 0.07037
+      }
+    },
+    {
+      "start": 2336.3999999999996,
+      "end": 2344.64,
+      "text": "AI dedicated infrastructure. spectrum X will be our AI optimized networking. And that is ramping.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.82,
+        "mean_pitch_hz": 158.36,
+        "pitch_std_hz": 26.72,
+        "mean_energy": 0.09933
+      }
+    },
+    {
+      "start": 2344.64,
+      "end": 2352.64,
+      "text": "And so we'll, you know, with all of new products, demand is greater than supply. And that's just",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.25,
+        "mean_pitch_hz": 165.04,
+        "pitch_std_hz": 41.39,
+        "mean_energy": 0.0815
+      }
+    },
+    {
+      "start": 2352.64,
+      "end": 2358.4,
+      "text": "kind of the nature of new products. And we work as fast as we can to capture with the demand. But",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.65,
+        "mean_pitch_hz": 118.74,
+        "pitch_std_hz": 5.91,
+        "mean_energy": 0.08714
+      }
+    },
+    {
+      "start": 2358.4,
+      "end": 2363.7599999999998,
+      "text": "overall, overall net net, overall, our supply is increasing very nicely.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.05,
+        "mean_pitch_hz": 120.98,
+        "pitch_std_hz": 17.52,
+        "mean_energy": 0.0915
+      }
+    },
+    {
+      "start": 2366.4,
+      "end": 2370.64,
+      "text": "Your next question comes from Alina. Matt Ramsey from TD Cowan. Your line is open.",
+      "audio_features": {
+        "pause_before_sec": 2.64,
+        "speaking_rate_wps": 3.54,
+        "mean_pitch_hz": 176.06,
+        "pitch_std_hz": 51.55,
+        "mean_energy": 0.03497
+      }
+    },
+    {
+      "start": 2372.7999999999997,
+      "end": 2380.3199999999997,
+      "text": "Good afternoon, Jensen. Congrats on those. I wanted to ask, I guess, a two-part question.",
+      "audio_features": {
+        "pause_before_sec": 2.16,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 90.47,
+        "pitch_std_hz": 6.53,
+        "mean_energy": 0.05797
+      }
+    },
+    {
+      "start": 2380.32,
+      "end": 2386.96,
+      "text": "And it comes at what Stacy was just getting at on your demand being significantly more",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.41,
+        "mean_pitch_hz": 87.8,
+        "pitch_std_hz": 5.48,
+        "mean_energy": 0.02797
+      }
+    },
+    {
+      "start": 2387.84,
+      "end": 2392.48,
+      "text": "than your supply, even though supply is improving. And I guess the two sides of the question are,",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 3.88,
+        "mean_pitch_hz": 221.46,
+        "pitch_std_hz": 163.44,
+        "mean_energy": 0.05569
+      }
+    },
+    {
+      "start": 2392.48,
+      "end": 2399.36,
+      "text": "I guess, first for Collette, like, how are you guys thinking about allocation of product",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.18,
+        "mean_pitch_hz": 102.64,
+        "pitch_std_hz": 9.29,
+        "mean_energy": 0.03046
+      }
+    },
+    {
+      "start": 2400.88,
+      "end": 2407.36,
+      "text": "in terms of customer readiness to deploy and sort of monitoring if there's any kind of build-up",
+      "audio_features": {
+        "pause_before_sec": 1.52,
+        "speaking_rate_wps": 2.62,
+        "mean_pitch_hz": 97.55,
+        "pitch_std_hz": 9.09,
+        "mean_energy": 0.04642
+      }
+    },
+    {
+      "start": 2408.2400000000002,
+      "end": 2412.6400000000003,
+      "text": "of product that might not yet be turned on. And then I guess, Jensen, for you,",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 3.64,
+        "mean_pitch_hz": 113.45,
+        "pitch_std_hz": 10.64,
+        "mean_energy": 0.04007
+      }
+    },
+    {
+      "start": 2413.36,
+      "end": 2419.36,
+      "text": "I'd be really interested to hear you speak a bit about a thought that you and your company",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 3.0,
+        "mean_pitch_hz": 113.75,
+        "pitch_std_hz": 17.45,
+        "mean_energy": 0.05224
+      }
+    },
+    {
+      "start": 2419.36,
+      "end": 2426.1600000000003,
+      "text": "are putting into the allocation of your product, across customers, many of which compete with each",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.35,
+        "mean_pitch_hz": 107.13,
+        "pitch_std_hz": 11.65,
+        "mean_energy": 0.04111
+      }
+    },
+    {
+      "start": 2426.1600000000003,
+      "end": 2433.6,
+      "text": "other, across industries to smaller startup companies, to things in the healthcare arena,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.75,
+        "mean_pitch_hz": 107.2,
+        "pitch_std_hz": 13.22,
+        "mean_energy": 0.04993
+      }
+    },
+    {
+      "start": 2433.6,
+      "end": 2440.56,
+      "text": "to governments. It's a very, very unique technology that you're enabling. And I'd be really interested",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 105.96,
+        "pitch_std_hz": 14.75,
+        "mean_energy": 0.03702
+      }
+    },
+    {
+      "start": 2440.56,
+      "end": 2445.52,
+      "text": "to hear you speak a bit about how you think about, quote-unquote, fairly allocating sort of for",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.43,
+        "mean_pitch_hz": 101.2,
+        "pitch_std_hz": 8.4,
+        "mean_energy": 0.05122
+      }
+    },
+    {
+      "start": 2445.52,
+      "end": 2448.48,
+      "text": "the good of your company, but also for the good of the industry. Thanks.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.73,
+        "mean_pitch_hz": 96.65,
+        "pitch_std_hz": 9.67,
+        "mean_energy": 0.041
+      }
+    },
+    {
+      "start": 2451.2,
+      "end": 2458.0,
+      "text": "Let me first start with your question, thanks, about how we are working with our customers",
+      "audio_features": {
+        "pause_before_sec": 2.72,
+        "speaking_rate_wps": 2.35,
+        "mean_pitch_hz": 183.63,
+        "pitch_std_hz": 27.54,
+        "mean_energy": 0.08783
+      }
+    },
+    {
+      "start": 2458.0,
+      "end": 2465.76,
+      "text": "as they look into how they are building out their GPU instances and our allocation process.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 171.08,
+        "pitch_std_hz": 19.44,
+        "mean_energy": 0.07589
+      }
+    },
+    {
+      "start": 2466.96,
+      "end": 2471.44,
+      "text": "Folks that we work with, our customers that we work with, I've been partners with us",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 3.57,
+        "mean_pitch_hz": 187.91,
+        "pitch_std_hz": 27.82,
+        "mean_energy": 0.10526
+      }
+    },
+    {
+      "start": 2471.44,
+      "end": 2477.52,
+      "text": "for many years, as we have been assisting them both in what they set up in the cloud,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.96,
+        "mean_pitch_hz": 169.37,
+        "pitch_std_hz": 7.22,
+        "mean_energy": 0.07961
+      }
+    },
+    {
+      "start": 2477.52,
+      "end": 2483.52,
+      "text": "as well as what they are setting up internally. Many of these providers have multiple products",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.67,
+        "mean_pitch_hz": 170.61,
+        "pitch_std_hz": 16.35,
+        "mean_energy": 0.07666
+      }
+    },
+    {
+      "start": 2483.52,
+      "end": 2491.04,
+      "text": "going at one time to serve so many different needs across their end customers, but also what they",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.39,
+        "mean_pitch_hz": 167.28,
+        "pitch_std_hz": 13.17,
+        "mean_energy": 0.06199
+      }
+    },
+    {
+      "start": 2491.04,
+      "end": 2498.48,
+      "text": "need internally. So they are working in advance, of course, thinking about those new clusters that",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.15,
+        "mean_pitch_hz": 173.5,
+        "pitch_std_hz": 16.6,
+        "mean_energy": 0.08259
+      }
+    },
+    {
+      "start": 2498.48,
+      "end": 2504.8,
+      "text": "they will need, and our discussions with them continue, not only on our helper architecture,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.37,
+        "mean_pitch_hz": 180.02,
+        "pitch_std_hz": 26.42,
+        "mean_energy": 0.08732
+      }
+    },
+    {
+      "start": 2504.8,
+      "end": 2511.84,
+      "text": "but helping them understand the next wave and getting their interest and getting their",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 173.51,
+        "pitch_std_hz": 15.69,
+        "mean_energy": 0.08646
+      }
+    },
+    {
+      "start": 2512.5600000000004,
+      "end": 2518.32,
+      "text": "outlook for the demand that they want. So it's always a moving process in terms of",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 175.17,
+        "pitch_std_hz": 17.43,
+        "mean_energy": 0.08543
+      }
+    },
+    {
+      "start": 2518.96,
+      "end": 2524.96,
+      "text": "what they will purchase, what is still being built, and what is in use for our customers,",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.83,
+        "mean_pitch_hz": 173.1,
+        "pitch_std_hz": 14.83,
+        "mean_energy": 0.07368
+      }
+    },
+    {
+      "start": 2524.96,
+      "end": 2530.6400000000003,
+      "text": "but the relationships that we've built and their understanding of the sophistication of the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.46,
+        "mean_pitch_hz": 171.16,
+        "pitch_std_hz": 12.69,
+        "mean_energy": 0.07368
+      }
+    },
+    {
+      "start": 2530.64,
+      "end": 2536.16,
+      "text": "build has really helped us with that allocation and both helped us with our communications with them.",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 3.08,
+        "mean_pitch_hz": 163.8,
+        "pitch_std_hz": 16.98,
+        "mean_energy": 0.04752
+      }
+    },
+    {
+      "start": 2539.44,
+      "end": 2550.24,
+      "text": "First, our CSPs have a very clear view of our product roadmap and transitions,",
+      "audio_features": {
+        "pause_before_sec": 3.28,
+        "speaking_rate_wps": 1.3,
+        "mean_pitch_hz": 147.34,
+        "pitch_std_hz": 43.63,
+        "mean_energy": 0.05768
+      }
+    },
+    {
+      "start": 2551.1200000000003,
+      "end": 2564.1600000000003,
+      "text": "and that transparency with our CSPs gives them the confidence of which products to place and where and when.",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 1.46,
+        "mean_pitch_hz": 137.88,
+        "pitch_std_hz": 17.1,
+        "mean_energy": 0.05723
+      }
+    },
+    {
+      "start": 2566.32,
+      "end": 2577.5200000000004,
+      "text": "And so they know their timing to the best of our ability, and they know quantities, and of course",
+      "audio_features": {
+        "pause_before_sec": 2.16,
+        "speaking_rate_wps": 1.7,
+        "mean_pitch_hz": 154.5,
+        "pitch_std_hz": 29.86,
+        "mean_energy": 0.0736
+      }
+    },
+    {
+      "start": 2577.6,
+      "end": 2585.28,
+      "text": "allocation. We allocate fairly. We allocate fairly. Do the best of our best we can to allocate fairly,",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 131.71,
+        "pitch_std_hz": 13.33,
+        "mean_energy": 0.07211
+      }
+    },
+    {
+      "start": 2586.64,
+      "end": 2595.04,
+      "text": "and to avoid allocating unnecessarily. As you mentioned earlier, why allocate something when",
+      "audio_features": {
+        "pause_before_sec": 1.36,
+        "speaking_rate_wps": 1.55,
+        "mean_pitch_hz": 140.42,
+        "pitch_std_hz": 12.99,
+        "mean_energy": 0.08582
+      }
+    },
+    {
+      "start": 2595.04,
+      "end": 2603.6,
+      "text": "a data center is not ready? Nothing is more difficult than to have anything sit around,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.87,
+        "mean_pitch_hz": 119.66,
+        "pitch_std_hz": 8.91,
+        "mean_energy": 0.08136
+      }
+    },
+    {
+      "start": 2603.6,
+      "end": 2609.68,
+      "text": "and so allocate fairly and to avoid allocating unnecessarily. And what we do,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.14,
+        "mean_pitch_hz": 148.38,
+        "pitch_std_hz": 28.02,
+        "mean_energy": 0.09053
+      }
+    },
+    {
+      "start": 2610.7999999999997,
+      "end": 2614.88,
+      "text": "the question that you asked about the end markets, you know that we have",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 3.43,
+        "mean_pitch_hz": 161.67,
+        "pitch_std_hz": 30.78,
+        "mean_energy": 0.09908
+      }
+    },
+    {
+      "start": 2616.56,
+      "end": 2625.52,
+      "text": "an excellent ecosystem with OEMs, ODMs, CSPs, and very importantly, end markets.",
+      "audio_features": {
+        "pause_before_sec": 1.68,
+        "speaking_rate_wps": 1.34,
+        "mean_pitch_hz": 174.99,
+        "pitch_std_hz": 80.2,
+        "mean_energy": 0.08275
+      }
+    },
+    {
+      "start": 2627.36,
+      "end": 2632.48,
+      "text": "What NVIDIA is really unique about is that we bring our customers, we bring our partners,",
+      "audio_features": {
+        "pause_before_sec": 1.84,
+        "speaking_rate_wps": 3.13,
+        "mean_pitch_hz": 185.0,
+        "pitch_std_hz": 68.78,
+        "mean_energy": 0.11338
+      }
+    },
+    {
+      "start": 2632.48,
+      "end": 2634.96,
+      "text": "CSPs, and OEMs. We bring them customers.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.82,
+        "mean_pitch_hz": 166.17,
+        "pitch_std_hz": 45.89,
+        "mean_energy": 0.10329
+      }
+    },
+    {
+      "start": 2638.56,
+      "end": 2642.96,
+      "text": "The biology companies, the healthcare companies, financial services companies,",
+      "audio_features": {
+        "pause_before_sec": 3.6,
+        "speaking_rate_wps": 2.05,
+        "mean_pitch_hz": 162.22,
+        "pitch_std_hz": 13.91,
+        "mean_energy": 0.0902
+      }
+    },
+    {
+      "start": 2644.08,
+      "end": 2650.0,
+      "text": "AI developers, large language model developers, autonomous vehicle companies, robotics companies.",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 1.86,
+        "mean_pitch_hz": 162.56,
+        "pitch_std_hz": 64.38,
+        "mean_energy": 0.1237
+      }
+    },
+    {
+      "start": 2650.0,
+      "end": 2657.04,
+      "text": "There's just a giant suite of robotics companies that are emerging. They're warehouse robotics to",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.13,
+        "mean_pitch_hz": 155.27,
+        "pitch_std_hz": 58.47,
+        "mean_energy": 0.08892
+      }
+    },
+    {
+      "start": 2657.04,
+      "end": 2662.2400000000002,
+      "text": "surgical robotics to humanoid robotics. All kinds of really interesting robotics companies",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.31,
+        "mean_pitch_hz": 138.16,
+        "pitch_std_hz": 18.49,
+        "mean_energy": 0.10704
+      }
+    },
+    {
+      "start": 2662.2400000000002,
+      "end": 2669.44,
+      "text": "agriculture, robotics companies. All of these startups, large companies, healthcare, financial",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.53,
+        "mean_pitch_hz": 155.18,
+        "pitch_std_hz": 30.89,
+        "mean_energy": 0.07702
+      }
+    },
+    {
+      "start": 2669.44,
+      "end": 2675.6000000000004,
+      "text": "services, and auto and such are working on NVIDIA's platform. We support them directly.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.27,
+        "mean_pitch_hz": 141.91,
+        "pitch_std_hz": 21.83,
+        "mean_energy": 0.08169
+      }
+    },
+    {
+      "start": 2676.5600000000004,
+      "end": 2684.32,
+      "text": "And oftentimes, we can have a twofer by allocating to a CSP and bringing the customer to the CSP at",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.58,
+        "mean_pitch_hz": 174.79,
+        "pitch_std_hz": 49.75,
+        "mean_energy": 0.10099
+      }
+    },
+    {
+      "start": 2684.32,
+      "end": 2692.6400000000003,
+      "text": "the same time. And so this ecosystem, you're absolutely right that it's vibrant.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.56,
+        "mean_pitch_hz": 239.39,
+        "pitch_std_hz": 127.68,
+        "mean_energy": 0.06785
+      }
+    },
+    {
+      "start": 2694.0800000000004,
+      "end": 2703.52,
+      "text": "But at the core of it, we want to allocate fairly with avoiding waste and looking for opportunities",
+      "audio_features": {
+        "pause_before_sec": 1.44,
+        "speaking_rate_wps": 1.91,
+        "mean_pitch_hz": 163.63,
+        "pitch_std_hz": 33.46,
+        "mean_energy": 0.07483
+      }
+    },
+    {
+      "start": 2703.52,
+      "end": 2709.2000000000003,
+      "text": "to connect partners and users. We're looking for those opportunities all the time.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.29,
+        "mean_pitch_hz": 130.29,
+        "pitch_std_hz": 11.09,
+        "mean_energy": 0.06895
+      }
+    },
+    {
+      "start": 2709.2000000000003,
+      "end": 2716.4800000000005,
+      "text": "Your next question comes from a line of Timothy R. Curry from UBS. Your line is open.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 142.95,
+        "pitch_std_hz": 9.95,
+        "mean_energy": 0.02212
+      }
+    },
+    {
+      "start": 2718.0800000000004,
+      "end": 2722.88,
+      "text": "Thanks a lot. I wanted to ask about how you're converting backlog into revenue. Obviously,",
+      "audio_features": {
+        "pause_before_sec": 1.6,
+        "speaking_rate_wps": 3.13,
+        "mean_pitch_hz": 131.4,
+        "pitch_std_hz": 49.38,
+        "mean_energy": 0.06566
+      }
+    },
+    {
+      "start": 2722.88,
+      "end": 2727.6000000000004,
+      "text": "lead times for your products have come down quite a bit. You didn't talk about the inventory purchase",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.81,
+        "mean_pitch_hz": 111.72,
+        "pitch_std_hz": 10.2,
+        "mean_energy": 0.06249
+      }
+    },
+    {
+      "start": 2727.6000000000004,
+      "end": 2732.4800000000005,
+      "text": "commitments, but if I sort of add up your inventory plus the purchase commits and your prepaid",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.48,
+        "mean_pitch_hz": 113.52,
+        "pitch_std_hz": 8.43,
+        "mean_energy": 0.05788
+      }
+    },
+    {
+      "start": 2732.88,
+      "end": 2739.12,
+      "text": "supply, sort of the aggregate of your supply, it was actually down a touch. How should we",
+      "audio_features": {
+        "pause_before_sec": 0.4,
+        "speaking_rate_wps": 2.72,
+        "mean_pitch_hz": 115.22,
+        "pitch_std_hz": 19.55,
+        "mean_energy": 0.05798
+      }
+    },
+    {
+      "start": 2739.12,
+      "end": 2742.88,
+      "text": "read that? Is that just you saying that you don't need to make as much of a financial commitment",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 5.05,
+        "mean_pitch_hz": 113.65,
+        "pitch_std_hz": 9.75,
+        "mean_energy": 0.05202
+      }
+    },
+    {
+      "start": 2742.88,
+      "end": 2748.8,
+      "text": "to your suppliers because the lead times are lower? Or is that maybe you're reaching some sort of",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.04,
+        "mean_pitch_hz": 119.54,
+        "pitch_std_hz": 8.65,
+        "mean_energy": 0.0587
+      }
+    },
+    {
+      "start": 2748.8,
+      "end": 2752.08,
+      "text": "steady state where you're closer to filling your order book and your backlog? Thanks.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.27,
+        "mean_pitch_hz": 111.97,
+        "pitch_std_hz": 7.58,
+        "mean_energy": 0.0543
+      }
+    },
+    {
+      "start": 2754.16,
+      "end": 2759.92,
+      "text": "Yes, let me highlight on those three different areas of how we look at our suppliers.",
+      "audio_features": {
+        "pause_before_sec": 2.08,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 176.86,
+        "pitch_std_hz": 19.33,
+        "mean_energy": 0.10786
+      }
+    },
+    {
+      "start": 2760.48,
+      "end": 2766.2400000000002,
+      "text": "You're correct. Our inventory on hand, given our allocation that we're on, we're trying to, as",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 175.48,
+        "pitch_std_hz": 9.67,
+        "mean_energy": 0.11965
+      }
+    },
+    {
+      "start": 2766.2400000000002,
+      "end": 2772.4,
+      "text": "things come into inventory, immediately work to ship them to our customers. I think our customer",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 179.38,
+        "pitch_std_hz": 25.15,
+        "mean_energy": 0.08684
+      }
+    },
+    {
+      "start": 2772.4,
+      "end": 2778.8,
+      "text": "appreciates our ability to meet the schedules that we've looked for. The second piece of it is our",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.81,
+        "mean_pitch_hz": 174.81,
+        "pitch_std_hz": 19.92,
+        "mean_energy": 0.0809
+      }
+    },
+    {
+      "start": 2778.8,
+      "end": 2782.8,
+      "text": "purchase commitments. Our purchase commitments have many different components into it,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.75,
+        "mean_pitch_hz": 191.29,
+        "pitch_std_hz": 33.39,
+        "mean_energy": 0.09908
+      }
+    },
+    {
+      "start": 2783.44,
+      "end": 2789.52,
+      "text": "components that we need for manufacturing, but also often we are procuring capacity that we may",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.63,
+        "mean_pitch_hz": 179.16,
+        "pitch_std_hz": 16.76,
+        "mean_energy": 0.10338
+      }
+    },
+    {
+      "start": 2789.6,
+      "end": 2795.6,
+      "text": "need. The lengths of that need for capacity or the length of the components are all different.",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.83,
+        "mean_pitch_hz": 188.47,
+        "pitch_std_hz": 34.09,
+        "mean_energy": 0.08305
+      }
+    },
+    {
+      "start": 2795.6,
+      "end": 2800.64,
+      "text": "Some of them may be for the next two quarters, but some of them may be for multiple years.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.77,
+        "mean_pitch_hz": 181.43,
+        "pitch_std_hz": 27.82,
+        "mean_energy": 0.09061
+      }
+    },
+    {
+      "start": 2801.2,
+      "end": 2808.08,
+      "text": "I can say the same regarding our prepaids. Our prepaids are pre-designed to make sure that we",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 2.47,
+        "mean_pitch_hz": 196.02,
+        "pitch_std_hz": 25.24,
+        "mean_energy": 0.10117
+      }
+    },
+    {
+      "start": 2808.08,
+      "end": 2814.64,
+      "text": "have the reserved capacity that we need as several of our manufacturing suppliers as we look forward.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.59,
+        "mean_pitch_hz": 176.59,
+        "pitch_std_hz": 31.08,
+        "mean_energy": 0.06359
+      }
+    },
+    {
+      "start": 2814.64,
+      "end": 2820.4,
+      "text": "So would it read into anything regarding approximately about the same numbers as we are",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 187.05,
+        "pitch_std_hz": 17.0,
+        "mean_energy": 0.12449
+      }
+    },
+    {
+      "start": 2820.4,
+      "end": 2825.8399999999997,
+      "text": "increasing our supply? All of them just have different lengths as we have sometimes had to buy",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.13,
+        "mean_pitch_hz": 177.12,
+        "pitch_std_hz": 21.51,
+        "mean_energy": 0.07507
+      }
+    },
+    {
+      "start": 2825.8399999999997,
+      "end": 2831.68,
+      "text": "things in long lead times or things that needed capacity to be built for us?",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.57,
+        "mean_pitch_hz": 174.34,
+        "pitch_std_hz": 18.94,
+        "mean_energy": 0.07341
+      }
+    },
+    {
+      "start": 2835.44,
+      "end": 2840.4,
+      "text": "Your next question comes from a line of Ben writes from Amelia's research. Your line is open.",
+      "audio_features": {
+        "pause_before_sec": 3.76,
+        "speaking_rate_wps": 3.43,
+        "mean_pitch_hz": 168.35,
+        "pitch_std_hz": 65.83,
+        "mean_energy": 0.03275
+      }
+    },
+    {
+      "start": 2841.28,
+      "end": 2848.08,
+      "text": "Yeah, thanks. Congratulations on the results. Collette, I wanted to talk about your comment",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 113.99,
+        "pitch_std_hz": 25.18,
+        "mean_energy": 0.05222
+      }
+    },
+    {
+      "start": 2848.08,
+      "end": 2855.44,
+      "text": "regarding gross margins and that they should go back to the mid 70s. If you don't mind unpacking",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.45,
+        "mean_pitch_hz": 98.5,
+        "pitch_std_hz": 8.2,
+        "mean_energy": 0.03601
+      }
+    },
+    {
+      "start": 2855.44,
+      "end": 2865.12,
+      "text": "that and also is that due to the HBM content and the new products and what do you think",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.96,
+        "mean_pitch_hz": 94.69,
+        "pitch_std_hz": 7.26,
+        "mean_energy": 0.05018
+      }
+    },
+    {
+      "start": 2866.2400000000002,
+      "end": 2868.4,
+      "text": "are the drivers of that comment? Thanks so much.",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 4.17,
+        "mean_pitch_hz": 83.55,
+        "pitch_std_hz": 2.9,
+        "mean_energy": 0.0344
+      }
+    },
+    {
+      "start": 2868.48,
+      "end": 2879.44,
+      "text": "Yeah, thanks for the question. We highlighted in our opening remarks really about our Q4 results",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.46,
+        "mean_pitch_hz": 190.19,
+        "pitch_std_hz": 25.1,
+        "mean_energy": 0.09459
+      }
+    },
+    {
+      "start": 2879.44,
+      "end": 2885.04,
+      "text": "and our Outlook for Q1. Both of those quarters are unique. Those two quarters are unique in their",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.21,
+        "mean_pitch_hz": 185.67,
+        "pitch_std_hz": 30.49,
+        "mean_energy": 0.09671
+      }
+    },
+    {
+      "start": 2885.04,
+      "end": 2894.08,
+      "text": "gross margin as they include some benefits from favorable component costs in the supply chain",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.66,
+        "mean_pitch_hz": 182.43,
+        "pitch_std_hz": 17.22,
+        "mean_energy": 0.09956
+      }
+    },
+    {
+      "start": 2894.64,
+      "end": 2900.48,
+      "text": "across both our compute and networking and also in several different stages of our manufacturing",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 2.57,
+        "mean_pitch_hz": 175.1,
+        "pitch_std_hz": 23.32,
+        "mean_energy": 0.09451
+      }
+    },
+    {
+      "start": 2900.48,
+      "end": 2909.52,
+      "text": "process. So looking forward, we have visibility into a mid 70s gross margin for the rest of the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 194.98,
+        "pitch_std_hz": 24.65,
+        "mean_energy": 0.11072
+      }
+    },
+    {
+      "start": 2909.52,
+      "end": 2917.84,
+      "text": "fiscal year taking us back to where we were before this Q4 and Q1 peak that we've had here.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.28,
+        "mean_pitch_hz": 174.25,
+        "pitch_std_hz": 16.8,
+        "mean_energy": 0.09835
+      }
+    },
+    {
+      "start": 2918.4,
+      "end": 2923.68,
+      "text": "So we're really looking at just a balance of our mix. Mix is always going to be our largest",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 3.6,
+        "mean_pitch_hz": 189.69,
+        "pitch_std_hz": 22.24,
+        "mean_energy": 0.14939
+      }
+    },
+    {
+      "start": 2923.68,
+      "end": 2929.8399999999997,
+      "text": "driver of what we will be shipping for the rest of the year and those are really just the drivers.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.25,
+        "mean_pitch_hz": 170.57,
+        "pitch_std_hz": 14.24,
+        "mean_energy": 0.08095
+      }
+    },
+    {
+      "start": 2932.72,
+      "end": 2937.7599999999998,
+      "text": "Your next question comes from a line of CJ Muse from Kent or Fitzgerald. Your line is open.",
+      "audio_features": {
+        "pause_before_sec": 2.88,
+        "speaking_rate_wps": 3.57,
+        "mean_pitch_hz": 149.39,
+        "pitch_std_hz": 14.19,
+        "mean_energy": 0.02997
+      }
+    },
+    {
+      "start": 2938.72,
+      "end": 2942.64,
+      "text": "Yeah, good afternoon. Thank you for taking the question. Take a picture question for you,",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 3.83,
+        "mean_pitch_hz": 193.0,
+        "pitch_std_hz": 38.72,
+        "mean_energy": 0.04538
+      }
+    },
+    {
+      "start": 2942.64,
+      "end": 2948.08,
+      "text": "Jensen. When you think about the Million X improvement of GPU compute over the last decade and expectations",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.31,
+        "mean_pitch_hz": 167.81,
+        "pitch_std_hz": 48.57,
+        "mean_energy": 0.03794
+      }
+    },
+    {
+      "start": 2948.08,
+      "end": 2952.96,
+      "text": "for similar improvements to the next, how do your customers think about the long-term usability of",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.28,
+        "mean_pitch_hz": 148.01,
+        "pitch_std_hz": 30.32,
+        "mean_energy": 0.04996
+      }
+    },
+    {
+      "start": 2952.96,
+      "end": 2958.16,
+      "text": "their Nvidia investments that they're making today? Do today's training clusters become tomorrow's",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 134.34,
+        "pitch_std_hz": 12.17,
+        "mean_energy": 0.03923
+      }
+    },
+    {
+      "start": 2958.16,
+      "end": 2961.04,
+      "text": "inference clusters? How do you see this playing out? Thank you.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.82,
+        "mean_pitch_hz": 238.48,
+        "pitch_std_hz": 118.51,
+        "mean_energy": 0.02618
+      }
+    },
+    {
+      "start": 2963.2,
+      "end": 2970.0,
+      "text": "Hey CJ, thanks for the question. Yeah, that's the really cool part. If you look at the reason",
+      "audio_features": {
+        "pause_before_sec": 2.16,
+        "speaking_rate_wps": 2.65,
+        "mean_pitch_hz": 153.46,
+        "pitch_std_hz": 18.66,
+        "mean_energy": 0.08079
+      }
+    },
+    {
+      "start": 2970.0,
+      "end": 2977.36,
+      "text": "why we're able to improve performance so much, it's because we have two characteristics about",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.04,
+        "mean_pitch_hz": 143.15,
+        "pitch_std_hz": 24.13,
+        "mean_energy": 0.09426
+      }
+    },
+    {
+      "start": 2977.44,
+      "end": 2987.76,
+      "text": "our platform. One is that it's accelerated and two, it's programmable. It's not brittle. Nvidia is",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.55,
+        "mean_pitch_hz": 174.37,
+        "pitch_std_hz": 36.39,
+        "mean_energy": 0.0669
+      }
+    },
+    {
+      "start": 2987.76,
+      "end": 2992.6400000000003,
+      "text": "the only architecture that has gone from the very, very beginning. Literally the very beginning when",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.28,
+        "mean_pitch_hz": 175.6,
+        "pitch_std_hz": 38.71,
+        "mean_energy": 0.12557
+      }
+    },
+    {
+      "start": 2992.6400000000003,
+      "end": 3000.2400000000002,
+      "text": "CNN's and Alex Kreshevsky and Ilya Suskever and Jeff Hinton first revealed Alex Net. All the way",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.24,
+        "mean_pitch_hz": 152.59,
+        "pitch_std_hz": 30.61,
+        "mean_energy": 0.1095
+      }
+    },
+    {
+      "start": 3000.2400000000002,
+      "end": 3008.1600000000003,
+      "text": "through RNN's to LSTM's to every RL's to deep learning RL's to transformers to every single version,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.15,
+        "mean_pitch_hz": 169.35,
+        "pitch_std_hz": 37.33,
+        "mean_energy": 0.09508
+      }
+    },
+    {
+      "start": 3008.7200000000003,
+      "end": 3013.5200000000004,
+      "text": "every single version of every species that have come along, vision transformers, multimodality",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 2.71,
+        "mean_pitch_hz": 161.91,
+        "pitch_std_hz": 30.39,
+        "mean_energy": 0.12069
+      }
+    },
+    {
+      "start": 3013.5200000000004,
+      "end": 3020.88,
+      "text": "transformers that every single and in our time sequence stuff and every single variation,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.9,
+        "mean_pitch_hz": 166.68,
+        "pitch_std_hz": 39.8,
+        "mean_energy": 0.10166
+      }
+    },
+    {
+      "start": 3020.88,
+      "end": 3030.0000000000005,
+      "text": "every species of AI that has come along, we've been able to support it, optimize our stack",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.86,
+        "mean_pitch_hz": 156.97,
+        "pitch_std_hz": 37.2,
+        "mean_energy": 0.09741
+      }
+    },
+    {
+      "start": 3030.0,
+      "end": 3037.68,
+      "text": "for it and deploy it into our install base. This is really the great amazing part. On the one hand,",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 163.75,
+        "pitch_std_hz": 27.69,
+        "mean_energy": 0.09716
+      }
+    },
+    {
+      "start": 3038.4,
+      "end": 3044.32,
+      "text": "we can invent new architectures and new technologies like our tensor cores, like our",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.36,
+        "mean_pitch_hz": 152.54,
+        "pitch_std_hz": 18.25,
+        "mean_energy": 0.10023
+      }
+    },
+    {
+      "start": 3044.32,
+      "end": 3051.12,
+      "text": "transformer engine for tensor cores, improve new numerical formats and structures of processing,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.91,
+        "mean_pitch_hz": 147.94,
+        "pitch_std_hz": 22.93,
+        "mean_energy": 0.10345
+      }
+    },
+    {
+      "start": 3051.12,
+      "end": 3056.0,
+      "text": "like we've done with the different generations of tensor cores. Meanwhile, supporting the install",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.87,
+        "mean_pitch_hz": 135.88,
+        "pitch_std_hz": 17.38,
+        "mean_energy": 0.12021
+      }
+    },
+    {
+      "start": 3056.08,
+      "end": 3062.72,
+      "text": "base at the same time. And so as a result, we take all of our new software algorithm",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.71,
+        "mean_pitch_hz": 153.23,
+        "pitch_std_hz": 20.3,
+        "mean_energy": 0.09757
+      }
+    },
+    {
+      "start": 3064.72,
+      "end": 3071.44,
+      "text": "inventions, all of the inventions, new inventions of models of the industry and it runs on our install",
+      "audio_features": {
+        "pause_before_sec": 2.0,
+        "speaking_rate_wps": 2.68,
+        "mean_pitch_hz": 160.24,
+        "pitch_std_hz": 18.85,
+        "mean_energy": 0.11878
+      }
+    },
+    {
+      "start": 3071.44,
+      "end": 3077.28,
+      "text": "base on the one hand. On the other hand, whenever we see something revolutionary, we can like",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.91,
+        "mean_pitch_hz": 150.31,
+        "pitch_std_hz": 20.64,
+        "mean_energy": 0.10804
+      }
+    },
+    {
+      "start": 3077.28,
+      "end": 3083.36,
+      "text": "transformers. We can create something brand new like the hybrid transformer engine and implement it into",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.63,
+        "mean_pitch_hz": 157.14,
+        "pitch_std_hz": 34.63,
+        "mean_energy": 0.11254
+      }
+    },
+    {
+      "start": 3083.36,
+      "end": 3090.88,
+      "text": "future. And so we simultaneously have this ability to bring software to the install base and keep",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.26,
+        "mean_pitch_hz": 160.12,
+        "pitch_std_hz": 40.84,
+        "mean_energy": 0.09927
+      }
+    },
+    {
+      "start": 3090.88,
+      "end": 3097.1200000000003,
+      "text": "making it better and better and better. So our customers install base is enriched over time with",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.72,
+        "mean_pitch_hz": 140.39,
+        "pitch_std_hz": 11.99,
+        "mean_energy": 0.10132
+      }
+    },
+    {
+      "start": 3097.1200000000003,
+      "end": 3103.52,
+      "text": "our new software. On the other hand, for new technologies, create revolutionary capabilities.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.03,
+        "mean_pitch_hz": 157.01,
+        "pitch_std_hz": 25.01,
+        "mean_energy": 0.10637
+      }
+    },
+    {
+      "start": 3104.2400000000002,
+      "end": 3111.2000000000003,
+      "text": "Don't be surprised if in our future generation, all of a sudden, amazing breakthroughs in large",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 163.97,
+        "pitch_std_hz": 29.31,
+        "mean_energy": 0.10592
+      }
+    },
+    {
+      "start": 3111.28,
+      "end": 3117.84,
+      "text": "language models were made possible. And those breakthroughs, some of which will be in software",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.29,
+        "mean_pitch_hz": 147.75,
+        "pitch_std_hz": 18.57,
+        "mean_energy": 0.09476
+      }
+    },
+    {
+      "start": 3117.84,
+      "end": 3122.4800000000005,
+      "text": "because they run CUDA, will be made available to the install base. And so we carry everybody",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.66,
+        "mean_pitch_hz": 148.53,
+        "pitch_std_hz": 22.23,
+        "mean_energy": 0.12074
+      }
+    },
+    {
+      "start": 3122.4800000000005,
+      "end": 3125.2000000000003,
+      "text": "with us on the one hand. We make giant breakthroughs on the other hand.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 5.15,
+        "mean_pitch_hz": 139.86,
+        "pitch_std_hz": 20.35,
+        "mean_energy": 0.10968
+      }
+    },
+    {
+      "start": 3129.44,
+      "end": 3134.1600000000003,
+      "text": "Your next question comes from a line of Aaron Rakers from Wells Fargo. Your line is open.",
+      "audio_features": {
+        "pause_before_sec": 4.24,
+        "speaking_rate_wps": 3.6,
+        "mean_pitch_hz": 180.53,
+        "pitch_std_hz": 77.83,
+        "mean_energy": 0.03988
+      }
+    },
+    {
+      "start": 3135.6800000000003,
+      "end": 3141.1200000000003,
+      "text": "Yeah, thanks for taking the question. I wanted to ask about the China business. I know that",
+      "audio_features": {
+        "pause_before_sec": 1.52,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 135.67,
+        "pitch_std_hz": 12.41,
+        "mean_energy": 0.05064
+      }
+    },
+    {
+      "start": 3141.7599999999998,
+      "end": 3145.2799999999997,
+      "text": "in the prepared comments, you said that you started shipping some alternative solutions in",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 3.98,
+        "mean_pitch_hz": 136.7,
+        "pitch_std_hz": 12.98,
+        "mean_energy": 0.03177
+      }
+    },
+    {
+      "start": 3145.2799999999997,
+      "end": 3150.08,
+      "text": "the China. You also put it out that you expect that contribution to continue to be about a",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.75,
+        "mean_pitch_hz": 120.51,
+        "pitch_std_hz": 9.82,
+        "mean_energy": 0.03318
+      }
+    },
+    {
+      "start": 3150.08,
+      "end": 3153.92,
+      "text": "mid-single-digit center of your torque data center business. So I guess the question is,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.65,
+        "mean_pitch_hz": 114.63,
+        "pitch_std_hz": 4.54,
+        "mean_energy": 0.03293
+      }
+    },
+    {
+      "start": 3153.92,
+      "end": 3158.24,
+      "text": "is what is the extent of products that you're shipping today into the China market? And",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.7,
+        "mean_pitch_hz": 213.25,
+        "pitch_std_hz": 104.09,
+        "mean_energy": 0.03983
+      }
+    },
+    {
+      "start": 3159.12,
+      "end": 3164.88,
+      "text": "why should we not expect that maybe other alternative solutions come to the market and",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 138.75,
+        "pitch_std_hz": 20.02,
+        "mean_energy": 0.03693
+      }
+    },
+    {
+      "start": 3164.88,
+      "end": 3168.72,
+      "text": "expand your breadth to participate in that opportunity again? Thank you.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.86,
+        "mean_pitch_hz": 119.8,
+        "pitch_std_hz": 16.35,
+        "mean_energy": 0.03689
+      }
+    },
+    {
+      "start": 3172.08,
+      "end": 3179.3599999999997,
+      "text": "At the core, remember, the U.S. government wanted to limit the latest capabilities",
+      "audio_features": {
+        "pause_before_sec": 3.36,
+        "speaking_rate_wps": 1.79,
+        "mean_pitch_hz": 158.92,
+        "pitch_std_hz": 30.31,
+        "mean_energy": 0.09617
+      }
+    },
+    {
+      "start": 3180.24,
+      "end": 3188.7999999999997,
+      "text": "of NVIDIA's accelerated computing and AI to the Chinese market. And the U.S. government would",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 1.75,
+        "mean_pitch_hz": 135.03,
+        "pitch_std_hz": 16.72,
+        "mean_energy": 0.07172
+      }
+    },
+    {
+      "start": 3188.7999999999997,
+      "end": 3193.92,
+      "text": "like to see us be as successful in China as possible. Within those two constraints,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.93,
+        "mean_pitch_hz": 162.36,
+        "pitch_std_hz": 28.03,
+        "mean_energy": 0.08432
+      }
+    },
+    {
+      "start": 3194.08,
+      "end": 3204.08,
+      "text": "within those two pillars, if you will, are the restrictions. And so we had to pause",
+      "audio_features": {
+        "pause_before_sec": 0.16,
+        "speaking_rate_wps": 1.6,
+        "mean_pitch_hz": 196.8,
+        "pitch_std_hz": 99.33,
+        "mean_energy": 0.08425
+      }
+    },
+    {
+      "start": 3205.12,
+      "end": 3212.32,
+      "text": "when the new restrictions came out. We immediately paused. So we understood what the restrictions are.",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 2.22,
+        "mean_pitch_hz": 228.93,
+        "pitch_std_hz": 123.48,
+        "mean_energy": 0.07483
+      }
+    },
+    {
+      "start": 3213.92,
+      "end": 3222.48,
+      "text": "We configured our products in a way that is not software hackable in any way.",
+      "audio_features": {
+        "pause_before_sec": 1.6,
+        "speaking_rate_wps": 1.75,
+        "mean_pitch_hz": 143.77,
+        "pitch_std_hz": 17.27,
+        "mean_energy": 0.07385
+      }
+    },
+    {
+      "start": 3223.44,
+      "end": 3231.6,
+      "text": "And that took some time. And so we reset our product offering to China. And now we're sampling",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.21,
+        "mean_pitch_hz": 161.74,
+        "pitch_std_hz": 48.61,
+        "mean_energy": 0.0883
+      }
+    },
+    {
+      "start": 3232.4,
+      "end": 3237.44,
+      "text": "to customers in China. And we're going to do our best to compete in that marketplace and",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 3.37,
+        "mean_pitch_hz": 142.9,
+        "pitch_std_hz": 43.64,
+        "mean_energy": 0.09387
+      }
+    },
+    {
+      "start": 3237.44,
+      "end": 3244.56,
+      "text": "succeed in that marketplace within the specifications of the restriction. And so that's it.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.97,
+        "mean_pitch_hz": 133.42,
+        "pitch_std_hz": 30.11,
+        "mean_energy": 0.09916
+      }
+    },
+    {
+      "start": 3245.52,
+      "end": 3255.44,
+      "text": "This last quarter, our business significantly declined as we paused in the marketplace. We",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 1.41,
+        "mean_pitch_hz": 128.66,
+        "pitch_std_hz": 11.51,
+        "mean_energy": 0.09407
+      }
+    },
+    {
+      "start": 3255.44,
+      "end": 3260.32,
+      "text": "stopped shipping in the marketplace. We expect this quarter to be about the same. But after that,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.48,
+        "mean_pitch_hz": 127.24,
+        "pitch_std_hz": 6.65,
+        "mean_energy": 0.09317
+      }
+    },
+    {
+      "start": 3260.32,
+      "end": 3265.12,
+      "text": "hopefully we can go compete for our business and do our best. And we'll see how it turns out.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.96,
+        "mean_pitch_hz": 125.54,
+        "pitch_std_hz": 7.64,
+        "mean_energy": 0.09043
+      }
+    },
+    {
+      "start": 3268.0,
+      "end": 3272.56,
+      "text": "Your next question comes from a line of Harsh Kumar from Piper Sandler. Your line is open.",
+      "audio_features": {
+        "pause_before_sec": 2.88,
+        "speaking_rate_wps": 3.73,
+        "mean_pitch_hz": 163.45,
+        "pitch_std_hz": 29.48,
+        "mean_energy": 0.03124
+      }
+    },
+    {
+      "start": 3273.52,
+      "end": 3278.64,
+      "text": "Yeah. Hey, Jensen, Collette, and video team. First of all, congratulations on a stunning quarter",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.93,
+        "mean_pitch_hz": 169.14,
+        "pitch_std_hz": 29.09,
+        "mean_energy": 0.0352
+      }
+    },
+    {
+      "start": 3278.64,
+      "end": 3284.64,
+      "text": "and guide. I wanted to talk about a little bit about your software business. And it's pleasing",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.83,
+        "mean_pitch_hz": 167.55,
+        "pitch_std_hz": 45.69,
+        "mean_energy": 0.03089
+      }
+    },
+    {
+      "start": 3284.64,
+      "end": 3289.68,
+      "text": "to hear that it's over a billion dollar. But I was hoping Jensen or Collette, if you could just",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.77,
+        "mean_pitch_hz": 166.19,
+        "pitch_std_hz": 25.85,
+        "mean_energy": 0.04338
+      }
+    },
+    {
+      "start": 3289.68,
+      "end": 3294.48,
+      "text": "help us understand what the different parts and pieces are for the software business. In other words,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.54,
+        "mean_pitch_hz": 160.12,
+        "pitch_std_hz": 13.37,
+        "mean_energy": 0.0326
+      }
+    },
+    {
+      "start": 3294.48,
+      "end": 3300.0,
+      "text": "just help us unpack it a little bit so we can get a better understanding of where that growth is coming",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.8,
+        "mean_pitch_hz": 145.5,
+        "pitch_std_hz": 16.54,
+        "mean_energy": 0.03188
+      }
+    },
+    {
+      "start": 3300.0,
+      "end": 3306.8,
+      "text": "from. Let me take a step back and explain the fundamental reason why NVIDIA will be very",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 147.77,
+        "pitch_std_hz": 29.1,
+        "mean_energy": 0.07238
+      }
+    },
+    {
+      "start": 3306.8,
+      "end": 3315.92,
+      "text": "successful in software. So first, as you know, accelerated computing really grew in the cloud.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.64,
+        "mean_pitch_hz": 205.36,
+        "pitch_std_hz": 91.86,
+        "mean_energy": 0.06494
+      }
+    },
+    {
+      "start": 3316.48,
+      "end": 3322.24,
+      "text": "In the cloud, the cloud service providers have really large engineering teams. And we worked with",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 161.6,
+        "pitch_std_hz": 38.73,
+        "mean_energy": 0.0949
+      }
+    },
+    {
+      "start": 3322.32,
+      "end": 3330.8,
+      "text": "them in a way that allows them to operate and manage their own business. And whenever there",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.0,
+        "mean_pitch_hz": 157.96,
+        "pitch_std_hz": 20.07,
+        "mean_energy": 0.08986
+      }
+    },
+    {
+      "start": 3330.8,
+      "end": 3335.28,
+      "text": "are any issues, we have large teams assigned to them. And their engineering teams are working",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.57,
+        "mean_pitch_hz": 155.34,
+        "pitch_std_hz": 11.49,
+        "mean_energy": 0.11141
+      }
+    },
+    {
+      "start": 3335.28,
+      "end": 3342.5600000000004,
+      "text": "directly with our engineering teams. And we enhance, we fix, we maintain, we patch the complicated",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.2,
+        "mean_pitch_hz": 158.03,
+        "pitch_std_hz": 15.53,
+        "mean_energy": 0.09296
+      }
+    },
+    {
+      "start": 3342.5600000000004,
+      "end": 3348.2400000000002,
+      "text": "stack of software that's involved in accelerated computing. As you know, accelerated computing is",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.46,
+        "mean_pitch_hz": 150.16,
+        "pitch_std_hz": 21.78,
+        "mean_energy": 0.09023
+      }
+    },
+    {
+      "start": 3348.32,
+      "end": 3354.7200000000003,
+      "text": "very different than general purpose computing. You're not starting from a program like C++,",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.19,
+        "mean_pitch_hz": 144.61,
+        "pitch_std_hz": 16.55,
+        "mean_energy": 0.07762
+      }
+    },
+    {
+      "start": 3354.7200000000003,
+      "end": 3361.1200000000003,
+      "text": "you compile it and things run on all your CPUs. The stacks of software necessary for every domain",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.81,
+        "mean_pitch_hz": 151.96,
+        "pitch_std_hz": 21.35,
+        "mean_energy": 0.08508
+      }
+    },
+    {
+      "start": 3361.1200000000003,
+      "end": 3369.92,
+      "text": "from data processing, SQL versus SQL structured data versus all the images and text and PDF,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.82,
+        "mean_pitch_hz": 140.15,
+        "pitch_std_hz": 41.52,
+        "mean_energy": 0.09086
+      }
+    },
+    {
+      "start": 3369.92,
+      "end": 3375.92,
+      "text": "which is unstructured, to classical machine learning, to computer vision, to speech,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.0,
+        "mean_pitch_hz": 157.32,
+        "pitch_std_hz": 40.41,
+        "mean_energy": 0.08197
+      }
+    },
+    {
+      "start": 3376.8,
+      "end": 3382.48,
+      "text": "to large language models. All the recommender systems. All of these things require different",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.46,
+        "mean_pitch_hz": 168.34,
+        "pitch_std_hz": 31.33,
+        "mean_energy": 0.10734
+      }
+    },
+    {
+      "start": 3383.52,
+      "end": 3389.6800000000003,
+      "text": "software stacks. That's the reason why NVIDIA has hundreds of libraries. If you don't have",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 2.44,
+        "mean_pitch_hz": 167.4,
+        "pitch_std_hz": 37.18,
+        "mean_energy": 0.09755
+      }
+    },
+    {
+      "start": 3389.6800000000003,
+      "end": 3396.16,
+      "text": "software, you can't open new markets. If you don't have software, you can't open and enable new",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.62,
+        "mean_pitch_hz": 170.17,
+        "pitch_std_hz": 27.22,
+        "mean_energy": 0.111
+      }
+    },
+    {
+      "start": 3396.16,
+      "end": 3402.0,
+      "text": "applications. Software is fundamentally necessary for accelerated computing. This is the fundamental",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.05,
+        "mean_pitch_hz": 158.13,
+        "pitch_std_hz": 31.7,
+        "mean_energy": 0.11438
+      }
+    },
+    {
+      "start": 3402.0,
+      "end": 3405.6,
+      "text": "difference between accelerated computing and general purpose computing that most people",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.06,
+        "mean_pitch_hz": 158.06,
+        "pitch_std_hz": 21.87,
+        "mean_energy": 0.11753
+      }
+    },
+    {
+      "start": 3406.24,
+      "end": 3411.84,
+      "text": "took a long time to understand. And now people understand that the software is really key.",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.86,
+        "mean_pitch_hz": 161.93,
+        "pitch_std_hz": 36.02,
+        "mean_energy": 0.08048
+      }
+    },
+    {
+      "start": 3411.84,
+      "end": 3417.12,
+      "text": "In the way that we work with CSPs, that's really easy. We have large teams that are working with",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.6,
+        "mean_pitch_hz": 148.68,
+        "pitch_std_hz": 25.89,
+        "mean_energy": 0.10468
+      }
+    },
+    {
+      "start": 3417.12,
+      "end": 3425.28,
+      "text": "their large teams. However, now that generative AI is enabling every enterprise and every enterprise",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.84,
+        "mean_pitch_hz": 182.73,
+        "pitch_std_hz": 75.81,
+        "mean_energy": 0.10078
+      }
+    },
+    {
+      "start": 3425.28,
+      "end": 3434.7200000000003,
+      "text": "software company to embrace accelerated computing. And when it is now essential to embrace accelerated",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.59,
+        "mean_pitch_hz": 148.59,
+        "pitch_std_hz": 23.38,
+        "mean_energy": 0.08589
+      }
+    },
+    {
+      "start": 3434.7200000000003,
+      "end": 3445.2000000000003,
+      "text": "computing because it is no longer possible, no longer likely anyhow, to sustain improved throughput",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.43,
+        "mean_pitch_hz": 169.18,
+        "pitch_std_hz": 67.11,
+        "mean_energy": 0.08108
+      }
+    },
+    {
+      "start": 3445.2000000000003,
+      "end": 3451.6800000000003,
+      "text": "through just general purpose computing, all of these enterprise software companies and",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.85,
+        "mean_pitch_hz": 191.08,
+        "pitch_std_hz": 51.63,
+        "mean_energy": 0.06099
+      }
+    },
+    {
+      "start": 3451.6800000000003,
+      "end": 3457.84,
+      "text": "enterprise companies don't have large engineering teams to be able to maintain and optimize their",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.44,
+        "mean_pitch_hz": 163.53,
+        "pitch_std_hz": 41.52,
+        "mean_energy": 0.09749
+      }
+    },
+    {
+      "start": 3457.84,
+      "end": 3461.92,
+      "text": "software stack to run across all of the world's clouds and private clouds and on-prem.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.68,
+        "mean_pitch_hz": 159.49,
+        "pitch_std_hz": 73.46,
+        "mean_energy": 0.12152
+      }
+    },
+    {
+      "start": 3462.5600000000004,
+      "end": 3470.8,
+      "text": "So we are going to do the management, the optimization, the patching, the tuning, the install-based",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 1.94,
+        "mean_pitch_hz": 148.29,
+        "pitch_std_hz": 22.86,
+        "mean_energy": 0.09761
+      }
+    },
+    {
+      "start": 3470.8,
+      "end": 3477.5200000000004,
+      "text": "optimization for all of their software stacks. And we containerize them into our stack,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 138.06,
+        "pitch_std_hz": 16.94,
+        "mean_energy": 0.08143
+      }
+    },
+    {
+      "start": 3478.0,
+      "end": 3486.32,
+      "text": "NVIDIA AI Enterprise. And the way we go to market with it is think of that NVIDIA AI Enterprise",
+      "audio_features": {
+        "pause_before_sec": 0.48,
+        "speaking_rate_wps": 2.28,
+        "mean_pitch_hz": 181.13,
+        "pitch_std_hz": 52.06,
+        "mean_energy": 0.09459
+      }
+    },
+    {
+      "start": 3486.32,
+      "end": 3490.88,
+      "text": "now as a runtime like an operating system. It's an operating system for artificial intelligence.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.29,
+        "mean_pitch_hz": 142.9,
+        "pitch_std_hz": 17.18,
+        "mean_energy": 0.08098
+      }
+    },
+    {
+      "start": 3491.68,
+      "end": 3501.44,
+      "text": "And we charge $4,500 per GPU per year. And my guess is that every enterprise in the world,",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 1.84,
+        "mean_pitch_hz": 142.49,
+        "pitch_std_hz": 12.61,
+        "mean_energy": 0.08978
+      }
+    },
+    {
+      "start": 3502.56,
+      "end": 3507.04,
+      "text": "every software enterprise company that are deploying software in all the clouds and private",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 139.93,
+        "pitch_std_hz": 8.93,
+        "mean_energy": 0.10961
+      }
+    },
+    {
+      "start": 3507.04,
+      "end": 3512.88,
+      "text": "clouds and on-prem, will run on NVIDIA AI Enterprise, especially obviously for our GPUs.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.4,
+        "mean_pitch_hz": 135.54,
+        "pitch_std_hz": 31.44,
+        "mean_energy": 0.08811
+      }
+    },
+    {
+      "start": 3512.88,
+      "end": 3517.04,
+      "text": "And so this is going to likely be a very significant business over time.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.37,
+        "mean_pitch_hz": 126.48,
+        "pitch_std_hz": 12.45,
+        "mean_energy": 0.07358
+      }
+    },
+    {
+      "start": 3518.32,
+      "end": 3525.52,
+      "text": "We're off to a great start. And Collette mentioned that it's already at a billion-dollar",
+      "audio_features": {
+        "pause_before_sec": 1.28,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 141.19,
+        "pitch_std_hz": 26.68,
+        "mean_energy": 0.08704
+      }
+    },
+    {
+      "start": 3525.52,
+      "end": 3529.68,
+      "text": "run rate. And we're really just getting started.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.92,
+        "mean_pitch_hz": 126.51,
+        "pitch_std_hz": 12.11,
+        "mean_energy": 0.09784
+      }
+    },
+    {
+      "start": 3530.5600000000004,
+      "end": 3537.1200000000003,
+      "text": "Thank you. I will now turn the call back over to Jensen Huang, CEO for closing remarks.",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.59,
+        "mean_pitch_hz": 187.45,
+        "pitch_std_hz": 48.86,
+        "mean_energy": 0.02544
+      }
+    },
+    {
+      "start": 3539.0400000000004,
+      "end": 3544.7200000000003,
+      "text": "The computer industry is making two simultaneous platform shifts at the same time.",
+      "audio_features": {
+        "pause_before_sec": 1.92,
+        "speaking_rate_wps": 2.29,
+        "mean_pitch_hz": 165.82,
+        "pitch_std_hz": 36.16,
+        "mean_energy": 0.11457
+      }
+    },
+    {
+      "start": 3545.76,
+      "end": 3551.28,
+      "text": "The trillion-dollar install-based of data centers is transitioning from general purpose",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 148.13,
+        "pitch_std_hz": 21.43,
+        "mean_energy": 0.10806
+      }
+    },
+    {
+      "start": 3551.28,
+      "end": 3558.2400000000002,
+      "text": "to accelerated computing. Every data center will be accelerated. So the world can keep up with",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 161.7,
+        "pitch_std_hz": 23.3,
+        "mean_energy": 0.08486
+      }
+    },
+    {
+      "start": 3558.2400000000002,
+      "end": 3563.1200000000003,
+      "text": "the computing demand, with increasing throughput, while managing cost and energy.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.25,
+        "mean_pitch_hz": 156.47,
+        "pitch_std_hz": 38.87,
+        "mean_energy": 0.09839
+      }
+    },
+    {
+      "start": 3564.5600000000004,
+      "end": 3574.2400000000002,
+      "text": "The incredible speed up of NVIDIA enabled a whole new computing paradigm, generative AI,",
+      "audio_features": {
+        "pause_before_sec": 1.44,
+        "speaking_rate_wps": 1.45,
+        "mean_pitch_hz": 161.42,
+        "pitch_std_hz": 31.79,
+        "mean_energy": 0.11248
+      }
+    },
+    {
+      "start": 3575.0400000000004,
+      "end": 3581.6800000000003,
+      "text": "where software can learn, understand, and generate any information from human language",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 1.81,
+        "mean_pitch_hz": 152.54,
+        "pitch_std_hz": 21.05,
+        "mean_energy": 0.0979
+      }
+    },
+    {
+      "start": 3582.5600000000004,
+      "end": 3585.6800000000003,
+      "text": "to the structure of biology and the 3D world.",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.88,
+        "mean_pitch_hz": 149.33,
+        "pitch_std_hz": 19.22,
+        "mean_energy": 0.10175
+      }
+    },
+    {
+      "start": 3588.1600000000003,
+      "end": 3595.4400000000005,
+      "text": "We are now at the beginning of a new industry where AI dedicated data centers process massive",
+      "audio_features": {
+        "pause_before_sec": 2.48,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 151.08,
+        "pitch_std_hz": 19.87,
+        "mean_energy": 0.12227
+      }
+    },
+    {
+      "start": 3595.4400000000005,
+      "end": 3603.76,
+      "text": "raw data to refine it into digital intelligence. Like AC power generation plans of the last industrial",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.04,
+        "mean_pitch_hz": 143.7,
+        "pitch_std_hz": 17.13,
+        "mean_energy": 0.09219
+      }
+    },
+    {
+      "start": 3603.76,
+      "end": 3611.6000000000004,
+      "text": "revolution, NVIDIA AI supercomputers are essentially AI generation factories of this",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.4,
+        "mean_pitch_hz": 161.92,
+        "pitch_std_hz": 30.97,
+        "mean_energy": 0.09023
+      }
+    },
+    {
+      "start": 3611.6000000000004,
+      "end": 3618.0,
+      "text": "industrial revolution. Every company in every industry is fundamentally built on their proprietary",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.03,
+        "mean_pitch_hz": 142.72,
+        "pitch_std_hz": 17.97,
+        "mean_energy": 0.08897
+      }
+    },
+    {
+      "start": 3618.0,
+      "end": 3626.1600000000003,
+      "text": "business intelligence and in the future their proprietary generative AI. Generative AI",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.47,
+        "mean_pitch_hz": 138.8,
+        "pitch_std_hz": 23.44,
+        "mean_energy": 0.06681
+      }
+    },
+    {
+      "start": 3626.1600000000003,
+      "end": 3632.48,
+      "text": "has kicked off a whole new investment cycle to build the next trillion dollars of infrastructure",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.53,
+        "mean_pitch_hz": 142.56,
+        "pitch_std_hz": 15.44,
+        "mean_energy": 0.09708
+      }
+    },
+    {
+      "start": 3632.48,
+      "end": 3639.44,
+      "text": "of AI generation factories. We believe these two trends will drive a doubling of the world's",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 148.51,
+        "pitch_std_hz": 31.83,
+        "mean_energy": 0.09158
+      }
+    },
+    {
+      "start": 3639.44,
+      "end": 3645.84,
+      "text": "data center infrastructure installed base in the next five years and will represent an annual",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 137.05,
+        "pitch_std_hz": 10.01,
+        "mean_energy": 0.10406
+      }
+    },
+    {
+      "start": 3645.84,
+      "end": 3652.64,
+      "text": "market opportunity in the hundreds of billions. This new AI infrastructure will open up a whole new",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 142.15,
+        "pitch_std_hz": 23.38,
+        "mean_energy": 0.08842
+      }
+    },
+    {
+      "start": 3652.64,
+      "end": 3660.0,
+      "text": "world of applications not possible today. We started the AI journey with the hyperscale cloud providers",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.17,
+        "mean_pitch_hz": 138.33,
+        "pitch_std_hz": 15.39,
+        "mean_energy": 0.1
+      }
+    },
+    {
+      "start": 3660.72,
+      "end": 3668.08,
+      "text": "and consumer internet companies and now every industry is on board from automotive to health",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.04,
+        "mean_pitch_hz": 147.26,
+        "pitch_std_hz": 27.98,
+        "mean_energy": 0.0883
+      }
+    },
+    {
+      "start": 3668.08,
+      "end": 3678.32,
+      "text": "care to financial services to industrial to telecom media and entertainment. NVIDIA is full-stack",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.37,
+        "mean_pitch_hz": 159.8,
+        "pitch_std_hz": 32.39,
+        "mean_energy": 0.07412
+      }
+    },
+    {
+      "start": 3678.32,
+      "end": 3685.92,
+      "text": "computing platform with industry specific applications frameworks and a huge developer and partner",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.71,
+        "mean_pitch_hz": 154.73,
+        "pitch_std_hz": 17.57,
+        "mean_energy": 0.09474
+      }
+    },
+    {
+      "start": 3685.92,
+      "end": 3694.56,
+      "text": "ecosystem gives us the speed scale and reach to help every company to help companies in every",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.97,
+        "mean_pitch_hz": 169.06,
+        "pitch_std_hz": 55.71,
+        "mean_energy": 0.07709
+      }
+    },
+    {
+      "start": 3694.56,
+      "end": 3703.36,
+      "text": "industry become an AI company. We have so much to share with you at next month's GTC in San Jose",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.27,
+        "mean_pitch_hz": 148.26,
+        "pitch_std_hz": 42.37,
+        "mean_energy": 0.08542
+      }
+    },
+    {
+      "start": 3704.08,
+      "end": 3708.4,
+      "text": "so be sure to join us. We look forward to updating you on our progress next quarter.",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 3.94,
+        "mean_pitch_hz": 132.89,
+        "pitch_std_hz": 12.2,
+        "mean_energy": 0.08807
+      }
+    },
+    {
+      "start": 3708.4,
+      "end": 3714.08,
+      "text": "This concludes today's conference call. You may now disconnect.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.58,
+        "mean_pitch_hz": 233.97,
+        "pitch_std_hz": 84.59,
+        "mean_energy": 0.02365
+      }
+    }
+  ]
+}

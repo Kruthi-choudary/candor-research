@@ -3,7 +3,10 @@ __pycache__/
 *.pyc
 .env
 data/raw/
-data/processed/
+# data/processed/ IS committed on purpose: it's our own derived JSON (transcripts, sentiment,
+# reports, eval results), not third-party audio, and it's what makes the repo demo-able without
+# anyone needing a Groq key or the source mp3s first. Only data/raw/ (the actual earnings-call
+# audio, ~580MB, not ours to redistribute) stays excluded.
 *.DS_Store
 .idea/
 .vscode/settings.json

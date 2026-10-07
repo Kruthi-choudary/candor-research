@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "ticker": "NVDA",
+  "company": "Nvidia",
+  "quarter": "Q1 2025",
+  "call_date": "2024-05-22",
+  "overall_summary": "The earnings call showed robust overall and automotive revenue growth and high margins, while gaming sales fell and the China business weakened. Sentiment was heavily neutral (81.0%) with modest positive (16.9%) and minimal negative (2.1%) tones.",
+  "sentiment_distribution": {
+    "positive": 16.9,
+    "negative": 2.1,
+    "neutral": 81.0
+  },
+  "key_claims": [
+    {
+      "claim": "Non-GAAP growth margins increased to 78.9% due to lower inventory charges.",
+      "evidence": "and non-gap growth margins to 78.9% on lower inventory charges.",
+      "timestamp_sec": 1296,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "GAAP operating expenses rose 10% sequentially, and non-GAAP operating expenses also increased.",
+      "evidence": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up",
+      "timestamp_sec": 1309,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Automotive revenue reached $329 million, up 17% sequentially and 11% year-over-year.",
+      "evidence": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year.",
+      "timestamp_sec": 1232,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Total revenue hit $26\u202fbillion, up 18% sequentially and 262% year-over-year, far exceeding expectations.",
+      "evidence": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our",
+      "timestamp_sec": 141,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Gaming revenue fell to $2.65\u202fbillion, an 8% sequential decline.",
+      "evidence": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and",
+      "timestamp_sec": 1037,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "ProViz revenue dropped 8% sequentially to $427\u202fmillion, though it grew 45% year-over-year.",
+      "evidence": "Moving to ProViz, revenue of 427 million was down 8% sequentially and up 45% year on year.",
+      "timestamp_sec": 1149,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Data center revenue in China has declined sharply from pre-imposition levels.",
+      "evidence": "Our data center revenue in China is down significantly from the level prior to the imposition of",
+      "timestamp_sec": 582,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Overall business in China remains substantially lower than previous levels.",
+      "evidence": "It is the case that our business in China is substantially lower than the levels of",
+      "timestamp_sec": 3204,
+      "sentiment": "negative"
+    }
+  ],
+  "risks": [],
+  "management_outlook": [],
+  "citation_verification": {
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0
+  },
+  "audio_features_summary": {
+    "mean_pitch_hz": 173.45,
+    "mean_energy": 0.07,
+    "mean_speaking_rate_wps": 2.22,
+    "segments_analyzed": 751
+  },
+  "prior_quarter_context_used": [
+    {
+      "quarter": "Q2 2025",
+      "start_sec": 2297.44,
+      "text": "discussions about is with like the percentage of folks that you see that are spending all of this money and looking to sort of push the frontier towards AGI convergence. And as you just said, a new plateau in capability. And they're going to spend regardless to get to that level of capability because it opens up so many doors for the industry and for their company versus customers that are really, really focused today on CAPEx versus ROI. I don't know if that distinction makes sense. I'm just trying to get a sense of how you're seeing the priorities of people that are putting the dollars in the ground on the new technology and what their priorities are and their timeframes are for that investment. Thanks, Matt. The people who are investing in NVIDIA infrastructure are getting returns on it right away. It's the best ROI infrastructure, computing infrastructure investment you can make today. And so one way to think through it, probably the easiest way to think through it is just go back to first principles. You have a trillion dollars with a general purpose computing infrastructure and the question is do you want to build more of that or not? And for every billion dollars with a general CPU-based infrastructure that you stand up, you probably rent it for less than a billion. And so because it's commoditized, there's already a trillion dollars on the ground. What's the point of getting more? And so the people who are clamoring to get this infrastructure"
+    },
+    {
+      "quarter": "Q2 2025",
+      "start_sec": 2515.76,
+      "text": "And your next question comes from the line of Timothy Arkery with UBS. Your line is open. Thanks a lot. I had a question on the shape of the revenue growth both near and longer term. I know Colette, you did increase op-ex for the year. And if I look at the increase in your purchase commitments and your supply obligations, that's also quite bullish. On the other hand, there's some school of thought that not that many customers really seem ready for liquid cooling. And I do recognize that some of these racks can be air-cooled. But, Johnson, is that something to consider sort of on the shape of how Blackwell is going to ramp? And then I guess when you look beyond next year, which is obviously going to be a great year, and you look into 26, do you worry about any other, you know, gating factors like, say, the power supply chain or at some point, models start to get smaller? I'm just wondering if you could speak to that thing. I'm going to work backwards. I really appreciate the question, Tim. So remember, the world is moving from general purpose computing to accelerated computing. And the world builds about a trillion dollars with the data centers. You know, a trillion dollars worth of data centers in a few years will be all accelerated computing. In the past, no GPUs are in data centers, just CPUs. In the future, every single data center world GPUs. And the reason for that is it's very clear because we need to accelerate workloads"
+    },
+    {
+      "quarter": "Q2 2025",
+      "start_sec": 2827.36,
+      "text": "you expected to hopper demand to strengthen in the second after. That means hopper strengthens Q3 to Q4 as well on top of Blackwell, adding several billion dollars. And the second question on gross margins, if I have mid-70s for the year, it's saying where I want to draw that. If I have 75 for the year, I'd be something like 71 to 72 for Q4 somewhere in that range. Is that the kind of exit rate for gross margins that you're expecting? And how should we think about the drivers of gross margin evolution in the next year as Blackwell ramps? I mean, hopefully, I guess the yields and the inventory results and everything come up. Yes, Stacey, let's first take your question that you had about hopper and Blackwell. So we believe our hopper will continue to grow into the second half. We have many new products for hopper, our existing products for hopper, that we believe will start continuing to ramp in the next quarters, including our Q3 and those new products moving to Q4. So let's say hopper there for versus H1 is a growth opportunity for that. Additionally, we have the Blackwell on top of that, and the Blackwell starting of ramping in Q4. So hope that helps you on those two pieces. Your second piece is in terms of our gross margin. We provided gross margin of 4RQ3. We provided our gross margin on a non-gap at about 75. We'll work with all the different transitions that we're"
+    }
+  ],
+  "pipeline_version": "1.0",
+  "stage_durations_sec": {
+    "transcription_sec": 0.0,
+    "sentiment_sec": 0.0,
+    "prosody_sec": 0.0,
+    "rag_sec": 8.4,
+    "generation_sec": 0.0,
+    "citation_check_sec": 0.0
+  }
+}

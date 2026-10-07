@@ -1,0 +1,4729 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.96,
+      "text": "Good afternoon. My name is Rob and I will be your conference operator today. At this time,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9418321847915649
+      }
+    },
+    {
+      "start": 4.96,
+      "end": 9.44,
+      "text": "I would like to welcome everyone to the NVIDIA's fourth quarter earnings call. All lines have",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9233336448669434
+      }
+    },
+    {
+      "start": 9.44,
+      "end": 14.0,
+      "text": "been placed on mute to prevent any background noise. After the speaker's remarks, there will be a",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9180696606636047
+      }
+    },
+    {
+      "start": 14.0,
+      "end": 18.88,
+      "text": "question and answer session. If you would like to ask a question during this time, simply press star",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9385058879852295
+      }
+    },
+    {
+      "start": 18.88,
+      "end": 23.36,
+      "text": "followed by the number one on your telephone keypad. If you would like to withdraw your question,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9253822565078735
+      }
+    },
+    {
+      "start": 23.36,
+      "end": 28.0,
+      "text": "press star one again. Thank you. Simona Jinkowski, you may begin your conference.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9348158240318298
+      }
+    },
+    {
+      "start": 28.0,
+      "end": 34.480000000000004,
+      "text": "Thank you. Good afternoon, everyone, and welcome to NVIDIA's conference call for the fourth quarter",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7055888175964355
+      }
+    },
+    {
+      "start": 34.480000000000004,
+      "end": 41.04,
+      "text": "in fiscal 2024. With me today from NVIDIA, our Jensen Huang, President and Chief Executive Officer",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9247335195541382
+      }
+    },
+    {
+      "start": 41.04,
+      "end": 46.56,
+      "text": "and Collette Kress, Executive Vice President and Chief Financial Officer. I'd like to remind you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9368310570716858
+      }
+    },
+    {
+      "start": 46.56,
+      "end": 51.519999999999996,
+      "text": "that our call is being webcast live on NVIDIA's Investor Relations website. The webcast will be",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9547284841537476
+      }
+    },
+    {
+      "start": 51.519999999999996,
+      "end": 56.56,
+      "text": "available for replay until the conference call to discuss our financial results for the first quarter",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9465153813362122
+      }
+    },
+    {
+      "start": 56.64,
+      "end": 63.84,
+      "text": "of fiscal 2025. The content of today's call is NVIDIA's property. It can be reproduced or transcribed",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9489929676055908
+      }
+    },
+    {
+      "start": 63.84,
+      "end": 68.96000000000001,
+      "text": "without a prior written consent. During this call, we may make forward-looking statements",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9431366324424744
+      }
+    },
+    {
+      "start": 68.96000000000001,
+      "end": 74.32000000000001,
+      "text": "based on current expectations. These are subject to a number of significant risks and uncertainties,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9330856800079346
+      }
+    },
+    {
+      "start": 74.32000000000001,
+      "end": 79.12,
+      "text": "and are actual results made different materially. For a discussion of factors that could affect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8853408694267273
+      }
+    },
+    {
+      "start": 79.12,
+      "end": 83.68,
+      "text": "our future financial results and business, please refer to the disclosure in today's earnings",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9485133290290833
+      }
+    },
+    {
+      "start": 83.68,
+      "end": 90.0,
+      "text": "release. Our most recent forms, 10K and 10Q, and the reports that we may file on form 8K with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9524745345115662
+      }
+    },
+    {
+      "start": 90.0,
+      "end": 95.76,
+      "text": "the Securities and Exchange Commission. All our statements are made as of today, February 21st,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9314500093460083
+      }
+    },
+    {
+      "start": 95.76,
+      "end": 102.56,
+      "text": "2024, based on information currently available to us. Accepted required by law, we assume no",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9546655416488647
+      }
+    },
+    {
+      "start": 102.56,
+      "end": 108.80000000000001,
+      "text": "obligation to update any such statements. During this call, we will discuss non-gap financial measures.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.930742084980011
+      }
+    },
+    {
+      "start": 108.80000000000001,
+      "end": 112.08000000000001,
+      "text": "You can find a reconciliation of these non-gap financial measures",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8542785048484802
+      }
+    },
+    {
+      "start": 112.08,
+      "end": 116.88,
+      "text": "to gap financial measures in our CFO commentary, which is posted on our website.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9283162355422974
+      }
+    },
+    {
+      "start": 116.88,
+      "end": 119.12,
+      "text": "With that, let me turn the call over to Collette.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9442671537399292
+      }
+    },
+    {
+      "start": 120.32,
+      "end": 129.12,
+      "text": "Thanks, Simona. Q4 was another record quarter. Revenue of 22.1 billion was up 22% sequentially,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9580873847007751
+      }
+    },
+    {
+      "start": 129.12,
+      "end": 138.07999999999998,
+      "text": "and up 265% year on year, and well above our outlook of 20 billion. For fiscal 2024,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9502841830253601
+      }
+    },
+    {
+      "start": 138.08,
+      "end": 147.04000000000002,
+      "text": "revenue was 60.9 billion and up 126% from the prior year. Starting with data center,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9447459578514099
+      }
+    },
+    {
+      "start": 147.76000000000002,
+      "end": 157.84,
+      "text": "data center revenue for the fiscal 2024 year was 4.7.5 billion, more than tripling from the prior year.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9378738403320312
+      }
+    },
+    {
+      "start": 158.56,
+      "end": 164.72000000000003,
+      "text": "The world has reached the tipping point of new computing era. The trillion dollar installed base",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8178578019142151
+      }
+    },
+    {
+      "start": 164.72,
+      "end": 170.96,
+      "text": "of data center infrastructure is rapidly transitioning from general purpose to accelerated computing.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5867665410041809
+      }
+    },
+    {
+      "start": 171.84,
+      "end": 179.04,
+      "text": "As more law slows, while computing demand continues to skyrocket, companies may accelerate",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.8810275793075562
+      }
+    },
+    {
+      "start": 179.04,
+      "end": 185.76,
+      "text": "every workload possible to drive future improvement in performance, TCO, and energy efficiency.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.676239550113678
+      }
+    },
+    {
+      "start": 186.48,
+      "end": 191.92,
+      "text": "At the same time, companies have started to build the next generation of modern data centers.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7371411919593811
+      }
+    },
+    {
+      "start": 192.00000000000003,
+      "end": 200.48000000000002,
+      "text": "What we refer to as AI factories, purpose-built to refine raw data and produce valuable intelligence",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9405847787857056
+      }
+    },
+    {
+      "start": 200.48000000000002,
+      "end": 210.16000000000003,
+      "text": "in the era of generative AI. In the fourth quarter, data center revenue of 18.4 billion was a record",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8292365074157715
+      }
+    },
+    {
+      "start": 210.16000000000003,
+      "end": 219.76000000000002,
+      "text": "of 27% sequentially, and up 409% year on year, driven by the NVIDIA Hopper GPU computing platform,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9534203410148621
+      }
+    },
+    {
+      "start": 219.76,
+      "end": 228.0,
+      "text": "along with Infinibend and End Networking. Compute revenue grew more than 5x and networking revenue",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9100308418273926
+      }
+    },
+    {
+      "start": 228.0,
+      "end": 234.64,
+      "text": "tripled from last year. We are delighted that supply of Hopper architecture products is improving.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9535267949104309
+      }
+    },
+    {
+      "start": 235.28,
+      "end": 242.48,
+      "text": "Demand for Hopper remains very strong. We expect our next generation products to be supply constrained",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7821608781814575
+      }
+    },
+    {
+      "start": 242.48000000000002,
+      "end": 250.72000000000003,
+      "text": "as demand far exceeds supply. Fourth quarter data center growth was driven by both training",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.528769314289093
+      }
+    },
+    {
+      "start": 250.72000000000003,
+      "end": 256.8,
+      "text": "and inference of generative AI and large language models across a broad set of industries,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9028580188751221
+      }
+    },
+    {
+      "start": 256.8,
+      "end": 264.16,
+      "text": "use cases, and regions. The versatility and leading performance of our data center platform enables",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7107916474342346
+      }
+    },
+    {
+      "start": 264.16,
+      "end": 271.92,
+      "text": "a high return on investment for many use cases, including AI training and inference, data processing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7411701083183289
+      }
+    },
+    {
+      "start": 271.92,
+      "end": 278.88,
+      "text": "and a broad range of CUDA accelerated workloads. We estimate in the past year approximately 40%",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7261243462562561
+      }
+    },
+    {
+      "start": 279.84000000000003,
+      "end": 288.16,
+      "text": "of data center revenue was for AI inference. Building and deploying AI solutions has reached",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8024157881736755
+      }
+    },
+    {
+      "start": 288.16,
+      "end": 294.0,
+      "text": "virtually every industry. Many companies across industries are training and operating",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9357993006706238
+      }
+    },
+    {
+      "start": 294.0,
+      "end": 300.72,
+      "text": "their AI models and services at scale. Enterprises across NVIDIA AI infrastructure",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9258328676223755
+      }
+    },
+    {
+      "start": 301.44,
+      "end": 307.6,
+      "text": "through cloud providers, including hyperscales, GPUs specialized, and private clouds,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9419731497764587
+      }
+    },
+    {
+      "start": 308.16,
+      "end": 316.8,
+      "text": "or on-premise. NVIDIA's computing stack extends seamlessly across cloud and on-premise environments,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7226664423942566
+      }
+    },
+    {
+      "start": 317.44,
+      "end": 322.8,
+      "text": "allowing customers to deploy with a multi-cloud or hybrid cloud strategy.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8000637888908386
+      }
+    },
+    {
+      "start": 324.0,
+      "end": 328.48,
+      "text": "In the fourth quarter, large cloud providers represented more than half of our data center",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.927316427230835
+      }
+    },
+    {
+      "start": 328.48,
+      "end": 334.08,
+      "text": "revenue, supporting both internal workloads and external public cloud customers.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6085553765296936
+      }
+    },
+    {
+      "start": 335.6,
+      "end": 343.36,
+      "text": "Microsoft recently noted that more than 50,000 organizations use GitHub co-pilot business to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8672057390213013
+      }
+    },
+    {
+      "start": 343.36,
+      "end": 350.4,
+      "text": "supercharge the productivity of their developers contributing to GitHub revenue growth accelerating",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8545849323272705
+      }
+    },
+    {
+      "start": 350.40000000000003,
+      "end": 358.72,
+      "text": "to 40% year on year. And co-pilot for Microsoft 365 adoption grew faster in its first two months",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.918889045715332
+      }
+    },
+    {
+      "start": 358.72,
+      "end": 364.24,
+      "text": "than the two previous major Microsoft 365 enterprise suite released instead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8468397855758667
+      }
+    },
+    {
+      "start": 365.6,
+      "end": 371.92,
+      "text": "Consumer internet companies have been early adopters of AI and represent one of our largest",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8503604531288147
+      }
+    },
+    {
+      "start": 371.92,
+      "end": 378.88000000000005,
+      "text": "customer categories, companies from search to e-commerce, social media, news and video services,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9457262754440308
+      }
+    },
+    {
+      "start": 378.88,
+      "end": 384.64,
+      "text": "and entertainment are using AI for deep learning-based recommendation systems.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.933035135269165
+      }
+    },
+    {
+      "start": 385.44,
+      "end": 392.32,
+      "text": "These AI investments are generating a strong return by improving customer engagement,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9443968534469604
+      }
+    },
+    {
+      "start": 392.32,
+      "end": 395.04,
+      "text": "add conversation, and click-throughs rates.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.942772626876831
+      }
+    },
+    {
+      "start": 396.15999999999997,
+      "end": 402.88,
+      "text": "MEDA in its latest quarter cited more accurate predictions and improved advertiser performance",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9543920755386353
+      }
+    },
+    {
+      "start": 402.88,
+      "end": 407.04,
+      "text": "as contributing to the significant acceleration in its revenue.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9498575329780579
+      }
+    },
+    {
+      "start": 407.76000000000005,
+      "end": 414.08000000000004,
+      "text": "In addition, consumer internet companies are investing in generative AI to support content",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6545530557632446
+      }
+    },
+    {
+      "start": 414.08000000000004,
+      "end": 420.40000000000003,
+      "text": "creators, advertisers, and customers through automation tools for content and ad creation,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9213398694992065
+      }
+    },
+    {
+      "start": 420.40000000000003,
+      "end": 424.64000000000004,
+      "text": "online product descriptions, and AI shopping assistance.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9479104280471802
+      }
+    },
+    {
+      "start": 426.08000000000004,
+      "end": 432.40000000000003,
+      "text": "Enterprise software companies are applying generative AI to help customers realize productivity gains.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6428828835487366
+      }
+    },
+    {
+      "start": 433.12000000000006,
+      "end": 439.84000000000003,
+      "text": "Early customers we've partnered with for both training and inference of generative AI are already",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8531108498573303
+      }
+    },
+    {
+      "start": 439.84000000000003,
+      "end": 447.20000000000005,
+      "text": "seen notable commercial success. Service now's generative AI products in their latest quarter",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6817016005516052
+      }
+    },
+    {
+      "start": 447.20000000000005,
+      "end": 454.24,
+      "text": "drove their largest ever net new annual contract value contribution of any new product family release.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7281949520111084
+      }
+    },
+    {
+      "start": 455.20000000000005,
+      "end": 460.24,
+      "text": "We are working with many other leading AI and enterprise software platforms as well,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5443453788757324
+      }
+    },
+    {
+      "start": 460.24,
+      "end": 465.76,
+      "text": "including Adobe Databricks, Getty Images, SAP, and Snowflake.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9464136958122253
+      }
+    },
+    {
+      "start": 467.2,
+      "end": 474.16,
+      "text": "The field of foundation large language models is thriving, anthropic, Google,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8437057733535767
+      }
+    },
+    {
+      "start": 474.16,
+      "end": 482.24,
+      "text": "inflection, Microsoft, OpenAI, and XAI are leading with continued amazing breakthrough",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.922557532787323
+      }
+    },
+    {
+      "start": 482.24,
+      "end": 490.32,
+      "text": "in generative AI. Exciting companies like ADEPT, AI21, Character AI, Cohere,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7863677144050598
+      }
+    },
+    {
+      "start": 490.32,
+      "end": 497.44,
+      "text": "Mistoral, Perplexity, and Runway are building platforms to serve enterprises and creators.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.877369225025177
+      }
+    },
+    {
+      "start": 498.24,
+      "end": 502.96000000000004,
+      "text": "New startups are creating LLMs to serve the specific languages,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8541560173034668
+      }
+    },
+    {
+      "start": 502.96000000000004,
+      "end": 508.88,
+      "text": "cultures, and customs of the world's many regions, and others are creating foundation",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8553650975227356
+      }
+    },
+    {
+      "start": 508.88,
+      "end": 514.96,
+      "text": "models to address entirely different industries, like recursion, pharmaceuticals,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.936598002910614
+      }
+    },
+    {
+      "start": 514.96,
+      "end": 524.32,
+      "text": "and generative biomedicines for biology. These companies are driving demand for NVIDIA AI infrastructure",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.740148663520813
+      }
+    },
+    {
+      "start": 524.32,
+      "end": 531.84,
+      "text": "through hyperscale or GPU specialized cloud providers. Just this morning, we announced that we collaborated",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9187488555908203
+      }
+    },
+    {
+      "start": 531.84,
+      "end": 539.0400000000001,
+      "text": "with Google to optimize its state-of-the-art new Gemma language models to accelerate their",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8608083128929138
+      }
+    },
+    {
+      "start": 539.0400000000001,
+      "end": 547.2,
+      "text": "inference performance on NVIDIA GPUs in the cloud, data center, and PC. One of the most notable trends",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.669555127620697
+      }
+    },
+    {
+      "start": 547.2,
+      "end": 553.76,
+      "text": "over the past year is the significant adoption of AI by enterprises across the industry verticals,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8152475357055664
+      }
+    },
+    {
+      "start": 553.76,
+      "end": 560.1600000000001,
+      "text": "such as automotive, healthcare, and financial services. NVIDIA offers multiple application",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9317671060562134
+      }
+    },
+    {
+      "start": 560.24,
+      "end": 567.8399999999999,
+      "text": "frameworks to help companies adopt AI in vertical domains, such as autonomous driving, drug discovery,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8527413010597229
+      }
+    },
+    {
+      "start": 567.8399999999999,
+      "end": 574.64,
+      "text": "low-latency machine learning for fraud detection, or robotics, leveraging our full-stack accelerated",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8489406704902649
+      }
+    },
+    {
+      "start": 574.64,
+      "end": 581.6,
+      "text": "computing platform. We estimate that data center revenue contribution of the automotive vertical",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8477323055267334
+      }
+    },
+    {
+      "start": 581.6,
+      "end": 587.6,
+      "text": "through the cloud or on-prem exceeded a billion dollars last year. NVIDIA drive infrastructure",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9317619204521179
+      }
+    },
+    {
+      "start": 587.6,
+      "end": 592.32,
+      "text": "solutions include systems and software for the development of autonomous driving,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8774125576019287
+      }
+    },
+    {
+      "start": 592.32,
+      "end": 599.6,
+      "text": "including data ingestion, creation, labeling, and AI training, plus validation through simulation.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9378335475921631
+      }
+    },
+    {
+      "start": 600.72,
+      "end": 607.2,
+      "text": "Almost 80 vehicle manufacturers across global OEMs, new energy vehicles, trucking,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8851481080055237
+      }
+    },
+    {
+      "start": 607.2,
+      "end": 616.08,
+      "text": "robotaxy, and tier one suppliers are using NVIDIA AI infrastructure to train LLMs and other AI models",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8467320799827576
+      }
+    },
+    {
+      "start": 616.08,
+      "end": 623.6,
+      "text": "for automated driving and AI cockpit applications. In effect, nearly every automotive company working",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9411927461624146
+      }
+    },
+    {
+      "start": 623.6,
+      "end": 632.0,
+      "text": "on AI is working with NVIDIA. As AV algorithms move to video transformers and more cars are",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8138543367385864
+      }
+    },
+    {
+      "start": 632.0,
+      "end": 639.2800000000001,
+      "text": "equipped with cameras, we expect NVIDIA's automotive data center processing demand to grow significantly.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9499091506004333
+      }
+    },
+    {
+      "start": 640.0799999999999,
+      "end": 647.92,
+      "text": "In healthcare, digital biology and generative AI are helping to reinvent drug discovery, surgery,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9126054048538208
+      }
+    },
+    {
+      "start": 647.92,
+      "end": 655.36,
+      "text": "medical imaging, and wearable devices. We have built deep domain expertise in healthcare over",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6562060117721558
+      }
+    },
+    {
+      "start": 655.36,
+      "end": 664.56,
+      "text": "the past decade, creating the NVIDIA Clara healthcare platform and NVIDIA BioNEMO, a generative AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8583225607872009
+      }
+    },
+    {
+      "start": 664.5600000000001,
+      "end": 671.44,
+      "text": "service to develop, customize, and deploy AI foundation models for computer aided drug discovery.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9079333543777466
+      }
+    },
+    {
+      "start": 672.4000000000001,
+      "end": 679.84,
+      "text": "BioNEMO features a growing collection of pre-trained biomolecular AI models that can be applied to the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8324245810508728
+      }
+    },
+    {
+      "start": 679.84,
+      "end": 686.8000000000001,
+      "text": "end-to-end drug discovery processes. We announced recursion is making available for the proprietary",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9051149487495422
+      }
+    },
+    {
+      "start": 686.8000000000001,
+      "end": 694.24,
+      "text": "AI model through BioNEMO for the drug discovery system. In financial services,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9259882569313049
+      }
+    },
+    {
+      "start": 694.32,
+      "end": 701.12,
+      "text": "customers are using AI for a growing set of use cases from trading and risk management",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7574530839920044
+      }
+    },
+    {
+      "start": 701.12,
+      "end": 707.44,
+      "text": "to customer service and fraud detection. For example, American Express improved fraud detection",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5361515283584595
+      }
+    },
+    {
+      "start": 707.44,
+      "end": 714.64,
+      "text": "accuracy by 6% using NVIDIA AI. Shifting to our data center revenue by geography,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.591785192489624
+      }
+    },
+    {
+      "start": 715.44,
+      "end": 720.8,
+      "text": "growth was strong across all regions except for China, where our data center revenue declined",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9462515711784363
+      }
+    },
+    {
+      "start": 720.8800000000001,
+      "end": 726.0000000000001,
+      "text": "significantly following the U.S. government export control regulations imposed in October.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.72132408618927
+      }
+    },
+    {
+      "start": 726.8000000000001,
+      "end": 731.36,
+      "text": "Although we have not received licenses from the U.S. government to ship restricted products to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8313906788825989
+      }
+    },
+    {
+      "start": 731.36,
+      "end": 737.2,
+      "text": "China, we have started shipping alternatives that don't require license for the China market.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7705775499343872
+      }
+    },
+    {
+      "start": 738.4000000000001,
+      "end": 743.2,
+      "text": "China represented a mid-single-digit percentage of our data center revenue in Q4,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8793982267379761
+      }
+    },
+    {
+      "start": 743.84,
+      "end": 748.2400000000001,
+      "text": "and we expect it to stay in a similar range in the first quarter.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9062996506690979
+      }
+    },
+    {
+      "start": 749.2,
+      "end": 755.36,
+      "text": "In regions outside of the U.S. and China, sovereign AI has become an additional demand driver.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.699543833732605
+      }
+    },
+    {
+      "start": 756.0,
+      "end": 761.76,
+      "text": "Countries around the world are investing in AI infrastructure to support the building of large",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6289837956428528
+      }
+    },
+    {
+      "start": 761.76,
+      "end": 768.4,
+      "text": "language models in their own language on domestic data and in support of their local research and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9271187782287598
+      }
+    },
+    {
+      "start": 768.4,
+      "end": 775.6,
+      "text": "enterprise ecosystems. From a product perspective, the vast majority of revenue was driven by",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.939958393573761
+      }
+    },
+    {
+      "start": 775.76,
+      "end": 781.9200000000001,
+      "text": "our Hopper architecture along with Infinibon networking. Together, they have emerged as the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8166428208351135
+      }
+    },
+    {
+      "start": 781.9200000000001,
+      "end": 790.8000000000001,
+      "text": "de facto standard for accelerated computing and AI infrastructure. We are on track to ramp H200",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8248940110206604
+      }
+    },
+    {
+      "start": 790.8000000000001,
+      "end": 798.16,
+      "text": "with initial shipments in the second quarter. Demand is strong as H200 nearly doubles the inference",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9554687738418579
+      }
+    },
+    {
+      "start": 798.24,
+      "end": 807.1999999999999,
+      "text": "performance of H100. Networking exceeded a $13 billion annualized revenue run rate.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9474952816963196
+      }
+    },
+    {
+      "start": 807.76,
+      "end": 814.56,
+      "text": "Our end-to-end networking solutions define modern AI data centers. Our quantum Infinibon",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8746423125267029
+      }
+    },
+    {
+      "start": 814.56,
+      "end": 822.48,
+      "text": "solutions grew more than 5x year-on-year. NVIDIA Quantum Infinibon is the standard for the highest",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5347151756286621
+      }
+    },
+    {
+      "start": 822.48,
+      "end": 829.52,
+      "text": "performance AI dedicated infrastructures. We are now entering the ethernet networking space",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8509683012962341
+      }
+    },
+    {
+      "start": 829.52,
+      "end": 836.88,
+      "text": "with the launch of our new spectrum X end-to-end offering designed for an AI optimized networking",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5793907642364502
+      }
+    },
+    {
+      "start": 836.88,
+      "end": 843.6,
+      "text": "for the data center. spectrum X introduces new technologies over ethernet that are purpose-built",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7511651515960693
+      }
+    },
+    {
+      "start": 843.6,
+      "end": 852.16,
+      "text": "for AI. Technologies incorporated in our spectrum switch, bluefield, DPU, and software stack deliver",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9211499094963074
+      }
+    },
+    {
+      "start": 852.16,
+      "end": 859.1999999999999,
+      "text": "1.6x higher networking performance for AI processing compared with traditional ethernet.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.944440484046936
+      }
+    },
+    {
+      "start": 860.64,
+      "end": 867.6,
+      "text": "Meeting all the ends including Dell, HPE, Lenovo, and Supermicro with their global sales channels",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7805325388908386
+      }
+    },
+    {
+      "start": 867.6,
+      "end": 874.4,
+      "text": "are partnering with us to expand our AI solution to enterprises worldwide. We are on track to ship",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8909370303153992
+      }
+    },
+    {
+      "start": 874.4,
+      "end": 881.36,
+      "text": "spectrum X this quarter. We also made great progress with our software and services offerings",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9328240752220154
+      }
+    },
+    {
+      "start": 881.44,
+      "end": 888.48,
+      "text": "which reached an annualized revenue run rate of $1 billion in Q4. We announced that NVIDIA",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6799010634422302
+      }
+    },
+    {
+      "start": 888.48,
+      "end": 896.08,
+      "text": "DGX Cloud will expand its list of partners to include Amazon's AWS, joining Microsoft Azure,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5847147703170776
+      }
+    },
+    {
+      "start": 896.08,
+      "end": 905.76,
+      "text": "Google Cloud, and Oracle Cloud. DGX Cloud is used for NVIDIA's own AI R&D and custom model development",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9551461338996887
+      }
+    },
+    {
+      "start": 905.76,
+      "end": 912.56,
+      "text": "as well as NVIDIA developers. It brings the CUDA ecosystem to NVIDIA CSP partners.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7697350978851318
+      }
+    },
+    {
+      "start": 913.76,
+      "end": 922.3199999999999,
+      "text": "Okay, moving to gaming. Gaming revenue was $2.87 billion with flat sequentially and up 56 percent",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8442461490631104
+      }
+    },
+    {
+      "start": 922.3199999999999,
+      "end": 928.96,
+      "text": "year on year, better than our outlook on solid consumer demand for NVIDIA GeForce RTX GPUs during",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9568728804588318
+      }
+    },
+    {
+      "start": 928.96,
+      "end": 938.8000000000001,
+      "text": "holidays. Fiscal year revenue of $10.45 billion was up 15 percent. As CES, we announced our GeForce",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8176153898239136
+      }
+    },
+    {
+      "start": 938.8000000000001,
+      "end": 948.72,
+      "text": "RTX 40 super series family of GPUs. Starting at $599, they deliver incredible gaming performance",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8473300337791443
+      }
+    },
+    {
+      "start": 948.72,
+      "end": 956.24,
+      "text": "and generative AI capabilities. Sales are off to a great start. NVIDIA AI tensor cores in the GPUs",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8370115160942078
+      }
+    },
+    {
+      "start": 956.32,
+      "end": 966.0,
+      "text": "deliver up to 836 AI tops. Perfect for calling AI for gaming, creating, and everyday productivity.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.845362663269043
+      }
+    },
+    {
+      "start": 967.28,
+      "end": 975.2,
+      "text": "The rich software stack we offer with our RTX GPUs further accelerates AI. With our DLSS",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8770197629928589
+      }
+    },
+    {
+      "start": 975.2,
+      "end": 982.64,
+      "text": "technology, seven out of eight pixels can be AI generated, resulting up to four X faster",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9026191830635071
+      }
+    },
+    {
+      "start": 982.64,
+      "end": 989.84,
+      "text": "ray tracing and better image quality. And with the tensor RT LLM for Windows, our open source",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5802732706069946
+      }
+    },
+    {
+      "start": 989.84,
+      "end": 995.6,
+      "text": "library that accelerates inference performance for the latest large language models, generative AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7196012139320374
+      }
+    },
+    {
+      "start": 995.6,
+      "end": 1007.12,
+      "text": "can run up to five X faster on RTX AI PCs. At CES, we also announced a wave of new RTX 40 series",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5520832538604736
+      }
+    },
+    {
+      "start": 1007.2,
+      "end": 1014.32,
+      "text": "AI laptops from every major OEM. These bring high performance gaming and AI capabilities",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.813228964805603
+      }
+    },
+    {
+      "start": 1014.32,
+      "end": 1021.52,
+      "text": "to a wide range of form factors, including 14-inch and thin and light laptops. With up to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8647212386131287
+      }
+    },
+    {
+      "start": 1021.52,
+      "end": 1029.68,
+      "text": "686 tops of AI performance, these next generations AI PCs increase generative AI performance by up",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9357938766479492
+      }
+    },
+    {
+      "start": 1029.68,
+      "end": 1038.8,
+      "text": "to 60 X, making them the best performing AI PC platforms. At CES, we announced NVIDIA",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7789164185523987
+      }
+    },
+    {
+      "start": 1038.8,
+      "end": 1045.04,
+      "text": "Avatar Cloud Engine microservices, which allowed developers to integrate state-of-the-art",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7943342924118042
+      }
+    },
+    {
+      "start": 1045.04,
+      "end": 1053.6000000000001,
+      "text": "generative AI models into digital avatars, ACE, when several best of CES 2024 awards.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7436640858650208
+      }
+    },
+    {
+      "start": 1054.56,
+      "end": 1061.28,
+      "text": "NVIDIA has an end-to-end platform for building and deploying generative AI applications for RTX",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8304164409637451
+      }
+    },
+    {
+      "start": 1061.28,
+      "end": 1068.8,
+      "text": "PCs and workstations. This includes libraries, SDKs, tools, and services developers can incorporate",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9525046944618225
+      }
+    },
+    {
+      "start": 1068.8,
+      "end": 1075.52,
+      "text": "into their generative AI workflows. NVIDIA is fueling the next wave of generative AI applications",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7871748805046082
+      }
+    },
+    {
+      "start": 1075.6,
+      "end": 1084.4,
+      "text": "coming to the PC. With over 100 million RTX PCs in the installed base and over 500 AI-enabled",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8248986601829529
+      }
+    },
+    {
+      "start": 1084.4,
+      "end": 1091.6,
+      "text": "PC applications and games, we are on our way. Moving to pro visualization,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7016557455062866
+      }
+    },
+    {
+      "start": 1092.8,
+      "end": 1100.8,
+      "text": "revenue of 463 million was up 11% sequentially and up 105% year on year.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9571108818054199
+      }
+    },
+    {
+      "start": 1101.68,
+      "end": 1108.96,
+      "text": "Fiscal year revenue of 1.55 billion was up 1%. Sequential growth in the quarter was driven",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9594006538391113
+      }
+    },
+    {
+      "start": 1108.96,
+      "end": 1116.32,
+      "text": "by a rich mix of RTX data architecture GPUs continuing to ramp. Enterprises are refreshing",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6240394115447998
+      }
+    },
+    {
+      "start": 1116.32,
+      "end": 1122.08,
+      "text": "their workstations to support generative AI related workloads such as data preparation,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.92293381690979
+      }
+    },
+    {
+      "start": 1122.08,
+      "end": 1131.36,
+      "text": "LLM fine tuning, and retrieval augmented generation. These key industrial verticals driving demand",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8437854647636414
+      }
+    },
+    {
+      "start": 1131.36,
+      "end": 1138.0,
+      "text": "include manufacturing, automotive, and robotics. The automotive industry has also been an early",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8870751261711121
+      }
+    },
+    {
+      "start": 1138.0,
+      "end": 1145.1999999999998,
+      "text": "adopter of NVIDIA Omniverse as it seeks to digitalize workflows from design to build,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8593976497650146
+      }
+    },
+    {
+      "start": 1145.28,
+      "end": 1152.48,
+      "text": "simulate, operate, and experience their factories and cars. At CES, we announced that creative",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9168958067893982
+      }
+    },
+    {
+      "start": 1152.48,
+      "end": 1159.6000000000001,
+      "text": "partners and developers including Brickland, WPP, and ZeroLight are building Omniverse-powered",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8653590679168701
+      }
+    },
+    {
+      "start": 1159.6000000000001,
+      "end": 1166.8,
+      "text": "car configurations, leading automakers like Lotus are adopting the technology to bring new levels",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7181312441825867
+      }
+    },
+    {
+      "start": 1166.8,
+      "end": 1172.72,
+      "text": "of personalization, realism, and interactivity to the car buying experience.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8483237028121948
+      }
+    },
+    {
+      "start": 1172.8,
+      "end": 1182.4,
+      "text": "Moving to automotive, revenue was 281 million up 8% sequentially and down 4% year on year.",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9614319205284119
+      }
+    },
+    {
+      "start": 1183.04,
+      "end": 1191.76,
+      "text": "Fiscal year revenue of 1.09 billion was up 21%, crossing the 1 billion mark for the first time on",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9563482999801636
+      }
+    },
+    {
+      "start": 1191.76,
+      "end": 1200.4,
+      "text": "continued adoption of the NVIDIA drive platform by automakers. NVIDIA drive Oren is the AI car",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6902888417243958
+      }
+    },
+    {
+      "start": 1200.48,
+      "end": 1208.8000000000002,
+      "text": "computer of choice for software-defined AV fleets. Its successor NVIDIA drive 4 designed for vision",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8574308753013611
+      }
+    },
+    {
+      "start": 1208.8000000000002,
+      "end": 1216.8000000000002,
+      "text": "transformers, Oren offers more AI performance and integrates a wide range of intelligent capabilities",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5362256169319153
+      }
+    },
+    {
+      "start": 1216.8000000000002,
+      "end": 1225.2,
+      "text": "into a single AI compute platform including autonomous driving and parking, driver and passenger monitoring",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9048754572868347
+      }
+    },
+    {
+      "start": 1225.2,
+      "end": 1232.48,
+      "text": "and AI cockpit functionality and will be available next year. There was so that several automotive",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8279865384101868
+      }
+    },
+    {
+      "start": 1232.48,
+      "end": 1240.56,
+      "text": "customer announcements this quarter. Leato, Great Wall Motor, Zika, the premium EV subsidiary of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9316529631614685
+      }
+    },
+    {
+      "start": 1240.56,
+      "end": 1250.16,
+      "text": "DOE, and Xiaomi EV, all announced new vehicles built on NVIDIA. Moving to the rest of the P&L,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8577131032943726
+      }
+    },
+    {
+      "start": 1251.1200000000001,
+      "end": 1259.28,
+      "text": "gap growth margins expanded sequentially to 76% and non-gap growth margins to 76.7%",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9535496234893799
+      }
+    },
+    {
+      "start": 1260.16,
+      "end": 1268.24,
+      "text": "on strong data center growth and mix. Our growth margins in Q4 benefited from favorable component",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9576953649520874
+      }
+    },
+    {
+      "start": 1268.24,
+      "end": 1276.5600000000002,
+      "text": "costs. Sequentially, gap operating expenses were up 6% and non-gap operating expenses were up",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9555208086967468
+      }
+    },
+    {
+      "start": 1276.6399999999999,
+      "end": 1283.28,
+      "text": "9%, primarily reflecting higher compute and infrastructure investment and employee growth.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9523911476135254
+      }
+    },
+    {
+      "start": 1284.48,
+      "end": 1291.76,
+      "text": "In Q4, we returned 2.8 billion to shareholders in the form of share repurchases and cash dividends.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8848308324813843
+      }
+    },
+    {
+      "start": 1292.32,
+      "end": 1300.96,
+      "text": "During fiscal year 24, we utilized cash of 9.9 billion towards shareholder returns including",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.515887439250946
+      }
+    },
+    {
+      "start": 1301.04,
+      "end": 1309.8400000000001,
+      "text": "9.5 billion in share repurchases. Let me turn to the outlook for the first quarter. Total revenue",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8812159299850464
+      }
+    },
+    {
+      "start": 1309.8400000000001,
+      "end": 1320.0,
+      "text": "is expected to be 24 billion plus or minus 2%. We expect sequential growth in data center and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9226258993148804
+      }
+    },
+    {
+      "start": 1320.0,
+      "end": 1328.8,
+      "text": "provis partially offset by seasonal decline in gaming. Gap and non-gap growth margins are expected",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.8177597522735596
+      }
+    },
+    {
+      "start": 1328.8,
+      "end": 1341.12,
+      "text": "to be 76.3% and 77% respectively plus or minus 50 basis points. Similar to Q4, Q1 growth margins",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5782666206359863
+      }
+    },
+    {
+      "start": 1341.12,
+      "end": 1349.2,
+      "text": "are benefiting from favorable component costs. Beyond Q1, for the remainder of the year,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8884174227714539
+      }
+    },
+    {
+      "start": 1349.2,
+      "end": 1357.84,
+      "text": "we expect growth margins to return to the mid-70s percent range. Gap and non-gap operating expenses",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7905805110931396
+      }
+    },
+    {
+      "start": 1357.84,
+      "end": 1364.6399999999999,
+      "text": "are expected to be approximately 3.5 billion and 2.5 billion respectively.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9314369559288025
+      }
+    },
+    {
+      "start": 1365.52,
+      "end": 1372.9599999999998,
+      "text": "Fiscal year 2025, gap and non-gap operating expenses are expected to grow in the mid-30%",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8970489501953125
+      }
+    },
+    {
+      "start": 1372.9599999999998,
+      "end": 1380.1599999999999,
+      "text": "range as we continue to invest in the large opportunities ahead of us. Gap and non-gap,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8311100602149963
+      }
+    },
+    {
+      "start": 1380.1599999999999,
+      "end": 1386.24,
+      "text": "other income and expenses are expected to be an income of approximately 250 million,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9474411606788635
+      }
+    },
+    {
+      "start": 1386.32,
+      "end": 1393.2,
+      "text": "excluding gains and losses from non-affiliated investments. Gap and non-gap tax rates are",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9463232755661011
+      }
+    },
+    {
+      "start": 1393.2,
+      "end": 1403.76,
+      "text": "expected to be 17% plus or minus 1% excluding any discrete items. Further financial details are",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9493008255958557
+      }
+    },
+    {
+      "start": 1403.76,
+      "end": 1411.52,
+      "text": "included in the CFO commentary and other information available on our IR website. In closing, let me",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9471158385276794
+      }
+    },
+    {
+      "start": 1411.52,
+      "end": 1417.6,
+      "text": "highlight some upcoming events for the financial community. We will attend the Morgan Stanley",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9387168288230896
+      }
+    },
+    {
+      "start": 1417.6,
+      "end": 1425.2,
+      "text": "Technology and Media and Telecom Conference in San Francisco on March 4th and the TD Cohen's",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9464191794395447
+      }
+    },
+    {
+      "start": 1425.2,
+      "end": 1433.68,
+      "text": "44th annual healthcare conference in Boston on March 5th. And of course, please join us for our annual",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9207740426063538
+      }
+    },
+    {
+      "start": 1433.68,
+      "end": 1441.68,
+      "text": "GTC conference starting Monday, March 18th in San Jose, California. To be held in person for the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9416765570640564
+      }
+    },
+    {
+      "start": 1441.68,
+      "end": 1448.88,
+      "text": "first time in five years, GTC will kick off with Jensen's keynote and we will host a Q&A session",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7143131494522095
+      }
+    },
+    {
+      "start": 1448.88,
+      "end": 1458.48,
+      "text": "for financial analysts the next day, March 19th. Time. We are now open to call for questions.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9323267340660095
+      }
+    },
+    {
+      "start": 1458.48,
+      "end": 1464.48,
+      "text": "Operator, would you please pull for questions? At this time, I would like to remind everyone",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9161627888679504
+      }
+    },
+    {
+      "start": 1464.48,
+      "end": 1469.84,
+      "text": "in order to ask a question, press star, then the number one on your telephone keypad. We'll pause",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9441313743591309
+      }
+    },
+    {
+      "start": 1469.84,
+      "end": 1475.3600000000001,
+      "text": "for just a moment to compile the Q&A roster. As a reminder, please limit yourself to one question.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.929807186126709
+      }
+    },
+    {
+      "start": 1476.24,
+      "end": 1481.2,
+      "text": "Your first question comes from a line of Tashiahari from Goldman Sachs. Your line is open.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9371285438537598
+      }
+    },
+    {
+      "start": 1483.1200000000001,
+      "end": 1487.2,
+      "text": "Hi, thank you so much for taking the question and congratulations on the really strong results.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8762345910072327
+      }
+    },
+    {
+      "start": 1488.0800000000002,
+      "end": 1495.04,
+      "text": "My question is for Jensen on the data center business. Clearly, you're doing extremely well",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.825222373008728
+      }
+    },
+    {
+      "start": 1496.0,
+      "end": 1504.24,
+      "text": "in the business. I'm curious how your expectations for calendar 24 and 25 have evolved over the past",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.927772045135498
+      }
+    },
+    {
+      "start": 1504.24,
+      "end": 1510.24,
+      "text": "90 days. As you answer the question, I was hoping you can touch on some of the newer buckets within",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7947682738304138
+      }
+    },
+    {
+      "start": 1510.24,
+      "end": 1515.68,
+      "text": "data center, things like software, sovereign AI. I think you've been pretty vocal about how to think",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.904346227645874
+      }
+    },
+    {
+      "start": 1515.68,
+      "end": 1520.8,
+      "text": "about that medium to long-term. Recently, there was an article about NVIDIA potentially",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9226476550102234
+      }
+    },
+    {
+      "start": 1520.8,
+      "end": 1525.3600000000001,
+      "text": "participating in the ASIC market. Is there any credence to that? And if so,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8928558826446533
+      }
+    },
+    {
+      "start": 1525.3600000000001,
+      "end": 1529.8400000000001,
+      "text": "in how should we think about you guys playing in that market over the next several years?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9330061674118042
+      }
+    },
+    {
+      "start": 1529.8400000000001,
+      "end": 1541.28,
+      "text": "Thank you. Thanks, Tashiah. Let's see. There were three questions. One more time. First question",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9206576347351074
+      }
+    },
+    {
+      "start": 1542.16,
+      "end": 1548.08,
+      "text": "was, can you? Well, I guess your expectations for data center, how they've evolved. Thank you.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6809460520744324
+      }
+    },
+    {
+      "start": 1549.36,
+      "end": 1557.68,
+      "text": "Okay, yeah. Well, you know, we guide one quarter at a time, but fundamentally, the conditions",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.905949056148529
+      }
+    },
+    {
+      "start": 1558.8,
+      "end": 1566.72,
+      "text": "are excellent for continued growth, calendar 24, calendar 25, and beyond. And let me tell you why.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8411745429039001
+      }
+    },
+    {
+      "start": 1567.6000000000001,
+      "end": 1576.64,
+      "text": "We're at the beginning of two industry-wide transitions, and both of them are industry-wide.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6665433645248413
+      }
+    },
+    {
+      "start": 1576.64,
+      "end": 1583.68,
+      "text": "The first one is a transition from general to accelerated computing. General purpose computing,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9170558452606201
+      }
+    },
+    {
+      "start": 1583.68,
+      "end": 1590.8,
+      "text": "as you know, is starting to run out of steam. And you could tell by the CSPs extending and many",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5917733907699585
+      }
+    },
+    {
+      "start": 1590.8,
+      "end": 1595.92,
+      "text": "data centers, including our own, for general purpose computing, extending the depreciation",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5594205856323242
+      }
+    },
+    {
+      "start": 1595.92,
+      "end": 1601.3600000000001,
+      "text": "from four to six years. There's just no reason to update with more CPUs when you can't fundamentally",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.899341344833374
+      }
+    },
+    {
+      "start": 1601.3600000000001,
+      "end": 1607.6000000000001,
+      "text": "and dramatically enhance its throughput, like you're used to. And so you have to accelerate",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8414484262466431
+      }
+    },
+    {
+      "start": 1607.6000000000001,
+      "end": 1612.64,
+      "text": "everything. This is what NVIDIA has been pioneering for some time. And with accelerated computing,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8382308483123779
+      }
+    },
+    {
+      "start": 1612.64,
+      "end": 1619.04,
+      "text": "you could dramatically improve your energy efficiency. You can dramatically improve your cost",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8897992968559265
+      }
+    },
+    {
+      "start": 1619.84,
+      "end": 1626.56,
+      "text": "in data processing by 20 to 1, huge numbers, and of course, the speed.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.892741322517395
+      }
+    },
+    {
+      "start": 1627.84,
+      "end": 1635.76,
+      "text": "That speed is so incredible that we enabled a second industry-wide transition called generative",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7038817405700684
+      }
+    },
+    {
+      "start": 1635.76,
+      "end": 1641.04,
+      "text": "AI. Generative AI, I'm sure we're going to talk plenty about it during the call.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9009134769439697
+      }
+    },
+    {
+      "start": 1641.76,
+      "end": 1648.8799999999999,
+      "text": "But remember, generative AI is a new application. It is enabling a new way of doing software.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8081802725791931
+      }
+    },
+    {
+      "start": 1648.88,
+      "end": 1655.44,
+      "text": "New types of software being created. It is a new way of computing. You can't do generative AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8757708668708801
+      }
+    },
+    {
+      "start": 1655.44,
+      "end": 1662.16,
+      "text": "on traditional general purpose computing. You have to accelerate it. And the third is it is",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9171106219291687
+      }
+    },
+    {
+      "start": 1662.16,
+      "end": 1669.2,
+      "text": "enabling a whole new industry. And this is something worthwhile to take a step back and look at,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8150786757469177
+      }
+    },
+    {
+      "start": 1669.2,
+      "end": 1675.0400000000002,
+      "text": "and it connects to your last question about sovereign AI. A whole new industry in the sense",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8854879140853882
+      }
+    },
+    {
+      "start": 1675.04,
+      "end": 1681.2,
+      "text": "that for the very first time a data center is not just about computing data and storing data",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.93001788854599
+      }
+    },
+    {
+      "start": 1681.2,
+      "end": 1689.6,
+      "text": "and serving the employees of a company. We now have a new type of data center that is about AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9259402751922607
+      }
+    },
+    {
+      "start": 1690.96,
+      "end": 1697.36,
+      "text": "generation and AI generation factory. And you've heard me describe it as AI factories.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9213032722473145
+      }
+    },
+    {
+      "start": 1698.2400000000002,
+      "end": 1706.2400000000002,
+      "text": "But basically, it takes raw material, which is data. It transforms it with these AI supercomputers",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9429619312286377
+      }
+    },
+    {
+      "start": 1706.2400000000002,
+      "end": 1714.88,
+      "text": "that NVIDIA builds, and it turns them into incredibly valuable tokens. These tokens are",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9156158566474915
+      }
+    },
+    {
+      "start": 1714.88,
+      "end": 1721.2800000000002,
+      "text": "what people experience on the amazing chat GPT, or mid-journey, or",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9301438927650452
+      }
+    },
+    {
+      "start": 1722.24,
+      "end": 1730.16,
+      "text": "you know, search these days are augmented by that. All of your recommender systems are now",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.934658944606781
+      }
+    },
+    {
+      "start": 1730.16,
+      "end": 1735.36,
+      "text": "augmented by that. The hyper personalization that goes along with it. All of these incredible",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9011037349700928
+      }
+    },
+    {
+      "start": 1735.36,
+      "end": 1743.2,
+      "text": "startups and digital biology, generating proteins and generating chemicals, and the list goes on.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9458240270614624
+      }
+    },
+    {
+      "start": 1743.2,
+      "end": 1750.8799999999999,
+      "text": "And so all of these tokens are generated in a very specialized type of data center.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9368299841880798
+      }
+    },
+    {
+      "start": 1751.36,
+      "end": 1757.92,
+      "text": "And this data center we call AI supercomputers and AI generation factories. But we're seeing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9332489371299744
+      }
+    },
+    {
+      "start": 1757.92,
+      "end": 1765.12,
+      "text": "diversity. One of the other reasons, so the foundation is that the way it manifests into",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9195078015327454
+      }
+    },
+    {
+      "start": 1765.76,
+      "end": 1773.52,
+      "text": "new markets is in all of the diversity that you're seeing us in. One, the amount of inference that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8613913655281067
+      }
+    },
+    {
+      "start": 1773.52,
+      "end": 1779.52,
+      "text": "we do is just off the charts now. Almost every single time you interact with chat GPT, you know",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5862762928009033
+      }
+    },
+    {
+      "start": 1779.52,
+      "end": 1784.0,
+      "text": "that we're inferencing. Every time you use mid-journey, we're inferencing. Every time you see amazing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9310848712921143
+      }
+    },
+    {
+      "start": 1784.0,
+      "end": 1788.6399999999999,
+      "text": "these sort of videos that are being generated or run way, the videos that they're editing,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8568717241287231
+      }
+    },
+    {
+      "start": 1789.28,
+      "end": 1796.08,
+      "text": "firefly, NVIDIA is doing inferencing. The inference part of our business has grown",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9216614961624146
+      }
+    },
+    {
+      "start": 1796.08,
+      "end": 1802.24,
+      "text": "tremendously. We estimate about 40%. The amount of training is continuing because these models",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.615841269493103
+      }
+    },
+    {
+      "start": 1802.24,
+      "end": 1806.8,
+      "text": "are getting larger and larger. The amount of inference is increasing. But we're also diversifying",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5555113554000854
+      }
+    },
+    {
+      "start": 1806.8,
+      "end": 1815.6,
+      "text": "into new industries. The large CSPs are still continuing to build out. You could see from",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7575122714042664
+      }
+    },
+    {
+      "start": 1815.6,
+      "end": 1821.84,
+      "text": "their CAPEX and their discussions. But there's a whole new category called GPU specialized",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9193677306175232
+      }
+    },
+    {
+      "start": 1822.8799999999999,
+      "end": 1831.04,
+      "text": "CSPs. They specialize in NVIDIA AI infrastructure, GPU specialized CSPs. You're seeing enterprise",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8928879499435425
+      }
+    },
+    {
+      "start": 1831.04,
+      "end": 1837.52,
+      "text": "software platforms deploying AI. ServiceNow is just a really, really great example.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7394952774047852
+      }
+    },
+    {
+      "start": 1837.52,
+      "end": 1843.6,
+      "text": "You see Adobe. You see others, SAP and others. You see consumer internet services that are now",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9425621628761292
+      }
+    },
+    {
+      "start": 1844.1599999999999,
+      "end": 1849.76,
+      "text": "augmenting all of their services of the past with generative AI so they can have even more",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8315573930740356
+      }
+    },
+    {
+      "start": 1849.76,
+      "end": 1857.84,
+      "text": "hyper-personalized content to be created. You see us talking about industrial generative AI.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9386518001556396
+      }
+    },
+    {
+      "start": 1858.3200000000002,
+      "end": 1866.5600000000002,
+      "text": "Our industries represent multi-billion dollar businesses, auto health, financial services,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9209169745445251
+      }
+    },
+    {
+      "start": 1867.7600000000002,
+      "end": 1871.7600000000002,
+      "text": "in total our vertical industries, our multi-billion dollar businesses now.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8807562589645386
+      }
+    },
+    {
+      "start": 1872.4,
+      "end": 1879.5200000000002,
+      "text": "And of course, Sovereign AI. The reason for Sovereign AI has to do with the fact that the language,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9257829189300537
+      }
+    },
+    {
+      "start": 1880.32,
+      "end": 1888.56,
+      "text": "the knowledge, the history, the culture of each region are different. And they own their own data.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9218900799751282
+      }
+    },
+    {
+      "start": 1889.12,
+      "end": 1894.96,
+      "text": "They would like to use their data, train it with to create their own digital intelligence",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9025111198425293
+      }
+    },
+    {
+      "start": 1895.6,
+      "end": 1902.4,
+      "text": "and provision it to harness that raw material themselves. It belongs to them. Each one of the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9500445127487183
+      }
+    },
+    {
+      "start": 1902.4,
+      "end": 1908.08,
+      "text": "regions around the world. The data belongs to them. The data is most useful to their society.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9230166673660278
+      }
+    },
+    {
+      "start": 1908.08,
+      "end": 1913.4399999999998,
+      "text": "And so they want to protect the data. They want to transform it themselves, value added",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8750298023223877
+      }
+    },
+    {
+      "start": 1913.4399999999998,
+      "end": 1921.6,
+      "text": "transformation into AI and provision those services themselves. So we're seeing Sovereign AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7709110975265503
+      }
+    },
+    {
+      "start": 1922.72,
+      "end": 1933.28,
+      "text": "infrastructures being built in Japan, in Canada, in France, so many other regions.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8135871291160583
+      }
+    },
+    {
+      "start": 1934.16,
+      "end": 1940.48,
+      "text": "And so my expectation is that what is being experienced here in the United States and the West",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8160195350646973
+      }
+    },
+    {
+      "start": 1941.44,
+      "end": 1948.8,
+      "text": "will surely be replicated around the world. And these AI generation factories are going to be",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7640810012817383
+      }
+    },
+    {
+      "start": 1948.8,
+      "end": 1958.8799999999999,
+      "text": "in every industry, every company, every region. And so I think the last year we've seen generative",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.762988269329071
+      }
+    },
+    {
+      "start": 1958.96,
+      "end": 1965.2,
+      "text": "AI really becoming a whole new application space, a whole new way of doing computing,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8603042960166931
+      }
+    },
+    {
+      "start": 1965.2,
+      "end": 1968.88,
+      "text": "a whole new industry is being formed. And that's driving our growth.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7634612917900085
+      }
+    },
+    {
+      "start": 1971.0400000000002,
+      "end": 1975.6000000000001,
+      "text": "Your next question comes from a line of Joe Moore from Morgan Stanley. Your line is open.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9302635788917542
+      }
+    },
+    {
+      "start": 1977.44,
+      "end": 1982.3200000000002,
+      "text": "Great. Thank you. I wanted to follow up on the 40% of revenues coming from inference.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6469519734382629
+      }
+    },
+    {
+      "start": 1983.0400000000002,
+      "end": 1987.68,
+      "text": "That's a bigger number than I expected. Can you give us some sense of where that number",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9135212302207947
+      }
+    },
+    {
+      "start": 1987.68,
+      "end": 1992.88,
+      "text": "was maybe a year before? How much you're seeing growth around LLMs from inference?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6969242691993713
+      }
+    },
+    {
+      "start": 1993.92,
+      "end": 1998.5600000000002,
+      "text": "And how are you measuring that? I assume it's, in some cases, the same GPUs we use for training",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9234845638275146
+      }
+    },
+    {
+      "start": 1998.5600000000002,
+      "end": 2002.3200000000002,
+      "text": "in inference. How solid is that measurement? Thank you.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7512362599372864
+      }
+    },
+    {
+      "start": 2004.64,
+      "end": 2012.72,
+      "text": "I'll go backwards. The estimate is probably understated. But we estimated it. And let me tell you why.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8222166895866394
+      }
+    },
+    {
+      "start": 2013.44,
+      "end": 2022.96,
+      "text": "Whenever a year ago, a year ago, the recommender systems that people are, when you run the internet,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9239864945411682
+      }
+    },
+    {
+      "start": 2022.96,
+      "end": 2029.76,
+      "text": "the news, the videos, the music, the products that are being recommended to you, because as you know,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9210987091064453
+      }
+    },
+    {
+      "start": 2029.76,
+      "end": 2036.08,
+      "text": "the internet has trillions, I don't know how many trillions, but trillions of things out there.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9178217649459839
+      }
+    },
+    {
+      "start": 2036.5600000000002,
+      "end": 2044.9600000000003,
+      "text": "And your phone is three inches squared. And so the ability for them to fit all of that information",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9196050763130188
+      }
+    },
+    {
+      "start": 2044.9600000000003,
+      "end": 2050.6400000000003,
+      "text": "down to something such a small real estate is through a system, an amazing system called",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.928065836429596
+      }
+    },
+    {
+      "start": 2050.6400000000003,
+      "end": 2059.76,
+      "text": "recommender systems. These recommender systems used to be all based on CPU approaches.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.938363790512085
+      }
+    },
+    {
+      "start": 2060.6400000000003,
+      "end": 2068.48,
+      "text": "But the recent migration to deep learning and now generative AI has really put these recommender",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8467943072319031
+      }
+    },
+    {
+      "start": 2068.48,
+      "end": 2075.6800000000003,
+      "text": "systems now directly into the path of GPU acceleration. It needs GPU acceleration for the embeddings,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9383023381233215
+      }
+    },
+    {
+      "start": 2075.6800000000003,
+      "end": 2079.92,
+      "text": "it needs GPU acceleration for the nearest neighbor search, it needs GPU acceleration for",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9260004162788391
+      }
+    },
+    {
+      "start": 2079.92,
+      "end": 2087.2000000000003,
+      "text": "rewanking, and it needs GPU acceleration to generate the augmented information for you.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9273675680160522
+      }
+    },
+    {
+      "start": 2087.2,
+      "end": 2093.12,
+      "text": "So GPUs are in every single step of a recommender system now. And as you know,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9241892695426941
+      }
+    },
+    {
+      "start": 2093.12,
+      "end": 2102.08,
+      "text": "recommender system is the single largest software engine on the planet. Almost every major company",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9324514269828796
+      }
+    },
+    {
+      "start": 2102.08,
+      "end": 2107.12,
+      "text": "in the world has to run these large recommender systems. Whenever you use chat GPT as being",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9457750916481018
+      }
+    },
+    {
+      "start": 2107.12,
+      "end": 2112.64,
+      "text": "inference, whenever you hear about mid-journey and just the number of things that they're",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9034623503684998
+      }
+    },
+    {
+      "start": 2112.64,
+      "end": 2121.2,
+      "text": "generating for consumers, when you see Getty, the work that we do with Getty and Firefly from Adobe,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9214025139808655
+      }
+    },
+    {
+      "start": 2121.2,
+      "end": 2128.64,
+      "text": "these are all generative models. The list goes on. And none of these, just as I mentioned,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9182528257369995
+      }
+    },
+    {
+      "start": 2128.64,
+      "end": 2131.04,
+      "text": "existed a year ago. 100% new.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9239506721496582
+      }
+    },
+    {
+      "start": 2133.68,
+      "end": 2138.96,
+      "text": "Your next question comes from a line of Stacey Raskin from Bernstein Research. Your line is open.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9351696372032166
+      }
+    },
+    {
+      "start": 2139.92,
+      "end": 2145.92,
+      "text": "Hi guys, thanks for taking my question. I wanted to, Collette, I wanted to touch on your",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7806356549263
+      }
+    },
+    {
+      "start": 2145.92,
+      "end": 2150.96,
+      "text": "comments that you expected the next generation of products. I see them at Blackwell to be supply",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9004853367805481
+      }
+    },
+    {
+      "start": 2150.96,
+      "end": 2157.84,
+      "text": "constrained. Can you dig into that a little bit? What is the driver of that? Why does that get",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8596314787864685
+      }
+    },
+    {
+      "start": 2157.84,
+      "end": 2163.36,
+      "text": "constrained as Hopper is easing up? And how long do you expect that to be constrained? Do you expect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8361989855766296
+      }
+    },
+    {
+      "start": 2163.36,
+      "end": 2168.4,
+      "text": "of the next generation to be constrained all the way through calendar 25? When do those start to ease?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6875207424163818
+      }
+    },
+    {
+      "start": 2169.92,
+      "end": 2179.12,
+      "text": "Yeah, the first thing is overall our supply is improving. Overall, our supply chain is just",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9538967609405518
+      }
+    },
+    {
+      "start": 2179.12,
+      "end": 2185.76,
+      "text": "doing an incredible job for us. Everything from, of course, the wafers, the packaging, the memories,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7360170483589172
+      }
+    },
+    {
+      "start": 2186.7200000000003,
+      "end": 2192.96,
+      "text": "all of the power regulators to transceivers and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9434307813644409
+      }
+    },
+    {
+      "start": 2192.96,
+      "end": 2202.96,
+      "text": "networking and cables. And you name it. The list of components that we ship, as you know,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9398369789123535
+      }
+    },
+    {
+      "start": 2202.96,
+      "end": 2209.12,
+      "text": "people think that NVIDIA GPUs is like a chip. But the NVIDIA Hopper GPU has 35,000 parts.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9049010276794434
+      }
+    },
+    {
+      "start": 2210.2400000000002,
+      "end": 2216.8,
+      "text": "It weighs 70 pounds. These things are really complicated things. We've built people calling",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9079098105430603
+      }
+    },
+    {
+      "start": 2216.8,
+      "end": 2222.08,
+      "text": "the AI supercomputer for good reason. If you ever look in the back of the data center,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9336869716644287
+      }
+    },
+    {
+      "start": 2222.08,
+      "end": 2229.04,
+      "text": "the systems, the cabling system is mind boggling. It is the most dense, complex cabling system for",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9200281500816345
+      }
+    },
+    {
+      "start": 2229.04,
+      "end": 2236.64,
+      "text": "networking the world's ever seen. Our infinite band business grew 5X year over year. The supply",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7605045437812805
+      }
+    },
+    {
+      "start": 2236.64,
+      "end": 2243.6,
+      "text": "chain is really doing fantastic supporting us. And so overall, the supply is improving.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9579147696495056
+      }
+    },
+    {
+      "start": 2244.64,
+      "end": 2250.56,
+      "text": "We expect the demand will continue to be stronger than our supply provides.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9479780197143555
+      }
+    },
+    {
+      "start": 2250.56,
+      "end": 2257.2799999999997,
+      "text": "And through the year. And we'll do our best. The cycle times are improving.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9543247222900391
+      }
+    },
+    {
+      "start": 2258.0,
+      "end": 2263.84,
+      "text": "And we're going to continue to do our best. However, whenever we have new products,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6714117527008057
+      }
+    },
+    {
+      "start": 2263.84,
+      "end": 2270.4,
+      "text": "as you know, it ramps from zero to a very large number. And you can't do that overnight.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5646926760673523
+      }
+    },
+    {
+      "start": 2271.68,
+      "end": 2279.2,
+      "text": "Everything is ramped up. It doesn't step up. And so whenever we have a new generation of products,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9118503332138062
+      }
+    },
+    {
+      "start": 2279.2000000000003,
+      "end": 2289.5200000000004,
+      "text": "and right now we are ramping H200s, there's no way we can reasonably keep up on demand",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.43406248092651367
+      }
+    },
+    {
+      "start": 2289.5200000000004,
+      "end": 2296.1600000000003,
+      "text": "in a short term as we ramp. We're ramping spectrum X. We're doing incredibly well with",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9397994875907898
+      }
+    },
+    {
+      "start": 2296.8,
+      "end": 2304.0800000000004,
+      "text": "spectrum X. It's our brand new product into the world of ethernet. Infinite band is the standard",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8373818397521973
+      }
+    },
+    {
+      "start": 2304.08,
+      "end": 2314.96,
+      "text": "for AI dedicated systems. Ethernet with spectrum X. Ethernet is just not a very good scale out system.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9076882600784302
+      }
+    },
+    {
+      "start": 2315.92,
+      "end": 2320.72,
+      "text": "But with spectrum X, we've augmented, layered on top of ethernet,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7993006706237793
+      }
+    },
+    {
+      "start": 2321.6,
+      "end": 2327.68,
+      "text": "fundamental new capabilities like adaptive routing, congestion control, noise isolation,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.524071216583252
+      }
+    },
+    {
+      "start": 2327.68,
+      "end": 2336.3999999999996,
+      "text": "or traffic isolation so that we can optimize ethernet for AI. And so infinite band will be our",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9013519883155823
+      }
+    },
+    {
+      "start": 2336.3999999999996,
+      "end": 2344.64,
+      "text": "AI dedicated infrastructure. spectrum X will be our AI optimized networking. And that is ramping.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5223519802093506
+      }
+    },
+    {
+      "start": 2344.64,
+      "end": 2352.64,
+      "text": "And so we'll, you know, with all of new products, demand is greater than supply. And that's just",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7156544327735901
+      }
+    },
+    {
+      "start": 2352.64,
+      "end": 2358.4,
+      "text": "kind of the nature of new products. And we work as fast as we can to capture with the demand. But",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7064582109451294
+      }
+    },
+    {
+      "start": 2358.4,
+      "end": 2363.7599999999998,
+      "text": "overall, overall net net, overall, our supply is increasing very nicely.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9536622762680054
+      }
+    },
+    {
+      "start": 2366.4,
+      "end": 2370.64,
+      "text": "Your next question comes from Alina. Matt Ramsey from TD Cowan. Your line is open.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9282029271125793
+      }
+    },
+    {
+      "start": 2372.7999999999997,
+      "end": 2380.3199999999997,
+      "text": "Good afternoon, Jensen. Congrats on those. I wanted to ask, I guess, a two-part question.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9219328761100769
+      }
+    },
+    {
+      "start": 2380.32,
+      "end": 2386.96,
+      "text": "And it comes at what Stacy was just getting at on your demand being significantly more",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8643290996551514
+      }
+    },
+    {
+      "start": 2387.84,
+      "end": 2392.48,
+      "text": "than your supply, even though supply is improving. And I guess the two sides of the question are,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7755705118179321
+      }
+    },
+    {
+      "start": 2392.48,
+      "end": 2399.36,
+      "text": "I guess, first for Collette, like, how are you guys thinking about allocation of product",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9270422458648682
+      }
+    },
+    {
+      "start": 2400.88,
+      "end": 2407.36,
+      "text": "in terms of customer readiness to deploy and sort of monitoring if there's any kind of build-up",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9060336947441101
+      }
+    },
+    {
+      "start": 2408.2400000000002,
+      "end": 2412.6400000000003,
+      "text": "of product that might not yet be turned on. And then I guess, Jensen, for you,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9203540086746216
+      }
+    },
+    {
+      "start": 2413.36,
+      "end": 2419.36,
+      "text": "I'd be really interested to hear you speak a bit about a thought that you and your company",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8986716866493225
+      }
+    },
+    {
+      "start": 2419.36,
+      "end": 2426.1600000000003,
+      "text": "are putting into the allocation of your product, across customers, many of which compete with each",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8966329097747803
+      }
+    },
+    {
+      "start": 2426.1600000000003,
+      "end": 2433.6,
+      "text": "other, across industries to smaller startup companies, to things in the healthcare arena,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9393327832221985
+      }
+    },
+    {
+      "start": 2433.6,
+      "end": 2440.56,
+      "text": "to governments. It's a very, very unique technology that you're enabling. And I'd be really interested",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8342459797859192
+      }
+    },
+    {
+      "start": 2440.56,
+      "end": 2445.52,
+      "text": "to hear you speak a bit about how you think about, quote-unquote, fairly allocating sort of for",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9293413758277893
+      }
+    },
+    {
+      "start": 2445.52,
+      "end": 2448.48,
+      "text": "the good of your company, but also for the good of the industry. Thanks.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7856335043907166
+      }
+    },
+    {
+      "start": 2451.2,
+      "end": 2458.0,
+      "text": "Let me first start with your question, thanks, about how we are working with our customers",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9113962054252625
+      }
+    },
+    {
+      "start": 2458.0,
+      "end": 2465.76,
+      "text": "as they look into how they are building out their GPU instances and our allocation process.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9204788208007812
+      }
+    },
+    {
+      "start": 2466.96,
+      "end": 2471.44,
+      "text": "Folks that we work with, our customers that we work with, I've been partners with us",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8955402374267578
+      }
+    },
+    {
+      "start": 2471.44,
+      "end": 2477.52,
+      "text": "for many years, as we have been assisting them both in what they set up in the cloud,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5929208993911743
+      }
+    },
+    {
+      "start": 2477.52,
+      "end": 2483.52,
+      "text": "as well as what they are setting up internally. Many of these providers have multiple products",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9460747241973877
+      }
+    },
+    {
+      "start": 2483.52,
+      "end": 2491.04,
+      "text": "going at one time to serve so many different needs across their end customers, but also what they",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8757579922676086
+      }
+    },
+    {
+      "start": 2491.04,
+      "end": 2498.48,
+      "text": "need internally. So they are working in advance, of course, thinking about those new clusters that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9250833988189697
+      }
+    },
+    {
+      "start": 2498.48,
+      "end": 2504.8,
+      "text": "they will need, and our discussions with them continue, not only on our helper architecture,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7425042390823364
+      }
+    },
+    {
+      "start": 2504.8,
+      "end": 2511.84,
+      "text": "but helping them understand the next wave and getting their interest and getting their",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.908054769039154
+      }
+    },
+    {
+      "start": 2512.5600000000004,
+      "end": 2518.32,
+      "text": "outlook for the demand that they want. So it's always a moving process in terms of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9122164845466614
+      }
+    },
+    {
+      "start": 2518.96,
+      "end": 2524.96,
+      "text": "what they will purchase, what is still being built, and what is in use for our customers,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9300914406776428
+      }
+    },
+    {
+      "start": 2524.96,
+      "end": 2530.6400000000003,
+      "text": "but the relationships that we've built and their understanding of the sophistication of the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7157102823257446
+      }
+    },
+    {
+      "start": 2530.64,
+      "end": 2536.16,
+      "text": "build has really helped us with that allocation and both helped us with our communications with them.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.854642391204834
+      }
+    },
+    {
+      "start": 2539.44,
+      "end": 2550.24,
+      "text": "First, our CSPs have a very clear view of our product roadmap and transitions,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7433681488037109
+      }
+    },
+    {
+      "start": 2551.1200000000003,
+      "end": 2564.1600000000003,
+      "text": "and that transparency with our CSPs gives them the confidence of which products to place and where and when.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7864798307418823
+      }
+    },
+    {
+      "start": 2566.32,
+      "end": 2577.5200000000004,
+      "text": "And so they know their timing to the best of our ability, and they know quantities, and of course",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8907981514930725
+      }
+    },
+    {
+      "start": 2577.6,
+      "end": 2585.28,
+      "text": "allocation. We allocate fairly. We allocate fairly. Do the best of our best we can to allocate fairly,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7955918908119202
+      }
+    },
+    {
+      "start": 2586.64,
+      "end": 2595.04,
+      "text": "and to avoid allocating unnecessarily. As you mentioned earlier, why allocate something when",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9213269352912903
+      }
+    },
+    {
+      "start": 2595.04,
+      "end": 2603.6,
+      "text": "a data center is not ready? Nothing is more difficult than to have anything sit around,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.784003496170044
+      }
+    },
+    {
+      "start": 2603.6,
+      "end": 2609.68,
+      "text": "and so allocate fairly and to avoid allocating unnecessarily. And what we do,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9391745924949646
+      }
+    },
+    {
+      "start": 2610.7999999999997,
+      "end": 2614.88,
+      "text": "the question that you asked about the end markets, you know that we have",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9166664481163025
+      }
+    },
+    {
+      "start": 2616.56,
+      "end": 2625.52,
+      "text": "an excellent ecosystem with OEMs, ODMs, CSPs, and very importantly, end markets.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8373591899871826
+      }
+    },
+    {
+      "start": 2627.36,
+      "end": 2632.48,
+      "text": "What NVIDIA is really unique about is that we bring our customers, we bring our partners,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8793219923973083
+      }
+    },
+    {
+      "start": 2632.48,
+      "end": 2634.96,
+      "text": "CSPs, and OEMs. We bring them customers.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9292709827423096
+      }
+    },
+    {
+      "start": 2638.56,
+      "end": 2642.96,
+      "text": "The biology companies, the healthcare companies, financial services companies,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9234793186187744
+      }
+    },
+    {
+      "start": 2644.08,
+      "end": 2650.0,
+      "text": "AI developers, large language model developers, autonomous vehicle companies, robotics companies.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9460241198539734
+      }
+    },
+    {
+      "start": 2650.0,
+      "end": 2657.04,
+      "text": "There's just a giant suite of robotics companies that are emerging. They're warehouse robotics to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9128958582878113
+      }
+    },
+    {
+      "start": 2657.04,
+      "end": 2662.2400000000002,
+      "text": "surgical robotics to humanoid robotics. All kinds of really interesting robotics companies",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8946735858917236
+      }
+    },
+    {
+      "start": 2662.2400000000002,
+      "end": 2669.44,
+      "text": "agriculture, robotics companies. All of these startups, large companies, healthcare, financial",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9484096169471741
+      }
+    },
+    {
+      "start": 2669.44,
+      "end": 2675.6000000000004,
+      "text": "services, and auto and such are working on NVIDIA's platform. We support them directly.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9110910892486572
+      }
+    },
+    {
+      "start": 2676.5600000000004,
+      "end": 2684.32,
+      "text": "And oftentimes, we can have a twofer by allocating to a CSP and bringing the customer to the CSP at",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.916402280330658
+      }
+    },
+    {
+      "start": 2684.32,
+      "end": 2692.6400000000003,
+      "text": "the same time. And so this ecosystem, you're absolutely right that it's vibrant.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6370593309402466
+      }
+    },
+    {
+      "start": 2694.0800000000004,
+      "end": 2703.52,
+      "text": "But at the core of it, we want to allocate fairly with avoiding waste and looking for opportunities",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8899179100990295
+      }
+    },
+    {
+      "start": 2703.52,
+      "end": 2709.2000000000003,
+      "text": "to connect partners and users. We're looking for those opportunities all the time.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8690713047981262
+      }
+    },
+    {
+      "start": 2709.2000000000003,
+      "end": 2716.4800000000005,
+      "text": "Your next question comes from a line of Timothy R. Curry from UBS. Your line is open.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9378191828727722
+      }
+    },
+    {
+      "start": 2718.0800000000004,
+      "end": 2722.88,
+      "text": "Thanks a lot. I wanted to ask about how you're converting backlog into revenue. Obviously,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8314449787139893
+      }
+    },
+    {
+      "start": 2722.88,
+      "end": 2727.6000000000004,
+      "text": "lead times for your products have come down quite a bit. You didn't talk about the inventory purchase",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.950788140296936
+      }
+    },
+    {
+      "start": 2727.6000000000004,
+      "end": 2732.4800000000005,
+      "text": "commitments, but if I sort of add up your inventory plus the purchase commits and your prepaid",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9334858059883118
+      }
+    },
+    {
+      "start": 2732.88,
+      "end": 2739.12,
+      "text": "supply, sort of the aggregate of your supply, it was actually down a touch. How should we",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.6993383765220642
+      }
+    },
+    {
+      "start": 2739.12,
+      "end": 2742.88,
+      "text": "read that? Is that just you saying that you don't need to make as much of a financial commitment",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8393160700798035
+      }
+    },
+    {
+      "start": 2742.88,
+      "end": 2748.8,
+      "text": "to your suppliers because the lead times are lower? Or is that maybe you're reaching some sort of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8178038001060486
+      }
+    },
+    {
+      "start": 2748.8,
+      "end": 2752.08,
+      "text": "steady state where you're closer to filling your order book and your backlog? Thanks.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5227637887001038
+      }
+    },
+    {
+      "start": 2754.16,
+      "end": 2759.92,
+      "text": "Yes, let me highlight on those three different areas of how we look at our suppliers.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.93885737657547
+      }
+    },
+    {
+      "start": 2760.48,
+      "end": 2766.2400000000002,
+      "text": "You're correct. Our inventory on hand, given our allocation that we're on, we're trying to, as",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5213015079498291
+      }
+    },
+    {
+      "start": 2766.2400000000002,
+      "end": 2772.4,
+      "text": "things come into inventory, immediately work to ship them to our customers. I think our customer",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9329817891120911
+      }
+    },
+    {
+      "start": 2772.4,
+      "end": 2778.8,
+      "text": "appreciates our ability to meet the schedules that we've looked for. The second piece of it is our",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7843749523162842
+      }
+    },
+    {
+      "start": 2778.8,
+      "end": 2782.8,
+      "text": "purchase commitments. Our purchase commitments have many different components into it,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.941689133644104
+      }
+    },
+    {
+      "start": 2783.44,
+      "end": 2789.52,
+      "text": "components that we need for manufacturing, but also often we are procuring capacity that we may",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8332928419113159
+      }
+    },
+    {
+      "start": 2789.6,
+      "end": 2795.6,
+      "text": "need. The lengths of that need for capacity or the length of the components are all different.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9201102256774902
+      }
+    },
+    {
+      "start": 2795.6,
+      "end": 2800.64,
+      "text": "Some of them may be for the next two quarters, but some of them may be for multiple years.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8857636451721191
+      }
+    },
+    {
+      "start": 2801.2,
+      "end": 2808.08,
+      "text": "I can say the same regarding our prepaids. Our prepaids are pre-designed to make sure that we",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9135788679122925
+      }
+    },
+    {
+      "start": 2808.08,
+      "end": 2814.64,
+      "text": "have the reserved capacity that we need as several of our manufacturing suppliers as we look forward.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.700934648513794
+      }
+    },
+    {
+      "start": 2814.64,
+      "end": 2820.4,
+      "text": "So would it read into anything regarding approximately about the same numbers as we are",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9429238438606262
+      }
+    },
+    {
+      "start": 2820.4,
+      "end": 2825.8399999999997,
+      "text": "increasing our supply? All of them just have different lengths as we have sometimes had to buy",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8916401267051697
+      }
+    },
+    {
+      "start": 2825.8399999999997,
+      "end": 2831.68,
+      "text": "things in long lead times or things that needed capacity to be built for us?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9143897891044617
+      }
+    },
+    {
+      "start": 2835.44,
+      "end": 2840.4,
+      "text": "Your next question comes from a line of Ben writes from Amelia's research. Your line is open.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9369186162948608
+      }
+    },
+    {
+      "start": 2841.28,
+      "end": 2848.08,
+      "text": "Yeah, thanks. Congratulations on the results. Collette, I wanted to talk about your comment",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8574916124343872
+      }
+    },
+    {
+      "start": 2848.08,
+      "end": 2855.44,
+      "text": "regarding gross margins and that they should go back to the mid 70s. If you don't mind unpacking",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9092423319816589
+      }
+    },
+    {
+      "start": 2855.44,
+      "end": 2865.12,
+      "text": "that and also is that due to the HBM content and the new products and what do you think",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9214763045310974
+      }
+    },
+    {
+      "start": 2866.2400000000002,
+      "end": 2868.4,
+      "text": "are the drivers of that comment? Thanks so much.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6642003655433655
+      }
+    },
+    {
+      "start": 2868.48,
+      "end": 2879.44,
+      "text": "Yeah, thanks for the question. We highlighted in our opening remarks really about our Q4 results",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8562946319580078
+      }
+    },
+    {
+      "start": 2879.44,
+      "end": 2885.04,
+      "text": "and our Outlook for Q1. Both of those quarters are unique. Those two quarters are unique in their",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8412320017814636
+      }
+    },
+    {
+      "start": 2885.04,
+      "end": 2894.08,
+      "text": "gross margin as they include some benefits from favorable component costs in the supply chain",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9113870859146118
+      }
+    },
+    {
+      "start": 2894.64,
+      "end": 2900.48,
+      "text": "across both our compute and networking and also in several different stages of our manufacturing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.905945897102356
+      }
+    },
+    {
+      "start": 2900.48,
+      "end": 2909.52,
+      "text": "process. So looking forward, we have visibility into a mid 70s gross margin for the rest of the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7322624921798706
+      }
+    },
+    {
+      "start": 2909.52,
+      "end": 2917.84,
+      "text": "fiscal year taking us back to where we were before this Q4 and Q1 peak that we've had here.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6305473446846008
+      }
+    },
+    {
+      "start": 2918.4,
+      "end": 2923.68,
+      "text": "So we're really looking at just a balance of our mix. Mix is always going to be our largest",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9083717465400696
+      }
+    },
+    {
+      "start": 2923.68,
+      "end": 2929.8399999999997,
+      "text": "driver of what we will be shipping for the rest of the year and those are really just the drivers.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8970088362693787
+      }
+    },
+    {
+      "start": 2932.72,
+      "end": 2937.7599999999998,
+      "text": "Your next question comes from a line of CJ Muse from Kent or Fitzgerald. Your line is open.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9384788274765015
+      }
+    },
+    {
+      "start": 2938.72,
+      "end": 2942.64,
+      "text": "Yeah, good afternoon. Thank you for taking the question. Take a picture question for you,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9172496795654297
+      }
+    },
+    {
+      "start": 2942.64,
+      "end": 2948.08,
+      "text": "Jensen. When you think about the Million X improvement of GPU compute over the last decade and expectations",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8517709970474243
+      }
+    },
+    {
+      "start": 2948.08,
+      "end": 2952.96,
+      "text": "for similar improvements to the next, how do your customers think about the long-term usability of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9140980243682861
+      }
+    },
+    {
+      "start": 2952.96,
+      "end": 2958.16,
+      "text": "their Nvidia investments that they're making today? Do today's training clusters become tomorrow's",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9330784678459167
+      }
+    },
+    {
+      "start": 2958.16,
+      "end": 2961.04,
+      "text": "inference clusters? How do you see this playing out? Thank you.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8854714632034302
+      }
+    },
+    {
+      "start": 2963.2,
+      "end": 2970.0,
+      "text": "Hey CJ, thanks for the question. Yeah, that's the really cool part. If you look at the reason",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9299941658973694
+      }
+    },
+    {
+      "start": 2970.0,
+      "end": 2977.36,
+      "text": "why we're able to improve performance so much, it's because we have two characteristics about",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7427282333374023
+      }
+    },
+    {
+      "start": 2977.44,
+      "end": 2987.76,
+      "text": "our platform. One is that it's accelerated and two, it's programmable. It's not brittle. Nvidia is",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9173944592475891
+      }
+    },
+    {
+      "start": 2987.76,
+      "end": 2992.6400000000003,
+      "text": "the only architecture that has gone from the very, very beginning. Literally the very beginning when",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9194183945655823
+      }
+    },
+    {
+      "start": 2992.6400000000003,
+      "end": 3000.2400000000002,
+      "text": "CNN's and Alex Kreshevsky and Ilya Suskever and Jeff Hinton first revealed Alex Net. All the way",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9434134364128113
+      }
+    },
+    {
+      "start": 3000.2400000000002,
+      "end": 3008.1600000000003,
+      "text": "through RNN's to LSTM's to every RL's to deep learning RL's to transformers to every single version,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9206815958023071
+      }
+    },
+    {
+      "start": 3008.7200000000003,
+      "end": 3013.5200000000004,
+      "text": "every single version of every species that have come along, vision transformers, multimodality",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.928149402141571
+      }
+    },
+    {
+      "start": 3013.5200000000004,
+      "end": 3020.88,
+      "text": "transformers that every single and in our time sequence stuff and every single variation,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9211626052856445
+      }
+    },
+    {
+      "start": 3020.88,
+      "end": 3030.0000000000005,
+      "text": "every species of AI that has come along, we've been able to support it, optimize our stack",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7591997981071472
+      }
+    },
+    {
+      "start": 3030.0,
+      "end": 3037.68,
+      "text": "for it and deploy it into our install base. This is really the great amazing part. On the one hand,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.824929416179657
+      }
+    },
+    {
+      "start": 3038.4,
+      "end": 3044.32,
+      "text": "we can invent new architectures and new technologies like our tensor cores, like our",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7415066361427307
+      }
+    },
+    {
+      "start": 3044.32,
+      "end": 3051.12,
+      "text": "transformer engine for tensor cores, improve new numerical formats and structures of processing,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5308268070220947
+      }
+    },
+    {
+      "start": 3051.12,
+      "end": 3056.0,
+      "text": "like we've done with the different generations of tensor cores. Meanwhile, supporting the install",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5365304350852966
+      }
+    },
+    {
+      "start": 3056.08,
+      "end": 3062.72,
+      "text": "base at the same time. And so as a result, we take all of our new software algorithm",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8809941411018372
+      }
+    },
+    {
+      "start": 3064.72,
+      "end": 3071.44,
+      "text": "inventions, all of the inventions, new inventions of models of the industry and it runs on our install",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9471448659896851
+      }
+    },
+    {
+      "start": 3071.44,
+      "end": 3077.28,
+      "text": "base on the one hand. On the other hand, whenever we see something revolutionary, we can like",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8988419771194458
+      }
+    },
+    {
+      "start": 3077.28,
+      "end": 3083.36,
+      "text": "transformers. We can create something brand new like the hybrid transformer engine and implement it into",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7770377397537231
+      }
+    },
+    {
+      "start": 3083.36,
+      "end": 3090.88,
+      "text": "future. And so we simultaneously have this ability to bring software to the install base and keep",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.596248984336853
+      }
+    },
+    {
+      "start": 3090.88,
+      "end": 3097.1200000000003,
+      "text": "making it better and better and better. So our customers install base is enriched over time with",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7292256355285645
+      }
+    },
+    {
+      "start": 3097.1200000000003,
+      "end": 3103.52,
+      "text": "our new software. On the other hand, for new technologies, create revolutionary capabilities.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.537059485912323
+      }
+    },
+    {
+      "start": 3104.2400000000002,
+      "end": 3111.2000000000003,
+      "text": "Don't be surprised if in our future generation, all of a sudden, amazing breakthroughs in large",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.586051881313324
+      }
+    },
+    {
+      "start": 3111.28,
+      "end": 3117.84,
+      "text": "language models were made possible. And those breakthroughs, some of which will be in software",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6541412472724915
+      }
+    },
+    {
+      "start": 3117.84,
+      "end": 3122.4800000000005,
+      "text": "because they run CUDA, will be made available to the install base. And so we carry everybody",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9064217805862427
+      }
+    },
+    {
+      "start": 3122.4800000000005,
+      "end": 3125.2000000000003,
+      "text": "with us on the one hand. We make giant breakthroughs on the other hand.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8383944630622864
+      }
+    },
+    {
+      "start": 3129.44,
+      "end": 3134.1600000000003,
+      "text": "Your next question comes from a line of Aaron Rakers from Wells Fargo. Your line is open.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9337753057479858
+      }
+    },
+    {
+      "start": 3135.6800000000003,
+      "end": 3141.1200000000003,
+      "text": "Yeah, thanks for taking the question. I wanted to ask about the China business. I know that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8921828269958496
+      }
+    },
+    {
+      "start": 3141.7599999999998,
+      "end": 3145.2799999999997,
+      "text": "in the prepared comments, you said that you started shipping some alternative solutions in",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7355950474739075
+      }
+    },
+    {
+      "start": 3145.2799999999997,
+      "end": 3150.08,
+      "text": "the China. You also put it out that you expect that contribution to continue to be about a",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8565480709075928
+      }
+    },
+    {
+      "start": 3150.08,
+      "end": 3153.92,
+      "text": "mid-single-digit center of your torque data center business. So I guess the question is,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8728073239326477
+      }
+    },
+    {
+      "start": 3153.92,
+      "end": 3158.24,
+      "text": "is what is the extent of products that you're shipping today into the China market? And",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9329403638839722
+      }
+    },
+    {
+      "start": 3159.12,
+      "end": 3164.88,
+      "text": "why should we not expect that maybe other alternative solutions come to the market and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8331035375595093
+      }
+    },
+    {
+      "start": 3164.88,
+      "end": 3168.72,
+      "text": "expand your breadth to participate in that opportunity again? Thank you.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8310842514038086
+      }
+    },
+    {
+      "start": 3172.08,
+      "end": 3179.3599999999997,
+      "text": "At the core, remember, the U.S. government wanted to limit the latest capabilities",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9161041378974915
+      }
+    },
+    {
+      "start": 3180.24,
+      "end": 3188.7999999999997,
+      "text": "of NVIDIA's accelerated computing and AI to the Chinese market. And the U.S. government would",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7400295734405518
+      }
+    },
+    {
+      "start": 3188.7999999999997,
+      "end": 3193.92,
+      "text": "like to see us be as successful in China as possible. Within those two constraints,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.638232946395874
+      }
+    },
+    {
+      "start": 3194.08,
+      "end": 3204.08,
+      "text": "within those two pillars, if you will, are the restrictions. And so we had to pause",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9048284292221069
+      }
+    },
+    {
+      "start": 3205.12,
+      "end": 3212.32,
+      "text": "when the new restrictions came out. We immediately paused. So we understood what the restrictions are.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9067532420158386
+      }
+    },
+    {
+      "start": 3213.92,
+      "end": 3222.48,
+      "text": "We configured our products in a way that is not software hackable in any way.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9254922270774841
+      }
+    },
+    {
+      "start": 3223.44,
+      "end": 3231.6,
+      "text": "And that took some time. And so we reset our product offering to China. And now we're sampling",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9114353060722351
+      }
+    },
+    {
+      "start": 3232.4,
+      "end": 3237.44,
+      "text": "to customers in China. And we're going to do our best to compete in that marketplace and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8157671093940735
+      }
+    },
+    {
+      "start": 3237.44,
+      "end": 3244.56,
+      "text": "succeed in that marketplace within the specifications of the restriction. And so that's it.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8351162075996399
+      }
+    },
+    {
+      "start": 3245.52,
+      "end": 3255.44,
+      "text": "This last quarter, our business significantly declined as we paused in the marketplace. We",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9697913527488708
+      }
+    },
+    {
+      "start": 3255.44,
+      "end": 3260.32,
+      "text": "stopped shipping in the marketplace. We expect this quarter to be about the same. But after that,",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.8244801163673401
+      }
+    },
+    {
+      "start": 3260.32,
+      "end": 3265.12,
+      "text": "hopefully we can go compete for our business and do our best. And we'll see how it turns out.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6826099753379822
+      }
+    },
+    {
+      "start": 3268.0,
+      "end": 3272.56,
+      "text": "Your next question comes from a line of Harsh Kumar from Piper Sandler. Your line is open.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9296322464942932
+      }
+    },
+    {
+      "start": 3273.52,
+      "end": 3278.64,
+      "text": "Yeah. Hey, Jensen, Collette, and video team. First of all, congratulations on a stunning quarter",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7565418481826782
+      }
+    },
+    {
+      "start": 3278.64,
+      "end": 3284.64,
+      "text": "and guide. I wanted to talk about a little bit about your software business. And it's pleasing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9087908267974854
+      }
+    },
+    {
+      "start": 3284.64,
+      "end": 3289.68,
+      "text": "to hear that it's over a billion dollar. But I was hoping Jensen or Collette, if you could just",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.923973560333252
+      }
+    },
+    {
+      "start": 3289.68,
+      "end": 3294.48,
+      "text": "help us understand what the different parts and pieces are for the software business. In other words,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9329574704170227
+      }
+    },
+    {
+      "start": 3294.48,
+      "end": 3300.0,
+      "text": "just help us unpack it a little bit so we can get a better understanding of where that growth is coming",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8298669457435608
+      }
+    },
+    {
+      "start": 3300.0,
+      "end": 3306.8,
+      "text": "from. Let me take a step back and explain the fundamental reason why NVIDIA will be very",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9189385771751404
+      }
+    },
+    {
+      "start": 3306.8,
+      "end": 3315.92,
+      "text": "successful in software. So first, as you know, accelerated computing really grew in the cloud.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8363979458808899
+      }
+    },
+    {
+      "start": 3316.48,
+      "end": 3322.24,
+      "text": "In the cloud, the cloud service providers have really large engineering teams. And we worked with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7889946103096008
+      }
+    },
+    {
+      "start": 3322.32,
+      "end": 3330.8,
+      "text": "them in a way that allows them to operate and manage their own business. And whenever there",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9231584668159485
+      }
+    },
+    {
+      "start": 3330.8,
+      "end": 3335.28,
+      "text": "are any issues, we have large teams assigned to them. And their engineering teams are working",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9108439087867737
+      }
+    },
+    {
+      "start": 3335.28,
+      "end": 3342.5600000000004,
+      "text": "directly with our engineering teams. And we enhance, we fix, we maintain, we patch the complicated",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.75811767578125
+      }
+    },
+    {
+      "start": 3342.5600000000004,
+      "end": 3348.2400000000002,
+      "text": "stack of software that's involved in accelerated computing. As you know, accelerated computing is",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.938555896282196
+      }
+    },
+    {
+      "start": 3348.32,
+      "end": 3354.7200000000003,
+      "text": "very different than general purpose computing. You're not starting from a program like C++,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9284653067588806
+      }
+    },
+    {
+      "start": 3354.7200000000003,
+      "end": 3361.1200000000003,
+      "text": "you compile it and things run on all your CPUs. The stacks of software necessary for every domain",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8886178731918335
+      }
+    },
+    {
+      "start": 3361.1200000000003,
+      "end": 3369.92,
+      "text": "from data processing, SQL versus SQL structured data versus all the images and text and PDF,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9259722828865051
+      }
+    },
+    {
+      "start": 3369.92,
+      "end": 3375.92,
+      "text": "which is unstructured, to classical machine learning, to computer vision, to speech,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9367610216140747
+      }
+    },
+    {
+      "start": 3376.8,
+      "end": 3382.48,
+      "text": "to large language models. All the recommender systems. All of these things require different",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.932561993598938
+      }
+    },
+    {
+      "start": 3383.52,
+      "end": 3389.6800000000003,
+      "text": "software stacks. That's the reason why NVIDIA has hundreds of libraries. If you don't have",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8908634185791016
+      }
+    },
+    {
+      "start": 3389.6800000000003,
+      "end": 3396.16,
+      "text": "software, you can't open new markets. If you don't have software, you can't open and enable new",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8793376088142395
+      }
+    },
+    {
+      "start": 3396.16,
+      "end": 3402.0,
+      "text": "applications. Software is fundamentally necessary for accelerated computing. This is the fundamental",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9246737360954285
+      }
+    },
+    {
+      "start": 3402.0,
+      "end": 3405.6,
+      "text": "difference between accelerated computing and general purpose computing that most people",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.895524799823761
+      }
+    },
+    {
+      "start": 3406.24,
+      "end": 3411.84,
+      "text": "took a long time to understand. And now people understand that the software is really key.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8172130584716797
+      }
+    },
+    {
+      "start": 3411.84,
+      "end": 3417.12,
+      "text": "In the way that we work with CSPs, that's really easy. We have large teams that are working with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8098447322845459
+      }
+    },
+    {
+      "start": 3417.12,
+      "end": 3425.28,
+      "text": "their large teams. However, now that generative AI is enabling every enterprise and every enterprise",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8418418169021606
+      }
+    },
+    {
+      "start": 3425.28,
+      "end": 3434.7200000000003,
+      "text": "software company to embrace accelerated computing. And when it is now essential to embrace accelerated",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8174470663070679
+      }
+    },
+    {
+      "start": 3434.7200000000003,
+      "end": 3445.2000000000003,
+      "text": "computing because it is no longer possible, no longer likely anyhow, to sustain improved throughput",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6629066467285156
+      }
+    },
+    {
+      "start": 3445.2000000000003,
+      "end": 3451.6800000000003,
+      "text": "through just general purpose computing, all of these enterprise software companies and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9445209503173828
+      }
+    },
+    {
+      "start": 3451.6800000000003,
+      "end": 3457.84,
+      "text": "enterprise companies don't have large engineering teams to be able to maintain and optimize their",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8862805366516113
+      }
+    },
+    {
+      "start": 3457.84,
+      "end": 3461.92,
+      "text": "software stack to run across all of the world's clouds and private clouds and on-prem.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9223891496658325
+      }
+    },
+    {
+      "start": 3462.5600000000004,
+      "end": 3470.8,
+      "text": "So we are going to do the management, the optimization, the patching, the tuning, the install-based",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9197829365730286
+      }
+    },
+    {
+      "start": 3470.8,
+      "end": 3477.5200000000004,
+      "text": "optimization for all of their software stacks. And we containerize them into our stack,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9141384363174438
+      }
+    },
+    {
+      "start": 3478.0,
+      "end": 3486.32,
+      "text": "NVIDIA AI Enterprise. And the way we go to market with it is think of that NVIDIA AI Enterprise",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9387995004653931
+      }
+    },
+    {
+      "start": 3486.32,
+      "end": 3490.88,
+      "text": "now as a runtime like an operating system. It's an operating system for artificial intelligence.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9399198293685913
+      }
+    },
+    {
+      "start": 3491.68,
+      "end": 3501.44,
+      "text": "And we charge $4,500 per GPU per year. And my guess is that every enterprise in the world,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.935266375541687
+      }
+    },
+    {
+      "start": 3502.56,
+      "end": 3507.04,
+      "text": "every software enterprise company that are deploying software in all the clouds and private",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9383426904678345
+      }
+    },
+    {
+      "start": 3507.04,
+      "end": 3512.88,
+      "text": "clouds and on-prem, will run on NVIDIA AI Enterprise, especially obviously for our GPUs.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8820142149925232
+      }
+    },
+    {
+      "start": 3512.88,
+      "end": 3517.04,
+      "text": "And so this is going to likely be a very significant business over time.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7841421961784363
+      }
+    },
+    {
+      "start": 3518.32,
+      "end": 3525.52,
+      "text": "We're off to a great start. And Collette mentioned that it's already at a billion-dollar",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7723587155342102
+      }
+    },
+    {
+      "start": 3525.52,
+      "end": 3529.68,
+      "text": "run rate. And we're really just getting started.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8781952261924744
+      }
+    },
+    {
+      "start": 3530.5600000000004,
+      "end": 3537.1200000000003,
+      "text": "Thank you. I will now turn the call back over to Jensen Huang, CEO for closing remarks.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9365831613540649
+      }
+    },
+    {
+      "start": 3539.0400000000004,
+      "end": 3544.7200000000003,
+      "text": "The computer industry is making two simultaneous platform shifts at the same time.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7874488234519958
+      }
+    },
+    {
+      "start": 3545.76,
+      "end": 3551.28,
+      "text": "The trillion-dollar install-based of data centers is transitioning from general purpose",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8461409211158752
+      }
+    },
+    {
+      "start": 3551.28,
+      "end": 3558.2400000000002,
+      "text": "to accelerated computing. Every data center will be accelerated. So the world can keep up with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7635884881019592
+      }
+    },
+    {
+      "start": 3558.2400000000002,
+      "end": 3563.1200000000003,
+      "text": "the computing demand, with increasing throughput, while managing cost and energy.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7170073986053467
+      }
+    },
+    {
+      "start": 3564.5600000000004,
+      "end": 3574.2400000000002,
+      "text": "The incredible speed up of NVIDIA enabled a whole new computing paradigm, generative AI,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5158311128616333
+      }
+    },
+    {
+      "start": 3575.0400000000004,
+      "end": 3581.6800000000003,
+      "text": "where software can learn, understand, and generate any information from human language",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9428623914718628
+      }
+    },
+    {
+      "start": 3582.5600000000004,
+      "end": 3585.6800000000003,
+      "text": "to the structure of biology and the 3D world.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9327196478843689
+      }
+    },
+    {
+      "start": 3588.1600000000003,
+      "end": 3595.4400000000005,
+      "text": "We are now at the beginning of a new industry where AI dedicated data centers process massive",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8444784283638
+      }
+    },
+    {
+      "start": 3595.4400000000005,
+      "end": 3603.76,
+      "text": "raw data to refine it into digital intelligence. Like AC power generation plans of the last industrial",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9323018789291382
+      }
+    },
+    {
+      "start": 3603.76,
+      "end": 3611.6000000000004,
+      "text": "revolution, NVIDIA AI supercomputers are essentially AI generation factories of this",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9392493963241577
+      }
+    },
+    {
+      "start": 3611.6000000000004,
+      "end": 3618.0,
+      "text": "industrial revolution. Every company in every industry is fundamentally built on their proprietary",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9303776621818542
+      }
+    },
+    {
+      "start": 3618.0,
+      "end": 3626.1600000000003,
+      "text": "business intelligence and in the future their proprietary generative AI. Generative AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.931453287601471
+      }
+    },
+    {
+      "start": 3626.1600000000003,
+      "end": 3632.48,
+      "text": "has kicked off a whole new investment cycle to build the next trillion dollars of infrastructure",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6064026355743408
+      }
+    },
+    {
+      "start": 3632.48,
+      "end": 3639.44,
+      "text": "of AI generation factories. We believe these two trends will drive a doubling of the world's",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8973821401596069
+      }
+    },
+    {
+      "start": 3639.44,
+      "end": 3645.84,
+      "text": "data center infrastructure installed base in the next five years and will represent an annual",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7895117402076721
+      }
+    },
+    {
+      "start": 3645.84,
+      "end": 3652.64,
+      "text": "market opportunity in the hundreds of billions. This new AI infrastructure will open up a whole new",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5696247816085815
+      }
+    },
+    {
+      "start": 3652.64,
+      "end": 3660.0,
+      "text": "world of applications not possible today. We started the AI journey with the hyperscale cloud providers",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.93099445104599
+      }
+    },
+    {
+      "start": 3660.72,
+      "end": 3668.08,
+      "text": "and consumer internet companies and now every industry is on board from automotive to health",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9269939064979553
+      }
+    },
+    {
+      "start": 3668.08,
+      "end": 3678.32,
+      "text": "care to financial services to industrial to telecom media and entertainment. NVIDIA is full-stack",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9438943266868591
+      }
+    },
+    {
+      "start": 3678.32,
+      "end": 3685.92,
+      "text": "computing platform with industry specific applications frameworks and a huge developer and partner",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7636067867279053
+      }
+    },
+    {
+      "start": 3685.92,
+      "end": 3694.56,
+      "text": "ecosystem gives us the speed scale and reach to help every company to help companies in every",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6865934729576111
+      }
+    },
+    {
+      "start": 3694.56,
+      "end": 3703.36,
+      "text": "industry become an AI company. We have so much to share with you at next month's GTC in San Jose",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9234716892242432
+      }
+    },
+    {
+      "start": 3704.08,
+      "end": 3708.4,
+      "text": "so be sure to join us. We look forward to updating you on our progress next quarter.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8203661441802979
+      }
+    },
+    {
+      "start": 3708.4,
+      "end": 3714.08,
+      "text": "This concludes today's conference call. You may now disconnect.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8071498274803162
+      }
+    }
+  ]
+}

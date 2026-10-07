@@ -1,0 +1,73 @@
+{
+  "ticker": "NVDA",
+  "quarter": "Q2_2025",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "Operating cash flow from operations was 14.5, while expenses were up 12% primarily reflecting higher compensation-related costs.",
+      "source_text": "were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was 14.5",
+      "timestamp_sec": 1129,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Gaming revenue of 2.88 billion increased 9% sequentially and 16% as the company moved to gaming and AI PCs.",
+      "source_text": "Moving to gaming and AI PCs, gaming revenue of 2.88 billion increased 9% sequentially and 16%",
+      "timestamp_sec": 857,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Availability has improved and demand for Blackwell platforms is well above supply, reinforcing strong market positioning.",
+      "source_text": "and availability have improved. Demand for Blackwell platforms is well above supply and we expect this",
+      "timestamp_sec": 475,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue from automotive and robotics was 346 million, up 5% sequentially and 37% year\u2011on\u2011year.",
+      "source_text": "Moving to automotive and robotics, revenue was 346 million up 5% sequentially and up 37% year-on-year.",
+      "timestamp_sec": 1049,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue was down sequentially due to a higher mix of new products within data center and inventory.",
+      "source_text": "Down sequentially due to a higher mix of new products within data center and inventory",
+      "timestamp_sec": 1116,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "As a percentage of total data center revenue, it remains below the level seen prior to the.",
+      "source_text": "As a percentage of total data center revenue, it remains below level seen prior to the",
+      "timestamp_sec": 343,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Customers hate that we do integration, and the supply chain also hates us doing it.",
+      "source_text": "doing the integration. Our customers hate that we do integration. The supply chain hates us doing",
+      "timestamp_sec": 3555,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "If we don't have a new approach, computing inflation would be driving up the cost for everyone.",
+      "source_text": "if we don't have a new approach, computing inflation would be driving up the cost for every",
+      "timestamp_sec": 1482,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

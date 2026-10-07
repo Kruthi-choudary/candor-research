@@ -1,0 +1,4549 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "Good afternoon and welcome to the Apple Q2 fiscal year 2025 earnings conference call.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7132192850112915
+      }
+    },
+    {
+      "start": 6.640000000000001,
+      "end": 10.64,
+      "text": "My name is Suhasni Chandramali, Director of Investor Relations.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9322710037231445
+      }
+    },
+    {
+      "start": 11.200000000000001,
+      "end": 17.44,
+      "text": "Today's call is being recorded. Speaking first today is Apple CEO Tim Cook,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9405120015144348
+      }
+    },
+    {
+      "start": 17.44,
+      "end": 24.400000000000002,
+      "text": "and he'll be followed by CFO Kevin Perrec. After that, we'll open the call to questions from analysts.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9211113452911377
+      }
+    },
+    {
+      "start": 25.76,
+      "end": 29.92,
+      "text": "Please note that some of the information you'll hear during our discussion today",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9392457008361816
+      }
+    },
+    {
+      "start": 29.92,
+      "end": 36.800000000000004,
+      "text": "will consist of forward-looking statements, including without limitation, those regarding revenue,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9502447843551636
+      }
+    },
+    {
+      "start": 36.800000000000004,
+      "end": 45.28,
+      "text": "gross margin, operating expenses, other income and expense, taxes, capital allocation, and future",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9192134737968445
+      }
+    },
+    {
+      "start": 45.28,
+      "end": 50.96,
+      "text": "business outlook, including the potential impact of tariffs and other trade measures,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9185553789138794
+      }
+    },
+    {
+      "start": 50.96,
+      "end": 56.32000000000001,
+      "text": "and macroeconomic conditions on the company's business and results of operations.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7256620526313782
+      }
+    },
+    {
+      "start": 57.28,
+      "end": 64.4,
+      "text": "These statements involve risks and uncertainties that may cause actual results or trends to differ",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.5058190822601318
+      }
+    },
+    {
+      "start": 64.4,
+      "end": 71.52,
+      "text": "materially from our forecast. For more information, please refer to the risk factors discussed in",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9322353601455688
+      }
+    },
+    {
+      "start": 71.52,
+      "end": 79.84,
+      "text": "Apple's most recently filed reports on Form 10Q and Form 10K, and the Form 8K filed with the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9274176955223083
+      }
+    },
+    {
+      "start": 79.92,
+      "end": 87.76,
+      "text": "SEC today along with the associated press release. Additional information will also be in our report",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.940229058265686
+      }
+    },
+    {
+      "start": 87.76,
+      "end": 96.48,
+      "text": "on Form 10Q for the quarter ended March 29, 2025, to be filed tomorrow and in other reports and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9436764717102051
+      }
+    },
+    {
+      "start": 96.48,
+      "end": 104.72,
+      "text": "filings we make with the SEC. Apple assumes no obligation to update any forward-looking statements,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9502596259117126
+      }
+    },
+    {
+      "start": 104.72,
+      "end": 110.96,
+      "text": "which speak only as of the date they are made. I'd now like to turn the call over to Tim for",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.950462281703949
+      }
+    },
+    {
+      "start": 110.96,
+      "end": 118.0,
+      "text": "introductory remarks. Thank you, Suhasani. Good afternoon, everyone, and thanks for joining the call.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5021911859512329
+      }
+    },
+    {
+      "start": 119.12,
+      "end": 126.0,
+      "text": "Today, we are reporting $95.4 billion in revenue up 5% from a year ago and at the high end of the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9546817541122437
+      }
+    },
+    {
+      "start": 126.0,
+      "end": 134.4,
+      "text": "range we provided last quarter. Deluded EPS was $1.65, up 8% year over year, and a March quarter",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9537917375564575
+      }
+    },
+    {
+      "start": 134.4,
+      "end": 141.20000000000002,
+      "text": "record. Services achieved an all-time revenue record growing 12% compared to the prior year.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9529619812965393
+      }
+    },
+    {
+      "start": 142.0,
+      "end": 146.8,
+      "text": "We also set a number of quarterly records in countries and regions across the world,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8278597593307495
+      }
+    },
+    {
+      "start": 146.8,
+      "end": 154.48000000000002,
+      "text": "including the UK, Spain, Finland, Brazil, Chile, Turkey, Poland, India, and the Philippines.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9411161541938782
+      }
+    },
+    {
+      "start": 155.36,
+      "end": 160.96,
+      "text": "We are as dedicated as ever to the innovation and ingenuity that will enrich our customers' lives",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6593892574310303
+      }
+    },
+    {
+      "start": 160.96,
+      "end": 166.64000000000001,
+      "text": "and help us leave the world better than we found it. And we are proud to increase our impact around",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8762912154197693
+      }
+    },
+    {
+      "start": 166.64000000000001,
+      "end": 172.48000000000002,
+      "text": "the world, including here in the United States, where we recently announced plans to spend $500",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5092433094978333
+      }
+    },
+    {
+      "start": 172.48000000000002,
+      "end": 178.4,
+      "text": "billion over the next four years. We're going to be expanding our teams and our facilities in",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8796452879905701
+      }
+    },
+    {
+      "start": 178.4,
+      "end": 185.28,
+      "text": "several states, including Michigan, Texas, California, Arizona, Nevada, Iowa, Oregon,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8353976011276245
+      }
+    },
+    {
+      "start": 185.28,
+      "end": 190.08,
+      "text": "North Carolina, and Washington. And we're going to be opening a new factory for advanced",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7871517539024353
+      }
+    },
+    {
+      "start": 190.08,
+      "end": 197.12,
+      "text": "server manufacturing in Texas. During calendar year 2025, we expect to source more than 19",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7741425037384033
+      }
+    },
+    {
+      "start": 197.12,
+      "end": 203.20000000000002,
+      "text": "billion chips from a dozen states, including tens of billions of advanced chips being made in Arizona",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8738744258880615
+      }
+    },
+    {
+      "start": 203.20000000000002,
+      "end": 210.16000000000003,
+      "text": "this year. We also source glass-used an iPhone from an American company. All told, we have more",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8190686106681824
+      }
+    },
+    {
+      "start": 210.16000000000003,
+      "end": 217.44,
+      "text": "than 9,000 suppliers in the US across all 50 states. Now I'll turn to products, starting with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9038639068603516
+      }
+    },
+    {
+      "start": 217.44,
+      "end": 226.07999999999998,
+      "text": "iPhone. iPhone revenue was $46.8 billion, up 2% from a year ago. During the quarter, we introduced",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9611105918884277
+      }
+    },
+    {
+      "start": 226.07999999999998,
+      "end": 233.35999999999999,
+      "text": "iPhone 16E, a great new entry-level addition to our iPhone 16 lineup. It's powered by our latest",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5162944197654724
+      }
+    },
+    {
+      "start": 233.35999999999999,
+      "end": 240.4,
+      "text": "generation A18 chip and includes the all-new Apple Design C1 modem, the most energy-efficient",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7264556884765625
+      }
+    },
+    {
+      "start": 240.4,
+      "end": 246.8,
+      "text": "modem ever in an iPhone, allowing iPhone 16E to have the longest battery life of any",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6854680180549622
+      }
+    },
+    {
+      "start": 246.8,
+      "end": 253.76000000000002,
+      "text": "6.1-inch iPhone. Meanwhile, iPhone 16 and iPhone 16 Plus users are exploring how they can use",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8868151307106018
+      }
+    },
+    {
+      "start": 253.76000000000002,
+      "end": 259.76,
+      "text": "camera control, whether capturing stunning images or exploring the world with visual intelligence.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9335666298866272
+      }
+    },
+    {
+      "start": 260.8,
+      "end": 266.96000000000004,
+      "text": "And our iPhone 16 Pro models continue to be a hit with our users. They are turbocharged by the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5269992351531982
+      }
+    },
+    {
+      "start": 266.96000000000004,
+      "end": 273.12,
+      "text": "remarkable capabilities and efficiency of A18 Pro and feature larger displays and advanced",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9014861583709717
+      }
+    },
+    {
+      "start": 273.12,
+      "end": 282.96,
+      "text": "camera system and a beautiful design. Mac revenue was $7.9 billion, 7% higher year-over-year,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9488557577133179
+      }
+    },
+    {
+      "start": 282.96,
+      "end": 289.36,
+      "text": "another great quarter for Mac. During the quarter, we introduced significant new updates to our lineup.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9408132433891296
+      }
+    },
+    {
+      "start": 290.0,
+      "end": 298.0,
+      "text": "The world's most popular laptop just got even better. The M4 powered MacBook Air features a 12-megapixel",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7115763425827026
+      }
+    },
+    {
+      "start": 298.0,
+      "end": 303.76,
+      "text": "center-stage camera and delivers a massive boost in performance. And now it comes in a",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7808670997619629
+      }
+    },
+    {
+      "start": 303.76,
+      "end": 310.24,
+      "text": "beautiful new sky blue color. The new Mac studio is the most powerful Mac we've ever shipped,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6702658534049988
+      }
+    },
+    {
+      "start": 310.24,
+      "end": 318.32,
+      "text": "equipped with M4 Macs and our new M3 Ultra chip. It's a true AI powerhouse capable of running",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5377075672149658
+      }
+    },
+    {
+      "start": 318.32,
+      "end": 326.16,
+      "text": "large-language models with over 600 billion parameters entirely in memory. Apple Intelligence brings",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9395018219947815
+      }
+    },
+    {
+      "start": 326.16,
+      "end": 331.52000000000004,
+      "text": "great capabilities to the Mac with features like writing tools and notification summaries",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5952421426773071
+      }
+    },
+    {
+      "start": 331.52000000000004,
+      "end": 338.40000000000003,
+      "text": "that help users stay focused and get more done. Turning to iPad, revenue for the quarter was",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6669532060623169
+      }
+    },
+    {
+      "start": 338.40000000000003,
+      "end": 345.36,
+      "text": "$6.4 billion. Up 15% from a year ago, another strong quarter of double-digit growth.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9517635703086853
+      }
+    },
+    {
+      "start": 346.56,
+      "end": 353.20000000000005,
+      "text": "Our iPad lineup continues to help users learn, work, play, and go wherever their imaginations take",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7680808901786804
+      }
+    },
+    {
+      "start": 353.2,
+      "end": 360.47999999999996,
+      "text": "them. The new iPad Air with M3 combines powerful performance and exceptional portability,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.922309398651123
+      }
+    },
+    {
+      "start": 360.47999999999996,
+      "end": 366.15999999999997,
+      "text": "whether you're taking it across the street or around the world. An Apple Intelligence and Apple",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9458122849464417
+      }
+    },
+    {
+      "start": 366.15999999999997,
+      "end": 372.64,
+      "text": "Pencil Pro are a perfect match with features like the cleanup tool and photos to remove distractions",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8568363785743713
+      }
+    },
+    {
+      "start": 372.64,
+      "end": 378.88,
+      "text": "and image one in the Notes app to elevate simple sketches into polished illustrations. Across",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8648988604545593
+      }
+    },
+    {
+      "start": 378.88,
+      "end": 387.04,
+      "text": "wearables home in accessories, revenue was $7.5 billion down 5% from a year ago. From walking trails",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9670694470405579
+      }
+    },
+    {
+      "start": 387.04,
+      "end": 392.8,
+      "text": "to bike paths, Apple Watch Series 10 is an essential partner wherever you are on the health",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9050601720809937
+      }
+    },
+    {
+      "start": 392.8,
+      "end": 399.2,
+      "text": "and fitness journey. And AirPods 4 with active noise cancellation delivers an extraordinary",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6750190258026123
+      }
+    },
+    {
+      "start": 399.2,
+      "end": 405.36,
+      "text": "experience in an open-ear design. Customers continue to tell me how important our hearing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8606629371643066
+      }
+    },
+    {
+      "start": 405.36,
+      "end": 411.04,
+      "text": "held features for AirPods Pro 2 are to them, and we've been expanding their availability",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5392521023750305
+      }
+    },
+    {
+      "start": 411.04,
+      "end": 417.28000000000003,
+      "text": "to reach even more users around the world. Millions have already taken hearing tests,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5519324541091919
+      }
+    },
+    {
+      "start": 417.28000000000003,
+      "end": 421.52000000000004,
+      "text": "and the stories we received about the new hearing aid feature are deeply moving,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7030854225158691
+      }
+    },
+    {
+      "start": 422.32,
+      "end": 426.72,
+      "text": "showing how these innovations are making a real difference in people's daily lives.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8395127654075623
+      }
+    },
+    {
+      "start": 427.52000000000004,
+      "end": 432.64,
+      "text": "It's a powerful reminder of the impact technology can have when it's designed with care.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8042263388633728
+      }
+    },
+    {
+      "start": 433.52,
+      "end": 439.44,
+      "text": "Meanwhile, Apple Vision Pro takes the concert experience to a whole new level with Metallica,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.532370388507843
+      }
+    },
+    {
+      "start": 439.44,
+      "end": 448.08,
+      "text": "our latest Apple immersive video which you have to see to believe. And VisionOS 2.4 unlocks the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8170545697212219
+      }
+    },
+    {
+      "start": 448.08,
+      "end": 453.2,
+      "text": "first set of Apple Intelligence features for Vision Pro users while inviting them to explore",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8544153571128845
+      }
+    },
+    {
+      "start": 453.2,
+      "end": 458.96,
+      "text": "a curated and regularly updated collection of spatial experiences with the spatial gallery app.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9356619715690613
+      }
+    },
+    {
+      "start": 459.84000000000003,
+      "end": 465.68000000000006,
+      "text": "In retail, in addition to the two stores we opened during the quarter, we're also looking",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.781840443611145
+      }
+    },
+    {
+      "start": 465.68000000000006,
+      "end": 471.84000000000003,
+      "text": "forward to a new retail store in the UAE, the arrival of the online store in Saudi Arabia,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7336181998252869
+      }
+    },
+    {
+      "start": 471.84000000000003,
+      "end": 477.92,
+      "text": "and new retail stores in India starting later this year. Let's now turn to services where we",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.869871973991394
+      }
+    },
+    {
+      "start": 477.92,
+      "end": 484.8,
+      "text": "achieved an all-time revenue record of $26.6 billion, up 12% from a year ago, with strong",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9522956013679504
+      }
+    },
+    {
+      "start": 484.88,
+      "end": 491.6,
+      "text": "performance across all of our categories. From starting their morning with their podcast of choice",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9168380498886108
+      }
+    },
+    {
+      "start": 491.6,
+      "end": 496.96000000000004,
+      "text": "to buying a coffee with Apple Pay, to spending an afternoon reading the latest bestseller on",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9183811545372009
+      }
+    },
+    {
+      "start": 496.96000000000004,
+      "end": 503.44,
+      "text": "Apple Books, to using their favorite app from the app store or an evening workout with Fitness Plus,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9365714192390442
+      }
+    },
+    {
+      "start": 503.44,
+      "end": 509.28000000000003,
+      "text": "Apple services are enriching our users' lives all throughout their day. With incredible shows like",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7240996956825256
+      }
+    },
+    {
+      "start": 509.28000000000003,
+      "end": 515.36,
+      "text": "the studio, your friends and neighbors, and the culture-shaping severance, Apple TV Plus has",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.910620927810669
+      }
+    },
+    {
+      "start": 515.36,
+      "end": 521.76,
+      "text": "become a must-see destination with record viewership during the quarter. And we're excited for our",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9000798463821411
+      }
+    },
+    {
+      "start": 521.76,
+      "end": 528.48,
+      "text": "upcoming movie F1, starring Brad Pitt, which will hit theaters this summer and gives an incredible",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8523550033569336
+      }
+    },
+    {
+      "start": 528.48,
+      "end": 535.36,
+      "text": "inside look at one of the most intense sports on Earth. And there is so much more to come this year.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8781824111938477
+      }
+    },
+    {
+      "start": 535.36,
+      "end": 542.5600000000001,
+      "text": "It's no wonder Apple TV Plus has earned more than 2,500 award nominations and 560 wins.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.650738537311554
+      }
+    },
+    {
+      "start": 544.0,
+      "end": 549.12,
+      "text": "We're also reaching sports fans in more ways than ever. From watching their favorite teams go to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8032804727554321
+      }
+    },
+    {
+      "start": 549.12,
+      "end": 555.52,
+      "text": "bat on Friday Night Baseball, to cheering on their local team with MLS season pass, to following the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9289335608482361
+      }
+    },
+    {
+      "start": 555.52,
+      "end": 563.36,
+      "text": "results of every Grand Prix with Formula One now on the Apple Sports app. Turning to software,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9294877052307129
+      }
+    },
+    {
+      "start": 563.36,
+      "end": 571.6,
+      "text": "we just released iOS 18.4, which brought Apple intelligence to more languages, including French,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5333268642425537
+      }
+    },
+    {
+      "start": 571.6,
+      "end": 580.0,
+      "text": "German, Italian, Portuguese, Spanish, Japanese, Korean, and simplified Chinese, as well as localized",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9445666074752808
+      }
+    },
+    {
+      "start": 580.0,
+      "end": 586.08,
+      "text": "English to Singapore and India. AI and machine learning are core to so many profound features",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9191724061965942
+      }
+    },
+    {
+      "start": 586.08,
+      "end": 591.44,
+      "text": "we've rolled out over the years to help our users live a better day. It's why we designed Apple",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8493778109550476
+      }
+    },
+    {
+      "start": 591.44,
+      "end": 597.2,
+      "text": "silicon with a neural engine that powers so many AI features across our products and third-party",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8538214564323425
+      }
+    },
+    {
+      "start": 597.2,
+      "end": 606.8000000000001,
+      "text": "apps. It's also what makes Apple products the best devices for generative AI. At WWDC 24, we announced",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.87908935546875
+      }
+    },
+    {
+      "start": 606.8000000000001,
+      "end": 612.72,
+      "text": "Apple intelligence and shared our vision for integrating generative AI across our ecosystem",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7541730403900146
+      }
+    },
+    {
+      "start": 612.72,
+      "end": 620.1600000000001,
+      "text": "into the apps and features our users rely on every day. To achieve this goal, we built our own",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8609889149665833
+      }
+    },
+    {
+      "start": 620.16,
+      "end": 626.48,
+      "text": "highly capable foundation models that are specialized for everyday tasks. We designed helpful",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7522687911987305
+      }
+    },
+    {
+      "start": 626.48,
+      "end": 632.8,
+      "text": "features that are right where our users need them and are easy to use. And we went to great links to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7323154807090759
+      }
+    },
+    {
+      "start": 632.8,
+      "end": 639.1999999999999,
+      "text": "build a system that protects user privacy, whether request or process on-device or in the cloud with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9185086488723755
+      }
+    },
+    {
+      "start": 639.1999999999999,
+      "end": 647.1999999999999,
+      "text": "private cloud compute and extraordinary step forward for privacy and AI. Since we launched iOS 18,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5348309874534607
+      }
+    },
+    {
+      "start": 647.2,
+      "end": 653.44,
+      "text": "we've released a number of Apple intelligence features from helpful writing tools to Genmoji,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.788412868976593
+      }
+    },
+    {
+      "start": 653.44,
+      "end": 659.9200000000001,
+      "text": "image playground, image wand, cleanup, visual intelligence, and a seamless connection to chat",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.935215175151825
+      }
+    },
+    {
+      "start": 659.9200000000001,
+      "end": 665.84,
+      "text": "GPT. We made it possible for users to create movies of their memories with a simple prompt",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8818187713623047
+      }
+    },
+    {
+      "start": 665.84,
+      "end": 673.0400000000001,
+      "text": "and added AI-powered photo search, smart replies, priority notifications, summaries for mail messages",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9228745102882385
+      }
+    },
+    {
+      "start": 673.04,
+      "end": 679.68,
+      "text": "and more. We've also expanded these capabilities to more languages and regions. With regard to the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7819356322288513
+      }
+    },
+    {
+      "start": 679.68,
+      "end": 685.12,
+      "text": "more personal Siri features we announced, we need more time to complete our work on these features",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8520399928092957
+      }
+    },
+    {
+      "start": 685.12,
+      "end": 690.48,
+      "text": "so they meet our high quality bar. We are making progress and we look forward to getting these",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8790420889854431
+      }
+    },
+    {
+      "start": 690.48,
+      "end": 697.4399999999999,
+      "text": "features into customers hands. Turning to sustainability, we just celebrated Earth Day and we were proud",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8750452399253845
+      }
+    },
+    {
+      "start": 697.44,
+      "end": 704.32,
+      "text": "to announce that we've cut our emissions by 60% from our 2015 levels. Today we're using more clean",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7154071927070618
+      }
+    },
+    {
+      "start": 704.32,
+      "end": 710.48,
+      "text": "energy across our operations and more recycled materials in our products than ever. We have worked",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6529768109321594
+      }
+    },
+    {
+      "start": 710.48,
+      "end": 717.7600000000001,
+      "text": "with suppliers to bring 17.8 gigawatts of renewable electricity online. We're also saving billions of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5055103302001953
+      }
+    },
+    {
+      "start": 717.7600000000001,
+      "end": 724.48,
+      "text": "gallons of fresh water and redirecting millions of metric tons of waste from landfills. All of this",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9297318458557129
+      }
+    },
+    {
+      "start": 724.5600000000001,
+      "end": 730.24,
+      "text": "will help us make important progress towards our goal of carbon neutrality across our supply chain",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8083970546722412
+      }
+    },
+    {
+      "start": 730.24,
+      "end": 736.72,
+      "text": "and the lifecycle of our products by 2030. Now let me walk you through the impacts of tariffs in the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9061729311943054
+      }
+    },
+    {
+      "start": 736.72,
+      "end": 744.24,
+      "text": "March quarter and give you some color on what we expect for the June quarter. For the March quarter,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9254747033119202
+      }
+    },
+    {
+      "start": 744.24,
+      "end": 750.0,
+      "text": "we had a limited impact from tariffs as we were able to optimize our supply chain and inventory.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9145942330360413
+      }
+    },
+    {
+      "start": 750.96,
+      "end": 756.64,
+      "text": "For the June quarter, currently we are not able to precisely estimate the impact of tariffs as",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8125550746917725
+      }
+    },
+    {
+      "start": 756.64,
+      "end": 763.04,
+      "text": "we are uncertain of potential future actions prior to the end of the quarter. However,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9041541218757629
+      }
+    },
+    {
+      "start": 763.04,
+      "end": 769.04,
+      "text": "for some color, assuming the current global tariff rates, policies, and applications do not",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9488490223884583
+      }
+    },
+    {
+      "start": 769.04,
+      "end": 775.12,
+      "text": "change for the balance of the quarter and no new tariffs are added, we estimate the impact to add",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6832801699638367
+      }
+    },
+    {
+      "start": 775.2,
+      "end": 782.4,
+      "text": "$900 million to our cost. This estimate should not be used to make projections for future quarters",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9507355690002441
+      }
+    },
+    {
+      "start": 782.4,
+      "end": 788.08,
+      "text": "as there are certain unique factors that benefit the June quarter. For our part,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7621015906333923
+      }
+    },
+    {
+      "start": 788.08,
+      "end": 793.6,
+      "text": "we will manage the company the way we always have with thoughtful and deliberate decisions,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8869215846061707
+      }
+    },
+    {
+      "start": 793.6,
+      "end": 799.12,
+      "text": "with a focus on investing for the long term and with dedication to innovation and the possibilities",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.769808292388916
+      }
+    },
+    {
+      "start": 799.2,
+      "end": 805.76,
+      "text": "it creates. As we look ahead, we remain confident, confident that we will continue to build the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.907264232635498
+      }
+    },
+    {
+      "start": 805.76,
+      "end": 812.24,
+      "text": "world's best products and services, confident in our ability to innovate and enrich our users' lives,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8419174551963806
+      }
+    },
+    {
+      "start": 812.96,
+      "end": 818.32,
+      "text": "and confident that we can continue to run our business in a way that has always set Apple apart.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8046673536300659
+      }
+    },
+    {
+      "start": 819.28,
+      "end": 823.36,
+      "text": "Next month, we can't wait to welcome our developer community for the World Wide",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6289755702018738
+      }
+    },
+    {
+      "start": 823.36,
+      "end": 827.76,
+      "text": "Developers Conference, and we look forward to revealing some exciting announcements.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8002561330795288
+      }
+    },
+    {
+      "start": 828.64,
+      "end": 833.44,
+      "text": "With that, I'll turn it over to Kevin. Thanks, Tim, and good afternoon, everyone.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6902291178703308
+      }
+    },
+    {
+      "start": 834.08,
+      "end": 839.2,
+      "text": "Our March quarter revenue of $95.4 billion was up 5% year over year,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9574056267738342
+      }
+    },
+    {
+      "start": 839.2,
+      "end": 844.64,
+      "text": "despite a headwind of almost 2.5 percentage points from foreign exchange. We also grew in",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9485369920730591
+      }
+    },
+    {
+      "start": 844.64,
+      "end": 852.0,
+      "text": "the majority of the markets we track. Products revenue was $68.7 billion, up 3% year over year,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9560182690620422
+      }
+    },
+    {
+      "start": 852.88,
+      "end": 858.64,
+      "text": "driven by growth in iPhone, iPad, and Mac. And thanks to our high levels of customer satisfaction",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8523355722427368
+      }
+    },
+    {
+      "start": 858.64,
+      "end": 863.36,
+      "text": "and strong loyalty, our installed base of active devices reached an all-time high",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9362214803695679
+      }
+    },
+    {
+      "start": 863.36,
+      "end": 866.08,
+      "text": "across all product categories in geographic segments.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8976570963859558
+      }
+    },
+    {
+      "start": 867.28,
+      "end": 874.08,
+      "text": "Services revenue was $26.6 billion, up 12% year over year, despite over 2 percentage points",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9550760984420776
+      }
+    },
+    {
+      "start": 874.08,
+      "end": 878.96,
+      "text": "of foreign exchange headwinds. And as Tim mentioned, this was an all-time revenue record.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8751212954521179
+      }
+    },
+    {
+      "start": 879.6800000000001,
+      "end": 884.96,
+      "text": "We also grew in every geographic segment and saw double-digit growth in both developed and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9441573619842529
+      }
+    },
+    {
+      "start": 884.96,
+      "end": 892.0,
+      "text": "emerging markets. Company gross margin is 47.1% in the middle of our guidance range,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.851387619972229
+      }
+    },
+    {
+      "start": 892.0,
+      "end": 895.9200000000001,
+      "text": "and up 20 basis points sequentially, primarily driven by favorable mix.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9420357346534729
+      }
+    },
+    {
+      "start": 896.96,
+      "end": 904.08,
+      "text": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix,",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9744676351547241
+      }
+    },
+    {
+      "start": 904.08,
+      "end": 906.64,
+      "text": "foreign exchange, and a seasonal loss of leverage.",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9471811056137085
+      }
+    },
+    {
+      "start": 907.9200000000001,
+      "end": 913.6,
+      "text": "Services gross margin was 75.7%, up 70 basis points sequentially,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9543208479881287
+      }
+    },
+    {
+      "start": 914.24,
+      "end": 918.0,
+      "text": "primarily driven by a different mix, partly offset by foreign exchange.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8529060482978821
+      }
+    },
+    {
+      "start": 919.36,
+      "end": 924.5600000000001,
+      "text": "Operating expenses landed at $15.3 billion, up 6% year over year.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9512497186660767
+      }
+    },
+    {
+      "start": 925.84,
+      "end": 933.36,
+      "text": "Net income was $24.8 billion, and diluted earnings per share was $1.65, up 8% year over year,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9557732939720154
+      }
+    },
+    {
+      "start": 933.36,
+      "end": 938.72,
+      "text": "and a March quarter record. Operating cash flow was also strong at $24 billion.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9517765045166016
+      }
+    },
+    {
+      "start": 940.48,
+      "end": 944.24,
+      "text": "Now, I'm going to provide some more details for each of our revenue categories.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9372943043708801
+      }
+    },
+    {
+      "start": 945.92,
+      "end": 952.64,
+      "text": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9575139284133911
+      }
+    },
+    {
+      "start": 953.6,
+      "end": 960.16,
+      "text": "The iPhone active install base grew to an all-time high in total in an every geographic segment,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9369539022445679
+      }
+    },
+    {
+      "start": 960.16,
+      "end": 965.6,
+      "text": "and iPhone upgraders grew double digits year over year. According to a recent survey from",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.756239652633667
+      }
+    },
+    {
+      "start": 965.6,
+      "end": 970.7199999999999,
+      "text": "CanTAR, during the March quarter, iPhone was a top selling model in the U.S.,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.827248215675354
+      }
+    },
+    {
+      "start": 971.6,
+      "end": 976.7199999999999,
+      "text": "urban China, the U.K., Germany, Australia, and Japan.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9471907019615173
+      }
+    },
+    {
+      "start": 977.92,
+      "end": 983.6,
+      "text": "And we continued to see high levels of customer satisfaction in the U.S. at 97% as measured by",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9523175358772278
+      }
+    },
+    {
+      "start": 983.6,
+      "end": 992.5600000000001,
+      "text": "451 research. Mac revenue was $7.9 billion, up 7% year over year, driven by the latest MacBook Air,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9561305046081543
+      }
+    },
+    {
+      "start": 992.5600000000001,
+      "end": 999.2,
+      "text": "MacBook Pro, and Mac Mini models. This performance was broad-based, with every geographic segment",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.836606502532959
+      }
+    },
+    {
+      "start": 999.2,
+      "end": 1004.5600000000001,
+      "text": "growing year over year. The Mac install base reached an all-time high, and we saw strong",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9344944357872009
+      }
+    },
+    {
+      "start": 1004.5600000000001,
+      "end": 1011.0400000000001,
+      "text": "growth for both upgraders and customers new to the Mac. Customer satisfaction was reported at 95%",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8492311239242554
+      }
+    },
+    {
+      "start": 1011.0400000000001,
+      "end": 1020.72,
+      "text": "in the U.S. iPad revenue was $6.4 billion, up 15% year over year, driven by the new M3-powered",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9547290205955505
+      }
+    },
+    {
+      "start": 1020.72,
+      "end": 1026.4,
+      "text": "iPad Air. The iPad install base reached another all-time high, and over half the customers who",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8014571070671082
+      }
+    },
+    {
+      "start": 1026.4,
+      "end": 1032.0,
+      "text": "purchased an iPad during the quarter were new to the product. Based on the latest reports from",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9358808398246765
+      }
+    },
+    {
+      "start": 1032.0,
+      "end": 1040.16,
+      "text": "451 research, customer satisfaction was 97% in the U.S. Wearables, Home, and Accessories revenue",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6881461143493652
+      }
+    },
+    {
+      "start": 1040.16,
+      "end": 1046.64,
+      "text": "was $7.5 billion, down 5% year over year. Keep in mind, we did face a more difficult compare",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9706534147262573
+      }
+    },
+    {
+      "start": 1046.64,
+      "end": 1051.44,
+      "text": "against the launch of the Apple Vision Pro in the year ago quarter, as well as the Watch Ultra 2",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8049585819244385
+      }
+    },
+    {
+      "start": 1051.44,
+      "end": 1057.1200000000001,
+      "text": "launch last year. At the same time, the Apple Watch install base reached a new all-time high,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8356041312217712
+      }
+    },
+    {
+      "start": 1057.1200000000001,
+      "end": 1061.8400000000001,
+      "text": "with over half of customers purchasing an Apple Watch during the quarter being new to the product.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8610325455665588
+      }
+    },
+    {
+      "start": 1062.88,
+      "end": 1068.5600000000002,
+      "text": "And customer satisfaction for watch in the U.S. was recently measured at 95%. Our services",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8900162577629089
+      }
+    },
+    {
+      "start": 1068.6399999999999,
+      "end": 1073.9199999999998,
+      "text": "revenue reached an all-time high of $26.6 billion, up 12% year over year.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.953332245349884
+      }
+    },
+    {
+      "start": 1074.8799999999999,
+      "end": 1078.96,
+      "text": "This growth rate was comparable to the December quarter year over year growth rate when we removed",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7451542019844055
+      }
+    },
+    {
+      "start": 1078.96,
+      "end": 1083.9199999999998,
+      "text": "the negative impact from foreign exchange. We saw strong momentum in the March quarter,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9595998525619507
+      }
+    },
+    {
+      "start": 1083.9199999999998,
+      "end": 1088.24,
+      "text": "and the growth of our install base of active devices gives us great opportunities for the future.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8832675814628601
+      }
+    },
+    {
+      "start": 1089.2,
+      "end": 1094.24,
+      "text": "Customer engagement across our services offerings also continued to grow. Both transacting",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9434216618537903
+      }
+    },
+    {
+      "start": 1094.24,
+      "end": 1099.2,
+      "text": "and paid accounts reached new all-time highs, with paid accounts growing double digits year over",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9297487735748291
+      }
+    },
+    {
+      "start": 1099.2,
+      "end": 1105.6,
+      "text": "year. Paid subscriptions also grew double digits. We have well over a billion paid subscriptions",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6493702530860901
+      }
+    },
+    {
+      "start": 1105.6,
+      "end": 1110.64,
+      "text": "across the services on our platform. We continue to improve the quality and breadth of our service",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9088963270187378
+      }
+    },
+    {
+      "start": 1110.64,
+      "end": 1115.76,
+      "text": "offerings from additional features in News Plus to new games available in Arcade. Apple Pay",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8063759207725525
+      }
+    },
+    {
+      "start": 1115.76,
+      "end": 1120.48,
+      "text": "continues to help our customers with an easy, secure and private payment solution. And we were",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6714502573013306
+      }
+    },
+    {
+      "start": 1120.56,
+      "end": 1125.44,
+      "text": "pleased to see that our active users in Apple Pay reached an all-time record of double digits",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9291332364082336
+      }
+    },
+    {
+      "start": 1125.44,
+      "end": 1132.48,
+      "text": "year over year. Turning to enterprise, organizations are investing more in Apple products and services",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8184492588043213
+      }
+    },
+    {
+      "start": 1132.48,
+      "end": 1139.6,
+      "text": "to drive productivity and employee engagement. For example, KPMG recently rolled out iPhone 16",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.718401312828064
+      }
+    },
+    {
+      "start": 1139.6,
+      "end": 1144.48,
+      "text": "for all U.S. employees reflecting their confidence in Apple security and privacy features.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6387404203414917
+      }
+    },
+    {
+      "start": 1145.3600000000001,
+      "end": 1150.96,
+      "text": "We also continue to see strong Mac performance and enterprise. NewBank, the largest digital bank",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.808840811252594
+      }
+    },
+    {
+      "start": 1150.96,
+      "end": 1156.24,
+      "text": "in Latin America, has selected MacBook Air as a standard computer for their thousands of employees.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6686475872993469
+      }
+    },
+    {
+      "start": 1157.04,
+      "end": 1162.08,
+      "text": "With Vision Pro, companies are continuing to find new and innovative ways to leverage this",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7081304788589478
+      }
+    },
+    {
+      "start": 1162.08,
+      "end": 1168.24,
+      "text": "technology. Desso System, a leading provider for engineering and 3D design software,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7923950552940369
+      }
+    },
+    {
+      "start": 1168.24,
+      "end": 1173.92,
+      "text": "has natively integrated Apple Vision Pro into their next generation platform, bringing a powerful",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8344648480415344
+      }
+    },
+    {
+      "start": 1173.92,
+      "end": 1179.2,
+      "text": "and immersive spatial experience to thousands of enterprise customers. Now, let's turn to our",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9119073152542114
+      }
+    },
+    {
+      "start": 1179.2,
+      "end": 1185.8400000000001,
+      "text": "cash position and capital return program. We ended the quarter with $133 billion in cash",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8740172982215881
+      }
+    },
+    {
+      "start": 1185.8400000000001,
+      "end": 1190.64,
+      "text": "and marketable securities. We had $3 billion in debt maturities and increased commercial paper",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8495439887046814
+      }
+    },
+    {
+      "start": 1190.64,
+      "end": 1197.6000000000001,
+      "text": "by $4 billion, resulting in $98 billion in total debt. Therefore, at the end of the quarter,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8100050091743469
+      }
+    },
+    {
+      "start": 1197.6000000000001,
+      "end": 1204.5600000000002,
+      "text": "net cash was $35 billion. During the quarter, we returned $29 billion to shareholders.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9354329109191895
+      }
+    },
+    {
+      "start": 1205.1200000000001,
+      "end": 1211.68,
+      "text": "This included $3.8 billion in dividends and equivalents and $25 billion through open market",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9401935338973999
+      }
+    },
+    {
+      "start": 1211.68,
+      "end": 1218.4800000000002,
+      "text": "repurchases of 108 million Apple shares. Given the continued confidence we have in our business now",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9028601050376892
+      }
+    },
+    {
+      "start": 1218.4800000000002,
+      "end": 1225.0400000000002,
+      "text": "and into the future, today our board authorized an additional $100 billion for share repurchases",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6831492781639099
+      }
+    },
+    {
+      "start": 1225.04,
+      "end": 1231.52,
+      "text": "as we maintain our goal of getting to net cash neutral. We're also raising our dividend by 4%",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9401829242706299
+      }
+    },
+    {
+      "start": 1231.52,
+      "end": 1237.28,
+      "text": "to $0.26 per share of common stock and we continue to plan for annual increases in the dividend going",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8859487771987915
+      }
+    },
+    {
+      "start": 1237.28,
+      "end": 1245.76,
+      "text": "forward as we have done for the last 13 years. This cash dividend will be payable on May 15, 2025",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9536034464836121
+      }
+    },
+    {
+      "start": 1245.76,
+      "end": 1252.08,
+      "text": "to shareholders of record as of May 12, 2025. As we move ahead into the June quarter,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9153846502304077
+      }
+    },
+    {
+      "start": 1252.08,
+      "end": 1255.9199999999998,
+      "text": "I'd like to review our outlook, which includes the types of forward-looking information that's",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9325146675109863
+      }
+    },
+    {
+      "start": 1255.9199999999998,
+      "end": 1261.6,
+      "text": "who hosting referred to. Importantly, the color we're providing assumes that global tariff rates,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8954912424087524
+      }
+    },
+    {
+      "start": 1261.6,
+      "end": 1267.36,
+      "text": "policies and application remain in effect as of this call and the global macroeconomic outlook",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9452853798866272
+      }
+    },
+    {
+      "start": 1267.36,
+      "end": 1272.8799999999999,
+      "text": "doesn't worsen from today for the current quarter. Despite the overall uncertain environment,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5298027992248535
+      }
+    },
+    {
+      "start": 1272.8799999999999,
+      "end": 1277.6,
+      "text": "we will still be providing color at the total company level subject to these assumptions and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9006765484809875
+      }
+    },
+    {
+      "start": 1277.6000000000001,
+      "end": 1283.2,
+      "text": "the risk factors that we refer to at the beginning of the call. We expect our June quarter total",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9407713413238525
+      }
+    },
+    {
+      "start": 1283.2,
+      "end": 1289.2800000000002,
+      "text": "company revenue to grow low to mid-single digits year over year. We expect gross margin to be between",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6735092997550964
+      }
+    },
+    {
+      "start": 1289.2800000000002,
+      "end": 1297.6000000000001,
+      "text": "45.5% and 46.5%, which includes the estimated impact of the $900 million of tariff related costs",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8454858660697937
+      }
+    },
+    {
+      "start": 1297.6000000000001,
+      "end": 1304.88,
+      "text": "that Tim referred to earlier. We expect operating expenses to be between $15.3 billion and $15.5",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7694973945617676
+      }
+    },
+    {
+      "start": 1305.2800000000002,
+      "end": 1312.0800000000002,
+      "text": "billion. We expect a liony to be around negative $300 million, excluding any potential impact from",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9038169384002686
+      }
+    },
+    {
+      "start": 1312.0800000000002,
+      "end": 1317.44,
+      "text": "the market to market of minority investments and our tax rate to be around 16%. With that,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8676862716674805
+      }
+    },
+    {
+      "start": 1317.44,
+      "end": 1324.64,
+      "text": "let's open the call to questions. Ask that you limit yourself to two questions. Operator,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9359666705131531
+      }
+    },
+    {
+      "start": 1324.64,
+      "end": 1332.3200000000002,
+      "text": "may we have the first question, please? Certainly. We'll go ahead and take our first question,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9356045722961426
+      }
+    },
+    {
+      "start": 1332.32,
+      "end": 1338.8,
+      "text": "from Eric Woodring with Morgan Stanley. Great. Thanks so much, guys, for taking my questions.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5667545795440674
+      }
+    },
+    {
+      "start": 1339.9199999999998,
+      "end": 1345.6,
+      "text": "Tim, I'd love to maybe touch on the tariff point first. There were comments from you earlier on",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8663052916526794
+      }
+    },
+    {
+      "start": 1345.6,
+      "end": 1352.08,
+      "text": "CNBC talking about 50% of iPhones for the US currently coming from India. Where do you expect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9320998787879944
+      }
+    },
+    {
+      "start": 1352.08,
+      "end": 1359.6,
+      "text": "the mix of India-sourced iPhones for the US to be by the end of your fiscal year? And is it the goal",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9224344491958618
+      }
+    },
+    {
+      "start": 1359.6000000000001,
+      "end": 1364.4,
+      "text": "to source 100% of your US-bound iPhones from India? Can you just help us understand how we",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8324975371360779
+      }
+    },
+    {
+      "start": 1364.4,
+      "end": 1368.88,
+      "text": "should expect that to trend as we look beyond just the June quarter? And then I have a follow-up.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8534500002861023
+      }
+    },
+    {
+      "start": 1368.88,
+      "end": 1377.6000000000001,
+      "text": "Thank you. Yeah, Eric. Hi, it's Tim. The existing tariffs that apply to Apple",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.926381528377533
+      }
+    },
+    {
+      "start": 1378.4800000000002,
+      "end": 1386.16,
+      "text": "today are based on the products country of origin, as you allude to. For the June quarter,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9428176879882812
+      }
+    },
+    {
+      "start": 1386.96,
+      "end": 1393.44,
+      "text": "we do expect the majority of iPhones sold in the US will have India as their country of origin",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8752686381340027
+      }
+    },
+    {
+      "start": 1394.5600000000002,
+      "end": 1403.92,
+      "text": "and Vietnam to be the country of origin for almost all iPad Mac, Apple Watch and AirPods products",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8516430854797363
+      }
+    },
+    {
+      "start": 1403.92,
+      "end": 1411.0400000000002,
+      "text": "sold and also sold in the US. China would continue to be the country of origin for the vast majority",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9257461428642273
+      }
+    },
+    {
+      "start": 1411.04,
+      "end": 1419.44,
+      "text": "of total product sales outside the US. And so if you look at the categories of tariffs that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9390636682510376
+      }
+    },
+    {
+      "start": 1419.44,
+      "end": 1427.2,
+      "text": "are applicable to us today, for the June quarter, most of our tariff exposure relates to the February",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9495885372161865
+      }
+    },
+    {
+      "start": 1428.1599999999999,
+      "end": 1437.76,
+      "text": "IEEPA related tariff at the rate of 20%, which applies to imports to the US for products that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9439047574996948
+      }
+    },
+    {
+      "start": 1437.76,
+      "end": 1447.36,
+      "text": "have China as their country of origin. In addition, for China, there was an additional 125% tariff",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9388359189033508
+      }
+    },
+    {
+      "start": 1447.36,
+      "end": 1454.0,
+      "text": "for imports of certain categories of products announced in April. And for us, that's some of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9163901805877686
+      }
+    },
+    {
+      "start": 1454.0,
+      "end": 1461.52,
+      "text": "our US Apple care and accessories businesses and brings the total rate in China for these products",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8432540893554688
+      }
+    },
+    {
+      "start": 1461.52,
+      "end": 1473.52,
+      "text": "to at least 145%. Also for transparency and clarity, the vast majority of our products, including",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8827642798423767
+      }
+    },
+    {
+      "start": 1473.52,
+      "end": 1482.4,
+      "text": "iPhone, Mac, iPad, Apple Watch and Vision Pro, are currently not subject to the global reciprocal",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9526727199554443
+      }
+    },
+    {
+      "start": 1482.4,
+      "end": 1488.4,
+      "text": "tariffs that were announced in April, as the Commerce Department has initiated a section 232",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.89765465259552
+      }
+    },
+    {
+      "start": 1488.48,
+      "end": 1494.72,
+      "text": "investigation into imports of semiconductors, semiconductor manufacturing equipment and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9472454786300659
+      }
+    },
+    {
+      "start": 1494.72,
+      "end": 1502.88,
+      "text": "downstream products that contain semiconductors. And so if you, for the June quarter, as I talked",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9405586123466492
+      }
+    },
+    {
+      "start": 1502.88,
+      "end": 1512.3200000000002,
+      "text": "about in the in the my opening comments, we estimate the impact, assuming that the current",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9357032775878906
+      }
+    },
+    {
+      "start": 1513.0400000000002,
+      "end": 1517.44,
+      "text": "global tariff rates policies and applications don't change for the balance of the quarter to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9274510145187378
+      }
+    },
+    {
+      "start": 1517.44,
+      "end": 1528.3200000000002,
+      "text": "be 900 million to our cost. I wouldn't want to predict the mix of of production in the future.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.932334840297699
+      }
+    },
+    {
+      "start": 1528.96,
+      "end": 1535.28,
+      "text": "But I wanted to give you clarity for the June quarter of, you know, where the country of origins",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9264395236968994
+      }
+    },
+    {
+      "start": 1535.28,
+      "end": 1544.0,
+      "text": "are so you can you can use that for your modeling. Okay, I appreciate that color. Thank you, Tim.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6720931529998779
+      }
+    },
+    {
+      "start": 1544.56,
+      "end": 1550.32,
+      "text": "And then maybe my follow up is there were a number of reports, you know, during the quarter",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8567384481430054
+      }
+    },
+    {
+      "start": 1550.32,
+      "end": 1556.32,
+      "text": "that Apple had pulled forward selling into the channel to get ahead of tariff. So can you just",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8871033191680908
+      }
+    },
+    {
+      "start": 1556.32,
+      "end": 1562.0,
+      "text": "help us better kind of understand or clarify if selling and sell through were aligned in the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9128215312957764
+      }
+    },
+    {
+      "start": 1562.0,
+      "end": 1569.12,
+      "text": "March quarter? If you're assuming that they would be aligned in the June quarter guide and ultimately",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9090071320533752
+      }
+    },
+    {
+      "start": 1569.1200000000001,
+      "end": 1574.24,
+      "text": "do you believe that consumers are accelerating hardware purchases to get ahead of any potential",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5559340119361877
+      }
+    },
+    {
+      "start": 1574.24,
+      "end": 1579.92,
+      "text": "pricing increases or was, you know, behavior normal? Thank you so much, Tim.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8848766684532166
+      }
+    },
+    {
+      "start": 1579.92,
+      "end": 1584.72,
+      "text": "Yeah, thanks, Eric, for the question. There are several questions there. One, in terms of the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9135181903839111
+      }
+    },
+    {
+      "start": 1584.72,
+      "end": 1592.64,
+      "text": "pull forward in demand, if you look at the March quarter, we don't believe that we saw obvious",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.3703148663043976
+      }
+    },
+    {
+      "start": 1592.64,
+      "end": 1598.0800000000002,
+      "text": "evidence of a significant pull forward in demand in the in the March quarter due to tariffs.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7012449502944946
+      }
+    },
+    {
+      "start": 1599.5200000000002,
+      "end": 1607.0400000000002,
+      "text": "If you look at our channel inventory from the beginning of the quarter to the end of the quarter,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9297583699226379
+      }
+    },
+    {
+      "start": 1607.0400000000002,
+      "end": 1615.44,
+      "text": "the unit channel inventory was similar, not only for iPhone, but for the balance of our products.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5936625003814697
+      }
+    },
+    {
+      "start": 1616.5600000000002,
+      "end": 1626.4,
+      "text": "For again, for transparency, you will see that we did build a head inventory and that's reflected",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8208374381065369
+      }
+    },
+    {
+      "start": 1626.48,
+      "end": 1633.8400000000001,
+      "text": "in our manufacturing purchase obligations that you'll see on the quarterly filing when it comes out.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9413443207740784
+      }
+    },
+    {
+      "start": 1633.8400000000001,
+      "end": 1637.52,
+      "text": "So I hope that makes the answers to all your questions.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8462600708007812
+      }
+    },
+    {
+      "start": 1642.0800000000002,
+      "end": 1647.76,
+      "text": "So much, Tim, good luck. Thanks. Thank you, Eric, operator. Could we have the next question, please?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9323726296424866
+      }
+    },
+    {
+      "start": 1650.4,
+      "end": 1654.8000000000002,
+      "text": "Our next question is from Ben Ricey, the familiar. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9348828792572021
+      }
+    },
+    {
+      "start": 1655.76,
+      "end": 1664.72,
+      "text": "Hey, thanks a lot. Hey, Tim, if you had told me that on April 2nd that your hit from tariffs",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8703298568725586
+      }
+    },
+    {
+      "start": 1664.72,
+      "end": 1673.68,
+      "text": "was only a nickel, a quarter at 900 mill, that would have been a pretty good outcome given the panic",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6527858972549438
+      }
+    },
+    {
+      "start": 1673.68,
+      "end": 1681.6,
+      "text": "that ensued. I'm surprised that it's that low. But then you did make a comment about after the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8102884292602539
+      }
+    },
+    {
+      "start": 1681.6000000000001,
+      "end": 1688.4,
+      "text": "June quarter and sorry to push you on that, but could it be a multiple of that figure? Or is it",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7431021928787231
+      }
+    },
+    {
+      "start": 1688.4,
+      "end": 1696.3200000000002,
+      "text": "just completely unknown? We're all just trying to figure out what happens after June and if there's",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7767617106437683
+      }
+    },
+    {
+      "start": 1696.3200000000002,
+      "end": 1704.16,
+      "text": "just any guidance you guys can possibly give that it's bigger, smaller, or what? And I hope",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8956299424171448
+      }
+    },
+    {
+      "start": 1704.16,
+      "end": 1708.5600000000002,
+      "text": "you can just give us a little color on that. Thanks. Yeah, Ben, thanks for the question.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8323422074317932
+      }
+    },
+    {
+      "start": 1709.44,
+      "end": 1714.8,
+      "text": "I tried to give you some information in the previous question about the country of origin,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9284176230430603
+      }
+    },
+    {
+      "start": 1715.52,
+      "end": 1723.9199999999998,
+      "text": "which currently is the key factor in determining the tariffs that we're paying.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9141943454742432
+      }
+    },
+    {
+      "start": 1725.44,
+      "end": 1731.6,
+      "text": "I don't want to predict the future because I'm not sure what will happen with the tariffs and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6976175904273987
+      }
+    },
+    {
+      "start": 1731.68,
+      "end": 1744.0000000000002,
+      "text": "there is the Section 232 investigation going on. And so it's very difficult to predict beyond June",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5490090250968933
+      }
+    },
+    {
+      "start": 1744.0000000000002,
+      "end": 1750.3200000000002,
+      "text": "and June has the assumptions that I had mentioned earlier. All right. Well, thanks, Tim.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7721096277236938
+      }
+    },
+    {
+      "start": 1751.2800000000002,
+      "end": 1758.72,
+      "text": "And then just with regard to China, down 2%, I mean, you intuitively would have thought there would",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9083839654922485
+      }
+    },
+    {
+      "start": 1758.72,
+      "end": 1762.8,
+      "text": "have been an increased nationalism there and perhaps it would have been worse than that.",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.7937686443328857
+      }
+    },
+    {
+      "start": 1762.8,
+      "end": 1768.72,
+      "text": "And, you know, the trajectory there improving even with subsidies because subsidies benefited",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5763589143753052
+      }
+    },
+    {
+      "start": 1768.72,
+      "end": 1775.2,
+      "text": "your competitors too. Just wondering if a little more color there, can it keep improving?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7909277081489563
+      }
+    },
+    {
+      "start": 1776.08,
+      "end": 1780.88,
+      "text": "What are you thinking, you know, with regard to that trajectory in China, given all the geopolitical",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9118533134460449
+      }
+    },
+    {
+      "start": 1780.88,
+      "end": 1788.72,
+      "text": "tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9681131839752197
+      }
+    },
+    {
+      "start": 1788.72,
+      "end": 1794.8000000000002,
+      "text": "little more transparency around that, we were roughly flat when you removed the headwinds from",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6646759510040283
+      }
+    },
+    {
+      "start": 1794.8000000000002,
+      "end": 1801.8400000000001,
+      "text": "foreign exchange. And so we did see quite a bit of sequential improvement from the December quarter,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.954590916633606
+      }
+    },
+    {
+      "start": 1801.8400000000001,
+      "end": 1810.16,
+      "text": "which was down 11. And again, for going out of the way for transparency, the channel inventory",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9173624515533447
+      }
+    },
+    {
+      "start": 1810.8000000000002,
+      "end": 1815.44,
+      "text": "at the end of March, the unit channel inventory was similar to where we started the quarter.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7379034757614136
+      }
+    },
+    {
+      "start": 1816.96,
+      "end": 1825.52,
+      "text": "So there wasn't a build of channel inventory in there. I do believe that the subsidies played",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.78563392162323
+      }
+    },
+    {
+      "start": 1825.52,
+      "end": 1832.48,
+      "text": "a favorable impact on the results. It's difficult to estimate with precision as to, you know,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8691877126693726
+      }
+    },
+    {
+      "start": 1832.48,
+      "end": 1838.4,
+      "text": "exactly how much, but I think it was positive. Some of our products are included, some of them are",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8418579697608948
+      }
+    },
+    {
+      "start": 1838.48,
+      "end": 1848.16,
+      "text": "not. Generally on iPhone, if something is priced above 6000 R&B, it is not eligible for the subsidy.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9297590851783752
+      }
+    },
+    {
+      "start": 1848.16,
+      "end": 1858.8000000000002,
+      "text": "And the other products have different rules. But I do think it helped. And I think it's helping",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5119293332099915
+      }
+    },
+    {
+      "start": 1858.8,
+      "end": 1867.9199999999998,
+      "text": "others as well, I'm sure. iPhone was the key driver of the improvement sequentially.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6461477875709534
+      }
+    },
+    {
+      "start": 1869.84,
+      "end": 1875.04,
+      "text": "And so hopefully that provides you some color. The other thing I would say is that the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8471878170967102
+      }
+    },
+    {
+      "start": 1876.6399999999999,
+      "end": 1887.28,
+      "text": "Mac, the iPad and the watch are attracting a majority of customers new to that product. And so that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8016501069068909
+      }
+    },
+    {
+      "start": 1887.28,
+      "end": 1893.92,
+      "text": "continues to look quite good in China. And iPhone was the top two models in urban China.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.821834921836853
+      }
+    },
+    {
+      "start": 1894.56,
+      "end": 1901.52,
+      "text": "And iPad was the top two tablets in urban China. So there's some positive nuggets there.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5151075124740601
+      }
+    },
+    {
+      "start": 1903.52,
+      "end": 1909.44,
+      "text": "Thanks a lot, Tim. Yep. Thank you, Ben. Thank you, Ben. Operator, maybe have the next question, please.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9304139018058777
+      }
+    },
+    {
+      "start": 1909.44,
+      "end": 1916.24,
+      "text": "Our next question is from Michael Aing with Goldman Sachs. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9368083477020264
+      }
+    },
+    {
+      "start": 1917.52,
+      "end": 1922.96,
+      "text": "Hi. Good afternoon. Thank you very much for the question. I was just wondering if you could talk",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8871201276779175
+      }
+    },
+    {
+      "start": 1922.96,
+      "end": 1929.68,
+      "text": "a little bit about your responses on some of this trade policy uncertainty. I appreciated the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7900699973106384
+      }
+    },
+    {
+      "start": 1929.68,
+      "end": 1939.28,
+      "text": "transparency around building ahead with inventory. Will you continue to do that in this interim",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8850245475769043
+      }
+    },
+    {
+      "start": 1939.28,
+      "end": 1944.72,
+      "text": "period until we get some clarity on the Section 232 investigation? And could you talk a little bit",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.928320050239563
+      }
+    },
+    {
+      "start": 1944.72,
+      "end": 1951.36,
+      "text": "about your philosophy on pricing, elevated costs, the extent that comes through, whether",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.909727156162262
+      }
+    },
+    {
+      "start": 1952.16,
+      "end": 1957.12,
+      "text": "that be to resellers or end consumers and other efficiency efforts that you might be able to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8930535316467285
+      }
+    },
+    {
+      "start": 1957.12,
+      "end": 1963.04,
+      "text": "pursue? Thank you. Yeah, obviously we're very engaged on the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.794542670249939
+      }
+    },
+    {
+      "start": 1963.76,
+      "end": 1970.24,
+      "text": "tariff discussions. We believe in engagement and we'll continue to engage.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.588365912437439
+      }
+    },
+    {
+      "start": 1970.8,
+      "end": 1974.48,
+      "text": "On the pricing piece, we have nothing to announce today.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9416191577911377
+      }
+    },
+    {
+      "start": 1976.56,
+      "end": 1986.32,
+      "text": "And I'll just say that the operational team has done an incredible job around optimizing the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8612041473388672
+      }
+    },
+    {
+      "start": 1986.32,
+      "end": 1989.92,
+      "text": "supply chain of the inventory. And we'll obviously continue to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5630623698234558
+      }
+    },
+    {
+      "start": 1990.24,
+      "end": 1998.64,
+      "text": "do those things to the degree that we can. Great. Thanks. And just as a quick follow-up,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.846314549446106
+      }
+    },
+    {
+      "start": 1999.52,
+      "end": 2004.72,
+      "text": "for Kevin, on product gross margins, I was just wondering if you could provide a little bit more",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9060837030410767
+      }
+    },
+    {
+      "start": 2004.72,
+      "end": 2010.96,
+      "text": "color on some of the factors that may have impacted product gross margins in the quarter,",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.7945857644081116
+      }
+    },
+    {
+      "start": 2012.0800000000002,
+      "end": 2019.3600000000001,
+      "text": "obviously down sequentially on seasonal factors, but there was a year-over-year decline as well. So",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9557508230209351
+      }
+    },
+    {
+      "start": 2019.44,
+      "end": 2024.72,
+      "text": "any additional color will be helpful. Thank you. Yeah, Michael, thanks. This is Kevin. So on the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9042708873748779
+      }
+    },
+    {
+      "start": 2024.72,
+      "end": 2030.72,
+      "text": "sequential, as we mentioned in the prior remarks, we had a decrease in the product gross margin",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.8608852624893188
+      }
+    },
+    {
+      "start": 2030.72,
+      "end": 2036.8000000000002,
+      "text": "by 340 basis points sequentially. That was primarily driven by mix, seasonal loss of leverage,",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.8425048589706421
+      }
+    },
+    {
+      "start": 2037.44,
+      "end": 2042.72,
+      "text": "foreign exchange. And that was partly offset by cost savings. And when we look at the year-on-year",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8148437738418579
+      }
+    },
+    {
+      "start": 2042.72,
+      "end": 2048.4,
+      "text": "performance, we were down 70 basis points on a year-on-year basis. And that was driven by a",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.963226854801178
+      }
+    },
+    {
+      "start": 2048.4,
+      "end": 2058.1600000000003,
+      "text": "different mix and foreign exchange. Great. Thank you. Thank you. Great. Thank you, Mike.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7047587037086487
+      }
+    },
+    {
+      "start": 2058.1600000000003,
+      "end": 2065.92,
+      "text": "Operator, could we have the next question, please? Our next question is from Amit Darianani with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9361721277236938
+      }
+    },
+    {
+      "start": 2065.92,
+      "end": 2071.92,
+      "text": "Evercore. Please go ahead. Yep. Thanks a lot. I guess I'll have to start with a tear of question as",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9085212349891663
+      }
+    },
+    {
+      "start": 2071.92,
+      "end": 2077.12,
+      "text": "well. Tim, I think when you talked about the 900 million impact your cost of goods sold,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8828859329223633
+      }
+    },
+    {
+      "start": 2077.12,
+      "end": 2080.64,
+      "text": "you thought I had a statement that, you know, there are certain unique factors that benefit you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8806219100952148
+      }
+    },
+    {
+      "start": 2080.64,
+      "end": 2084.72,
+      "text": "in the June quarter related to that number. Can you just talk about what are these unique factors",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8957432508468628
+      }
+    },
+    {
+      "start": 2084.72,
+      "end": 2089.6,
+      "text": "that are benefiting you in the June quarter and what would the impact be without those benefits",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9121422171592712
+      }
+    },
+    {
+      "start": 2089.6,
+      "end": 2097.2,
+      "text": "essentially? I wouldn't want to go through all of them, but as an example, the build ahead",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9106392860412598
+      }
+    },
+    {
+      "start": 2098.7999999999997,
+      "end": 2105.2799999999997,
+      "text": "that is I mentioned earlier that's in the manufacturing purchase obligations is",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.93399977684021
+      }
+    },
+    {
+      "start": 2106.0,
+      "end": 2115.52,
+      "text": "or helpful. Got it. And then I think about the June quarter guide of, you know, low to",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.5437324047088623
+      }
+    },
+    {
+      "start": 2115.52,
+      "end": 2121.2000000000003,
+      "text": "mid-single-digit revenue growth. Do you folks expect services growth to remain in the double-digit",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8994397521018982
+      }
+    },
+    {
+      "start": 2121.2000000000003,
+      "end": 2125.36,
+      "text": "range as you go into the back half of the year? I imagine FX is a bit of a benefit as you go",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7594586610794067
+      }
+    },
+    {
+      "start": 2125.36,
+      "end": 2128.88,
+      "text": "to the back half. I'd love to just understand within that framework, how do you think services",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.936081051826477
+      }
+    },
+    {
+      "start": 2128.88,
+      "end": 2135.2000000000003,
+      "text": "stacks up as you go through the June quarter? Yeah, I'm going to say it's Kevin. So I think",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8532382845878601
+      }
+    },
+    {
+      "start": 2135.2000000000003,
+      "end": 2139.76,
+      "text": "when we talk about the overall June quarter, we talked about the load in mid-single-digits year",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7093361616134644
+      }
+    },
+    {
+      "start": 2139.76,
+      "end": 2144.8,
+      "text": "over year, we do expect foreign exchange in the June quarter to improve sequentially. However,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9594125151634216
+      }
+    },
+    {
+      "start": 2144.8,
+      "end": 2149.92,
+      "text": "we are expecting it to be a slight headwind to revenue on a year on your basis. With respect to",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9382140040397644
+      }
+    },
+    {
+      "start": 2149.92,
+      "end": 2156.1600000000003,
+      "text": "services, given the uncertainty we see from several factors, we aren't providing the category level",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8055054545402527
+      }
+    },
+    {
+      "start": 2156.16,
+      "end": 2168.96,
+      "text": "of color today. Got it. Thank you. Thanks, Amit. Operator, could we have the next question, please?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9337769746780396
+      }
+    },
+    {
+      "start": 2171.7599999999998,
+      "end": 2176.48,
+      "text": "Our next question is from Juan C. Moen with Bank of America. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9368680715560913
+      }
+    },
+    {
+      "start": 2177.92,
+      "end": 2182.3199999999997,
+      "text": "Yes, thank you. Tim, we're having a how should investors think about the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.92657870054245
+      }
+    },
+    {
+      "start": 2182.32,
+      "end": 2188.2400000000002,
+      "text": "growth margin trajectory as you source more from the U.S. in particular, or other supply",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8895736336708069
+      }
+    },
+    {
+      "start": 2188.2400000000002,
+      "end": 2195.6000000000004,
+      "text": "changes that you're making, including in India, how should those kind of go into the past structure",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9004524946212769
+      }
+    },
+    {
+      "start": 2195.6000000000004,
+      "end": 2198.7200000000003,
+      "text": "and how should we think about that growth margin trajectory? And I will follow up.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.924282431602478
+      }
+    },
+    {
+      "start": 2200.0,
+      "end": 2207.36,
+      "text": "We're excited about bringing more production to the U.S. As you know, we've been",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8990023732185364
+      }
+    },
+    {
+      "start": 2208.2400000000002,
+      "end": 2217.44,
+      "text": "very key in the TSMC project in Arizona and are the largest and first customer",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6822766065597534
+      }
+    },
+    {
+      "start": 2219.1200000000003,
+      "end": 2224.88,
+      "text": "getting product out of that. And that's the SOC that's coming out of there.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8351705074310303
+      }
+    },
+    {
+      "start": 2225.84,
+      "end": 2234.08,
+      "text": "We also have glass coming out of the U.S. and the Face ID module and loads of chips. In fact,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8839192986488342
+      }
+    },
+    {
+      "start": 2234.08,
+      "end": 2242.08,
+      "text": "there's 19 billion chips coming out across 12 states. This is down to the resisting capacitor",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.908583402633667
+      }
+    },
+    {
+      "start": 2242.08,
+      "end": 2254.56,
+      "text": "level, obviously. And so there's some that is already built into the margins that Kevin has quoted,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8952904939651489
+      }
+    },
+    {
+      "start": 2254.56,
+      "end": 2258.08,
+      "text": "and we don't really forecast beyond the current quarter as you know.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8946493268013
+      }
+    },
+    {
+      "start": 2258.88,
+      "end": 2263.12,
+      "text": "Yeah, and maybe I'll add a couple more points as we think about just the margin going forward.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.4977196156978607
+      }
+    },
+    {
+      "start": 2263.2,
+      "end": 2266.7999999999997,
+      "text": "You know, a couple of observations I had mentioned is every product cycle is different.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8585745096206665
+      }
+    },
+    {
+      "start": 2268.0,
+      "end": 2271.2,
+      "text": "And over the years we have managed growth margin well. We made good decisions",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9311555624008179
+      }
+    },
+    {
+      "start": 2271.2,
+      "end": 2275.52,
+      "text": "of balancing units for revenue margins. You know, when we launched new products, they tend to have",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8928457498550415
+      }
+    },
+    {
+      "start": 2275.52,
+      "end": 2280.0,
+      "text": "a higher cost structure than the products they replace as we introduce new features and technologies.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5596714615821838
+      }
+    },
+    {
+      "start": 2280.72,
+      "end": 2285.04,
+      "text": "We do have a good track record of reducing those costs and structures over the life of the product.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9167624115943909
+      }
+    },
+    {
+      "start": 2286.24,
+      "end": 2289.44,
+      "text": "And our products and services all have different levels of profitability and the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9003391861915588
+      }
+    },
+    {
+      "start": 2289.44,
+      "end": 2293.44,
+      "text": "relative success in the marketplace has an impact on the overall gross margin.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6137444376945496
+      }
+    },
+    {
+      "start": 2294.88,
+      "end": 2298.0,
+      "text": "So I hope that's helpful coloring context for you.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7718430757522583
+      }
+    },
+    {
+      "start": 2299.84,
+      "end": 2305.84,
+      "text": "Yeah, no, that's super helpful. Thank you. I guess, you know, you just noted that you wouldn't",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6467527151107788
+      }
+    },
+    {
+      "start": 2305.84,
+      "end": 2312.88,
+      "text": "want to give services, maybe grow a forecast here in light of some of the uncertain news.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6657516360282898
+      }
+    },
+    {
+      "start": 2313.52,
+      "end": 2321.6,
+      "text": "But maybe, Tim, could you share any color around what you have seen in developer behavior in areas",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8992025256156921
+      }
+    },
+    {
+      "start": 2321.6,
+      "end": 2327.04,
+      "text": "like Europe where there has now been emergence of alternate app stores for a little more time?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9150005578994751
+      }
+    },
+    {
+      "start": 2328.4,
+      "end": 2333.6800000000003,
+      "text": "What have you seen anecdotally or within your data in terms of maybe",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.928187906742096
+      }
+    },
+    {
+      "start": 2334.32,
+      "end": 2340.56,
+      "text": "developer behavior, whether it's large or small, any color you can share on what has actually happened?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9284079670906067
+      }
+    },
+    {
+      "start": 2341.52,
+      "end": 2352.48,
+      "text": "It's embedded in our results that Kevin talked about earlier and embedded in the overall company",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9142818450927734
+      }
+    },
+    {
+      "start": 2353.04,
+      "end": 2359.52,
+      "text": "color that was provided. But as you know, the Digital Markets Act went into effect in,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9333924651145935
+      }
+    },
+    {
+      "start": 2360.64,
+      "end": 2367.2799999999997,
+      "text": "I believe it was March of last year. And so the Digital Markets Act has been",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.917408287525177
+      }
+    },
+    {
+      "start": 2368.0800000000004,
+      "end": 2377.0400000000004,
+      "text": "enacted for a bit over a year. And there's been alternate app stores for some period of time of that.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.85451340675354
+      }
+    },
+    {
+      "start": 2378.0,
+      "end": 2386.4,
+      "text": "And so it's at this point in Europe, there are some embedded in the actuals.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9043999314308167
+      }
+    },
+    {
+      "start": 2386.4,
+      "end": 2394.88,
+      "text": "That means there may be more to come and so forth. I don't want to predict beyond the current quarter.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7751387357711792
+      }
+    },
+    {
+      "start": 2397.92,
+      "end": 2398.7200000000003,
+      "text": "Okay, thank you, Tim.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7235371470451355
+      }
+    },
+    {
+      "start": 2400.2400000000002,
+      "end": 2403.92,
+      "text": "Thank you, Wonzi. Operator, could we have the next question, please?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9390827417373657
+      }
+    },
+    {
+      "start": 2406.1600000000003,
+      "end": 2410.2400000000002,
+      "text": "Our next question is from David Vogt with UPS. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9340710043907166
+      }
+    },
+    {
+      "start": 2411.44,
+      "end": 2414.7200000000003,
+      "text": "Great. Thanks, guys. Thanks for taking my question. So I've got two as well.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8068308234214783
+      }
+    },
+    {
+      "start": 2415.6000000000004,
+      "end": 2419.28,
+      "text": "And Tim, this is more of a big picture of supply chain philosophical question.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8951652646064758
+      }
+    },
+    {
+      "start": 2419.28,
+      "end": 2424.1600000000003,
+      "text": "So can you come and update us on your thoughts on how you're thinking about your sort of resiliency",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.911686897277832
+      }
+    },
+    {
+      "start": 2424.16,
+      "end": 2428.08,
+      "text": "and redundancy following the changes that you guys talked about earlier on the call?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8639354705810547
+      }
+    },
+    {
+      "start": 2428.08,
+      "end": 2432.0,
+      "text": "I guess what I'm trying to understand is how do we think about where your supply chain is two",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9375613331794739
+      }
+    },
+    {
+      "start": 2432.0,
+      "end": 2437.2799999999997,
+      "text": "to three years from now? And is there any risk, at least in the near term of maybe some export",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8531929850578308
+      }
+    },
+    {
+      "start": 2437.2799999999997,
+      "end": 2441.6,
+      "text": "control issues in your outlook for the balance of this year? And I'll give you my second one at the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8602976202964783
+      }
+    },
+    {
+      "start": 2441.6,
+      "end": 2447.68,
+      "text": "same time. You know, you quantified a $900 million hit from tariffs, but, or Kevin, is there any",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8506159782409668
+      }
+    },
+    {
+      "start": 2447.68,
+      "end": 2452.3199999999997,
+      "text": "impact in how you're thinking about the demand backdrop in your outlook for the June quarter",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9036914706230164
+      }
+    },
+    {
+      "start": 2452.32,
+      "end": 2455.1200000000003,
+      "text": "on the review line? You know, holistically, thanks.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7648321390151978
+      }
+    },
+    {
+      "start": 2456.2400000000002,
+      "end": 2462.2400000000002,
+      "text": "In terms of the resiliency and risk, et cetera, there we have a complex supply chain. There's",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8993345499038696
+      }
+    },
+    {
+      "start": 2462.2400000000002,
+      "end": 2468.4,
+      "text": "always risk in the supply chain. And so I wouldn't tell you anything different than that.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.886699378490448
+      }
+    },
+    {
+      "start": 2469.6800000000003,
+      "end": 2479.36,
+      "text": "What we learned some time ago was that having everything in one location",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9218651652336121
+      }
+    },
+    {
+      "start": 2480.1600000000003,
+      "end": 2487.76,
+      "text": "had too much risk with it. And so we have over time with certain parts of the supply chain,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8536484837532043
+      }
+    },
+    {
+      "start": 2487.76,
+      "end": 2497.2000000000003,
+      "text": "not the whole thing, but certain parts of it opened up new sources of supply. And you could",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8331260681152344
+      }
+    },
+    {
+      "start": 2497.2000000000003,
+      "end": 2504.4,
+      "text": "see that kind of thing continuing in the future. I'll let Kevin answer the other question.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9088354110717773
+      }
+    },
+    {
+      "start": 2505.12,
+      "end": 2510.88,
+      "text": "Hi, David. On the other question, I would say that our best thinking is captured in the outlook",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8892459273338318
+      }
+    },
+    {
+      "start": 2510.88,
+      "end": 2516.7200000000003,
+      "text": "that we provided. However, I did want to reemphasize the point that the assumptions we made on the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8972432613372803
+      }
+    },
+    {
+      "start": 2516.7200000000003,
+      "end": 2523.28,
+      "text": "outlook do assume that the global tariff rates, the policies and application remain the same as",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9123393297195435
+      }
+    },
+    {
+      "start": 2523.28,
+      "end": 2528.1600000000003,
+      "text": "they are today as of this call, and that the global macroeconomic outlook doesn't worsen from today.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5326091647148132
+      }
+    },
+    {
+      "start": 2528.16,
+      "end": 2536.7999999999997,
+      "text": "Okay, but no quantifiable impact on demand to date, at least from where we are over the last",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7517467141151428
+      }
+    },
+    {
+      "start": 2536.7999999999997,
+      "end": 2540.7999999999997,
+      "text": "month, your way to kind of think about that, you know, from early April to early May.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8985283970832825
+      }
+    },
+    {
+      "start": 2542.16,
+      "end": 2544.7999999999997,
+      "text": "I would say our best thinking is reflected in the range that we provided.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7526183128356934
+      }
+    },
+    {
+      "start": 2546.3199999999997,
+      "end": 2548.72,
+      "text": "Okay, thanks, Kevin. Thanks, guys. Thank you.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.668916642665863
+      }
+    },
+    {
+      "start": 2549.3599999999997,
+      "end": 2552.72,
+      "text": "Thank you, David. Operator, could we have the next question, please?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9388371109962463
+      }
+    },
+    {
+      "start": 2553.44,
+      "end": 2560.0000000000005,
+      "text": "Our next question is from Somic Chatterjee with JP Morgan. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9376305341720581
+      }
+    },
+    {
+      "start": 2561.44,
+      "end": 2567.6800000000003,
+      "text": "Hi, good afternoon. Thanks for taking my questions. I guess, Tim, you made a comment on the last earnings",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8283920884132385
+      }
+    },
+    {
+      "start": 2567.6800000000003,
+      "end": 2573.44,
+      "text": "call about Apple intelligence making a visible impact on iPhone sales in the countries where",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.6162577867507935
+      }
+    },
+    {
+      "start": 2573.44,
+      "end": 2578.8,
+      "text": "it was available. I'm just curious if you continue to see that play out similarly in",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9034669995307922
+      }
+    },
+    {
+      "start": 2578.8,
+      "end": 2583.76,
+      "text": "so the more broader number of countries you've rolled that out, or the delays that you talked",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9086396098136902
+      }
+    },
+    {
+      "start": 2583.76,
+      "end": 2589.76,
+      "text": "about related to Siri or Somic Siri features has that had an impact in terms of consumer willingness",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9037500619888306
+      }
+    },
+    {
+      "start": 2589.76,
+      "end": 2594.7200000000003,
+      "text": "to upgrade and have a follow-up. Thank you. Yeah, thank you for the question. During the March",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8493040800094604
+      }
+    },
+    {
+      "start": 2594.7200000000003,
+      "end": 2601.36,
+      "text": "quarter, we saw that in markets where we had rolled out Apple intelligence that the year-over-year",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7439721822738647
+      }
+    },
+    {
+      "start": 2601.36,
+      "end": 2607.52,
+      "text": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.957182765007019
+      }
+    },
+    {
+      "start": 2607.52,
+      "end": 2613.7599999999998,
+      "text": "available. A lot of the languages that I think you're referring to rolled out in April and so",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9122161269187927
+      }
+    },
+    {
+      "start": 2613.7599999999998,
+      "end": 2622.56,
+      "text": "they actually rolled out in Q3. Okay, correct. Yeah, then maybe for my follow-up,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9083084464073181
+      }
+    },
+    {
+      "start": 2622.56,
+      "end": 2629.52,
+      "text": "I mean, you have a lot of insights now in terms of what consumers are, how consumers are reacting",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9138248562812805
+      }
+    },
+    {
+      "start": 2629.52,
+      "end": 2634.64,
+      "text": "to the overall macro. And I know you sort of prefaced all your guidance with macro remaining",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.904812216758728
+      }
+    },
+    {
+      "start": 2634.64,
+      "end": 2640.56,
+      "text": "consistent, but what are you seeing in terms of the U.S. consumer and what's the reaction there",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9174078702926636
+      }
+    },
+    {
+      "start": 2640.56,
+      "end": 2647.92,
+      "text": "in terms of the tariff impact or we saw U.S. GDP also shrink here in 1Q when you look at",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9352104663848877
+      }
+    },
+    {
+      "start": 2647.92,
+      "end": 2652.24,
+      "text": "velocity at this door or sort of create down within those sort of iPhone portfolio makes,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8618053197860718
+      }
+    },
+    {
+      "start": 2652.24,
+      "end": 2655.92,
+      "text": "what are you seeing in terms of how the consumers are reacting to the macro at this point?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9097546935081482
+      }
+    },
+    {
+      "start": 2655.92,
+      "end": 2663.3599999999997,
+      "text": "Thank you. You know, I'm not an economist and so I start by saying that in terms of the, as you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9119784235954285
+      }
+    },
+    {
+      "start": 2663.36,
+      "end": 2669.52,
+      "text": "can see from a total company point of view, our results accelerated sequentially",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7599704265594482
+      }
+    },
+    {
+      "start": 2671.28,
+      "end": 2680.8,
+      "text": "to the 5% level and the U.S. is obviously the vast majority of the America's segment and you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8741705417633057
+      }
+    },
+    {
+      "start": 2680.8,
+      "end": 2690.1600000000003,
+      "text": "can see how the America's performed during the quarter and so that's all I want to say about that.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8310903310775757
+      }
+    },
+    {
+      "start": 2690.16,
+      "end": 2696.0,
+      "text": "I don't want to try to predict what happens in the months from now.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8584814667701721
+      }
+    },
+    {
+      "start": 2697.2799999999997,
+      "end": 2702.96,
+      "text": "That the past, I'm quite pleased with the results from Q2.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9102293252944946
+      }
+    },
+    {
+      "start": 2705.44,
+      "end": 2706.64,
+      "text": "Thank you. Thanks for taking the lead.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7512601613998413
+      }
+    },
+    {
+      "start": 2706.64,
+      "end": 2710.8799999999997,
+      "text": "Yes. Thank you, Samick. Operator, could we have the next question please?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9421209096908569
+      }
+    },
+    {
+      "start": 2714.08,
+      "end": 2718.64,
+      "text": "Our next question is from Krish Sankar, TD Cowan. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9401869177818298
+      }
+    },
+    {
+      "start": 2719.52,
+      "end": 2724.56,
+      "text": "Hi, thanks for taking my question. I actually owe them to Tim, thanks for that information",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6931638717651367
+      }
+    },
+    {
+      "start": 2724.56,
+      "end": 2729.7599999999998,
+      "text": "on the 500 billion U.S. investment. I'm kind of curious how to think about the composition of that.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9309960007667542
+      }
+    },
+    {
+      "start": 2729.7599999999998,
+      "end": 2735.3599999999997,
+      "text": "How much is CapEx? This is R&D. How much is, you know, going into like the Texas",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9361865520477295
+      }
+    },
+    {
+      "start": 2735.3599999999997,
+      "end": 2740.0,
+      "text": "server? How much is going into maybe TS into Arizona? Any kind of color you can give one",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9398850798606873
+      }
+    },
+    {
+      "start": 2740.0,
+      "end": 2743.7599999999998,
+      "text": "that 500 billion investment would be helpful in the amount of follow-up.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5504790544509888
+      }
+    },
+    {
+      "start": 2744.5600000000004,
+      "end": 2752.8,
+      "text": "Well, there's lots of all of it is what I would say. We're not giving out the exact split, but as we",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9376287460327148
+      }
+    },
+    {
+      "start": 2752.8,
+      "end": 2759.76,
+      "text": "expand facilities in the different states from Michigan to Texas to California and Arizona and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5241988897323608
+      }
+    },
+    {
+      "start": 2759.76,
+      "end": 2766.96,
+      "text": "Nevada and Iowa and Oregon and North Carolina and Washington, there will be CapEx involved in that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9456363916397095
+      }
+    },
+    {
+      "start": 2766.96,
+      "end": 2775.84,
+      "text": "and OPEX involved in it and standing up a server, advanced server manufacturing in Texas.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9089142680168152
+      }
+    },
+    {
+      "start": 2776.88,
+      "end": 2780.56,
+      "text": "We'll do that through a partner as we do our manufacturing through a partner,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.90346759557724
+      }
+    },
+    {
+      "start": 2781.68,
+      "end": 2791.68,
+      "text": "but we'll be putting a fair amount in cost of good self to do that and some OPEX as well and I'm",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8376498818397522
+      }
+    },
+    {
+      "start": 2791.68,
+      "end": 2796.16,
+      "text": "sure some CapEx as well and so it's a bit of all of it.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9295745491981506
+      }
+    },
+    {
+      "start": 2798.8799999999997,
+      "end": 2803.44,
+      "text": "Got it, got it. I kind of had like a long-term, more like a philosophical question. When you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9004935622215271
+      }
+    },
+    {
+      "start": 2803.44,
+      "end": 2808.56,
+      "text": "look at, you know, in the past you've spoken about AI on the edge, obviously it's very topical to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9228837490081787
+      }
+    },
+    {
+      "start": 2808.56,
+      "end": 2814.72,
+      "text": "you from both the iPhone angle and the Mac angle, but I'm just kind of curious and look at AI on the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9380599856376648
+      }
+    },
+    {
+      "start": 2814.7200000000003,
+      "end": 2822.2400000000002,
+      "text": "edge. Are the current smartphone specs or improved hardware and silicon specs good enough to meet",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9142961502075195
+      }
+    },
+    {
+      "start": 2822.96,
+      "end": 2827.76,
+      "text": "future HLLM from inference or do you think you need to come up with a whole new different kind of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9315185546875
+      }
+    },
+    {
+      "start": 2827.76,
+      "end": 2833.84,
+      "text": "device? We're just kind of curious how to think about the evolution of the edge devices from here.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9340363144874573
+      }
+    },
+    {
+      "start": 2834.4,
+      "end": 2844.5600000000004,
+      "text": "Thank you. Yeah, as you know, we're shipping an LLM on the iPhone 16 today and there are",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7764022946357727
+      }
+    },
+    {
+      "start": 2845.6000000000004,
+      "end": 2855.36,
+      "text": "some of the queries that are being used by our customers are on device and then others go to the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9388818740844727
+      }
+    },
+    {
+      "start": 2855.36,
+      "end": 2864.0800000000004,
+      "text": "private cloud where we've essentially mimicked the security and privacy of the device into the cloud",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9293396472930908
+      }
+    },
+    {
+      "start": 2864.0800000000004,
+      "end": 2874.1600000000003,
+      "text": "and then others for world knowledge are we'd be integration with chat GPT and so there's we",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8978356719017029
+      }
+    },
+    {
+      "start": 2874.16,
+      "end": 2884.0,
+      "text": "continue to be very excited about the opportunities here. We are very excited about the roadmap",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8475960493087769
+      }
+    },
+    {
+      "start": 2884.8799999999997,
+      "end": 2890.72,
+      "text": "and we are, you know, pleased with the progress that we're making.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9075139760971069
+      }
+    },
+    {
+      "start": 2893.12,
+      "end": 2898.96,
+      "text": "Thanks, Jim. Thank you, Chris, operator. Could we get the next question, please?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9377061128616333
+      }
+    },
+    {
+      "start": 2898.96,
+      "end": 2906.0,
+      "text": "Our next question is from Richard Kramer with the rate research. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.935295045375824
+      }
+    },
+    {
+      "start": 2908.08,
+      "end": 2913.44,
+      "text": "Thank you very much. I won't ask about tariffs. Tim, given your recognition that a new",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5829598307609558
+      }
+    },
+    {
+      "start": 2913.44,
+      "end": 2917.92,
+      "text": "Siri assistant is taking longer than you thought to deliver, I'd like to go back to my question",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9232348799705505
+      }
+    },
+    {
+      "start": 2917.92,
+      "end": 2923.04,
+      "text": "from the last call and ask about what some of the learnings you had from those delays and whether",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9280199408531189
+      }
+    },
+    {
+      "start": 2923.04,
+      "end": 2929.2799999999997,
+      "text": "you attribute them to organizational factors to your legacy software stack or is it a matter of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.911212146282196
+      }
+    },
+    {
+      "start": 2929.2799999999997,
+      "end": 2934.64,
+      "text": "R&B spending and what are some of the key gating factors investors should look for",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9305866956710815
+      }
+    },
+    {
+      "start": 2935.36,
+      "end": 2940.72,
+      "text": "either at WWDC or beyond, have a sense that Apple can deliver on some of the promises of the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9144073724746704
+      }
+    },
+    {
+      "start": 2940.72,
+      "end": 2949.7599999999998,
+      "text": "announcements at the prior WWDC. Thanks. Yeah, if you sort of step back from what we said at",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7920198440551758
+      }
+    },
+    {
+      "start": 2949.84,
+      "end": 2956.8,
+      "text": "WWDC, we talked about a number of different features that would launch with iOS 18",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9138944745063782
+      }
+    },
+    {
+      "start": 2957.6000000000004,
+      "end": 2965.28,
+      "text": "and we've released a slew of those from writing tools to seamlessly connecting to chat GPT,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9008954763412476
+      }
+    },
+    {
+      "start": 2967.28,
+      "end": 2972.4,
+      "text": "to Jim Moji, to image playground, to image wand, to clean up visual intelligence,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9205538630485535
+      }
+    },
+    {
+      "start": 2973.28,
+      "end": 2983.44,
+      "text": "making movies or movies of your memories with a simple prompt, AI powered photos search,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9446321129798889
+      }
+    },
+    {
+      "start": 2983.44,
+      "end": 2990.1600000000003,
+      "text": "smart replies, priority notifications, and the list goes on. And so we've delivered a lot and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.855802595615387
+      }
+    },
+    {
+      "start": 2990.1600000000003,
+      "end": 2997.44,
+      "text": "we've just recently, just a few weeks ago, expanded it into several different languages,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.868919312953949
+      }
+    },
+    {
+      "start": 2997.52,
+      "end": 3004.64,
+      "text": "including French, German, Italian, Portuguese, Spanish, Japanese, Korean, simplified Chinese,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9455246925354004
+      }
+    },
+    {
+      "start": 3004.64,
+      "end": 3010.88,
+      "text": "as well as localized English for both Singapore and India. So we've delivered a lot. However,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7408618330955505
+      }
+    },
+    {
+      "start": 3012.0,
+      "end": 3017.76,
+      "text": "with regard to the more personal Siri, as you mentioned, we just need more time to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9104334115982056
+      }
+    },
+    {
+      "start": 3018.7200000000003,
+      "end": 3026.2400000000002,
+      "text": "complete the work so they meet our high quality bar. And there's not a lot of other",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8804100155830383
+      }
+    },
+    {
+      "start": 3028.1600000000003,
+      "end": 3035.5200000000004,
+      "text": "reason for it. It's just taking a bit longer than we thought. But we are making progress",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5691767334938049
+      }
+    },
+    {
+      "start": 3036.32,
+      "end": 3041.6800000000003,
+      "text": "and we're extremely excited to get the more personal Siri features out there.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5222089290618896
+      }
+    },
+    {
+      "start": 3041.68,
+      "end": 3046.3199999999997,
+      "text": "And Richard, I'll just add that, you know, on your question about investment,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9318017959594727
+      }
+    },
+    {
+      "start": 3047.2,
+      "end": 3051.3599999999997,
+      "text": "that we don't underestimate, you know, underestimate and invest in our business.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8843399286270142
+      }
+    },
+    {
+      "start": 3051.3599999999997,
+      "end": 3055.04,
+      "text": "You know, we make significant investments in R&D that continues to grow or continue to grow",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6564099192619324
+      }
+    },
+    {
+      "start": 3055.04,
+      "end": 3059.52,
+      "text": "our R&D investment. And so we definitely are making all the investments we think we need to",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6668936610221863
+      }
+    },
+    {
+      "start": 3059.52,
+      "end": 3068.3199999999997,
+      "text": "enable our roadmap. And Kevin, one for you. I mean, it's hard to ignore some of the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9202383160591125
+      }
+    },
+    {
+      "start": 3068.6400000000003,
+      "end": 3074.6400000000003,
+      "text": "ongoing, very high-profile legal cases that touch on Apple, be it yesterday's epic case in",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8531902432441711
+      }
+    },
+    {
+      "start": 3074.6400000000003,
+      "end": 3079.6000000000004,
+      "text": "Junction or the Google antitrust trial touching on default search. And investors are clearly",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8190591335296631
+      }
+    },
+    {
+      "start": 3079.6000000000004,
+      "end": 3084.8,
+      "text": "concerned that these might have material impacts on your services business. Do you feel now that you",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.6601689457893372
+      }
+    },
+    {
+      "start": 3084.8,
+      "end": 3089.6000000000004,
+      "text": "have ample ways in which you might be able to mitigate some of the potential negative impacts",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.760566234588623
+      }
+    },
+    {
+      "start": 3089.6000000000004,
+      "end": 3096.0,
+      "text": "on Apple services business that might come about from what's been proposed or might come about",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8783020973205566
+      }
+    },
+    {
+      "start": 3096.0,
+      "end": 3099.6,
+      "text": "in legal rather than commercial pressures that the business faces?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.813439667224884
+      }
+    },
+    {
+      "start": 3101.52,
+      "end": 3108.4,
+      "text": "Let me make a couple of comments on that before, Kevin. The case yesterday, we strongly disagree with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6249823570251465
+      }
+    },
+    {
+      "start": 3109.76,
+      "end": 3117.52,
+      "text": "we've complied with the court's order and we're going to appeal. In the DOJ case that you referenced",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8194881081581116
+      }
+    },
+    {
+      "start": 3117.52,
+      "end": 3124.32,
+      "text": "with Google, that case is ongoing and I don't really have anything to add beyond that. And so",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8549867272377014
+      }
+    },
+    {
+      "start": 3125.1200000000003,
+      "end": 3132.88,
+      "text": "we're monitoring these closely. But there, as you point out, there's risk associated with them",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8582514524459839
+      }
+    },
+    {
+      "start": 3132.88,
+      "end": 3137.2000000000003,
+      "text": "and the outcome is unclear.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8129366040229797
+      }
+    },
+    {
+      "start": 3140.88,
+      "end": 3143.52,
+      "text": "Yeah, I think Tim answered it really well. I don't have anything to add to that.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8890126943588257
+      }
+    },
+    {
+      "start": 3146.32,
+      "end": 3146.8,
+      "text": "Thank you.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8234812021255493
+      }
+    },
+    {
+      "start": 3147.84,
+      "end": 3152.32,
+      "text": "All right. Thank you, Richard. Operator, we will take our last question, please.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9374011754989624
+      }
+    },
+    {
+      "start": 3155.28,
+      "end": 3160.32,
+      "text": "We'll go ahead and take our last question from Aaron Rieker as well as Fargo. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9348903298377991
+      }
+    },
+    {
+      "start": 3161.36,
+      "end": 3167.92,
+      "text": "Yeah, thanks for taking a question. I want to go back to the AI strategy a little bit. I know Tim",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9103565812110901
+      }
+    },
+    {
+      "start": 3167.92,
+      "end": 3172.48,
+      "text": "in your prepared comments, you had mentioned building some of your own foundational models.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9071135520935059
+      }
+    },
+    {
+      "start": 3172.48,
+      "end": 3179.2000000000003,
+      "text": "And I'm curious of how important you think it is for Apple to have their own foundational models.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9099888205528259
+      }
+    },
+    {
+      "start": 3179.6800000000003,
+      "end": 3185.36,
+      "text": "And kind of dovetailed with that is that how do you think about your data center footprint when",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9258792996406555
+      }
+    },
+    {
+      "start": 3185.36,
+      "end": 3191.2000000000003,
+      "text": "we look at Apple spending, call it three billion a quarter relative to some of these other companies",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8868836164474487
+      }
+    },
+    {
+      "start": 3191.2000000000003,
+      "end": 3197.1200000000003,
+      "text": "spending multiples of that? How does the strategy play out in your opinion?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9345827102661133
+      }
+    },
+    {
+      "start": 3198.0800000000004,
+      "end": 3205.6800000000003,
+      "text": "Well, on the data center side, we have a hybrid strategy. And so we utilize third parties",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9258171319961548
+      }
+    },
+    {
+      "start": 3205.76,
+      "end": 3214.32,
+      "text": "in addition to the data center investments that we're making. And as I mentioned in the 500",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8675731420516968
+      }
+    },
+    {
+      "start": 3214.32,
+      "end": 3220.9600000000005,
+      "text": "billion, there's a number of states that we're expanding in. Some of those are data center",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8895493745803833
+      }
+    },
+    {
+      "start": 3220.9600000000005,
+      "end": 3228.4,
+      "text": "investments. And so we do plan on making investments in that area. And we're not gating it.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8796572685241699
+      }
+    },
+    {
+      "start": 3229.12,
+      "end": 3235.6800000000003,
+      "text": "It's we invest in the business first as Kevin talked about is our most important thing to do.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9001306295394897
+      }
+    },
+    {
+      "start": 3236.2400000000002,
+      "end": 3247.44,
+      "text": "In terms of the foundation models, we want to have certain models and we'll partner as well. And",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7885684967041016
+      }
+    },
+    {
+      "start": 3247.44,
+      "end": 3256.4,
+      "text": "so I don't view it as a all of one or all of the other. We've been working on foundation models for",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9027465581893921
+      }
+    },
+    {
+      "start": 3256.4,
+      "end": 3266.56,
+      "text": "quite some time and are shipping some today, obviously, with what's on device and what's in the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9062763452529907
+      }
+    },
+    {
+      "start": 3266.56,
+      "end": 3274.4,
+      "text": "private cloud compute. And then as a follow up, I'm curious with the iPhone 16E launching this",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.90343177318573
+      }
+    },
+    {
+      "start": 3274.4,
+      "end": 3283.28,
+      "text": "quarter internalizing your C1 modem. I'm curious of how you see kind of the modem strategy playing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9442697167396545
+      }
+    },
+    {
+      "start": 3283.28,
+      "end": 3289.6000000000004,
+      "text": "out or maybe just the continual deepening of that internal silicon opportunity for Apple.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7963336110115051
+      }
+    },
+    {
+      "start": 3290.2400000000002,
+      "end": 3297.6800000000003,
+      "text": "We're super excited to ship the first one and get it out there and it's gone well.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9061998724937439
+      }
+    },
+    {
+      "start": 3299.52,
+      "end": 3306.1600000000003,
+      "text": "We love that we can produce better products from a point of view of really focusing on",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7412459254264832
+      }
+    },
+    {
+      "start": 3307.04,
+      "end": 3314.7999999999997,
+      "text": "battery life and and other things that customers want. And so we're we have started on",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8791090250015259
+      }
+    },
+    {
+      "start": 3316.72,
+      "end": 3326.08,
+      "text": "a journey is the way I would put it. Thank you. Yep. Thank you, Aaron. A replay of today's call",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9171866178512573
+      }
+    },
+    {
+      "start": 3326.08,
+      "end": 3332.7999999999997,
+      "text": "will be available for two weeks on Apple podcasts as a webcast on apple.com slash investor and via",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9505364894866943
+      }
+    },
+    {
+      "start": 3332.88,
+      "end": 3342.8,
+      "text": "telephone. The number for the telephone replay is 866-583-1035. Please enter confirmation code",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9480734467506409
+      }
+    },
+    {
+      "start": 3342.8,
+      "end": 3350.96,
+      "text": "372-9688 followed by the pound sign. These replays will be available by approximately 5 p.m.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.944378137588501
+      }
+    },
+    {
+      "start": 3350.96,
+      "end": 3356.8,
+      "text": "Pacific time today. Members of the press with additional questions can contact Josh Rosenstock",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9459441304206848
+      }
+    },
+    {
+      "start": 3356.8,
+      "end": 3365.76,
+      "text": "at 408-862-1142. And financial analysts can contact me, Suhasan, each other Molly with additional",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9469276666641235
+      }
+    },
+    {
+      "start": 3365.76,
+      "end": 3372.6400000000003,
+      "text": "questions at 408-974-3123. Thank you again for joining us today.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8461961150169373
+      }
+    },
+    {
+      "start": 3375.92,
+      "end": 3379.52,
+      "text": "Once again, this does conclude today's conference. We do appreciate your",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6318197846412659
+      }
+    },
+    {
+      "start": 3379.52,
+      "end": 3381.52,
+      "text": "time.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9123064875602722
+      }
+    }
+  ]
+}

@@ -160,25 +160,36 @@ Run the API and frontend locally (see below), then:
 
 ## How to run
 
+**Tier 1 — just browse the 16 already-processed calls.** `data/processed/` (transcripts,
+sentiment, reports, eval results) is committed to this repo, so this works with no API key
+and no audio files:
+
 ```bash
-# Backend
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env   # add GROQ_API_KEY (free tier: console.groq.com)
-
-# Process a call (audio must already exist under data/raw/audio/{TICKER}/{QUARTER}.mp3)
-python pipeline.py --ticker NVDA --quarter Q1-2025
-
-# API
-uvicorn api.main:app --port 8321
-
-# Frontend (separate terminal)
-cd frontend && npm install && npm run dev
+uvicorn api.main:app --port 8321          # terminal 1
+cd frontend && npm install && npm run dev  # terminal 2
 ```
 
-RAG (stage 5) needs a local Postgres with the `pgvector` extension; without it, the pipeline
-degrades gracefully — it logs a warning and continues without cross-quarter context rather
-than failing the whole run.
+Open http://localhost:5173 — dashboard, reports, claims, transcripts, and the evaluation
+page all work immediately. **Audio playback will 404**, though: the source mp3s
+(~580MB, real earnings-call recordings) aren't in this repo — not ours to redistribute,
+and too large to be worth it for a portfolio project. Everything that's just text works.
+
+**Tier 2 — regenerate a report or re-run eval for one of the 16 calls.** Needs a Groq key
+(free tier) but not audio, since transcription/sentiment/prosody are already cached:
+
+```bash
+cp .env.example .env   # add GROQ_API_KEY from console.groq.com
+python pipeline.py --ticker NVDA --quarter Q1-2025 --force
+```
+
+**Tier 3 — process a brand-new call from scratch.** Drop an mp3 at
+`data/raw/audio/{TICKER}/{QUARTER}.mp3` (ticker must exist in `config/companies.yaml`),
+add a Groq key, then run the same `pipeline.py` command without `--force` needed. RAG
+(stage 5) also needs a local Postgres with the `pgvector` extension — without it, the
+pipeline degrades gracefully (logs a warning, continues without cross-quarter context)
+rather than failing the whole run.
 
 ## Scope — what this deliberately is not
 

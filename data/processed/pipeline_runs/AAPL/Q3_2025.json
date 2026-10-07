@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "ticker": "AAPL",
+  "company": "Apple",
+  "quarter": "Q3 2025",
+  "call_date": "2025-07-31",
+  "overall_summary": "Apple's Q3 2025 earnings call highlighted strong revenue growth, with total revenue reaching $94\u202fbillion and Mac sales climbing 15% year\u2011over\u2011year, contributing to an overall positive sentiment of 18.1%. However, declines in iPad revenue and modest earnings per share, alongside a challenging year\u2011over\u2011year comparison, generated negative sentiment of 2.0%, while the majority of remarks remained neutral (80%).",
+  "sentiment_distribution": {
+    "positive": 18.1,
+    "negative": 2.0,
+    "neutral": 80.0
+  },
+  "key_claims": [
+    {
+      "claim": "Mac revenue was $8 billion, up 15% year over year.",
+      "evidence": "Mac revenue was $8 billion, up 15% year over year,",
+      "timestamp_sec": 1157,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Total revenue reached $94 billion, representing a 10% increase year over year.",
+      "evidence": "Our revenue of $94 billion was up 10% year over year",
+      "timestamp_sec": 1007,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Revenue grew 10% from a year ago, exceeding expectations.",
+      "evidence": "up 10% from a year ago, which was better than we expected.",
+      "timestamp_sec": 117,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Revenue grew 15% year over year.",
+      "evidence": "with revenue up 15% year over year.",
+      "timestamp_sec": 177,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "iPad revenue was $6.6 billion, down 8% year over year.",
+      "evidence": "iPad revenue was $6.6 billion, down 8% year over year,",
+      "timestamp_sec": 1187,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Revenue was $7.4 billion, down 9% year over year.",
+      "evidence": "was $7.4 billion, down 9% year over year.",
+      "timestamp_sec": 1219,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Diluted earnings per share were $1.57.",
+      "evidence": "and diluted earnings per share of $1.57,",
+      "timestamp_sec": 1093,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "The situation also leads to a difficult comparison this year.",
+      "evidence": "which also leads to a difficult compare this year.",
+      "timestamp_sec": 2109,
+      "sentiment": "negative"
+    }
+  ],
+  "risks": [],
+  "management_outlook": [],
+  "citation_verification": {
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0
+  },
+  "audio_features_summary": {
+    "mean_pitch_hz": 142.26,
+    "mean_energy": 0.06,
+    "mean_speaking_rate_wps": 2.63,
+    "segments_analyzed": 1119
+  },
+  "prior_quarter_context_used": [
+    {
+      "quarter": "Q4 2024",
+      "start_sec": 3213.7000000000003,
+      "text": "Okay, thanks. And then, Luca, one piece of unfinished business was your pledge to get to a net neutral cash position. And over the last two years, you stayed around 50 billion of net cash. We've clearly seen instances in the past where elevated marketing spend or other programs brought increases in market share. I guess my question looking back on your tenure is at your scale now of 57 billion of topics. Do you still see incremental ways to put that cash to work in the business? Or will we just continue to see increased shareholder returns? Well, obviously, as you see in our opx has gone up over the years. We've also seen at the same time a significant expansion in gross margin. Maybe to a level that I would have not expected a few years ago. But we've done a very good job on a number of fronts. And so I would say we when we plan every time we plan for the upcoming year we think about all the different areas where we can deploy our resources and we make them available to grow the business. I think we've done very well over the long term and but our fundamental philosophy is to look after the business first. And then if we have excess cash, we will continue to return it to our shareholders and the planners worked quite well so far. Okay. Thank you very much. Thank you, Richard. We'll take our last question. Please operator."
+    },
+    {
+      "quarter": "Q4 2024",
+      "start_sec": 1528.9,
+      "text": "and we couldn't be more excited about it. Great. Thank you very much. And my second one, just for Luca, first, congratulations again, Luca, on the new role, and it's been a real privilege being able to spend some time with you. A question that I think will overlap with your new role as well. Could you just talk a little bit about the CAPEX outlook and whether investments in things like private cloud compute could change the historical CAPEX range of roughly $10 billion a year? Thank you very much. Thank you, Michael. On the CAPEX front, I mentioned before a number of times we have a bit of a hybrid model in the way we run our data centers. In some cases we use our own data centers, in some cases we use third-party providers, and so our CAPEX numbers may not be fully comparable with others. But obviously we are rolling out these features, Apple Intelligence features already now, and so we are making all the capacity that is needed available for these features. You will see in our 10K the amount of CAPEX that we've incurred during the course of fiscal 24, and we will, in fiscal 25, we will continue to make all the investments that are necessary, and of course, investments in AI-related CAPEX will be made. Thank you, Tim. Thank you, Luca. All right. Thanks, Mike. Can we have the next question, please? Our next question is from Eric Woodring with Morgan Stanley."
+    },
+    {
+      "quarter": "Q1 2025",
+      "start_sec": 2275.2599999999998,
+      "text": "all time highs, and we have over now a billion paid subscriptions across the services platform. All right, thanks, Womsey, operator, could we get the next question, please? Our next question is from stomach, Chatterjee, with JP Morgan, please go ahead. Thanks for taking my questions, I guess for the first one, if I, I mean you had a great number of people who are on the board, who are on the board, and I'm just curious in terms of if you can help us think about the sustainability of this double digit growth that you saw in both the product lines and more interest, who are also here. We're talking about Apple intelligence, sort of influencing volumes on iPhones, but any thoughts on sort of what does that influence look like in terms of volumes for Macs, for example, where I think there's a lot of conversation on EIPCs, how you're thinking what impact they're going to have a quick photo. If you look at Mac, Mac was up 16%, and on iPad we were up 15%. The Mac was driven by a very strong uptake on our new products during the quarter, and the continued success of the Macbook Air, and so as you know, we've launched an M4 based Mac Pro, an iMac, and a Mac Mini during the quarter. We believe we've got the best AIPC out there for running workloads, the silicon in the Mac and it has been for several years now, designed by us and really designed for these workloads."
+    }
+  ],
+  "pipeline_version": "1.0",
+  "stage_durations_sec": {
+    "transcription_sec": 0.0,
+    "sentiment_sec": 0.0,
+    "prosody_sec": 0.0,
+    "rag_sec": 6.3,
+    "generation_sec": 0.0,
+    "citation_check_sec": 0.0
+  }
+}

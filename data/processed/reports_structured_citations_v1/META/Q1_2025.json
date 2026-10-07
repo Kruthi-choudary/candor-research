@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "claim": "Ad revenue growth was strongest in the rest of world and North America.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 898,
+        "source_text": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at"
+      }
+    },
+    {
+      "claim": "Marketing and sales expenses increased 8 percent, mainly due to higher infrastructure costs.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 764,
+        "source_text": "infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in"
+      }
+    },
+    {
+      "claim": "Cost of revenue rose 14 percent, primarily driven by higher infrastructure costs.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 745,
+        "source_text": "cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and"
+      }
+    },
+    {
+      "claim": "R&D spending grew 22 percent, largely from increased employee compensation and longer server useful lives.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 756,
+        "source_text": "of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and"
+      }
+    },
+    {
+      "claim": "Meta Quest sales declined, contributing to a $412 million drop (6% YoY).",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 998,
+        "source_text": "was 412 million dollars, down 6 percent year over year due to lower meta quest sales,"
+      }
+    },
+    {
+      "claim": "Growth in the government and politics vertical fell sharply after the US elections, remaining a very small overall segment.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 3516,
+        "source_text": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall."
+      }
+    },
+    {
+      "claim": "Gaming revenue declined YoY in Q1, impacted by reduced spend from China-based advertisers.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 3498,
+        "source_text": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024."
+      }
+    },
+    {
+      "claim": "General and administrative expenses fell 34 percent, driven by lower legal costs.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 777,
+        "source_text": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over"
+      }
+    }
+  ],
+  "overall_summary": "The call highlighted strong ad revenue growth in key geographies and increased marketing, R&D, and cost of revenue driven by infrastructure spending, reflecting a largely positive outlook. However, declines were noted in Meta Quest sales, government and politics, gaming, and G&A expenses, contributing to a predominantly neutral sentiment with 26.1% positive, 3.2% negative, and 70.7% neutral sentiment overall."
+}

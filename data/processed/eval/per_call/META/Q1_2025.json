@@ -1,0 +1,73 @@
+{
+  "ticker": "META",
+  "quarter": "Q1_2025",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "Ad revenue growth was strongest in the rest of world and North America.",
+      "source_text": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at",
+      "timestamp_sec": 898,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Marketing and sales expenses increased 8 percent, mainly due to higher infrastructure costs.",
+      "source_text": "infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in",
+      "timestamp_sec": 764,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Cost of revenue rose 14 percent, primarily driven by higher infrastructure costs.",
+      "source_text": "cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and",
+      "timestamp_sec": 745,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "R&D spending grew 22 percent, largely from increased employee compensation and longer server useful lives.",
+      "source_text": "of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and",
+      "timestamp_sec": 756,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Meta Quest sales declined, contributing to a $412 million drop (6% YoY).",
+      "source_text": "was 412 million dollars, down 6 percent year over year due to lower meta quest sales,",
+      "timestamp_sec": 998,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Growth in the government and politics vertical fell sharply after the US elections, remaining a very small overall segment.",
+      "source_text": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall.",
+      "timestamp_sec": 3516,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Gaming revenue declined YoY in Q1, impacted by reduced spend from China-based advertisers.",
+      "source_text": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024.",
+      "timestamp_sec": 3498,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "General and administrative expenses fell 34 percent, driven by lower legal costs.",
+      "source_text": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over",
+      "timestamp_sec": 777,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

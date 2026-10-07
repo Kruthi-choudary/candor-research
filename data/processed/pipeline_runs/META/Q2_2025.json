@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "ticker": "META",
+  "company": "Meta",
+  "quarter": "Q2 2025",
+  "call_date": "2025-07-30",
+  "overall_summary": "The call highlighted strong ad revenue growth in Europe and the rest of the world at 24%, a 16% revenue increase driven by infrastructure costs, a 23% rise in R&D spending, and early promising performance lifts in pre\u2011launch tests. However, the company noted rising legal costs, a slight employee headcount decline, a 30% drop in Facebook feed engagement, performance\u2011related employee reductions, and a modest slowdown in pricing growth. Overall sentiment was predominantly neutral (70.9%), with positive sentiment at 26.6% and negative at 2.5%.",
+  "sentiment_distribution": {
+    "positive": 26.6,
+    "negative": 2.5,
+    "neutral": 70.9
+  },
+  "key_claims": [
+    {
+      "claim": "Ad revenue growth was strongest in Europe and the rest of the world, reaching 24%",
+      "evidence": "On a user geography basis ad revenue growth was strongest in Europe and rest of world at 24%",
+      "timestamp_sec": 705,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Revenue increased 16 percent, driven primarily by higher infrastructure costs and payments",
+      "evidence": "cost a revenue increased 16 percent driven mostly by higher infrastructure costs and payments to",
+      "timestamp_sec": 526,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "R&D spending rose 23 percent, mainly due to higher employee compensation and infrastructure",
+      "evidence": "useful lives. R&D increased 23 percent mostly due to higher employee compensation and infrastructure",
+      "timestamp_sec": 537,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Early pre\u2011launch tests show promising performance lifts across languages",
+      "evidence": "languages. While it's early, we've seen promising performance lifts in our pre-launch tests.",
+      "timestamp_sec": 1371,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Legal-related costs increased while the employee count fell to over 75,900, down 1% quarter over quarter",
+      "evidence": "legal related costs. We ended Q2 with over 75,900 employees down 1 percent quarter over quarter",
+      "timestamp_sec": 563,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Engagement in Facebook feed and notifications dropped by roughly 30% over the past 10 months",
+      "evidence": "in Facebook feed and notifications dropping by roughly 30% over the past 10 months.",
+      "timestamp_sec": 964,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "The majority of employees affected were those impacted by performance\u2011related reductions earlier this quarter",
+      "evidence": "as the vast majority of the employees impacted by performance related reductions earlier this",
+      "timestamp_sec": 574,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Pricing growth slowed modestly from Q1 due to accelerated impression growth",
+      "evidence": "Pricing growth slowed modestly from the first quarter due to the accelerated impression growth",
+      "timestamp_sec": 751,
+      "sentiment": "negative"
+    }
+  ],
+  "risks": [],
+  "management_outlook": [],
+  "citation_verification": {
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0
+  },
+  "audio_features_summary": {
+    "mean_pitch_hz": 188.66,
+    "mean_energy": 0.05,
+    "mean_speaking_rate_wps": 2.9,
+    "segments_analyzed": 602
+  },
+  "prior_quarter_context_used": [
+    {
+      "quarter": "Q1 2025",
+      "start_sec": 2356.28,
+      "text": "How you thought about that in the guide and maybe how you're thinking about it for the back half. And then on a bigger picture question, you know, your CAPX spend is now close to some hyperscalers with very big client bases. Just double conceptualize the kind of ecosystem you're building with your CAPX. I know you gave a lot of help on the intro, but maybe the ROI works without direct enterprise spend to drive revenues. How you're thinking about that. Thank you. Thanks, Justin. You know, on the Q2 guide, there's uncertainty, obviously, in how the macro environment will evolve over time and how that could impact different segments of our business. You know, our Q2 revenue outlook aims to factor that in and partly that's partly why the $3 billion range reflects the potential for a wider range of outcomes. Specifically, we have seen some reduced spend in the US from Asia based e-commerce exporters, which we believe is an anticipation of the de minimis exemption going away on May 2nd. A portion of that spend has been redirected to other markets, but overall spend for those advertisers is below the levels prior to April. But our Q2 outlook reflects the trends we're seeing so far in April, which have generally been healthy. So it's very early, hard to know how things will play out over the quarter and certainly harder to know that for the rest of the year. Your second question is about why we're investing more in CAPX."
+    },
+    {
+      "quarter": "Q1 2025",
+      "start_sec": 2758.28,
+      "text": "And that's partially offset by higher expected infrastructure costs related to our increased CAPX outlook, as well as higher expected reality labs cost of goods sold. And we've maintained our $5 billion range, just given the more dynamic operating environment that we're in. And what I would say is, you know, our investment posture today reflects, you know, those significant opportunities that we see across each of the company and priorities that we're investing in this year. We will obviously continue evaluating, depending on how macro conditions more broadly evolve, but we really feel like these are big strategic priorities for us and are critical for us to continue investing in. And in fact, you know, I think one of the aims of our efficiency work over the last two years was to put us in a stronger financial position so that we can continue investing in key priorities through tougher financial cycles. Your next question comes from the line of Ross Sandler with Barclays. Please go ahead. Great. Mark, yesterday in one of your many kind of podcasts or keynote presentations, you'd mentioned that like a bunch of projects that your teams want to or aspire to do are kind of bottlenecked by the AI capacity, which Susan just talked about earlier. And that even, you know, some of the testing that the ad ranking team wants to run by just getting kind of delayed. So I guess looking out either this year next year, whatever, when do you kind of see some of this constraint being eased back."
+    },
+    {
+      "quarter": "Q4 2024",
+      "start_sec": 1566.52,
+      "text": "towards our core business. On to tax abs and any changes to our tax landscape, we expect our full year 2025 tax rate to be in the range of 12 to 15 percent. In addition, we continue to monitor an active regulatory landscape including legal and regulatory headwinds in the EU and the US that could significantly impact our business and our financial results. In closing, this was a good year for our company with investments across our priority areas delivering strong business performance and innovative new products for our community. We have a compelling set of opportunities to invest in this year, which we expect will help us drive continued strong growth and develop transformative technologies that shape the future of our company and of the industry. With that, Krista, let's open up the call for questions. Thank you. We will now open the lines for a question and answer session. To ask a question, please press star 1 on your touchstone phone. To withdraw your question, again, press star 1. Please limit yourself to one question. Please pick up your hands up before asking your question to ensure clarity. If you are streaming today's call, please mute your computer speakers. And our first question comes from the line of Brian Nowak with Morgan Stanley. Please go ahead. Thanks for taking my question. Marc, sound very, we appreciate all the excitement about about this year and all the innovation to come. I know there's a lot of announcements throughout"
+    }
+  ],
+  "pipeline_version": "1.0",
+  "stage_durations_sec": {
+    "transcription_sec": 0.0,
+    "sentiment_sec": 0.0,
+    "prosody_sec": 0.0,
+    "rag_sec": 6.1,
+    "generation_sec": 0.0,
+    "citation_check_sec": 0.0
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "claim": "Microsoft's M365 consumer products revenue grew 5% and its cloud services revenue grew 6% in constant currency.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1386,
+        "source_text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency."
+      }
+    },
+    {
+      "claim": "LinkedIn revenue rose 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1412,
+        "source_text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business."
+      }
+    },
+    {
+      "claim": "Operating margins, excluding the net impact from the Activision acquisition, increased by 1.0 percentage point.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1310,
+        "source_text": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0."
+      }
+    },
+    {
+      "claim": "M365 commercial products revenue grew 2% and 3% in constant currency, surpassing expectations.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1376,
+        "source_text": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,"
+      }
+    },
+    {
+      "claim": "Free cash flow fell 7% year over year to $19.3\u202fbillion, reflecting higher capital expenditures for cloud and AI.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1689,
+        "source_text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings."
+      }
+    },
+    {
+      "claim": "Enterprise and partner services revenue declined 1% and was relatively flat in constant currency.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1528,
+        "source_text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency."
+      }
+    },
+    {
+      "claim": "Revenue in the on-premises server business decreased 1%.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1509,
+        "source_text": "In our on-premises server business, revenue decreased 1%."
+      }
+    },
+    {
+      "claim": "Microsoft's cloud gross margin percentage fell 2.0 points year over year to 71%.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1245,
+        "source_text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%."
+      }
+    }
+  ],
+  "overall_summary": "The call highlighted solid top\u2011line growth, with M365 consumer and commercial products, cloud services, and LinkedIn all posting double\u2011digit or low\u2011double\u2011digit increases, and operating margins improving modestly. However, pressure on cash flow, on\u2011premises server sales, enterprise services, and cloud gross margins tempered the outlook. Overall sentiment was 30% positive, 4.7% negative, and 65.2% neutral according to FinBERT."
+}

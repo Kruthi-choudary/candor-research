@@ -1,0 +1,73 @@
+{
+  "ticker": "MSFT",
+  "quarter": "Q3_2025",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "Microsoft reported better-than-expected performance across all segments.",
+      "source_text": "In general, we saw better than expected performance across our segments.",
+      "timestamp_sec": 3086,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "M365 commercial product revenue grew 5%, driven by medium business and frontline worker offerings.",
+      "source_text": "medium business and frontline worker offerings. M365 commercial products revenue increased 5%",
+      "timestamp_sec": 1245,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Gross margin dollars for the segment rose 9% and 11% in third-party and first-party content.",
+      "source_text": "in third party and first party content. Segment gross margin dollars increased 9% and 11% in",
+      "timestamp_sec": 1466,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Segment gross margin dollars increased 13% and 14% in constant currency for services.",
+      "source_text": "services. Segment gross margin dollars increased 13% and 14% in constant currency,",
+      "timestamp_sec": 1390,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue declined 6% and 4% in constant currency, falling slightly short of expectations.",
+      "source_text": "revenue decreased 6% and 4% in constant currency, slightly below expectations,",
+      "timestamp_sec": 1365,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Year-over-year decline reflects ongoing customer migration to cloud offerings.",
+      "source_text": "The year over year decline is reflective of the continued customer shift to cloud offerings.",
+      "timestamp_sec": 1375,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue is expected to drop in the mid-single digits due to continued cloud migration.",
+      "source_text": "expect revenue to decline in the mid-single digits with the ongoing customer shift to cloud offerings.",
+      "timestamp_sec": 1818,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue was down 67% year over year, mainly because of scaling AI infrastructure.",
+      "source_text": "67% down year over year, primarily driven by the impact of scaling our AI infrastructure.",
+      "timestamp_sec": 1673,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

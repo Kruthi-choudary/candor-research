@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "claim": "Operating cash flow from operations was 14.5, while expenses were up 12% primarily reflecting higher compensation-related costs.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1129,
+        "source_text": "were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was 14.5"
+      }
+    },
+    {
+      "claim": "Gaming revenue of 2.88 billion increased 9% sequentially and 16% as the company moved to gaming and AI PCs.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 857,
+        "source_text": "Moving to gaming and AI PCs, gaming revenue of 2.88 billion increased 9% sequentially and 16%"
+      }
+    },
+    {
+      "claim": "Availability has improved and demand for Blackwell platforms is well above supply, reinforcing strong market positioning.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 475,
+        "source_text": "and availability have improved. Demand for Blackwell platforms is well above supply and we expect this"
+      }
+    },
+    {
+      "claim": "Revenue from automotive and robotics was 346 million, up 5% sequentially and 37% year\u2011on\u2011year.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1049,
+        "source_text": "Moving to automotive and robotics, revenue was 346 million up 5% sequentially and up 37% year-on-year."
+      }
+    },
+    {
+      "claim": "Revenue was down sequentially due to a higher mix of new products within data center and inventory.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1116,
+        "source_text": "Down sequentially due to a higher mix of new products within data center and inventory"
+      }
+    },
+    {
+      "claim": "As a percentage of total data center revenue, it remains below the level seen prior to the.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 343,
+        "source_text": "As a percentage of total data center revenue, it remains below level seen prior to the"
+      }
+    },
+    {
+      "claim": "Customers hate that we do integration, and the supply chain also hates us doing it.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 3555,
+        "source_text": "doing the integration. Our customers hate that we do integration. The supply chain hates us doing"
+      }
+    },
+    {
+      "claim": "If we don't have a new approach, computing inflation would be driving up the cost for everyone.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1482,
+        "source_text": "if we don't have a new approach, computing inflation would be driving up the cost for every"
+      }
+    }
+  ],
+  "overall_summary": "The call highlighted strong growth in gaming, AI PCs, automotive, robotics and solid operating cash flow, while noting challenges such as a sequential revenue dip in data center, integration friction with customers and supply chain, and looming computing inflation. FinBERT sentiment shows 18.1% positive, 1.7% negative and 80.1% neutral, indicating an overall neutral tone despite mixed performance signals."
+}

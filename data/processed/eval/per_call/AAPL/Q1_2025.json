@@ -1,0 +1,73 @@
+{
+  "ticker": "AAPL",
+  "quarter": "Q1_2025",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "The iPhone 16 family performed stronger than models lacking Apple intelligence.",
+      "source_text": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
+      "timestamp_sec": 1376,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Products revenue reached $98 billion, up 2% year over year, driven by iPad and Mac growth.",
+      "source_text": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+      "timestamp_sec": 830,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue grew 14% compared to a year ago.",
+      "source_text": "growing 14% from a year ago.",
+      "timestamp_sec": 586,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Mac revenue was $9 billion for the December quarter, 16% higher year over year.",
+      "source_text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by",
+      "timestamp_sec": 386,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+      "source_text": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+      "timestamp_sec": 1054,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Greater China revenue declined 11% year over year.",
+      "source_text": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+      "timestamp_sec": 1492,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The company expects March quarter total revenue growth to be low.",
+      "source_text": "With that headwind, we expect our March quarter total company revenue to grow low to",
+      "timestamp_sec": 1256,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "A negative impact of about 2.5 percentage points on year-over-year revenue is anticipated.",
+      "source_text": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+      "timestamp_sec": 1249,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

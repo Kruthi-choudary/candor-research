@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "ticker": "META",
+  "company": "Meta",
+  "quarter": "Q4 2024",
+  "call_date": "2025-01-29",
+  "overall_summary": "Meta\u2019s Q4 2024 earnings call showed strong ad revenue growth internationally but mixed cost pressures. While ad performance and family\u2011app expenses drove modest gains, flat marketing sales, currency headwinds, regulatory challenges, and rising infrastructure costs weighed on outlook. Sentiment was overwhelmingly neutral (76.1%), with a small positive tilt (22.7%) and minimal negative sentiment (1.2%).",
+  "sentiment_distribution": {
+    "positive": 22.7,
+    "negative": 1.2,
+    "neutral": 76.1
+  },
+  "key_claims": [
+    {
+      "claim": "Ad revenue growth was strongest in the rest of world, increasing 27%.",
+      "evidence": "On a user geography basis, ad revenue growth was strongest in rest of world at 27%,",
+      "timestamp_sec": 739,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Cost of revenue increased 15% driven mostly by higher.",
+      "evidence": "In terms of the specific line items, cost of revenue increased 15% driven mostly by higher",
+      "timestamp_sec": 596,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "The company benefited from increased advertiser demand in part driven by improved ad performance.",
+      "evidence": "benefited from increased advertiser demand in part driven by improved ad performance.",
+      "timestamp_sec": 768,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee.",
+      "evidence": "Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee",
+      "timestamp_sec": 807,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Marketing and sales were flat year over year, and G&A decreased 67% driven mostly.",
+      "evidence": "Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly",
+      "timestamp_sec": 615,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Foreign currency presented roughly a 3% headwind to year\u2011over\u2011year total revenue growth.",
+      "evidence": "foreign currency is an approximately 3 percent headwind to year over year total revenue growth",
+      "timestamp_sec": 1483,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "The active regulatory landscape includes legal and regulatory headwinds in the EU and the US.",
+      "evidence": "active regulatory landscape including legal and regulatory headwinds in the EU and the US",
+      "timestamp_sec": 1581,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Infrastructure costs are expected to be the main driver of expense growth in 2025.",
+      "evidence": "driver of expense growth in 2025 to be infrastructure costs driven by higher operating expenses and",
+      "timestamp_sec": 1524,
+      "sentiment": "negative"
+    }
+  ],
+  "risks": [],
+  "management_outlook": [],
+  "citation_verification": {
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0
+  },
+  "audio_features_summary": {
+    "mean_pitch_hz": 148.66,
+    "mean_energy": 0.04,
+    "mean_speaking_rate_wps": 2.85,
+    "segments_analyzed": 577
+  },
+  "prior_quarter_context_used": [
+    {
+      "quarter": "Q1 2025",
+      "start_sec": 2356.28,
+      "text": "How you thought about that in the guide and maybe how you're thinking about it for the back half. And then on a bigger picture question, you know, your CAPX spend is now close to some hyperscalers with very big client bases. Just double conceptualize the kind of ecosystem you're building with your CAPX. I know you gave a lot of help on the intro, but maybe the ROI works without direct enterprise spend to drive revenues. How you're thinking about that. Thank you. Thanks, Justin. You know, on the Q2 guide, there's uncertainty, obviously, in how the macro environment will evolve over time and how that could impact different segments of our business. You know, our Q2 revenue outlook aims to factor that in and partly that's partly why the $3 billion range reflects the potential for a wider range of outcomes. Specifically, we have seen some reduced spend in the US from Asia based e-commerce exporters, which we believe is an anticipation of the de minimis exemption going away on May 2nd. A portion of that spend has been redirected to other markets, but overall spend for those advertisers is below the levels prior to April. But our Q2 outlook reflects the trends we're seeing so far in April, which have generally been healthy. So it's very early, hard to know how things will play out over the quarter and certainly harder to know that for the rest of the year. Your second question is about why we're investing more in CAPX."
+    },
+    {
+      "quarter": "Q1 2025",
+      "start_sec": 2758.28,
+      "text": "And that's partially offset by higher expected infrastructure costs related to our increased CAPX outlook, as well as higher expected reality labs cost of goods sold. And we've maintained our $5 billion range, just given the more dynamic operating environment that we're in. And what I would say is, you know, our investment posture today reflects, you know, those significant opportunities that we see across each of the company and priorities that we're investing in this year. We will obviously continue evaluating, depending on how macro conditions more broadly evolve, but we really feel like these are big strategic priorities for us and are critical for us to continue investing in. And in fact, you know, I think one of the aims of our efficiency work over the last two years was to put us in a stronger financial position so that we can continue investing in key priorities through tougher financial cycles. Your next question comes from the line of Ross Sandler with Barclays. Please go ahead. Great. Mark, yesterday in one of your many kind of podcasts or keynote presentations, you'd mentioned that like a bunch of projects that your teams want to or aspire to do are kind of bottlenecked by the AI capacity, which Susan just talked about earlier. And that even, you know, some of the testing that the ad ranking team wants to run by just getting kind of delayed. So I guess looking out either this year next year, whatever, when do you kind of see some of this constraint being eased back."
+    },
+    {
+      "quarter": "Q3 2025",
+      "start_sec": 1891.8600000000001,
+      "text": "that I alluded to. The biggest factor is we're lapping the introduction of Quest 3S and Q4 of last year and we don't have a new headset in the market this year. We also recorded all of our holiday-related Quest 3S sales in Q4 24 since the headset was launched in October 24. This year we're recognizing some of the requests in advance of the holiday season. We're still expecting significant year-over-year growth in A.I. Glasses revenue in Q4 as we benefit from strong demand for the recent products that we've introduced. But that is more than offset by the headwinds to the Quest headsets. Your next question comes from the line of Doug and move with JP Morgan. Please go ahead. Thanks for taking the time. I appreciate the strategy to front-load capacity for super intelligence. You can talk about your thought process in triangulating the CapEx dollar growth and the significantly faster expense growth next year with core growth in the business and then the impact on earnings and pre-cash flow. Do you have targets that we should be thinking about for cash on hand or net cash overall? Thanks, Doug. We're right now, I would say, in the process of relatively early, actually still in the process of putting together our budget for 2026. And it is on the capacity side a particularly dynamic process. We're certainly seeing that we wish we had more capacity today than we do. We would be able to put it towards"
+    }
+  ],
+  "pipeline_version": "1.0",
+  "stage_durations_sec": {
+    "transcription_sec": 0.0,
+    "sentiment_sec": 0.0,
+    "prosody_sec": 0.0,
+    "rag_sec": 4.8,
+    "generation_sec": 0.0,
+    "citation_check_sec": 0.0
+  }
+}

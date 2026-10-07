@@ -1,0 +1,73 @@
+{
+  "ticker": "NVDA",
+  "quarter": "Q4_2024",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "Fiscal year revenue reached $1.55\u202fbillion, up 1% year\u2011over\u2011year, with sequential growth driven in the quarter.",
+      "source_text": "Fiscal year revenue of 1.55 billion was up 1%. Sequential growth in the quarter was driven",
+      "timestamp_sec": 1101,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Q4 was another record quarter with revenue of $22.1\u202fbillion, up 22% sequentially.",
+      "source_text": "Thanks, Simona. Q4 was another record quarter. Revenue of 22.1 billion was up 22% sequentially,",
+      "timestamp_sec": 120,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The supply chain is performing exceptionally, supporting the company, and overall supply is improving.",
+      "source_text": "chain is really doing fantastic supporting us. And so overall, the supply is improving.",
+      "timestamp_sec": 2236,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Growth margins in Q4 benefited from strong data\u2011center growth and a favorable component mix.",
+      "source_text": "on strong data center growth and mix. Our growth margins in Q4 benefited from favorable component",
+      "timestamp_sec": 1260,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The business significantly declined this quarter as operations were paused in the marketplace.",
+      "source_text": "This last quarter, our business significantly declined as we paused in the marketplace. We",
+      "timestamp_sec": 3245,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Automotive revenue was $281\u202fmillion, up 8% sequentially but down 4% year\u2011on\u2011year.",
+      "source_text": "Moving to automotive, revenue was 281 million up 8% sequentially and down 4% year on year.",
+      "timestamp_sec": 1172,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Product lead times have decreased notably, yet the company did not discuss inventory purchases.",
+      "source_text": "lead times for your products have come down quite a bit. You didn't talk about the inventory purchase",
+      "timestamp_sec": 2722,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Legal slowdowns are a concern as computing demand continues to skyrocket, potentially prompting companies to accelerate.",
+      "source_text": "As more law slows, while computing demand continues to skyrocket, companies may accelerate",
+      "timestamp_sec": 171,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

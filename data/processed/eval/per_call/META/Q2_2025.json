@@ -1,0 +1,73 @@
+{
+  "ticker": "META",
+  "quarter": "Q2_2025",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "Ad revenue growth was strongest in Europe and the rest of the world, reaching 24%",
+      "source_text": "On a user geography basis ad revenue growth was strongest in Europe and rest of world at 24%",
+      "timestamp_sec": 705,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue increased 16 percent, driven primarily by higher infrastructure costs and payments",
+      "source_text": "cost a revenue increased 16 percent driven mostly by higher infrastructure costs and payments to",
+      "timestamp_sec": 526,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "R&D spending rose 23 percent, mainly due to higher employee compensation and infrastructure",
+      "source_text": "useful lives. R&D increased 23 percent mostly due to higher employee compensation and infrastructure",
+      "timestamp_sec": 537,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Early pre\u2011launch tests show promising performance lifts across languages",
+      "source_text": "languages. While it's early, we've seen promising performance lifts in our pre-launch tests.",
+      "timestamp_sec": 1371,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Legal-related costs increased while the employee count fell to over 75,900, down 1% quarter over quarter",
+      "source_text": "legal related costs. We ended Q2 with over 75,900 employees down 1 percent quarter over quarter",
+      "timestamp_sec": 563,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Engagement in Facebook feed and notifications dropped by roughly 30% over the past 10 months",
+      "source_text": "in Facebook feed and notifications dropping by roughly 30% over the past 10 months.",
+      "timestamp_sec": 964,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The majority of employees affected were those impacted by performance\u2011related reductions earlier this quarter",
+      "source_text": "as the vast majority of the employees impacted by performance related reductions earlier this",
+      "timestamp_sec": 574,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Pricing growth slowed modestly from Q1 due to accelerated impression growth",
+      "source_text": "Pricing growth slowed modestly from the first quarter due to the accelerated impression growth",
+      "timestamp_sec": 751,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

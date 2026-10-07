@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "ticker": "AAPL",
+  "company": "Apple",
+  "quarter": "Q2 2025",
+  "call_date": "2025-05-01",
+  "overall_summary": "Apple\u2019s iPhone segment showed modest growth, with revenue hitting $46.8\u202fbillion and a 2% YoY increase, while foreign\u2011exchange conditions are expected to improve. However, product margins contracted and wearables revenue declined, leading to a largely neutral sentiment overall (22.4% positive, 3.8% negative, 73.9% neutral).",
+  "sentiment_distribution": {
+    "positive": 22.4,
+    "negative": 3.8,
+    "neutral": 73.9
+  },
+  "key_claims": [
+    {
+      "claim": "iPhone revenue reached $46.8 billion, a 2% year-over-year increase.",
+      "evidence": "iPhone. iPhone revenue was $46.8 billion, up 2% from a year ago. During the quarter, we introduced",
+      "timestamp_sec": 217,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "The company observed strong momentum in the March quarter despite a negative foreign-exchange impact.",
+      "evidence": "the negative impact from foreign exchange. We saw strong momentum in the March quarter,",
+      "timestamp_sec": 1078,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Management expects foreign-exchange conditions to improve sequentially in the June quarter.",
+      "evidence": "over year, we do expect foreign exchange in the June quarter to improve sequentially. However,",
+      "timestamp_sec": 2139,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "The iPhone 16 family drove iPhone revenue to $46.8 billion, up 2% YoY.",
+      "evidence": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+      "timestamp_sec": 945,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Product gross margin fell to 35.9%, down 340 basis points sequentially due to product mix.",
+      "evidence": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix,",
+      "timestamp_sec": 896,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Revenue of $7.5 billion declined 5% year over year, reflecting a tougher comparative environment.",
+      "evidence": "was $7.5 billion, down 5% year over year. Keep in mind, we did face a more difficult compare",
+      "timestamp_sec": 1040,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "The company\u2019s performance was down 2% in the March quarter.",
+      "evidence": "tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a",
+      "timestamp_sec": 1780,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Wearables and accessories revenue was $7.5 billion, down 5% year over year.",
+      "evidence": "wearables home in accessories, revenue was $7.5 billion down 5% from a year ago. From walking trails",
+      "timestamp_sec": 378,
+      "sentiment": "negative"
+    }
+  ],
+  "risks": [],
+  "management_outlook": [],
+  "citation_verification": {
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0
+  },
+  "audio_features_summary": {
+    "mean_pitch_hz": 130.1,
+    "mean_energy": 0.06,
+    "mean_speaking_rate_wps": 2.65,
+    "segments_analyzed": 505
+  },
+  "prior_quarter_context_used": [
+    {
+      "quarter": "Q4 2024",
+      "start_sec": 3213.7000000000003,
+      "text": "Okay, thanks. And then, Luca, one piece of unfinished business was your pledge to get to a net neutral cash position. And over the last two years, you stayed around 50 billion of net cash. We've clearly seen instances in the past where elevated marketing spend or other programs brought increases in market share. I guess my question looking back on your tenure is at your scale now of 57 billion of topics. Do you still see incremental ways to put that cash to work in the business? Or will we just continue to see increased shareholder returns? Well, obviously, as you see in our opx has gone up over the years. We've also seen at the same time a significant expansion in gross margin. Maybe to a level that I would have not expected a few years ago. But we've done a very good job on a number of fronts. And so I would say we when we plan every time we plan for the upcoming year we think about all the different areas where we can deploy our resources and we make them available to grow the business. I think we've done very well over the long term and but our fundamental philosophy is to look after the business first. And then if we have excess cash, we will continue to return it to our shareholders and the planners worked quite well so far. Okay. Thank you very much. Thank you, Richard. We'll take our last question. Please operator."
+    },
+    {
+      "quarter": "Q3 2025",
+      "start_sec": 3131.16,
+      "text": "how much, how much currency benefit should we be thinking about embedded in the guidance into the September quarter? And then the second quick question is, you know, CAPEX is clearly moving higher. I know you guys don't guide specifically to that number, but just kind of qualitatively, should we, as you lean in more on AI, should we really start to see that CAPEX, which is running close to about four billion annualized today, really start to move appreciably higher. Any color on that would be helpful. Thank you. Great, Aaron. Thanks for the questions. Let me answer the first one. First around foreign exchange. For Q3, we really had no impact from a foreign exchange standpoint on the year on your results. And so when we look at both the revenue growth as well as a gross margin, there was really, you know, virtually no impact from foreign exchange. As we look at going from Q3 to June quarter to the September quarter, again, very, very, as I mentioned earlier, a very small tailwind going from Q3 to Q4 from a foreign exchange standpoint on both revenue as well as a gross margin. And then on the second question, sure, on the CAPEX side, I think we talked about the fact that we are, and Tim mentioned the fact that we are increasing our investment significantly, AI, you are going to continue to see our CAPEX grow. It's not going to be exponential growth, but it is going to grow, you know, substantially."
+    },
+    {
+      "quarter": "Q4 2024",
+      "start_sec": 1528.9,
+      "text": "and we couldn't be more excited about it. Great. Thank you very much. And my second one, just for Luca, first, congratulations again, Luca, on the new role, and it's been a real privilege being able to spend some time with you. A question that I think will overlap with your new role as well. Could you just talk a little bit about the CAPEX outlook and whether investments in things like private cloud compute could change the historical CAPEX range of roughly $10 billion a year? Thank you very much. Thank you, Michael. On the CAPEX front, I mentioned before a number of times we have a bit of a hybrid model in the way we run our data centers. In some cases we use our own data centers, in some cases we use third-party providers, and so our CAPEX numbers may not be fully comparable with others. But obviously we are rolling out these features, Apple Intelligence features already now, and so we are making all the capacity that is needed available for these features. You will see in our 10K the amount of CAPEX that we've incurred during the course of fiscal 24, and we will, in fiscal 25, we will continue to make all the investments that are necessary, and of course, investments in AI-related CAPEX will be made. Thank you, Tim. Thank you, Luca. All right. Thanks, Mike. Can we have the next question, please? Our next question is from Eric Woodring with Morgan Stanley."
+    }
+  ],
+  "pipeline_version": "1.0",
+  "stage_durations_sec": {
+    "transcription_sec": 0.0,
+    "sentiment_sec": 0.0,
+    "prosody_sec": 0.0,
+    "rag_sec": 6.2,
+    "generation_sec": 0.0,
+    "citation_check_sec": 0.0
+  }
+}

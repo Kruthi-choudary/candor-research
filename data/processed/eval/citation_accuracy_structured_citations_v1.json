@@ -1,0 +1,1177 @@
+{
+  "run_label": "structured_citations_v1",
+  "format_compliance": 1.0,
+  "overall_accuracy": 1.0,
+  "total_citations": 128,
+  "total_verified": 128,
+  "reports": [
+    {
+      "ticker": "AAPL",
+      "quarter": "Q1_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "The iPhone 16 family performed stronger than models lacking Apple intelligence.",
+          "source_text": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
+          "timestamp_sec": 1376,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Products revenue reached $98 billion, up 2% year over year, driven by iPad and Mac growth.",
+          "source_text": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+          "timestamp_sec": 830,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue grew 14% compared to a year ago.",
+          "source_text": "growing 14% from a year ago.",
+          "timestamp_sec": 586,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Mac revenue was $9 billion for the December quarter, 16% higher year over year.",
+          "source_text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by",
+          "timestamp_sec": 386,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "source_text": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "timestamp_sec": 1054,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Greater China revenue declined 11% year over year.",
+          "source_text": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+          "timestamp_sec": 1492,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The company expects March quarter total revenue growth to be low.",
+          "source_text": "With that headwind, we expect our March quarter total company revenue to grow low to",
+          "timestamp_sec": 1256,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "A negative impact of about 2.5 percentage points on year-over-year revenue is anticipated.",
+          "source_text": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+          "timestamp_sec": 1249,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "quarter": "Q2_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "iPhone revenue reached $46.8 billion, a 2% year-over-year increase.",
+          "source_text": "iPhone. iPhone revenue was $46.8 billion, up 2% from a year ago. During the quarter, we introduced",
+          "timestamp_sec": 217,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The company observed strong momentum in the March quarter despite a negative foreign-exchange impact.",
+          "source_text": "the negative impact from foreign exchange. We saw strong momentum in the March quarter,",
+          "timestamp_sec": 1078,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Management expects foreign-exchange conditions to improve sequentially in the June quarter.",
+          "source_text": "over year, we do expect foreign exchange in the June quarter to improve sequentially. However,",
+          "timestamp_sec": 2139,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The iPhone 16 family drove iPhone revenue to $46.8 billion, up 2% YoY.",
+          "source_text": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+          "timestamp_sec": 945,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Product gross margin fell to 35.9%, down 340 basis points sequentially due to product mix.",
+          "source_text": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix,",
+          "timestamp_sec": 896,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue of $7.5 billion declined 5% year over year, reflecting a tougher comparative environment.",
+          "source_text": "was $7.5 billion, down 5% year over year. Keep in mind, we did face a more difficult compare",
+          "timestamp_sec": 1040,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The company\u2019s performance was down 2% in the March quarter.",
+          "source_text": "tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a",
+          "timestamp_sec": 1780,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Wearables and accessories revenue was $7.5 billion, down 5% year over year.",
+          "source_text": "wearables home in accessories, revenue was $7.5 billion down 5% from a year ago. From walking trails",
+          "timestamp_sec": 378,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "quarter": "Q3_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Mac revenue was $8 billion, up 15% year over year.",
+          "source_text": "Mac revenue was $8 billion, up 15% year over year,",
+          "timestamp_sec": 1157,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Total revenue reached $94 billion, representing a 10% increase year over year.",
+          "source_text": "Our revenue of $94 billion was up 10% year over year",
+          "timestamp_sec": 1007,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue grew 10% from a year ago, exceeding expectations.",
+          "source_text": "up 10% from a year ago, which was better than we expected.",
+          "timestamp_sec": 117,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue grew 15% year over year.",
+          "source_text": "with revenue up 15% year over year.",
+          "timestamp_sec": 177,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "iPad revenue was $6.6 billion, down 8% year over year.",
+          "source_text": "iPad revenue was $6.6 billion, down 8% year over year,",
+          "timestamp_sec": 1187,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue was $7.4 billion, down 9% year over year.",
+          "source_text": "was $7.4 billion, down 9% year over year.",
+          "timestamp_sec": 1219,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Diluted earnings per share were $1.57.",
+          "source_text": "and diluted earnings per share of $1.57,",
+          "timestamp_sec": 1093,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The situation also leads to a difficult comparison this year.",
+          "source_text": "which also leads to a difficult compare this year.",
+          "timestamp_sec": 2109,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "quarter": "Q4_2024",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Apple saw strong performance in many emerging markets during Q4 2024.",
+          "source_text": "we also saw strong performance in many emerging markets,",
+          "timestamp_sec": 1063,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Sequential foreign\u2011exchange improvements contributed to better year\u2011over\u2011year performance.",
+          "source_text": "improvement relative to the year over year performance that we had been achieving is that there was a sequential improvement in foreign exchange.",
+          "timestamp_sec": 2309,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Products revenue reached $70\u202fbillion, a 4% year\u2011over\u2011year increase.",
+          "source_text": "Products revenue was 70 billion, up 4% year over year,",
+          "timestamp_sec": 863,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The entire segment delivered very good results in the quarter.",
+          "source_text": "So we've seen very, very good results for us in the entire segment.",
+          "timestamp_sec": 2437,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Overall revenue declined to $9\u202fbillion, down 3% year over year.",
+          "source_text": "revenue was $9 billion, down 3% from a year ago.",
+          "timestamp_sec": 414,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "There is a risk that product revenue could be down in the December quarter based on current commentary.",
+          "source_text": "Are we to assume based on sort of the commentary that there is a risk that maybe the product revenue portfolio could be down in the December quarter if I take your numbers at face value?",
+          "timestamp_sec": 2474,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Apple has been facing headwinds that have persisted for a period of time.",
+          "source_text": "As you know, it's been a headwind that we've been reporting for a period of time.",
+          "timestamp_sec": 2324,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The company incurred unspecified costs during fiscal 24.",
+          "source_text": "that we've incurred during the course of fiscal 24,",
+          "timestamp_sec": 1611,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q1_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Ad revenue growth was strongest in the rest of world and North America.",
+          "source_text": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at",
+          "timestamp_sec": 898,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Marketing and sales expenses increased 8 percent, mainly due to higher infrastructure costs.",
+          "source_text": "infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in",
+          "timestamp_sec": 764,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Cost of revenue rose 14 percent, primarily driven by higher infrastructure costs.",
+          "source_text": "cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and",
+          "timestamp_sec": 745,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "R&D spending grew 22 percent, largely from increased employee compensation and longer server useful lives.",
+          "source_text": "of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and",
+          "timestamp_sec": 756,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Meta Quest sales declined, contributing to a $412 million drop (6% YoY).",
+          "source_text": "was 412 million dollars, down 6 percent year over year due to lower meta quest sales,",
+          "timestamp_sec": 998,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Growth in the government and politics vertical fell sharply after the US elections, remaining a very small overall segment.",
+          "source_text": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall.",
+          "timestamp_sec": 3516,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Gaming revenue declined YoY in Q1, impacted by reduced spend from China-based advertisers.",
+          "source_text": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024.",
+          "timestamp_sec": 3498,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "General and administrative expenses fell 34 percent, driven by lower legal costs.",
+          "source_text": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over",
+          "timestamp_sec": 777,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q2_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Ad revenue growth was strongest in Europe and the rest of the world, reaching 24%",
+          "source_text": "On a user geography basis ad revenue growth was strongest in Europe and rest of world at 24%",
+          "timestamp_sec": 705,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue increased 16 percent, driven primarily by higher infrastructure costs and payments",
+          "source_text": "cost a revenue increased 16 percent driven mostly by higher infrastructure costs and payments to",
+          "timestamp_sec": 526,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "R&D spending rose 23 percent, mainly due to higher employee compensation and infrastructure",
+          "source_text": "useful lives. R&D increased 23 percent mostly due to higher employee compensation and infrastructure",
+          "timestamp_sec": 537,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Early pre\u2011launch tests show promising performance lifts across languages",
+          "source_text": "languages. While it's early, we've seen promising performance lifts in our pre-launch tests.",
+          "timestamp_sec": 1371,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Legal-related costs increased while the employee count fell to over 75,900, down 1% quarter over quarter",
+          "source_text": "legal related costs. We ended Q2 with over 75,900 employees down 1 percent quarter over quarter",
+          "timestamp_sec": 563,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Engagement in Facebook feed and notifications dropped by roughly 30% over the past 10 months",
+          "source_text": "in Facebook feed and notifications dropping by roughly 30% over the past 10 months.",
+          "timestamp_sec": 964,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The majority of employees affected were those impacted by performance\u2011related reductions earlier this quarter",
+          "source_text": "as the vast majority of the employees impacted by performance related reductions earlier this",
+          "timestamp_sec": 574,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Pricing growth slowed modestly from Q1 due to accelerated impression growth",
+          "source_text": "Pricing growth slowed modestly from the first quarter due to the accelerated impression growth",
+          "timestamp_sec": 751,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q3_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Overall service usage grew 14%.",
+          "source_text": "served across our services increased 14%.",
+          "timestamp_sec": 547,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Legal-related expenses grew more than in Q2.",
+          "source_text": "First, legal-related expense growth was higher than in Q2,",
+          "timestamp_sec": 648,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "WhatsApp paid messaging revenue drove a 59% increase.",
+          "source_text": "up 59%, driven by WhatsApp paid messaging revenue growth,",
+          "timestamp_sec": 581,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Ad performance improvements were a major driver of growth.",
+          "source_text": "largely driven by improved ad performance.",
+          "timestamp_sec": 566,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The quarter included an accounting charge.",
+          "source_text": "resulted in an accounting charge in the third quarter,",
+          "timestamp_sec": 741,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Charges recorded in the third quarter impacted results.",
+          "source_text": "due to charges we recorded in the third quarter,",
+          "timestamp_sec": 652,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Depreciation on incremental CAPX spend affected earnings.",
+          "source_text": "depreciation on our incremental CAPX spend,",
+          "timestamp_sec": 679,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "European revenue faced a negative impact.",
+          "source_text": "negative impact on our European revenue",
+          "timestamp_sec": 1629,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q4_2024",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Ad revenue growth was strongest in the rest of world, increasing 27%.",
+          "source_text": "On a user geography basis, ad revenue growth was strongest in rest of world at 27%,",
+          "timestamp_sec": 739,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Cost of revenue increased 15% driven mostly by higher.",
+          "source_text": "In terms of the specific line items, cost of revenue increased 15% driven mostly by higher",
+          "timestamp_sec": 596,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The company benefited from increased advertiser demand in part driven by improved ad performance.",
+          "source_text": "benefited from increased advertiser demand in part driven by improved ad performance.",
+          "timestamp_sec": 768,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee.",
+          "source_text": "Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee",
+          "timestamp_sec": 807,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Marketing and sales were flat year over year, and G&A decreased 67% driven mostly.",
+          "source_text": "Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly",
+          "timestamp_sec": 615,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Foreign currency presented roughly a 3% headwind to year\u2011over\u2011year total revenue growth.",
+          "source_text": "foreign currency is an approximately 3 percent headwind to year over year total revenue growth",
+          "timestamp_sec": 1483,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The active regulatory landscape includes legal and regulatory headwinds in the EU and the US.",
+          "source_text": "active regulatory landscape including legal and regulatory headwinds in the EU and the US",
+          "timestamp_sec": 1581,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Infrastructure costs are expected to be the main driver of expense growth in 2025.",
+          "source_text": "driver of expense growth in 2025 to be infrastructure costs driven by higher operating expenses and",
+          "timestamp_sec": 1524,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q1_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Microsoft's M365 consumer products revenue grew 5% and its cloud services revenue grew 6% in constant currency.",
+          "source_text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+          "timestamp_sec": 1386,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "LinkedIn revenue rose 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "source_text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "timestamp_sec": 1412,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Operating margins, excluding the net impact from the Activision acquisition, increased by 1.0 percentage point.",
+          "source_text": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0.",
+          "timestamp_sec": 1310,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "M365 commercial products revenue grew 2% and 3% in constant currency, surpassing expectations.",
+          "source_text": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,",
+          "timestamp_sec": 1376,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Free cash flow fell 7% year over year to $19.3\u202fbillion, reflecting higher capital expenditures for cloud and AI.",
+          "source_text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+          "timestamp_sec": 1689,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Enterprise and partner services revenue declined 1% and was relatively flat in constant currency.",
+          "source_text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+          "timestamp_sec": 1528,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue in the on-premises server business decreased 1%.",
+          "source_text": "In our on-premises server business, revenue decreased 1%.",
+          "timestamp_sec": 1509,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Microsoft's cloud gross margin percentage fell 2.0 points year over year to 71%.",
+          "source_text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+          "timestamp_sec": 1245,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q2_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Xbox content and services revenue grew 2% year-over-year, exceeding expectations, helped by strong Blizzard and Activision titles such as Call of Duty.",
+          "source_text": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
+          "timestamp_sec": 1400,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Gross margin percentage rose 6 points year-over-year, driven by a shift toward higher\u2011margin businesses and margin improvements in gaming and search.",
+          "source_text": "Gross margin percentage increased 6.0 over year, driven by sales mix shift to higher margin businesses, as well as strong execution on margin improvement in gaming and search.",
+          "timestamp_sec": 1415,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Segment gross margin dollars increased 13% and 12% in constant currency.",
+          "source_text": "Segment gross margin dollars increased 13% and 12% in constant currency.",
+          "timestamp_sec": 1411,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "M365 commercial products revenue rose 13%, well ahead of expectations, boosted by higher transactional purchases linked to the Office 2024 launch and strong Windows commercial on\u2011premises sales.",
+          "source_text": "M365 commercial products revenue increased 13% significantly ahead of expectations driven by higher than expected transactional purchasing with the launch of Office 2024, as well as the Windows commercial on-premises components from the better than expected performance of M365 suite noted earlier.",
+          "timestamp_sec": 1177,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Free cash flow fell to $6.5\u202fbillion, a 29% year\u2011over\u2011year decline, reflecting higher capital expenditures.",
+          "source_text": "Free cashflow was $6.5 billion down 29% year over year, reflecting the capital expenditures, noted earlier.",
+          "timestamp_sec": 1480,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "On\u2011premises server revenue declined 3%, slightly below expectations, due to slower purchasing around the Windows Server 2025 launch.",
+          "source_text": "In our on-premises server business, revenue decreased 3%, slightly below expectations, driven by slower than expected purchasing around Windows Server 2025 launch.",
+          "timestamp_sec": 1308,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Enterprise and partner services revenue dropped 1%, missing expectations because of weaker performance in enterprise support services and industry solutions.",
+          "source_text": "Enterprise and partner services revenue decreased 1%, below expectations, with lower than expected performance across enterprise support services and industry solutions.",
+          "timestamp_sec": 1319,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "A stronger US dollar in October is expected to reduce Q4 revenue and COGS growth by over one point and operating expense growth by roughly one point.",
+          "source_text": "With the strengthening of the US dollars in October, we now expect FX to decrease Q4 revenue and cogs growth by more than one point and operating expense growth by roughly one point.",
+          "timestamp_sec": 1867,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q3_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Microsoft reported better-than-expected performance across all segments.",
+          "source_text": "In general, we saw better than expected performance across our segments.",
+          "timestamp_sec": 3086,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "M365 commercial product revenue grew 5%, driven by medium business and frontline worker offerings.",
+          "source_text": "medium business and frontline worker offerings. M365 commercial products revenue increased 5%",
+          "timestamp_sec": 1245,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Gross margin dollars for the segment rose 9% and 11% in third-party and first-party content.",
+          "source_text": "in third party and first party content. Segment gross margin dollars increased 9% and 11% in",
+          "timestamp_sec": 1466,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Segment gross margin dollars increased 13% and 14% in constant currency for services.",
+          "source_text": "services. Segment gross margin dollars increased 13% and 14% in constant currency,",
+          "timestamp_sec": 1390,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue declined 6% and 4% in constant currency, falling slightly short of expectations.",
+          "source_text": "revenue decreased 6% and 4% in constant currency, slightly below expectations,",
+          "timestamp_sec": 1365,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Year-over-year decline reflects ongoing customer migration to cloud offerings.",
+          "source_text": "The year over year decline is reflective of the continued customer shift to cloud offerings.",
+          "timestamp_sec": 1375,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue is expected to drop in the mid-single digits due to continued cloud migration.",
+          "source_text": "expect revenue to decline in the mid-single digits with the ongoing customer shift to cloud offerings.",
+          "timestamp_sec": 1818,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue was down 67% year over year, mainly because of scaling AI infrastructure.",
+          "source_text": "67% down year over year, primarily driven by the impact of scaling our AI infrastructure.",
+          "timestamp_sec": 1673,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q4_2024",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "AI infrastructure scaling contributed to a 14% increase in gross margin dollars.",
+          "source_text": "with the impact of scaling our AI infrastructure. Company gross margin dollars increased 14% and",
+          "timestamp_sec": 1171,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Better-than-expected performance across all businesses drove Dynamics revenue up 16%.",
+          "source_text": "driven by better than expected performance across all businesses. Dynamics revenue grew 16%",
+          "timestamp_sec": 1301,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Dynamics revenue grew, with segment margin dollars increasing 9% and 10% in constant currency.",
+          "source_text": "dynamics revenue. Segment growth margin dollars increased 9% and 10% in constant currency and",
+          "timestamp_sec": 1324,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Operating margins increased slightly, driven by a higher gross following an accounting estimate change.",
+          "source_text": "change in accounting estimate, operating margins increased slightly, driven by the higher gross",
+          "timestamp_sec": 1220,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Devices revenue decreased 11% and 9% in constant currency, roughly in line with expectations.",
+          "source_text": "Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations",
+          "timestamp_sec": 1492,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The server business is expected to see revenue decline in low single digits as hybrid demand continues.",
+          "source_text": "server business we expect revenue to decline in low single digits as continued hybrid demand",
+          "timestamp_sec": 1940,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Current FX rates are expected to reduce total revenue and segment-level revenue growth.",
+          "source_text": "Based on current rates we expect FX to decrease total revenue and segment level revenue growth",
+          "timestamp_sec": 1763,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Operating margins are projected to be down about one point year over year, with FY25 expectations outlined.",
+          "source_text": "operating margins to be down only about one point year over year. And finally we expect our FY 25",
+          "timestamp_sec": 1748,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q1_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Non-GAAP growth margins increased to 78.9% due to lower inventory charges.",
+          "source_text": "and non-gap growth margins to 78.9% on lower inventory charges.",
+          "timestamp_sec": 1296,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "GAAP operating expenses rose 10% sequentially, and non-GAAP operating expenses also increased.",
+          "source_text": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up",
+          "timestamp_sec": 1309,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Automotive revenue reached $329 million, up 17% sequentially and 11% year-over-year.",
+          "source_text": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year.",
+          "timestamp_sec": 1232,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Total revenue hit $26\u202fbillion, up 18% sequentially and 262% year-over-year, far exceeding expectations.",
+          "source_text": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our",
+          "timestamp_sec": 141,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Gaming revenue fell to $2.65\u202fbillion, an 8% sequential decline.",
+          "source_text": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and",
+          "timestamp_sec": 1037,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "ProViz revenue dropped 8% sequentially to $427\u202fmillion, though it grew 45% year-over-year.",
+          "source_text": "Moving to ProViz, revenue of 427 million was down 8% sequentially and up 45% year on year.",
+          "timestamp_sec": 1149,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Data center revenue in China has declined sharply from pre-imposition levels.",
+          "source_text": "Our data center revenue in China is down significantly from the level prior to the imposition of",
+          "timestamp_sec": 582,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Overall business in China remains substantially lower than previous levels.",
+          "source_text": "It is the case that our business in China is substantially lower than the levels of",
+          "timestamp_sec": 3204,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q2_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Operating cash flow from operations was 14.5, while expenses were up 12% primarily reflecting higher compensation-related costs.",
+          "source_text": "were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was 14.5",
+          "timestamp_sec": 1129,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Gaming revenue of 2.88 billion increased 9% sequentially and 16% as the company moved to gaming and AI PCs.",
+          "source_text": "Moving to gaming and AI PCs, gaming revenue of 2.88 billion increased 9% sequentially and 16%",
+          "timestamp_sec": 857,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Availability has improved and demand for Blackwell platforms is well above supply, reinforcing strong market positioning.",
+          "source_text": "and availability have improved. Demand for Blackwell platforms is well above supply and we expect this",
+          "timestamp_sec": 475,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue from automotive and robotics was 346 million, up 5% sequentially and 37% year\u2011on\u2011year.",
+          "source_text": "Moving to automotive and robotics, revenue was 346 million up 5% sequentially and up 37% year-on-year.",
+          "timestamp_sec": 1049,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue was down sequentially due to a higher mix of new products within data center and inventory.",
+          "source_text": "Down sequentially due to a higher mix of new products within data center and inventory",
+          "timestamp_sec": 1116,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "As a percentage of total data center revenue, it remains below the level seen prior to the.",
+          "source_text": "As a percentage of total data center revenue, it remains below level seen prior to the",
+          "timestamp_sec": 343,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Customers hate that we do integration, and the supply chain also hates us doing it.",
+          "source_text": "doing the integration. Our customers hate that we do integration. The supply chain hates us doing",
+          "timestamp_sec": 3555,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "If we don't have a new approach, computing inflation would be driving up the cost for everyone.",
+          "source_text": "if we don't have a new approach, computing inflation would be driving up the cost for every",
+          "timestamp_sec": 1482,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q3_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Operating expenses increased by 9% due to higher compute, infrastructure, and engineering development.",
+          "source_text": "operating expenses were up 9%. Due to higher compute, infrastructure and engineering development",
+          "timestamp_sec": 1093,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "NVIDIA Hopper demand is exceptional and sequential NVIDIA H200 sales increased significantly.",
+          "source_text": "NVIDIA Hopper demand is exceptional and sequentially NVIDIA H200 sales increased significantly",
+          "timestamp_sec": 168,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue of 486 million grew 7% sequentially and 17% year on year.",
+          "source_text": "Revenue of 486 million was up 7% sequentially and 17% year on year.",
+          "timestamp_sec": 1009,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year.",
+          "source_text": "PCs. Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year. Q3 was a",
+          "timestamp_sec": 916,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Networking business was down about 15 percent.",
+          "source_text": "quarter you know Klet you mentioned that obviously the networking business was down about 15 percent",
+          "timestamp_sec": 3022,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Revenue was down 75% sequentially, primarily driven by a mix shift of the H100 systems to more complex configurations.",
+          "source_text": "was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex",
+          "timestamp_sec": 1078,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Higher\u2011cost data\u2011center systems led to a sequential increase in operating expenses and non\u2011GAAP gaps.",
+          "source_text": "and higher cost systems within data center. Sequentially, gap operating expenses and non-gap",
+          "timestamp_sec": 1086,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Suppliers indicate a tight quarter ahead as the company turns the corner into the new calendar year.",
+          "source_text": "more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter.",
+          "timestamp_sec": 3239,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q4_2024",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "claim": "Fiscal year revenue reached $1.55\u202fbillion, up 1% year\u2011over\u2011year, with sequential growth driven in the quarter.",
+          "source_text": "Fiscal year revenue of 1.55 billion was up 1%. Sequential growth in the quarter was driven",
+          "timestamp_sec": 1101,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Q4 was another record quarter with revenue of $22.1\u202fbillion, up 22% sequentially.",
+          "source_text": "Thanks, Simona. Q4 was another record quarter. Revenue of 22.1 billion was up 22% sequentially,",
+          "timestamp_sec": 120,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The supply chain is performing exceptionally, supporting the company, and overall supply is improving.",
+          "source_text": "chain is really doing fantastic supporting us. And so overall, the supply is improving.",
+          "timestamp_sec": 2236,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Growth margins in Q4 benefited from strong data\u2011center growth and a favorable component mix.",
+          "source_text": "on strong data center growth and mix. Our growth margins in Q4 benefited from favorable component",
+          "timestamp_sec": 1260,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "The business significantly declined this quarter as operations were paused in the marketplace.",
+          "source_text": "This last quarter, our business significantly declined as we paused in the marketplace. We",
+          "timestamp_sec": 3245,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Automotive revenue was $281\u202fmillion, up 8% sequentially but down 4% year\u2011on\u2011year.",
+          "source_text": "Moving to automotive, revenue was 281 million up 8% sequentially and down 4% year on year.",
+          "timestamp_sec": 1172,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Product lead times have decreased notably, yet the company did not discuss inventory purchases.",
+          "source_text": "lead times for your products have come down quite a bit. You didn't talk about the inventory purchase",
+          "timestamp_sec": 2722,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "claim": "Legal slowdowns are a concern as computing demand continues to skyrocket, potentially prompting companies to accelerate.",
+          "source_text": "As more law slows, while computing demand continues to skyrocket, companies may accelerate",
+          "timestamp_sec": 171,
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    }
+  ]
+}

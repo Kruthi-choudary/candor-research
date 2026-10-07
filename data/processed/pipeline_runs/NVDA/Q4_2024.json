@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "ticker": "NVDA",
+  "company": "Nvidia",
+  "quarter": "Q4 2024",
+  "call_date": "2024-02-21",
+  "overall_summary": "The call highlighted strong revenue growth in record Q4 results and an improving supply chain, while noting declines in other business areas and concerns about legal slowdowns. Sentiment analysis shows a dominant neutral tone (82.3%), with modest positive sentiment (16.4%) and minimal negative sentiment (1.3%).",
+  "sentiment_distribution": {
+    "positive": 16.4,
+    "negative": 1.3,
+    "neutral": 82.3
+  },
+  "key_claims": [
+    {
+      "claim": "Fiscal year revenue reached $1.55\u202fbillion, up 1% year\u2011over\u2011year, with sequential growth driven in the quarter.",
+      "evidence": "Fiscal year revenue of 1.55 billion was up 1%. Sequential growth in the quarter was driven",
+      "timestamp_sec": 1101,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Q4 was another record quarter with revenue of $22.1\u202fbillion, up 22% sequentially.",
+      "evidence": "Thanks, Simona. Q4 was another record quarter. Revenue of 22.1 billion was up 22% sequentially,",
+      "timestamp_sec": 120,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "The supply chain is performing exceptionally, supporting the company, and overall supply is improving.",
+      "evidence": "chain is really doing fantastic supporting us. And so overall, the supply is improving.",
+      "timestamp_sec": 2236,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Growth margins in Q4 benefited from strong data\u2011center growth and a favorable component mix.",
+      "evidence": "on strong data center growth and mix. Our growth margins in Q4 benefited from favorable component",
+      "timestamp_sec": 1260,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "The business significantly declined this quarter as operations were paused in the marketplace.",
+      "evidence": "This last quarter, our business significantly declined as we paused in the marketplace. We",
+      "timestamp_sec": 3245,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Automotive revenue was $281\u202fmillion, up 8% sequentially but down 4% year\u2011on\u2011year.",
+      "evidence": "Moving to automotive, revenue was 281 million up 8% sequentially and down 4% year on year.",
+      "timestamp_sec": 1172,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Product lead times have decreased notably, yet the company did not discuss inventory purchases.",
+      "evidence": "lead times for your products have come down quite a bit. You didn't talk about the inventory purchase",
+      "timestamp_sec": 2722,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Legal slowdowns are a concern as computing demand continues to skyrocket, potentially prompting companies to accelerate.",
+      "evidence": "As more law slows, while computing demand continues to skyrocket, companies may accelerate",
+      "timestamp_sec": 171,
+      "sentiment": "negative"
+    }
+  ],
+  "risks": [],
+  "management_outlook": [],
+  "citation_verification": {
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0
+  },
+  "audio_features_summary": {
+    "mean_pitch_hz": 169.2,
+    "mean_energy": 0.09,
+    "mean_speaking_rate_wps": 2.37,
+    "segments_analyzed": 525
+  },
+  "prior_quarter_context_used": [
+    {
+      "quarter": "Q2 2025",
+      "start_sec": 2297.44,
+      "text": "discussions about is with like the percentage of folks that you see that are spending all of this money and looking to sort of push the frontier towards AGI convergence. And as you just said, a new plateau in capability. And they're going to spend regardless to get to that level of capability because it opens up so many doors for the industry and for their company versus customers that are really, really focused today on CAPEx versus ROI. I don't know if that distinction makes sense. I'm just trying to get a sense of how you're seeing the priorities of people that are putting the dollars in the ground on the new technology and what their priorities are and their timeframes are for that investment. Thanks, Matt. The people who are investing in NVIDIA infrastructure are getting returns on it right away. It's the best ROI infrastructure, computing infrastructure investment you can make today. And so one way to think through it, probably the easiest way to think through it is just go back to first principles. You have a trillion dollars with a general purpose computing infrastructure and the question is do you want to build more of that or not? And for every billion dollars with a general CPU-based infrastructure that you stand up, you probably rent it for less than a billion. And so because it's commoditized, there's already a trillion dollars on the ground. What's the point of getting more? And so the people who are clamoring to get this infrastructure"
+    },
+    {
+      "quarter": "Q2 2025",
+      "start_sec": 2515.76,
+      "text": "And your next question comes from the line of Timothy Arkery with UBS. Your line is open. Thanks a lot. I had a question on the shape of the revenue growth both near and longer term. I know Colette, you did increase op-ex for the year. And if I look at the increase in your purchase commitments and your supply obligations, that's also quite bullish. On the other hand, there's some school of thought that not that many customers really seem ready for liquid cooling. And I do recognize that some of these racks can be air-cooled. But, Johnson, is that something to consider sort of on the shape of how Blackwell is going to ramp? And then I guess when you look beyond next year, which is obviously going to be a great year, and you look into 26, do you worry about any other, you know, gating factors like, say, the power supply chain or at some point, models start to get smaller? I'm just wondering if you could speak to that thing. I'm going to work backwards. I really appreciate the question, Tim. So remember, the world is moving from general purpose computing to accelerated computing. And the world builds about a trillion dollars with the data centers. You know, a trillion dollars worth of data centers in a few years will be all accelerated computing. In the past, no GPUs are in data centers, just CPUs. In the future, every single data center world GPUs. And the reason for that is it's very clear because we need to accelerate workloads"
+    },
+    {
+      "quarter": "Q2 2025",
+      "start_sec": 2827.36,
+      "text": "you expected to hopper demand to strengthen in the second after. That means hopper strengthens Q3 to Q4 as well on top of Blackwell, adding several billion dollars. And the second question on gross margins, if I have mid-70s for the year, it's saying where I want to draw that. If I have 75 for the year, I'd be something like 71 to 72 for Q4 somewhere in that range. Is that the kind of exit rate for gross margins that you're expecting? And how should we think about the drivers of gross margin evolution in the next year as Blackwell ramps? I mean, hopefully, I guess the yields and the inventory results and everything come up. Yes, Stacey, let's first take your question that you had about hopper and Blackwell. So we believe our hopper will continue to grow into the second half. We have many new products for hopper, our existing products for hopper, that we believe will start continuing to ramp in the next quarters, including our Q3 and those new products moving to Q4. So let's say hopper there for versus H1 is a growth opportunity for that. Additionally, we have the Blackwell on top of that, and the Blackwell starting of ramping in Q4. So hope that helps you on those two pieces. Your second piece is in terms of our gross margin. We provided gross margin of 4RQ3. We provided our gross margin on a non-gap at about 75. We'll work with all the different transitions that we're"
+    }
+  ],
+  "pipeline_version": "1.0",
+  "stage_durations_sec": {
+    "transcription_sec": 0.0,
+    "sentiment_sec": 0.0,
+    "prosody_sec": 0.0,
+    "rag_sec": 6.6,
+    "generation_sec": 0.0,
+    "citation_check_sec": 0.0
+  }
+}

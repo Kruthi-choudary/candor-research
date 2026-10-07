@@ -1,0 +1,4437 @@
+{
+  "duration_sec": 3439.381,
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.38,
+      "text": "Good afternoon and welcome to the Apple Q4 fiscal year 2024"
+    },
+    {
+      "start": 4.38,
+      "end": 6.1000000000000005,
+      "text": "earnings conference call."
+    },
+    {
+      "start": 6.1000000000000005,
+      "end": 8.26,
+      "text": "My name is Suhasani Chandramali,"
+    },
+    {
+      "start": 8.26,
+      "end": 10.5,
+      "text": "Director of Investor Relations."
+    },
+    {
+      "start": 10.5,
+      "end": 12.700000000000001,
+      "text": "Today's call is being recorded."
+    },
+    {
+      "start": 12.700000000000001,
+      "end": 16.26,
+      "text": "Speaking first today, our Apple CEO, Tim Cook,"
+    },
+    {
+      "start": 16.26,
+      "end": 18.6,
+      "text": "and CFO, Luca Maestri,"
+    },
+    {
+      "start": 18.6,
+      "end": 20.7,
+      "text": "and they'll be joined by Kevin Parek,"
+    },
+    {
+      "start": 20.7,
+      "end": 23.98,
+      "text": "Vice President of Financial Planning and Analysis."
+    },
+    {
+      "start": 23.98,
+      "end": 26.82,
+      "text": "After that, we'll open the call to questions from analysts."
+    },
+    {
+      "start": 28.060000000000002,
+      "end": 29.66,
+      "text": "Please note that some of the information"
+    },
+    {
+      "start": 29.66,
+      "end": 31.58,
+      "text": "you'll hear during our discussion today"
+    },
+    {
+      "start": 31.58,
+      "end": 34.06,
+      "text": "will consist of forward-looking statements,"
+    },
+    {
+      "start": 34.06,
+      "end": 36.22,
+      "text": "including without limitation,"
+    },
+    {
+      "start": 36.22,
+      "end": 38.94,
+      "text": "those regarding revenue, gross margin,"
+    },
+    {
+      "start": 38.94,
+      "end": 42.18,
+      "text": "operating expenses, other income and expense,"
+    },
+    {
+      "start": 42.18,
+      "end": 46.06,
+      "text": "taxes, capital allocation, and future business outlook,"
+    },
+    {
+      "start": 46.06,
+      "end": 49.620000000000005,
+      "text": "including the potential impact of macroeconomic conditions"
+    },
+    {
+      "start": 49.620000000000005,
+      "end": 53.3,
+      "text": "on the company's business and results of operations."
+    },
+    {
+      "start": 53.3,
+      "end": 55.980000000000004,
+      "text": "These statements involve risks and uncertainties"
+    },
+    {
+      "start": 55.980000000000004,
+      "end": 58.34,
+      "text": "that may cause actual results or trends"
+    },
+    {
+      "start": 58.34,
+      "end": 61.34,
+      "text": "to differ materially from our forecast."
+    },
+    {
+      "start": 61.34,
+      "end": 64.78,
+      "text": "For more information, please refer to the risk factors discussed"
+    },
+    {
+      "start": 64.78,
+      "end": 68.74000000000001,
+      "text": "in Apple's most recently filed annual report on Form 10K"
+    },
+    {
+      "start": 68.74000000000001,
+      "end": 71.54,
+      "text": "and the Form 8K filed with the SEC today"
+    },
+    {
+      "start": 71.54,
+      "end": 74.32000000000001,
+      "text": "along with the associated press release."
+    },
+    {
+      "start": 74.32000000000001,
+      "end": 76.82000000000001,
+      "text": "Apple assumes no obligation to update"
+    },
+    {
+      "start": 76.82000000000001,
+      "end": 78.38,
+      "text": "any forward-looking statements,"
+    },
+    {
+      "start": 78.38,
+      "end": 81.08000000000001,
+      "text": "which speak only as of the date they are made."
+    },
+    {
+      "start": 81.92,
+      "end": 84.24000000000001,
+      "text": "Additionally, today's discussion will refer"
+    },
+    {
+      "start": 84.24000000000001,
+      "end": 86.74000000000001,
+      "text": "to certain non-GAP financial measures."
+    },
+    {
+      "start": 86.74,
+      "end": 89.42,
+      "text": "You can find a reconciliation of these measures"
+    },
+    {
+      "start": 89.42,
+      "end": 93.38,
+      "text": "in our fourth quarter and full year 2024 earnings release,"
+    },
+    {
+      "start": 93.38,
+      "end": 96.33999999999999,
+      "text": "which is available on our investor relations website."
+    },
+    {
+      "start": 97.25999999999999,
+      "end": 99.61999999999999,
+      "text": "I'd now like to turn the call over to Tim"
+    },
+    {
+      "start": 99.61999999999999,
+      "end": 101.22,
+      "text": "for introductory remarks."
+    },
+    {
+      "start": 102.17999999999999,
+      "end": 103.74,
+      "text": "Thank you, Suhasani."
+    },
+    {
+      "start": 103.74,
+      "end": 107.25999999999999,
+      "text": "Good afternoon, everyone, and thanks for joining the call."
+    },
+    {
+      "start": 107.25999999999999,
+      "end": 112.25999999999999,
+      "text": "Today, Apple is reporting revenue of $94.9 billion,"
+    },
+    {
+      "start": 112.25999999999999,
+      "end": 116.46,
+      "text": "a September quarter record and up 6% from a year ago."
+    },
+    {
+      "start": 117.14000000000001,
+      "end": 120.06,
+      "text": "iPhone grew in every geographic segment,"
+    },
+    {
+      "start": 120.06,
+      "end": 122.7,
+      "text": "marking a new September quarter revenue record"
+    },
+    {
+      "start": 122.7,
+      "end": 126.98,
+      "text": "for the category, and services set an all-time revenue record"
+    },
+    {
+      "start": 126.98,
+      "end": 129.42000000000002,
+      "text": "up 12% year over year."
+    },
+    {
+      "start": 129.42000000000002,
+      "end": 132.74,
+      "text": "We also set September quarter segment revenue records"
+    },
+    {
+      "start": 132.74,
+      "end": 136.82000000000002,
+      "text": "in the Americas, Europe, and the Restoration Pacific,"
+    },
+    {
+      "start": 136.82000000000002,
+      "end": 139.3,
+      "text": "as well as in a large number of countries,"
+    },
+    {
+      "start": 139.3,
+      "end": 144.38,
+      "text": "including the United States, Brazil, Mexico, France,"
+    },
+    {
+      "start": 144.38,
+      "end": 149.38,
+      "text": "the UK, Korea, Malaysia, Thailand, Saudi Arabia, and the UAE."
+    },
+    {
+      "start": 151.22,
+      "end": 153.98,
+      "text": "And we continue to be excited by the enthusiasm"
+    },
+    {
+      "start": 153.98,
+      "end": 158.7,
+      "text": "we're seeing in India, where we set an all-time revenue record."
+    },
+    {
+      "start": 158.7,
+      "end": 162.54,
+      "text": "This has been an extraordinary year of innovation at Apple."
+    },
+    {
+      "start": 162.54,
+      "end": 164.94,
+      "text": "We brought the revolutionary Apple Vision Pro"
+    },
+    {
+      "start": 164.94,
+      "end": 167.82,
+      "text": "to customers in February, which brings users"
+    },
+    {
+      "start": 167.82,
+      "end": 170.38,
+      "text": "tomorrows technology today."
+    },
+    {
+      "start": 170.38,
+      "end": 173.46,
+      "text": "And in June, we announced Apple Intelligence,"
+    },
+    {
+      "start": 173.46,
+      "end": 175.94,
+      "text": "a remarkable personal intelligence system"
+    },
+    {
+      "start": 175.94,
+      "end": 178.9,
+      "text": "that combines the power of generative models"
+    },
+    {
+      "start": 178.9,
+      "end": 181.70000000000002,
+      "text": "with personal context to deliver intelligence"
+    },
+    {
+      "start": 181.70000000000002,
+      "end": 184.26000000000002,
+      "text": "that is incredibly useful and relevant."
+    },
+    {
+      "start": 185.26000000000002,
+      "end": 187.86,
+      "text": "Apple Intelligence marks the beginning of a new chapter"
+    },
+    {
+      "start": 187.86,
+      "end": 192.34,
+      "text": "for Apple Innovation and redefines privacy and AI"
+    },
+    {
+      "start": 192.34,
+      "end": 195.3,
+      "text": "by extending our groundbreaking approach to privacy"
+    },
+    {
+      "start": 195.3,
+      "end": 198.38,
+      "text": "into the cloud with private cloud compute."
+    },
+    {
+      "start": 198.38,
+      "end": 200.38,
+      "text": "Earlier this week, we made the first set"
+    },
+    {
+      "start": 200.38,
+      "end": 203.38,
+      "text": "of Apple Intelligence features available in US English"
+    },
+    {
+      "start": 203.38,
+      "end": 206.29999999999998,
+      "text": "for iPhone, iPad, and Mac users"
+    },
+    {
+      "start": 206.29999999999998,
+      "end": 210.14,
+      "text": "with system-wide writing tools that help you refine your writing,"
+    },
+    {
+      "start": 210.14,
+      "end": 212.85999999999999,
+      "text": "a more natural and conversational Siri,"
+    },
+    {
+      "start": 212.85999999999999,
+      "end": 215.06,
+      "text": "a more intelligent photos app,"
+    },
+    {
+      "start": 215.06,
+      "end": 217.66,
+      "text": "including the ability to create movies simply"
+    },
+    {
+      "start": 217.66,
+      "end": 221.22,
+      "text": "by typing a description and new ways to prioritize"
+    },
+    {
+      "start": 221.22,
+      "end": 223.7,
+      "text": "and stay in the moment with notification summaries"
+    },
+    {
+      "start": 223.7,
+      "end": 225.7,
+      "text": "and priority messages."
+    },
+    {
+      "start": 225.7,
+      "end": 228.62,
+      "text": "And we look forward to additional intelligence features"
+    },
+    {
+      "start": 228.62,
+      "end": 232.78,
+      "text": "in December, with even more powerful writing tools,"
+    },
+    {
+      "start": 232.78,
+      "end": 234.82,
+      "text": "a new visual intelligence experience"
+    },
+    {
+      "start": 234.82,
+      "end": 237.06,
+      "text": "that builds on Apple Intelligence,"
+    },
+    {
+      "start": 237.06,
+      "end": 239.5,
+      "text": "and chat GPT integration,"
+    },
+    {
+      "start": 239.5,
+      "end": 242.7,
+      "text": "as well as localized English in several countries,"
+    },
+    {
+      "start": 242.7,
+      "end": 246.98,
+      "text": "including the UK, Australia, and Canada."
+    },
+    {
+      "start": 246.98,
+      "end": 250.02,
+      "text": "These features have already been provided to developers"
+    },
+    {
+      "start": 250.02,
+      "end": 252.46,
+      "text": "and we're getting great feedback."
+    },
+    {
+      "start": 252.46,
+      "end": 255.3,
+      "text": "More features will be rolling out in the coming months"
+    },
+    {
+      "start": 255.3,
+      "end": 257.94,
+      "text": "as well as support for more languages."
+    },
+    {
+      "start": 257.94,
+      "end": 259.7,
+      "text": "And this is just the beginning."
+    },
+    {
+      "start": 260.7,
+      "end": 263.46,
+      "text": "Now I'll turn to our results for the quarter,"
+    },
+    {
+      "start": 263.46,
+      "end": 265.02,
+      "text": "beginning with iPhone."
+    },
+    {
+      "start": 266.38,
+      "end": 269.3,
+      "text": "iPhone revenue set a September quarter record"
+    },
+    {
+      "start": 269.3,
+      "end": 273.98,
+      "text": "of $46.2 billion, up 6% from a year ago,"
+    },
+    {
+      "start": 273.98,
+      "end": 276.53999999999996,
+      "text": "with growth in every geographic segment."
+    },
+    {
+      "start": 277.53999999999996,
+      "end": 279.98,
+      "text": "With the introduction of Apple Intelligence,"
+    },
+    {
+      "start": 279.98,
+      "end": 283.21999999999997,
+      "text": "we're beginning a new era for iPhone."
+    },
+    {
+      "start": 283.21999999999997,
+      "end": 286.38,
+      "text": "iPhone 16, powered by A18,"
+    },
+    {
+      "start": 286.38,
+      "end": 291.1,
+      "text": "is equipped with an incredible new 48 megapixel fusion camera,"
+    },
+    {
+      "start": 291.1,
+      "end": 293.46,
+      "text": "fantastic photo experiences,"
+    },
+    {
+      "start": 293.46,
+      "end": 297.3,
+      "text": "and the addition of the action button and camera control."
+    },
+    {
+      "start": 297.3,
+      "end": 300.1,
+      "text": "And iPhone 16 Pro is the most advanced iPhone"
+    },
+    {
+      "start": 300.1,
+      "end": 303.7,
+      "text": "we've ever made, powered by A18 Pro,"
+    },
+    {
+      "start": 303.7,
+      "end": 306.26,
+      "text": "and featuring even larger displays,"
+    },
+    {
+      "start": 306.26,
+      "end": 308.38,
+      "text": "an industry leading pro camera system"
+    },
+    {
+      "start": 308.38,
+      "end": 311.9,
+      "text": "with camera control and studio quality mics,"
+    },
+    {
+      "start": 311.9,
+      "end": 314.54,
+      "text": "all with a huge leap in battery life."
+    },
+    {
+      "start": 315.5,
+      "end": 319.66,
+      "text": "Turning to Mac, revenue was $7.7 billion,"
+    },
+    {
+      "start": 319.66,
+      "end": 322.06,
+      "text": "up 2% from a year ago."
+    },
+    {
+      "start": 322.06,
+      "end": 324.86,
+      "text": "Just this week, we brought a new generation"
+    },
+    {
+      "start": 324.86,
+      "end": 326.70000000000005,
+      "text": "of Apple Silicon to Mac,"
+    },
+    {
+      "start": 326.70000000000005,
+      "end": 330.62,
+      "text": "M4, M4 Pro, and M4 Macs."
+    },
+    {
+      "start": 330.62,
+      "end": 332.78000000000003,
+      "text": "From blazing fast performance"
+    },
+    {
+      "start": 332.78000000000003,
+      "end": 335.58000000000004,
+      "text": "to Apple's most advanced neural engine yet,"
+    },
+    {
+      "start": 335.58000000000004,
+      "end": 337.94,
+      "text": "our latest chips can easily tackle"
+    },
+    {
+      "start": 337.94,
+      "end": 340.90000000000003,
+      "text": "incredibly complex workflows."
+    },
+    {
+      "start": 340.90000000000003,
+      "end": 343.34000000000003,
+      "text": "And then ensure our newest Macs will be the best"
+    },
+    {
+      "start": 343.34000000000003,
+      "end": 347.74,
+      "text": "personal computers for AI, the instant they hit stores."
+    },
+    {
+      "start": 347.74,
+      "end": 350.46000000000004,
+      "text": "With the newest additions to our Mac lineup,"
+    },
+    {
+      "start": 350.46000000000004,
+      "end": 354.14000000000004,
+      "text": "customers can choose the Mac that's just right for them."
+    },
+    {
+      "start": 354.14000000000004,
+      "end": 355.98,
+      "text": "Whether that's iMac, the world's best"
+    },
+    {
+      "start": 355.98,
+      "end": 359.34000000000003,
+      "text": "and most beautiful all in one, MacBook Air,"
+    },
+    {
+      "start": 359.34000000000003,
+      "end": 361.18,
+      "text": "the world's most popular laptop"
+    },
+    {
+      "start": 361.18,
+      "end": 363.58000000000004,
+      "text": "now with double the starting memory,"
+    },
+    {
+      "start": 363.58000000000004,
+      "end": 367.26000000000005,
+      "text": "MacBook Pro, the best pro notebook anywhere,"
+    },
+    {
+      "start": 367.26000000000005,
+      "end": 369.98,
+      "text": "or the incredible, mighty new Mac Mini,"
+    },
+    {
+      "start": 369.98,
+      "end": 372.70000000000005,
+      "text": "our first ever carbon-neutral Mac."
+    },
+    {
+      "start": 374.02000000000004,
+      "end": 379.02000000000004,
+      "text": "iPad revenue was $7 billion, 8% higher year over year."
+    },
+    {
+      "start": 379.26,
+      "end": 382.58000000000004,
+      "text": "iPad is unlike any other product on the market today,"
+    },
+    {
+      "start": 382.58000000000004,
+      "end": 385.34000000000003,
+      "text": "and it's become an essential device in homes,"
+    },
+    {
+      "start": 385.34000000000003,
+      "end": 388.66,
+      "text": "schools, and businesses of all sizes."
+    },
+    {
+      "start": 388.66,
+      "end": 392.34000000000003,
+      "text": "Recently, we were thrilled to introduce the newest iPad Mini"
+    },
+    {
+      "start": 392.34000000000003,
+      "end": 396.42,
+      "text": "featuring an ultra-compact design built for Apple Intelligence"
+    },
+    {
+      "start": 396.42,
+      "end": 399.18,
+      "text": "with support for Apple Pencil Pro."
+    },
+    {
+      "start": 399.18,
+      "end": 401.46,
+      "text": "It's been a big year for iPad."
+    },
+    {
+      "start": 401.46,
+      "end": 404.06,
+      "text": "iPad Air was popular with students and teachers"
+    },
+    {
+      "start": 404.06,
+      "end": 406.1,
+      "text": "as they got back to school this year"
+    },
+    {
+      "start": 406.1,
+      "end": 408.18,
+      "text": "while creators are pushing the boundaries"
+    },
+    {
+      "start": 408.18,
+      "end": 411.54,
+      "text": "of what's possible with the M4-powered iPad Pro."
+    },
+    {
+      "start": 412.62,
+      "end": 414.3,
+      "text": "In wearable's home and accessories,"
+    },
+    {
+      "start": 414.3,
+      "end": 418.78000000000003,
+      "text": "revenue was $9 billion, down 3% from a year ago."
+    },
+    {
+      "start": 418.78000000000003,
+      "end": 422.94,
+      "text": "During the quarter, we launched the all new Apple Watch Series 10,"
+    },
+    {
+      "start": 422.94,
+      "end": 425.7,
+      "text": "bringing a beautiful new design and new capabilities"
+    },
+    {
+      "start": 425.7,
+      "end": 427.98,
+      "text": "to the world's most popular watch"
+    },
+    {
+      "start": 427.98,
+      "end": 429.94,
+      "text": "that make it even more powerful,"
+    },
+    {
+      "start": 429.94,
+      "end": 432.54,
+      "text": "intelligent, and sophisticated."
+    },
+    {
+      "start": 432.54,
+      "end": 434.62,
+      "text": "It's the thinnest Apple Watch yet,"
+    },
+    {
+      "start": 434.62,
+      "end": 436.94,
+      "text": "making it more comfortable than ever"
+    },
+    {
+      "start": 436.94,
+      "end": 440.06,
+      "text": "while offering the biggest, most advanced display."
+    },
+    {
+      "start": 441.42,
+      "end": 444.14000000000004,
+      "text": "Watch OS 11 brings some huge new health"
+    },
+    {
+      "start": 444.14000000000004,
+      "end": 446.26,
+      "text": "and fitness insights to users,"
+    },
+    {
+      "start": 446.26,
+      "end": 448.98,
+      "text": "including sleep apnea notifications,"
+    },
+    {
+      "start": 448.98,
+      "end": 452.3,
+      "text": "which help to alert people with a potentially serious"
+    },
+    {
+      "start": 452.3,
+      "end": 455.62,
+      "text": "but often undiagnosed condition."
+    },
+    {
+      "start": 455.62,
+      "end": 457.26,
+      "text": "We're proud of the impact we make"
+    },
+    {
+      "start": 457.26,
+      "end": 459.38,
+      "text": "through our health innovations on watch,"
+    },
+    {
+      "start": 459.38,
+      "end": 461.7,
+      "text": "and I'm grateful for every note I receive"
+    },
+    {
+      "start": 461.7,
+      "end": 464.5,
+      "text": "about the importance of watching people's lives."
+    },
+    {
+      "start": 465.46,
+      "end": 468.86,
+      "text": "With AirPods 4, we've broken new ground and comfort"
+    },
+    {
+      "start": 468.86,
+      "end": 472.34,
+      "text": "and design with our best ever open ear headphones"
+    },
+    {
+      "start": 472.34,
+      "end": 476.34,
+      "text": "available for the first time with active noise cancellation."
+    },
+    {
+      "start": 476.34,
+      "end": 478.46,
+      "text": "And we were especially pleased to unveil"
+    },
+    {
+      "start": 478.46,
+      "end": 481.86,
+      "text": "revolutionary end-to-end hearing health capabilities"
+    },
+    {
+      "start": 481.86,
+      "end": 486.34,
+      "text": "for AirPods Pro 2 with hearing protection, hearing test,"
+    },
+    {
+      "start": 486.34000000000003,
+      "end": 488.66,
+      "text": "and hearing aid features."
+    },
+    {
+      "start": 488.66,
+      "end": 492.14000000000004,
+      "text": "These just became available in a software update this week,"
+    },
+    {
+      "start": 492.14000000000004,
+      "end": 494.70000000000005,
+      "text": "and we believe this will make a meaningful difference"
+    },
+    {
+      "start": 494.70000000000005,
+      "end": 496.62,
+      "text": "in our users' lives."
+    },
+    {
+      "start": 496.62,
+      "end": 498.22,
+      "text": "I've already started getting notes"
+    },
+    {
+      "start": 498.22,
+      "end": 501.54,
+      "text": "from customers calling the experience life-changing."
+    },
+    {
+      "start": 502.78000000000003,
+      "end": 505.02000000000004,
+      "text": "And Apple Vision Pro continues to deliver"
+    },
+    {
+      "start": 505.02000000000004,
+      "end": 508.26000000000005,
+      "text": "special experiences that weren't possible before,"
+    },
+    {
+      "start": 508.26000000000005,
+      "end": 510.42,
+      "text": "including immersive entertainment"
+    },
+    {
+      "start": 510.42,
+      "end": 512.6600000000001,
+      "text": "like the new short film Submerged,"
+    },
+    {
+      "start": 512.6600000000001,
+      "end": 513.9000000000001,
+      "text": "which gives people a view"
+    },
+    {
+      "start": 513.9,
+      "end": 516.38,
+      "text": "into the unique storytelling power"
+    },
+    {
+      "start": 516.38,
+      "end": 518.8199999999999,
+      "text": "made possible by spatial computing."
+    },
+    {
+      "start": 519.9,
+      "end": 523.86,
+      "text": "Vision Pro has more than 2,500 native spatial apps"
+    },
+    {
+      "start": 523.86,
+      "end": 528.22,
+      "text": "and 1.5 million compatible apps for Vision OS 2,"
+    },
+    {
+      "start": 528.22,
+      "end": 530.8199999999999,
+      "text": "as well as applications companies are building"
+    },
+    {
+      "start": 530.8199999999999,
+      "end": 533.4599999999999,
+      "text": "to reimagine how they work."
+    },
+    {
+      "start": 533.4599999999999,
+      "end": 536.98,
+      "text": "Vision Pro continues to inspire awe in its users,"
+    },
+    {
+      "start": 536.98,
+      "end": 540.3,
+      "text": "and we're just scratching the surface of what's possible."
+    },
+    {
+      "start": 540.3,
+      "end": 541.78,
+      "text": "And just yesterday, we announced"
+    },
+    {
+      "start": 541.78,
+      "end": 543.78,
+      "text": "we're bringing Vision Pro to Korea"
+    },
+    {
+      "start": 543.78,
+      "end": 544.98,
+      "text": "and the UAE."
+    },
+    {
+      "start": 546.1,
+      "end": 547.62,
+      "text": "As I mentioned earlier,"
+    },
+    {
+      "start": 547.62,
+      "end": 550.3399999999999,
+      "text": "services achieved an all-time revenue record"
+    },
+    {
+      "start": 550.3399999999999,
+      "end": 554.5,
+      "text": "of $25 billion, up 12% from a year ago,"
+    },
+    {
+      "start": 554.5,
+      "end": 556.3,
+      "text": "and with all-time revenue records"
+    },
+    {
+      "start": 556.3,
+      "end": 558.86,
+      "text": "across most of our categories."
+    },
+    {
+      "start": 558.86,
+      "end": 562.3399999999999,
+      "text": "With Apple TV Plus, we love celebrating the craft"
+    },
+    {
+      "start": 562.3399999999999,
+      "end": 566.22,
+      "text": "of great storytellers who know how to put on a show."
+    },
+    {
+      "start": 566.22,
+      "end": 569.8199999999999,
+      "text": "Audiences love to discover new movies like Wolf's,"
+    },
+    {
+      "start": 569.82,
+      "end": 573.22,
+      "text": "explore a claimed new series like Disclaimer,"
+    },
+    {
+      "start": 573.22,
+      "end": 575.4200000000001,
+      "text": "and dive back into returning favorites"
+    },
+    {
+      "start": 575.4200000000001,
+      "end": 578.34,
+      "text": "like Slow Horses and Shrinking."
+    },
+    {
+      "start": 578.34,
+      "end": 581.22,
+      "text": "Apple TV Plus Productions had become fixtures"
+    },
+    {
+      "start": 581.22,
+      "end": 585.94,
+      "text": "at award shows, earning more than 2,300 nominations,"
+    },
+    {
+      "start": 585.94,
+      "end": 588.38,
+      "text": "and more than 500 wins today."
+    },
+    {
+      "start": 589.3000000000001,
+      "end": 591.94,
+      "text": "Apple also offers a live sports experience"
+    },
+    {
+      "start": 591.94,
+      "end": 595.0200000000001,
+      "text": "in a league of its own with MLS season pass,"
+    },
+    {
+      "start": 595.0200000000001,
+      "end": 596.74,
+      "text": "and subscribers have been cheering"
+    },
+    {
+      "start": 596.74,
+      "end": 600.74,
+      "text": "on their favorite teams in the MLS Cup playoffs."
+    },
+    {
+      "start": 600.74,
+      "end": 604.5,
+      "text": "This month, we also marked 10 years of Apple Pay."
+    },
+    {
+      "start": 604.5,
+      "end": 606.0600000000001,
+      "text": "There's always something magical"
+    },
+    {
+      "start": 606.0600000000001,
+      "end": 608.22,
+      "text": "about being able to buy groceries"
+    },
+    {
+      "start": 608.22,
+      "end": 610.1800000000001,
+      "text": "or pay for movie tickets seamlessly"
+    },
+    {
+      "start": 610.1800000000001,
+      "end": 612.1,
+      "text": "with your Apple device."
+    },
+    {
+      "start": 612.1,
+      "end": 615.22,
+      "text": "Today, users choose Apple Pay for purchases"
+    },
+    {
+      "start": 615.22,
+      "end": 619.02,
+      "text": "across tens of millions of retailers worldwide."
+    },
+    {
+      "start": 619.02,
+      "end": 621.62,
+      "text": "And we're excited to make the Apple Pay experience"
+    },
+    {
+      "start": 621.62,
+      "end": 625.3,
+      "text": "even better with the option to redeem rewards"
+    },
+    {
+      "start": 625.3000000000001,
+      "end": 628.7800000000001,
+      "text": "and access loans from credit cards, debit cards,"
+    },
+    {
+      "start": 628.7800000000001,
+      "end": 630.98,
+      "text": "and other lenders right at checkout."
+    },
+    {
+      "start": 631.86,
+      "end": 634.0600000000001,
+      "text": "Whenever we celebrate big moments,"
+    },
+    {
+      "start": 634.0600000000001,
+      "end": 638.3000000000001,
+      "text": "Apple stores are the best places to share them with customers."
+    },
+    {
+      "start": 638.3000000000001,
+      "end": 641.82,
+      "text": "I had an incredible time during launch day in September"
+    },
+    {
+      "start": 641.82,
+      "end": 644.82,
+      "text": "alongside our team at Apple Fifth Avenue"
+    },
+    {
+      "start": 644.82,
+      "end": 648.3000000000001,
+      "text": "where energy and enthusiasm fill the air."
+    },
+    {
+      "start": 648.3000000000001,
+      "end": 650.2600000000001,
+      "text": "And in stores all over the world,"
+    },
+    {
+      "start": 650.2600000000001,
+      "end": 652.4200000000001,
+      "text": "customers are eager to get a closer look"
+    },
+    {
+      "start": 652.4200000000001,
+      "end": 654.5000000000001,
+      "text": "at our latest innovations."
+    },
+    {
+      "start": 654.5,
+      "end": 657.54,
+      "text": "We also opened two new stores during the quarter,"
+    },
+    {
+      "start": 657.54,
+      "end": 659.74,
+      "text": "and we can't wait to bring four new stores"
+    },
+    {
+      "start": 659.74,
+      "end": 661.26,
+      "text": "to customers in India."
+    },
+    {
+      "start": 662.74,
+      "end": 664.9,
+      "text": "We're passionate about education"
+    },
+    {
+      "start": 664.9,
+      "end": 667.26,
+      "text": "and believe technology has a vital role"
+    },
+    {
+      "start": 667.26,
+      "end": 670.86,
+      "text": "to play in both helping teachers to inspire their students"
+    },
+    {
+      "start": 670.86,
+      "end": 674.26,
+      "text": "and students to learn about the world around them."
+    },
+    {
+      "start": 674.26,
+      "end": 676.66,
+      "text": "In honor of World Teachers Day,"
+    },
+    {
+      "start": 676.66,
+      "end": 679.66,
+      "text": "Apple was proud to share new resources for teachers"
+    },
+    {
+      "start": 679.66,
+      "end": 681.5,
+      "text": "to engage their students in ways"
+    },
+    {
+      "start": 681.5,
+      "end": 684.26,
+      "text": "that aim to make learning easy and fun."
+    },
+    {
+      "start": 685.22,
+      "end": 688.46,
+      "text": "Additionally, we've expanded our education grant program"
+    },
+    {
+      "start": 688.46,
+      "end": 691.3,
+      "text": "into 100 new schools and communities,"
+    },
+    {
+      "start": 691.3,
+      "end": 694.3,
+      "text": "helping with everything from access to technology,"
+    },
+    {
+      "start": 694.3,
+      "end": 698.46,
+      "text": "to educator resources, to scholarships and financial support."
+    },
+    {
+      "start": 699.94,
+      "end": 701.86,
+      "text": "As we near the end of the year,"
+    },
+    {
+      "start": 701.86,
+      "end": 704.18,
+      "text": "we're proud of the progress we've made in our efforts"
+    },
+    {
+      "start": 704.18,
+      "end": 706.86,
+      "text": "to be carbon neutral across our entire footprint"
+    },
+    {
+      "start": 706.86,
+      "end": 708.34,
+      "text": "by the end of the decade."
+    },
+    {
+      "start": 709.34,
+      "end": 710.86,
+      "text": "As I mentioned earlier,"
+    },
+    {
+      "start": 710.86,
+      "end": 714.1800000000001,
+      "text": "we were thrilled to introduce our first ever carbon neutral Mac"
+    },
+    {
+      "start": 714.1800000000001,
+      "end": 716.58,
+      "text": "with the latest Mac many."
+    },
+    {
+      "start": 716.58,
+      "end": 718.5,
+      "text": "And in another milestone,"
+    },
+    {
+      "start": 718.5,
+      "end": 720.82,
+      "text": "customers can choose a carbon neutral option"
+    },
+    {
+      "start": 720.82,
+      "end": 723.1800000000001,
+      "text": "of any Apple watch."
+    },
+    {
+      "start": 723.1800000000001,
+      "end": 726.34,
+      "text": "These achievements are amazing for all of us at Apple,"
+    },
+    {
+      "start": 726.34,
+      "end": 729.38,
+      "text": "and we are determined to reach our 2030 goal."
+    },
+    {
+      "start": 730.6600000000001,
+      "end": 733.3000000000001,
+      "text": "At Apple, across everything we do,"
+    },
+    {
+      "start": 733.3000000000001,
+      "end": 735.26,
+      "text": "we manage for the long term,"
+    },
+    {
+      "start": 735.26,
+      "end": 738.02,
+      "text": "because we're always thinking about what comes next,"
+    },
+    {
+      "start": 738.1,
+      "end": 739.6999999999999,
+      "text": "the next great challenge,"
+    },
+    {
+      "start": 739.6999999999999,
+      "end": 741.6999999999999,
+      "text": "the next innovative idea,"
+    },
+    {
+      "start": 741.6999999999999,
+      "end": 744.14,
+      "text": "the next big breakthrough."
+    },
+    {
+      "start": 744.14,
+      "end": 745.6999999999999,
+      "text": "As we close out the year,"
+    },
+    {
+      "start": 745.6999999999999,
+      "end": 747.86,
+      "text": "we have the best lineup we've ever had"
+    },
+    {
+      "start": 747.86,
+      "end": 749.66,
+      "text": "going into the holiday season,"
+    },
+    {
+      "start": 749.66,
+      "end": 751.78,
+      "text": "including Apple Intelligence,"
+    },
+    {
+      "start": 751.78,
+      "end": 755.34,
+      "text": "which marks the start of a new chapter for our products."
+    },
+    {
+      "start": 755.34,
+      "end": 757.42,
+      "text": "This is just the beginning of what we believe"
+    },
+    {
+      "start": 757.42,
+      "end": 759.14,
+      "text": "generative AI can do,"
+    },
+    {
+      "start": 759.14,
+      "end": 761.98,
+      "text": "and I couldn't be more excited for what's to come."
+    },
+    {
+      "start": 763.18,
+      "end": 765.34,
+      "text": "Before I hand it over to Luca,"
+    },
+    {
+      "start": 765.38,
+      "end": 768.5400000000001,
+      "text": "with Luca transitioning to a new role with Apple,"
+    },
+    {
+      "start": 768.5400000000001,
+      "end": 771.86,
+      "text": "this will be the final time he's joining our call."
+    },
+    {
+      "start": 771.86,
+      "end": 773.4200000000001,
+      "text": "So I just wanted to take a moment"
+    },
+    {
+      "start": 773.4200000000001,
+      "end": 777.3000000000001,
+      "text": "to recognize his extraordinary service as Apple CFO,"
+    },
+    {
+      "start": 777.3000000000001,
+      "end": 779.94,
+      "text": "and to thank him for his partnership."
+    },
+    {
+      "start": 779.94,
+      "end": 782.1,
+      "text": "I am deeply grateful."
+    },
+    {
+      "start": 782.1,
+      "end": 783.9,
+      "text": "In his 10 years in the role,"
+    },
+    {
+      "start": 783.9,
+      "end": 786.4200000000001,
+      "text": "Luca has done truly exceptional work"
+    },
+    {
+      "start": 786.4200000000001,
+      "end": 789.22,
+      "text": "in shaping Apple as we know it today."
+    },
+    {
+      "start": 789.22,
+      "end": 792.0600000000001,
+      "text": "He has helped manage Apple for the long term,"
+    },
+    {
+      "start": 792.0600000000001,
+      "end": 794.6600000000001,
+      "text": "thoughtfully and deliberately."
+    },
+    {
+      "start": 794.66,
+      "end": 796.3,
+      "text": "He has helped us enrich the lives"
+    },
+    {
+      "start": 796.3,
+      "end": 798.4599999999999,
+      "text": "of so many around the world,"
+    },
+    {
+      "start": 798.4599999999999,
+      "end": 801.14,
+      "text": "and he has been a leader that people look up to"
+    },
+    {
+      "start": 801.14,
+      "end": 802.9,
+      "text": "and have learned so much from."
+    },
+    {
+      "start": 803.8199999999999,
+      "end": 808.3399999999999,
+      "text": "I have incredible confidence in our incoming CFO, Kevin Perak,"
+    },
+    {
+      "start": 808.3399999999999,
+      "end": 810.3399999999999,
+      "text": "and we look forward to more of you"
+    },
+    {
+      "start": 810.3399999999999,
+      "end": 813.38,
+      "text": "meeting and working with him going forward."
+    },
+    {
+      "start": 813.38,
+      "end": 815.6999999999999,
+      "text": "With that, I'll turn it over to Luca."
+    },
+    {
+      "start": 816.78,
+      "end": 818.3399999999999,
+      "text": "Good afternoon, everyone,"
+    },
+    {
+      "start": 818.3399999999999,
+      "end": 820.66,
+      "text": "and thank you, Tim, for the very kind words."
+    },
+    {
+      "start": 821.54,
+      "end": 825.14,
+      "text": "Serving as Apple CFO has been a real privilege"
+    },
+    {
+      "start": 825.14,
+      "end": 826.8199999999999,
+      "text": "and an amazing journey,"
+    },
+    {
+      "start": 826.8199999999999,
+      "end": 829.1,
+      "text": "and I've greatly appreciated the support"
+    },
+    {
+      "start": 829.1,
+      "end": 831.54,
+      "text": "from our investors and the analysts community"
+    },
+    {
+      "start": 831.54,
+      "end": 833.18,
+      "text": "over the years."
+    },
+    {
+      "start": 833.18,
+      "end": 834.9,
+      "text": "Kevin is exceptional,"
+    },
+    {
+      "start": 834.9,
+      "end": 837.26,
+      "text": "and I know you will enjoy interacting"
+    },
+    {
+      "start": 837.26,
+      "end": 839.6999999999999,
+      "text": "with him going forward."
+    },
+    {
+      "start": 839.6999999999999,
+      "end": 841.18,
+      "text": "Let me now turn to the results"
+    },
+    {
+      "start": 841.18,
+      "end": 843.54,
+      "text": "for the fourth quarter of our fiscal year."
+    },
+    {
+      "start": 844.4599999999999,
+      "end": 846.18,
+      "text": "We're very pleased to report"
+    },
+    {
+      "start": 846.1800000000001,
+      "end": 848.7800000000001,
+      "text": "a new September quarter revenue record"
+    },
+    {
+      "start": 848.7800000000001,
+      "end": 853.7800000000001,
+      "text": "of 94.9 billion, up 6% year over year."
+    },
+    {
+      "start": 853.82,
+      "end": 856.74,
+      "text": "We grew in the vast majority of the markets we track"
+    },
+    {
+      "start": 856.74,
+      "end": 859.6200000000001,
+      "text": "and achieved September quarter revenue records"
+    },
+    {
+      "start": 859.6200000000001,
+      "end": 863.82,
+      "text": "in the Americas, Europe, and rest of Asia Pacific."
+    },
+    {
+      "start": 863.82,
+      "end": 868.82,
+      "text": "Products revenue was 70 billion, up 4% year over year,"
+    },
+    {
+      "start": 868.9000000000001,
+      "end": 872.82,
+      "text": "driven by growth in iPhone, iPad, and Mac."
+    },
+    {
+      "start": 872.82,
+      "end": 875.3000000000001,
+      "text": "Our installed base of active devices"
+    },
+    {
+      "start": 875.3000000000001,
+      "end": 877.2600000000001,
+      "text": "reached an all-time high"
+    },
+    {
+      "start": 877.2600000000001,
+      "end": 880.58,
+      "text": "across all products and geographic segments."
+    },
+    {
+      "start": 880.58,
+      "end": 882.22,
+      "text": "Thanks to very high levels"
+    },
+    {
+      "start": 882.22,
+      "end": 884.58,
+      "text": "of customer satisfaction and loyalty,"
+    },
+    {
+      "start": 884.58,
+      "end": 886.6200000000001,
+      "text": "and a large number of customers"
+    },
+    {
+      "start": 886.6200000000001,
+      "end": 888.4200000000001,
+      "text": "who are new to our products."
+    },
+    {
+      "start": 889.82,
+      "end": 892.34,
+      "text": "Services revenue reached an all-time record"
+    },
+    {
+      "start": 892.34,
+      "end": 896.9000000000001,
+      "text": "of 25 billion, up 12% year over year."
+    },
+    {
+      "start": 896.9000000000001,
+      "end": 899.3800000000001,
+      "text": "We saw a broad base strength around the world"
+    },
+    {
+      "start": 899.3800000000001,
+      "end": 900.82,
+      "text": "reaching all-time records"
+    },
+    {
+      "start": 900.82,
+      "end": 903.5000000000001,
+      "text": "in both developed and emerging markets"
+    },
+    {
+      "start": 903.5,
+      "end": 905.94,
+      "text": "with double-digit growth and record results"
+    },
+    {
+      "start": 905.94,
+      "end": 908.38,
+      "text": "across most services categories."
+    },
+    {
+      "start": 909.34,
+      "end": 912.66,
+      "text": "Company gross margin was 46.2%,"
+    },
+    {
+      "start": 912.66,
+      "end": 915.34,
+      "text": "near the high end of our guidance range."
+    },
+    {
+      "start": 915.34,
+      "end": 918.82,
+      "text": "Products gross margin was 36.3%,"
+    },
+    {
+      "start": 918.82,
+      "end": 921.14,
+      "text": "up 100 basis points sequentially,"
+    },
+    {
+      "start": 921.14,
+      "end": 924.06,
+      "text": "primarily driven by favorable mix."
+    },
+    {
+      "start": 924.06,
+      "end": 926.58,
+      "text": "Services gross margin was 74%"
+    },
+    {
+      "start": 926.58,
+      "end": 928.66,
+      "text": "unchanged from the prior quarter."
+    },
+    {
+      "start": 929.52,
+      "end": 932.42,
+      "text": "Operating expenses of 14.3 billion,"
+    },
+    {
+      "start": 932.4200000000001,
+      "end": 934.58,
+      "text": "where at the midpoint of the guidance range,"
+    },
+    {
+      "start": 934.58,
+      "end": 936.82,
+      "text": "we provided at the beginning of the quarter,"
+    },
+    {
+      "start": 936.82,
+      "end": 938.8600000000001,
+      "text": "an up 6% year over year."
+    },
+    {
+      "start": 940.0200000000001,
+      "end": 943.7,
+      "text": "During the quarter, we recorded a one-time income tax charge"
+    },
+    {
+      "start": 943.7,
+      "end": 947.0600000000001,
+      "text": "of 10.2 billion, which relates to the impact"
+    },
+    {
+      "start": 947.0600000000001,
+      "end": 950.1400000000001,
+      "text": "of the reversal of the European general court's"
+    },
+    {
+      "start": 950.1400000000001,
+      "end": 952.0200000000001,
+      "text": "state aid decision."
+    },
+    {
+      "start": 952.0200000000001,
+      "end": 953.94,
+      "text": "When we exclude this one-time charge,"
+    },
+    {
+      "start": 953.94,
+      "end": 956.1800000000001,
+      "text": "net income was 25 billion,"
+    },
+    {
+      "start": 956.1800000000001,
+      "end": 959.46,
+      "text": "and diluted earnings per share were $1.64,"
+    },
+    {
+      "start": 959.46,
+      "end": 962.86,
+      "text": "up 12% year over year, and a September quarter record."
+    },
+    {
+      "start": 964.0600000000001,
+      "end": 966.14,
+      "text": "Operating cash flow was very strong,"
+    },
+    {
+      "start": 966.14,
+      "end": 970.4200000000001,
+      "text": "a 26.8 billion, a new September quarter record."
+    },
+    {
+      "start": 970.4200000000001,
+      "end": 972.6600000000001,
+      "text": "Let me now get into more detail"
+    },
+    {
+      "start": 972.6600000000001,
+      "end": 974.9000000000001,
+      "text": "for each of our revenue categories."
+    },
+    {
+      "start": 975.94,
+      "end": 978.3000000000001,
+      "text": "iPhone revenue was 46.2 billion,"
+    },
+    {
+      "start": 978.3000000000001,
+      "end": 981.7,
+      "text": "up 6% year over year, and a September quarter record"
+    },
+    {
+      "start": 981.7,
+      "end": 984.22,
+      "text": "in total and across several markets,"
+    },
+    {
+      "start": 984.22,
+      "end": 988.38,
+      "text": "including the US, the Middle East, Korea, and South Asia."
+    },
+    {
+      "start": 989.22,
+      "end": 992.9399999999999,
+      "text": "The iPhone active installed base grew to a new all-time high"
+    },
+    {
+      "start": 992.9399999999999,
+      "end": 995.74,
+      "text": "in total and in average geographic segment."
+    },
+    {
+      "start": 995.74,
+      "end": 998.42,
+      "text": "During the September quarter, many iPhone models"
+    },
+    {
+      "start": 998.42,
+      "end": 1001.74,
+      "text": "were among the top selling smartphones around the world."
+    },
+    {
+      "start": 1001.74,
+      "end": 1006.02,
+      "text": "In fact, according to a survey from Qatar,"
+    },
+    {
+      "start": 1006.02,
+      "end": 1008.66,
+      "text": "iPhone was the top selling model in the US,"
+    },
+    {
+      "start": 1008.66,
+      "end": 1012.86,
+      "text": "urban China, the UK, Australia, and Japan."
+    },
+    {
+      "start": 1012.86,
+      "end": 1014.78,
+      "text": "We continue to see high levels"
+    },
+    {
+      "start": 1014.78,
+      "end": 1018.38,
+      "text": "of customer satisfaction for the iPhone 15 family,"
+    },
+    {
+      "start": 1018.38,
+      "end": 1023.38,
+      "text": "with 451 research recently measuring it at 98% in the US."
+    },
+    {
+      "start": 1025.1399999999999,
+      "end": 1029.78,
+      "text": "Mac revenue was 7.7 billion, up 2% year over year,"
+    },
+    {
+      "start": 1029.78,
+      "end": 1032.8999999999999,
+      "text": "driven by the strength in MacBook Air."
+    },
+    {
+      "start": 1032.8999999999999,
+      "end": 1035.06,
+      "text": "Customers have been loving the performance"
+    },
+    {
+      "start": 1035.06,
+      "end": 1038.3,
+      "text": "of Apple Silicon on Mac, and we are very excited"
+    },
+    {
+      "start": 1038.3,
+      "end": 1042.66,
+      "text": "to bring the latest M4 family of chips to the lineup."
+    },
+    {
+      "start": 1042.66,
+      "end": 1045.18,
+      "text": "The Mac installed base reached an all-time high,"
+    },
+    {
+      "start": 1045.18,
+      "end": 1049.3000000000002,
+      "text": "with about half of customers in the quarter being new to Mac."
+    },
+    {
+      "start": 1049.3000000000002,
+      "end": 1052.3400000000001,
+      "text": "And in the latest reports from 451 research,"
+    },
+    {
+      "start": 1052.3400000000001,
+      "end": 1055.8200000000002,
+      "text": "customer satisfaction was 95% in the US."
+    },
+    {
+      "start": 1056.66,
+      "end": 1061.18,
+      "text": "iPad generated 7 billion in revenue, up 8% year over year."
+    },
+    {
+      "start": 1061.18,
+      "end": 1063.3000000000002,
+      "text": "In addition to growth in developed markets,"
+    },
+    {
+      "start": 1063.3000000000002,
+      "end": 1066.66,
+      "text": "we also saw strong performance in many emerging markets,"
+    },
+    {
+      "start": 1066.66,
+      "end": 1069.94,
+      "text": "with double-digit growth in Mexico, Brazil,"
+    },
+    {
+      "start": 1069.94,
+      "end": 1073.14,
+      "text": "the Middle East, India, and South Asia."
+    },
+    {
+      "start": 1073.14,
+      "end": 1076.3,
+      "text": "The iPad installed base reached an all-time high,"
+    },
+    {
+      "start": 1076.3,
+      "end": 1079.3400000000001,
+      "text": "and over half of the customers who purchased iPads"
+    },
+    {
+      "start": 1079.3400000000001,
+      "end": 1082.22,
+      "text": "during the quarter were new to the product."
+    },
+    {
+      "start": 1082.22,
+      "end": 1085.02,
+      "text": "Also, customer satisfaction was recently measured"
+    },
+    {
+      "start": 1085.02,
+      "end": 1087.8600000000001,
+      "text": "at 97% in the US."
+    },
+    {
+      "start": 1087.8600000000001,
+      "end": 1091.22,
+      "text": "Whereable's home and accessories revenue was 9 billion,"
+    },
+    {
+      "start": 1091.22,
+      "end": 1093.5,
+      "text": "down 3% year over year."
+    },
+    {
+      "start": 1093.5,
+      "end": 1097.78,
+      "text": "The Apple Watch installed base reached a new all-time high,"
+    },
+    {
+      "start": 1097.78,
+      "end": 1100.5,
+      "text": "with over half of customers purchasing an Apple Watch"
+    },
+    {
+      "start": 1100.5,
+      "end": 1103.26,
+      "text": "during the quarter being new to the product."
+    },
+    {
+      "start": 1103.26,
+      "end": 1106.02,
+      "text": "And the latest reports from 451 research"
+    },
+    {
+      "start": 1106.02,
+      "end": 1109.3799999999999,
+      "text": "indicated customer satisfaction of 96%"
+    },
+    {
+      "start": 1109.3799999999999,
+      "end": 1111.22,
+      "text": "for watching the US."
+    },
+    {
+      "start": 1111.22,
+      "end": 1113.62,
+      "text": "Our services revenue reached an all-time record"
+    },
+    {
+      "start": 1113.62,
+      "end": 1117.42,
+      "text": "of 25 billion, growing 12% year over year."
+    },
+    {
+      "start": 1117.42,
+      "end": 1119.74,
+      "text": "Services continue to see strong momentum"
+    },
+    {
+      "start": 1119.74,
+      "end": 1122.66,
+      "text": "with the growth of our installed base of active devices"
+    },
+    {
+      "start": 1122.66,
+      "end": 1124.46,
+      "text": "setting a solid foundation"
+    },
+    {
+      "start": 1124.46,
+      "end": 1127.7,
+      "text": "for the future expansion of our ecosystem."
+    },
+    {
+      "start": 1127.7,
+      "end": 1129.5800000000002,
+      "text": "And we see increased customer engagement"
+    },
+    {
+      "start": 1129.5800000000002,
+      "end": 1131.7,
+      "text": "with our services offerings."
+    },
+    {
+      "start": 1131.7,
+      "end": 1134.8600000000001,
+      "text": "Both transacting accounts and paid accounts"
+    },
+    {
+      "start": 1134.8600000000001,
+      "end": 1137.3400000000001,
+      "text": "reach a new all-time high, with paid accounts"
+    },
+    {
+      "start": 1137.3400000000001,
+      "end": 1141.06,
+      "text": "growing double digits year over year."
+    },
+    {
+      "start": 1141.06,
+      "end": 1144.3,
+      "text": "Paid subscriptions also grew double digits."
+    },
+    {
+      "start": 1144.3,
+      "end": 1147.22,
+      "text": "We have well over 1 billion paid subscriptions"
+    },
+    {
+      "start": 1147.22,
+      "end": 1149.78,
+      "text": "across the services on our platform,"
+    },
+    {
+      "start": 1149.78,
+      "end": 1153.82,
+      "text": "more than double the number we had only four years ago."
+    },
+    {
+      "start": 1153.82,
+      "end": 1156.5800000000002,
+      "text": "And as always, we remain focused on improving"
+    },
+    {
+      "start": 1156.58,
+      "end": 1159.54,
+      "text": "the breadth and quality of our services,"
+    },
+    {
+      "start": 1159.54,
+      "end": 1163.1,
+      "text": "from new games on Apple Arcade to new features"
+    },
+    {
+      "start": 1163.1,
+      "end": 1167.62,
+      "text": "like tap to cash and pay with installments using Apple Pay,"
+    },
+    {
+      "start": 1167.62,
+      "end": 1172.02,
+      "text": "to many successful new and returning shows on Apple TV+."
+    },
+    {
+      "start": 1172.02,
+      "end": 1175.46,
+      "text": "This past quarter, we celebrated the five-year anniversary"
+    },
+    {
+      "start": 1175.46,
+      "end": 1178.4199999999998,
+      "text": "of Apple Card, which was ranked number one"
+    },
+    {
+      "start": 1178.4199999999998,
+      "end": 1182.54,
+      "text": "in customer satisfaction among co-branding credit cards"
+    },
+    {
+      "start": 1182.54,
+      "end": 1185.6999999999998,
+      "text": "by JD Power for the fourth year in a row."
+    },
+    {
+      "start": 1186.18,
+      "end": 1189.3400000000001,
+      "text": "Turning to enterprise, we continue to see strong demand"
+    },
+    {
+      "start": 1189.3400000000001,
+      "end": 1191.82,
+      "text": "across our products and services."
+    },
+    {
+      "start": 1191.82,
+      "end": 1195.42,
+      "text": "NVIDIA launched its Mac as a choice program"
+    },
+    {
+      "start": 1195.42,
+      "end": 1197.82,
+      "text": "supported by Apple Care for Enterprise"
+    },
+    {
+      "start": 1197.82,
+      "end": 1200.02,
+      "text": "and Apple Professional Services"
+    },
+    {
+      "start": 1200.02,
+      "end": 1204.02,
+      "text": "with over 10,000 Macs deployed worldwide."
+    },
+    {
+      "start": 1204.02,
+      "end": 1208.46,
+      "text": "And Novartis, a leading global pharmaceutical company"
+    },
+    {
+      "start": 1208.46,
+      "end": 1212.9,
+      "text": "recently chose iPhone 16 as the standard mobile device"
+    },
+    {
+      "start": 1212.9,
+      "end": 1215.26,
+      "text": "for all employees."
+    },
+    {
+      "start": 1215.26,
+      "end": 1218.3799999999999,
+      "text": "We also see continued momentum with Apple Vision Pro"
+    },
+    {
+      "start": 1218.3799999999999,
+      "end": 1220.74,
+      "text": "in the enterprise space."
+    },
+    {
+      "start": 1220.74,
+      "end": 1224.7,
+      "text": "UC San Diego Health is the first hospital in the world"
+    },
+    {
+      "start": 1224.7,
+      "end": 1228.62,
+      "text": "to test spatial computing apps on Apple Vision Pro"
+    },
+    {
+      "start": 1228.62,
+      "end": 1231.3799999999999,
+      "text": "in clinical trials for patient surgery"
+    },
+    {
+      "start": 1231.3799999999999,
+      "end": 1232.62,
+      "text": "in the operating room."
+    },
+    {
+      "start": 1233.7,
+      "end": 1235.62,
+      "text": "Let me now turn to our cash position"
+    },
+    {
+      "start": 1235.62,
+      "end": 1237.82,
+      "text": "and capital return program."
+    },
+    {
+      "start": 1237.82,
+      "end": 1241.1,
+      "text": "We ended the quarter with 157 billion in cash"
+    },
+    {
+      "start": 1241.1,
+      "end": 1242.86,
+      "text": "and marketable securities."
+    },
+    {
+      "start": 1242.8600000000001,
+      "end": 1245.66,
+      "text": "We repaid 2.6 billion in maturing debt"
+    },
+    {
+      "start": 1245.66,
+      "end": 1248.22,
+      "text": "and increased commercial paper by 7 billion,"
+    },
+    {
+      "start": 1248.22,
+      "end": 1251.8200000000002,
+      "text": "leaving us with total debt of 107 billion."
+    },
+    {
+      "start": 1251.8200000000002,
+      "end": 1256.3000000000002,
+      "text": "As a result, net cash was 50 billion at the end of the quarter."
+    },
+    {
+      "start": 1256.3000000000002,
+      "end": 1259.9,
+      "text": "During the quarter, we returned over 29 billion to shareholders,"
+    },
+    {
+      "start": 1259.9,
+      "end": 1262.8600000000001,
+      "text": "including 3.8 billion in dividends and equivalents"
+    },
+    {
+      "start": 1262.8600000000001,
+      "end": 1266.46,
+      "text": "and 25 billion through open market repurchases"
+    },
+    {
+      "start": 1266.46,
+      "end": 1268.9,
+      "text": "of 112 million Apple shares."
+    },
+    {
+      "start": 1269.9,
+      "end": 1272.9,
+      "text": "As we move ahead into the December quarter,"
+    },
+    {
+      "start": 1272.9,
+      "end": 1274.9,
+      "text": "I'd like to review our outlook,"
+    },
+    {
+      "start": 1274.9,
+      "end": 1277.9,
+      "text": "which includes the types of forward-looking information"
+    },
+    {
+      "start": 1277.9,
+      "end": 1280.9,
+      "text": "that Suasini referred to at the beginning of the call."
+    },
+    {
+      "start": 1281.9,
+      "end": 1283.9,
+      "text": "The color we are providing today assumes"
+    },
+    {
+      "start": 1283.9,
+      "end": 1286.9,
+      "text": "that the macroeconomic outlook doesn't worsen"
+    },
+    {
+      "start": 1286.9,
+      "end": 1290.9,
+      "text": "from what we are projecting today for the current quarter."
+    },
+    {
+      "start": 1290.9,
+      "end": 1293.9,
+      "text": "We expect our December quarter total company revenue"
+    },
+    {
+      "start": 1293.9,
+      "end": 1297.9,
+      "text": "to grow low to mid-single digits year over year."
+    },
+    {
+      "start": 1298.9,
+      "end": 1301.9,
+      "text": "We expect services revenue to grow double digits"
+    },
+    {
+      "start": 1301.9,
+      "end": 1306.9,
+      "text": "at a rate similar to what we reported in the fiscal year 2024."
+    },
+    {
+      "start": 1306.9,
+      "end": 1312.9,
+      "text": "We expect gross margin to be between 46 and 47%."
+    },
+    {
+      "start": 1312.9,
+      "end": 1318.9,
+      "text": "We expect OPEX to be between 15.3 and 15.5 billion dollars."
+    },
+    {
+      "start": 1318.9,
+      "end": 1323.9,
+      "text": "We expect OINE to be around negative 250 million,"
+    },
+    {
+      "start": 1323.9,
+      "end": 1325.9,
+      "text": "excluding any potential impact"
+    },
+    {
+      "start": 1325.9,
+      "end": 1328.9,
+      "text": "from the mark-to-market of minority investments,"
+    },
+    {
+      "start": 1328.9,
+      "end": 1331.9,
+      "text": "and our tax rate to be around 16%."
+    },
+    {
+      "start": 1331.9,
+      "end": 1335.9,
+      "text": "Finally, today our Board of Directors has declared"
+    },
+    {
+      "start": 1335.9,
+      "end": 1339.9,
+      "text": "a cash dividend of 25 cents per share of common stock"
+    },
+    {
+      "start": 1339.9,
+      "end": 1342.9,
+      "text": "payable on November 14, 2024,"
+    },
+    {
+      "start": 1342.9,
+      "end": 1346.9,
+      "text": "to share all this of record as of November 11, 2024."
+    },
+    {
+      "start": 1346.9,
+      "end": 1350.9,
+      "text": "With that, let us open the call to questions."
+    },
+    {
+      "start": 1350.9,
+      "end": 1351.9,
+      "text": "Thank you, Luca."
+    },
+    {
+      "start": 1351.9,
+      "end": 1354.9,
+      "text": "We ask that you limit yourself to two questions."
+    },
+    {
+      "start": 1354.9,
+      "end": 1357.9,
+      "text": "Operator, may we have the first question, please?"
+    },
+    {
+      "start": 1357.9,
+      "end": 1358.9,
+      "text": "Certainly."
+    },
+    {
+      "start": 1358.9,
+      "end": 1361.9,
+      "text": "You will go ahead and take our first question"
+    },
+    {
+      "start": 1361.9,
+      "end": 1364.9,
+      "text": "from Michael Ng with Goldman Sachs."
+    },
+    {
+      "start": 1364.9,
+      "end": 1365.9,
+      "text": "Please go ahead."
+    },
+    {
+      "start": 1365.9,
+      "end": 1367.9,
+      "text": "Hey, good afternoon."
+    },
+    {
+      "start": 1367.9,
+      "end": 1368.9,
+      "text": "I just have two."
+    },
+    {
+      "start": 1368.9,
+      "end": 1372.9,
+      "text": "The first one is for Tim on Apple Intelligence."
+    },
+    {
+      "start": 1372.9,
+      "end": 1374.9,
+      "text": "I was wondering if you could just expand a little bit"
+    },
+    {
+      "start": 1374.9,
+      "end": 1378.9,
+      "text": "on some of the early feedback to Apple Intelligence,"
+    },
+    {
+      "start": 1378.9,
+      "end": 1380.9,
+      "text": "both for iOS 18.1,"
+    },
+    {
+      "start": 1380.9,
+      "end": 1383.9,
+      "text": "but also the developer beta so far,"
+    },
+    {
+      "start": 1383.9,
+      "end": 1387.9,
+      "text": "and whether you would attribute Apple Intelligence"
+    },
+    {
+      "start": 1387.9,
+      "end": 1390.9,
+      "text": "to any of the strong iPhone performance"
+    },
+    {
+      "start": 1390.9,
+      "end": 1392.9,
+      "text": "that we've seen today."
+    },
+    {
+      "start": 1392.9,
+      "end": 1393.9,
+      "text": "Thanks."
+    },
+    {
+      "start": 1393.9,
+      "end": 1395.9,
+      "text": "Thanks, Michael."
+    },
+    {
+      "start": 1395.9,
+      "end": 1398.9,
+      "text": "As I noted in my comments,"
+    },
+    {
+      "start": 1398.9,
+      "end": 1400.9,
+      "text": "just this week on Monday,"
+    },
+    {
+      "start": 1400.9,
+      "end": 1403.9,
+      "text": "we made the first set of Apple Intelligence features"
+    },
+    {
+      "start": 1403.9,
+      "end": 1408.9,
+      "text": "available in U.S. English for iPhone, iPad, and Mac."
+    },
+    {
+      "start": 1409.9,
+      "end": 1412.9,
+      "text": "This includes things like system-wide writing tools"
+    },
+    {
+      "start": 1412.9,
+      "end": 1415.9,
+      "text": "that help you refine your writing,"
+    },
+    {
+      "start": 1415.9,
+      "end": 1418.9,
+      "text": "a more natural conversational series,"
+    },
+    {
+      "start": 1418.9,
+      "end": 1421.9,
+      "text": "more intelligent photos app,"
+    },
+    {
+      "start": 1421.9,
+      "end": 1424.9,
+      "text": "including the ability to create movies simply"
+    },
+    {
+      "start": 1424.9,
+      "end": 1427.9,
+      "text": "by typing a description, which is really cool,"
+    },
+    {
+      "start": 1427.9,
+      "end": 1430.9,
+      "text": "and new ways to prioritize and stay in the moment"
+    },
+    {
+      "start": 1430.9,
+      "end": 1433.9,
+      "text": "with notification summaries and priority messages."
+    },
+    {
+      "start": 1433.9,
+      "end": 1437.9,
+      "text": "There's also email summaries and email priority."
+    },
+    {
+      "start": 1438.9,
+      "end": 1441.9,
+      "text": "We're getting a lot of positive feedback"
+    },
+    {
+      "start": 1441.9,
+      "end": 1443.9,
+      "text": "from developers and customers."
+    },
+    {
+      "start": 1443.9,
+      "end": 1447.9,
+      "text": "In fact, if you just look at the first three days,"
+    },
+    {
+      "start": 1447.9,
+      "end": 1451.9,
+      "text": "which is all we have, obviously, from Monday,"
+    },
+    {
+      "start": 1451.9,
+      "end": 1456.9,
+      "text": "the 18.1 adoption is twice as fast"
+    },
+    {
+      "start": 1456.9,
+      "end": 1461.9,
+      "text": "as the 17.1 adoption was in the year-go quarter."
+    },
+    {
+      "start": 1461.9,
+      "end": 1466.9,
+      "text": "There's definitely interest out there for Apple Intelligence."
+    },
+    {
+      "start": 1467.9,
+      "end": 1469.9,
+      "text": "Carrying on in the quarter,"
+    },
+    {
+      "start": 1469.9,
+      "end": 1473.9,
+      "text": "we are looking forward to bringing even more features"
+    },
+    {
+      "start": 1473.9,
+      "end": 1475.9,
+      "text": "in December."
+    },
+    {
+      "start": 1475.9,
+      "end": 1478.9,
+      "text": "This will include even more powerful writing tools"
+    },
+    {
+      "start": 1478.9,
+      "end": 1482.9,
+      "text": "and visual intelligence experience"
+    },
+    {
+      "start": 1482.9,
+      "end": 1485.9,
+      "text": "that builds on Apple Intelligence"
+    },
+    {
+      "start": 1485.9,
+      "end": 1488.9,
+      "text": "and CHEP-GPT integration"
+    },
+    {
+      "start": 1488.9,
+      "end": 1492.9,
+      "text": "in addition to other features,"
+    },
+    {
+      "start": 1492.9,
+      "end": 1495.9,
+      "text": "as well as we'll bring localized English"
+    },
+    {
+      "start": 1495.9,
+      "end": 1497.9,
+      "text": "to several countries that include the UK,"
+    },
+    {
+      "start": 1497.9,
+      "end": 1499.9,
+      "text": "Australia, and Canada."
+    },
+    {
+      "start": 1499.9,
+      "end": 1504.9,
+      "text": "It's going to be quite a software quarter"
+    },
+    {
+      "start": 1504.9,
+      "end": 1508.9,
+      "text": "between the release on Monday"
+    },
+    {
+      "start": 1508.9,
+      "end": 1510.9,
+      "text": "and the release in December,"
+    },
+    {
+      "start": 1510.9,
+      "end": 1513.9,
+      "text": "and then as we turn the corner to 25,"
+    },
+    {
+      "start": 1513.9,
+      "end": 1516.9,
+      "text": "we'll have more languages rolling out"
+    },
+    {
+      "start": 1516.9,
+      "end": 1520.9,
+      "text": "in starting in April as well,"
+    },
+    {
+      "start": 1520.9,
+      "end": 1522.9,
+      "text": "and more features as well."
+    },
+    {
+      "start": 1522.9,
+      "end": 1528.9,
+      "text": "And so it's a very, very strong drum beat,"
+    },
+    {
+      "start": 1528.9,
+      "end": 1531.9,
+      "text": "and we couldn't be more excited about it."
+    },
+    {
+      "start": 1531.9,
+      "end": 1533.9,
+      "text": "Great. Thank you very much."
+    },
+    {
+      "start": 1533.9,
+      "end": 1535.9,
+      "text": "And my second one, just for Luca,"
+    },
+    {
+      "start": 1535.9,
+      "end": 1539.9,
+      "text": "first, congratulations again, Luca, on the new role,"
+    },
+    {
+      "start": 1539.9,
+      "end": 1541.9,
+      "text": "and it's been a real privilege"
+    },
+    {
+      "start": 1541.9,
+      "end": 1543.9,
+      "text": "being able to spend some time with you."
+    },
+    {
+      "start": 1543.9,
+      "end": 1546.9,
+      "text": "A question that I think will overlap"
+    },
+    {
+      "start": 1546.9,
+      "end": 1548.9,
+      "text": "with your new role as well."
+    },
+    {
+      "start": 1548.9,
+      "end": 1549.9,
+      "text": "Could you just talk a little bit"
+    },
+    {
+      "start": 1549.9,
+      "end": 1552.9,
+      "text": "about the CAPEX outlook"
+    },
+    {
+      "start": 1552.9,
+      "end": 1554.9,
+      "text": "and whether investments in things"
+    },
+    {
+      "start": 1554.9,
+      "end": 1557.9,
+      "text": "like private cloud compute"
+    },
+    {
+      "start": 1557.9,
+      "end": 1560.9,
+      "text": "could change the historical CAPEX range"
+    },
+    {
+      "start": 1560.9,
+      "end": 1563.9,
+      "text": "of roughly $10 billion a year?"
+    },
+    {
+      "start": 1563.9,
+      "end": 1565.9,
+      "text": "Thank you very much."
+    },
+    {
+      "start": 1565.9,
+      "end": 1567.9,
+      "text": "Thank you, Michael."
+    },
+    {
+      "start": 1567.9,
+      "end": 1569.9,
+      "text": "On the CAPEX front,"
+    },
+    {
+      "start": 1569.9,
+      "end": 1573.9,
+      "text": "I mentioned before a number of times"
+    },
+    {
+      "start": 1573.9,
+      "end": 1576.9,
+      "text": "we have a bit of a hybrid model"
+    },
+    {
+      "start": 1576.9,
+      "end": 1580.9,
+      "text": "in the way we run our data centers."
+    },
+    {
+      "start": 1580.9,
+      "end": 1583.9,
+      "text": "In some cases we use our own data centers,"
+    },
+    {
+      "start": 1583.9,
+      "end": 1587.9,
+      "text": "in some cases we use third-party providers,"
+    },
+    {
+      "start": 1587.9,
+      "end": 1590.9,
+      "text": "and so our CAPEX numbers"
+    },
+    {
+      "start": 1590.9,
+      "end": 1593.9,
+      "text": "may not be fully comparable with others."
+    },
+    {
+      "start": 1593.9,
+      "end": 1598.9,
+      "text": "But obviously we are rolling out these features,"
+    },
+    {
+      "start": 1598.9,
+      "end": 1600.9,
+      "text": "Apple Intelligence features already now,"
+    },
+    {
+      "start": 1600.9,
+      "end": 1603.9,
+      "text": "and so we are making all the capacity"
+    },
+    {
+      "start": 1603.9,
+      "end": 1606.9,
+      "text": "that is needed available for these features."
+    },
+    {
+      "start": 1606.9,
+      "end": 1611.9,
+      "text": "You will see in our 10K the amount of CAPEX"
+    },
+    {
+      "start": 1611.9,
+      "end": 1617.9,
+      "text": "that we've incurred during the course of fiscal 24,"
+    },
+    {
+      "start": 1617.9,
+      "end": 1619.9,
+      "text": "and we will, in fiscal 25,"
+    },
+    {
+      "start": 1619.9,
+      "end": 1622.9,
+      "text": "we will continue to make all the investments"
+    },
+    {
+      "start": 1622.9,
+      "end": 1624.9,
+      "text": "that are necessary, and of course,"
+    },
+    {
+      "start": 1624.9,
+      "end": 1632.9,
+      "text": "investments in AI-related CAPEX will be made."
+    },
+    {
+      "start": 1633.9,
+      "end": 1634.9,
+      "text": "Thank you, Tim."
+    },
+    {
+      "start": 1634.9,
+      "end": 1635.9,
+      "text": "Thank you, Luca."
+    },
+    {
+      "start": 1635.9,
+      "end": 1636.9,
+      "text": "All right."
+    },
+    {
+      "start": 1636.9,
+      "end": 1637.9,
+      "text": "Thanks, Mike."
+    },
+    {
+      "start": 1637.9,
+      "end": 1640.9,
+      "text": "Can we have the next question, please?"
+    },
+    {
+      "start": 1640.9,
+      "end": 1643.9,
+      "text": "Our next question is from Eric Woodring"
+    },
+    {
+      "start": 1643.9,
+      "end": 1645.9,
+      "text": "with Morgan Stanley."
+    },
+    {
+      "start": 1645.9,
+      "end": 1646.9,
+      "text": "Please go ahead."
+    },
+    {
+      "start": 1646.9,
+      "end": 1647.9,
+      "text": "Great."
+    },
+    {
+      "start": 1647.9,
+      "end": 1649.9,
+      "text": "Thanks so much for taking my questions."
+    },
+    {
+      "start": 1649.9,
+      "end": 1650.9,
+      "text": "I have two as well."
+    },
+    {
+      "start": 1650.9,
+      "end": 1652.9,
+      "text": "But Tim, maybe if we start with you,"
+    },
+    {
+      "start": 1652.9,
+      "end": 1654.9,
+      "text": "I think each of the last four years"
+    },
+    {
+      "start": 1654.9,
+      "end": 1656.9,
+      "text": "you've exited the December quarter"
+    },
+    {
+      "start": 1656.9,
+      "end": 1659.9,
+      "text": "with iPhone demand outpacing supply."
+    },
+    {
+      "start": 1660.9,
+      "end": 1662.9,
+      "text": "As we look to this quarter in the iPhone 16 cycle,"
+    },
+    {
+      "start": 1662.9,
+      "end": 1664.9,
+      "text": "lead times are relatively short."
+    },
+    {
+      "start": 1664.9,
+      "end": 1666.9,
+      "text": "There are no known supply shortages,"
+    },
+    {
+      "start": 1666.9,
+      "end": 1668.9,
+      "text": "and I'm just curious whether you've been able"
+    },
+    {
+      "start": 1668.9,
+      "end": 1672.9,
+      "text": "to maybe get a better read on early cycle iPhone demand"
+    },
+    {
+      "start": 1672.9,
+      "end": 1675.9,
+      "text": "this year relative to past years."
+    },
+    {
+      "start": 1675.9,
+      "end": 1678.9,
+      "text": "And if so, what you've learned about upgrade rates,"
+    },
+    {
+      "start": 1678.9,
+      "end": 1681.9,
+      "text": "switching rates, trade-ups versus trading down"
+    },
+    {
+      "start": 1681.9,
+      "end": 1683.9,
+      "text": "and being more price sensitive,"
+    },
+    {
+      "start": 1683.9,
+      "end": 1686.9,
+      "text": "and overall any impact that Apple Intelligence"
+    },
+    {
+      "start": 1686.9,
+      "end": 1688.9,
+      "text": "may have on iPhone 16 sales."
+    },
+    {
+      "start": 1688.9,
+      "end": 1689.9,
+      "text": "And then I have a follow-up."
+    },
+    {
+      "start": 1689.9,
+      "end": 1690.9,
+      "text": "Thank you."
+    },
+    {
+      "start": 1690.9,
+      "end": 1692.9,
+      "text": "There's a lot there."
+    },
+    {
+      "start": 1692.9,
+      "end": 1694.9,
+      "text": "On Apple Intelligence,"
+    },
+    {
+      "start": 1694.9,
+      "end": 1697.9,
+      "text": "we believe it's a compelling upgrade reason."
+    },
+    {
+      "start": 1697.9,
+      "end": 1702.9,
+      "text": "But we just launched it three days ago."
+    },
+    {
+      "start": 1702.9,
+      "end": 1706.9,
+      "text": "And so what we've got now from a data point point of view"
+    },
+    {
+      "start": 1706.9,
+      "end": 1711.9,
+      "text": "is the number I just referenced that 18-1"
+    },
+    {
+      "start": 1711.9,
+      "end": 1714.9,
+      "text": "has twice the adoption rate of 17-1."
+    },
+    {
+      "start": 1714.9,
+      "end": 1717.9,
+      "text": "So that clearly shows a level of interest"
+    },
+    {
+      "start": 1717.9,
+      "end": 1722.9,
+      "text": "out there in terms of exiting the December quarter"
+    },
+    {
+      "start": 1722.9,
+      "end": 1726.9,
+      "text": "with demand greater than supply."
+    },
+    {
+      "start": 1726.9,
+      "end": 1729.9,
+      "text": "That's not my recollection that that happened"
+    },
+    {
+      "start": 1729.9,
+      "end": 1730.9,
+      "text": "for all four of the years."
+    },
+    {
+      "start": 1730.9,
+      "end": 1734.9,
+      "text": "We clearly had cases during COVID"
+    },
+    {
+      "start": 1734.9,
+      "end": 1741.9,
+      "text": "where there were disruptions and that's some spilled over."
+    },
+    {
+      "start": 1741.9,
+      "end": 1746.9,
+      "text": "But in a more regular environment"
+    },
+    {
+      "start": 1746.9,
+      "end": 1749.9,
+      "text": "where we're not having something"
+    },
+    {
+      "start": 1749.9,
+      "end": 1752.9,
+      "text": "a 100-year flood kind of thing,"
+    },
+    {
+      "start": 1752.9,
+      "end": 1757.9,
+      "text": "our desire is to get into balance as quickly as possible."
+    },
+    {
+      "start": 1757.9,
+      "end": 1760.9,
+      "text": "We don't want customers having to wait for products."
+    },
+    {
+      "start": 1760.9,
+      "end": 1764.9,
+      "text": "And so if you look at how we've done this year,"
+    },
+    {
+      "start": 1764.9,
+      "end": 1768.9,
+      "text": "we did that very quickly on the 16,"
+    },
+    {
+      "start": 1768.9,
+      "end": 1773.9,
+      "text": "on the 16 pro family, the pro and the pro max."
+    },
+    {
+      "start": 1773.9,
+      "end": 1776.9,
+      "text": "We've been constrained in October,"
+    },
+    {
+      "start": 1776.9,
+      "end": 1780.9,
+      "text": "but we believe that soon we'll be out of constraint."
+    },
+    {
+      "start": 1780.9,
+      "end": 1784.9,
+      "text": "And so that's a good sign from our point of view."
+    },
+    {
+      "start": 1784.9,
+      "end": 1791.9,
+      "text": "Keep in mind that that's a function of supply and demand,"
+    },
+    {
+      "start": 1791.9,
+      "end": 1794.9,
+      "text": "not one side or the other."
+    },
+    {
+      "start": 1794.9,
+      "end": 1801.9,
+      "text": "And we've been preparing for the quarter for a while."
+    },
+    {
+      "start": 1801.9,
+      "end": 1806.9,
+      "text": "So that's what I would say there."
+    },
+    {
+      "start": 1806.9,
+      "end": 1808.9,
+      "text": "Okay, that's really helpful. Thank you, Tim."
+    },
+    {
+      "start": 1808.9,
+      "end": 1811.9,
+      "text": "And then Luke, if I just turned to you,"
+    },
+    {
+      "start": 1811.9,
+      "end": 1813.9,
+      "text": "obviously it's been a pleasure working with you"
+    },
+    {
+      "start": 1813.9,
+      "end": 1816.9,
+      "text": "and we wish you all the best in the next role."
+    },
+    {
+      "start": 1816.9,
+      "end": 1819.9,
+      "text": "You know, there's plenty debate in the market right now"
+    },
+    {
+      "start": 1819.9,
+      "end": 1822.9,
+      "text": "about input costs and commodity prices"
+    },
+    {
+      "start": 1822.9,
+      "end": 1825.9,
+      "text": "and then the impact that'll have on gross margins."
+    },
+    {
+      "start": 1825.9,
+      "end": 1830.9,
+      "text": "Historically, you do guide gross margins up 50 basis points"
+    },
+    {
+      "start": 1830.9,
+      "end": 1834.9,
+      "text": "sequentially, which you just told us about for the December quarter."
+    },
+    {
+      "start": 1834.9,
+      "end": 1839.9,
+      "text": "So can you maybe just help us understand your view of component prices"
+    },
+    {
+      "start": 1839.9,
+      "end": 1843.9,
+      "text": "and broadly whether you still see those as tailwinds to gross margins"
+    },
+    {
+      "start": 1843.9,
+      "end": 1845.9,
+      "text": "and how sustainable that tailwind might be"
+    },
+    {
+      "start": 1845.9,
+      "end": 1848.9,
+      "text": "or whether that should become a headwind as we look forward?"
+    },
+    {
+      "start": 1848.9,
+      "end": 1849.9,
+      "text": "Thanks so much."
+    },
+    {
+      "start": 1849.9,
+      "end": 1850.9,
+      "text": "Yes, Eric, as you know,"
+    },
+    {
+      "start": 1850.9,
+      "end": 1853.9,
+      "text": "our gross margins are a factor of many, many variables."
+    },
+    {
+      "start": 1853.9,
+      "end": 1855.9,
+      "text": "Commodities, of course, are important."
+    },
+    {
+      "start": 1855.9,
+      "end": 1857.9,
+      "text": "They're not the only factor."
+    },
+    {
+      "start": 1857.9,
+      "end": 1859.9,
+      "text": "But specifically on commodities,"
+    },
+    {
+      "start": 1859.9,
+      "end": 1863.9,
+      "text": "I can tell you that both for the September quarter"
+    },
+    {
+      "start": 1863.9,
+      "end": 1866.9,
+      "text": "and what we expect for the December quarter,"
+    },
+    {
+      "start": 1866.9,
+      "end": 1871.9,
+      "text": "most commodities are going to move down in price"
+    },
+    {
+      "start": 1871.9,
+      "end": 1877.9,
+      "text": "while NAND and DRAM increased during the course of the September quarter"
+    },
+    {
+      "start": 1877.9,
+      "end": 1881.9,
+      "text": "and we expect them to increase during the December quarter."
+    },
+    {
+      "start": 1881.9,
+      "end": 1886.9,
+      "text": "We are very pleased with the level of gross margins"
+    },
+    {
+      "start": 1886.9,
+      "end": 1889.9,
+      "text": "that we've reported during the course of the year,"
+    },
+    {
+      "start": 1889.9,
+      "end": 1891.9,
+      "text": "the entire fiscal year of 24."
+    },
+    {
+      "start": 1891.9,
+      "end": 1895.9,
+      "text": "They're really for our company record levels of gross margin"
+    },
+    {
+      "start": 1895.9,
+      "end": 1900.9,
+      "text": "and obviously guiding to 46 to 47% for the December quarter"
+    },
+    {
+      "start": 1900.9,
+      "end": 1904.9,
+      "text": "with all the new technologies that we've included in the products"
+    },
+    {
+      "start": 1904.9,
+      "end": 1907.9,
+      "text": "with all the new features that Tim has talked about,"
+    },
+    {
+      "start": 1907.9,
+      "end": 1910.9,
+      "text": "a lot of new products across the board."
+    },
+    {
+      "start": 1910.9,
+      "end": 1913.9,
+      "text": "I think it's a very good sign."
+    },
+    {
+      "start": 1914.9,
+      "end": 1917.9,
+      "text": "Great, thanks so much, Luca."
+    },
+    {
+      "start": 1917.9,
+      "end": 1918.9,
+      "text": "Thank you, Eric."
+    },
+    {
+      "start": 1918.9,
+      "end": 1919.9,
+      "text": "Thank you very much."
+    },
+    {
+      "start": 1919.9,
+      "end": 1922.9,
+      "text": "Can we have the next question, please?"
+    },
+    {
+      "start": 1922.9,
+      "end": 1927.9,
+      "text": "Our next question is from Ben Ricey from Melius."
+    },
+    {
+      "start": 1927.9,
+      "end": 1929.9,
+      "text": "Please go ahead."
+    },
+    {
+      "start": 1929.9,
+      "end": 1933.9,
+      "text": "Hey, thanks a lot and I'll echo those comments about Luca,"
+    },
+    {
+      "start": 1933.9,
+      "end": 1936.9,
+      "text": "you know, we'll miss you and good luck."
+    },
+    {
+      "start": 1936.9,
+      "end": 1942.9,
+      "text": "And my question is with regard to iPhone again"
+    },
+    {
+      "start": 1942.9,
+      "end": 1947.9,
+      "text": "and with regard to the fourth quarter is my first question"
+    },
+    {
+      "start": 1947.9,
+      "end": 1950.9,
+      "text": "or sorry, the fourth calendar quarter, your first quarter."
+    },
+    {
+      "start": 1950.9,
+      "end": 1954.9,
+      "text": "When you look at mid to low single digit revenue growth,"
+    },
+    {
+      "start": 1954.9,
+      "end": 1957.9,
+      "text": "do you expect the iPhone to grow faster?"
+    },
+    {
+      "start": 1957.9,
+      "end": 1960.9,
+      "text": "And what are you thinking about in the answer to that question"
+    },
+    {
+      "start": 1960.9,
+      "end": 1962.9,
+      "text": "with regard to China, which, you know,"
+    },
+    {
+      "start": 1962.9,
+      "end": 1964.9,
+      "text": "is keeps improving each quarter?"
+    },
+    {
+      "start": 1964.9,
+      "end": 1965.9,
+      "text": "Thanks very much."
+    },
+    {
+      "start": 1965.9,
+      "end": 1967.9,
+      "text": "And then I have just a follow up."
+    },
+    {
+      "start": 1967.9,
+      "end": 1971.9,
+      "text": "Yeah, you know, Ben, we are not providing that level of color today."
+    },
+    {
+      "start": 1972.9,
+      "end": 1975.9,
+      "text": "Yes, we've said that we expect total company revenue"
+    },
+    {
+      "start": 1975.9,
+      "end": 1978.9,
+      "text": "to grow low to mid single digits."
+    },
+    {
+      "start": 1978.9,
+      "end": 1981.9,
+      "text": "Keep in mind, Apple Intelligence, as Tim said,"
+    },
+    {
+      "start": 1981.9,
+      "end": 1986.9,
+      "text": "is rolling out over time both features and languages."
+    },
+    {
+      "start": 1986.9,
+      "end": 1991.9,
+      "text": "And we just had a number of exciting launches just this week,"
+    },
+    {
+      "start": 1991.9,
+      "end": 1994.9,
+      "text": "you know, from the Apple Intelligence feature to the new Max."
+    },
+    {
+      "start": 1994.9,
+      "end": 2000.9,
+      "text": "So we leave it at that, you know, we've given you the total for the company"
+    },
+    {
+      "start": 2000.9,
+      "end": 2004.9,
+      "text": "and some pretty good direction on services,"
+    },
+    {
+      "start": 2004.9,
+      "end": 2010.9,
+      "text": "which we expect to continue to grow at a similar rate than what we've seen"
+    },
+    {
+      "start": 2010.9,
+      "end": 2014.9,
+      "text": "in fiscal 24."
+    },
+    {
+      "start": 2014.9,
+      "end": 2016.9,
+      "text": "Well, great. Thanks, Luca."
+    },
+    {
+      "start": 2016.9,
+      "end": 2019.9,
+      "text": "Hey, Tim, I wanted to ask you, I mean, and, you know,"
+    },
+    {
+      "start": 2019.9,
+      "end": 2022.9,
+      "text": "you guys are well aware a lot of the noise out there."
+    },
+    {
+      "start": 2022.9,
+      "end": 2026.9,
+      "text": "People chattering about build, build, lead times."
+    },
+    {
+      "start": 2026.9,
+      "end": 2029.9,
+      "text": "And you guys are guiding for mid to low single digit growth."
+    },
+    {
+      "start": 2029.9,
+      "end": 2032.9,
+      "text": "That certainly doesn't sound like alarm bells here,"
+    },
+    {
+      "start": 2032.9,
+      "end": 2035.9,
+      "text": "vis-a-vis what you guys must be hearing."
+    },
+    {
+      "start": 2035.9,
+      "end": 2037.9,
+      "text": "And I know you guys are just running your business"
+    },
+    {
+      "start": 2037.9,
+      "end": 2039.9,
+      "text": "and doing the best you can, but, you know,"
+    },
+    {
+      "start": 2039.9,
+      "end": 2042.9,
+      "text": "you have a lot of perspective now, Tim."
+    },
+    {
+      "start": 2042.9,
+      "end": 2045.9,
+      "text": "What are people missing here?"
+    },
+    {
+      "start": 2045.9,
+      "end": 2049.9,
+      "text": "And it certainly just sounds like, you know,"
+    },
+    {
+      "start": 2049.9,
+      "end": 2051.9,
+      "text": "you guys are typically conservative."
+    },
+    {
+      "start": 2051.9,
+      "end": 2055.9,
+      "text": "That guide for revenue is certainly, you know, sounds like this guy"
+    },
+    {
+      "start": 2055.9,
+      "end": 2058.9,
+      "text": "is certainly not falling and you have a pretty good product cycle."
+    },
+    {
+      "start": 2058.9,
+      "end": 2061.9,
+      "text": "So what do you think people are missing and what are you excited about?"
+    },
+    {
+      "start": 2061.9,
+      "end": 2063.9,
+      "text": "Thanks so much, Tim."
+    },
+    {
+      "start": 2063.9,
+      "end": 2066.9,
+      "text": "But I could not be more excited about Apple intelligence"
+    },
+    {
+      "start": 2066.9,
+      "end": 2071.9,
+      "text": "and the rollout that we've got in front of us."
+    },
+    {
+      "start": 2071.9,
+      "end": 2077.9,
+      "text": "I'm obviously on future releases as well, working on it"
+    },
+    {
+      "start": 2077.9,
+      "end": 2081.9,
+      "text": "and it's changing my daily life."
+    },
+    {
+      "start": 2081.9,
+      "end": 2086.9,
+      "text": "I'm super excited about the health features that we're rolling out."
+    },
+    {
+      "start": 2087.9,
+      "end": 2092.9,
+      "text": "If the number of emails I'm already getting from customers"
+    },
+    {
+      "start": 2092.9,
+      "end": 2095.9,
+      "text": "that have taken the hearing test"
+    },
+    {
+      "start": 2095.9,
+      "end": 2100.9,
+      "text": "and are using their AirPods Pro 2 as a hearing aid"
+    },
+    {
+      "start": 2100.9,
+      "end": 2105.9,
+      "text": "are just staggering and heartwarming to read."
+    },
+    {
+      "start": 2105.9,
+      "end": 2108.9,
+      "text": "I'm also thrilled about sleep apnea"
+    },
+    {
+      "start": 2108.9,
+      "end": 2114.9,
+      "text": "and the notification there that we'll have through the watch."
+    },
+    {
+      "start": 2114.9,
+      "end": 2119.9,
+      "text": "This week is a very exciting week for us because we just rolled out three days,"
+    },
+    {
+      "start": 2119.9,
+      "end": 2128.9,
+      "text": "three launches of different Macs and desktops and laptops."
+    },
+    {
+      "start": 2128.9,
+      "end": 2134.9,
+      "text": "And so we have a lot of things on the docket"
+    },
+    {
+      "start": 2134.9,
+      "end": 2141.9,
+      "text": "and it's definitely the strongest lineup we've ever had going into the holiday season."
+    },
+    {
+      "start": 2141.9,
+      "end": 2149.9,
+      "text": "In terms of the noise, I tune it out because if not, it would just be deafening."
+    },
+    {
+      "start": 2149.9,
+      "end": 2153.9,
+      "text": "And so that's what I do."
+    },
+    {
+      "start": 2153.9,
+      "end": 2159.9,
+      "text": "I can't speak for everybody else, but that's what I do."
+    },
+    {
+      "start": 2159.9,
+      "end": 2161.9,
+      "text": "Thanks a lot, Tim."
+    },
+    {
+      "start": 2161.9,
+      "end": 2162.9,
+      "text": "Appreciate it."
+    },
+    {
+      "start": 2162.9,
+      "end": 2163.9,
+      "text": "Thanks, Ben."
+    },
+    {
+      "start": 2163.9,
+      "end": 2164.9,
+      "text": "Thank you, Ben."
+    },
+    {
+      "start": 2164.9,
+      "end": 2169.9,
+      "text": "Can we have the next question, please?"
+    },
+    {
+      "start": 2169.9,
+      "end": 2170.9,
+      "text": "All right."
+    },
+    {
+      "start": 2170.9,
+      "end": 2173.9,
+      "text": "Next question is from Amit Darianani with Evercore."
+    },
+    {
+      "start": 2173.9,
+      "end": 2175.9,
+      "text": "Please go ahead."
+    },
+    {
+      "start": 2175.9,
+      "end": 2176.9,
+      "text": "Good afternoon."
+    },
+    {
+      "start": 2176.9,
+      "end": 2179.9,
+      "text": "Thanks to my questions to you as well."
+    },
+    {
+      "start": 2179.9,
+      "end": 2181.9,
+      "text": "And Luca, that's a lot in the future."
+    },
+    {
+      "start": 2181.9,
+      "end": 2183.9,
+      "text": "It's been a pleasure working with you."
+    },
+    {
+      "start": 2183.9,
+      "end": 2186.9,
+      "text": "The fourth one I have is away from iPhones."
+    },
+    {
+      "start": 2186.9,
+      "end": 2190.9,
+      "text": "On the service side, you're adding $100 billion run rate with services today,"
+    },
+    {
+      "start": 2190.9,
+      "end": 2193.9,
+      "text": "which is a phenomenal achievement by itself."
+    },
+    {
+      "start": 2193.9,
+      "end": 2195.9,
+      "text": "As you look at the services portfolio today,"
+    },
+    {
+      "start": 2195.9,
+      "end": 2200.9,
+      "text": "can you talk about how much of this business do you think is reoccurring versus transactional"
+    },
+    {
+      "start": 2200.9,
+      "end": 2206.9,
+      "text": "and other growth rates different between the subscription portfolio over here with the transactional portfolio?"
+    },
+    {
+      "start": 2206.9,
+      "end": 2207.9,
+      "text": "Yes."
+    },
+    {
+      "start": 2207.9,
+      "end": 2209.9,
+      "text": "I mean, I'll take this one."
+    },
+    {
+      "start": 2209.9,
+      "end": 2214.9,
+      "text": "Yes, we are, first of all, very, very happy with, it's an important milestone."
+    },
+    {
+      "start": 2214.9,
+      "end": 2217.9,
+      "text": "Of course, we've got to a run rate of $100 billion."
+    },
+    {
+      "start": 2217.9,
+      "end": 2224.9,
+      "text": "You look back just a few years ago and the growth has been phenomenal."
+    },
+    {
+      "start": 2225.9,
+      "end": 2226.9,
+      "text": "We're very pleased."
+    },
+    {
+      "start": 2226.9,
+      "end": 2231.9,
+      "text": "We've got a very diversified portfolio of services."
+    },
+    {
+      "start": 2231.9,
+      "end": 2242.9,
+      "text": "And over the years, the amount that is recurring in nature has grown and is growing faster than the transactional piece."
+    },
+    {
+      "start": 2242.9,
+      "end": 2252.9,
+      "text": "We have well over a billion paid subscriptions on our platform right now between our own services"
+    },
+    {
+      "start": 2252.9,
+      "end": 2254.9,
+      "text": "and third-party services."
+    },
+    {
+      "start": 2254.9,
+      "end": 2257.9,
+      "text": "That continues to grow strong double digits."
+    },
+    {
+      "start": 2257.9,
+      "end": 2260.9,
+      "text": "So we feel very, very good."
+    },
+    {
+      "start": 2260.9,
+      "end": 2269.9,
+      "text": "And essentially to your question, yes, the recurring portion is growing faster than the transactional one."
+    },
+    {
+      "start": 2269.9,
+      "end": 2275.9,
+      "text": "If I could just follow up, if I look at the growth rates across the different graph,"
+    },
+    {
+      "start": 2275.9,
+      "end": 2278.9,
+      "text": "there's always concern around China when it comes to iPhone demand, I feel,"
+    },
+    {
+      "start": 2278.9,
+      "end": 2280.9,
+      "text": "but the performance in September looks fairly good."
+    },
+    {
+      "start": 2280.9,
+      "end": 2282.9,
+      "text": "So what are you just touching on?"
+    },
+    {
+      "start": 2282.9,
+      "end": 2288.9,
+      "text": "What are you seeing from a demand perspective in China if the recent stimulus plans in China could essentially be a catalyst for iPhone?"
+    },
+    {
+      "start": 2288.9,
+      "end": 2291.9,
+      "text": "And then Amia really stood out with double digit growth."
+    },
+    {
+      "start": 2291.9,
+      "end": 2293.9,
+      "text": "You can just flush that out as well for us."
+    },
+    {
+      "start": 2293.9,
+      "end": 2294.9,
+      "text": "Thank you."
+    },
+    {
+      "start": 2294.9,
+      "end": 2297.9,
+      "text": "Yeah, I'll take the China question."
+    },
+    {
+      "start": 2297.9,
+      "end": 2308.9,
+      "text": "If you look at how we did for the quarter, we were relatively flat year over year and a key component of that"
+    },
+    {
+      "start": 2309.9,
+      "end": 2321.9,
+      "text": "improvement relative to the year over year performance that we had been achieving is that there was a sequential improvement in foreign exchange."
+    },
+    {
+      "start": 2321.9,
+      "end": 2324.9,
+      "text": "And so that helped us out."
+    },
+    {
+      "start": 2324.9,
+      "end": 2331.9,
+      "text": "As you know, it's been a headwind that we've been reporting for a period of time."
+    },
+    {
+      "start": 2331.9,
+      "end": 2342.9,
+      "text": "And, but the other parts that are what else is going on there is that are installed base of the active devices reached an all time high."
+    },
+    {
+      "start": 2342.9,
+      "end": 2350.9,
+      "text": "We had the top two selling smartphones in urban China, according to cantor."
+    },
+    {
+      "start": 2351.9,
+      "end": 2368.9,
+      "text": "The level of new customers that we have buying the products like Mac and iPad are well over 50% watch is over three quarters that are new to the product."
+    },
+    {
+      "start": 2369.9,
+      "end": 2376.9,
+      "text": "And so there's several positive signs there."
+    },
+    {
+      "start": 2376.9,
+      "end": 2387.9,
+      "text": "In terms of the stimulus, it's a clear focus of the team there."
+    },
+    {
+      "start": 2387.9,
+      "end": 2393.9,
+      "text": "But I'm not an economist and don't want to live on the effect of it."
+    },
+    {
+      "start": 2393.9,
+      "end": 2403.9,
+      "text": "On the on the Europe side, I mean a number of things as you see from our results during the quarter, Europe grew double digits 11%."
+    },
+    {
+      "start": 2403.9,
+      "end": 2409.9,
+      "text": "And really it was really good growth across the board the different segments that all did well."
+    },
+    {
+      "start": 2409.9,
+      "end": 2421.9,
+      "text": "Keep in mind our definition of Europe in our segment reporting includes a number of emerging markets like Turkey, where we've grown very strongly."
+    },
+    {
+      "start": 2421.9,
+      "end": 2427.9,
+      "text": "The Middle East team mentioned a number of records in Saudi in UAE."
+    },
+    {
+      "start": 2427.9,
+      "end": 2434.9,
+      "text": "And we also include India, where we said an all time revenue record during the September quarter."
+    },
+    {
+      "start": 2434.9,
+      "end": 2437.9,
+      "text": "But I have to say also Western Europe grew nicely."
+    },
+    {
+      "start": 2437.9,
+      "end": 2448.9,
+      "text": "So we've seen very, very good results for us in the entire segment."
+    },
+    {
+      "start": 2448.9,
+      "end": 2450.9,
+      "text": "Thank you very much."
+    },
+    {
+      "start": 2450.9,
+      "end": 2455.9,
+      "text": "Thanks, Amit. Can we have the next question, please?"
+    },
+    {
+      "start": 2455.9,
+      "end": 2461.9,
+      "text": "Our next question is from David both with UBS. Please go ahead."
+    },
+    {
+      "start": 2461.9,
+      "end": 2465.9,
+      "text": "Great. Thanks, everyone, for taking my questions and congratulations, Luca."
+    },
+    {
+      "start": 2465.9,
+      "end": 2474.9,
+      "text": "You know, I know Luca and I know, Tim, you don't want to give a lot of granularity, but if I just try to pull together your comments about what the demand environment looks like."
+    },
+    {
+      "start": 2474.9,
+      "end": 2484.9,
+      "text": "Are we to assume based on sort of the commentary that there is a risk that maybe the product revenue portfolio could be down in the December quarter if I take your numbers at face value?"
+    },
+    {
+      "start": 2484.9,
+      "end": 2501.9,
+      "text": "And if that's the risk, is that more, you know, iPhone related, Mac related, given the strength that you've seen and iPad related to trying to get a handle on kind of what potentially gives you that degree of, I don't want to say caution, but maybe balanced for you going into the December quarter and then I have a follow up."
+    },
+    {
+      "start": 2502.9,
+      "end": 2506.9,
+      "text": "As I said, David, we're not providing that level of color."
+    },
+    {
+      "start": 2506.9,
+      "end": 2511.9,
+      "text": "We're giving you some data on services."
+    },
+    {
+      "start": 2511.9,
+      "end": 2519.9,
+      "text": "I would repeat what I said earlier. We're very early in the cycle, very early in the cycle with a lot of new products and features that we are launching."
+    },
+    {
+      "start": 2519.9,
+      "end": 2525.9,
+      "text": "And, you know, we're very excited about them, but it's early."
+    },
+    {
+      "start": 2525.9,
+      "end": 2537.9,
+      "text": "And, you know, the Apple intelligence rollout is going to happen over time, not across the world as normally we do with software releases."
+    },
+    {
+      "start": 2537.9,
+      "end": 2538.9,
+      "text": "Right."
+    },
+    {
+      "start": 2538.9,
+      "end": 2548.9,
+      "text": "Okay. So maybe a follow up for Tim. When you think about, to Lucas point about the rollout being staged over the next several quarters across the world,"
+    },
+    {
+      "start": 2548.9,
+      "end": 2553.9,
+      "text": "do you think that has any impact on sort of the normal historical demand cadence across different regions?"
+    },
+    {
+      "start": 2553.9,
+      "end": 2560.9,
+      "text": "So we should we see something different, let's say, you know, in the December quarter, the March quarter, the June quarter, et cetera, relative to history,"
+    },
+    {
+      "start": 2560.9,
+      "end": 2567.9,
+      "text": "given the timing of the rollout and where customers are probably waiting for the devices to be enabled to have the operating system,"
+    },
+    {
+      "start": 2567.9,
+      "end": 2574.9,
+      "text": "we just want to kind of get your perspective on how we think about, you know, the demand cadence, how it might be different than maybe historically."
+    },
+    {
+      "start": 2574.9,
+      "end": 2575.9,
+      "text": "Thank you."
+    },
+    {
+      "start": 2575.9,
+      "end": 2582.9,
+      "text": "Yeah, David, it's clearly, as you point out, a different cadence, if you will."
+    },
+    {
+      "start": 2582.9,
+      "end": 2585.9,
+      "text": "Then we would normally do."
+    },
+    {
+      "start": 2585.9,
+      "end": 2595.9,
+      "text": "And we, as we talked about it, WWDC, we wanted to give a comprehensive vision of Apple intelligence."
+    },
+    {
+      "start": 2595.9,
+      "end": 2599.9,
+      "text": "And we said then that it would roll out over time."
+    },
+    {
+      "start": 2599.9,
+      "end": 2605.9,
+      "text": "And we're right on the, what we said at WWDC."
+    },
+    {
+      "start": 2605.9,
+      "end": 2609.9,
+      "text": "And so we're, we're executing well."
+    },
+    {
+      "start": 2609.9,
+      "end": 2618.9,
+      "text": "In terms of the demand curve, I would just say that what we believe here is that it's a compelling reason for upgrading."
+    },
+    {
+      "start": 2618.9,
+      "end": 2625.9,
+      "text": "And it's, that's both my personal experience and feedback that I'm getting."
+    },
+    {
+      "start": 2625.9,
+      "end": 2631.9,
+      "text": "And so we'll, we'll see, but we're not projecting beyond the current quarter, obviously."
+    },
+    {
+      "start": 2631.9,
+      "end": 2634.9,
+      "text": "We just don't do that."
+    },
+    {
+      "start": 2634.9,
+      "end": 2635.9,
+      "text": "Great. Thanks, Tim."
+    },
+    {
+      "start": 2635.9,
+      "end": 2637.9,
+      "text": "And best of luck, Luca."
+    },
+    {
+      "start": 2637.9,
+      "end": 2639.9,
+      "text": "Thank you very much."
+    },
+    {
+      "start": 2639.9,
+      "end": 2640.9,
+      "text": "Thank you, David."
+    },
+    {
+      "start": 2640.9,
+      "end": 2644.9,
+      "text": "We'll take the next question, please."
+    },
+    {
+      "start": 2644.9,
+      "end": 2650.9,
+      "text": "Our next question is from one C. Moen with Bank of America, please go ahead."
+    },
+    {
+      "start": 2650.9,
+      "end": 2653.9,
+      "text": "Yes, thank you so much, Luca."
+    },
+    {
+      "start": 2653.9,
+      "end": 2656.9,
+      "text": "We will miss you on these, on these calls."
+    },
+    {
+      "start": 2656.9,
+      "end": 2664.9,
+      "text": "Tim, maybe for you, as you think about this staggered rollout of Apple intelligence, can you help us think to potentially."
+    },
+    {
+      "start": 2664.9,
+      "end": 2673.9,
+      "text": "How much of the global install base of phones will have access to Apple intelligence and their native language and their region."
+    },
+    {
+      "start": 2673.9,
+      "end": 2681.9,
+      "text": "Within the next year, or maybe in the next two years and what are some of the getting factors in the rollout and I will follow up."
+    },
+    {
+      "start": 2681.9,
+      "end": 2690.9,
+      "text": "If you, if you look at our schedule, we started in the, in the, with us English."
+    },
+    {
+      "start": 2690.9,
+      "end": 2692.9,
+      "text": "That started on Monday."
+    },
+    {
+      "start": 2692.9,
+      "end": 2712.9,
+      "text": "There's another release coming that adds additional features that I had referenced in December in not only US English, but also localized for UK, Australia, Canada, Ireland and New Zealand."
+    },
+    {
+      "start": 2712.9,
+      "end": 2717.9,
+      "text": "And then we will add more languages in April."
+    },
+    {
+      "start": 2717.9,
+      "end": 2728.9,
+      "text": "We haven't said the specific she had in terms of the languages, but we'll, we'll add more in April and then more as we step through the year."
+    },
+    {
+      "start": 2728.9,
+      "end": 2736.9,
+      "text": "And so we're moving just as, as fast as possible while ensuring quality."
+    },
+    {
+      "start": 2736.9,
+      "end": 2740.9,
+      "text": "That's, that's what we're doing."
+    },
+    {
+      "start": 2740.9,
+      "end": 2744.9,
+      "text": "Okay. Thanks, Tim."
+    },
+    {
+      "start": 2744.9,
+      "end": 2757.9,
+      "text": "Yeah. And then as a follow up, maybe this is a little premature, but, but how is Apple at a high level prepared to potentially deal with any tariffs that might come post the selection cycle."
+    },
+    {
+      "start": 2757.9,
+      "end": 2767.9,
+      "text": "And it's not exactly how perhaps you can just help investors think about some of the things Apple has done already to try to insulate from, from some of these impacts potential impacts."
+    },
+    {
+      "start": 2767.9,
+      "end": 2774.9,
+      "text": "You know, I wouldn't want to speculate about those sorts of things."
+    },
+    {
+      "start": 2774.9,
+      "end": 2781.9,
+      "text": "And so I'm going to, I'm going to point on that one."
+    },
+    {
+      "start": 2781.9,
+      "end": 2784.9,
+      "text": "Okay, thank you, Tim. Yeah, thank you."
+    },
+    {
+      "start": 2784.9,
+      "end": 2789.9,
+      "text": "Thank you, Wamsi. May we have the next question, please."
+    },
+    {
+      "start": 2789.9,
+      "end": 2795.9,
+      "text": "Our next question is from Chris Sinker from TD Cohen, please go ahead."
+    },
+    {
+      "start": 2795.9,
+      "end": 2800.9,
+      "text": "Yeah, thanks for taking my question. And again, thanks, Luca, for all your help with analysts and investors."
+    },
+    {
+      "start": 2800.9,
+      "end": 2812.9,
+      "text": "Our first question is on R&D. Given how much your tech peers are planning on AI, does this new era of Apple intelligence actually require Apple to invest more in R&D beyond your current."
+    },
+    {
+      "start": 2812.9,
+      "end": 2815.9,
+      "text": "7 to 8% of sales to capture this opportunity."
+    },
+    {
+      "start": 2816.9,
+      "end": 2818.9,
+      "text": "And then I have a follow up."
+    },
+    {
+      "start": 2818.9,
+      "end": 2831.9,
+      "text": "Chris, as you know, we've been investing heavily in R&D over the last several years, our R&D growth has been significant during the last several years."
+    },
+    {
+      "start": 2831.9,
+      "end": 2842.9,
+      "text": "And obviously, as we move through the course of fiscal 24, we've also reallocated some of the existing resources to the, to this new technology to AI."
+    },
+    {
+      "start": 2842.9,
+      "end": 2865.9,
+      "text": "So the level of intensity that we're putting into AI has increased a lot, and you maybe don't see the full extent of it, because we've also had some internal reallocation of the base of engineering resources that we have within the company."
+    },
+    {
+      "start": 2866.9,
+      "end": 2887.9,
+      "text": "And then another quick follow up. I understand Apple intelligence is a feature on the phone today. But do you think that in the future, we could potentially have, you know, or benefit the services, growth business, or is that too, or is this too too bifurcated to make a call on this early instruction? Thank you."
+    },
+    {
+      "start": 2888.9,
+      "end": 2907.9,
+      "text": "I think just to keep it in mind, Apple intelligence is also available on the Mac for the M series products and on certain models of iPad, and in addition to the phone."
+    },
+    {
+      "start": 2907.9,
+      "end": 2911.9,
+      "text": "And so it's, it's on all three."
+    },
+    {
+      "start": 2911.9,
+      "end": 2916.9,
+      "text": "You're quite what was your follow on question."
+    },
+    {
+      "start": 2916.9,
+      "end": 2924.9,
+      "text": "Does one can the Apple intelligence actually help, you know, and how the services growth rate."
+    },
+    {
+      "start": 2924.9,
+      "end": 2940.9,
+      "text": "Keep in mind that we have released a lot of API's and developers will be taking advantage of those API's that release has occurred as well in a course more a coming."
+    },
+    {
+      "start": 2940.9,
+      "end": 2953.9,
+      "text": "And so I definitely believe that a lot of developers will be taking advantage of Apple intelligence in a big way."
+    },
+    {
+      "start": 2953.9,
+      "end": 2969.9,
+      "text": "And what that does to services, I'll not forecast, but I would say that from an ecosystem point of view, I think it will be great for the user and user experience."
+    },
+    {
+      "start": 2970.9,
+      "end": 2972.9,
+      "text": "Got it. Thanks."
+    },
+    {
+      "start": 2972.9,
+      "end": 2973.9,
+      "text": "Yeah."
+    },
+    {
+      "start": 2973.9,
+      "end": 2979.9,
+      "text": "All right. Thank you, Chris. Can we have the next question, please?"
+    },
+    {
+      "start": 2979.9,
+      "end": 2986.9,
+      "text": "Our next question comes from Sonic Chatterjee with JP Morgan. Please go ahead."
+    },
+    {
+      "start": 2986.9,
+      "end": 2994.9,
+      "text": "Great. Thank you. Thanks for taking my questions and look up congrats on the new role and pleasure working with you these years."
+    },
+    {
+      "start": 2994.9,
+      "end": 3005.9,
+      "text": "I guess if I can, for my first one, start with makes on the iPhone side and what I'm really curious about if you have any thoughts given that Apple intelligence is now going to be your"
+    },
+    {
+      "start": 3005.9,
+      "end": 3014.9,
+      "text": "consistent features that across all the four sort of iPhones on the iPhone 16 series that you launched and going back to iPhone 15 Pro and Pro Max."
+    },
+    {
+      "start": 3014.9,
+      "end": 3024.7000000000003,
+      "text": "Are you seeing any change in behavior from a consumer perspective in terms of which sort of on the mixed front within the iPhone series where custom consumer"
+    },
+    {
+      "start": 3024.7000000000003,
+      "end": 3031.7000000000003,
+      "text": "adoption is given that there's more consistency of the features when it comes to Apple intelligence across the board and have a follow up. Thank you."
+    },
+    {
+      "start": 3031.7000000000003,
+      "end": 3039.7000000000003,
+      "text": "It's tough to answer your question because we've been constrained in October on the Pro and the Pro Max."
+    },
+    {
+      "start": 3039.7000000000003,
+      "end": 3048.7000000000003,
+      "text": "And so it's really too early in the curve to call the precise mix on the consumer versus the pro."
+    },
+    {
+      "start": 3049.7000000000003,
+      "end": 3051.7000000000003,
+      "text": "So we'll say."
+    },
+    {
+      "start": 3054.7000000000003,
+      "end": 3062.7000000000003,
+      "text": "And for my follow up, during the quarter, I think over the last 90 days, we had the courts come out in relation to the DOJ."
+    },
+    {
+      "start": 3062.7000000000003,
+      "end": 3068.7000000000003,
+      "text": "Creative to the Google sort of revenue sharing agreement that you have with them."
+    },
+    {
+      "start": 3068.7000000000003,
+      "end": 3076.7000000000003,
+      "text": "How do you sort of look at it going forward in terms of emphasizing the role that Apple has in that ecosystem with Safari and sort of the"
+    },
+    {
+      "start": 3077.7000000000003,
+      "end": 3079.7000000000003,
+      "text": "potential outcomes that you're looking at."
+    },
+    {
+      "start": 3079.7000000000003,
+      "end": 3080.7000000000003,
+      "text": "Thank you."
+    },
+    {
+      "start": 3080.7000000000003,
+      "end": 3085.7000000000003,
+      "text": "You know, I don't I don't want to speculate on the on that from a legal point of view."
+    },
+    {
+      "start": 3085.7000000000003,
+      "end": 3095.7000000000003,
+      "text": "It's an ongoing case and and I will save that for another day."
+    },
+    {
+      "start": 3097.7000000000003,
+      "end": 3098.7000000000003,
+      "text": "Thank you."
+    },
+    {
+      "start": 3098.7000000000003,
+      "end": 3099.7000000000003,
+      "text": "Thank you."
+    },
+    {
+      "start": 3099.7000000000003,
+      "end": 3100.7000000000003,
+      "text": "I'll leave it then."
+    },
+    {
+      "start": 3100.7000000000003,
+      "end": 3101.7000000000003,
+      "text": "Thank you."
+    },
+    {
+      "start": 3102.7000000000003,
+      "end": 3104.7000000000003,
+      "text": "Operator, may we have the next question, please."
+    },
+    {
+      "start": 3107.7000000000003,
+      "end": 3112.7000000000003,
+      "text": "Our next question comes from Richard Kramer with RTA research. Please go ahead."
+    },
+    {
+      "start": 3114.7000000000003,
+      "end": 3115.7000000000003,
+      "text": "Thanks very much."
+    },
+    {
+      "start": 3115.7000000000003,
+      "end": 3119.7000000000003,
+      "text": "First one, Tim, I'd like to ask about some of the components and services where,"
+    },
+    {
+      "start": 3119.7000000000003,
+      "end": 3127.7000000000003,
+      "text": "despite your installed base, some parts of the Apple one bundle like music and news and arcade and fitness are not obviously the market leading offerings and"
+    },
+    {
+      "start": 3128.7000000000003,
+      "end": 3138.7000000000003,
+      "text": "maybe what might change that and what other services could you call out as growing faster, having wider widening addressable markets like we've seen in pay or advertising."
+    },
+    {
+      "start": 3140.7000000000003,
+      "end": 3146.7000000000003,
+      "text": "The way that I view it is that we have lots of opportunity in in all of those."
+    },
+    {
+      "start": 3146.7000000000003,
+      "end": 3154.7000000000003,
+      "text": "And so there's lots of customers to to try to convince to take advantage of it and we're going to continue."
+    },
+    {
+      "start": 3155.7000000000003,
+      "end": 3167.7000000000003,
+      "text": "Investing in the services and adding new features and whether it's news plus or or music or arcade."
+    },
+    {
+      "start": 3167.7000000000003,
+      "end": 3179.7000000000003,
+      "text": "That's what we're going to do. Keep in mind that for us, we're more focused on being best than being most."
+    },
+    {
+      "start": 3180.7000000000003,
+      "end": 3192.7000000000003,
+      "text": "And so in some cases, not in every case, some of the services that you the majority of the services that you mentioned are not cross platform."
+    },
+    {
+      "start": 3192.7000000000003,
+      "end": 3206.7000000000003,
+      "text": "We we make them for our customers only. And so that in some cases changes the changes the the person who's going to sell the most perhaps."
+    },
+    {
+      "start": 3206.7000000000003,
+      "end": 3210.7000000000003,
+      "text": "But that's our objective is to make the best."
+    },
+    {
+      "start": 3213.7000000000003,
+      "end": 3220.7000000000003,
+      "text": "Okay, thanks. And then, Luca, one piece of unfinished business was your pledge to get to a net neutral cash position."
+    },
+    {
+      "start": 3220.7000000000003,
+      "end": 3224.7000000000003,
+      "text": "And over the last two years, you stayed around 50 billion of net cash."
+    },
+    {
+      "start": 3224.7000000000003,
+      "end": 3231.7000000000003,
+      "text": "We've clearly seen instances in the past where elevated marketing spend or other programs brought increases in market share."
+    },
+    {
+      "start": 3231.7000000000003,
+      "end": 3237.7000000000003,
+      "text": "I guess my question looking back on your tenure is at your scale now of 57 billion of topics."
+    },
+    {
+      "start": 3237.7000000000003,
+      "end": 3241.7000000000003,
+      "text": "Do you still see incremental ways to put that cash to work in the business?"
+    },
+    {
+      "start": 3241.7000000000003,
+      "end": 3246.7000000000003,
+      "text": "Or will we just continue to see increased shareholder returns?"
+    },
+    {
+      "start": 3246.7000000000003,
+      "end": 3252.7000000000003,
+      "text": "Well, obviously, as you see in our opx has gone up over the years."
+    },
+    {
+      "start": 3252.7000000000003,
+      "end": 3258.7000000000003,
+      "text": "We've also seen at the same time a significant expansion in gross margin."
+    },
+    {
+      "start": 3258.7000000000003,
+      "end": 3262.7000000000003,
+      "text": "Maybe to a level that I would have not expected a few years ago."
+    },
+    {
+      "start": 3262.7000000000003,
+      "end": 3266.7000000000003,
+      "text": "But we've done a very good job on a number of fronts."
+    },
+    {
+      "start": 3266.7000000000003,
+      "end": 3285.7000000000003,
+      "text": "And so I would say we when we plan every time we plan for the upcoming year we think about all the different areas where we can deploy our resources and we make them available to grow the business."
+    },
+    {
+      "start": 3285.7000000000003,
+      "end": 3295.7000000000003,
+      "text": "I think we've done very well over the long term and but our fundamental philosophy is to look after the business first."
+    },
+    {
+      "start": 3295.7000000000003,
+      "end": 3307.7000000000003,
+      "text": "And then if we have excess cash, we will continue to return it to our shareholders and the planners worked quite well so far."
+    },
+    {
+      "start": 3307.7000000000003,
+      "end": 3310.7000000000003,
+      "text": "Okay. Thank you very much."
+    },
+    {
+      "start": 3310.7000000000003,
+      "end": 3316.7000000000003,
+      "text": "Thank you, Richard. We'll take our last question. Please operator."
+    },
+    {
+      "start": 3316.7000000000003,
+      "end": 3322.7000000000003,
+      "text": "Our last question comes from Otis Molick with city. Please go ahead."
+    },
+    {
+      "start": 3322.7000000000003,
+      "end": 3325.7000000000003,
+      "text": "Thank you for squeezing me in."
+    },
+    {
+      "start": 3325.7000000000003,
+      "end": 3334.7000000000003,
+      "text": "It seems to us that the spec differentiation between iPhone 16 pro and based models isn't as big as prior years."
+    },
+    {
+      "start": 3334.7000000000003,
+      "end": 3348.7000000000003,
+      "text": "All iPhones have new 18, 18 pro chips and there wasn't an increase in these versus last year. Can you share with us if there is a shift in your strategy in terms of."
+    },
+    {
+      "start": 3348.7000000000003,
+      "end": 3377.7000000000003,
+      "text": "Unfortunately, I'll explain has dropped."
+    },
+    {
+      "start": 3377.7000000000003,
+      "end": 3389.7000000000003,
+      "text": "Sorry, Otis will connect offline. Thank you, everybody. A replay of today's call will be available for two weeks on Apple podcast as a webcast on apple.com slash investor and via telephone."
+    },
+    {
+      "start": 3389.7000000000003,
+      "end": 3403.7000000000003,
+      "text": "The number for the telephone replay is 866-583-1035. Please enter confirmation code 033-1536 followed by the pound sign."
+    },
+    {
+      "start": 3403.7000000000003,
+      "end": 3408.7000000000003,
+      "text": "These replays will be available by approximately 5 p.m. Pacific today."
+    },
+    {
+      "start": 3408.7000000000003,
+      "end": 3418.7000000000003,
+      "text": "Members of the press with additional questions can contact Josh Rosenstock at 408-862-1142."
+    },
+    {
+      "start": 3418.7000000000003,
+      "end": 3435.7000000000003,
+      "text": "And financial analysts can contact me, Suhasani Chandramali with additional questions at 408-974-3123. Thank you again for joining us."
+    },
+    {
+      "start": 3435.7000000000003,
+      "end": 3440.7000000000003,
+      "text": "Again, this does conclude today's conference. We do appreciate your participation."
+    }
+  ],
+  "full_text": "Good afternoon and welcome to the Apple Q4 fiscal year 2024 earnings conference call. My name is Suhasani Chandramali, Director of Investor Relations. Today's call is being recorded. Speaking first today, our Apple CEO, Tim Cook, and CFO, Luca Maestri, and they'll be joined by Kevin Parek, Vice President of Financial Planning and Analysis. After that, we'll open the call to questions from analysts. Please note that some of the information you'll hear during our discussion today will consist of forward-looking statements, including without limitation, those regarding revenue, gross margin, operating expenses, other income and expense, taxes, capital allocation, and future business outlook, including the potential impact of macroeconomic conditions on the company's business and results of operations. These statements involve risks and uncertainties that may cause actual results or trends to differ materially from our forecast. For more information, please refer to the risk factors discussed in Apple's most recently filed annual report on Form 10K and the Form 8K filed with the SEC today along with the associated press release. Apple assumes no obligation to update any forward-looking statements, which speak only as of the date they are made. Additionally, today's discussion will refer to certain non-GAP financial measures. You can find a reconciliation of these measures in our fourth quarter and full year 2024 earnings release, which is available on our investor relations website. I'd now like to turn the call over to Tim for introductory remarks. Thank you, Suhasani. Good afternoon, everyone, and thanks for joining the call. Today, Apple is reporting revenue of $94.9 billion, a September quarter record and up 6% from a year ago. iPhone grew in every geographic segment, marking a new September quarter revenue record for the category, and services set an all-time revenue record up 12% year over year. We also set September quarter segment revenue records in the Americas, Europe, and the Restoration Pacific, as well as in a large number of countries, including the United States, Brazil, Mexico, France, the UK, Korea, Malaysia, Thailand, Saudi Arabia, and the UAE. And we continue to be excited by the enthusiasm we're seeing in India, where we set an all-time revenue record. This has been an extraordinary year of innovation at Apple. We brought the revolutionary Apple Vision Pro to customers in February, which brings users tomorrows technology today. And in June, we announced Apple Intelligence, a remarkable personal intelligence system that combines the power of generative models with personal context to deliver intelligence that is incredibly useful and relevant. Apple Intelligence marks the beginning of a new chapter for Apple Innovation and redefines privacy and AI by extending our groundbreaking approach to privacy into the cloud with private cloud compute. Earlier this week, we made the first set of Apple Intelligence features available in US English for iPhone, iPad, and Mac users with system-wide writing tools that help you refine your writing, a more natural and conversational Siri, a more intelligent photos app, including the ability to create movies simply by typing a description and new ways to prioritize and stay in the moment with notification summaries and priority messages. And we look forward to additional intelligence features in December, with even more powerful writing tools, a new visual intelligence experience that builds on Apple Intelligence, and chat GPT integration, as well as localized English in several countries, including the UK, Australia, and Canada. These features have already been provided to developers and we're getting great feedback. More features will be rolling out in the coming months as well as support for more languages. And this is just the beginning. Now I'll turn to our results for the quarter, beginning with iPhone. iPhone revenue set a September quarter record of $46.2 billion, up 6% from a year ago, with growth in every geographic segment. With the introduction of Apple Intelligence, we're beginning a new era for iPhone. iPhone 16, powered by A18, is equipped with an incredible new 48 megapixel fusion camera, fantastic photo experiences, and the addition of the action button and camera control. And iPhone 16 Pro is the most advanced iPhone we've ever made, powered by A18 Pro, and featuring even larger displays, an industry leading pro camera system with camera control and studio quality mics, all with a huge leap in battery life. Turning to Mac, revenue was $7.7 billion, up 2% from a year ago. Just this week, we brought a new generation of Apple Silicon to Mac, M4, M4 Pro, and M4 Macs. From blazing fast performance to Apple's most advanced neural engine yet, our latest chips can easily tackle incredibly complex workflows. And then ensure our newest Macs will be the best personal computers for AI, the instant they hit stores. With the newest additions to our Mac lineup, customers can choose the Mac that's just right for them. Whether that's iMac, the world's best and most beautiful all in one, MacBook Air, the world's most popular laptop now with double the starting memory, MacBook Pro, the best pro notebook anywhere, or the incredible, mighty new Mac Mini, our first ever carbon-neutral Mac. iPad revenue was $7 billion, 8% higher year over year. iPad is unlike any other product on the market today, and it's become an essential device in homes, schools, and businesses of all sizes. Recently, we were thrilled to introduce the newest iPad Mini featuring an ultra-compact design built for Apple Intelligence with support for Apple Pencil Pro. It's been a big year for iPad. iPad Air was popular with students and teachers as they got back to school this year while creators are pushing the boundaries of what's possible with the M4-powered iPad Pro. In wearable's home and accessories, revenue was $9 billion, down 3% from a year ago. During the quarter, we launched the all new Apple Watch Series 10, bringing a beautiful new design and new capabilities to the world's most popular watch that make it even more powerful, intelligent, and sophisticated. It's the thinnest Apple Watch yet, making it more comfortable than ever while offering the biggest, most advanced display. Watch OS 11 brings some huge new health and fitness insights to users, including sleep apnea notifications, which help to alert people with a potentially serious but often undiagnosed condition. We're proud of the impact we make through our health innovations on watch, and I'm grateful for every note I receive about the importance of watching people's lives. With AirPods 4, we've broken new ground and comfort and design with our best ever open ear headphones available for the first time with active noise cancellation. And we were especially pleased to unveil revolutionary end-to-end hearing health capabilities for AirPods Pro 2 with hearing protection, hearing test, and hearing aid features. These just became available in a software update this week, and we believe this will make a meaningful difference in our users' lives. I've already started getting notes from customers calling the experience life-changing. And Apple Vision Pro continues to deliver special experiences that weren't possible before, including immersive entertainment like the new short film Submerged, which gives people a view into the unique storytelling power made possible by spatial computing. Vision Pro has more than 2,500 native spatial apps and 1.5 million compatible apps for Vision OS 2, as well as applications companies are building to reimagine how they work. Vision Pro continues to inspire awe in its users, and we're just scratching the surface of what's possible. And just yesterday, we announced we're bringing Vision Pro to Korea and the UAE. As I mentioned earlier, services achieved an all-time revenue record of $25 billion, up 12% from a year ago, and with all-time revenue records across most of our categories. With Apple TV Plus, we love celebrating the craft of great storytellers who know how to put on a show. Audiences love to discover new movies like Wolf's, explore a claimed new series like Disclaimer, and dive back into returning favorites like Slow Horses and Shrinking. Apple TV Plus Productions had become fixtures at award shows, earning more than 2,300 nominations, and more than 500 wins today. Apple also offers a live sports experience in a league of its own with MLS season pass, and subscribers have been cheering on their favorite teams in the MLS Cup playoffs. This month, we also marked 10 years of Apple Pay. There's always something magical about being able to buy groceries or pay for movie tickets seamlessly with your Apple device. Today, users choose Apple Pay for purchases across tens of millions of retailers worldwide. And we're excited to make the Apple Pay experience even better with the option to redeem rewards and access loans from credit cards, debit cards, and other lenders right at checkout. Whenever we celebrate big moments, Apple stores are the best places to share them with customers. I had an incredible time during launch day in September alongside our team at Apple Fifth Avenue where energy and enthusiasm fill the air. And in stores all over the world, customers are eager to get a closer look at our latest innovations. We also opened two new stores during the quarter, and we can't wait to bring four new stores to customers in India. We're passionate about education and believe technology has a vital role to play in both helping teachers to inspire their students and students to learn about the world around them. In honor of World Teachers Day, Apple was proud to share new resources for teachers to engage their students in ways that aim to make learning easy and fun. Additionally, we've expanded our education grant program into 100 new schools and communities, helping with everything from access to technology, to educator resources, to scholarships and financial support. As we near the end of the year, we're proud of the progress we've made in our efforts to be carbon neutral across our entire footprint by the end of the decade. As I mentioned earlier, we were thrilled to introduce our first ever carbon neutral Mac with the latest Mac many. And in another milestone, customers can choose a carbon neutral option of any Apple watch. These achievements are amazing for all of us at Apple, and we are determined to reach our 2030 goal. At Apple, across everything we do, we manage for the long term, because we're always thinking about what comes next, the next great challenge, the next innovative idea, the next big breakthrough. As we close out the year, we have the best lineup we've ever had going into the holiday season, including Apple Intelligence, which marks the start of a new chapter for our products. This is just the beginning of what we believe generative AI can do, and I couldn't be more excited for what's to come. Before I hand it over to Luca, with Luca transitioning to a new role with Apple, this will be the final time he's joining our call. So I just wanted to take a moment to recognize his extraordinary service as Apple CFO, and to thank him for his partnership. I am deeply grateful. In his 10 years in the role, Luca has done truly exceptional work in shaping Apple as we know it today. He has helped manage Apple for the long term, thoughtfully and deliberately. He has helped us enrich the lives of so many around the world, and he has been a leader that people look up to and have learned so much from. I have incredible confidence in our incoming CFO, Kevin Perak, and we look forward to more of you meeting and working with him going forward. With that, I'll turn it over to Luca. Good afternoon, everyone, and thank you, Tim, for the very kind words. Serving as Apple CFO has been a real privilege and an amazing journey, and I've greatly appreciated the support from our investors and the analysts community over the years. Kevin is exceptional, and I know you will enjoy interacting with him going forward. Let me now turn to the results for the fourth quarter of our fiscal year. We're very pleased to report a new September quarter revenue record of 94.9 billion, up 6% year over year. We grew in the vast majority of the markets we track and achieved September quarter revenue records in the Americas, Europe, and rest of Asia Pacific. Products revenue was 70 billion, up 4% year over year, driven by growth in iPhone, iPad, and Mac. Our installed base of active devices reached an all-time high across all products and geographic segments. Thanks to very high levels of customer satisfaction and loyalty, and a large number of customers who are new to our products. Services revenue reached an all-time record of 25 billion, up 12% year over year. We saw a broad base strength around the world reaching all-time records in both developed and emerging markets with double-digit growth and record results across most services categories. Company gross margin was 46.2%, near the high end of our guidance range. Products gross margin was 36.3%, up 100 basis points sequentially, primarily driven by favorable mix. Services gross margin was 74% unchanged from the prior quarter. Operating expenses of 14.3 billion, where at the midpoint of the guidance range, we provided at the beginning of the quarter, an up 6% year over year. During the quarter, we recorded a one-time income tax charge of 10.2 billion, which relates to the impact of the reversal of the European general court's state aid decision. When we exclude this one-time charge, net income was 25 billion, and diluted earnings per share were $1.64, up 12% year over year, and a September quarter record. Operating cash flow was very strong, a 26.8 billion, a new September quarter record. Let me now get into more detail for each of our revenue categories. iPhone revenue was 46.2 billion, up 6% year over year, and a September quarter record in total and across several markets, including the US, the Middle East, Korea, and South Asia. The iPhone active installed base grew to a new all-time high in total and in average geographic segment. During the September quarter, many iPhone models were among the top selling smartphones around the world. In fact, according to a survey from Qatar, iPhone was the top selling model in the US, urban China, the UK, Australia, and Japan. We continue to see high levels of customer satisfaction for the iPhone 15 family, with 451 research recently measuring it at 98% in the US. Mac revenue was 7.7 billion, up 2% year over year, driven by the strength in MacBook Air. Customers have been loving the performance of Apple Silicon on Mac, and we are very excited to bring the latest M4 family of chips to the lineup. The Mac installed base reached an all-time high, with about half of customers in the quarter being new to Mac. And in the latest reports from 451 research, customer satisfaction was 95% in the US. iPad generated 7 billion in revenue, up 8% year over year. In addition to growth in developed markets, we also saw strong performance in many emerging markets, with double-digit growth in Mexico, Brazil, the Middle East, India, and South Asia. The iPad installed base reached an all-time high, and over half of the customers who purchased iPads during the quarter were new to the product. Also, customer satisfaction was recently measured at 97% in the US. Whereable's home and accessories revenue was 9 billion, down 3% year over year. The Apple Watch installed base reached a new all-time high, with over half of customers purchasing an Apple Watch during the quarter being new to the product. And the latest reports from 451 research indicated customer satisfaction of 96% for watching the US. Our services revenue reached an all-time record of 25 billion, growing 12% year over year. Services continue to see strong momentum with the growth of our installed base of active devices setting a solid foundation for the future expansion of our ecosystem. And we see increased customer engagement with our services offerings. Both transacting accounts and paid accounts reach a new all-time high, with paid accounts growing double digits year over year. Paid subscriptions also grew double digits. We have well over 1 billion paid subscriptions across the services on our platform, more than double the number we had only four years ago. And as always, we remain focused on improving the breadth and quality of our services, from new games on Apple Arcade to new features like tap to cash and pay with installments using Apple Pay, to many successful new and returning shows on Apple TV+. This past quarter, we celebrated the five-year anniversary of Apple Card, which was ranked number one in customer satisfaction among co-branding credit cards by JD Power for the fourth year in a row. Turning to enterprise, we continue to see strong demand across our products and services. NVIDIA launched its Mac as a choice program supported by Apple Care for Enterprise and Apple Professional Services with over 10,000 Macs deployed worldwide. And Novartis, a leading global pharmaceutical company recently chose iPhone 16 as the standard mobile device for all employees. We also see continued momentum with Apple Vision Pro in the enterprise space. UC San Diego Health is the first hospital in the world to test spatial computing apps on Apple Vision Pro in clinical trials for patient surgery in the operating room. Let me now turn to our cash position and capital return program. We ended the quarter with 157 billion in cash and marketable securities. We repaid 2.6 billion in maturing debt and increased commercial paper by 7 billion, leaving us with total debt of 107 billion. As a result, net cash was 50 billion at the end of the quarter. During the quarter, we returned over 29 billion to shareholders, including 3.8 billion in dividends and equivalents and 25 billion through open market repurchases of 112 million Apple shares. As we move ahead into the December quarter, I'd like to review our outlook, which includes the types of forward-looking information that Suasini referred to at the beginning of the call. The color we are providing today assumes that the macroeconomic outlook doesn't worsen from what we are projecting today for the current quarter. We expect our December quarter total company revenue to grow low to mid-single digits year over year. We expect services revenue to grow double digits at a rate similar to what we reported in the fiscal year 2024. We expect gross margin to be between 46 and 47%. We expect OPEX to be between 15.3 and 15.5 billion dollars. We expect OINE to be around negative 250 million, excluding any potential impact from the mark-to-market of minority investments, and our tax rate to be around 16%. Finally, today our Board of Directors has declared a cash dividend of 25 cents per share of common stock payable on November 14, 2024, to share all this of record as of November 11, 2024. With that, let us open the call to questions. Thank you, Luca. We ask that you limit yourself to two questions. Operator, may we have the first question, please? Certainly. You will go ahead and take our first question from Michael Ng with Goldman Sachs. Please go ahead. Hey, good afternoon. I just have two. The first one is for Tim on Apple Intelligence. I was wondering if you could just expand a little bit on some of the early feedback to Apple Intelligence, both for iOS 18.1, but also the developer beta so far, and whether you would attribute Apple Intelligence to any of the strong iPhone performance that we've seen today. Thanks. Thanks, Michael. As I noted in my comments, just this week on Monday, we made the first set of Apple Intelligence features available in U.S. English for iPhone, iPad, and Mac. This includes things like system-wide writing tools that help you refine your writing, a more natural conversational series, more intelligent photos app, including the ability to create movies simply by typing a description, which is really cool, and new ways to prioritize and stay in the moment with notification summaries and priority messages. There's also email summaries and email priority. We're getting a lot of positive feedback from developers and customers. In fact, if you just look at the first three days, which is all we have, obviously, from Monday, the 18.1 adoption is twice as fast as the 17.1 adoption was in the year-go quarter. There's definitely interest out there for Apple Intelligence. Carrying on in the quarter, we are looking forward to bringing even more features in December. This will include even more powerful writing tools and visual intelligence experience that builds on Apple Intelligence and CHEP-GPT integration in addition to other features, as well as we'll bring localized English to several countries that include the UK, Australia, and Canada. It's going to be quite a software quarter between the release on Monday and the release in December, and then as we turn the corner to 25, we'll have more languages rolling out in starting in April as well, and more features as well. And so it's a very, very strong drum beat, and we couldn't be more excited about it. Great. Thank you very much. And my second one, just for Luca, first, congratulations again, Luca, on the new role, and it's been a real privilege being able to spend some time with you. A question that I think will overlap with your new role as well. Could you just talk a little bit about the CAPEX outlook and whether investments in things like private cloud compute could change the historical CAPEX range of roughly $10 billion a year? Thank you very much. Thank you, Michael. On the CAPEX front, I mentioned before a number of times we have a bit of a hybrid model in the way we run our data centers. In some cases we use our own data centers, in some cases we use third-party providers, and so our CAPEX numbers may not be fully comparable with others. But obviously we are rolling out these features, Apple Intelligence features already now, and so we are making all the capacity that is needed available for these features. You will see in our 10K the amount of CAPEX that we've incurred during the course of fiscal 24, and we will, in fiscal 25, we will continue to make all the investments that are necessary, and of course, investments in AI-related CAPEX will be made. Thank you, Tim. Thank you, Luca. All right. Thanks, Mike. Can we have the next question, please? Our next question is from Eric Woodring with Morgan Stanley. Please go ahead. Great. Thanks so much for taking my questions. I have two as well. But Tim, maybe if we start with you, I think each of the last four years you've exited the December quarter with iPhone demand outpacing supply. As we look to this quarter in the iPhone 16 cycle, lead times are relatively short. There are no known supply shortages, and I'm just curious whether you've been able to maybe get a better read on early cycle iPhone demand this year relative to past years. And if so, what you've learned about upgrade rates, switching rates, trade-ups versus trading down and being more price sensitive, and overall any impact that Apple Intelligence may have on iPhone 16 sales. And then I have a follow-up. Thank you. There's a lot there. On Apple Intelligence, we believe it's a compelling upgrade reason. But we just launched it three days ago. And so what we've got now from a data point point of view is the number I just referenced that 18-1 has twice the adoption rate of 17-1. So that clearly shows a level of interest out there in terms of exiting the December quarter with demand greater than supply. That's not my recollection that that happened for all four of the years. We clearly had cases during COVID where there were disruptions and that's some spilled over. But in a more regular environment where we're not having something a 100-year flood kind of thing, our desire is to get into balance as quickly as possible. We don't want customers having to wait for products. And so if you look at how we've done this year, we did that very quickly on the 16, on the 16 pro family, the pro and the pro max. We've been constrained in October, but we believe that soon we'll be out of constraint. And so that's a good sign from our point of view. Keep in mind that that's a function of supply and demand, not one side or the other. And we've been preparing for the quarter for a while. So that's what I would say there. Okay, that's really helpful. Thank you, Tim. And then Luke, if I just turned to you, obviously it's been a pleasure working with you and we wish you all the best in the next role. You know, there's plenty debate in the market right now about input costs and commodity prices and then the impact that'll have on gross margins. Historically, you do guide gross margins up 50 basis points sequentially, which you just told us about for the December quarter. So can you maybe just help us understand your view of component prices and broadly whether you still see those as tailwinds to gross margins and how sustainable that tailwind might be or whether that should become a headwind as we look forward? Thanks so much. Yes, Eric, as you know, our gross margins are a factor of many, many variables. Commodities, of course, are important. They're not the only factor. But specifically on commodities, I can tell you that both for the September quarter and what we expect for the December quarter, most commodities are going to move down in price while NAND and DRAM increased during the course of the September quarter and we expect them to increase during the December quarter. We are very pleased with the level of gross margins that we've reported during the course of the year, the entire fiscal year of 24. They're really for our company record levels of gross margin and obviously guiding to 46 to 47% for the December quarter with all the new technologies that we've included in the products with all the new features that Tim has talked about, a lot of new products across the board. I think it's a very good sign. Great, thanks so much, Luca. Thank you, Eric. Thank you very much. Can we have the next question, please? Our next question is from Ben Ricey from Melius. Please go ahead. Hey, thanks a lot and I'll echo those comments about Luca, you know, we'll miss you and good luck. And my question is with regard to iPhone again and with regard to the fourth quarter is my first question or sorry, the fourth calendar quarter, your first quarter. When you look at mid to low single digit revenue growth, do you expect the iPhone to grow faster? And what are you thinking about in the answer to that question with regard to China, which, you know, is keeps improving each quarter? Thanks very much. And then I have just a follow up. Yeah, you know, Ben, we are not providing that level of color today. Yes, we've said that we expect total company revenue to grow low to mid single digits. Keep in mind, Apple Intelligence, as Tim said, is rolling out over time both features and languages. And we just had a number of exciting launches just this week, you know, from the Apple Intelligence feature to the new Max. So we leave it at that, you know, we've given you the total for the company and some pretty good direction on services, which we expect to continue to grow at a similar rate than what we've seen in fiscal 24. Well, great. Thanks, Luca. Hey, Tim, I wanted to ask you, I mean, and, you know, you guys are well aware a lot of the noise out there. People chattering about build, build, lead times. And you guys are guiding for mid to low single digit growth. That certainly doesn't sound like alarm bells here, vis-a-vis what you guys must be hearing. And I know you guys are just running your business and doing the best you can, but, you know, you have a lot of perspective now, Tim. What are people missing here? And it certainly just sounds like, you know, you guys are typically conservative. That guide for revenue is certainly, you know, sounds like this guy is certainly not falling and you have a pretty good product cycle. So what do you think people are missing and what are you excited about? Thanks so much, Tim. But I could not be more excited about Apple intelligence and the rollout that we've got in front of us. I'm obviously on future releases as well, working on it and it's changing my daily life. I'm super excited about the health features that we're rolling out. If the number of emails I'm already getting from customers that have taken the hearing test and are using their AirPods Pro 2 as a hearing aid are just staggering and heartwarming to read. I'm also thrilled about sleep apnea and the notification there that we'll have through the watch. This week is a very exciting week for us because we just rolled out three days, three launches of different Macs and desktops and laptops. And so we have a lot of things on the docket and it's definitely the strongest lineup we've ever had going into the holiday season. In terms of the noise, I tune it out because if not, it would just be deafening. And so that's what I do. I can't speak for everybody else, but that's what I do. Thanks a lot, Tim. Appreciate it. Thanks, Ben. Thank you, Ben. Can we have the next question, please? All right. Next question is from Amit Darianani with Evercore. Please go ahead. Good afternoon. Thanks to my questions to you as well. And Luca, that's a lot in the future. It's been a pleasure working with you. The fourth one I have is away from iPhones. On the service side, you're adding $100 billion run rate with services today, which is a phenomenal achievement by itself. As you look at the services portfolio today, can you talk about how much of this business do you think is reoccurring versus transactional and other growth rates different between the subscription portfolio over here with the transactional portfolio? Yes. I mean, I'll take this one. Yes, we are, first of all, very, very happy with, it's an important milestone. Of course, we've got to a run rate of $100 billion. You look back just a few years ago and the growth has been phenomenal. We're very pleased. We've got a very diversified portfolio of services. And over the years, the amount that is recurring in nature has grown and is growing faster than the transactional piece. We have well over a billion paid subscriptions on our platform right now between our own services and third-party services. That continues to grow strong double digits. So we feel very, very good. And essentially to your question, yes, the recurring portion is growing faster than the transactional one. If I could just follow up, if I look at the growth rates across the different graph, there's always concern around China when it comes to iPhone demand, I feel, but the performance in September looks fairly good. So what are you just touching on? What are you seeing from a demand perspective in China if the recent stimulus plans in China could essentially be a catalyst for iPhone? And then Amia really stood out with double digit growth. You can just flush that out as well for us. Thank you. Yeah, I'll take the China question. If you look at how we did for the quarter, we were relatively flat year over year and a key component of that improvement relative to the year over year performance that we had been achieving is that there was a sequential improvement in foreign exchange. And so that helped us out. As you know, it's been a headwind that we've been reporting for a period of time. And, but the other parts that are what else is going on there is that are installed base of the active devices reached an all time high. We had the top two selling smartphones in urban China, according to cantor. The level of new customers that we have buying the products like Mac and iPad are well over 50% watch is over three quarters that are new to the product. And so there's several positive signs there. In terms of the stimulus, it's a clear focus of the team there. But I'm not an economist and don't want to live on the effect of it. On the on the Europe side, I mean a number of things as you see from our results during the quarter, Europe grew double digits 11%. And really it was really good growth across the board the different segments that all did well. Keep in mind our definition of Europe in our segment reporting includes a number of emerging markets like Turkey, where we've grown very strongly. The Middle East team mentioned a number of records in Saudi in UAE. And we also include India, where we said an all time revenue record during the September quarter. But I have to say also Western Europe grew nicely. So we've seen very, very good results for us in the entire segment. Thank you very much. Thanks, Amit. Can we have the next question, please? Our next question is from David both with UBS. Please go ahead. Great. Thanks, everyone, for taking my questions and congratulations, Luca. You know, I know Luca and I know, Tim, you don't want to give a lot of granularity, but if I just try to pull together your comments about what the demand environment looks like. Are we to assume based on sort of the commentary that there is a risk that maybe the product revenue portfolio could be down in the December quarter if I take your numbers at face value? And if that's the risk, is that more, you know, iPhone related, Mac related, given the strength that you've seen and iPad related to trying to get a handle on kind of what potentially gives you that degree of, I don't want to say caution, but maybe balanced for you going into the December quarter and then I have a follow up. As I said, David, we're not providing that level of color. We're giving you some data on services. I would repeat what I said earlier. We're very early in the cycle, very early in the cycle with a lot of new products and features that we are launching. And, you know, we're very excited about them, but it's early. And, you know, the Apple intelligence rollout is going to happen over time, not across the world as normally we do with software releases. Right. Okay. So maybe a follow up for Tim. When you think about, to Lucas point about the rollout being staged over the next several quarters across the world, do you think that has any impact on sort of the normal historical demand cadence across different regions? So we should we see something different, let's say, you know, in the December quarter, the March quarter, the June quarter, et cetera, relative to history, given the timing of the rollout and where customers are probably waiting for the devices to be enabled to have the operating system, we just want to kind of get your perspective on how we think about, you know, the demand cadence, how it might be different than maybe historically. Thank you. Yeah, David, it's clearly, as you point out, a different cadence, if you will. Then we would normally do. And we, as we talked about it, WWDC, we wanted to give a comprehensive vision of Apple intelligence. And we said then that it would roll out over time. And we're right on the, what we said at WWDC. And so we're, we're executing well. In terms of the demand curve, I would just say that what we believe here is that it's a compelling reason for upgrading. And it's, that's both my personal experience and feedback that I'm getting. And so we'll, we'll see, but we're not projecting beyond the current quarter, obviously. We just don't do that. Great. Thanks, Tim. And best of luck, Luca. Thank you very much. Thank you, David. We'll take the next question, please. Our next question is from one C. Moen with Bank of America, please go ahead. Yes, thank you so much, Luca. We will miss you on these, on these calls. Tim, maybe for you, as you think about this staggered rollout of Apple intelligence, can you help us think to potentially. How much of the global install base of phones will have access to Apple intelligence and their native language and their region. Within the next year, or maybe in the next two years and what are some of the getting factors in the rollout and I will follow up. If you, if you look at our schedule, we started in the, in the, with us English. That started on Monday. There's another release coming that adds additional features that I had referenced in December in not only US English, but also localized for UK, Australia, Canada, Ireland and New Zealand. And then we will add more languages in April. We haven't said the specific she had in terms of the languages, but we'll, we'll add more in April and then more as we step through the year. And so we're moving just as, as fast as possible while ensuring quality. That's, that's what we're doing. Okay. Thanks, Tim. Yeah. And then as a follow up, maybe this is a little premature, but, but how is Apple at a high level prepared to potentially deal with any tariffs that might come post the selection cycle. And it's not exactly how perhaps you can just help investors think about some of the things Apple has done already to try to insulate from, from some of these impacts potential impacts. You know, I wouldn't want to speculate about those sorts of things. And so I'm going to, I'm going to point on that one. Okay, thank you, Tim. Yeah, thank you. Thank you, Wamsi. May we have the next question, please. Our next question is from Chris Sinker from TD Cohen, please go ahead. Yeah, thanks for taking my question. And again, thanks, Luca, for all your help with analysts and investors. Our first question is on R&D. Given how much your tech peers are planning on AI, does this new era of Apple intelligence actually require Apple to invest more in R&D beyond your current. 7 to 8% of sales to capture this opportunity. And then I have a follow up. Chris, as you know, we've been investing heavily in R&D over the last several years, our R&D growth has been significant during the last several years. And obviously, as we move through the course of fiscal 24, we've also reallocated some of the existing resources to the, to this new technology to AI. So the level of intensity that we're putting into AI has increased a lot, and you maybe don't see the full extent of it, because we've also had some internal reallocation of the base of engineering resources that we have within the company. And then another quick follow up. I understand Apple intelligence is a feature on the phone today. But do you think that in the future, we could potentially have, you know, or benefit the services, growth business, or is that too, or is this too too bifurcated to make a call on this early instruction? Thank you. I think just to keep it in mind, Apple intelligence is also available on the Mac for the M series products and on certain models of iPad, and in addition to the phone. And so it's, it's on all three. You're quite what was your follow on question. Does one can the Apple intelligence actually help, you know, and how the services growth rate. Keep in mind that we have released a lot of API's and developers will be taking advantage of those API's that release has occurred as well in a course more a coming. And so I definitely believe that a lot of developers will be taking advantage of Apple intelligence in a big way. And what that does to services, I'll not forecast, but I would say that from an ecosystem point of view, I think it will be great for the user and user experience. Got it. Thanks. Yeah. All right. Thank you, Chris. Can we have the next question, please? Our next question comes from Sonic Chatterjee with JP Morgan. Please go ahead. Great. Thank you. Thanks for taking my questions and look up congrats on the new role and pleasure working with you these years. I guess if I can, for my first one, start with makes on the iPhone side and what I'm really curious about if you have any thoughts given that Apple intelligence is now going to be your consistent features that across all the four sort of iPhones on the iPhone 16 series that you launched and going back to iPhone 15 Pro and Pro Max. Are you seeing any change in behavior from a consumer perspective in terms of which sort of on the mixed front within the iPhone series where custom consumer adoption is given that there's more consistency of the features when it comes to Apple intelligence across the board and have a follow up. Thank you. It's tough to answer your question because we've been constrained in October on the Pro and the Pro Max. And so it's really too early in the curve to call the precise mix on the consumer versus the pro. So we'll say. And for my follow up, during the quarter, I think over the last 90 days, we had the courts come out in relation to the DOJ. Creative to the Google sort of revenue sharing agreement that you have with them. How do you sort of look at it going forward in terms of emphasizing the role that Apple has in that ecosystem with Safari and sort of the potential outcomes that you're looking at. Thank you. You know, I don't I don't want to speculate on the on that from a legal point of view. It's an ongoing case and and I will save that for another day. Thank you. Thank you. I'll leave it then. Thank you. Operator, may we have the next question, please. Our next question comes from Richard Kramer with RTA research. Please go ahead. Thanks very much. First one, Tim, I'd like to ask about some of the components and services where, despite your installed base, some parts of the Apple one bundle like music and news and arcade and fitness are not obviously the market leading offerings and maybe what might change that and what other services could you call out as growing faster, having wider widening addressable markets like we've seen in pay or advertising. The way that I view it is that we have lots of opportunity in in all of those. And so there's lots of customers to to try to convince to take advantage of it and we're going to continue. Investing in the services and adding new features and whether it's news plus or or music or arcade. That's what we're going to do. Keep in mind that for us, we're more focused on being best than being most. And so in some cases, not in every case, some of the services that you the majority of the services that you mentioned are not cross platform. We we make them for our customers only. And so that in some cases changes the changes the the person who's going to sell the most perhaps. But that's our objective is to make the best. Okay, thanks. And then, Luca, one piece of unfinished business was your pledge to get to a net neutral cash position. And over the last two years, you stayed around 50 billion of net cash. We've clearly seen instances in the past where elevated marketing spend or other programs brought increases in market share. I guess my question looking back on your tenure is at your scale now of 57 billion of topics. Do you still see incremental ways to put that cash to work in the business? Or will we just continue to see increased shareholder returns? Well, obviously, as you see in our opx has gone up over the years. We've also seen at the same time a significant expansion in gross margin. Maybe to a level that I would have not expected a few years ago. But we've done a very good job on a number of fronts. And so I would say we when we plan every time we plan for the upcoming year we think about all the different areas where we can deploy our resources and we make them available to grow the business. I think we've done very well over the long term and but our fundamental philosophy is to look after the business first. And then if we have excess cash, we will continue to return it to our shareholders and the planners worked quite well so far. Okay. Thank you very much. Thank you, Richard. We'll take our last question. Please operator. Our last question comes from Otis Molick with city. Please go ahead. Thank you for squeezing me in. It seems to us that the spec differentiation between iPhone 16 pro and based models isn't as big as prior years. All iPhones have new 18, 18 pro chips and there wasn't an increase in these versus last year. Can you share with us if there is a shift in your strategy in terms of. Unfortunately, I'll explain has dropped. Sorry, Otis will connect offline. Thank you, everybody. A replay of today's call will be available for two weeks on Apple podcast as a webcast on apple.com slash investor and via telephone. The number for the telephone replay is 866-583-1035. Please enter confirmation code 033-1536 followed by the pound sign. These replays will be available by approximately 5 p.m. Pacific today. Members of the press with additional questions can contact Josh Rosenstock at 408-862-1142. And financial analysts can contact me, Suhasani Chandramali with additional questions at 408-974-3123. Thank you again for joining us. Again, this does conclude today's conference. We do appreciate your participation."
+}

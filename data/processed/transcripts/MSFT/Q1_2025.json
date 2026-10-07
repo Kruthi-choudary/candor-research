@@ -1,0 +1,3287 @@
+{
+  "duration_sec": 3780.373,
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.0,
+      "text": "Greetings and welcome to the Microsoft fiscal year 2025 first quarter earnings conference call."
+    },
+    {
+      "start": 7.0,
+      "end": 10.0,
+      "text": "At this time, our participants are in a listen only mode."
+    },
+    {
+      "start": 10.0,
+      "end": 14.0,
+      "text": "A question and answer session will follow the formal presentation."
+    },
+    {
+      "start": 14.0,
+      "end": 21.0,
+      "text": "If anyone should require offer assistance during the conference, please press star zero on your top on keypad."
+    },
+    {
+      "start": 21.0,
+      "end": 25.0,
+      "text": "As a reminder, this conference is being recorded."
+    },
+    {
+      "start": 25.0,
+      "end": 31.0,
+      "text": "It is not my pleasure to introduce your host, Brett Arverson, Vice President of Investor Relations."
+    },
+    {
+      "start": 31.0,
+      "end": 33.0,
+      "text": "Please go ahead."
+    },
+    {
+      "start": 33.0,
+      "end": 36.0,
+      "text": "Good afternoon and thank you for joining us today."
+    },
+    {
+      "start": 36.0,
+      "end": 40.0,
+      "text": "On the call with me are Satya Nadella, Chairman and Chief Executive Officer,"
+    },
+    {
+      "start": 40.0,
+      "end": 43.0,
+      "text": "Amy Hood, Chief Financial Officer,"
+    },
+    {
+      "start": 43.0,
+      "end": 45.0,
+      "text": "Alice Jala, Chief Accounting Officer,"
+    },
+    {
+      "start": 45.0,
+      "end": 49.0,
+      "text": "and Keith Dalliver, Corporate Secretary and Deputy General Counsel."
+    },
+    {
+      "start": 49.0,
+      "end": 52.0,
+      "text": "On the Microsoft Investor Relations website,"
+    },
+    {
+      "start": 52.0,
+      "end": 56.0,
+      "text": "you can find our earnings press release and financial summary slide deck,"
+    },
+    {
+      "start": 56.0,
+      "end": 60.0,
+      "text": "which is intended to supplement our prepared remarks during today's call"
+    },
+    {
+      "start": 60.0,
+      "end": 66.0,
+      "text": "and provides the reconciliation of differences between GAP and non-GAP financial measures."
+    },
+    {
+      "start": 66.0,
+      "end": 71.0,
+      "text": "We have recast certain prior period amounts to reflect the FY 25 changes"
+    },
+    {
+      "start": 71.0,
+      "end": 76.0,
+      "text": "to the composition of our segments announced in August 2024."
+    },
+    {
+      "start": 76.0,
+      "end": 82.0,
+      "text": "Additional details, including FY 23 and FY 24 recast segment revenue,"
+    },
+    {
+      "start": 82.0,
+      "end": 86.0,
+      "text": "operating income, and product and service level revenue,"
+    },
+    {
+      "start": 86.0,
+      "end": 91.0,
+      "text": "can be found in the financial statements file on the Investor Relations website."
+    },
+    {
+      "start": 91.0,
+      "end": 97.0,
+      "text": "More detailed outlook slides will also be available on the Microsoft Investor Relations website"
+    },
+    {
+      "start": 97.0,
+      "end": 100.0,
+      "text": "when we provide Outlook commentary on today's call."
+    },
+    {
+      "start": 100.0,
+      "end": 104.0,
+      "text": "On this call, we will discuss certain non-GAP items."
+    },
+    {
+      "start": 104.0,
+      "end": 108.0,
+      "text": "The non-GAP financial measures provided should not be considered"
+    },
+    {
+      "start": 108.0,
+      "end": 114.0,
+      "text": "as a substitute for or superior to the measures of financial performance prepared in accordance with GAP."
+    },
+    {
+      "start": 114.0,
+      "end": 120.0,
+      "text": "They are included as additional clarifying items to aid investors in further understanding"
+    },
+    {
+      "start": 120.0,
+      "end": 124.0,
+      "text": "the company's first quarter performance in addition to the impact these items"
+    },
+    {
+      "start": 124.0,
+      "end": 127.0,
+      "text": "and events have on the financial results."
+    },
+    {
+      "start": 127.0,
+      "end": 132.0,
+      "text": "All growth comparisons we make on the call today relate to the corresponding period of last year,"
+    },
+    {
+      "start": 132.0,
+      "end": 134.0,
+      "text": "unless otherwise noted."
+    },
+    {
+      "start": 134.0,
+      "end": 138.0,
+      "text": "We will also provide growth rates in constant currency when available"
+    },
+    {
+      "start": 138.0,
+      "end": 142.0,
+      "text": "as a framework for assessing how our underlying business is performed,"
+    },
+    {
+      "start": 142.0,
+      "end": 147.0,
+      "text": "excluding the effect of foreign currency rate fluctuations."
+    },
+    {
+      "start": 147.0,
+      "end": 152.0,
+      "text": "Where growth rates are the same in constant currency, we will refer to the growth rate only."
+    },
+    {
+      "start": 152.0,
+      "end": 156.0,
+      "text": "We will post our prepared remarks to our website immediately following the call"
+    },
+    {
+      "start": 156.0,
+      "end": 159.0,
+      "text": "until the complete transcript is available."
+    },
+    {
+      "start": 159.0,
+      "end": 162.0,
+      "text": "Today's call is being webcast live and recorded."
+    },
+    {
+      "start": 162.0,
+      "end": 166.0,
+      "text": "If you ask a question, it will be included in our live transmission"
+    },
+    {
+      "start": 166.0,
+      "end": 170.0,
+      "text": "in the transcript and in any future use of the recording."
+    },
+    {
+      "start": 170.0,
+      "end": 175.0,
+      "text": "You can replay the call and view the transcript on the Microsoft Investor Relations website."
+    },
+    {
+      "start": 175.0,
+      "end": 178.0,
+      "text": "During this call, we will be making forward-looking statements,"
+    },
+    {
+      "start": 178.0,
+      "end": 182.0,
+      "text": "which are predictions, projections, or other statements about future events."
+    },
+    {
+      "start": 182.0,
+      "end": 186.0,
+      "text": "These statements are based on current expectations and assumptions"
+    },
+    {
+      "start": 186.0,
+      "end": 189.0,
+      "text": "that are subject to risks and uncertainties."
+    },
+    {
+      "start": 189.0,
+      "end": 195.0,
+      "text": "Actual results could materially differ because of factors discussed in today's earnings press release"
+    },
+    {
+      "start": 195.0,
+      "end": 198.0,
+      "text": "in the comments made during this conference call"
+    },
+    {
+      "start": 198.0,
+      "end": 202.0,
+      "text": "and in the risk factors section of our Form 10K, Form 10Q,"
+    },
+    {
+      "start": 202.0,
+      "end": 206.0,
+      "text": "and other reports and filings with the Securities and Exchange Commission."
+    },
+    {
+      "start": 206.0,
+      "end": 210.0,
+      "text": "We do not undertake any duty to update any forward-looking statement."
+    },
+    {
+      "start": 210.0,
+      "end": 213.0,
+      "text": "And with that, I'll turn the call over to Satya."
+    },
+    {
+      "start": 213.0,
+      "end": 218.0,
+      "text": "Thank you, Brett. We are off to a solid start to our fiscal year driven"
+    },
+    {
+      "start": 218.0,
+      "end": 225.0,
+      "text": "by continuous trends of Microsoft Cloud with surpass $38.9 billion in revenue up 22%."
+    },
+    {
+      "start": 225.0,
+      "end": 229.0,
+      "text": "AI-driven transformation is changing work, work artifacts,"
+    },
+    {
+      "start": 229.0,
+      "end": 233.0,
+      "text": "and workflow across every role, function, and business process,"
+    },
+    {
+      "start": 233.0,
+      "end": 237.0,
+      "text": "helping customers drive new growth and operating leverage."
+    },
+    {
+      "start": 237.0,
+      "end": 242.0,
+      "text": "All up, our AI business is on track to surpass an annual revenue-run rate"
+    },
+    {
+      "start": 242.0,
+      "end": 248.0,
+      "text": "of $10 billion next quarter, which will make it the fastest business in our history"
+    },
+    {
+      "start": 248.0,
+      "end": 250.0,
+      "text": "to reach this milestone."
+    },
+    {
+      "start": 250.0,
+      "end": 255.0,
+      "text": "Now, I'll highlight examples of our progress starting with infrastructure."
+    },
+    {
+      "start": 255.0,
+      "end": 257.0,
+      "text": "Azure took share this quarter."
+    },
+    {
+      "start": 257.0,
+      "end": 260.0,
+      "text": "We are seeing continued growth in cloud migration."
+    },
+    {
+      "start": 260.0,
+      "end": 265.0,
+      "text": "Azure Arc now has over 39,000 customers across every industry,"
+    },
+    {
+      "start": 265.0,
+      "end": 271.0,
+      "text": "including American Tower, CTT, L'Oreal, up more than 80% year over year."
+    },
+    {
+      "start": 271.0,
+      "end": 275.0,
+      "text": "We now have data centers in over 60 regions around the world,"
+    },
+    {
+      "start": 275.0,
+      "end": 279.0,
+      "text": "and this quarter we announced new cloud and AI infrastructure investments"
+    },
+    {
+      "start": 279.0,
+      "end": 285.0,
+      "text": "in Brazil, Italy, Mexico, and Sweden, as we expand our capacity in line"
+    },
+    {
+      "start": 285.0,
+      "end": 287.0,
+      "text": "with our long-term demand signals."
+    },
+    {
+      "start": 287.0,
+      "end": 292.0,
+      "text": "At the Silicon layer, new cobalt 100 VMs are being used by companies like Databricks,"
+    },
+    {
+      "start": 292.0,
+      "end": 299.0,
+      "text": "Elastic, Siemens, Snowflake, and Synapses to power their general purpose workloads"
+    },
+    {
+      "start": 299.0,
+      "end": 304.0,
+      "text": "at up to 50% better price performance than previous generations."
+    },
+    {
+      "start": 304.0,
+      "end": 309.0,
+      "text": "On top of this, we are building out our next-generation AI infrastructure,"
+    },
+    {
+      "start": 309.0,
+      "end": 314.0,
+      "text": "innovating across the full stack to optimize our fleet for AI workloads."
+    },
+    {
+      "start": 314.0,
+      "end": 318.0,
+      "text": "We offer the broadest selection of AI accelerators,"
+    },
+    {
+      "start": 318.0,
+      "end": 324.0,
+      "text": "including our first-party accelerator, Maya 100, as well as the latest GPUs from AMD and NVIDIA."
+    },
+    {
+      "start": 324.0,
+      "end": 328.0,
+      "text": "In fact, we're the first cloud to bring up NVIDIA's Blackwall system"
+    },
+    {
+      "start": 328.0,
+      "end": 331.0,
+      "text": "with GB 200 Power AI servers."
+    },
+    {
+      "start": 331.0,
+      "end": 335.0,
+      "text": "Our partnership with OpenAI also continues to deliver results."
+    },
+    {
+      "start": 335.0,
+      "end": 339.0,
+      "text": "We have an economic interest in a company that has grown significantly in value,"
+    },
+    {
+      "start": 339.0,
+      "end": 344.0,
+      "text": "and we have built a differentiate IP in our driving revenue momentum."
+    },
+    {
+      "start": 344.0,
+      "end": 348.0,
+      "text": "More broadly with Azure AI, we are building an end-to-end app platform"
+    },
+    {
+      "start": 348.0,
+      "end": 352.0,
+      "text": "to help customers build their own co-pilots and agents."
+    },
+    {
+      "start": 352.0,
+      "end": 356.0,
+      "text": "Azure OpenAI usage more than doubled over the past six months"
+    },
+    {
+      "start": 356.0,
+      "end": 359.0,
+      "text": "as both digital natives like Grammarly and Harvey,"
+    },
+    {
+      "start": 359.0,
+      "end": 364.0,
+      "text": "as well as established enterprises like Bajaj Finance, Hitachi, KT&LG,"
+    },
+    {
+      "start": 364.0,
+      "end": 367.0,
+      "text": "move apps from test to production."
+    },
+    {
+      "start": 367.0,
+      "end": 372.0,
+      "text": "GE Aerospace, for example, used Azure OpenAI to build a new digital assistant"
+    },
+    {
+      "start": 372.0,
+      "end": 375.0,
+      "text": "for all 52,000 of its employees."
+    },
+    {
+      "start": 375.0,
+      "end": 381.0,
+      "text": "In just three months, it has been used to conduct over 500,000 internal queries"
+    },
+    {
+      "start": 381.0,
+      "end": 384.0,
+      "text": "and process more than 200,000 documents."
+    },
+    {
+      "start": 384.0,
+      "end": 389.0,
+      "text": "In this quarter, we added support for OpenAI's newest model family, 01."
+    },
+    {
+      "start": 389.0,
+      "end": 392.0,
+      "text": "We're also bringing industry-specific models to Azure AI,"
+    },
+    {
+      "start": 392.0,
+      "end": 397.0,
+      "text": "including a collection of best-in-class multi-model models for medical imaging."
+    },
+    {
+      "start": 397.0,
+      "end": 402.0,
+      "text": "With GitHub models, we now provide access to our full model catalog"
+    },
+    {
+      "start": 402.0,
+      "end": 405.0,
+      "text": "directly within the GitHub developer workflow."
+    },
+    {
+      "start": 405.0,
+      "end": 410.0,
+      "text": "Azure AI is also increasingly an on-ramp to our data"
+    },
+    {
+      "start": 410.0,
+      "end": 412.0,
+      "text": "and analytics services."
+    },
+    {
+      "start": 412.0,
+      "end": 415.0,
+      "text": "As developers build new AI apps on Azure,"
+    },
+    {
+      "start": 415.0,
+      "end": 420.0,
+      "text": "we have seen an acceleration of Azure Cosmos DB and Azure SQL DB"
+    },
+    {
+      "start": 420.0,
+      "end": 424.0,
+      "text": "hyperscale usage as customers like Air India, Novo Nordisk,"
+    },
+    {
+      "start": 424.0,
+      "end": 428.0,
+      "text": "Telefonica, Turter Motor North America, and Uniper"
+    },
+    {
+      "start": 428.0,
+      "end": 433.0,
+      "text": "take advantage of capabilities, purpose-built for AI applications."
+    },
+    {
+      "start": 433.0,
+      "end": 438.0,
+      "text": "And with Microsoft Fabric, we provide a single AI-powered platform"
+    },
+    {
+      "start": 438.0,
+      "end": 443.0,
+      "text": "to help customers like Chanel, EY, KPMG, Swiss Air, and Cindigo"
+    },
+    {
+      "start": 443.0,
+      "end": 446.0,
+      "text": "unify their data across clouds."
+    },
+    {
+      "start": 446.0,
+      "end": 454.0,
+      "text": "We now have over 16,000 paid fabric customers over 70% of the Fortune 500."
+    },
+    {
+      "start": 454.0,
+      "end": 456.0,
+      "text": "Now on to developers."
+    },
+    {
+      "start": 456.0,
+      "end": 460.0,
+      "text": "GitHub Co-Pilot is changing the way the world builds software."
+    },
+    {
+      "start": 460.0,
+      "end": 465.0,
+      "text": "Co-Pilot Enterprise customers increase 55% quarter over quarter"
+    },
+    {
+      "start": 465.0,
+      "end": 471.0,
+      "text": "companies like AMD and Flutter Entertainment, Taylor Co-Pilot to their own codebase."
+    },
+    {
+      "start": 471.0,
+      "end": 475.0,
+      "text": "And we are introducing the next phase of AI code generation making"
+    },
+    {
+      "start": 475.0,
+      "end": 479.0,
+      "text": "GitHub Co-Pilot agent across the developer workflow."
+    },
+    {
+      "start": 479.0,
+      "end": 483.0,
+      "text": "GitHub Co-Pilot workspace is a developer environment which leverages"
+    },
+    {
+      "start": 483.0,
+      "end": 488.0,
+      "text": "agents from start to finish so developers can go from spec to plan to code"
+    },
+    {
+      "start": 488.0,
+      "end": 490.0,
+      "text": "all in natural language."
+    },
+    {
+      "start": 490.0,
+      "end": 493.0,
+      "text": "Co-Pilot AutoFix is an AI agent that helps developers"
+    },
+    {
+      "start": 493.0,
+      "end": 497.0,
+      "text": "with companies like Ethereum and Auto Group fix vulnerabilities in their code"
+    },
+    {
+      "start": 497.0,
+      "end": 501.0,
+      "text": "over three times faster than it would take them on their own."
+    },
+    {
+      "start": 501.0,
+      "end": 505.0,
+      "text": "We are also continuing to build on GitHub's open platform ethos"
+    },
+    {
+      "start": 505.0,
+      "end": 508.0,
+      "text": "by making more models available via GitHub Co-Pilot."
+    },
+    {
+      "start": 508.0,
+      "end": 512.0,
+      "text": "And we are expanding the reach of GitHub to a new segment of developers"
+    },
+    {
+      "start": 512.0,
+      "end": 518.0,
+      "text": "introducing GitHub Spark which enables anyone to build apps in natural language."
+    },
+    {
+      "start": 518.0,
+      "end": 522.0,
+      "text": "Already we have brought generative AI to power platform to help customers"
+    },
+    {
+      "start": 522.0,
+      "end": 526.0,
+      "text": "use low code, no code tools to cut costs and development time."
+    },
+    {
+      "start": 526.0,
+      "end": 531.0,
+      "text": "To date nearly 600,000 organizations have used AI powered capabilities"
+    },
+    {
+      "start": 531.0,
+      "end": 534.0,
+      "text": "in power platform up 4x year over year."
+    },
+    {
+      "start": 534.0,
+      "end": 539.0,
+      "text": "Citizen developers at ZF for example built apps simply by describing"
+    },
+    {
+      "start": 539.0,
+      "end": 541.0,
+      "text": "what they need using natural language."
+    },
+    {
+      "start": 541.0,
+      "end": 546.0,
+      "text": "And this quarter we introduced new ways for customers to apply AI"
+    },
+    {
+      "start": 546.0,
+      "end": 550.0,
+      "text": "to streamline complex workflows with power automate."
+    },
+    {
+      "start": 550.0,
+      "end": 552.0,
+      "text": "Now on to work."
+    },
+    {
+      "start": 552.0,
+      "end": 557.0,
+      "text": "We launched the next wave of Microsoft 365 Co-Pilot innovation"
+    },
+    {
+      "start": 557.0,
+      "end": 563.0,
+      "text": "last month bringing together a web work and pages as the new design system for knowledge work."
+    },
+    {
+      "start": 563.0,
+      "end": 566.0,
+      "text": "Pages is the first new digital artifact for the AI agent"
+    },
+    {
+      "start": 566.0,
+      "end": 571.0,
+      "text": "it's designed to help you ideate with AI and collaborate with other people."
+    },
+    {
+      "start": 571.0,
+      "end": 575.0,
+      "text": "We've also made Microsoft 365 Co-Pilot responses 2x faster"
+    },
+    {
+      "start": 575.0,
+      "end": 579.0,
+      "text": "and improved response quality by nearly 3x."
+    },
+    {
+      "start": 579.0,
+      "end": 583.0,
+      "text": "This innovation is driving accelerated usage and the number of people"
+    },
+    {
+      "start": 583.0,
+      "end": 587.0,
+      "text": "using Microsoft 365 daily more than double quarter over quarter."
+    },
+    {
+      "start": 587.0,
+      "end": 591.0,
+      "text": "We're also seeing increased adoption from customers in every industry"
+    },
+    {
+      "start": 591.0,
+      "end": 596.0,
+      "text": "as they use Microsoft 365 Co-Pilot to drive real business value."
+    },
+    {
+      "start": 596.0,
+      "end": 601.0,
+      "text": "Vodafone for example will roll out Microsoft 365 Co-Pilot to 68,000 employees"
+    },
+    {
+      "start": 601.0,
+      "end": 606.0,
+      "text": "after a trial showed that on average they saved 3 hours per person per week."
+    },
+    {
+      "start": 606.0,
+      "end": 612.0,
+      "text": "And UBS will deploy 50,000 seats in our largest FinCerve deal to date."
+    },
+    {
+      "start": 612.0,
+      "end": 617.0,
+      "text": "And we continue to see enterprise customers coming back to buy more seats."
+    },
+    {
+      "start": 617.0,
+      "end": 623.0,
+      "text": "All up nearly 70% of the Fortune 500 now use Microsoft 365 Co-Pilot"
+    },
+    {
+      "start": 623.0,
+      "end": 629.0,
+      "text": "and customers continue to adopt it as a faster rate than any other new Microsoft 365 suite."
+    },
+    {
+      "start": 629.0,
+      "end": 636.0,
+      "text": "Co-Pilot is the UI for AI and with Microsoft 365 Co-Pilot, Co-Pilot studio and agents"
+    },
+    {
+      "start": 636.0,
+      "end": 642.0,
+      "text": "and now autonomous agents we have built an end-to-end system for AI business transformation."
+    },
+    {
+      "start": 642.0,
+      "end": 648.0,
+      "text": "With Co-Pilot studio organizations can build and connect Microsoft 365 Co-Pilot"
+    },
+    {
+      "start": 648.0,
+      "end": 653.0,
+      "text": "to autonomous agents which then delegate to Co-Pilot when there is an exception."
+    },
+    {
+      "start": 653.0,
+      "end": 659.0,
+      "text": "More than 100,000 organizations from end-shore, standard bank and Thomson Reuters"
+    },
+    {
+      "start": 659.0,
+      "end": 667.0,
+      "text": "to virgin money and Zurich insurance have used Co-Pilot studio to date up over 2x quarter over quarter."
+    },
+    {
+      "start": 667.0,
+      "end": 673.0,
+      "text": "More broadly we are seeing AI drive a fundamental change in the business applications market"
+    },
+    {
+      "start": 673.0,
+      "end": 677.0,
+      "text": "as customers shift from legacy apps to AI first business processes."
+    },
+    {
+      "start": 677.0,
+      "end": 684.0,
+      "text": "Dynamics 365 continues to take share as organizations like Evron, Heineken and Lexmark"
+    },
+    {
+      "start": 684.0,
+      "end": 689.0,
+      "text": "chose our apps over other providers and monthly active users of Co-Pilot"
+    },
+    {
+      "start": 689.0,
+      "end": 695.0,
+      "text": "across our CRM and ERP portfolio increased over 60% quarter over quarter."
+    },
+    {
+      "start": 695.0,
+      "end": 702.0,
+      "text": "Our Dynamics 365 Contact Center is also winning customers like Currys, Lekra Set and RXO"
+    },
+    {
+      "start": 702.0,
+      "end": 707.0,
+      "text": "as it brings generative AI to every customer engagement channel."
+    },
+    {
+      "start": 707.0,
+      "end": 712.0,
+      "text": "And just last week we added 10 out of the box autonomous agents to Dynamics 365"
+    },
+    {
+      "start": 712.0,
+      "end": 719.0,
+      "text": "that helps customers automatically qualify sales leads, track suppliers and work hand in hand"
+    },
+    {
+      "start": 719.0,
+      "end": 722.0,
+      "text": "with service reps to resolve issues."
+    },
+    {
+      "start": 722.0,
+      "end": 727.0,
+      "text": "We are also bringing AI to industry specific workflows."
+    },
+    {
+      "start": 727.0,
+      "end": 733.0,
+      "text": "One year in DAX Co-Pilot is now documenting over 1.3 million physician-patient encounters"
+    },
+    {
+      "start": 733.0,
+      "end": 738.0,
+      "text": "each month at over 500 healthcare organizations like Baptist Medical Group,"
+    },
+    {
+      "start": 738.0,
+      "end": 742.0,
+      "text": "Baylor, Scotland, White, Greater Baltimore Medical Center,"
+    },
+    {
+      "start": 742.0,
+      "end": 745.0,
+      "text": "Novant Health and Overlake Medical Center."
+    },
+    {
+      "start": 745.0,
+      "end": 750.0,
+      "text": "It is showing faster revenue growth than GitHub Co-Pilot did in this first year."
+    },
+    {
+      "start": 750.0,
+      "end": 756.0,
+      "text": "And new features extend DAX beyond notes helping physicians automatically draft referrals"
+    },
+    {
+      "start": 756.0,
+      "end": 760.0,
+      "text": "after visit instructions and diagnostic evidence."
+    },
+    {
+      "start": 760.0,
+      "end": 766.0,
+      "text": "On top of all this AI innovation, Microsoft Teams usage remains at all-time highs"
+    },
+    {
+      "start": 766.0,
+      "end": 769.0,
+      "text": "as people use it to streamline all their communications."
+    },
+    {
+      "start": 769.0,
+      "end": 776.0,
+      "text": "Nearly 75% of our Teams Enterprise customers now buy premium phone or rooms."
+    },
+    {
+      "start": 776.0,
+      "end": 782.0,
+      "text": "When it comes to Windows, our new class of Co-Pilot plus PCs is winning new customers."
+    },
+    {
+      "start": 782.0,
+      "end": 786.0,
+      "text": "They offer best-in-class AI capability, performance and value."
+    },
+    {
+      "start": 786.0,
+      "end": 791.0,
+      "text": "AMD, Intel and Qualcomm now all support Co-Pilot plus PCs."
+    },
+    {
+      "start": 791.0,
+      "end": 797.0,
+      "text": "This quarter, we also introduced new AI experience only available on Co-Pilot plus PCs"
+    },
+    {
+      "start": 797.0,
+      "end": 803.0,
+      "text": "like Click2Do, which places an interactive overlay over your desktop to suggest next best actions."
+    },
+    {
+      "start": 803.0,
+      "end": 807.0,
+      "text": "And as we approach the end of support for Windows 10 a year from now,"
+    },
+    {
+      "start": 807.0,
+      "end": 811.0,
+      "text": "we are well positioned to transition our customers to Windows 11"
+    },
+    {
+      "start": 811.0,
+      "end": 815.0,
+      "text": "offering their benefit from enhanced features and security improvements"
+    },
+    {
+      "start": 815.0,
+      "end": 818.0,
+      "text": "we've introduced over the past few years."
+    },
+    {
+      "start": 818.0,
+      "end": 820.0,
+      "text": "Now on to security."
+    },
+    {
+      "start": 820.0,
+      "end": 825.0,
+      "text": "We continue to prioritize security above all else with our secure future initiative."
+    },
+    {
+      "start": 825.0,
+      "end": 832.0,
+      "text": "We have dedicated the equivalent of 34,000 full-time engineers to address the highest priority security tasks."
+    },
+    {
+      "start": 832.0,
+      "end": 838.0,
+      "text": "We have made significant progress to better protect tenants, identities, networks and engineering systems."
+    },
+    {
+      "start": 838.0,
+      "end": 843.0,
+      "text": "And we have created new processes to ensure security is prioritized at every level of the company."
+    },
+    {
+      "start": 843.0,
+      "end": 848.0,
+      "text": "And we continue to take what we learn and turn it into innovations across our products."
+    },
+    {
+      "start": 848.0,
+      "end": 854.0,
+      "text": "Security Co-Pilot, for example, is being used by companies in every industry including Clifford Chance,"
+    },
+    {
+      "start": 854.0,
+      "end": 861.0,
+      "text": "Intessa, St. Paulo and Shell to perform SecOps tasks faster and more accurately."
+    },
+    {
+      "start": 861.0,
+      "end": 865.0,
+      "text": "And we are now helping customers protect their AI deployments too."
+    },
+    {
+      "start": 865.0,
+      "end": 872.0,
+      "text": "Customers have used Defender to discover and secure more than 750,000 gen AI app instances"
+    },
+    {
+      "start": 872.0,
+      "end": 879.0,
+      "text": "and use purview to audit over a billion co-pilot interactions to meet their compliance obligations."
+    },
+    {
+      "start": 879.0,
+      "end": 883.0,
+      "text": "And all up we continue to take share across all major categories we serve"
+    },
+    {
+      "start": 883.0,
+      "end": 890.0,
+      "text": "and are consistently recognized by top analysts as a leader in 20 categories more than any other vendor."
+    },
+    {
+      "start": 890.0,
+      "end": 894.0,
+      "text": "Now let me turn to our consumer businesses starting with LinkedIn."
+    },
+    {
+      "start": 894.0,
+      "end": 901.0,
+      "text": "Member growth continues to accelerate with markets in India and Brazil both growing at double digits."
+    },
+    {
+      "start": 901.0,
+      "end": 907.0,
+      "text": "We are also seeing record engagement as we introduce new ways for our more than 1 billion members"
+    },
+    {
+      "start": 907.0,
+      "end": 911.0,
+      "text": "to connect cell services, get hired and share knowledge."
+    },
+    {
+      "start": 911.0,
+      "end": 917.0,
+      "text": "Our investments in rich formats like video strengthen our leadership in B2B advertising"
+    },
+    {
+      "start": 917.0,
+      "end": 920.0,
+      "text": "and amplify the value we deliver to our customers."
+    },
+    {
+      "start": 920.0,
+      "end": 927.0,
+      "text": "Weekly immersive video views increase 6X quarter over quarter and total video viewership on LinkedIn"
+    },
+    {
+      "start": 927.0,
+      "end": 929.0,
+      "text": "is up 36% year over year."
+    },
+    {
+      "start": 929.0,
+      "end": 935.0,
+      "text": "Our AI powered tools also continue to transform how people sell, learn and hire."
+    },
+    {
+      "start": 935.0,
+      "end": 942.0,
+      "text": "In sales new AI features help every team member perform at the level of top sellers and drive more profitable growth."
+    },
+    {
+      "start": 942.0,
+      "end": 949.0,
+      "text": "In learning just yesterday we announced updates to our coaching experience including personalized career development plans"
+    },
+    {
+      "start": 949.0,
+      "end": 957.0,
+      "text": "LinkedIn's first agent hiring assistant will help hires find qualified candidates faster"
+    },
+    {
+      "start": 957.0,
+      "end": 960.0,
+      "text": "by tackling the most time consuming tasks."
+    },
+    {
+      "start": 960.0,
+      "end": 970.0,
+      "text": "Already hires who use AI assistant messages see a 44% higher acceptance rate compared to those who don't."
+    },
+    {
+      "start": 970.0,
+      "end": 973.0,
+      "text": "And our hiring business continues to take share."
+    },
+    {
+      "start": 973.0,
+      "end": 976.0,
+      "text": "Now on to search advertising in news."
+    },
+    {
+      "start": 976.0,
+      "end": 981.0,
+      "text": "With co-pilot we are seeing the first step towards creating a new AI companion for everyone."
+    },
+    {
+      "start": 981.0,
+      "end": 989.0,
+      "text": "With new co-pilot experience we introduced earlier this month includes a refresh design and tone along with improved speed"
+    },
+    {
+      "start": 989.0,
+      "end": 997.0,
+      "text": "and fluency across the web and mobile and it includes advanced capabilities like voice and vision that make it more delightful"
+    },
+    {
+      "start": 997.0,
+      "end": 999.0,
+      "text": "and useful and feel more natural."
+    },
+    {
+      "start": 999.0,
+      "end": 1004.0,
+      "text": "You can both browse and converse with co-pilot simultaneously because co-pilot sees what you see."
+    },
+    {
+      "start": 1004.0,
+      "end": 1009.0,
+      "text": "More broadly AI is also transforming search, browsers and digital advertising"
+    },
+    {
+      "start": 1009.0,
+      "end": 1012.0,
+      "text": "and we continue to take share across Bing and Edge."
+    },
+    {
+      "start": 1012.0,
+      "end": 1016.0,
+      "text": "Bing, X-TAC, revenue growth outpace the search market."
+    },
+    {
+      "start": 1016.0,
+      "end": 1018.0,
+      "text": "Now on to gaming."
+    },
+    {
+      "start": 1018.0,
+      "end": 1024.0,
+      "text": "One year since we closed our acquisition of Activision Blizzard King we are focused on building a business position"
+    },
+    {
+      "start": 1024.0,
+      "end": 1029.0,
+      "text": "for long-term growth driven by higher margin content and services."
+    },
+    {
+      "start": 1029.0,
+      "end": 1036.0,
+      "text": "You already see this transformation in our results as we diversify the ways that gamers access our content."
+    },
+    {
+      "start": 1036.0,
+      "end": 1044.0,
+      "text": "We set new records for monthly active users in the quarter as more players than ever play our games across devices"
+    },
+    {
+      "start": 1044.0,
+      "end": 1047.0,
+      "text": "and on the Xbox platform."
+    },
+    {
+      "start": 1047.0,
+      "end": 1054.0,
+      "text": "Game Pass also set a new Q1 record for total revenue and average revenue per subscriber."
+    },
+    {
+      "start": 1054.0,
+      "end": 1059.0,
+      "text": "And as we look ahead our IP across our studios has never been stronger."
+    },
+    {
+      "start": 1059.0,
+      "end": 1064.0,
+      "text": "Last week's launch of Black Ops 6 was the biggest Call of Duty release ever."
+    },
+    {
+      "start": 1064.0,
+      "end": 1070.0,
+      "text": "Setting a record for day one players as well as Game Pass subscriber ads on launch day."
+    },
+    {
+      "start": 1070.0,
+      "end": 1076.0,
+      "text": "And unit sales on PlayStation and Steam were also up over 60% Euro year."
+    },
+    {
+      "start": 1076.0,
+      "end": 1083.0,
+      "text": "This speaks to our strategy of meeting gamers where they are by enabling them to play more games across the screens"
+    },
+    {
+      "start": 1083.0,
+      "end": 1085.0,
+      "text": "they spend their time on."
+    },
+    {
+      "start": 1085.0,
+      "end": 1092.0,
+      "text": "In closing we are rapidly innovating to expand our opportunity across our commercial and consumer businesses."
+    },
+    {
+      "start": 1092.0,
+      "end": 1098.0,
+      "text": "In three weeks time we will hold our Ignite conference and I look forward to sharing more than about how we are helping"
+    },
+    {
+      "start": 1098.0,
+      "end": 1102.0,
+      "text": "every business function use AI to drive growth in this new era."
+    },
+    {
+      "start": 1102.0,
+      "end": 1104.0,
+      "text": "With that let me turn it over to Amy."
+    },
+    {
+      "start": 1104.0,
+      "end": 1106.0,
+      "text": "Thank you Satya and good afternoon everyone."
+    },
+    {
+      "start": 1106.0,
+      "end": 1115.0,
+      "text": "This quarter revenue was 65.6 billion dollars up 16% and earnings per share was $3.30 an increase of 10%."
+    },
+    {
+      "start": 1115.0,
+      "end": 1121.0,
+      "text": "With strong execution by our sales teams and partners we delivered a solid start to our fiscal year."
+    },
+    {
+      "start": 1121.0,
+      "end": 1124.0,
+      "text": "We doubled digit top and bottom line growth."
+    },
+    {
+      "start": 1124.0,
+      "end": 1128.0,
+      "text": "We also saw continued share games across many of our businesses."
+    },
+    {
+      "start": 1129.0,
+      "end": 1137.0,
+      "text": "In our commercial business increased demand and growth in long term commitments to our Microsoft cloud platform drove our results."
+    },
+    {
+      "start": 1137.0,
+      "end": 1144.0,
+      "text": "Commercial bookings were ahead of expectations and increased 30% and 23% in constant currency."
+    },
+    {
+      "start": 1144.0,
+      "end": 1151.0,
+      "text": "Results were driven by strong execution across our core annuity sales motions and growth in the number of $10 million plus"
+    },
+    {
+      "start": 1151.0,
+      "end": 1155.0,
+      "text": "contracts for both Azure and Microsoft 365."
+    },
+    {
+      "start": 1156.0,
+      "end": 1162.0,
+      "text": "Additionally we also saw an increase in the number of $100 million plus contracts for Azure."
+    },
+    {
+      "start": 1162.0,
+      "end": 1170.0,
+      "text": "Commercial remaining performance obligation increased 22% and 21% in constant currency to $259 billion."
+    },
+    {
+      "start": 1170.0,
+      "end": 1176.0,
+      "text": "Roughly 40% will be recognized in revenue in the next 12 months up 17% year over year."
+    },
+    {
+      "start": 1176.0,
+      "end": 1181.0,
+      "text": "The remaining portion recognized beyond the next 12 months increased 27%."
+    },
+    {
+      "start": 1182.0,
+      "end": 1186.0,
+      "text": "And this quarter our annuity mix increased to 98%."
+    },
+    {
+      "start": 1186.0,
+      "end": 1190.0,
+      "text": "In addition to commercial results that were in line with expectations,"
+    },
+    {
+      "start": 1190.0,
+      "end": 1196.0,
+      "text": "we also saw some benefit from in-period revenue recognition across Microsoft 365 commercial,"
+    },
+    {
+      "start": 1196.0,
+      "end": 1199.0,
+      "text": "Azure and our on-premises server business."
+    },
+    {
+      "start": 1199.0,
+      "end": 1205.0,
+      "text": "At a company level, Activision contributed a net impact of approximately three points to revenue growth"
+    },
+    {
+      "start": 1205.0,
+      "end": 1211.0,
+      "text": "was a two point drag on operating income growth and had a negative five cent impact to earnings per share."
+    },
+    {
+      "start": 1211.0,
+      "end": 1216.0,
+      "text": "A reminder that this net impact includes adjusting for the movement of Activision content"
+    },
+    {
+      "start": 1216.0,
+      "end": 1222.0,
+      "text": "from our prior relationship as a third party partner to first party and includes $911 million from purchase"
+    },
+    {
+      "start": 1222.0,
+      "end": 1227.0,
+      "text": "accounting adjustments, integration and transaction related costs."
+    },
+    {
+      "start": 1227.0,
+      "end": 1232.0,
+      "text": "FX did not have a significant impact on our results and was roughly in line with expectations on total"
+    },
+    {
+      "start": 1232.0,
+      "end": 1238.0,
+      "text": "company revenue, segment level revenue, cogs and operating expense growth."
+    },
+    {
+      "start": 1238.0,
+      "end": 1245.0,
+      "text": "Microsoft crowd revenue was $38.9 billion and grew 22% roughly in line with expectations."
+    },
+    {
+      "start": 1245.0,
+      "end": 1250.0,
+      "text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%."
+    },
+    {
+      "start": 1250.0,
+      "end": 1254.0,
+      "text": "This was slightly better than expected due to improvement in Azure."
+    },
+    {
+      "start": 1254.0,
+      "end": 1261.0,
+      "text": "Although the gross margin percentage decreased year over year continues to be driven by scaling our AI infrastructure."
+    },
+    {
+      "start": 1261.0,
+      "end": 1270.0,
+      "text": "Company gross margin dollars increased 13% and 14% in constant currency and gross margin percentage was 69% down 2.0 over year,"
+    },
+    {
+      "start": 1270.0,
+      "end": 1273.0,
+      "text": "driven by the lower Microsoft cloud gross margin noted earlier,"
+    },
+    {
+      "start": 1273.0,
+      "end": 1279.0,
+      "text": "as well as the impact from purchase accounting adjustments, integration and transaction related cost from the Activision acquisition."
+    },
+    {
+      "start": 1279.0,
+      "end": 1287.0,
+      "text": "Operating expenses increased 12% lower than expected due to our focus on cost efficiencies and ongoing prioritization work."
+    },
+    {
+      "start": 1287.0,
+      "end": 1292.0,
+      "text": "Operating expense growth included 9 points from the Activision acquisition."
+    },
+    {
+      "start": 1292.0,
+      "end": 1298.0,
+      "text": "At a total company level, headcount at the end of September was 8% higher than a year ago."
+    },
+    {
+      "start": 1298.0,
+      "end": 1303.0,
+      "text": "Excluding the growth from the Activision acquisition, headcount was 2% higher."
+    },
+    {
+      "start": 1303.0,
+      "end": 1310.0,
+      "text": "Operating income increased 14% and operating margins were 47% down 1.0 over year."
+    },
+    {
+      "start": 1310.0,
+      "end": 1316.0,
+      "text": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0."
+    },
+    {
+      "start": 1316.0,
+      "end": 1322.0,
+      "text": "We continue to drive efficiencies across our businesses as we invest in AI infrastructure and capabilities."
+    },
+    {
+      "start": 1322.0,
+      "end": 1325.0,
+      "text": "Now to our segment results."
+    },
+    {
+      "start": 1325.0,
+      "end": 1333.0,
+      "text": "Revenue from productivity and business processes was $28.3 billion in grew 12% and 13% in constant currency, ahead of expectations,"
+    },
+    {
+      "start": 1333.0,
+      "end": 1336.0,
+      "text": "driven by better than expected results across all businesses."
+    },
+    {
+      "start": 1336.0,
+      "end": 1344.0,
+      "text": "M365 commercial cloud revenue increased 15% and 16% in constant currency with business trends that were as expected."
+    },
+    {
+      "start": 1344.0,
+      "end": 1350.0,
+      "text": "The better than expected result was due to a small benefit from the end period revenue recognition noted earlier."
+    },
+    {
+      "start": 1350.0,
+      "end": 1355.0,
+      "text": "Our pregrowth was primarily driven by E5 as well as M365 co-pilot."
+    },
+    {
+      "start": 1355.0,
+      "end": 1363.0,
+      "text": "Paid M365 commercial seats grew 8% year over year with installed basic expansion across all customer segments."
+    },
+    {
+      "start": 1363.0,
+      "end": 1368.0,
+      "text": "Seat growth was driven by our small and medium business and frontline worker offerings."
+    },
+    {
+      "start": 1368.0,
+      "end": 1376.0,
+      "text": "M365 commercial cloud revenue represents nearly 90% of total M365 commercial products and cloud services."
+    },
+    {
+      "start": 1376.0,
+      "end": 1382.0,
+      "text": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,"
+    },
+    {
+      "start": 1382.0,
+      "end": 1386.0,
+      "text": "primarily due to the benefit from inquiry revenue recognition noted earlier."
+    },
+    {
+      "start": 1386.0,
+      "end": 1392.0,
+      "text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency."
+    },
+    {
+      "start": 1392.0,
+      "end": 1401.0,
+      "text": "M365 consumer cloud revenue increased 6% and 7% in constant currency with continued momentum in M365 consumer subscriptions,"
+    },
+    {
+      "start": 1401.0,
+      "end": 1404.0,
+      "text": "which grew 10% to 84.4 million."
+    },
+    {
+      "start": 1404.0,
+      "end": 1412.0,
+      "text": "M365 consumer cloud revenue represents 85% of total M365 consumer products and cloud services."
+    },
+    {
+      "start": 1412.0,
+      "end": 1421.0,
+      "text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business."
+    },
+    {
+      "start": 1421.0,
+      "end": 1434.0,
+      "text": "Dynamics revenue grew 14% driven by Dynamics 365, which grew 18% and 19% in constant currency with continued growth across all workloads and continued share gains."
+    },
+    {
+      "start": 1434.0,
+      "end": 1440.0,
+      "text": "As a reminder, Dynamics 365 represents about 90% of total Dynamics revenue."
+    },
+    {
+      "start": 1441.0,
+      "end": 1451.0,
+      "text": "Segment gross margin dollars increased 11% and 12% in constant currency and gross margin percentage decreased slightly year over year, driven by scaling our AI infrastructure."
+    },
+    {
+      "start": 1451.0,
+      "end": 1457.0,
+      "text": "Operating expenses increased 2% and operating income increased 16%."
+    },
+    {
+      "start": 1457.0,
+      "end": 1460.0,
+      "text": "Next, the intelligent cloud segment."
+    },
+    {
+      "start": 1460.0,
+      "end": 1467.0,
+      "text": "Revenue was $24.1 billion, increasing 20% and 21% in constant currency in line with expectations."
+    },
+    {
+      "start": 1467.0,
+      "end": 1476.0,
+      "text": "Azure and other cloud services revenue grew 33% and 34% in constant currency with healthy consumption trends that were in line with expectations."
+    },
+    {
+      "start": 1476.0,
+      "end": 1482.0,
+      "text": "The better than expected result was due to the small benefit from in period revenue recognition noted earlier."
+    },
+    {
+      "start": 1482.0,
+      "end": 1487.0,
+      "text": "Azure growth included roughly 12 points from AI services similar to last quarter."
+    },
+    {
+      "start": 1487.0,
+      "end": 1491.0,
+      "text": "Demand continues to be higher than our available capacity."
+    },
+    {
+      "start": 1492.0,
+      "end": 1502.0,
+      "text": "Non-AI growth trends were also in line with expectations in total and across regions as customers continued to migrate and modernize on the Azure platform."
+    },
+    {
+      "start": 1502.0,
+      "end": 1509.0,
+      "text": "The non-AI point contribution to Azure growth was sequentially lower by approximately one point."
+    },
+    {
+      "start": 1509.0,
+      "end": 1513.0,
+      "text": "In our on-premises server business, revenue decreased 1%."
+    },
+    {
+      "start": 1513.0,
+      "end": 1528.0,
+      "text": "Lower than expected transactional purchasing ahead of the Windows Server 2025 launch as well as lower purchasing of licenses running in multi cloud environments was mostly offset by the benefit from in period revenue recognition noted earlier."
+    },
+    {
+      "start": 1528.0,
+      "end": 1534.0,
+      "text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency."
+    },
+    {
+      "start": 1534.0,
+      "end": 1542.0,
+      "text": "Segment gross margin dollars increased 15% and gross margin percentage decreased 3.0 over year, driven by scaling our AI infrastructure."
+    },
+    {
+      "start": 1542.0,
+      "end": 1547.0,
+      "text": "Operating expenses increased 8% and operating income grew 18%."
+    },
+    {
+      "start": 1547.0,
+      "end": 1549.0,
+      "text": "Now to more personal computing."
+    },
+    {
+      "start": 1549.0,
+      "end": 1557.0,
+      "text": "Revenue was 13.2 billion dollars, increasing 17% with 15 points of net impact from the Activision acquisition."
+    },
+    {
+      "start": 1557.0,
+      "end": 1562.0,
+      "text": "Results were above expectations driven by gaming and search."
+    },
+    {
+      "start": 1562.0,
+      "end": 1566.0,
+      "text": "Windows OEM and devices revenue increased 2% year over year."
+    },
+    {
+      "start": 1566.0,
+      "end": 1578.0,
+      "text": "As better than expected results in Windows OEM due to mix shift to higher monetizing markets was partially offset by the lower than expected results and devices due to execution challenges in the commercial segment."
+    },
+    {
+      "start": 1578.0,
+      "end": 1588.0,
+      "text": "Search and news advertising revenue Xtac increased 18% and 19% in constant currency ahead of expectations primarily due to continued execution improvement."
+    },
+    {
+      "start": 1588.0,
+      "end": 1595.0,
+      "text": "We saw rate expansion in addition to healthy volume growth in both edge and being."
+    },
+    {
+      "start": 1595.0,
+      "end": 1604.0,
+      "text": "And in gaming revenue increased 43% and 44% in constant currency with 43 points of net impact from the Activision acquisition."
+    },
+    {
+      "start": 1604.0,
+      "end": 1611.0,
+      "text": "Results were ahead of expectation driven by stronger than expected performance in both first and third party content as well as consoles."
+    },
+    {
+      "start": 1611.0,
+      "end": 1619.0,
+      "text": "Xbox content services revenue increased 61% with 53 points of net impact from the Activision acquisition."
+    },
+    {
+      "start": 1619.0,
+      "end": 1627.0,
+      "text": "Segment gross margin dollars increased 16% and 17% in constant currency with 12 points of net impact from the Activision acquisition."
+    },
+    {
+      "start": 1627.0,
+      "end": 1631.0,
+      "text": "Gross margin percentage was relatively unchanged year over year."
+    },
+    {
+      "start": 1631.0,
+      "end": 1638.0,
+      "text": "Our strong execution on margin improvement in gaming and search was offset by sales mix shift to those businesses."
+    },
+    {
+      "start": 1638.0,
+      "end": 1646.0,
+      "text": "Operating expenses increased 49% with 51 points from the Activision acquisition operating income decreased 4%."
+    },
+    {
+      "start": 1646.0,
+      "end": 1649.0,
+      "text": "Now back to total company results."
+    },
+    {
+      "start": 1649.0,
+      "end": 1659.0,
+      "text": "Capital expenditures including finance leases were $20 billion in line with expectations and cash paid for PP&E was 14.9 billion dollars."
+    },
+    {
+      "start": 1659.0,
+      "end": 1669.0,
+      "text": "Roughly half of our cloud and AI related spend continues to be for long lived assets that will support monetization over the next 15 years and beyond."
+    },
+    {
+      "start": 1670.0,
+      "end": 1678.0,
+      "text": "The remaining cloud and AI spend is primarily for servers both CPUs and GPUs to serve customers based on demand signals."
+    },
+    {
+      "start": 1678.0,
+      "end": 1689.0,
+      "text": "Cashflow from operations with $34.2 billion up 12% driven by strong cloud buildings and collections partially offset by higher supplier employee and tax payments."
+    },
+    {
+      "start": 1689.0,
+      "end": 1698.0,
+      "text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings."
+    },
+    {
+      "start": 1698.0,
+      "end": 1709.0,
+      "text": "This quarter other income expense was negative $283 million significantly more favorable than anticipated due to foreign currency re measurement and net gains on investments."
+    },
+    {
+      "start": 1709.0,
+      "end": 1714.0,
+      "text": "Our losses on investments accounted for under the equity method were as expected."
+    },
+    {
+      "start": 1714.0,
+      "end": 1723.0,
+      "text": "Our effective tax rate was approximately 19% and finally we return $9 billion to shareholders through dividends and share repurchases."
+    },
+    {
+      "start": 1724.0,
+      "end": 1730.0,
+      "text": "Now moving to our Q2 outlook which unless specifically noted otherwise is on a US dollar basis."
+    },
+    {
+      "start": 1730.0,
+      "end": 1735.0,
+      "text": "First FX with the weaker US dollar and assuming current rates remain stable."
+    },
+    {
+      "start": 1735.0,
+      "end": 1741.0,
+      "text": "We expect FX to increase total revenue and segment level revenue growth by less than one point."
+    },
+    {
+      "start": 1741.0,
+      "end": 1747.0,
+      "text": "We expect FX to have no meaningful impact to cogs or operating expense growth."
+    },
+    {
+      "start": 1747.0,
+      "end": 1752.0,
+      "text": "Our outlook has many of the trends we saw in Q1 continue through Q2."
+    },
+    {
+      "start": 1752.0,
+      "end": 1759.0,
+      "text": "Customer demand for our differentiated solutions should drive another quarter of strong growth."
+    },
+    {
+      "start": 1759.0,
+      "end": 1772.0,
+      "text": "In commercial bookings we expect strong growth on a growing x-free base driven by increased long term commitments to our platform and strong execution across core annuity sales motions."
+    },
+    {
+      "start": 1773.0,
+      "end": 1782.0,
+      "text": "As a reminder larger long term measure contracts which are more unpredictable in their timing can drive increased quarterly volatility in our bookings growth rate."
+    },
+    {
+      "start": 1782.0,
+      "end": 1791.0,
+      "text": "Microsoft cloud growth margin percentage should be roughly 70% down year over year driven by the impact of scaling our AI infrastructure."
+    },
+    {
+      "start": 1791.0,
+      "end": 1797.0,
+      "text": "We expect capital expenditures to increase on a sequential basis given our cloud and AI demand signals."
+    },
+    {
+      "start": 1797.0,
+      "end": 1803.0,
+      "text": "As I said last quarter we will stay aligned and if needed adjust to the demand signals we see."
+    },
+    {
+      "start": 1803.0,
+      "end": 1811.0,
+      "text": "As a reminder there can be quarterly spend variability from cloud infrastructure build outs and the timing of delivery of finance leases."
+    },
+    {
+      "start": 1811.0,
+      "end": 1817.0,
+      "text": "Next segment guidance starting with productivity and business processes."
+    },
+    {
+      "start": 1817.0,
+      "end": 1827.0,
+      "text": "We are the market leader when it comes to knowledge based co-pilots and agents in the enterprise space and we are focused on continuing to gain share across our productivity solutions."
+    },
+    {
+      "start": 1827.0,
+      "end": 1838.0,
+      "text": "Therefore we expect revenue and productivity and business processes to grow between 10 and 11 percent in constant currency or 28.7 to 29 billion US dollars."
+    },
+    {
+      "start": 1839.0,
+      "end": 1852.0,
+      "text": "M365 commercial cloud revenue growth should be approximately 14% in constant currency with moderating seat growth across customer segments and our food growth through E5 and M365 co-pilots."
+    },
+    {
+      "start": 1852.0,
+      "end": 1857.0,
+      "text": "For H2 we expect revenue growth to remain relatively stable compared to Q2."
+    },
+    {
+      "start": 1857.0,
+      "end": 1865.0,
+      "text": "We continue to see growth in M365 co-pilots seats and we expect the related revenue to continue to grow gradually over time."
+    },
+    {
+      "start": 1865.0,
+      "end": 1870.0,
+      "text": "For M365 commercial products we expect revenue to decline in the low single digits."
+    },
+    {
+      "start": 1870.0,
+      "end": 1877.0,
+      "text": "As a reminder M365 commercial products include on-premises components of M365 suites."
+    },
+    {
+      "start": 1877.0,
+      "end": 1884.0,
+      "text": "So our quarterly revenue growth can have variability primarily from in period revenue recognition depending on the mix of contracts."
+    },
+    {
+      "start": 1884.0,
+      "end": 1890.0,
+      "text": "M365 consumer cloud revenue growth should be in the mid single digits driven by M365 subscriptions."
+    },
+    {
+      "start": 1890.0,
+      "end": 1897.0,
+      "text": "For LinkedIn we expect revenue growth of approximately 10 percent driven by continued growth across all businesses."
+    },
+    {
+      "start": 1897.0,
+      "end": 1906.0,
+      "text": "And in Dynamics 365 we expect revenue growth to be in the mid to high teams driven by continued growth across all workloads."
+    },
+    {
+      "start": 1906.0,
+      "end": 1916.0,
+      "text": "Next intelligent cloud helping our customers transform and grow with innovative cloud and AI solutions is driving continued growth in Azure."
+    },
+    {
+      "start": 1916.0,
+      "end": 1928.0,
+      "text": "Therefore we expect revenue and intelligent cloud to grow between 18 and 20 percent in constant currency or 25.55 to 25.85 billion US dollars."
+    },
+    {
+      "start": 1928.0,
+      "end": 1939.0,
+      "text": "Revenue will continue to be driven by Azure which as a reminder can have quarterly variability primarily from in period revenue recognition depending on the mix of contracts."
+    },
+    {
+      "start": 1939.0,
+      "end": 1948.0,
+      "text": "In Azure we expect Q2 revenue growth to be 31 to 32 percent in constant currency driven by strong demand for our portfolio of services."
+    },
+    {
+      "start": 1948.0,
+      "end": 1958.0,
+      "text": "We expect consumption growth to be stable compared to Q1 and we expect to add more sequential dollars to Azure than any other quarter in history."
+    },
+    {
+      "start": 1958.0,
+      "end": 1965.0,
+      "text": "We expect the contribution from AI services to be similar to last quarter given the continued capacity constraints."
+    },
+    {
+      "start": 1965.0,
+      "end": 1969.0,
+      "text": "As well as some capacity that shifted out of Q2."
+    },
+    {
+      "start": 1969.0,
+      "end": 1980.0,
+      "text": "And in H2 we still expect Azure growth to accelerate from H1 as our capital investments create an increase in available AI capacity to serve more of the growing demand."
+    },
+    {
+      "start": 1980.0,
+      "end": 1991.0,
+      "text": "And in our on-premises server business we expect revenue to decline the low to mid single digits on a prior year comparable that benefited from purchasing ahead of Windows Server 2012 and support."
+    },
+    {
+      "start": 1992.0,
+      "end": 1997.0,
+      "text": "And in enterprise and partner services we expect revenue growth to be in the low single digits."
+    },
+    {
+      "start": 1997.0,
+      "end": 2000.0,
+      "text": "Now to more personal computing."
+    },
+    {
+      "start": 2000.0,
+      "end": 2007.0,
+      "text": "We continue to make decisions to prioritize strategic higher margin opportunities within each of our consumer businesses."
+    },
+    {
+      "start": 2007.0,
+      "end": 2015.0,
+      "text": "Our outlook reflects the improvement in growth and operating margins from this prioritization work across gaming search and devices."
+    },
+    {
+      "start": 2016.0,
+      "end": 2023.0,
+      "text": "We expect revenue and more personal computing to be 13.85 to 14.25 billion US dollars."
+    },
+    {
+      "start": 2023.0,
+      "end": 2028.0,
+      "text": "Windows OEM and devices revenue should decline in the low to mid single digits."
+    },
+    {
+      "start": 2028.0,
+      "end": 2036.0,
+      "text": "We expect Windows OEM revenue growth in line with PC market to be more than offset by a decline in devices as the trends from Q1 continue."
+    },
+    {
+      "start": 2036.0,
+      "end": 2044.0,
+      "text": "Search and news advertising ex tech revenue growth should be in the high teens with continued growth in both volume and revenue per search."
+    },
+    {
+      "start": 2044.0,
+      "end": 2051.0,
+      "text": "This will be higher than overall search and news advertising revenue growth which we expect to be in the high single digits."
+    },
+    {
+      "start": 2051.0,
+      "end": 2056.0,
+      "text": "And in gaming we expect revenue to decline in the high single digits due to hardware."
+    },
+    {
+      "start": 2056.0,
+      "end": 2060.0,
+      "text": "We expect Xbox content and services revenue growth to be relatively flat."
+    },
+    {
+      "start": 2060.0,
+      "end": 2069.0,
+      "text": "We're excited about last week's launch of Call of Duty where we saw the most game pass subscriber ads we've ever seen on a launch day."
+    },
+    {
+      "start": 2070.0,
+      "end": 2077.0,
+      "text": "There are two things about the launch that are different than the Call of Duty launch a year ago where revenue was mostly recognized in the quarter of purchase."
+    },
+    {
+      "start": 2077.0,
+      "end": 2080.0,
+      "text": "First, the game is available on game pass."
+    },
+    {
+      "start": 2080.0,
+      "end": 2086.0,
+      "text": "So for players who play through game pass, the subscription revenue is recognized over time."
+    },
+    {
+      "start": 2086.0,
+      "end": 2090.0,
+      "text": "Second, the game requires an online connection to play."
+    },
+    {
+      "start": 2090.0,
+      "end": 2097.0,
+      "text": "So even for players who purchase the standalone game, revenue recognition will also occur radically over time."
+    },
+    {
+      "start": 2097.0,
+      "end": 2099.0,
+      "text": "Now back to company guidance."
+    },
+    {
+      "start": 2099.0,
+      "end": 2107.0,
+      "text": "We expect cogs to grow between 11 and 13% in constant currency or to be between 21.9 to 22.1 billion US dollars."
+    },
+    {
+      "start": 2107.0,
+      "end": 2116.0,
+      "text": "And operating expense to grow approximately 7% in constant currency or to be between 16.4 and 16.5 billion US dollars."
+    },
+    {
+      "start": 2116.0,
+      "end": 2121.0,
+      "text": "This should result in another quarter of operating margin expansion."
+    },
+    {
+      "start": 2122.0,
+      "end": 2127.0,
+      "text": "Other income and expense is expected to be roughly negative $1.5 billion."
+    },
+    {
+      "start": 2127.0,
+      "end": 2134.0,
+      "text": "Primarily driven by our share of the expected loss from OpenAI, which is accounted for under the equity method."
+    },
+    {
+      "start": 2134.0,
+      "end": 2140.0,
+      "text": "As a reminder, we do not recognize mark to market gains or losses on equity method investment."
+    },
+    {
+      "start": 2140.0,
+      "end": 2148.0,
+      "text": "As you heard from Satya, our strategic partnership and investment in OpenAI has been pivotal in building and scaling our AI business"
+    },
+    {
+      "start": 2148.0,
+      "end": 2152.0,
+      "text": "and positioning us as the leader in the AI platform live."
+    },
+    {
+      "start": 2152.0,
+      "end": 2157.0,
+      "text": "And lastly, we expect our Q2 effective tax rate to be approximately 19%."
+    },
+    {
+      "start": 2157.0,
+      "end": 2165.0,
+      "text": "In closing, we remain focused on strategically investing in the long-term opportunities that we believe drives shareholder value."
+    },
+    {
+      "start": 2165.0,
+      "end": 2168.0,
+      "text": "Monetization from these investments continues to grow."
+    },
+    {
+      "start": 2168.0,
+      "end": 2177.0,
+      "text": "And we're excited that only two and a half years in, our AI business is on track to surpass $10 billion of annual revenue run rate in Q2."
+    },
+    {
+      "start": 2178.0,
+      "end": 2182.0,
+      "text": "This will be the fastest business in our history to reach this milestone."
+    },
+    {
+      "start": 2182.0,
+      "end": 2190.0,
+      "text": "We are committed to growing this leadership position across our entire Microsoft cloud while maintaining our disciplined focus on cost management"
+    },
+    {
+      "start": 2190.0,
+      "end": 2193.0,
+      "text": "and prioritization across every team."
+    },
+    {
+      "start": 2193.0,
+      "end": 2195.0,
+      "text": "With that, let's go to Q&A Brett."
+    },
+    {
+      "start": 2195.0,
+      "end": 2197.0,
+      "text": "Thanks, Amy."
+    },
+    {
+      "start": 2197.0,
+      "end": 2199.0,
+      "text": "We'll now move over to Q&A."
+    },
+    {
+      "start": 2199.0,
+      "end": 2204.0,
+      "text": "Out of respect for others with a call, we request the participants please only ask one question."
+    },
+    {
+      "start": 2204.0,
+      "end": 2206.0,
+      "text": "Operator, can you please repeat your instructions?"
+    },
+    {
+      "start": 2207.0,
+      "end": 2208.0,
+      "text": "Thank you."
+    },
+    {
+      "start": 2208.0,
+      "end": 2217.0,
+      "text": "Ladies and gentlemen, if you would like to ask a question, please press star one on your telephone keypad and a confirmation tool will indicate your line is in the question queue."
+    },
+    {
+      "start": 2217.0,
+      "end": 2221.0,
+      "text": "You may press star two if you would like to remove your question from the queue."
+    },
+    {
+      "start": 2221.0,
+      "end": 2229.0,
+      "text": "Participants using speaker equipment and may be necessary to pick up your handset before pressing the star keys."
+    },
+    {
+      "start": 2230.0,
+      "end": 2235.0,
+      "text": "And our first question comes from the line of Keith Weiss with Morgan Stanley."
+    },
+    {
+      "start": 2235.0,
+      "end": 2237.0,
+      "text": "Please proceed."
+    },
+    {
+      "start": 2237.0,
+      "end": 2238.0,
+      "text": "Excellent."
+    },
+    {
+      "start": 2238.0,
+      "end": 2240.0,
+      "text": "Thank you guys for taking the question."
+    },
+    {
+      "start": 2240.0,
+      "end": 2243.0,
+      "text": "And congratulations on a really solid quarter."
+    },
+    {
+      "start": 2243.0,
+      "end": 2250.0,
+      "text": "The expansion of capabilities, the speed of innovation, the magnitude of the opportunity to head for gender."
+    },
+    {
+      "start": 2250.0,
+      "end": 2258.0,
+      "text": "It makes this the most exciting period for software I've seen in my 25 years of covering the space and based upon this call, it seems like you share that excitement."
+    },
+    {
+      "start": 2258.0,
+      "end": 2264.0,
+      "text": "But in my investor conversation, that excitement also feeds two related questions and they both have to do with constraints."
+    },
+    {
+      "start": 2264.0,
+      "end": 2278.0,
+      "text": "And the first is, like, what are the internal constraints or guardrails that Microsoft has when it comes to investing behind these innovations, particularly in relation to the funding of future generations of foundational models where people were talking about price tags,"
+    },
+    {
+      "start": 2279.0,
+      "end": 2297.0,
+      "text": "and then on the other side of the spectrum, what are the external constraints that Microsoft sees in building out this capacity to meet the demand and capture the opportunity, particularly constraints in your ability to power all these new data centers being built out, empowered in an environmentally sustainable fashion?"
+    },
+    {
+      "start": 2297.0,
+      "end": 2301.0,
+      "text": "I'd love to get to Microsoft perspective on both those questions."
+    },
+    {
+      "start": 2302.0,
+      "end": 2304.0,
+      "text": "Thank you, Keith, for those questions."
+    },
+    {
+      "start": 2304.0,
+      "end": 2317.0,
+      "text": "I think on the first point, ultimately, when you think about, let's say, a capital outlay for training, because that's essentially what you're asking."
+    },
+    {
+      "start": 2317.0,
+      "end": 2323.0,
+      "text": "It is going to be rate limited by your monetization of inference in a given generation."
+    },
+    {
+      "start": 2323.0,
+      "end": 2334.0,
+      "text": "So just like in the past, we would allocate capital to build out cloud based on the demand signal we were seeing, and then we would then project the demand, and that's what we would build for."
+    },
+    {
+      "start": 2334.0,
+      "end": 2344.0,
+      "text": "So you can think of training, essentially, as that, which is you're building the next generation model so that then you have a more capable model that then drives more inference demand."
+    },
+    {
+      "start": 2345.0,
+      "end": 2352.0,
+      "text": "So ultimately, even with all the scaling laws and what have you, I think, you ultimately will normalize to having a pace."
+    },
+    {
+      "start": 2352.0,
+      "end": 2362.0,
+      "text": "In fact, I think the best way to think about even is given the Moore's law effectively is working on the sort of silicon and system side."
+    },
+    {
+      "start": 2362.0,
+      "end": 2368.0,
+      "text": "So it's just not compute credit deficiencies in computed data as well as algorithms."
+    },
+    {
+      "start": 2368.0,
+      "end": 2381.0,
+      "text": "You will want to sort of keep on that curve, which is you really want to refresh your fleet with the Moore's law every year, and then effectively depreciate it over the period of the lifecycle of it."
+    },
+    {
+      "start": 2381.0,
+      "end": 2391.0,
+      "text": "And then the inference demand ultimately will govern how much we invest in training, because that's, I think, at the end of the day, you're all subject to ultimately demand."
+    },
+    {
+      "start": 2391.0,
+      "end": 2401.0,
+      "text": "The second piece of the external constraints, we have run into, obviously, lots of external constraints, because this demand all showed up pretty fast, right?"
+    },
+    {
+      "start": 2401.0,
+      "end": 2413.0,
+      "text": "I mean, if you think about even taking the most hit product of this generation, all are in our cloud, whether it's chat, GPT, whether it's copilot, whether it's GitHub copilot, or even DAX copilot."
+    },
+    {
+      "start": 2413.0,
+      "end": 2420.0,
+      "text": "So we take the top four or five products of this generation, they're all sort of in and around our ecosystem."
+    },
+    {
+      "start": 2420.0,
+      "end": 2430.0,
+      "text": "And so therefore, we ran into a set of constraints, which are everything, because DCs don't get built overnight, so there is DCs, there is power."
+    },
+    {
+      "start": 2430.0,
+      "end": 2433.0,
+      "text": "And so that's sort of being the short-term constraint."
+    },
+    {
+      "start": 2433.0,
+      "end": 2442.0,
+      "text": "Even in Q2, for example, some of the demand issues we have are the ability to fulfill demand is because of, in fact, external third-body stuff that we leased moving up."
+    },
+    {
+      "start": 2442.0,
+      "end": 2453.0,
+      "text": "So that's the constraint we have, but in the long run, we do need effectively power, and we need DCs, and some of these things are more long lead."
+    },
+    {
+      "start": 2453.0,
+      "end": 2462.0,
+      "text": "But I feel pretty good that going into the second half of even this fiscal year, that some of that supply demand will match up."
+    },
+    {
+      "start": 2462.0,
+      "end": 2465.0,
+      "text": "Excellent. Thank you."
+    },
+    {
+      "start": 2465.0,
+      "end": 2469.0,
+      "text": "Thanks, Keith. Operator, next question, please."
+    },
+    {
+      "start": 2470.0,
+      "end": 2475.0,
+      "text": "The next question comes from the line of Brentville with Jeffries. Please proceed."
+    },
+    {
+      "start": 2475.0,
+      "end": 2486.0,
+      "text": "Thanks, Amy. Good to hear the redecceleration in the back half for Azure. I guess many are asking, you know, 34% growth in Q1 falling to low 30s."
+    },
+    {
+      "start": 2486.0,
+      "end": 2498.0,
+      "text": "I know the comp is a couple points harder, but is there anything else you're contemplating in that guide for Q2 to see that deceleration other than a tougher comp? Thank you."
+    },
+    {
+      "start": 2499.0,
+      "end": 2507.0,
+      "text": "Thanks, Brent. Maybe this is a great question because I can sort of reiterate some of the points I made and tie them together a little bit."
+    },
+    {
+      "start": 2507.0,
+      "end": 2520.0,
+      "text": "In Q1, the 34 in CC, as we talked about, you know, that upside versus the 33 that we had guided to was primarily due to some revenue recognition benefits."
+    },
+    {
+      "start": 2520.0,
+      "end": 2529.0,
+      "text": "And so I think about that on a sort of a pure consumption basis and AI as being, you know, 33."
+    },
+    {
+      "start": 2529.0,
+      "end": 2534.0,
+      "text": "And you think about a point or two of these all that we've guided to."
+    },
+    {
+      "start": 2534.0,
+      "end": 2544.0,
+      "text": "And the majority of that is due to, unfortunately, some supply push out that I mentioned and then soccer reiterated in terms of AI supply coming online that we counted on."
+    },
+    {
+      "start": 2544.0,
+      "end": 2550.0,
+      "text": "The underlying consumption growth is stable Q1 to Q2."
+    },
+    {
+      "start": 2550.0,
+      "end": 2556.0,
+      "text": "And so to your question on some ins and outs, it is certainly some ins and outs."
+    },
+    {
+      "start": 2556.0,
+      "end": 2567.0,
+      "text": "I do, as you heard, have confidence as we get a good influx of supply across the second half of the year, particularly on the AI side,"
+    },
+    {
+      "start": 2567.0,
+      "end": 2571.0,
+      "text": "that will be better able to do some supply-demand matching."
+    },
+    {
+      "start": 2571.0,
+      "end": 2581.0,
+      "text": "And hence, while we're talking about acceleration in the back half, I'll also take the opportunity to say when you see usage in AI workloads,"
+    },
+    {
+      "start": 2581.0,
+      "end": 2585.0,
+      "text": "we always intend to think about that as just a GPU exercise."
+    },
+    {
+      "start": 2585.0,
+      "end": 2591.0,
+      "text": "The importance of having GPUs and CPUs be able to run these workloads is also important."
+    },
+    {
+      "start": 2591.0,
+      "end": 2595.0,
+      "text": "So that's a piece of the acceleration at H2 as well."
+    },
+    {
+      "start": 2595.0,
+      "end": 2600.0,
+      "text": "Thanks, Brent."
+    },
+    {
+      "start": 2600.0,
+      "end": 2601.0,
+      "text": "Thank you, Brent."
+    },
+    {
+      "start": 2601.0,
+      "end": 2604.0,
+      "text": "Operator, next question, please."
+    },
+    {
+      "start": 2604.0,
+      "end": 2608.0,
+      "text": "The next question comes from the line of Mark Mortler with Bernstein."
+    },
+    {
+      "start": 2608.0,
+      "end": 2610.0,
+      "text": "Please proceed."
+    },
+    {
+      "start": 2610.0,
+      "end": 2614.0,
+      "text": "Thank you very much for taking my question, and congratulations on the quarter."
+    },
+    {
+      "start": 2614.0,
+      "end": 2624.0,
+      "text": "The question every investor obviously asked is a question on the capex growth and the capex spend obviously half of that facility is an equivalent that ever longer life."
+    },
+    {
+      "start": 2624.0,
+      "end": 2627.0,
+      "text": "But the other half is the rest of the components."
+    },
+    {
+      "start": 2627.0,
+      "end": 2631.0,
+      "text": "Can you give any color on how you think of that growth?"
+    },
+    {
+      "start": 2631.0,
+      "end": 2635.0,
+      "text": "Does it return to the traditional approach where basically,"
+    },
+    {
+      "start": 2635.0,
+      "end": 2639.0,
+      "text": "capex is going to grow in line slightly slower than cloud revenue?"
+    },
+    {
+      "start": 2639.0,
+      "end": 2642.0,
+      "text": "If so, any sense of the timing?"
+    },
+    {
+      "start": 2642.0,
+      "end": 2646.0,
+      "text": "Do we have enough facilities online by sometime next year, et cetera?"
+    },
+    {
+      "start": 2646.0,
+      "end": 2648.0,
+      "text": "Any color would be appreciated."
+    },
+    {
+      "start": 2648.0,
+      "end": 2650.0,
+      "text": "Thanks, Mark."
+    },
+    {
+      "start": 2651.0,
+      "end": 2663.0,
+      "text": "I think in some ways it's helpful to go back to the cloud transitions that we worked on over a decade ago, I think, in the early stages."
+    },
+    {
+      "start": 2663.0,
+      "end": 2671.0,
+      "text": "And what you did see, and you'll see us doing the same time, is you have to build to meet demand."
+    },
+    {
+      "start": 2671.0,
+      "end": 2679.0,
+      "text": "Unlike the cloud transition, we're doing it on a global basis in parallel as opposed to sequential, given the nature of the demand."
+    },
+    {
+      "start": 2680.0,
+      "end": 2685.0,
+      "text": "And then as long as we continue to see that demand growth, you're right."
+    },
+    {
+      "start": 2685.0,
+      "end": 2693.0,
+      "text": "The growth in capex will slow and the revenue growth will increase."
+    },
+    {
+      "start": 2693.0,
+      "end": 2698.0,
+      "text": "And those two things, your point get closer and closer together over time."
+    },
+    {
+      "start": 2698.0,
+      "end": 2702.0,
+      "text": "The pace of that entirely depends really on the pace of adoption."
+    },
+    {
+      "start": 2703.0,
+      "end": 2712.0,
+      "text": "And just at this point, some of that spend goes toward building the next training infrastructure, so you won't see all of it in capex."
+    },
+    {
+      "start": 2712.0,
+      "end": 2715.0,
+      "text": "Some of it goes to opex when you're spending it on training."
+    },
+    {
+      "start": 2715.0,
+      "end": 2720.0,
+      "text": "But in general, that's a healthy way to think about the balance as it over time,"
+    },
+    {
+      "start": 2720.0,
+      "end": 2724.0,
+      "text": "as you and should like the last cycle get closer together."
+    },
+    {
+      "start": 2724.0,
+      "end": 2725.0,
+      "text": "Thank you very much."
+    },
+    {
+      "start": 2725.0,
+      "end": 2727.0,
+      "text": "That's very helpful."
+    },
+    {
+      "start": 2727.0,
+      "end": 2728.0,
+      "text": "Thanks, Mark."
+    },
+    {
+      "start": 2728.0,
+      "end": 2731.0,
+      "text": "Operator, next question, please."
+    },
+    {
+      "start": 2731.0,
+      "end": 2735.0,
+      "text": "The next question comes from the line of Carl Kirsten with UBS."
+    },
+    {
+      "start": 2735.0,
+      "end": 2736.0,
+      "text": "Please proceed."
+    },
+    {
+      "start": 2736.0,
+      "end": 2737.0,
+      "text": "Okay, great."
+    },
+    {
+      "start": 2737.0,
+      "end": 2738.0,
+      "text": "Thank you."
+    },
+    {
+      "start": 2738.0,
+      "end": 2745.0,
+      "text": "I'm actually not going to ask a question about the numbers, but I'd love to ask a question about OpenAI."
+    },
+    {
+      "start": 2745.0,
+      "end": 2754.0,
+      "text": "Since the print three months ago, we investors have been hit with a torrent of media stories about OpenAI and Microsoft."
+    },
+    {
+      "start": 2754.0,
+      "end": 2758.0,
+      "text": "And I'd love to give Microsoft an opportunity to frame the relationship."
+    },
+    {
+      "start": 2758.0,
+      "end": 2761.0,
+      "text": "It seems to me it's critically important."
+    },
+    {
+      "start": 2761.0,
+      "end": 2771.0,
+      "text": "But we have been, I think everyone on the line, picking up signals that perhaps Microsoft wants to diversify somewhat at the model layer and offer customer's choice."
+    },
+    {
+      "start": 2771.0,
+      "end": 2774.0,
+      "text": "So, Satcha, I'd love to get your framing of the relationship."
+    },
+    {
+      "start": 2774.0,
+      "end": 2778.0,
+      "text": "And then in terms of the numbers, maybe this is a little bit more for you, Amy."
+    },
+    {
+      "start": 2778.0,
+      "end": 2786.0,
+      "text": "But how does Microsoft manage the demands on capex from helping OpenAI with its scaling ambitions?"
+    },
+    {
+      "start": 2786.0,
+      "end": 2792.0,
+      "text": "And how do you manage the impact on other income that you just gave us some color on?"
+    },
+    {
+      "start": 2792.0,
+      "end": 2794.0,
+      "text": "Thank you so much."
+    },
+    {
+      "start": 2794.0,
+      "end": 2795.0,
+      "text": "Sure."
+    },
+    {
+      "start": 2795.0,
+      "end": 2796.0,
+      "text": "Thanks, Carl."
+    },
+    {
+      "start": 2796.0,
+      "end": 2805.0,
+      "text": "So, I'd say first, the partnership for both sides that OpenAI and Microsoft has been super beneficial."
+    },
+    {
+      "start": 2805.0,
+      "end": 2814.0,
+      "text": "After all, we effectively sponsored what is one of the most highest-valued private companies today"
+    },
+    {
+      "start": 2814.0,
+      "end": 2821.0,
+      "text": "when we invested in them and really took a bet on them and their innovation for five years ago."
+    },
+    {
+      "start": 2821.0,
+      "end": 2824.0,
+      "text": "And that has led to great success for Microsoft."
+    },
+    {
+      "start": 2824.0,
+      "end": 2828.0,
+      "text": "That's led to great success for OpenAI."
+    },
+    {
+      "start": 2828.0,
+      "end": 2831.0,
+      "text": "And we continue to build on it."
+    },
+    {
+      "start": 2831.0,
+      "end": 2843.0,
+      "text": "So, we serve them with world-class infrastructure on which they do their innovation in terms of models on top of which we innovate on both the model layer with some of the post-training stuff we do."
+    },
+    {
+      "start": 2843.0,
+      "end": 2846.0,
+      "text": "As well as some of the small models we build."
+    },
+    {
+      "start": 2846.0,
+      "end": 2849.0,
+      "text": "And then, of course, all of the product innovation."
+    },
+    {
+      "start": 2849.0,
+      "end": 2862.0,
+      "text": "One of the things that my own conviction of OpenAI and what they were doing came about when I started seeing something like get up co-pilot as a product get built or DAX co-pilot get built or M365 co-pilot get built."
+    },
+    {
+      "start": 2862.0,
+      "end": 2869.0,
+      "text": "So, we have a fantastic portfolio of innovation that we build on top of that."
+    },
+    {
+      "start": 2870.0,
+      "end": 2873.0,
+      "text": "And, you know, at the same also, I would say we are investors."
+    },
+    {
+      "start": 2873.0,
+      "end": 2878.0,
+      "text": "We feel very, very good about sort of our investment stake in OpenAI."
+    },
+    {
+      "start": 2878.0,
+      "end": 2889.0,
+      "text": "And so, our focus, and we're always in constant dialogue with them in a partnership like this when both sides have achieved mutual success at the pace at which we've achieved it."
+    },
+    {
+      "start": 2889.0,
+      "end": 2898.0,
+      "text": "That means we need to kind of push each other to do more, you know, capture the moment and that's what we plan to do and we intend to keep building on it."
+    },
+    {
+      "start": 2899.0,
+      "end": 2917.0,
+      "text": "And maybe to your other two questions, Carl, you know, listen, I'm thrilled with their success and need for supply from Azure and infrastructure and really what it's met in terms of being able to also serve other customers for us."
+    },
+    {
+      "start": 2917.0,
+      "end": 2927.0,
+      "text": "It's important that we continue to invest capital to meet not only their demand signal and needs for compute, but also from our broader customers."
+    },
+    {
+      "start": 2927.0,
+      "end": 2941.0,
+      "text": "That's partially why you've seen us committing the amount of capital we've seen over the past few quarters is our commitment to both grow together and for us to continue to grow the Azure platform for customers beyond that."
+    },
+    {
+      "start": 2941.0,
+      "end": 2944.0,
+      "text": "And so I don't really think of it as how do you balance it."
+    },
+    {
+      "start": 2944.0,
+      "end": 2950.0,
+      "text": "It's just we have customers who have needs and real use cases and delivering value today."
+    },
+    {
+      "start": 2950.0,
+      "end": 2954.0,
+      "text": "And if we can't meet that, we need to work to meet it."
+    },
+    {
+      "start": 2954.0,
+      "end": 2960.0,
+      "text": "And that means working harder and faster to make sure we do that, which is what the team is committed to do."
+    },
+    {
+      "start": 2960.0,
+      "end": 2969.0,
+      "text": "Second piece of your question, I think was on the impact to other income and not to get too accounting heavy on the earnings phone call,"
+    },
+    {
+      "start": 2969.0,
+      "end": 2980.0,
+      "text": "but I would say just a reminder, this is under the equity method, which means we just take our percentage of losses every quarter."
+    },
+    {
+      "start": 2981.0,
+      "end": 2993.0,
+      "text": "And those losses, of course, are capped by the amount of investment we make in total, which we did talk about in the cutest quarter as being $13 billion."
+    },
+    {
+      "start": 2993.0,
+      "end": 2996.0,
+      "text": "And so over time, that's just the constraint."
+    },
+    {
+      "start": 2996.0,
+      "end": 3003.0,
+      "text": "And it's a bit of a mechanical entry. And so I don't really think about managing that."
+    },
+    {
+      "start": 3003.0,
+      "end": 3009.0,
+      "text": "That's the investment and acceleration that opening eyes making in themselves and we take a percentage of that."
+    },
+    {
+      "start": 3009.0,
+      "end": 3011.0,
+      "text": "Got it. Okay. Very helpful. Thank you both."
+    },
+    {
+      "start": 3011.0,
+      "end": 3014.0,
+      "text": "Thanks, Carl. Operator, next question, please."
+    },
+    {
+      "start": 3014.0,
+      "end": 3021.0,
+      "text": "The next question comes from the line of cash, Rangan, with Goldman Sachs. Please proceed."
+    },
+    {
+      "start": 3021.0,
+      "end": 3028.0,
+      "text": "Hi, thank you very much. I said that when you talked about the investment cycle, these models are getting bigger, more expensive,"
+    },
+    {
+      "start": 3028.0,
+      "end": 3033.0,
+      "text": "but you also pointed out to how the inference phase were likely to get paid."
+    },
+    {
+      "start": 3033.0,
+      "end": 3036.0,
+      "text": "How does that cycle look like an inference for Microsoft?"
+    },
+    {
+      "start": 3036.0,
+      "end": 3047.0,
+      "text": "So where are the products and the applications that push up on the Microsoft P&L as a result of the inference phase of AI kicking it? Thank you very much."
+    },
+    {
+      "start": 3047.0,
+      "end": 3055.0,
+      "text": "Thanks, Cash. I mean, the good news for us is that we're not waiting for that inference to show up, right?"
+    },
+    {
+      "start": 3055.0,
+      "end": 3065.0,
+      "text": "If you sort of think about the point we even made that this is going to be the fastest growth to $10 billion of any business in our history,"
+    },
+    {
+      "start": 3065.0,
+      "end": 3077.0,
+      "text": "it's all the inference, right? One of the things that it may not be as evident is that we're not actually selling raw GPUs for other people to train."
+    },
+    {
+      "start": 3077.0,
+      "end": 3084.0,
+      "text": "In fact, that's sort of a business we turn away because we have so much demand on inference that we are not taking."
+    },
+    {
+      "start": 3084.0,
+      "end": 3093.0,
+      "text": "In fact, there's a huge admin selection problem today where people, it's just a bunch of tech companies still using VC money to buy a bunch of GPUs."
+    },
+    {
+      "start": 3094.0,
+      "end": 3101.0,
+      "text": "We kind of really are not even participating in most of that because we are literally going to the real demand, which is in the enterprise space,"
+    },
+    {
+      "start": 3101.0,
+      "end": 3104.0,
+      "text": "or our own product like get up copilot or M365 copilot."
+    },
+    {
+      "start": 3104.0,
+      "end": 3109.0,
+      "text": "So I feel the quality of our revenues also pretty superior in that context."
+    },
+    {
+      "start": 3109.0,
+      "end": 3120.0,
+      "text": "And that's what gives us even the conviction to even Amy's answers previously about our capital spend is if this was just all about sort of a bunch of people training large models,"
+    },
+    {
+      "start": 3120.0,
+      "end": 3129.0,
+      "text": "and that was all we got, then that would be ultimately still waiting to appoint for someone to actually have demand, which is real."
+    },
+    {
+      "start": 3129.0,
+      "end": 3136.0,
+      "text": "And in our case, the good news here is we have a diversified portfolio, we're seeing real demand across all of that portfolio."
+    },
+    {
+      "start": 3137.0,
+      "end": 3139.0,
+      "text": "I just add a little bit to what Saki is saying."
+    },
+    {
+      "start": 3139.0,
+      "end": 3160.0,
+      "text": "I think a part of his two answers is that what you're saying is this number we're talking about at $10 billion across inference in our apps is already what that momentum and that investment and that progress and that revenue is what builds the next cycle of training."
+    },
+    {
+      "start": 3161.0,
+      "end": 3175.0,
+      "text": "And so it's that circle as opposed to, oh, we're doing training now and then inference, much of the training investments that are and that fuel this revenue growth came before."
+    },
+    {
+      "start": 3175.0,
+      "end": 3178.0,
+      "text": "And we already funded that work."
+    },
+    {
+      "start": 3178.0,
+      "end": 3180.0,
+      "text": "And so that's an important point."
+    },
+    {
+      "start": 3180.0,
+      "end": 3184.0,
+      "text": "That's to your point that you invest now and you can get the growth later, even if you slow down the Catholics, right?"
+    },
+    {
+      "start": 3184.0,
+      "end": 3186.0,
+      "text": "That's what you're trying to tell us."
+    },
+    {
+      "start": 3186.0,
+      "end": 3190.0,
+      "text": "That's the cycle that is important to understand."
+    },
+    {
+      "start": 3190.0,
+      "end": 3192.0,
+      "text": "Thank you so much."
+    },
+    {
+      "start": 3192.0,
+      "end": 3196.0,
+      "text": "Thanks, cash operator. Next question, please."
+    },
+    {
+      "start": 3196.0,
+      "end": 3202.0,
+      "text": "The next question comes from the line of Mark Murphy with JP Morgan. Please proceed."
+    },
+    {
+      "start": 3202.0,
+      "end": 3204.0,
+      "text": "Thank you very much."
+    },
+    {
+      "start": 3204.0,
+      "end": 3212.0,
+      "text": "I'm wondering if you can shed any more light just on the nature of the supply limitations that you're mentioning that are impacting."
+    },
+    {
+      "start": 3212.0,
+      "end": 3218.0,
+      "text": "Azure and Q2 where that impact might be incrementally just a touch more than we expected."
+    },
+    {
+      "start": 3218.0,
+      "end": 3221.0,
+      "text": "Is it more the GPU supply?"
+    },
+    {
+      "start": 3221.0,
+      "end": 3227.0,
+      "text": "Is there some element of power cooling or the ability to wire up the networks?"
+    },
+    {
+      "start": 3227.0,
+      "end": 3240.0,
+      "text": "And Amy, should we infer that the supply is constraining Azure growth by roughly a couple of few points in Q2 or am I overestimating that?"
+    },
+    {
+      "start": 3241.0,
+      "end": 3245.0,
+      "text": "Maybe to answer both those questions."
+    },
+    {
+      "start": 3245.0,
+      "end": 3251.0,
+      "text": "Mark very directly. I wouldn't think about it component logic in my Q2 answer."
+    },
+    {
+      "start": 3251.0,
+      "end": 3257.0,
+      "text": "The supply push out is thought to send the third parties that are delivering later than we had expected."
+    },
+    {
+      "start": 3257.0,
+      "end": 3262.0,
+      "text": "That gets pushed mainly into the second half of the year and in general Q3."
+    },
+    {
+      "start": 3263.0,
+      "end": 3272.0,
+      "text": "So that's third parties where we've tended to buy supply inclusive of kits. So it's complete end to end third party deliverance."
+    },
+    {
+      "start": 3272.0,
+      "end": 3280.0,
+      "text": "In terms of the impact, you know, as I was saying, you know, when you think about having flat consumption."
+    },
+    {
+      "start": 3280.0,
+      "end": 3287.0,
+      "text": "Q1 to Q2, there really are only two things that impact that difference."
+    },
+    {
+      "start": 3287.0,
+      "end": 3294.0,
+      "text": "One was the help we got in Q1 from the revenue and revenue and accounting help."
+    },
+    {
+      "start": 3294.0,
+      "end": 3299.0,
+      "text": "And then Q2 has been the supply push out."
+    },
+    {
+      "start": 3299.0,
+      "end": 3305.0,
+      "text": "Thank you. Thanks Mark. Operator, next question, please."
+    },
+    {
+      "start": 3305.0,
+      "end": 3311.0,
+      "text": "The next question comes from the line of Rainbow lunch show with Barclays. Please proceed."
+    },
+    {
+      "start": 3311.0,
+      "end": 3317.0,
+      "text": "Perfect. Thank you. If you talk about the market at the moment, because you were first a co-pilot."
+    },
+    {
+      "start": 3317.0,
+      "end": 3322.0,
+      "text": "You had identified a lot with co-pilots and now we're talking agents."
+    },
+    {
+      "start": 3322.0,
+      "end": 3325.0,
+      "text": "Can you kind of say, how do you think about that?"
+    },
+    {
+      "start": 3325.0,
+      "end": 3331.0,
+      "text": "To me, it looks like an evolution that we're discovering how to kind of productize AI better, et cetera."
+    },
+    {
+      "start": 3331.0,
+      "end": 3338.0,
+      "text": "So how do you think about that journey between co-pilots agents and maybe what's coming next? Thank you."
+    },
+    {
+      "start": 3338.0,
+      "end": 3348.0,
+      "text": "Sure. The system we have built is co-pilot, co-pilot studio agents and autonomous agents."
+    },
+    {
+      "start": 3348.0,
+      "end": 3351.0,
+      "text": "You should think of that as the spectrum of things, right?"
+    },
+    {
+      "start": 3351.0,
+      "end": 3362.0,
+      "text": "So ultimately the way we think about how this all comes together is you need humans to be able to interface with AI,"
+    },
+    {
+      "start": 3362.0,
+      "end": 3370.0,
+      "text": "so the UI layer for AI is co-pilot. You can then use co-pilot studio to extend co-pilot."
+    },
+    {
+      "start": 3370.0,
+      "end": 3378.0,
+      "text": "For example, you want to connect it to your CRM system, to your office system, to your HR system."
+    },
+    {
+      "start": 3378.0,
+      "end": 3383.0,
+      "text": "You do that through co-pilot studio by building agents effectively."
+    },
+    {
+      "start": 3383.0,
+      "end": 3389.0,
+      "text": "You also build autonomous agents. So you can use even, that's where an announcement would be made a couple of weeks ago,"
+    },
+    {
+      "start": 3389.0,
+      "end": 3393.0,
+      "text": "you can even use co-pilot studio to build autonomous agents."
+    },
+    {
+      "start": 3393.0,
+      "end": 3399.0,
+      "text": "Now, these autonomous agents are working independently, but from time to time, they need to raise an exception, right?"
+    },
+    {
+      "start": 3399.0,
+      "end": 3406.0,
+      "text": "So autonomous agents are not fully autonomous because at some point they need to either notify someone or have someone input something."
+    },
+    {
+      "start": 3406.0,
+      "end": 3411.0,
+      "text": "And when they need to do that, they need a UI layer, and that's where again it's co-pilot."
+    },
+    {
+      "start": 3411.0,
+      "end": 3421.0,
+      "text": "So co-pilot, co-pilot agents built in co-pilot studio, autonomous agents built in co-pilot studio, that's the full system."
+    },
+    {
+      "start": 3421.0,
+      "end": 3425.0,
+      "text": "We think that comes together and we feel very, very good about the positioning."
+    },
+    {
+      "start": 3425.0,
+      "end": 3432.0,
+      "text": "And then of course we are taking the underlying system services across that entire stack that I just talked about,"
+    },
+    {
+      "start": 3432.0,
+      "end": 3437.0,
+      "text": "and I'm making it available in Azure, right? So you have the raw infrastructure if you want it."
+    },
+    {
+      "start": 3437.0,
+      "end": 3440.0,
+      "text": "You have the model layer independent of it."
+    },
+    {
+      "start": 3440.0,
+      "end": 3448.0,
+      "text": "You have the AI app server in Azure AI, right? So everything is also a building block service in Azure for you to be able to build."
+    },
+    {
+      "start": 3448.0,
+      "end": 3454.0,
+      "text": "In fact, if you want to build everything that we have built in the co-pilot stack, you can build it yourself using the AI platform."
+    },
+    {
+      "start": 3454.0,
+      "end": 3459.0,
+      "text": "So that's sort of in simple terms, our strategy, and that's kind of how it all comes together."
+    },
+    {
+      "start": 3459.0,
+      "end": 3461.0,
+      "text": "Okay, perfect, very clear."
+    },
+    {
+      "start": 3461.0,
+      "end": 3466.0,
+      "text": "Thanks for having an operator. We have time for one last question."
+    },
+    {
+      "start": 3466.0,
+      "end": 3471.0,
+      "text": "And the last question will come from the line of Rishi Geluria with RBC. Please proceed."
+    },
+    {
+      "start": 3471.0,
+      "end": 3476.0,
+      "text": "Oh, wonderful. Thanks. I said, hey, maybe I appreciate the question."
+    },
+    {
+      "start": 3476.0,
+      "end": 3480.0,
+      "text": "I want to go and think a little bit about co-pilot."
+    },
+    {
+      "start": 3480.0,
+      "end": 3487.0,
+      "text": "How we should be thinking about kind of numbers here with the recategorization seems like that was maybe softer in the past than expected."
+    },
+    {
+      "start": 3487.0,
+      "end": 3494.0,
+      "text": "Oh, maybe with the numbers this quarter starting to pick up. Can you maybe walk us through what you're seeing on that?"
+    },
+    {
+      "start": 3494.0,
+      "end": 3503.0,
+      "text": "And maybe more importantly, how we should be thinking about your overall AI strategy on consumer versus enterprise, especially now with the staff on the both."
+    },
+    {
+      "start": 3503.0,
+      "end": 3504.0,
+      "text": "Thanks so much."
+    },
+    {
+      "start": 3504.0,
+      "end": 3514.0,
+      "text": "Yeah, on the first part, Rishi, to your question, I think we feel very, very good about the momentum we have in the commercial co-pilot, right?"
+    },
+    {
+      "start": 3514.0,
+      "end": 3522.0,
+      "text": "As I said, in my remarks and Amy talked about, this is the fastest growth of a new suite in M365."
+    },
+    {
+      "start": 3522.0,
+      "end": 3531.0,
+      "text": "If I compare it to what we saw even back way back in E3 or E5 or the transition from all to M, this is really much faster, right?"
+    },
+    {
+      "start": 3531.0,
+      "end": 3539.0,
+      "text": "It's the numbers of penetration of the Fortune 500 and then the fact that they're coming back for more seats and what have you."
+    },
+    {
+      "start": 3539.0,
+      "end": 3543.0,
+      "text": "So it's very strong in that context."
+    },
+    {
+      "start": 3543.0,
+      "end": 3552.0,
+      "text": "The other thing I'll also mention is that we want this to be something that is systemic, right?"
+    },
+    {
+      "start": 3552.0,
+      "end": 3558.0,
+      "text": "Because people need to be able to put the security controls, then they need to deploy, then there's killing and then there's change management."
+    },
+    {
+      "start": 3558.0,
+      "end": 3561.0,
+      "text": "So this is not like you're just, it's not a tool."
+    },
+    {
+      "start": 3561.0,
+      "end": 3569.0,
+      "text": "Like when I talk about co-pilot, co-pilot studio agents, it's really as much about a new way to work."
+    },
+    {
+      "start": 3569.0,
+      "end": 3575.0,
+      "text": "And sometimes I describe it as what happened throughout the 90s with PC penetration."
+    },
+    {
+      "start": 3575.0,
+      "end": 3588.0,
+      "text": "After all, if you take a business process like forecasting, what was it like, pre-email and Excel and post-email and Excel, that's the type of change that you see with co-pilot."
+    },
+    {
+      "start": 3588.0,
+      "end": 3593.0,
+      "text": "But overall, we feel great about the rate of progress and the penetration."
+    },
+    {
+      "start": 3593.0,
+      "end": 3606.0,
+      "text": "And then on the consumer side, look for us, the exciting part here is to be able to use the same investment we are making in the commercial where we have structural strength and then be on the offer."
+    },
+    {
+      "start": 3607.0,
+      "end": 3621.0,
+      "text": "One of the things that I think, I hope you all catch in our earnings, is Xtac, our revenue, when it comes to what we describe as search news and ads, is growing faster than market."
+    },
+    {
+      "start": 3621.0,
+      "end": 3625.0,
+      "text": "So it's fantastic to see that."
+    },
+    {
+      "start": 3625.0,
+      "end": 3634.0,
+      "text": "So that's kind of what can zoom a business, which in Microsoft's large scope, even a 10 plus billion dollar business sometimes goes missing."
+    },
+    {
+      "start": 3634.0,
+      "end": 3639.0,
+      "text": "But in our case, it is actually a fantastic growth business that's growing faster than market."
+    },
+    {
+      "start": 3639.0,
+      "end": 3642.0,
+      "text": "We feel good about how we will use AI in LinkedIn."
+    },
+    {
+      "start": 3642.0,
+      "end": 3644.0,
+      "text": "In fact, LinkedIn is a consumer business."
+    },
+    {
+      "start": 3644.0,
+      "end": 3652.0,
+      "text": "As you know, you saw this week, they announced some new capabilities for both consumers and in their case, even recruiting."
+    },
+    {
+      "start": 3652.0,
+      "end": 3659.0,
+      "text": "So we think that AI, the same investment, gets monetized even through LinkedIn's innovation."
+    },
+    {
+      "start": 3660.0,
+      "end": 3665.0,
+      "text": "And gaming, of course, is another place where you will see some of these things apply and windows."
+    },
+    {
+      "start": 3665.0,
+      "end": 3669.0,
+      "text": "So the place where I think I'm excited about is Copilot plus PCs."
+    },
+    {
+      "start": 3669.0,
+      "end": 3673.0,
+      "text": "For us, it's not about having a disconnected edge."
+    },
+    {
+      "start": 3673.0,
+      "end": 3682.0,
+      "text": "It's about having hybrid AI where the rebirth of sort of the PC as the edge of AI is going to be one of the most exciting things for developers."
+    },
+    {
+      "start": 3682.0,
+      "end": 3687.0,
+      "text": "So we feel well positioned, quite frankly, with the same investment."
+    },
+    {
+      "start": 3687.0,
+      "end": 3689.0,
+      "text": "That's the thing that, you know, we're not a conglomerate here."
+    },
+    {
+      "start": 3689.0,
+      "end": 3696.0,
+      "text": "We are sort of one company that means we invest one and then we have all these categories that benefit from that."
+    },
+    {
+      "start": 3696.0,
+      "end": 3698.0,
+      "text": "And that's the period of the fund here for us."
+    },
+    {
+      "start": 3698.0,
+      "end": 3702.0,
+      "text": "And so we feel good about all of that coming together."
+    },
+    {
+      "start": 3702.0,
+      "end": 3707.0,
+      "text": "And maybe to add one piece, because I think we should know that I'm listening and thinking through that question."
+    },
+    {
+      "start": 3707.0,
+      "end": 3716.0,
+      "text": "It feels like you're wondering like, why am I not seeing the Copilot if you've made all this progress and the results and the answer is you already are."
+    },
+    {
+      "start": 3716.0,
+      "end": 3723.0,
+      "text": "In that M365 commercial number, we've seen that seat growth."
+    },
+    {
+      "start": 3723.0,
+      "end": 3731.0,
+      "text": "But those seats that we're adding, the majority of them are driven by frontline worker and small businesses."
+    },
+    {
+      "start": 3731.0,
+      "end": 3733.0,
+      "text": "Those have a lower ARPU point."
+    },
+    {
+      "start": 3733.0,
+      "end": 3741.0,
+      "text": "And so it masked some of the ARPU that we're already seeing, not just from E5, which continues to contribute,"
+    },
+    {
+      "start": 3741.0,
+      "end": 3745.0,
+      "text": "but also this quarter additional impact from Copilot."
+    },
+    {
+      "start": 3745.0,
+      "end": 3753.0,
+      "text": "So as we go forward, being able, that is where you're going to see the impact will be in ARPU and M365 commercial."
+    },
+    {
+      "start": 3753.0,
+      "end": 3759.0,
+      "text": "And as Satya said, I think you'll see the impact of Copilot engagement, frankly, across the same exact number."
+    },
+    {
+      "start": 3759.0,
+      "end": 3761.0,
+      "text": "Beautiful."
+    },
+    {
+      "start": 3761.0,
+      "end": 3762.0,
+      "text": "Thank you."
+    },
+    {
+      "start": 3762.0,
+      "end": 3763.0,
+      "text": "Thanks, Rishi."
+    },
+    {
+      "start": 3763.0,
+      "end": 3766.0,
+      "text": "That wraps up the Q&A portion of today's earnings call."
+    },
+    {
+      "start": 3766.0,
+      "end": 3768.0,
+      "text": "Thank you for joining us today."
+    },
+    {
+      "start": 3768.0,
+      "end": 3770.0,
+      "text": "And we look forward to speaking with all of you again soon."
+    },
+    {
+      "start": 3770.0,
+      "end": 3774.0,
+      "text": "Thank you."
+    },
+    {
+      "start": 3774.0,
+      "end": 3775.0,
+      "text": "Thank you."
+    },
+    {
+      "start": 3775.0,
+      "end": 3777.0,
+      "text": "This concludes today's conference."
+    },
+    {
+      "start": 3777.0,
+      "end": 3779.0,
+      "text": "You may disconnect your lines at this time."
+    },
+    {
+      "start": 3779.0,
+      "end": 3781.0,
+      "text": "Enjoy the rest of your day."
+    }
+  ],
+  "full_text": "Greetings and welcome to the Microsoft fiscal year 2025 first quarter earnings conference call. At this time, our participants are in a listen only mode. A question and answer session will follow the formal presentation. If anyone should require offer assistance during the conference, please press star zero on your top on keypad. As a reminder, this conference is being recorded. It is not my pleasure to introduce your host, Brett Arverson, Vice President of Investor Relations. Please go ahead. Good afternoon and thank you for joining us today. On the call with me are Satya Nadella, Chairman and Chief Executive Officer, Amy Hood, Chief Financial Officer, Alice Jala, Chief Accounting Officer, and Keith Dalliver, Corporate Secretary and Deputy General Counsel. On the Microsoft Investor Relations website, you can find our earnings press release and financial summary slide deck, which is intended to supplement our prepared remarks during today's call and provides the reconciliation of differences between GAP and non-GAP financial measures. We have recast certain prior period amounts to reflect the FY 25 changes to the composition of our segments announced in August 2024. Additional details, including FY 23 and FY 24 recast segment revenue, operating income, and product and service level revenue, can be found in the financial statements file on the Investor Relations website. More detailed outlook slides will also be available on the Microsoft Investor Relations website when we provide Outlook commentary on today's call. On this call, we will discuss certain non-GAP items. The non-GAP financial measures provided should not be considered as a substitute for or superior to the measures of financial performance prepared in accordance with GAP. They are included as additional clarifying items to aid investors in further understanding the company's first quarter performance in addition to the impact these items and events have on the financial results. All growth comparisons we make on the call today relate to the corresponding period of last year, unless otherwise noted. We will also provide growth rates in constant currency when available as a framework for assessing how our underlying business is performed, excluding the effect of foreign currency rate fluctuations. Where growth rates are the same in constant currency, we will refer to the growth rate only. We will post our prepared remarks to our website immediately following the call until the complete transcript is available. Today's call is being webcast live and recorded. If you ask a question, it will be included in our live transmission in the transcript and in any future use of the recording. You can replay the call and view the transcript on the Microsoft Investor Relations website. During this call, we will be making forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations and assumptions that are subject to risks and uncertainties. Actual results could materially differ because of factors discussed in today's earnings press release in the comments made during this conference call and in the risk factors section of our Form 10K, Form 10Q, and other reports and filings with the Securities and Exchange Commission. We do not undertake any duty to update any forward-looking statement. And with that, I'll turn the call over to Satya. Thank you, Brett. We are off to a solid start to our fiscal year driven by continuous trends of Microsoft Cloud with surpass $38.9 billion in revenue up 22%. AI-driven transformation is changing work, work artifacts, and workflow across every role, function, and business process, helping customers drive new growth and operating leverage. All up, our AI business is on track to surpass an annual revenue-run rate of $10 billion next quarter, which will make it the fastest business in our history to reach this milestone. Now, I'll highlight examples of our progress starting with infrastructure. Azure took share this quarter. We are seeing continued growth in cloud migration. Azure Arc now has over 39,000 customers across every industry, including American Tower, CTT, L'Oreal, up more than 80% year over year. We now have data centers in over 60 regions around the world, and this quarter we announced new cloud and AI infrastructure investments in Brazil, Italy, Mexico, and Sweden, as we expand our capacity in line with our long-term demand signals. At the Silicon layer, new cobalt 100 VMs are being used by companies like Databricks, Elastic, Siemens, Snowflake, and Synapses to power their general purpose workloads at up to 50% better price performance than previous generations. On top of this, we are building out our next-generation AI infrastructure, innovating across the full stack to optimize our fleet for AI workloads. We offer the broadest selection of AI accelerators, including our first-party accelerator, Maya 100, as well as the latest GPUs from AMD and NVIDIA. In fact, we're the first cloud to bring up NVIDIA's Blackwall system with GB 200 Power AI servers. Our partnership with OpenAI also continues to deliver results. We have an economic interest in a company that has grown significantly in value, and we have built a differentiate IP in our driving revenue momentum. More broadly with Azure AI, we are building an end-to-end app platform to help customers build their own co-pilots and agents. Azure OpenAI usage more than doubled over the past six months as both digital natives like Grammarly and Harvey, as well as established enterprises like Bajaj Finance, Hitachi, KT&LG, move apps from test to production. GE Aerospace, for example, used Azure OpenAI to build a new digital assistant for all 52,000 of its employees. In just three months, it has been used to conduct over 500,000 internal queries and process more than 200,000 documents. In this quarter, we added support for OpenAI's newest model family, 01. We're also bringing industry-specific models to Azure AI, including a collection of best-in-class multi-model models for medical imaging. With GitHub models, we now provide access to our full model catalog directly within the GitHub developer workflow. Azure AI is also increasingly an on-ramp to our data and analytics services. As developers build new AI apps on Azure, we have seen an acceleration of Azure Cosmos DB and Azure SQL DB hyperscale usage as customers like Air India, Novo Nordisk, Telefonica, Turter Motor North America, and Uniper take advantage of capabilities, purpose-built for AI applications. And with Microsoft Fabric, we provide a single AI-powered platform to help customers like Chanel, EY, KPMG, Swiss Air, and Cindigo unify their data across clouds. We now have over 16,000 paid fabric customers over 70% of the Fortune 500. Now on to developers. GitHub Co-Pilot is changing the way the world builds software. Co-Pilot Enterprise customers increase 55% quarter over quarter companies like AMD and Flutter Entertainment, Taylor Co-Pilot to their own codebase. And we are introducing the next phase of AI code generation making GitHub Co-Pilot agent across the developer workflow. GitHub Co-Pilot workspace is a developer environment which leverages agents from start to finish so developers can go from spec to plan to code all in natural language. Co-Pilot AutoFix is an AI agent that helps developers with companies like Ethereum and Auto Group fix vulnerabilities in their code over three times faster than it would take them on their own. We are also continuing to build on GitHub's open platform ethos by making more models available via GitHub Co-Pilot. And we are expanding the reach of GitHub to a new segment of developers introducing GitHub Spark which enables anyone to build apps in natural language. Already we have brought generative AI to power platform to help customers use low code, no code tools to cut costs and development time. To date nearly 600,000 organizations have used AI powered capabilities in power platform up 4x year over year. Citizen developers at ZF for example built apps simply by describing what they need using natural language. And this quarter we introduced new ways for customers to apply AI to streamline complex workflows with power automate. Now on to work. We launched the next wave of Microsoft 365 Co-Pilot innovation last month bringing together a web work and pages as the new design system for knowledge work. Pages is the first new digital artifact for the AI agent it's designed to help you ideate with AI and collaborate with other people. We've also made Microsoft 365 Co-Pilot responses 2x faster and improved response quality by nearly 3x. This innovation is driving accelerated usage and the number of people using Microsoft 365 daily more than double quarter over quarter. We're also seeing increased adoption from customers in every industry as they use Microsoft 365 Co-Pilot to drive real business value. Vodafone for example will roll out Microsoft 365 Co-Pilot to 68,000 employees after a trial showed that on average they saved 3 hours per person per week. And UBS will deploy 50,000 seats in our largest FinCerve deal to date. And we continue to see enterprise customers coming back to buy more seats. All up nearly 70% of the Fortune 500 now use Microsoft 365 Co-Pilot and customers continue to adopt it as a faster rate than any other new Microsoft 365 suite. Co-Pilot is the UI for AI and with Microsoft 365 Co-Pilot, Co-Pilot studio and agents and now autonomous agents we have built an end-to-end system for AI business transformation. With Co-Pilot studio organizations can build and connect Microsoft 365 Co-Pilot to autonomous agents which then delegate to Co-Pilot when there is an exception. More than 100,000 organizations from end-shore, standard bank and Thomson Reuters to virgin money and Zurich insurance have used Co-Pilot studio to date up over 2x quarter over quarter. More broadly we are seeing AI drive a fundamental change in the business applications market as customers shift from legacy apps to AI first business processes. Dynamics 365 continues to take share as organizations like Evron, Heineken and Lexmark chose our apps over other providers and monthly active users of Co-Pilot across our CRM and ERP portfolio increased over 60% quarter over quarter. Our Dynamics 365 Contact Center is also winning customers like Currys, Lekra Set and RXO as it brings generative AI to every customer engagement channel. And just last week we added 10 out of the box autonomous agents to Dynamics 365 that helps customers automatically qualify sales leads, track suppliers and work hand in hand with service reps to resolve issues. We are also bringing AI to industry specific workflows. One year in DAX Co-Pilot is now documenting over 1.3 million physician-patient encounters each month at over 500 healthcare organizations like Baptist Medical Group, Baylor, Scotland, White, Greater Baltimore Medical Center, Novant Health and Overlake Medical Center. It is showing faster revenue growth than GitHub Co-Pilot did in this first year. And new features extend DAX beyond notes helping physicians automatically draft referrals after visit instructions and diagnostic evidence. On top of all this AI innovation, Microsoft Teams usage remains at all-time highs as people use it to streamline all their communications. Nearly 75% of our Teams Enterprise customers now buy premium phone or rooms. When it comes to Windows, our new class of Co-Pilot plus PCs is winning new customers. They offer best-in-class AI capability, performance and value. AMD, Intel and Qualcomm now all support Co-Pilot plus PCs. This quarter, we also introduced new AI experience only available on Co-Pilot plus PCs like Click2Do, which places an interactive overlay over your desktop to suggest next best actions. And as we approach the end of support for Windows 10 a year from now, we are well positioned to transition our customers to Windows 11 offering their benefit from enhanced features and security improvements we've introduced over the past few years. Now on to security. We continue to prioritize security above all else with our secure future initiative. We have dedicated the equivalent of 34,000 full-time engineers to address the highest priority security tasks. We have made significant progress to better protect tenants, identities, networks and engineering systems. And we have created new processes to ensure security is prioritized at every level of the company. And we continue to take what we learn and turn it into innovations across our products. Security Co-Pilot, for example, is being used by companies in every industry including Clifford Chance, Intessa, St. Paulo and Shell to perform SecOps tasks faster and more accurately. And we are now helping customers protect their AI deployments too. Customers have used Defender to discover and secure more than 750,000 gen AI app instances and use purview to audit over a billion co-pilot interactions to meet their compliance obligations. And all up we continue to take share across all major categories we serve and are consistently recognized by top analysts as a leader in 20 categories more than any other vendor. Now let me turn to our consumer businesses starting with LinkedIn. Member growth continues to accelerate with markets in India and Brazil both growing at double digits. We are also seeing record engagement as we introduce new ways for our more than 1 billion members to connect cell services, get hired and share knowledge. Our investments in rich formats like video strengthen our leadership in B2B advertising and amplify the value we deliver to our customers. Weekly immersive video views increase 6X quarter over quarter and total video viewership on LinkedIn is up 36% year over year. Our AI powered tools also continue to transform how people sell, learn and hire. In sales new AI features help every team member perform at the level of top sellers and drive more profitable growth. In learning just yesterday we announced updates to our coaching experience including personalized career development plans LinkedIn's first agent hiring assistant will help hires find qualified candidates faster by tackling the most time consuming tasks. Already hires who use AI assistant messages see a 44% higher acceptance rate compared to those who don't. And our hiring business continues to take share. Now on to search advertising in news. With co-pilot we are seeing the first step towards creating a new AI companion for everyone. With new co-pilot experience we introduced earlier this month includes a refresh design and tone along with improved speed and fluency across the web and mobile and it includes advanced capabilities like voice and vision that make it more delightful and useful and feel more natural. You can both browse and converse with co-pilot simultaneously because co-pilot sees what you see. More broadly AI is also transforming search, browsers and digital advertising and we continue to take share across Bing and Edge. Bing, X-TAC, revenue growth outpace the search market. Now on to gaming. One year since we closed our acquisition of Activision Blizzard King we are focused on building a business position for long-term growth driven by higher margin content and services. You already see this transformation in our results as we diversify the ways that gamers access our content. We set new records for monthly active users in the quarter as more players than ever play our games across devices and on the Xbox platform. Game Pass also set a new Q1 record for total revenue and average revenue per subscriber. And as we look ahead our IP across our studios has never been stronger. Last week's launch of Black Ops 6 was the biggest Call of Duty release ever. Setting a record for day one players as well as Game Pass subscriber ads on launch day. And unit sales on PlayStation and Steam were also up over 60% Euro year. This speaks to our strategy of meeting gamers where they are by enabling them to play more games across the screens they spend their time on. In closing we are rapidly innovating to expand our opportunity across our commercial and consumer businesses. In three weeks time we will hold our Ignite conference and I look forward to sharing more than about how we are helping every business function use AI to drive growth in this new era. With that let me turn it over to Amy. Thank you Satya and good afternoon everyone. This quarter revenue was 65.6 billion dollars up 16% and earnings per share was $3.30 an increase of 10%. With strong execution by our sales teams and partners we delivered a solid start to our fiscal year. We doubled digit top and bottom line growth. We also saw continued share games across many of our businesses. In our commercial business increased demand and growth in long term commitments to our Microsoft cloud platform drove our results. Commercial bookings were ahead of expectations and increased 30% and 23% in constant currency. Results were driven by strong execution across our core annuity sales motions and growth in the number of $10 million plus contracts for both Azure and Microsoft 365. Additionally we also saw an increase in the number of $100 million plus contracts for Azure. Commercial remaining performance obligation increased 22% and 21% in constant currency to $259 billion. Roughly 40% will be recognized in revenue in the next 12 months up 17% year over year. The remaining portion recognized beyond the next 12 months increased 27%. And this quarter our annuity mix increased to 98%. In addition to commercial results that were in line with expectations, we also saw some benefit from in-period revenue recognition across Microsoft 365 commercial, Azure and our on-premises server business. At a company level, Activision contributed a net impact of approximately three points to revenue growth was a two point drag on operating income growth and had a negative five cent impact to earnings per share. A reminder that this net impact includes adjusting for the movement of Activision content from our prior relationship as a third party partner to first party and includes $911 million from purchase accounting adjustments, integration and transaction related costs. FX did not have a significant impact on our results and was roughly in line with expectations on total company revenue, segment level revenue, cogs and operating expense growth. Microsoft crowd revenue was $38.9 billion and grew 22% roughly in line with expectations. Microsoft cloud gross margin percentage decreased 2.0 over year to 71%. This was slightly better than expected due to improvement in Azure. Although the gross margin percentage decreased year over year continues to be driven by scaling our AI infrastructure. Company gross margin dollars increased 13% and 14% in constant currency and gross margin percentage was 69% down 2.0 over year, driven by the lower Microsoft cloud gross margin noted earlier, as well as the impact from purchase accounting adjustments, integration and transaction related cost from the Activision acquisition. Operating expenses increased 12% lower than expected due to our focus on cost efficiencies and ongoing prioritization work. Operating expense growth included 9 points from the Activision acquisition. At a total company level, headcount at the end of September was 8% higher than a year ago. Excluding the growth from the Activision acquisition, headcount was 2% higher. Operating income increased 14% and operating margins were 47% down 1.0 over year. Excluding the net impact from the Activision acquisition, operating margins were up 1.0. We continue to drive efficiencies across our businesses as we invest in AI infrastructure and capabilities. Now to our segment results. Revenue from productivity and business processes was $28.3 billion in grew 12% and 13% in constant currency, ahead of expectations, driven by better than expected results across all businesses. M365 commercial cloud revenue increased 15% and 16% in constant currency with business trends that were as expected. The better than expected result was due to a small benefit from the end period revenue recognition noted earlier. Our pregrowth was primarily driven by E5 as well as M365 co-pilot. Paid M365 commercial seats grew 8% year over year with installed basic expansion across all customer segments. Seat growth was driven by our small and medium business and frontline worker offerings. M365 commercial cloud revenue represents nearly 90% of total M365 commercial products and cloud services. M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations, primarily due to the benefit from inquiry revenue recognition noted earlier. M365 consumer products and cloud services revenue increased 5% and 6% in constant currency. M365 consumer cloud revenue increased 6% and 7% in constant currency with continued momentum in M365 consumer subscriptions, which grew 10% to 84.4 million. M365 consumer cloud revenue represents 85% of total M365 consumer products and cloud services. Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business. Dynamics revenue grew 14% driven by Dynamics 365, which grew 18% and 19% in constant currency with continued growth across all workloads and continued share gains. As a reminder, Dynamics 365 represents about 90% of total Dynamics revenue. Segment gross margin dollars increased 11% and 12% in constant currency and gross margin percentage decreased slightly year over year, driven by scaling our AI infrastructure. Operating expenses increased 2% and operating income increased 16%. Next, the intelligent cloud segment. Revenue was $24.1 billion, increasing 20% and 21% in constant currency in line with expectations. Azure and other cloud services revenue grew 33% and 34% in constant currency with healthy consumption trends that were in line with expectations. The better than expected result was due to the small benefit from in period revenue recognition noted earlier. Azure growth included roughly 12 points from AI services similar to last quarter. Demand continues to be higher than our available capacity. Non-AI growth trends were also in line with expectations in total and across regions as customers continued to migrate and modernize on the Azure platform. The non-AI point contribution to Azure growth was sequentially lower by approximately one point. In our on-premises server business, revenue decreased 1%. Lower than expected transactional purchasing ahead of the Windows Server 2025 launch as well as lower purchasing of licenses running in multi cloud environments was mostly offset by the benefit from in period revenue recognition noted earlier. Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency. Segment gross margin dollars increased 15% and gross margin percentage decreased 3.0 over year, driven by scaling our AI infrastructure. Operating expenses increased 8% and operating income grew 18%. Now to more personal computing. Revenue was 13.2 billion dollars, increasing 17% with 15 points of net impact from the Activision acquisition. Results were above expectations driven by gaming and search. Windows OEM and devices revenue increased 2% year over year. As better than expected results in Windows OEM due to mix shift to higher monetizing markets was partially offset by the lower than expected results and devices due to execution challenges in the commercial segment. Search and news advertising revenue Xtac increased 18% and 19% in constant currency ahead of expectations primarily due to continued execution improvement. We saw rate expansion in addition to healthy volume growth in both edge and being. And in gaming revenue increased 43% and 44% in constant currency with 43 points of net impact from the Activision acquisition. Results were ahead of expectation driven by stronger than expected performance in both first and third party content as well as consoles. Xbox content services revenue increased 61% with 53 points of net impact from the Activision acquisition. Segment gross margin dollars increased 16% and 17% in constant currency with 12 points of net impact from the Activision acquisition. Gross margin percentage was relatively unchanged year over year. Our strong execution on margin improvement in gaming and search was offset by sales mix shift to those businesses. Operating expenses increased 49% with 51 points from the Activision acquisition operating income decreased 4%. Now back to total company results. Capital expenditures including finance leases were $20 billion in line with expectations and cash paid for PP&E was 14.9 billion dollars. Roughly half of our cloud and AI related spend continues to be for long lived assets that will support monetization over the next 15 years and beyond. The remaining cloud and AI spend is primarily for servers both CPUs and GPUs to serve customers based on demand signals. Cashflow from operations with $34.2 billion up 12% driven by strong cloud buildings and collections partially offset by higher supplier employee and tax payments. Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings. This quarter other income expense was negative $283 million significantly more favorable than anticipated due to foreign currency re measurement and net gains on investments. Our losses on investments accounted for under the equity method were as expected. Our effective tax rate was approximately 19% and finally we return $9 billion to shareholders through dividends and share repurchases. Now moving to our Q2 outlook which unless specifically noted otherwise is on a US dollar basis. First FX with the weaker US dollar and assuming current rates remain stable. We expect FX to increase total revenue and segment level revenue growth by less than one point. We expect FX to have no meaningful impact to cogs or operating expense growth. Our outlook has many of the trends we saw in Q1 continue through Q2. Customer demand for our differentiated solutions should drive another quarter of strong growth. In commercial bookings we expect strong growth on a growing x-free base driven by increased long term commitments to our platform and strong execution across core annuity sales motions. As a reminder larger long term measure contracts which are more unpredictable in their timing can drive increased quarterly volatility in our bookings growth rate. Microsoft cloud growth margin percentage should be roughly 70% down year over year driven by the impact of scaling our AI infrastructure. We expect capital expenditures to increase on a sequential basis given our cloud and AI demand signals. As I said last quarter we will stay aligned and if needed adjust to the demand signals we see. As a reminder there can be quarterly spend variability from cloud infrastructure build outs and the timing of delivery of finance leases. Next segment guidance starting with productivity and business processes. We are the market leader when it comes to knowledge based co-pilots and agents in the enterprise space and we are focused on continuing to gain share across our productivity solutions. Therefore we expect revenue and productivity and business processes to grow between 10 and 11 percent in constant currency or 28.7 to 29 billion US dollars. M365 commercial cloud revenue growth should be approximately 14% in constant currency with moderating seat growth across customer segments and our food growth through E5 and M365 co-pilots. For H2 we expect revenue growth to remain relatively stable compared to Q2. We continue to see growth in M365 co-pilots seats and we expect the related revenue to continue to grow gradually over time. For M365 commercial products we expect revenue to decline in the low single digits. As a reminder M365 commercial products include on-premises components of M365 suites. So our quarterly revenue growth can have variability primarily from in period revenue recognition depending on the mix of contracts. M365 consumer cloud revenue growth should be in the mid single digits driven by M365 subscriptions. For LinkedIn we expect revenue growth of approximately 10 percent driven by continued growth across all businesses. And in Dynamics 365 we expect revenue growth to be in the mid to high teams driven by continued growth across all workloads. Next intelligent cloud helping our customers transform and grow with innovative cloud and AI solutions is driving continued growth in Azure. Therefore we expect revenue and intelligent cloud to grow between 18 and 20 percent in constant currency or 25.55 to 25.85 billion US dollars. Revenue will continue to be driven by Azure which as a reminder can have quarterly variability primarily from in period revenue recognition depending on the mix of contracts. In Azure we expect Q2 revenue growth to be 31 to 32 percent in constant currency driven by strong demand for our portfolio of services. We expect consumption growth to be stable compared to Q1 and we expect to add more sequential dollars to Azure than any other quarter in history. We expect the contribution from AI services to be similar to last quarter given the continued capacity constraints. As well as some capacity that shifted out of Q2. And in H2 we still expect Azure growth to accelerate from H1 as our capital investments create an increase in available AI capacity to serve more of the growing demand. And in our on-premises server business we expect revenue to decline the low to mid single digits on a prior year comparable that benefited from purchasing ahead of Windows Server 2012 and support. And in enterprise and partner services we expect revenue growth to be in the low single digits. Now to more personal computing. We continue to make decisions to prioritize strategic higher margin opportunities within each of our consumer businesses. Our outlook reflects the improvement in growth and operating margins from this prioritization work across gaming search and devices. We expect revenue and more personal computing to be 13.85 to 14.25 billion US dollars. Windows OEM and devices revenue should decline in the low to mid single digits. We expect Windows OEM revenue growth in line with PC market to be more than offset by a decline in devices as the trends from Q1 continue. Search and news advertising ex tech revenue growth should be in the high teens with continued growth in both volume and revenue per search. This will be higher than overall search and news advertising revenue growth which we expect to be in the high single digits. And in gaming we expect revenue to decline in the high single digits due to hardware. We expect Xbox content and services revenue growth to be relatively flat. We're excited about last week's launch of Call of Duty where we saw the most game pass subscriber ads we've ever seen on a launch day. There are two things about the launch that are different than the Call of Duty launch a year ago where revenue was mostly recognized in the quarter of purchase. First, the game is available on game pass. So for players who play through game pass, the subscription revenue is recognized over time. Second, the game requires an online connection to play. So even for players who purchase the standalone game, revenue recognition will also occur radically over time. Now back to company guidance. We expect cogs to grow between 11 and 13% in constant currency or to be between 21.9 to 22.1 billion US dollars. And operating expense to grow approximately 7% in constant currency or to be between 16.4 and 16.5 billion US dollars. This should result in another quarter of operating margin expansion. Other income and expense is expected to be roughly negative $1.5 billion. Primarily driven by our share of the expected loss from OpenAI, which is accounted for under the equity method. As a reminder, we do not recognize mark to market gains or losses on equity method investment. As you heard from Satya, our strategic partnership and investment in OpenAI has been pivotal in building and scaling our AI business and positioning us as the leader in the AI platform live. And lastly, we expect our Q2 effective tax rate to be approximately 19%. In closing, we remain focused on strategically investing in the long-term opportunities that we believe drives shareholder value. Monetization from these investments continues to grow. And we're excited that only two and a half years in, our AI business is on track to surpass $10 billion of annual revenue run rate in Q2. This will be the fastest business in our history to reach this milestone. We are committed to growing this leadership position across our entire Microsoft cloud while maintaining our disciplined focus on cost management and prioritization across every team. With that, let's go to Q&A Brett. Thanks, Amy. We'll now move over to Q&A. Out of respect for others with a call, we request the participants please only ask one question. Operator, can you please repeat your instructions? Thank you. Ladies and gentlemen, if you would like to ask a question, please press star one on your telephone keypad and a confirmation tool will indicate your line is in the question queue. You may press star two if you would like to remove your question from the queue. Participants using speaker equipment and may be necessary to pick up your handset before pressing the star keys. And our first question comes from the line of Keith Weiss with Morgan Stanley. Please proceed. Excellent. Thank you guys for taking the question. And congratulations on a really solid quarter. The expansion of capabilities, the speed of innovation, the magnitude of the opportunity to head for gender. It makes this the most exciting period for software I've seen in my 25 years of covering the space and based upon this call, it seems like you share that excitement. But in my investor conversation, that excitement also feeds two related questions and they both have to do with constraints. And the first is, like, what are the internal constraints or guardrails that Microsoft has when it comes to investing behind these innovations, particularly in relation to the funding of future generations of foundational models where people were talking about price tags, and then on the other side of the spectrum, what are the external constraints that Microsoft sees in building out this capacity to meet the demand and capture the opportunity, particularly constraints in your ability to power all these new data centers being built out, empowered in an environmentally sustainable fashion? I'd love to get to Microsoft perspective on both those questions. Thank you, Keith, for those questions. I think on the first point, ultimately, when you think about, let's say, a capital outlay for training, because that's essentially what you're asking. It is going to be rate limited by your monetization of inference in a given generation. So just like in the past, we would allocate capital to build out cloud based on the demand signal we were seeing, and then we would then project the demand, and that's what we would build for. So you can think of training, essentially, as that, which is you're building the next generation model so that then you have a more capable model that then drives more inference demand. So ultimately, even with all the scaling laws and what have you, I think, you ultimately will normalize to having a pace. In fact, I think the best way to think about even is given the Moore's law effectively is working on the sort of silicon and system side. So it's just not compute credit deficiencies in computed data as well as algorithms. You will want to sort of keep on that curve, which is you really want to refresh your fleet with the Moore's law every year, and then effectively depreciate it over the period of the lifecycle of it. And then the inference demand ultimately will govern how much we invest in training, because that's, I think, at the end of the day, you're all subject to ultimately demand. The second piece of the external constraints, we have run into, obviously, lots of external constraints, because this demand all showed up pretty fast, right? I mean, if you think about even taking the most hit product of this generation, all are in our cloud, whether it's chat, GPT, whether it's copilot, whether it's GitHub copilot, or even DAX copilot. So we take the top four or five products of this generation, they're all sort of in and around our ecosystem. And so therefore, we ran into a set of constraints, which are everything, because DCs don't get built overnight, so there is DCs, there is power. And so that's sort of being the short-term constraint. Even in Q2, for example, some of the demand issues we have are the ability to fulfill demand is because of, in fact, external third-body stuff that we leased moving up. So that's the constraint we have, but in the long run, we do need effectively power, and we need DCs, and some of these things are more long lead. But I feel pretty good that going into the second half of even this fiscal year, that some of that supply demand will match up. Excellent. Thank you. Thanks, Keith. Operator, next question, please. The next question comes from the line of Brentville with Jeffries. Please proceed. Thanks, Amy. Good to hear the redecceleration in the back half for Azure. I guess many are asking, you know, 34% growth in Q1 falling to low 30s. I know the comp is a couple points harder, but is there anything else you're contemplating in that guide for Q2 to see that deceleration other than a tougher comp? Thank you. Thanks, Brent. Maybe this is a great question because I can sort of reiterate some of the points I made and tie them together a little bit. In Q1, the 34 in CC, as we talked about, you know, that upside versus the 33 that we had guided to was primarily due to some revenue recognition benefits. And so I think about that on a sort of a pure consumption basis and AI as being, you know, 33. And you think about a point or two of these all that we've guided to. And the majority of that is due to, unfortunately, some supply push out that I mentioned and then soccer reiterated in terms of AI supply coming online that we counted on. The underlying consumption growth is stable Q1 to Q2. And so to your question on some ins and outs, it is certainly some ins and outs. I do, as you heard, have confidence as we get a good influx of supply across the second half of the year, particularly on the AI side, that will be better able to do some supply-demand matching. And hence, while we're talking about acceleration in the back half, I'll also take the opportunity to say when you see usage in AI workloads, we always intend to think about that as just a GPU exercise. The importance of having GPUs and CPUs be able to run these workloads is also important. So that's a piece of the acceleration at H2 as well. Thanks, Brent. Thank you, Brent. Operator, next question, please. The next question comes from the line of Mark Mortler with Bernstein. Please proceed. Thank you very much for taking my question, and congratulations on the quarter. The question every investor obviously asked is a question on the capex growth and the capex spend obviously half of that facility is an equivalent that ever longer life. But the other half is the rest of the components. Can you give any color on how you think of that growth? Does it return to the traditional approach where basically, capex is going to grow in line slightly slower than cloud revenue? If so, any sense of the timing? Do we have enough facilities online by sometime next year, et cetera? Any color would be appreciated. Thanks, Mark. I think in some ways it's helpful to go back to the cloud transitions that we worked on over a decade ago, I think, in the early stages. And what you did see, and you'll see us doing the same time, is you have to build to meet demand. Unlike the cloud transition, we're doing it on a global basis in parallel as opposed to sequential, given the nature of the demand. And then as long as we continue to see that demand growth, you're right. The growth in capex will slow and the revenue growth will increase. And those two things, your point get closer and closer together over time. The pace of that entirely depends really on the pace of adoption. And just at this point, some of that spend goes toward building the next training infrastructure, so you won't see all of it in capex. Some of it goes to opex when you're spending it on training. But in general, that's a healthy way to think about the balance as it over time, as you and should like the last cycle get closer together. Thank you very much. That's very helpful. Thanks, Mark. Operator, next question, please. The next question comes from the line of Carl Kirsten with UBS. Please proceed. Okay, great. Thank you. I'm actually not going to ask a question about the numbers, but I'd love to ask a question about OpenAI. Since the print three months ago, we investors have been hit with a torrent of media stories about OpenAI and Microsoft. And I'd love to give Microsoft an opportunity to frame the relationship. It seems to me it's critically important. But we have been, I think everyone on the line, picking up signals that perhaps Microsoft wants to diversify somewhat at the model layer and offer customer's choice. So, Satcha, I'd love to get your framing of the relationship. And then in terms of the numbers, maybe this is a little bit more for you, Amy. But how does Microsoft manage the demands on capex from helping OpenAI with its scaling ambitions? And how do you manage the impact on other income that you just gave us some color on? Thank you so much. Sure. Thanks, Carl. So, I'd say first, the partnership for both sides that OpenAI and Microsoft has been super beneficial. After all, we effectively sponsored what is one of the most highest-valued private companies today when we invested in them and really took a bet on them and their innovation for five years ago. And that has led to great success for Microsoft. That's led to great success for OpenAI. And we continue to build on it. So, we serve them with world-class infrastructure on which they do their innovation in terms of models on top of which we innovate on both the model layer with some of the post-training stuff we do. As well as some of the small models we build. And then, of course, all of the product innovation. One of the things that my own conviction of OpenAI and what they were doing came about when I started seeing something like get up co-pilot as a product get built or DAX co-pilot get built or M365 co-pilot get built. So, we have a fantastic portfolio of innovation that we build on top of that. And, you know, at the same also, I would say we are investors. We feel very, very good about sort of our investment stake in OpenAI. And so, our focus, and we're always in constant dialogue with them in a partnership like this when both sides have achieved mutual success at the pace at which we've achieved it. That means we need to kind of push each other to do more, you know, capture the moment and that's what we plan to do and we intend to keep building on it. And maybe to your other two questions, Carl, you know, listen, I'm thrilled with their success and need for supply from Azure and infrastructure and really what it's met in terms of being able to also serve other customers for us. It's important that we continue to invest capital to meet not only their demand signal and needs for compute, but also from our broader customers. That's partially why you've seen us committing the amount of capital we've seen over the past few quarters is our commitment to both grow together and for us to continue to grow the Azure platform for customers beyond that. And so I don't really think of it as how do you balance it. It's just we have customers who have needs and real use cases and delivering value today. And if we can't meet that, we need to work to meet it. And that means working harder and faster to make sure we do that, which is what the team is committed to do. Second piece of your question, I think was on the impact to other income and not to get too accounting heavy on the earnings phone call, but I would say just a reminder, this is under the equity method, which means we just take our percentage of losses every quarter. And those losses, of course, are capped by the amount of investment we make in total, which we did talk about in the cutest quarter as being $13 billion. And so over time, that's just the constraint. And it's a bit of a mechanical entry. And so I don't really think about managing that. That's the investment and acceleration that opening eyes making in themselves and we take a percentage of that. Got it. Okay. Very helpful. Thank you both. Thanks, Carl. Operator, next question, please. The next question comes from the line of cash, Rangan, with Goldman Sachs. Please proceed. Hi, thank you very much. I said that when you talked about the investment cycle, these models are getting bigger, more expensive, but you also pointed out to how the inference phase were likely to get paid. How does that cycle look like an inference for Microsoft? So where are the products and the applications that push up on the Microsoft P&L as a result of the inference phase of AI kicking it? Thank you very much. Thanks, Cash. I mean, the good news for us is that we're not waiting for that inference to show up, right? If you sort of think about the point we even made that this is going to be the fastest growth to $10 billion of any business in our history, it's all the inference, right? One of the things that it may not be as evident is that we're not actually selling raw GPUs for other people to train. In fact, that's sort of a business we turn away because we have so much demand on inference that we are not taking. In fact, there's a huge admin selection problem today where people, it's just a bunch of tech companies still using VC money to buy a bunch of GPUs. We kind of really are not even participating in most of that because we are literally going to the real demand, which is in the enterprise space, or our own product like get up copilot or M365 copilot. So I feel the quality of our revenues also pretty superior in that context. And that's what gives us even the conviction to even Amy's answers previously about our capital spend is if this was just all about sort of a bunch of people training large models, and that was all we got, then that would be ultimately still waiting to appoint for someone to actually have demand, which is real. And in our case, the good news here is we have a diversified portfolio, we're seeing real demand across all of that portfolio. I just add a little bit to what Saki is saying. I think a part of his two answers is that what you're saying is this number we're talking about at $10 billion across inference in our apps is already what that momentum and that investment and that progress and that revenue is what builds the next cycle of training. And so it's that circle as opposed to, oh, we're doing training now and then inference, much of the training investments that are and that fuel this revenue growth came before. And we already funded that work. And so that's an important point. That's to your point that you invest now and you can get the growth later, even if you slow down the Catholics, right? That's what you're trying to tell us. That's the cycle that is important to understand. Thank you so much. Thanks, cash operator. Next question, please. The next question comes from the line of Mark Murphy with JP Morgan. Please proceed. Thank you very much. I'm wondering if you can shed any more light just on the nature of the supply limitations that you're mentioning that are impacting. Azure and Q2 where that impact might be incrementally just a touch more than we expected. Is it more the GPU supply? Is there some element of power cooling or the ability to wire up the networks? And Amy, should we infer that the supply is constraining Azure growth by roughly a couple of few points in Q2 or am I overestimating that? Maybe to answer both those questions. Mark very directly. I wouldn't think about it component logic in my Q2 answer. The supply push out is thought to send the third parties that are delivering later than we had expected. That gets pushed mainly into the second half of the year and in general Q3. So that's third parties where we've tended to buy supply inclusive of kits. So it's complete end to end third party deliverance. In terms of the impact, you know, as I was saying, you know, when you think about having flat consumption. Q1 to Q2, there really are only two things that impact that difference. One was the help we got in Q1 from the revenue and revenue and accounting help. And then Q2 has been the supply push out. Thank you. Thanks Mark. Operator, next question, please. The next question comes from the line of Rainbow lunch show with Barclays. Please proceed. Perfect. Thank you. If you talk about the market at the moment, because you were first a co-pilot. You had identified a lot with co-pilots and now we're talking agents. Can you kind of say, how do you think about that? To me, it looks like an evolution that we're discovering how to kind of productize AI better, et cetera. So how do you think about that journey between co-pilots agents and maybe what's coming next? Thank you. Sure. The system we have built is co-pilot, co-pilot studio agents and autonomous agents. You should think of that as the spectrum of things, right? So ultimately the way we think about how this all comes together is you need humans to be able to interface with AI, so the UI layer for AI is co-pilot. You can then use co-pilot studio to extend co-pilot. For example, you want to connect it to your CRM system, to your office system, to your HR system. You do that through co-pilot studio by building agents effectively. You also build autonomous agents. So you can use even, that's where an announcement would be made a couple of weeks ago, you can even use co-pilot studio to build autonomous agents. Now, these autonomous agents are working independently, but from time to time, they need to raise an exception, right? So autonomous agents are not fully autonomous because at some point they need to either notify someone or have someone input something. And when they need to do that, they need a UI layer, and that's where again it's co-pilot. So co-pilot, co-pilot agents built in co-pilot studio, autonomous agents built in co-pilot studio, that's the full system. We think that comes together and we feel very, very good about the positioning. And then of course we are taking the underlying system services across that entire stack that I just talked about, and I'm making it available in Azure, right? So you have the raw infrastructure if you want it. You have the model layer independent of it. You have the AI app server in Azure AI, right? So everything is also a building block service in Azure for you to be able to build. In fact, if you want to build everything that we have built in the co-pilot stack, you can build it yourself using the AI platform. So that's sort of in simple terms, our strategy, and that's kind of how it all comes together. Okay, perfect, very clear. Thanks for having an operator. We have time for one last question. And the last question will come from the line of Rishi Geluria with RBC. Please proceed. Oh, wonderful. Thanks. I said, hey, maybe I appreciate the question. I want to go and think a little bit about co-pilot. How we should be thinking about kind of numbers here with the recategorization seems like that was maybe softer in the past than expected. Oh, maybe with the numbers this quarter starting to pick up. Can you maybe walk us through what you're seeing on that? And maybe more importantly, how we should be thinking about your overall AI strategy on consumer versus enterprise, especially now with the staff on the both. Thanks so much. Yeah, on the first part, Rishi, to your question, I think we feel very, very good about the momentum we have in the commercial co-pilot, right? As I said, in my remarks and Amy talked about, this is the fastest growth of a new suite in M365. If I compare it to what we saw even back way back in E3 or E5 or the transition from all to M, this is really much faster, right? It's the numbers of penetration of the Fortune 500 and then the fact that they're coming back for more seats and what have you. So it's very strong in that context. The other thing I'll also mention is that we want this to be something that is systemic, right? Because people need to be able to put the security controls, then they need to deploy, then there's killing and then there's change management. So this is not like you're just, it's not a tool. Like when I talk about co-pilot, co-pilot studio agents, it's really as much about a new way to work. And sometimes I describe it as what happened throughout the 90s with PC penetration. After all, if you take a business process like forecasting, what was it like, pre-email and Excel and post-email and Excel, that's the type of change that you see with co-pilot. But overall, we feel great about the rate of progress and the penetration. And then on the consumer side, look for us, the exciting part here is to be able to use the same investment we are making in the commercial where we have structural strength and then be on the offer. One of the things that I think, I hope you all catch in our earnings, is Xtac, our revenue, when it comes to what we describe as search news and ads, is growing faster than market. So it's fantastic to see that. So that's kind of what can zoom a business, which in Microsoft's large scope, even a 10 plus billion dollar business sometimes goes missing. But in our case, it is actually a fantastic growth business that's growing faster than market. We feel good about how we will use AI in LinkedIn. In fact, LinkedIn is a consumer business. As you know, you saw this week, they announced some new capabilities for both consumers and in their case, even recruiting. So we think that AI, the same investment, gets monetized even through LinkedIn's innovation. And gaming, of course, is another place where you will see some of these things apply and windows. So the place where I think I'm excited about is Copilot plus PCs. For us, it's not about having a disconnected edge. It's about having hybrid AI where the rebirth of sort of the PC as the edge of AI is going to be one of the most exciting things for developers. So we feel well positioned, quite frankly, with the same investment. That's the thing that, you know, we're not a conglomerate here. We are sort of one company that means we invest one and then we have all these categories that benefit from that. And that's the period of the fund here for us. And so we feel good about all of that coming together. And maybe to add one piece, because I think we should know that I'm listening and thinking through that question. It feels like you're wondering like, why am I not seeing the Copilot if you've made all this progress and the results and the answer is you already are. In that M365 commercial number, we've seen that seat growth. But those seats that we're adding, the majority of them are driven by frontline worker and small businesses. Those have a lower ARPU point. And so it masked some of the ARPU that we're already seeing, not just from E5, which continues to contribute, but also this quarter additional impact from Copilot. So as we go forward, being able, that is where you're going to see the impact will be in ARPU and M365 commercial. And as Satya said, I think you'll see the impact of Copilot engagement, frankly, across the same exact number. Beautiful. Thank you. Thanks, Rishi. That wraps up the Q&A portion of today's earnings call. Thank you for joining us today. And we look forward to speaking with all of you again soon. Thank you. Thank you. This concludes today's conference. You may disconnect your lines at this time. Enjoy the rest of your day."
+}

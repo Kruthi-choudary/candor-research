@@ -1,0 +1,73 @@
+{
+  "ticker": "AAPL",
+  "quarter": "Q3_2025",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "Mac revenue was $8 billion, up 15% year over year.",
+      "source_text": "Mac revenue was $8 billion, up 15% year over year,",
+      "timestamp_sec": 1157,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Total revenue reached $94 billion, representing a 10% increase year over year.",
+      "source_text": "Our revenue of $94 billion was up 10% year over year",
+      "timestamp_sec": 1007,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue grew 10% from a year ago, exceeding expectations.",
+      "source_text": "up 10% from a year ago, which was better than we expected.",
+      "timestamp_sec": 117,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue grew 15% year over year.",
+      "source_text": "with revenue up 15% year over year.",
+      "timestamp_sec": 177,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "iPad revenue was $6.6 billion, down 8% year over year.",
+      "source_text": "iPad revenue was $6.6 billion, down 8% year over year,",
+      "timestamp_sec": 1187,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue was $7.4 billion, down 9% year over year.",
+      "source_text": "was $7.4 billion, down 9% year over year.",
+      "timestamp_sec": 1219,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Diluted earnings per share were $1.57.",
+      "source_text": "and diluted earnings per share of $1.57,",
+      "timestamp_sec": 1093,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The situation also leads to a difficult comparison this year.",
+      "source_text": "which also leads to a difficult compare this year.",
+      "timestamp_sec": 2109,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

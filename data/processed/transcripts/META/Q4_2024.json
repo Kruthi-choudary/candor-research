@@ -1,0 +1,2892 @@
+{
+  "duration_sec": 3632.653,
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.5600000000000005,
+      "text": "Good afternoon. My name is Krista, and I will be your conference operator today."
+    },
+    {
+      "start": 4.96,
+      "end": 9.26,
+      "text": "At this time, I would like to welcome everyone to the META fourth quarter and"
+    },
+    {
+      "start": 9.26,
+      "end": 12.32,
+      "text": "full year 2024 earnings conference call."
+    },
+    {
+      "start": 12.96,
+      "end": 16.32,
+      "text": "All lines have been placed on mute to prevent any background noise."
+    },
+    {
+      "start": 16.92,
+      "end": 20.72,
+      "text": "After the speaker's remarks, so it will be a question and answer session."
+    },
+    {
+      "start": 21.28,
+      "end": 25.64,
+      "text": "If you would like to ask a question, please press star one on your telephone keypad"
+    },
+    {
+      "start": 26.2,
+      "end": 30.6,
+      "text": "to withdraw your question. Again, press star one, and we ask that you limit"
+    },
+    {
+      "start": 30.6,
+      "end": 34.120000000000005,
+      "text": "yourself to one question. And this call will be recorded."
+    },
+    {
+      "start": 34.6,
+      "end": 40.52,
+      "text": "Thank you very much. Kenneth Dorrell, META's director of an investor relations. You may begin."
+    },
+    {
+      "start": 41.72,
+      "end": 45.8,
+      "text": "Thank you. Good afternoon and welcome to META platform's fourth quarter and"
+    },
+    {
+      "start": 45.8,
+      "end": 48.040000000000006,
+      "text": "full year 2024 earnings conference call."
+    },
+    {
+      "start": 48.84,
+      "end": 53.72,
+      "text": "Joining me today to discuss our results are Mark Zuckerberg, CEO and Susan Lee, CFO."
+    },
+    {
+      "start": 54.44,
+      "end": 58.12,
+      "text": "Before we get started, I would like to take this opportunity to remind you that our"
+    },
+    {
+      "start": 58.12,
+      "end": 62.6,
+      "text": "remarks today will include forward-looking statements. Actual results may differ"
+    },
+    {
+      "start": 62.6,
+      "end": 65.4,
+      "text": "materially from those contemplated by these forward-looking statements."
+    },
+    {
+      "start": 66.28,
+      "end": 70.6,
+      "text": "Factors that could cause these results to differ materially are set forth in today's earnings"
+    },
+    {
+      "start": 70.6,
+      "end": 75.08,
+      "text": "press release and in our quarterly report on form 10Q filed with the SEC."
+    },
+    {
+      "start": 75.8,
+      "end": 80.44,
+      "text": "Any forward-looking statements that we make on this call are based on assumptions as of today,"
+    },
+    {
+      "start": 80.52,
+      "end": 85.24,
+      "text": "and we undertake no obligation to update these statements as a result of new information or"
+    },
+    {
+      "start": 85.24,
+      "end": 90.67999999999999,
+      "text": "future events. During this call, we will present both GAP and certain non-GAP financial measures."
+    },
+    {
+      "start": 91.24,
+      "end": 95.8,
+      "text": "A reconciliation of GAP to non-GAP measures is included in today's earnings press release."
+    },
+    {
+      "start": 96.44,
+      "end": 100.84,
+      "text": "The earnings press release and an accompanying investor presentation are available on our"
+    },
+    {
+      "start": 100.84,
+      "end": 106.12,
+      "text": "website at investor.atmeta.com. And now I'd like to turn it all over to Mark."
+    },
+    {
+      "start": 106.84,
+      "end": 113.16000000000001,
+      "text": "Alright, thanks Ken. Thanks everyone for joining today. We ended 2024 on a strong note with now"
+    },
+    {
+      "start": 113.16000000000001,
+      "end": 120.36,
+      "text": "more than 3.3 billion people using at least one of our apps each day. This is going to be a really"
+    },
+    {
+      "start": 120.36,
+      "end": 127.08000000000001,
+      "text": "big year. I know it always feels like every year is a big year, but more than usual, it feels like"
+    },
+    {
+      "start": 127.08000000000001,
+      "end": 133.4,
+      "text": "the trajectory for most of our long-term initiatives is going to be a lot clearer by the end of this"
+    },
+    {
+      "start": 133.4,
+      "end": 140.44,
+      "text": "year. So I keep telling our teams that this is going to be intense because we have about 48"
+    },
+    {
+      "start": 140.44,
+      "end": 147.16,
+      "text": "weeks to get on the trajectory that we want to be on. In AI, I expect that this is going to be the"
+    },
+    {
+      "start": 147.16,
+      "end": 154.20000000000002,
+      "text": "year when a highly intelligent and personalized AI assistant reaches more than 1 billion people,"
+    },
+    {
+      "start": 154.84,
+      "end": 161.56,
+      "text": "and I expect meta-AI to be that leading AI assistant. Meta-AI is already used by more people"
+    },
+    {
+      "start": 161.56,
+      "end": 167.72,
+      "text": "than any other assistant, and once a service reaches that kind of scale, it usually develops"
+    },
+    {
+      "start": 167.72,
+      "end": 174.04,
+      "text": "a durable long-term advantage. We have a really exciting roadmap for this year with a unique vision"
+    },
+    {
+      "start": 175.32,
+      "end": 179.4,
+      "text": "focused on personalization. We believe that people don't all want to use the same AI."
+    },
+    {
+      "start": 180.04,
+      "end": 184.44,
+      "text": "People want their AI to be personalized to their context, their interests, their personality,"
+    },
+    {
+      "start": 184.44,
+      "end": 189.4,
+      "text": "their culture, and how they think about the world. I don't think that there's just going to be one big"
+    },
+    {
+      "start": 189.48000000000002,
+      "end": 195.32,
+      "text": "AI that everyone uses that does the same thing. People are going to get to choose how their AI"
+    },
+    {
+      "start": 195.32,
+      "end": 199.96,
+      "text": "works and what it looks like for them. I continue to think that this is going to be one of the most"
+    },
+    {
+      "start": 199.96,
+      "end": 205.48000000000002,
+      "text": "transformative products that we've made, and we have some fun surprises that I think people are"
+    },
+    {
+      "start": 205.48000000000002,
+      "end": 212.68,
+      "text": "going to like this year. I think this will very well be the year when llama and open source become"
+    },
+    {
+      "start": 212.68,
+      "end": 219.56,
+      "text": "the most advanced and widely used AI models as well. llama 4 is making great progress in training,"
+    },
+    {
+      "start": 220.28,
+      "end": 226.04000000000002,
+      "text": "llama 4 mini is done with pre-training, and our reasoning models and larger model"
+    },
+    {
+      "start": 226.76000000000002,
+      "end": 233.4,
+      "text": "are looking good too. Our goal with llama 3 was to make open source competitive with closed models,"
+    },
+    {
+      "start": 234.04000000000002,
+      "end": 241.32,
+      "text": "and our goal for llama 4 is to lead. llama 4 will be natively multi-modal, it's an omnimodel,"
+    },
+    {
+      "start": 241.32,
+      "end": 246.35999999999999,
+      "text": "and it will have agentic capabilities, so it's going to be novel, and it's going to unlock"
+    },
+    {
+      "start": 247.23999999999998,
+      "end": 252.84,
+      "text": "a lot of new use cases, and I'm looking forward to sharing more of our plan for the year on that"
+    },
+    {
+      "start": 252.84,
+      "end": 260.03999999999996,
+      "text": "over the next couple of months. I also expect that 2025 will be the year when it becomes possible to"
+    },
+    {
+      "start": 260.03999999999996,
+      "end": 269.88,
+      "text": "build an AI engineering agent that has coding and problem-solving abilities of around a good"
+    },
+    {
+      "start": 270.2,
+      "end": 277.56,
+      "text": "level engineer. This is going to be a profound milestone, and potentially one of the most important"
+    },
+    {
+      "start": 277.56,
+      "end": 284.04,
+      "text": "innovations in history, as well as over time, potentially a very large market."
+    },
+    {
+      "start": 285.24,
+      "end": 289.96,
+      "text": "Whichever company builds this first is going to have a meaningful advantage in deploying it to"
+    },
+    {
+      "start": 289.96,
+      "end": 297.56,
+      "text": "advance their AI research and shape the field. That's another reason why I think that this year is going"
+    },
+    {
+      "start": 297.56,
+      "end": 306.6,
+      "text": "to set the course for the future. Our Rayben meta AI glasses are a real hit, and this will be the"
+    },
+    {
+      "start": 306.6,
+      "end": 313.48,
+      "text": "year when we understand the trajectory for AI glasses as a category. Many breakout products"
+    },
+    {
+      "start": 315.16,
+      "end": 319.72,
+      "text": "in the history of consumer electronics have sold 5 to 10 million units in their third generation."
+    },
+    {
+      "start": 320.92,
+      "end": 326.44,
+      "text": "This will be a defining year that determines if we're on a path towards many hundreds of millions,"
+    },
+    {
+      "start": 326.44,
+      "end": 332.04,
+      "text": "and eventually billions of AI glasses, and glasses being the next computing platform like we've been"
+    },
+    {
+      "start": 332.04,
+      "end": 339.48,
+      "text": "talking about for some time, or if this is just going to be a longer grind. But it's great overall to see"
+    },
+    {
+      "start": 339.48,
+      "end": 346.04,
+      "text": "people recognizing that these glasses are the perfect form factor for AI, as well as just great"
+    },
+    {
+      "start": 346.04,
+      "end": 353.48,
+      "text": "stylish glasses. These are all big investments, especially the hundreds of billions of dollars"
+    },
+    {
+      "start": 353.56,
+      "end": 360.04,
+      "text": "that we will invest in AI infrastructure over the long term. I announced last week that we expect"
+    },
+    {
+      "start": 360.04,
+      "end": 367.48,
+      "text": "to bring online almost a gigawatt of capacity this year, and we're building a two gigawatt"
+    },
+    {
+      "start": 367.48,
+      "end": 374.12,
+      "text": "and potentially bigger AI data center that is so big that it will cover a significant part of"
+    },
+    {
+      "start": 374.12,
+      "end": 380.92,
+      "text": "Manhattan if it were placed there. We're planning to fund all of this by at the same time investing"
+    },
+    {
+      "start": 380.92,
+      "end": 387.32,
+      "text": "aggressively in initiatives that use these AI advances to increase revenue growth."
+    },
+    {
+      "start": 387.32,
+      "end": 393.56,
+      "text": "We've put together a plan that will hopefully accelerate the pace of these initiatives over"
+    },
+    {
+      "start": 393.56,
+      "end": 398.76,
+      "text": "the next few years. That's what a lot of our new headcount growth is going towards,"
+    },
+    {
+      "start": 399.64,
+      "end": 405.8,
+      "text": "and how well we execute on this will also determine our financial trajectory over the next few years."
+    },
+    {
+      "start": 406.68,
+      "end": 411.96000000000004,
+      "text": "There are a number of other important product trends related to our family of apps that I think"
+    },
+    {
+      "start": 411.96000000000004,
+      "end": 416.2,
+      "text": "we're going to know more about this year as well. We're going to learn what's going to happen with"
+    },
+    {
+      "start": 416.2,
+      "end": 421.56,
+      "text": "TikTok, and regardless of that, I expect reels on Instagram and Facebook to continue growing."
+    },
+    {
+      "start": 422.52,
+      "end": 428.92,
+      "text": "I expect threads to continue on its trajectory to become the leading discussion platform and"
+    },
+    {
+      "start": 428.92,
+      "end": 435.72,
+      "text": "eventually reach billion people over the next several years. Threads now has more than"
+    },
+    {
+      "start": 436.6,
+      "end": 441.32,
+      "text": "320 million monthly actives and has been adding more than 1 million signups per day."
+    },
+    {
+      "start": 442.36,
+      "end": 447.08000000000004,
+      "text": "I expect WhatsApp to continue gaining share and making progress towards becoming the leading"
+    },
+    {
+      "start": 447.08000000000004,
+      "end": 452.52000000000004,
+      "text": "messaging platform in the US like it is in a lot of the rest of the world. WhatsApp now has more"
+    },
+    {
+      "start": 452.59999999999997,
+      "end": 458.68,
+      "text": "than 100 million monthly actives in the US. Facebook is used by more than 3 billion"
+    },
+    {
+      "start": 460.03999999999996,
+      "end": 463.64,
+      "text": "monthly actives, and we're focused on growing its cultural influence."
+    },
+    {
+      "start": 464.52,
+      "end": 471.88,
+      "text": "I'm excited this year to get back to some OG Facebook. This is also going to be a pivotal year"
+    },
+    {
+      "start": 471.88,
+      "end": 476.68,
+      "text": "for the metaverse. The number of people using Quest and Horizon has been steadily growing,"
+    },
+    {
+      "start": 477.64,
+      "end": 482.92,
+      "text": "and this is a year when a number of the long-term investments that we've been working on"
+    },
+    {
+      "start": 482.92,
+      "end": 489.08,
+      "text": "that will make the metaverse more visually stunning and inspiring will really start to land."
+    },
+    {
+      "start": 489.08,
+      "end": 493.64,
+      "text": "So I think we're going to know a lot more about Horizon's trajectory by the end of this year."
+    },
+    {
+      "start": 494.92,
+      "end": 500.28000000000003,
+      "text": "This is also going to be a big year for redefining our relationship with governments."
+    },
+    {
+      "start": 501.64,
+      "end": 505.8,
+      "text": "We now have a US administration that is proud of our leading companies."
+    },
+    {
+      "start": 506.68,
+      "end": 514.12,
+      "text": "Prioritizes American technology winning, and that will defend our values and interests abroad,"
+    },
+    {
+      "start": 514.12,
+      "end": 518.04,
+      "text": "and I am optimistic about the progress and innovation that this can unlock."
+    },
+    {
+      "start": 519.08,
+      "end": 524.6,
+      "text": "So this is going to be a big year. I think that this is the most exciting and dynamic"
+    },
+    {
+      "start": 524.6,
+      "end": 531.48,
+      "text": "that I have ever seen our industry. Between AI, glasses, massive infrastructure projects,"
+    },
+    {
+      "start": 531.5600000000001,
+      "end": 538.2,
+      "text": "you know, doing a bunch of work to try to accelerate our business and building the future of social"
+    },
+    {
+      "start": 538.2,
+      "end": 543.96,
+      "text": "media, we have a lot to do. And I think we're going to build some awesome things that"
+    },
+    {
+      "start": 544.9200000000001,
+      "end": 549.96,
+      "text": "shape the future of human connection. As always, I am grateful for everyone who's on this journey"
+    },
+    {
+      "start": 549.96,
+      "end": 556.6,
+      "text": "with us. Thank you, near Susan. Thanks, Mark, and good afternoon, everyone."
+    },
+    {
+      "start": 557.4,
+      "end": 563.5600000000001,
+      "text": "Let's begin with our consolidated results. All comparisons are on a year over year basis, unless"
+    },
+    {
+      "start": 563.5600000000001,
+      "end": 573.64,
+      "text": "otherwise noted. Q4 total revenue was $48.4 billion, up 21% on both a reported and constant currency basis."
+    },
+    {
+      "start": 574.76,
+      "end": 582.76,
+      "text": "Q4 total expenses were $25 billion, up 5% compared to last year. Before I cover the specific cost"
+    },
+    {
+      "start": 582.76,
+      "end": 588.28,
+      "text": "lines, I would note that our fourth quarter expense growth rate reflects a 13 percentage point"
+    },
+    {
+      "start": 588.28,
+      "end": 594.84,
+      "text": "favorable impact from legal accrual reductions in Q4 and lower year over year restructuring costs."
+    },
+    {
+      "start": 596.4399999999999,
+      "end": 602.84,
+      "text": "In terms of the specific line items, cost of revenue increased 15% driven mostly by higher"
+    },
+    {
+      "start": 602.84,
+      "end": 610.36,
+      "text": "infrastructure costs. R&D increased 16% primarily driven by higher employee compensation and"
+    },
+    {
+      "start": 610.44,
+      "end": 614.84,
+      "text": "infrastructure costs, which were partially offset by lower restructuring costs."
+    },
+    {
+      "start": 615.96,
+      "end": 623.5600000000001,
+      "text": "Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly"
+    },
+    {
+      "start": 623.5600000000001,
+      "end": 631.08,
+      "text": "by lower legal related expenses due to a $1.55 billion reduction in legal accruals related to"
+    },
+    {
+      "start": 631.08,
+      "end": 638.6,
+      "text": "certain legal proceedings. We ended the year with over 74,000 employees, up 10% year over year,"
+    },
+    {
+      "start": 638.6,
+      "end": 642.76,
+      "text": "with growth primarily driven by hiring and priority areas of monetization,"
+    },
+    {
+      "start": 643.32,
+      "end": 649.0,
+      "text": "infrastructure, generative AI, reality labs, as well as regulation and compliance."
+    },
+    {
+      "start": 650.6,
+      "end": 657.48,
+      "text": "Fourth quarter operating income was $23.4 billion representing a 48% operating margin."
+    },
+    {
+      "start": 658.6800000000001,
+      "end": 668.2,
+      "text": "Our tax rate for the quarter was 12%. Net income was $20.8 billion or $8.02 per share."
+    },
+    {
+      "start": 669.4,
+      "end": 675.4,
+      "text": "Capital expenditures including principal payments on finance leases were $14.8 billion"
+    },
+    {
+      "start": 676.6,
+      "end": 680.44,
+      "text": "driven by investments in servers, data centers and network infrastructure."
+    },
+    {
+      "start": 681.64,
+      "end": 688.52,
+      "text": "Free cash flow was $13.2 billion. We paid $1.3 billion in dividends to shareholders,"
+    },
+    {
+      "start": 689.08,
+      "end": 696.9200000000001,
+      "text": "ending the year with $77.8 billion in cash and marketable securities and $28.8 billion in debt."
+    },
+    {
+      "start": 698.6,
+      "end": 703.24,
+      "text": "Moving now to our segment results. I'll begin with our family of apps segment."
+    },
+    {
+      "start": 703.8000000000001,
+      "end": 708.6800000000001,
+      "text": "Our community across the family of apps continues to grow and we estimate more than"
+    },
+    {
+      "start": 708.6800000000001,
+      "end": 714.12,
+      "text": "3.3 billion people used at least one of our family of apps on a daily basis in December."
+    },
+    {
+      "start": 715.32,
+      "end": 721.64,
+      "text": "Q4 total family of apps revenue was $47.3 billion, up 21% year over year."
+    },
+    {
+      "start": 722.6,
+      "end": 731.16,
+      "text": "And Q4 family of apps ad revenue was $46.8 billion, up 21% on both a reported and constant currency basis."
+    },
+    {
+      "start": 732.6,
+      "end": 737.8,
+      "text": "Within ad revenue, the online commerce vertical was the largest contributor to year over year growth."
+    },
+    {
+      "start": 739.0,
+      "end": 744.68,
+      "text": "On a user geography basis, ad revenue growth was strongest in rest of world at 27%,"
+    },
+    {
+      "start": 745.6400000000001,
+      "end": 753.1600000000001,
+      "text": "followed by Asia Pacific in Europe at 23% and 22% respectively. North America grew 18%."
+    },
+    {
+      "start": 754.6800000000001,
+      "end": 761.32,
+      "text": "In Q4, the total number of ad impressions served across our services increased 6% and the average"
+    },
+    {
+      "start": 761.32,
+      "end": 768.44,
+      "text": "price per ad increased 14%. Impression growth was mainly driven by Asia Pacific. Pricing growth"
+    },
+    {
+      "start": 768.44,
+      "end": 773.32,
+      "text": "benefited from increased advertiser demand in part driven by improved ad performance."
+    },
+    {
+      "start": 774.12,
+      "end": 779.24,
+      "text": "This was partially offset by impression growth, particularly from lower monetizing regions and"
+    },
+    {
+      "start": 779.24,
+      "end": 789.08,
+      "text": "surfaces. Family of apps other revenue was $519 million, up 55%, driven primarily by business"
+    },
+    {
+      "start": 789.08,
+      "end": 794.2,
+      "text": "messaging revenue growth from our WhatsApp business platform. We continue to direct the"
+    },
+    {
+      "start": 794.2,
+      "end": 799.4000000000001,
+      "text": "majority of our investments toward the development and operation of our family of apps. In Q4,"
+    },
+    {
+      "start": 799.48,
+      "end": 806.28,
+      "text": "family of apps expenses were $19 billion representing 76% of our overall expenses."
+    },
+    {
+      "start": 807.24,
+      "end": 813.16,
+      "text": "Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee"
+    },
+    {
+      "start": 813.16,
+      "end": 820.76,
+      "text": "compensation, which were partially offset by lower legal related expenses. Family of apps operating"
+    },
+    {
+      "start": 820.76,
+      "end": 829.16,
+      "text": "income was $28.3 billion representing a 60% operating margin. Within our reality lab segment,"
+    },
+    {
+      "start": 829.16,
+      "end": 835.7199999999999,
+      "text": "Q4 revenue was $1.1 billion, driven by hardware sales and up 1% year over year."
+    },
+    {
+      "start": 837.16,
+      "end": 843.56,
+      "text": "Reality Labs expenses were $6 billion, up 6% year over year, driven primarily by higher"
+    },
+    {
+      "start": 843.56,
+      "end": 849.64,
+      "text": "infrastructure costs and employee compensation, partially offset by lower restructuring costs."
+    },
+    {
+      "start": 850.8399999999999,
+      "end": 857.64,
+      "text": "Reality Labs operating loss was $5 billion. Turning now to the business outlook, there are"
+    },
+    {
+      "start": 857.64,
+      "end": 862.36,
+      "text": "two primary factors that drive our revenue performance, our ability to deliver engaging"
+    },
+    {
+      "start": 862.36,
+      "end": 867.4,
+      "text": "experiences for our community and our effectiveness at monetizing that engagement over time."
+    },
+    {
+      "start": 868.1999999999999,
+      "end": 873.4,
+      "text": "On the first, daily actives continue to grow across Facebook, Instagram, and WhatsApp year over"
+    },
+    {
+      "start": 873.4,
+      "end": 879.8,
+      "text": "year, both globally and in the United States. In Q4, global video time grew at double digit"
+    },
+    {
+      "start": 879.8,
+      "end": 885.4,
+      "text": "percentages year over year on Instagram, and we're seeing particular strength in the US on Facebook,"
+    },
+    {
+      "start": 885.4,
+      "end": 891.3199999999999,
+      "text": "where video time spent was also up double digit rates year over year. We see continued"
+    },
+    {
+      "start": 891.3199999999999,
+      "end": 898.28,
+      "text": "opportunities to drive video growth in 2025 through ongoing optimizations to our ranking systems."
+    },
+    {
+      "start": 899.0,
+      "end": 904.28,
+      "text": "We're also making several product bets that are focused on setting up our platforms for longer"
+    },
+    {
+      "start": 904.28,
+      "end": 911.72,
+      "text": "term success. Creators are one of our central focuses. On Instagram, we continue to prioritize"
+    },
+    {
+      "start": 911.72,
+      "end": 915.96,
+      "text": "original posts and recommendations to help smaller creators get discovered."
+    },
+    {
+      "start": 916.6800000000001,
+      "end": 921.32,
+      "text": "We also want to ensure creators have a place to experiment with their content,"
+    },
+    {
+      "start": 921.32,
+      "end": 927.1600000000001,
+      "text": "so we introduced a new feature in Q4 that allows creators to first share a reel with people who"
+    },
+    {
+      "start": 927.1600000000001,
+      "end": 934.28,
+      "text": "don't follow them. This allows them to test content and see what performs best before deciding to"
+    },
+    {
+      "start": 934.28,
+      "end": 940.36,
+      "text": "share it with their followers, and also helps introduce them to entirely new audiences. Creative"
+    },
+    {
+      "start": 940.36,
+      "end": 946.28,
+      "text": "Tools is another area we're investing in. In the coming weeks, we'll launch a new standalone app"
+    },
+    {
+      "start": 946.28,
+      "end": 952.2,
+      "text": "called edits that provides a full suite of creative tools to make it easier for creators to make great"
+    },
+    {
+      "start": 952.2,
+      "end": 959.72,
+      "text": "reels on their phone. Another focus is making it easier for people to connect over content. Reels"
+    },
+    {
+      "start": 959.72,
+      "end": 965.16,
+      "text": "are already re-shared over 4.5 billion times a day, and we've been introducing more features that"
+    },
+    {
+      "start": 965.16,
+      "end": 970.6,
+      "text": "bring together the social and entertainment aspects of Instagram. In the U.S., we recently"
+    },
+    {
+      "start": 970.6,
+      "end": 976.04,
+      "text": "launched a new destination in reels that consists of content your friends have left a note on or liked."
+    },
+    {
+      "start": 976.8399999999999,
+      "end": 982.1999999999999,
+      "text": "We're seeing very positive early results, and we'll look to expand this globally in the coming months."
+    },
+    {
+      "start": 983.48,
+      "end": 988.68,
+      "text": "On threads, we made tremendous progress in 2024, and are focused this year as establishing"
+    },
+    {
+      "start": 988.68,
+      "end": 994.68,
+      "text": "threads as the place people come to keep up with what they care about. We're making a number of"
+    },
+    {
+      "start": 994.7600000000001,
+      "end": 1001.4000000000001,
+      "text": "updates to our recommendation systems to prioritize more recent posts, surface content from top creators,"
+    },
+    {
+      "start": 1001.4000000000001,
+      "end": 1007.1600000000001,
+      "text": "and ensure people see more of the content from accounts they follow. We will also continue"
+    },
+    {
+      "start": 1007.1600000000001,
+      "end": 1012.2800000000001,
+      "text": "improving custom feeds so people can build personalized feeds on topics they're interested in."
+    },
+    {
+      "start": 1014.2,
+      "end": 1018.7600000000001,
+      "text": "Finally, meta-AI usage continues to scale with more than 700 million monthly"
+    },
+    {
+      "start": 1018.76,
+      "end": 1023.96,
+      "text": "actors. We're now introducing updates that will enable meta-AI to deliver more personalized"
+    },
+    {
+      "start": 1023.96,
+      "end": 1029.56,
+      "text": "and relevant responses by remembering certain details from people's prior queries and considering"
+    },
+    {
+      "start": 1029.56,
+      "end": 1034.84,
+      "text": "what they engage with on Facebook and Instagram to develop better intuition for their interests"
+    },
+    {
+      "start": 1034.84,
+      "end": 1041.64,
+      "text": "and preferences. Now to the second driver of our revenue performance, increasing monetization"
+    },
+    {
+      "start": 1041.64,
+      "end": 1046.76,
+      "text": "efficiency. The first part of this work is optimizing the level of ads with an organic"
+    },
+    {
+      "start": 1046.76,
+      "end": 1053.4,
+      "text": "engagement. We continue to grow supply on lower monetizing surfaces, like video, while optimizing"
+    },
+    {
+      "start": 1053.4,
+      "end": 1059.0,
+      "text": "ad supply on each of our services to deliver ads at the time and place they will be most relevant"
+    },
+    {
+      "start": 1059.0,
+      "end": 1066.2,
+      "text": "to people. For example, we are continuing to better personalize when ads show up, including"
+    },
+    {
+      "start": 1066.2,
+      "end": 1072.12,
+      "text": "the optimal locations in the depth of someone's feed to introduce ad supply when it's most optimal"
+    },
+    {
+      "start": 1072.2,
+      "end": 1076.6000000000001,
+      "text": "for the user and revenue. This is enabling efficient supply growth."
+    },
+    {
+      "start": 1077.8000000000002,
+      "end": 1083.48,
+      "text": "Longer term, we also see impression growth opportunities on unmonetized surfaces like threads,"
+    },
+    {
+      "start": 1084.2800000000002,
+      "end": 1090.1200000000001,
+      "text": "which we are beginning to test ads on this quarter. We expect the introduction of ads on"
+    },
+    {
+      "start": 1090.1200000000001,
+      "end": 1094.68,
+      "text": "threads will be gradual and don't anticipate it being a meaningful driver of overall"
+    },
+    {
+      "start": 1094.68,
+      "end": 1100.8400000000001,
+      "text": "impression or revenue growth in 2025. The second part of increasing monetization"
+    },
+    {
+      "start": 1100.84,
+      "end": 1107.08,
+      "text": "efficiency is improving marketing performance. The ongoing enhancements to our ads ranking systems"
+    },
+    {
+      "start": 1107.08,
+      "end": 1113.72,
+      "text": "are an important driver of this work. In the second half of 2024, we introduced an innovative"
+    },
+    {
+      "start": 1113.72,
+      "end": 1119.3999999999999,
+      "text": "new machine learning system in partnership with NVIDIA called Andromeda. This more efficient"
+    },
+    {
+      "start": 1119.3999999999999,
+      "end": 1125.8799999999999,
+      "text": "system enabled a 10,000 times increase in the complexity of models we use for ads retrieval,"
+    },
+    {
+      "start": 1126.44,
+      "end": 1131.48,
+      "text": "which is the part of the ranking process where we narrow down a pool of tens of millions of ads"
+    },
+    {
+      "start": 1131.48,
+      "end": 1137.3200000000002,
+      "text": "to the few thousand we consider showing someone. The increase in model complexity is enabling"
+    },
+    {
+      "start": 1137.3200000000002,
+      "end": 1143.0,
+      "text": "us to run far more sophisticated prediction models to better personalize which ads we show"
+    },
+    {
+      "start": 1143.0,
+      "end": 1149.24,
+      "text": "someone. This has driven an 8% increase in the quality of ads that people see on objectives we've"
+    },
+    {
+      "start": 1149.32,
+      "end": 1155.8,
+      "text": "tested. Andromeda's ability to efficiently process larger volumes of ads also positions"
+    },
+    {
+      "start": 1155.8,
+      "end": 1162.1200000000001,
+      "text": "as well for the future as advertisers use our generative AI tools to create and test more ads."
+    },
+    {
+      "start": 1164.2,
+      "end": 1169.64,
+      "text": "Another way we're delivering value for advertisers is through increased automation of their ad campaigns"
+    },
+    {
+      "start": 1169.64,
+      "end": 1175.48,
+      "text": "with Advantage Plus. Adoption of Advantage Plus shopping campaigns continues to scale"
+    },
+    {
+      "start": 1175.48,
+      "end": 1182.04,
+      "text": "with revenues surpassing a $20 billion annual run rate and growing 70% year-to-year in Q4."
+    },
+    {
+      "start": 1183.0,
+      "end": 1187.88,
+      "text": "Given the strong performance and interest we're seeing in Advantage Plus shopping and our other"
+    },
+    {
+      "start": 1187.88,
+      "end": 1195.56,
+      "text": "end-to-end solutions, we're testing a new streamlined campaign creation flow so advertisers no longer"
+    },
+    {
+      "start": 1195.56,
+      "end": 1201.88,
+      "text": "need to choose between running a manual or Advantage Plus sales or app campaign. In this new setup,"
+    },
+    {
+      "start": 1201.88,
+      "end": 1207.72,
+      "text": "all campaigns optimizing for sales app or lead objectives will have Advantage Plus turned on"
+    },
+    {
+      "start": 1207.72,
+      "end": 1214.1200000000001,
+      "text": "from the beginning. This will allow more advertisers to take advantage of the performance Advantage Plus"
+    },
+    {
+      "start": 1214.1200000000001,
+      "end": 1221.5600000000002,
+      "text": "offers while still having the ability to further customize aspects of their campaigns when they need"
+    },
+    {
+      "start": 1221.5600000000002,
+      "end": 1228.44,
+      "text": "to. We plan to expand to more advertisers in the coming months before rolling it out later in the"
+    },
+    {
+      "start": 1228.44,
+      "end": 1234.6000000000001,
+      "text": "year. Advantage Plus creative is another area where we're seeing momentum. More than 4 million"
+    },
+    {
+      "start": 1234.6000000000001,
+      "end": 1241.16,
+      "text": "advertisers are now using at least one of our generative AI ad creative tools up from 1 million"
+    },
+    {
+      "start": 1241.16,
+      "end": 1247.24,
+      "text": "six months ago. There has been significant early adoption of our first video generation tool that"
+    },
+    {
+      "start": 1247.24,
+      "end": 1253.56,
+      "text": "we rolled out in October image animation with hundreds of thousands of advertisers already"
+    },
+    {
+      "start": 1253.56,
+      "end": 1260.36,
+      "text": "using it monthly. Next, I would like to discuss our approach to capital allocation. Our primary"
+    },
+    {
+      "start": 1260.36,
+      "end": 1266.76,
+      "text": "focus remains investing capital back into the business with infrastructure and talent being our"
+    },
+    {
+      "start": 1266.76,
+      "end": 1274.76,
+      "text": "top priorities. On the first, we expect compute will be central to many of the opportunities we're"
+    },
+    {
+      "start": 1274.76,
+      "end": 1281.48,
+      "text": "pursuing as we advance the capabilities of llama drive increased usage of generative AI products"
+    },
+    {
+      "start": 1281.48,
+      "end": 1286.84,
+      "text": "and features across our platform and fuel core ads and organic engagement initiatives."
+    },
+    {
+      "start": 1288.04,
+      "end": 1292.68,
+      "text": "We're working to meet the growing capacity needs for these services by both scaling our"
+    },
+    {
+      "start": 1292.68,
+      "end": 1298.84,
+      "text": "infrastructure footprint and increasing the efficiency of our workloads. Another way we're"
+    },
+    {
+      "start": 1298.84,
+      "end": 1303.8,
+      "text": "pursuing efficiencies is by extending the useful lives of our servers and associated networking"
+    },
+    {
+      "start": 1303.8,
+      "end": 1310.68,
+      "text": "equipment. Our expectation going forward is that we'll be able to use both our non AI and AI"
+    },
+    {
+      "start": 1310.68,
+      "end": 1316.3600000000001,
+      "text": "servers for a longer period of time before replacing them, which we estimate will be approximately"
+    },
+    {
+      "start": 1316.3600000000001,
+      "end": 1323.24,
+      "text": "five and a half years. This will deliver savings in annual capex and resulting depreciation expense,"
+    },
+    {
+      "start": 1323.24,
+      "end": 1329.8,
+      "text": "which is already included in our guidance. Finally, we're pursuing cost efficiencies by deploying"
+    },
+    {
+      "start": 1329.8,
+      "end": 1336.1200000000001,
+      "text": "our custom MTIA silicon in areas where we can achieve a lower cost of compute by optimizing"
+    },
+    {
+      "start": 1336.2,
+      "end": 1342.2800000000002,
+      "text": "the chip to our unique workloads. In 2024, we started deploying MTIA to our ranking"
+    },
+    {
+      "start": 1342.2800000000002,
+      "end": 1349.0000000000002,
+      "text": "and recommendation inference workloads for ads and organic content. We expect to further ramp"
+    },
+    {
+      "start": 1349.0000000000002,
+      "end": 1356.0400000000002,
+      "text": "adoption of MTIA for these use cases throughout 2025 before extending our custom silicon efforts"
+    },
+    {
+      "start": 1356.0400000000002,
+      "end": 1362.0400000000002,
+      "text": "to training workloads for ranking and recommendations next year. From a hiring standpoint,"
+    },
+    {
+      "start": 1362.92,
+      "end": 1368.68,
+      "text": "our focus continues to be on adding technical talent to support our strategic priorities."
+    },
+    {
+      "start": 1369.56,
+      "end": 1375.1599999999999,
+      "text": "In the fourth quarter, nearly 90% of our year over year headcount growth was within the R&D"
+    },
+    {
+      "start": 1375.1599999999999,
+      "end": 1380.2,
+      "text": "function. The remaining growth was primarily in cost of revenue as we added infrastructure"
+    },
+    {
+      "start": 1380.2,
+      "end": 1387.6399999999999,
+      "text": "headcount to support our data center operations. In 2025, we expect headcount growth will continue"
+    },
+    {
+      "start": 1387.64,
+      "end": 1392.8400000000001,
+      "text": "to be primarily driven by technical roles across our priority initiatives within infrastructure,"
+    },
+    {
+      "start": 1393.48,
+      "end": 1398.44,
+      "text": "monetization, reality labs, generative AI, as well as regulation and compliance."
+    },
+    {
+      "start": 1399.72,
+      "end": 1403.96,
+      "text": "We anticipate headcount growth in our business functions will remain relatively limited."
+    },
+    {
+      "start": 1405.16,
+      "end": 1409.72,
+      "text": "To achieve our ambitions in these areas, we will need to continue executing at a rapid pace."
+    },
+    {
+      "start": 1410.68,
+      "end": 1414.6000000000001,
+      "text": "We're supporting this by building tools to help our engineering base be more productive."
+    },
+    {
+      "start": 1415.3200000000002,
+      "end": 1420.5200000000002,
+      "text": "As part of our efficiency focus over the past two years, we've made significant improvements"
+    },
+    {
+      "start": 1420.5200000000002,
+      "end": 1426.0400000000002,
+      "text": "in our internal processes and developer tools and introduced new tools like our AI powered coding"
+    },
+    {
+      "start": 1426.0400000000002,
+      "end": 1432.2,
+      "text": "assistant, which is helping our engineers write code more quickly. Looking forward, we expect"
+    },
+    {
+      "start": 1432.2,
+      "end": 1437.88,
+      "text": "that the continuous advancements and llamas coding capabilities will provide even greater leverage"
+    },
+    {
+      "start": 1437.88,
+      "end": 1443.5600000000002,
+      "text": "to our engineers. And we are focused on expanding its capabilities to not only assist our engineers"
+    },
+    {
+      "start": 1443.56,
+      "end": 1449.32,
+      "text": "in writing and reviewing our code, but to also begin generating code changes to automate tool"
+    },
+    {
+      "start": 1449.32,
+      "end": 1456.04,
+      "text": "updates and improve the quality of our code base. Finally, we expect our strong financial position"
+    },
+    {
+      "start": 1456.04,
+      "end": 1460.9199999999998,
+      "text": "will enable us to support these investments while continuing to return capital to shareholders"
+    },
+    {
+      "start": 1461.48,
+      "end": 1469.32,
+      "text": "through share repurchases and dividends. Moving to our financial outlook, we expect first quarter"
+    },
+    {
+      "start": 1469.32,
+      "end": 1477.24,
+      "text": "total revenue to be in the range of $39.5 to $41.8 billion. This reflects 8 to 15 percent"
+    },
+    {
+      "start": 1477.24,
+      "end": 1483.48,
+      "text": "year year growth or 11 to 18 percent growth on a constant currency basis, as our guidance assumes"
+    },
+    {
+      "start": 1483.48,
+      "end": 1489.3999999999999,
+      "text": "foreign currency is an approximately 3 percent headwind to year over year total revenue growth"
+    },
+    {
+      "start": 1489.3999999999999,
+      "end": 1495.24,
+      "text": "based on current exchange rates. This also reflects the effect of lapping leap day in the first quarter"
+    },
+    {
+      "start": 1495.24,
+      "end": 1503.0,
+      "text": "of 2024. While we are not providing a full year 2025 revenue outlook, we expect the investments"
+    },
+    {
+      "start": 1503.0,
+      "end": 1508.2,
+      "text": "we're making in our core business this year will give us an opportunity to continue delivering"
+    },
+    {
+      "start": 1508.2,
+      "end": 1516.84,
+      "text": "strong revenue growth throughout 2025. Turning now to the expense outlook, we expect full year 2025"
+    },
+    {
+      "start": 1516.84,
+      "end": 1524.44,
+      "text": "total expenses to be in the range of 114 to 119 billion dollars. We expect the single largest"
+    },
+    {
+      "start": 1524.44,
+      "end": 1530.76,
+      "text": "driver of expense growth in 2025 to be infrastructure costs driven by higher operating expenses and"
+    },
+    {
+      "start": 1530.76,
+      "end": 1537.72,
+      "text": "depreciation. We expect employee compensation to be the second largest factor as we add technical talent"
+    },
+    {
+      "start": 1537.72,
+      "end": 1545.0,
+      "text": "in the priority areas that I referenced earlier. Turning now to the cat-backs outlook, we expect"
+    },
+    {
+      "start": 1545.0,
+      "end": 1553.3200000000002,
+      "text": "our full year 2025 capital expenses will be in the range of 60 to 65 billion dollars. We expect"
+    },
+    {
+      "start": 1553.32,
+      "end": 1559.3999999999999,
+      "text": "cat-backs growth in 2025 will be driven by increased investment to support both our generative"
+    },
+    {
+      "start": 1559.3999999999999,
+      "end": 1566.52,
+      "text": "AI efforts and our core business. The majority of our cat-backs in 2025 will continue to be directed"
+    },
+    {
+      "start": 1566.52,
+      "end": 1573.48,
+      "text": "towards our core business. On to tax abs and any changes to our tax landscape, we expect our full"
+    },
+    {
+      "start": 1573.48,
+      "end": 1581.08,
+      "text": "year 2025 tax rate to be in the range of 12 to 15 percent. In addition, we continue to monitor an"
+    },
+    {
+      "start": 1581.1599999999999,
+      "end": 1586.76,
+      "text": "active regulatory landscape including legal and regulatory headwinds in the EU and the US"
+    },
+    {
+      "start": 1586.76,
+      "end": 1592.4399999999998,
+      "text": "that could significantly impact our business and our financial results. In closing, this was a good"
+    },
+    {
+      "start": 1592.4399999999998,
+      "end": 1597.1599999999999,
+      "text": "year for our company with investments across our priority areas delivering strong business"
+    },
+    {
+      "start": 1597.1599999999999,
+      "end": 1603.0,
+      "text": "performance and innovative new products for our community. We have a compelling set of opportunities"
+    },
+    {
+      "start": 1603.0,
+      "end": 1609.0,
+      "text": "to invest in this year, which we expect will help us drive continued strong growth and develop"
+    },
+    {
+      "start": 1609.0,
+      "end": 1613.0,
+      "text": "transformative technologies that shape the future of our company and of the industry."
+    },
+    {
+      "start": 1613.96,
+      "end": 1616.6,
+      "text": "With that, Krista, let's open up the call for questions."
+    },
+    {
+      "start": 1618.68,
+      "end": 1624.44,
+      "text": "Thank you. We will now open the lines for a question and answer session. To ask a question,"
+    },
+    {
+      "start": 1624.44,
+      "end": 1630.04,
+      "text": "please press star 1 on your touchstone phone. To withdraw your question, again, press star 1."
+    },
+    {
+      "start": 1630.68,
+      "end": 1636.68,
+      "text": "Please limit yourself to one question. Please pick up your hands up before asking your question"
+    },
+    {
+      "start": 1636.68,
+      "end": 1642.6000000000001,
+      "text": "to ensure clarity. If you are streaming today's call, please mute your computer speakers."
+    },
+    {
+      "start": 1643.48,
+      "end": 1650.04,
+      "text": "And our first question comes from the line of Brian Nowak with Morgan Stanley. Please go ahead."
+    },
+    {
+      "start": 1651.3200000000002,
+      "end": 1656.2,
+      "text": "Thanks for taking my question. Marc, sound very, we appreciate all the excitement about"
+    },
+    {
+      "start": 1656.2,
+      "end": 1660.6000000000001,
+      "text": "about this year and all the innovation to come. I know there's a lot of announcements throughout"
+    },
+    {
+      "start": 1660.6000000000001,
+      "end": 1664.68,
+      "text": "the course of the year, but wonder if you could just share a few sort of high level examples of"
+    },
+    {
+      "start": 1664.68,
+      "end": 1671.0800000000002,
+      "text": "your vision on new potential use cases and offerings that could drive utility for your users"
+    },
+    {
+      "start": 1671.0800000000002,
+      "end": 1676.2,
+      "text": "and value for your advertisers. You sort of think about llama 4 and meta-i changing"
+    },
+    {
+      "start": 1676.2,
+      "end": 1682.3600000000001,
+      "text": "throughout 2025. And then the second one on custom silicon, maybe a question for either of you,"
+    },
+    {
+      "start": 1682.3600000000001,
+      "end": 1688.3600000000001,
+      "text": "just any learnings on the difference between your custom silicon and third party chips in your ranking"
+    },
+    {
+      "start": 1688.3600000000001,
+      "end": 1693.3200000000002,
+      "text": "models and results. And how should we think about the main gating factors as to how quickly you"
+    },
+    {
+      "start": 1693.32,
+      "end": 1697.6399999999999,
+      "text": "build a move, a higher percentage of your engagement to your custom silicon? Thanks."
+    },
+    {
+      "start": 1704.52,
+      "end": 1710.6799999999998,
+      "text": "On the first one, I tried to lay this out in my opening comments a bit. I mean, we're very"
+    },
+    {
+      "start": 1710.6799999999998,
+      "end": 1719.08,
+      "text": "focused on meta-i as a highly intelligent and personalized assistant that you can access"
+    },
+    {
+      "start": 1719.96,
+      "end": 1724.28,
+      "text": "across our apps. There's a website, you can access it outside of our apps too."
+    },
+    {
+      "start": 1727.0,
+      "end": 1733.6399999999999,
+      "text": "I think that the quality of this is just it's going to keep on improving and improved a lot"
+    },
+    {
+      "start": 1733.6399999999999,
+      "end": 1740.9199999999998,
+      "text": "over the last year. We're also finding more ways that it's useful to integrate it into our services"
+    },
+    {
+      "start": 1740.9199999999998,
+      "end": 1746.12,
+      "text": "to help more people discover it. I think that that's undoubtedly why so many hundreds of millions of"
+    },
+    {
+      "start": 1746.1200000000001,
+      "end": 1752.8400000000001,
+      "text": "people are using it today is because it's kind of easy to discover what we're doing and then keep"
+    },
+    {
+      "start": 1752.8400000000001,
+      "end": 1761.96,
+      "text": "using it. I don't know. I want to keep some surprises and fun for the stuff that we're going to release"
+    },
+    {
+      "start": 1761.96,
+      "end": 1767.48,
+      "text": "this year. I gave a bit of detail on what we're planning to do with Lama 4 that I'm sure technical"
+    },
+    {
+      "start": 1767.48,
+      "end": 1772.68,
+      "text": "people will enjoy because we hadn't talked about that before. But I'm going to refrain from adding a"
+    },
+    {
+      "start": 1772.68,
+      "end": 1777.48,
+      "text": "whole lot more on what we're launching this year. But it's the different things that I talked about."
+    },
+    {
+      "start": 1777.48,
+      "end": 1783.16,
+      "text": "It's meta-i. I do expect Lama 4 to be a very exciting set of releases. It's not just one thing."
+    },
+    {
+      "start": 1783.16,
+      "end": 1787.0800000000002,
+      "text": "It's just like with Lama 3. There were kind of a few different models at different dates. I think"
+    },
+    {
+      "start": 1787.0800000000002,
+      "end": 1794.2,
+      "text": "we'll see that with Lama 4 too. And then the AI engineer piece, I'm really excited about it. I"
+    },
+    {
+      "start": 1794.2,
+      "end": 1799.3200000000002,
+      "text": "don't know that that's going to be an external product anytime soon. But I think for what we're"
+    },
+    {
+      "start": 1799.32,
+      "end": 1806.2,
+      "text": "working on, our goal is to advance AI research and advance our own development internally. And"
+    },
+    {
+      "start": 1806.2,
+      "end": 1809.56,
+      "text": "I think it's just going to be a very profound thing. I mean, that's something that I think will"
+    },
+    {
+      "start": 1809.56,
+      "end": 1815.8,
+      "text": "show up through making our products better over time. But then as that works, there will potentially"
+    },
+    {
+      "start": 1815.8,
+      "end": 1821.3999999999999,
+      "text": "be a market opportunity down the road. But I mean, for now, in this year, we're really... I don't"
+    },
+    {
+      "start": 1821.3999999999999,
+      "end": 1828.04,
+      "text": "think you're going to see this year like an AI engineer that is extremely widely deployed,"
+    },
+    {
+      "start": 1828.04,
+      "end": 1831.72,
+      "text": "changing all of development. I think this is going to be the year where that really"
+    },
+    {
+      "start": 1831.72,
+      "end": 1837.32,
+      "text": "starts to become possible and lays the groundwork for a much more dramatic change in 26 and beyond."
+    },
+    {
+      "start": 1838.6,
+      "end": 1843.6399999999999,
+      "text": "I don't know. Yeah, that's kind of it. Brian, I'm happy to take your second question"
+    },
+    {
+      "start": 1843.6399999999999,
+      "end": 1850.52,
+      "text": "about custom silicon. So first of all, we expect that we are continuing to purchase third-party"
+    },
+    {
+      "start": 1850.52,
+      "end": 1856.44,
+      "text": "silicon from leading providers in the industry. And we are certainly committed to those longstanding"
+    },
+    {
+      "start": 1856.44,
+      "end": 1861.56,
+      "text": "partnerships. But we're also very invested in developing our own custom silicon for unique"
+    },
+    {
+      "start": 1861.56,
+      "end": 1867.88,
+      "text": "workloads where off-the-shelf silicon isn't necessarily optimal. And specifically because we're"
+    },
+    {
+      "start": 1867.88,
+      "end": 1873.4,
+      "text": "able to optimize the full stack to achieve greater compute efficiency and performance per cost and"
+    },
+    {
+      "start": 1873.4,
+      "end": 1879.64,
+      "text": "power because our workloads might require a different mix of memory versus network bandwidth versus"
+    },
+    {
+      "start": 1879.64,
+      "end": 1885.16,
+      "text": "compute. And so we can optimize that really to the specific needs of our different types of"
+    },
+    {
+      "start": 1885.16,
+      "end": 1891.3200000000002,
+      "text": "workloads. Right now, the in-house MTIA program is focused on supporting our core ranking and"
+    },
+    {
+      "start": 1891.3200000000002,
+      "end": 1898.52,
+      "text": "recommendation inference workloads. We started adopting MTIA in the first half of 2024 for core"
+    },
+    {
+      "start": 1898.52,
+      "end": 1903.3200000000002,
+      "text": "ranking and recommendations inference. We'll continue ramping adoption for those workloads over the"
+    },
+    {
+      "start": 1903.3200000000002,
+      "end": 1910.68,
+      "text": "course of 2025 as we use it for both incremental capacity and to replace some GPU-based servers"
+    },
+    {
+      "start": 1910.76,
+      "end": 1916.6000000000001,
+      "text": "when they reach the end of their useful lives. You know, next year we're hoping to expand MTIA"
+    },
+    {
+      "start": 1916.6000000000001,
+      "end": 1922.52,
+      "text": "to support some of our core AI training workloads and over time some of our gen AI use cases."
+    },
+    {
+      "start": 1925.16,
+      "end": 1930.8400000000001,
+      "text": "Your next question comes from the line of Eric Sheridan with Goldman Sachs. Please go ahead."
+    },
+    {
+      "start": 1931.88,
+      "end": 1936.6000000000001,
+      "text": "Thank you so much for taking the question. Maybe I can go back to your comments on open source."
+    },
+    {
+      "start": 1936.6000000000001,
+      "end": 1941.8000000000002,
+      "text": "Can you help us understand how your views continue to evolve with respect to the competitive"
+    },
+    {
+      "start": 1941.8000000000002,
+      "end": 1947.16,
+      "text": "dynamic around your approach with the open source versus others in the industry and how your approach"
+    },
+    {
+      "start": 1947.16,
+      "end": 1952.7600000000002,
+      "text": "to open source could possibly bend the cost curve and improve return on capital for AI over the"
+    },
+    {
+      "start": 1952.7600000000002,
+      "end": 1960.44,
+      "text": "medium to long term? Thanks so much. Yeah, I mean, on open source, I think the best analogy for us is"
+    },
+    {
+      "start": 1960.52,
+      "end": 1967.72,
+      "text": "what we did with open compute where we weren't first to building the system. So then by the time"
+    },
+    {
+      "start": 1967.72,
+      "end": 1971.48,
+      "text": "that we got around to building it, it wasn't really a big advantage to have it be proprietary,"
+    },
+    {
+      "start": 1971.48,
+      "end": 1977.96,
+      "text": "so we shared it and then a lot of the industry adopted what we were doing, contributed innovations"
+    },
+    {
+      "start": 1977.96,
+      "end": 1984.28,
+      "text": "back to it. By standardizing it on it, that meant that a bunch of supply chains standardized on"
+    },
+    {
+      "start": 1984.28,
+      "end": 1989.24,
+      "text": "building it which made prices more efficient for everyone. I think what we see here"
+    },
+    {
+      "start": 1990.2,
+      "end": 1997.08,
+      "text": "is as Loma becomes more used, it's more likely, for example, that silicon providers and others,"
+    },
+    {
+      "start": 1997.8,
+      "end": 2003.96,
+      "text": "other APIs and developer platforms will optimize their work more for that and basically drive down"
+    },
+    {
+      "start": 2003.96,
+      "end": 2011.64,
+      "text": "the costs of using it and drive improvements that we can in some cases use to. So I think that"
+    },
+    {
+      "start": 2012.6000000000001,
+      "end": 2022.5200000000002,
+      "text": "the strategy will continue to be effective. Yeah, I mean, I continue to be optimistic about"
+    },
+    {
+      "start": 2022.5200000000002,
+      "end": 2035.48,
+      "text": "this. I think it's working. I also just think in light of some of the recent news, the new competitor"
+    },
+    {
+      "start": 2036.44,
+      "end": 2042.2,
+      "text": "DeepSeek from China, I think it also just puts, it's one of the things that we're talking about"
+    },
+    {
+      "start": 2042.2,
+      "end": 2049.2400000000002,
+      "text": "is there's going to be an open source standard globally. And I think for our kind of own national"
+    },
+    {
+      "start": 2049.2400000000002,
+      "end": 2055.08,
+      "text": "advantage, it's important that it's an American standard. So we take that seriously and we want to"
+    },
+    {
+      "start": 2055.08,
+      "end": 2060.76,
+      "text": "build the AI system that people around the world are using. And I think that if anything, some of"
+    },
+    {
+      "start": 2060.92,
+      "end": 2067.88,
+      "text": "the recent news has only strengthened our conviction that this is the right thing for us to be focused on."
+    },
+    {
+      "start": 2070.6800000000003,
+      "end": 2075.2400000000002,
+      "text": "Here next question comes from the line of Mark Schmulich with Bernstein. Please go ahead."
+    },
+    {
+      "start": 2076.84,
+      "end": 2082.5200000000004,
+      "text": "Yes, thank you for taking my questions. Mark, I appreciate we may get an answer this here,"
+    },
+    {
+      "start": 2082.5200000000004,
+      "end": 2089.5600000000004,
+      "text": "but looking out, as you kind of track the progress of smart glasses, you know, Orion and so forth,"
+    },
+    {
+      "start": 2089.56,
+      "end": 2092.92,
+      "text": "do you view that as a better form factor to get the most out of the"
+    },
+    {
+      "start": 2092.92,
+      "end": 2097.4,
+      "text": "meta AI assistance you highlighted in your opening remarks? Or is it more complimentary to kind of"
+    },
+    {
+      "start": 2097.4,
+      "end": 2103.24,
+      "text": "the in-app experience in the way you've seen people use it today? And then Susan, the last few quarters,"
+    },
+    {
+      "start": 2103.24,
+      "end": 2108.12,
+      "text": "we've kind of seen pricing growth as the dominant driver of ad revenue growth. Given the efforts"
+    },
+    {
+      "start": 2108.12,
+      "end": 2113.08,
+      "text": "we've highlighted around driving deeper, more commercial engagement and better advertiser ROI,"
+    },
+    {
+      "start": 2113.08,
+      "end": 2117.24,
+      "text": "how do we just think about the contribution or the formula for ad revenue growth going forward?"
+    },
+    {
+      "start": 2117.2400000000002,
+      "end": 2125.5600000000004,
+      "text": "Thank you. Yeah, I mean, I can talk about glasses. Yeah, and I've said for a while that I"
+    },
+    {
+      "start": 2125.5600000000004,
+      "end": 2133.0800000000004,
+      "text": "think that glasses are the ideal form factor for an AI device, because you can let an AI"
+    },
+    {
+      "start": 2133.0800000000004,
+      "end": 2138.44,
+      "text": "assistant on your glasses see what you see and hear what you hear, which gives it the context"
+    },
+    {
+      "start": 2138.44,
+      "end": 2143.4,
+      "text": "to be able to understand everything that's going on in your life that you would want to"
+    },
+    {
+      "start": 2143.96,
+      "end": 2151.7200000000003,
+      "text": "talk to it about and get context on. But look, I mean, I think that glasses are going to be a very"
+    },
+    {
+      "start": 2151.7200000000003,
+      "end": 2156.6,
+      "text": "important computing platform in the future. When phones became the primary computing platform,"
+    },
+    {
+      "start": 2156.6,
+      "end": 2161.08,
+      "text": "it's not like computers went away. You know, I think we'll have phones for some time, but"
+    },
+    {
+      "start": 2161.7200000000003,
+      "end": 2166.52,
+      "text": "there are a lot of people in the world who have glasses. It's kind of hard for me to imagine that,"
+    },
+    {
+      "start": 2166.52,
+      "end": 2171.64,
+      "text": "you know, a decade or more from now, all the glasses aren't going to basically be AI glasses,"
+    },
+    {
+      "start": 2172.52,
+      "end": 2177.16,
+      "text": "as well as a lot of people who don't wear glasses today finding that to be a useful thing. So"
+    },
+    {
+      "start": 2178.44,
+      "end": 2181.96,
+      "text": "I'm incredibly optimistic about this. And like I shared last year, I think one of the big"
+    },
+    {
+      "start": 2181.96,
+      "end": 2188.92,
+      "text": "surprises last year was I'd previously thought that glasses weren't going to become a major form"
+    },
+    {
+      "start": 2188.92,
+      "end": 2196.7599999999998,
+      "text": "factor until we got these the full kind of holographic displays that we started showing in the prototype"
+    },
+    {
+      "start": 2196.76,
+      "end": 2202.44,
+      "text": "for Orion. But now I think it's pretty clear that AI is actually going to drive at least as"
+    },
+    {
+      "start": 2202.44,
+      "end": 2208.0400000000004,
+      "text": "much of the value as the holographic AR is. So that's a cause to be excited. But look,"
+    },
+    {
+      "start": 2209.2400000000002,
+      "end": 2214.36,
+      "text": "the Rayman Metas were hit. We still don't know what the long-term trajectory for this is going to be."
+    },
+    {
+      "start": 2215.2400000000002,
+      "end": 2218.5200000000004,
+      "text": "And I think we're going to learn a lot this year. So I think that this is a really important"
+    },
+    {
+      "start": 2218.5200000000004,
+      "end": 2224.76,
+      "text": "year for that. And I can take the second question on pricing growth. So first of all, what I would"
+    },
+    {
+      "start": 2224.76,
+      "end": 2230.5200000000004,
+      "text": "say is over the long term, you know, we think we have continued opportunity to drive revenue growth"
+    },
+    {
+      "start": 2231.2400000000002,
+      "end": 2236.92,
+      "text": "across both pricing and impression growth. So both sort of supply and demand dimensions."
+    },
+    {
+      "start": 2237.8,
+      "end": 2242.92,
+      "text": "When we look at pricing, our reported growth can be influenced by different factors such as supply"
+    },
+    {
+      "start": 2243.6400000000003,
+      "end": 2249.0,
+      "text": "because of the auction dynamics by the mix shift of the different types of surfaces where ads show"
+    },
+    {
+      "start": 2249.24,
+      "end": 2254.84,
+      "text": "for example, services like video or lower monetization efficiency, relatively speaking."
+    },
+    {
+      "start": 2255.4,
+      "end": 2261.24,
+      "text": "And then of course, you know, broader macro factors. But we generally expect that, you know,"
+    },
+    {
+      "start": 2261.24,
+      "end": 2266.28,
+      "text": "we are going to be able to deliver ongoing ad performance improvements through a lot of the,"
+    },
+    {
+      "start": 2266.28,
+      "end": 2271.16,
+      "text": "you know, ongoing work that we're doing across our monetization roadmap. And that will have these"
+    },
+    {
+      "start": 2271.16,
+      "end": 2279.48,
+      "text": "sort of effect of benefiting pricing overall. And part of, you know, what I think is kind of"
+    },
+    {
+      "start": 2279.48,
+      "end": 2285.72,
+      "text": "important to think about here when we think about price growth is we really, the average price per"
+    },
+    {
+      "start": 2285.72,
+      "end": 2289.72,
+      "text": "ad as we report it is really blending, you know, it's an output metric. It's blending a lot of"
+    },
+    {
+      "start": 2289.72,
+      "end": 2294.44,
+      "text": "things that are happening, including what our advertisers bidding for, what are their bids for"
+    },
+    {
+      "start": 2294.44,
+      "end": 2300.2799999999997,
+      "text": "those things, you know, what is the average cost of their action. So given that there are so many"
+    },
+    {
+      "start": 2300.36,
+      "end": 2305.0800000000004,
+      "text": "different objectives that advertisers can optimize for that have different values, it's a very complex"
+    },
+    {
+      "start": 2305.0800000000004,
+      "end": 2310.52,
+      "text": "metric that tries to distill that into one thing. Overall, we are seeing healthy cost per action"
+    },
+    {
+      "start": 2310.52,
+      "end": 2318.92,
+      "text": "trends for advertisers for whatever is the action that they are optimizing for. And we believe we'll"
+    },
+    {
+      "start": 2318.92,
+      "end": 2323.4,
+      "text": "continue to get better at driving conversions for advertisers. And when we do that, we'll have the"
+    },
+    {
+      "start": 2323.4,
+      "end": 2329.1600000000003,
+      "text": "effect of continuing to lift CPMs over time because we're delivering more conversions per"
+    },
+    {
+      "start": 2329.16,
+      "end": 2332.04,
+      "text": "impressions served, resulting in higher value impressions."
+    },
+    {
+      "start": 2334.7599999999998,
+      "end": 2340.2799999999997,
+      "text": "Here next question comes from the line of Justin Post with Bank of America. Please go ahead."
+    },
+    {
+      "start": 2341.72,
+      "end": 2346.12,
+      "text": "Great. Thanks. Maybe one for Mark and one for Susan. Mark, you mentioned, you know,"
+    },
+    {
+      "start": 2346.12,
+      "end": 2351.3199999999997,
+      "text": "political changes in the U.S. and better positioning maybe for U.S. companies abroad. But how do you"
+    },
+    {
+      "start": 2351.3199999999997,
+      "end": 2358.92,
+      "text": "think about it in the U.S. as far as usage and advertiser adoption, you got rid of back checking."
+    },
+    {
+      "start": 2358.92,
+      "end": 2364.6,
+      "text": "So you think the content can change? Could it appeal to more users? Will that impact advertising"
+    },
+    {
+      "start": 2364.6,
+      "end": 2370.2000000000003,
+      "text": "at all? And then Susan, on MetaAI, I know people are pretty excited about the use case,"
+    },
+    {
+      "start": 2370.2000000000003,
+      "end": 2375.96,
+      "text": "but also thinking about the revenue case. How do you think about monetizing that? Could it be CPC ads"
+    },
+    {
+      "start": 2375.96,
+      "end": 2378.04,
+      "text": "or how are you thinking about that? Thank you."
+    },
+    {
+      "start": 2379.0,
+      "end": 2395.4,
+      "text": "The question was about fact checking and our content policies. I mean, look, I think we're"
+    },
+    {
+      "start": 2396.6,
+      "end": 2401.72,
+      "text": "we're trying to build the service that we think is the best for people. I believed in free expression"
+    },
+    {
+      "start": 2402.1200000000003,
+      "end": 2409.8,
+      "text": "for quite a while. People don't want to see misinformation, but you need to build an effective system"
+    },
+    {
+      "start": 2409.8,
+      "end": 2415.1600000000003,
+      "text": "that gives people more context. And I think what we've found over time is that the community"
+    },
+    {
+      "start": 2415.1600000000003,
+      "end": 2419.8,
+      "text": "notes system I think is just going to be more effective than the system that we had before."
+    },
+    {
+      "start": 2419.8,
+      "end": 2425.0000000000005,
+      "text": "And I'm not afraid to admit when someone does something that's better than us. I think it's sort"
+    },
+    {
+      "start": 2425.0000000000005,
+      "end": 2431.5600000000004,
+      "text": "of our job to go and just do the best work and implement the best system. So I think that there's"
+    },
+    {
+      "start": 2431.56,
+      "end": 2440.44,
+      "text": "been a lot of people who have read this announcement as if we somehow don't care about adding context"
+    },
+    {
+      "start": 2440.44,
+      "end": 2445.32,
+      "text": "to things that are on our platform that are misinformation that's not right. I actually think"
+    },
+    {
+      "start": 2445.32,
+      "end": 2449.72,
+      "text": "that the community notes system, like what X has had for a while, is actually just more effective"
+    },
+    {
+      "start": 2449.72,
+      "end": 2453.0,
+      "text": "than what we were doing before. And I think our product is going to get better because of it."
+    },
+    {
+      "start": 2455.88,
+      "end": 2460.7599999999998,
+      "text": "I would add to that just to say, we also haven't seen any noticeable impact"
+    },
+    {
+      "start": 2460.84,
+      "end": 2467.8,
+      "text": "from our content policy changes on advertiser spend. So we're continuing to see strong"
+    },
+    {
+      "start": 2467.8,
+      "end": 2473.96,
+      "text": "advertiser demand. Again, particularly for AI powered tools that are helping businesses maximize"
+    },
+    {
+      "start": 2473.96,
+      "end": 2478.6800000000003,
+      "text": "the value of their ad spend. So our commitment to brand safety is unchanged. And we expect"
+    },
+    {
+      "start": 2478.6800000000003,
+      "end": 2482.28,
+      "text": "that we will invest in our suite of tools to meet the needs of advertisers."
+    },
+    {
+      "start": 2483.2400000000002,
+      "end": 2491.5600000000004,
+      "text": "On your second question, in terms of monetizing meta AI, our initial focus for meta AI is really"
+    },
+    {
+      "start": 2491.5600000000004,
+      "end": 2498.28,
+      "text": "about building a great consumer experience. And that's frankly where all of our energies are"
+    },
+    {
+      "start": 2498.28,
+      "end": 2504.44,
+      "text": "kind of directed to right now. There will, I think, be pretty clear monetization opportunities"
+    },
+    {
+      "start": 2504.44,
+      "end": 2511.32,
+      "text": "here over time, including paid recommendations and including a premium offering. But that's really"
+    },
+    {
+      "start": 2511.32,
+      "end": 2515.8,
+      "text": "not where we are focused in terms of the development of meta AI today."
+    },
+    {
+      "start": 2518.52,
+      "end": 2524.6800000000003,
+      "text": "Here next question comes from the line of Douglas and Ruth with JP Morgan. Please go ahead."
+    },
+    {
+      "start": 2526.36,
+      "end": 2531.6400000000003,
+      "text": "Thanks for taking the questions. One for Marc, one for Susan. Marc, just following up on open source"
+    },
+    {
+      "start": 2531.6400000000003,
+      "end": 2537.0800000000004,
+      "text": "as deep-seak and other models potentially leverage, llama, or others to train faster and"
+    },
+    {
+      "start": 2537.08,
+      "end": 2542.12,
+      "text": "cheaper. How does this impact meta in your view and what could it mean for the trajectory of"
+    },
+    {
+      "start": 2542.12,
+      "end": 2548.68,
+      "text": "investment required over a multi-year period? And then Susan, just as we think about the 60 to 65"
+    },
+    {
+      "start": 2548.68,
+      "end": 2554.68,
+      "text": "billion CAPEX this year, does the composition change much from last year when he talks about"
+    },
+    {
+      "start": 2554.68,
+      "end": 2561.0,
+      "text": "servers as the largest part followed by data centers and networking equipment? And how should we"
+    },
+    {
+      "start": 2561.0,
+      "end": 2565.88,
+      "text": "think about that mix between training and inference just following up on Jan's post this week?"
+    },
+    {
+      "start": 2565.88,
+      "end": 2573.2400000000002,
+      "text": "Thanks. I can start on the deep-seak question."
+    },
+    {
+      "start": 2576.84,
+      "end": 2583.96,
+      "text": "You know, I think that there's a number of novel things that they did that I think were still"
+    },
+    {
+      "start": 2585.48,
+      "end": 2591.88,
+      "text": "digesting. And there are a number of things that they have advances that we will hope to implement"
+    },
+    {
+      "start": 2592.36,
+      "end": 2599.6400000000003,
+      "text": "in our systems. And that's part of the nature of how this works, whether it's a Chinese competitor"
+    },
+    {
+      "start": 2599.6400000000003,
+      "end": 2605.1600000000003,
+      "text": "or not. You know, I kind of expect that every new company that has an advance that has a launch is"
+    },
+    {
+      "start": 2605.1600000000003,
+      "end": 2609.96,
+      "text": "going to have some new advances that the rest of the field learns from and that's sort of how the"
+    },
+    {
+      "start": 2609.96,
+      "end": 2621.08,
+      "text": "technology industry goes. I don't know, it's probably too early to really have a strong opinion"
+    },
+    {
+      "start": 2621.08,
+      "end": 2627.24,
+      "text": "on what this means for the trajectory around infrastructure and CAPEX and things like that."
+    },
+    {
+      "start": 2628.2,
+      "end": 2634.2,
+      "text": "You know, there are a bunch of trends that are happening here all at once. There's already sort"
+    },
+    {
+      "start": 2634.2,
+      "end": 2639.4,
+      "text": "of a debate around how much of the compute infrastructure that we're using is going to go towards"
+    },
+    {
+      "start": 2639.4,
+      "end": 2645.56,
+      "text": "pre-training versus as you get more of these reasoning time models or reasoning models where you get"
+    },
+    {
+      "start": 2645.56,
+      "end": 2651.64,
+      "text": "more of the intelligence by putting more of the compute into inference, whether it will mix"
+    },
+    {
+      "start": 2652.36,
+      "end": 2660.2,
+      "text": "shift, how we use our compute infrastructure towards that. That was already something that I"
+    },
+    {
+      "start": 2660.2,
+      "end": 2667.24,
+      "text": "think a lot of the other labs and ourselves were starting to think more about and already"
+    },
+    {
+      "start": 2667.24,
+      "end": 2674.04,
+      "text": "seemed pretty likely even before this, that of all the compute that we're using that the"
+    },
+    {
+      "start": 2674.04,
+      "end": 2678.12,
+      "text": "large pieces aren't necessarily going to go towards pre-training. But that doesn't mean that"
+    },
+    {
+      "start": 2678.12,
+      "end": 2683.56,
+      "text": "you need less compute because one of the new properties that's emerged is the ability to"
+    },
+    {
+      "start": 2683.56,
+      "end": 2689.4,
+      "text": "apply more compute at inference time in order to generate a higher level of intelligence and a"
+    },
+    {
+      "start": 2689.4,
+      "end": 2697.08,
+      "text": "higher quality of service, which means that as a company that has a strong business model to support"
+    },
+    {
+      "start": 2697.08,
+      "end": 2701.8,
+      "text": "this, I think that's generally an advantage that we're now going to be able to provide a higher quality"
+    },
+    {
+      "start": 2701.8,
+      "end": 2707.48,
+      "text": "of service than others who don't necessarily have the business model to support it on a sustainable"
+    },
+    {
+      "start": 2707.48,
+      "end": 2714.04,
+      "text": "basis. The other thing is just that when we're building things like MetaAI but also how we're"
+    },
+    {
+      "start": 2714.04,
+      "end": 2719.1600000000003,
+      "text": "implementing AI into all the feeds and ad products and things like that, we're just serving billions"
+    },
+    {
+      "start": 2719.1600000000003,
+      "end": 2727.5600000000004,
+      "text": "of people, which is different from, okay, you start to pre-train a model and that model is sort of"
+    },
+    {
+      "start": 2727.56,
+      "end": 2732.84,
+      "text": "agnostic to how many people are using it. At some level, it's going to be expensive for us to"
+    },
+    {
+      "start": 2732.84,
+      "end": 2741.16,
+      "text": "serve all of these people because we are serving a lot of people. I'm not sure what the net effect"
+    },
+    {
+      "start": 2741.16,
+      "end": 2748.52,
+      "text": "of all of this is. The field continues to move quickly. There's a lot to learn from releases from"
+    },
+    {
+      "start": 2748.52,
+      "end": 2756.36,
+      "text": "basically everyone who does something interesting, not just the ones over the last month. We'll continue"
+    },
+    {
+      "start": 2756.36,
+      "end": 2760.36,
+      "text": "to kind of incorporate that into what we do as well as making novel contributions to the field"
+    },
+    {
+      "start": 2760.36,
+      "end": 2766.44,
+      "text": "ourselves. I continue to think that investing very heavily in CapEx and Infra is going to be a"
+    },
+    {
+      "start": 2766.44,
+      "end": 2771.96,
+      "text": "strategic advantage over time. It's possible that we'll learn otherwise at some point, but I just"
+    },
+    {
+      "start": 2771.96,
+      "end": 2776.6800000000003,
+      "text": "think it's way too early to call that. At this point, I would bet that the ability to build out that"
+    },
+    {
+      "start": 2776.6800000000003,
+      "end": 2782.36,
+      "text": "kind of infrastructure is going to be a major advantage for both the quality of the service and"
+    },
+    {
+      "start": 2783.08,
+      "end": 2790.6,
+      "text": "being able to serve this scale that we want to. I'm happy to add a little more color about our"
+    },
+    {
+      "start": 2790.6,
+      "end": 2797.88,
+      "text": "2025 CapEx plans to your second question. We certainly expect that 2025 CapEx is going to grow"
+    },
+    {
+      "start": 2797.88,
+      "end": 2803.08,
+      "text": "across all three of those components you described. Servers will be the biggest growth driver that"
+    },
+    {
+      "start": 2803.08,
+      "end": 2810.04,
+      "text": "remains the largest portion of our overall CapEx budget. We expect both growth in AI capacity as we"
+    },
+    {
+      "start": 2810.04,
+      "end": 2816.36,
+      "text": "support our Gen AI efforts and continue to invest meaningfully in core AI, but we are also expecting"
+    },
+    {
+      "start": 2816.36,
+      "end": 2822.04,
+      "text": "growth in non-AI capacity as we invest in the core business, including to support a higher base of"
+    },
+    {
+      "start": 2822.04,
+      "end": 2827.4,
+      "text": "engagement and to refresh our existing servers. On the data center side, we're anticipating higher"
+    },
+    {
+      "start": 2827.4,
+      "end": 2835.16,
+      "text": "data center spend in 2025 to be driven by buildouts of our large training clusters and our higher"
+    },
+    {
+      "start": 2835.16,
+      "end": 2840.44,
+      "text": "power density data centers that are entering the core construction phase. We're expecting to use"
+    },
+    {
+      "start": 2840.44,
+      "end": 2846.2,
+      "text": "that capacity primarily for core AI and non-AI use cases. On the networking side, we expect"
+    },
+    {
+      "start": 2846.2,
+      "end": 2851.48,
+      "text": "networking spend to grow in 25 as we build higher capacity networks to accommodate the growth in"
+    },
+    {
+      "start": 2851.48,
+      "end": 2857.72,
+      "text": "non-AI and core AI related traffic along with our large Gen AI training clusters. We're also"
+    },
+    {
+      "start": 2857.72,
+      "end": 2864.8399999999997,
+      "text": "investing in fiber to handle future cross-region training traffic. And then in terms of the breakdown,"
+    },
+    {
+      "start": 2865.8799999999997,
+      "end": 2872.8399999999997,
+      "text": "for core versus Gen AI use cases, we're expecting total infrastructure spend within each of Gen AI,"
+    },
+    {
+      "start": 2872.8399999999997,
+      "end": 2879.48,
+      "text": "non-AI and core AI to increase in 25 with the majority of our CapEx directed to our core business"
+    },
+    {
+      "start": 2879.48,
+      "end": 2886.2,
+      "text": "with some caveat that that's not easy to measure perfectly as the data centers we're building can"
+    },
+    {
+      "start": 2886.2,
+      "end": 2892.44,
+      "text": "support AI or non-AI workloads and the GPU base servers we procure for Gen AI can be repurposed"
+    },
+    {
+      "start": 2892.52,
+      "end": 2897.7200000000003,
+      "text": "for core AI use cases and so on so forth. But overall, I would reiterate what Mark said,"
+    },
+    {
+      "start": 2897.7200000000003,
+      "end": 2902.04,
+      "text": "we are committed to building leading foundation models and applications."
+    },
+    {
+      "start": 2903.16,
+      "end": 2908.92,
+      "text": "We expect that we're going to make big investments to support our training and inference objectives"
+    },
+    {
+      "start": 2908.92,
+      "end": 2914.2000000000003,
+      "text": "and we don't know exactly where we are in the cycle of that yet."
+    },
+    {
+      "start": 2915.0800000000004,
+      "end": 2922.2000000000003,
+      "text": "Here next question comes from the line of Ron Josie with City Group. Please go ahead."
+    },
+    {
+      "start": 2923.7200000000003,
+      "end": 2927.88,
+      "text": "Thanks for taking a question Mark. I want to get back to your comment on getting back to the OG"
+    },
+    {
+      "start": 2927.88,
+      "end": 2931.6400000000003,
+      "text": "Facebook and want to understand a little bit more on the use cases and how that could"
+    },
+    {
+      "start": 2931.6400000000003,
+      "end": 2937.9600000000005,
+      "text": "extend videos clearly to benefit local marketplace groups of all been positive so any insights on the"
+    },
+    {
+      "start": 2938.12,
+      "end": 2943.8,
+      "text": "OG Facebook and then back to meta-AI giving me adoption we're seeing on the 600 plus and they use"
+    },
+    {
+      "start": 2943.8,
+      "end": 2948.52,
+      "text": "just how does the user experience evolve to? What are people doing with meta-AI? Thank you."
+    },
+    {
+      "start": 2959.8,
+      "end": 2966.6,
+      "text": "Okay, so for Facebook, a lot of people use Facebook every day and it's an important part of their"
+    },
+    {
+      "start": 2966.6,
+      "end": 2971.88,
+      "text": "lives and I think that there are a lot of opportunities to make it way more culturally"
+    },
+    {
+      "start": 2971.88,
+      "end": 2979.3199999999997,
+      "text": "influential than it is today and I think that that's sort of a fun and interesting goal that will take"
+    },
+    {
+      "start": 2979.3199999999997,
+      "end": 2985.96,
+      "text": "our product development in some interesting directions that we maybe haven't focused on as"
+    },
+    {
+      "start": 2985.96,
+      "end": 2992.36,
+      "text": "much over the last several years. So I don't know that I have anything much more specific on this"
+    },
+    {
+      "start": 2992.44,
+      "end": 3001.48,
+      "text": "other than that this is going to be one of my focus areas for this year. I think it's an"
+    },
+    {
+      "start": 3001.48,
+      "end": 3006.76,
+      "text": "investment area and something I'm going to spend some time on. It might mean that in the near term"
+    },
+    {
+      "start": 3006.76,
+      "end": 3013.88,
+      "text": "we make some trade-offs to kind of focus on some product areas of what we're doing"
+    },
+    {
+      "start": 3016.1200000000003,
+      "end": 3021.4,
+      "text": "ahead of just kind of maximizing business results in the near term on it but overall I'm really"
+    },
+    {
+      "start": 3021.4,
+      "end": 3029.4,
+      "text": "excited about about doing some exciting stuff here and not going to get into many specifics now"
+    },
+    {
+      "start": 3029.4,
+      "end": 3037.48,
+      "text": "but we'll get we'll follow up on this over the next kind of call it half a year or year as we"
+    },
+    {
+      "start": 3037.48,
+      "end": 3042.76,
+      "text": "start rolling stuff out and I think some of this will kind of get back to how Facebook was originally"
+    },
+    {
+      "start": 3042.76,
+      "end": 3049.2400000000002,
+      "text": "used back in the day so I think it'll be fun. I'm happy to share a little bit more about meta-AI"
+    },
+    {
+      "start": 3049.32,
+      "end": 3053.8,
+      "text": "and what people are doing with it you know we are in a phase where we are really learning a lot"
+    },
+    {
+      "start": 3053.8,
+      "end": 3061.5600000000004,
+      "text": "from the way that people engage with meta-AI so you know from an app perspective what's app"
+    },
+    {
+      "start": 3061.5600000000004,
+      "end": 3067.1600000000003,
+      "text": "continues to see the strongest meta-AI usage across our family of apps people there are using it most"
+    },
+    {
+      "start": 3067.1600000000003,
+      "end": 3072.6800000000003,
+      "text": "frequently for information seeking and educational queries along with emotional support use cases"
+    },
+    {
+      "start": 3073.2400000000002,
+      "end": 3078.0400000000004,
+      "text": "most of the WhatsApp engagement is in one-on-one threads though we see some usage in group messaging"
+    },
+    {
+      "start": 3078.12,
+      "end": 3082.84,
+      "text": "and on Facebook you know which is the second largest driver of meta-AI engagement we're seeing"
+    },
+    {
+      "start": 3082.84,
+      "end": 3088.52,
+      "text": "strong engagement from our feed deep dives integration that lets people ask meta-AI questions about the"
+    },
+    {
+      "start": 3088.52,
+      "end": 3097.16,
+      "text": "content that is recommended to them so across I would say all query types we continue to see signs"
+    },
+    {
+      "start": 3097.16,
+      "end": 3102.2799999999997,
+      "text": "that meta-AI is helping people leverage our apps for new use cases you know we talked about"
+    },
+    {
+      "start": 3102.36,
+      "end": 3108.1200000000003,
+      "text": "information gathering social interaction and communication lots of people use it for humor"
+    },
+    {
+      "start": 3108.1200000000003,
+      "end": 3115.4,
+      "text": "and casual conversation they use it for writing and editing research recommendations and as we look"
+    },
+    {
+      "start": 3115.4,
+      "end": 3123.8,
+      "text": "forward to 2025 in our meta-AI roadmap we are really focused on doing more to make it feel more"
+    },
+    {
+      "start": 3123.8,
+      "end": 3130.0400000000004,
+      "text": "personalized so that I would say some of the most exciting features we're working on including"
+    },
+    {
+      "start": 3130.92,
+      "end": 3134.92,
+      "text": "improving sort of the memory dimension of the meta-AI experience where it will"
+    },
+    {
+      "start": 3134.92,
+      "end": 3139.56,
+      "text": "be able to remember certain details that people share in one-on-one chats for example and use"
+    },
+    {
+      "start": 3139.56,
+      "end": 3145.4,
+      "text": "those details to personalize its responses and then you know really increasing its ability to"
+    },
+    {
+      "start": 3145.4,
+      "end": 3152.12,
+      "text": "deliver great content recommendations and enhance really what makes Facebook and Instagram so valuable"
+    },
+    {
+      "start": 3152.12,
+      "end": 3162.3599999999997,
+      "text": "for people for people today. Here next question comes from the line of Ken Growski with Wells Fargo"
+    },
+    {
+      "start": 3162.3599999999997,
+      "end": 3169.0,
+      "text": "please go ahead. Thank you very much to for me please. First could you talk a little bit I know"
+    },
+    {
+      "start": 3169.0,
+      "end": 3173.16,
+      "text": "you you talked a little bit on the on the cap one tent city side and the recent developments and it's"
+    },
+    {
+      "start": 3173.16,
+      "end": 3178.12,
+      "text": "hard to see it's hard to tell yet where things are going but maybe you could just talk a little"
+    },
+    {
+      "start": 3178.12,
+      "end": 3184.8399999999997,
+      "text": "bit more near term about 25 the CapEx budget you laid out or the CapEx forecast. Could you talk a"
+    },
+    {
+      "start": 3184.8399999999997,
+      "end": 3190.2,
+      "text": "little bit about the constraints you're seeing or where you're seeing constraints either internally"
+    },
+    {
+      "start": 3190.2,
+      "end": 3199.16,
+      "text": "resources planning or externally in any parts of the ecosystem and then on the second one"
+    },
+    {
+      "start": 3199.7999999999997,
+      "end": 3210.68,
+      "text": "I'm curious as you think about the as you think about your needs for hiring and we just think about"
+    },
+    {
+      "start": 3210.68,
+      "end": 3215.96,
+      "text": "we knew you gave the CapEx guide for this year but as we think about future needs for hiring"
+    },
+    {
+      "start": 3216.68,
+      "end": 3222.68,
+      "text": "could you just give us a sense of how we should think about that you you announced the the the"
+    },
+    {
+      "start": 3222.76,
+      "end": 3229.0800000000004,
+      "text": "performance related reductions earlier this for earlier this year could you just talk about how"
+    },
+    {
+      "start": 3229.0800000000004,
+      "end": 3235.4,
+      "text": "we should be thinking about that 26 27 and beyond thank you sure I'm happy to take both of those"
+    },
+    {
+      "start": 3235.4,
+      "end": 3242.5200000000004,
+      "text": "so on your first question you know on just where do we see constraints in our ability to execute"
+    },
+    {
+      "start": 3242.5200000000004,
+      "end": 3248.6800000000003,
+      "text": "against our CapEx plans obviously you know we are staying on top of supply availability that is"
+    },
+    {
+      "start": 3248.6800000000003,
+      "end": 3254.0400000000004,
+      "text": "certainly one of the factors that will influence our CapEx ban in 2025 but we don't really have any"
+    },
+    {
+      "start": 3254.0400000000004,
+      "end": 3260.84,
+      "text": "updates to share on supply availability right now we are planning to significantly ramp up"
+    },
+    {
+      "start": 3260.84,
+      "end": 3266.0400000000004,
+      "text": "deployment of GPUs in 2025 and we'll continue to engage with our vendors and invest in our own"
+    },
+    {
+      "start": 3266.0400000000004,
+      "end": 3272.92,
+      "text": "silicon to you know meet those needs you know and you asked how to think about capital intensity"
+    },
+    {
+      "start": 3273.48,
+      "end": 3278.6800000000003,
+      "text": "we're we're not really you know I as both Mark and I alluded to in our prior comments I think it is"
+    },
+    {
+      "start": 3278.6800000000003,
+      "end": 3284.12,
+      "text": "really too early to determine what long-run capital intensity is going to look like there are so many"
+    },
+    {
+      "start": 3284.12,
+      "end": 3291.08,
+      "text": "different factors the pace of advancement in underlying models how efficient can they be what is the"
+    },
+    {
+      "start": 3291.08,
+      "end": 3298.52,
+      "text": "adoption and use case of our gen AI products what performance gains come from next generation"
+    },
+    {
+      "start": 3298.52,
+      "end": 3304.44,
+      "text": "hardware innovations both our own and third party and then ultimately what monetization or other"
+    },
+    {
+      "start": 3304.44,
+      "end": 3310.12,
+      "text": "efficiency gains our AI investments unlock so again I think we are we are sort of early in the"
+    },
+    {
+      "start": 3310.12,
+      "end": 3316.7599999999998,
+      "text": "journey here and we don't have I would say we don't have kind of a anything to share about long-run"
+    },
+    {
+      "start": 3316.7599999999998,
+      "end": 3325.64,
+      "text": "capital intensity yet your second question was about thinking about hiring needs so it's a good segue"
+    },
+    {
+      "start": 3325.64,
+      "end": 3331.4,
+      "text": "after infrastructure employee compensation is the next largest driver of expense growth in 2025"
+    },
+    {
+      "start": 3332.2799999999997,
+      "end": 3338.2,
+      "text": "and here you know growth in employee comp and headcount more broadly is primarily driven by"
+    },
+    {
+      "start": 3338.2,
+      "end": 3344.52,
+      "text": "those areas that I mentioned you know infrastructure monetization generative AI reality labs and"
+    },
+    {
+      "start": 3344.52,
+      "end": 3350.2799999999997,
+      "text": "regulation and compliance and those generally are more technical organizations that means that"
+    },
+    {
+      "start": 3350.28,
+      "end": 3356.2000000000003,
+      "text": "it is a higher cost base relative to business functions where we are also expecting to keep"
+    },
+    {
+      "start": 3356.92,
+      "end": 3362.36,
+      "text": "headcount growth constrained and you know I would say we are you know we're focused on"
+    },
+    {
+      "start": 3362.36,
+      "end": 3367.32,
+      "text": "running the company efficiently but at the same time it is we feel like we're in a critical"
+    },
+    {
+      "start": 3367.32,
+      "end": 3371.4,
+      "text": "period in terms of making sure that we are investing to win and we want to make sure that we staff"
+    },
+    {
+      "start": 3371.4,
+      "end": 3378.44,
+      "text": "those priority areas in a way that really positions us to best do that Krista we have time for one last"
+    },
+    {
+      "start": 3378.44,
+      "end": 3386.2000000000003,
+      "text": "question and that question comes from the line of Ross Sandler with Barclays please go ahead"
+    },
+    {
+      "start": 3387.56,
+      "end": 3396.04,
+      "text": "yeah one for mark on agents so we we also open AI's operator demo last week so mark as the industry"
+    },
+    {
+      "start": 3396.04,
+      "end": 3404.04,
+      "text": "moves from chat to agentic behavior and more commercial intent moves into these AI products"
+    },
+    {
+      "start": 3404.04,
+      "end": 3410.6,
+      "text": "like how are you thinking about monetization potential for meta AI and then how might lama"
+    },
+    {
+      "start": 3410.6,
+      "end": 3417.56,
+      "text": "for reasoning help drive some of these new agentic experiences for meta AI thank you"
+    },
+    {
+      "start": 3419.88,
+      "end": 3426.68,
+      "text": "yeah so I guess a couple of things that I'd say on this one is when you're thinking about"
+    },
+    {
+      "start": 3428.84,
+      "end": 3433.88,
+      "text": "agents and reasoning a lot of this is about being able to perform multi-step tasks"
+    },
+    {
+      "start": 3433.88,
+      "end": 3440.36,
+      "text": "so right now the way that a lot of these systems work is you you you kind of say something and then"
+    },
+    {
+      "start": 3440.36,
+      "end": 3447.32,
+      "text": "it responds and it's almost chat-like but I think that the direction that it's going is you're going"
+    },
+    {
+      "start": 3447.32,
+      "end": 3453.08,
+      "text": "to be able to give it an intent or a task and it's going to be able to go off and use sort of an"
+    },
+    {
+      "start": 3453.08,
+      "end": 3460.36,
+      "text": "arbitrary amount of compute as much as you want to use on it to be able to do a task some of the"
+    },
+    {
+      "start": 3460.44,
+      "end": 3465.48,
+      "text": "tasks might be pretty simple for people go go buy a specific thing some of them might be really hard"
+    },
+    {
+      "start": 3465.48,
+      "end": 3470.6800000000003,
+      "text": "like go right in app or optimize this code and like really make it as good as possible"
+    },
+    {
+      "start": 3472.6800000000003,
+      "end": 3478.1200000000003,
+      "text": "and that type of thing I think is just going to start becoming more and more prevalent over"
+    },
+    {
+      "start": 3478.1200000000003,
+      "end": 3485.2400000000002,
+      "text": "the next year or two so I think it's very exciting it sort of will will feel in some ways like the"
+    },
+    {
+      "start": 3485.2400000000002,
+      "end": 3488.92,
+      "text": "current products are just getting smarter and others it'll feel like sort of a new form factor"
+    },
+    {
+      "start": 3488.92,
+      "end": 3497.4,
+      "text": "because it won't be as much like chat but but it's sort of another generation of these products"
+    },
+    {
+      "start": 3497.4,
+      "end": 3501.48,
+      "text": "so I think it's it's just in general there's there's a lot to build and be excited about"
+    },
+    {
+      "start": 3502.92,
+      "end": 3510.28,
+      "text": "I guess my note of of caution or or just my my kind of periodic reminder on our product"
+    },
+    {
+      "start": 3510.28,
+      "end": 3516.52,
+      "text": "development process if you will is you know we we build these products we try to scale them to"
+    },
+    {
+      "start": 3516.52,
+      "end": 3523.16,
+      "text": "reach you know usually a billion people or more and it's at that point once they're at scale"
+    },
+    {
+      "start": 3523.16,
+      "end": 3529.32,
+      "text": "that we really start focusing on monetization so sometimes we'll we'll experiment with with"
+    },
+    {
+      "start": 3529.32,
+      "end": 3536.12,
+      "text": "monetization before we're running some experiments with threads now for example but we we typically"
+    },
+    {
+      "start": 3536.12,
+      "end": 3541.48,
+      "text": "don't really ramp these things up or see them as meaningfully contributing to the business"
+    },
+    {
+      "start": 3542.28,
+      "end": 3547.64,
+      "text": "until we reach quite a big scale so the thing that I think is is going to be meaningful this year"
+    },
+    {
+      "start": 3547.64,
+      "end": 3553.8,
+      "text": "is the kind of getting of the AI products to scale last year sort of the introduction and starting"
+    },
+    {
+      "start": 3553.8,
+      "end": 3559.16,
+      "text": "to get it to be used at this year my my kind of expectation and hope is that we will be at a"
+    },
+    {
+      "start": 3559.16,
+      "end": 3566.12,
+      "text": "sufficient scale and and have you know a sufficient kind of flywheel of people using it and an"
+    },
+    {
+      "start": 3566.12,
+      "end": 3570.76,
+      "text": "improvement from that that this will have a durable advantage but that doesn't mean that it's going"
+    },
+    {
+      "start": 3570.84,
+      "end": 3574.6800000000003,
+      "text": "to be a major contributor to the business this year this year the the improvements to the business"
+    },
+    {
+      "start": 3574.6800000000003,
+      "end": 3580.5200000000004,
+      "text": "are going to be taking the AI methods and applying them to advertising and recommendations and feeds"
+    },
+    {
+      "start": 3580.5200000000004,
+      "end": 3588.36,
+      "text": "and things like that so the actual business opportunity for meta AI and AI studio and business"
+    },
+    {
+      "start": 3588.36,
+      "end": 3594.76,
+      "text": "agents and people interacting with the AIs remains outside of 25 for the most part and I think that"
+    },
+    {
+      "start": 3594.76,
+      "end": 3599.88,
+      "text": "that's an important thing for for us to communicate and for for people to internalize as you're"
+    },
+    {
+      "start": 3599.88,
+      "end": 3607.1600000000003,
+      "text": "thinking about our prospects here but but nonetheless you know we've run a process like this many times"
+    },
+    {
+      "start": 3607.1600000000003,
+      "end": 3612.84,
+      "text": "you know we we build a product we make it good we scale it to be large we build out the business"
+    },
+    {
+      "start": 3612.84,
+      "end": 3620.52,
+      "text": "around it that's what we do i'm very optimistic but it's it's going to take some time great thank"
+    },
+    {
+      "start": 3620.52,
+      "end": 3624.84,
+      "text": "you everyone for joining us today I appreciate your time and we look forward to speaking with you"
+    },
+    {
+      "start": 3624.84,
+      "end": 3632.04,
+      "text": "again soon this concludes today's conference call thank you for your participation and you may now"
+    },
+    {
+      "start": 3632.04,
+      "end": 3634.84,
+      "text": "disconnect"
+    }
+  ],
+  "full_text": "Good afternoon. My name is Krista, and I will be your conference operator today. At this time, I would like to welcome everyone to the META fourth quarter and full year 2024 earnings conference call. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, so it will be a question and answer session. If you would like to ask a question, please press star one on your telephone keypad to withdraw your question. Again, press star one, and we ask that you limit yourself to one question. And this call will be recorded. Thank you very much. Kenneth Dorrell, META's director of an investor relations. You may begin. Thank you. Good afternoon and welcome to META platform's fourth quarter and full year 2024 earnings conference call. Joining me today to discuss our results are Mark Zuckerberg, CEO and Susan Lee, CFO. Before we get started, I would like to take this opportunity to remind you that our remarks today will include forward-looking statements. Actual results may differ materially from those contemplated by these forward-looking statements. Factors that could cause these results to differ materially are set forth in today's earnings press release and in our quarterly report on form 10Q filed with the SEC. Any forward-looking statements that we make on this call are based on assumptions as of today, and we undertake no obligation to update these statements as a result of new information or future events. During this call, we will present both GAP and certain non-GAP financial measures. A reconciliation of GAP to non-GAP measures is included in today's earnings press release. The earnings press release and an accompanying investor presentation are available on our website at investor.atmeta.com. And now I'd like to turn it all over to Mark. Alright, thanks Ken. Thanks everyone for joining today. We ended 2024 on a strong note with now more than 3.3 billion people using at least one of our apps each day. This is going to be a really big year. I know it always feels like every year is a big year, but more than usual, it feels like the trajectory for most of our long-term initiatives is going to be a lot clearer by the end of this year. So I keep telling our teams that this is going to be intense because we have about 48 weeks to get on the trajectory that we want to be on. In AI, I expect that this is going to be the year when a highly intelligent and personalized AI assistant reaches more than 1 billion people, and I expect meta-AI to be that leading AI assistant. Meta-AI is already used by more people than any other assistant, and once a service reaches that kind of scale, it usually develops a durable long-term advantage. We have a really exciting roadmap for this year with a unique vision focused on personalization. We believe that people don't all want to use the same AI. People want their AI to be personalized to their context, their interests, their personality, their culture, and how they think about the world. I don't think that there's just going to be one big AI that everyone uses that does the same thing. People are going to get to choose how their AI works and what it looks like for them. I continue to think that this is going to be one of the most transformative products that we've made, and we have some fun surprises that I think people are going to like this year. I think this will very well be the year when llama and open source become the most advanced and widely used AI models as well. llama 4 is making great progress in training, llama 4 mini is done with pre-training, and our reasoning models and larger model are looking good too. Our goal with llama 3 was to make open source competitive with closed models, and our goal for llama 4 is to lead. llama 4 will be natively multi-modal, it's an omnimodel, and it will have agentic capabilities, so it's going to be novel, and it's going to unlock a lot of new use cases, and I'm looking forward to sharing more of our plan for the year on that over the next couple of months. I also expect that 2025 will be the year when it becomes possible to build an AI engineering agent that has coding and problem-solving abilities of around a good level engineer. This is going to be a profound milestone, and potentially one of the most important innovations in history, as well as over time, potentially a very large market. Whichever company builds this first is going to have a meaningful advantage in deploying it to advance their AI research and shape the field. That's another reason why I think that this year is going to set the course for the future. Our Rayben meta AI glasses are a real hit, and this will be the year when we understand the trajectory for AI glasses as a category. Many breakout products in the history of consumer electronics have sold 5 to 10 million units in their third generation. This will be a defining year that determines if we're on a path towards many hundreds of millions, and eventually billions of AI glasses, and glasses being the next computing platform like we've been talking about for some time, or if this is just going to be a longer grind. But it's great overall to see people recognizing that these glasses are the perfect form factor for AI, as well as just great stylish glasses. These are all big investments, especially the hundreds of billions of dollars that we will invest in AI infrastructure over the long term. I announced last week that we expect to bring online almost a gigawatt of capacity this year, and we're building a two gigawatt and potentially bigger AI data center that is so big that it will cover a significant part of Manhattan if it were placed there. We're planning to fund all of this by at the same time investing aggressively in initiatives that use these AI advances to increase revenue growth. We've put together a plan that will hopefully accelerate the pace of these initiatives over the next few years. That's what a lot of our new headcount growth is going towards, and how well we execute on this will also determine our financial trajectory over the next few years. There are a number of other important product trends related to our family of apps that I think we're going to know more about this year as well. We're going to learn what's going to happen with TikTok, and regardless of that, I expect reels on Instagram and Facebook to continue growing. I expect threads to continue on its trajectory to become the leading discussion platform and eventually reach billion people over the next several years. Threads now has more than 320 million monthly actives and has been adding more than 1 million signups per day. I expect WhatsApp to continue gaining share and making progress towards becoming the leading messaging platform in the US like it is in a lot of the rest of the world. WhatsApp now has more than 100 million monthly actives in the US. Facebook is used by more than 3 billion monthly actives, and we're focused on growing its cultural influence. I'm excited this year to get back to some OG Facebook. This is also going to be a pivotal year for the metaverse. The number of people using Quest and Horizon has been steadily growing, and this is a year when a number of the long-term investments that we've been working on that will make the metaverse more visually stunning and inspiring will really start to land. So I think we're going to know a lot more about Horizon's trajectory by the end of this year. This is also going to be a big year for redefining our relationship with governments. We now have a US administration that is proud of our leading companies. Prioritizes American technology winning, and that will defend our values and interests abroad, and I am optimistic about the progress and innovation that this can unlock. So this is going to be a big year. I think that this is the most exciting and dynamic that I have ever seen our industry. Between AI, glasses, massive infrastructure projects, you know, doing a bunch of work to try to accelerate our business and building the future of social media, we have a lot to do. And I think we're going to build some awesome things that shape the future of human connection. As always, I am grateful for everyone who's on this journey with us. Thank you, near Susan. Thanks, Mark, and good afternoon, everyone. Let's begin with our consolidated results. All comparisons are on a year over year basis, unless otherwise noted. Q4 total revenue was $48.4 billion, up 21% on both a reported and constant currency basis. Q4 total expenses were $25 billion, up 5% compared to last year. Before I cover the specific cost lines, I would note that our fourth quarter expense growth rate reflects a 13 percentage point favorable impact from legal accrual reductions in Q4 and lower year over year restructuring costs. In terms of the specific line items, cost of revenue increased 15% driven mostly by higher infrastructure costs. R&D increased 16% primarily driven by higher employee compensation and infrastructure costs, which were partially offset by lower restructuring costs. Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly by lower legal related expenses due to a $1.55 billion reduction in legal accruals related to certain legal proceedings. We ended the year with over 74,000 employees, up 10% year over year, with growth primarily driven by hiring and priority areas of monetization, infrastructure, generative AI, reality labs, as well as regulation and compliance. Fourth quarter operating income was $23.4 billion representing a 48% operating margin. Our tax rate for the quarter was 12%. Net income was $20.8 billion or $8.02 per share. Capital expenditures including principal payments on finance leases were $14.8 billion driven by investments in servers, data centers and network infrastructure. Free cash flow was $13.2 billion. We paid $1.3 billion in dividends to shareholders, ending the year with $77.8 billion in cash and marketable securities and $28.8 billion in debt. Moving now to our segment results. I'll begin with our family of apps segment. Our community across the family of apps continues to grow and we estimate more than 3.3 billion people used at least one of our family of apps on a daily basis in December. Q4 total family of apps revenue was $47.3 billion, up 21% year over year. And Q4 family of apps ad revenue was $46.8 billion, up 21% on both a reported and constant currency basis. Within ad revenue, the online commerce vertical was the largest contributor to year over year growth. On a user geography basis, ad revenue growth was strongest in rest of world at 27%, followed by Asia Pacific in Europe at 23% and 22% respectively. North America grew 18%. In Q4, the total number of ad impressions served across our services increased 6% and the average price per ad increased 14%. Impression growth was mainly driven by Asia Pacific. Pricing growth benefited from increased advertiser demand in part driven by improved ad performance. This was partially offset by impression growth, particularly from lower monetizing regions and surfaces. Family of apps other revenue was $519 million, up 55%, driven primarily by business messaging revenue growth from our WhatsApp business platform. We continue to direct the majority of our investments toward the development and operation of our family of apps. In Q4, family of apps expenses were $19 billion representing 76% of our overall expenses. Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee compensation, which were partially offset by lower legal related expenses. Family of apps operating income was $28.3 billion representing a 60% operating margin. Within our reality lab segment, Q4 revenue was $1.1 billion, driven by hardware sales and up 1% year over year. Reality Labs expenses were $6 billion, up 6% year over year, driven primarily by higher infrastructure costs and employee compensation, partially offset by lower restructuring costs. Reality Labs operating loss was $5 billion. Turning now to the business outlook, there are two primary factors that drive our revenue performance, our ability to deliver engaging experiences for our community and our effectiveness at monetizing that engagement over time. On the first, daily actives continue to grow across Facebook, Instagram, and WhatsApp year over year, both globally and in the United States. In Q4, global video time grew at double digit percentages year over year on Instagram, and we're seeing particular strength in the US on Facebook, where video time spent was also up double digit rates year over year. We see continued opportunities to drive video growth in 2025 through ongoing optimizations to our ranking systems. We're also making several product bets that are focused on setting up our platforms for longer term success. Creators are one of our central focuses. On Instagram, we continue to prioritize original posts and recommendations to help smaller creators get discovered. We also want to ensure creators have a place to experiment with their content, so we introduced a new feature in Q4 that allows creators to first share a reel with people who don't follow them. This allows them to test content and see what performs best before deciding to share it with their followers, and also helps introduce them to entirely new audiences. Creative Tools is another area we're investing in. In the coming weeks, we'll launch a new standalone app called edits that provides a full suite of creative tools to make it easier for creators to make great reels on their phone. Another focus is making it easier for people to connect over content. Reels are already re-shared over 4.5 billion times a day, and we've been introducing more features that bring together the social and entertainment aspects of Instagram. In the U.S., we recently launched a new destination in reels that consists of content your friends have left a note on or liked. We're seeing very positive early results, and we'll look to expand this globally in the coming months. On threads, we made tremendous progress in 2024, and are focused this year as establishing threads as the place people come to keep up with what they care about. We're making a number of updates to our recommendation systems to prioritize more recent posts, surface content from top creators, and ensure people see more of the content from accounts they follow. We will also continue improving custom feeds so people can build personalized feeds on topics they're interested in. Finally, meta-AI usage continues to scale with more than 700 million monthly actors. We're now introducing updates that will enable meta-AI to deliver more personalized and relevant responses by remembering certain details from people's prior queries and considering what they engage with on Facebook and Instagram to develop better intuition for their interests and preferences. Now to the second driver of our revenue performance, increasing monetization efficiency. The first part of this work is optimizing the level of ads with an organic engagement. We continue to grow supply on lower monetizing surfaces, like video, while optimizing ad supply on each of our services to deliver ads at the time and place they will be most relevant to people. For example, we are continuing to better personalize when ads show up, including the optimal locations in the depth of someone's feed to introduce ad supply when it's most optimal for the user and revenue. This is enabling efficient supply growth. Longer term, we also see impression growth opportunities on unmonetized surfaces like threads, which we are beginning to test ads on this quarter. We expect the introduction of ads on threads will be gradual and don't anticipate it being a meaningful driver of overall impression or revenue growth in 2025. The second part of increasing monetization efficiency is improving marketing performance. The ongoing enhancements to our ads ranking systems are an important driver of this work. In the second half of 2024, we introduced an innovative new machine learning system in partnership with NVIDIA called Andromeda. This more efficient system enabled a 10,000 times increase in the complexity of models we use for ads retrieval, which is the part of the ranking process where we narrow down a pool of tens of millions of ads to the few thousand we consider showing someone. The increase in model complexity is enabling us to run far more sophisticated prediction models to better personalize which ads we show someone. This has driven an 8% increase in the quality of ads that people see on objectives we've tested. Andromeda's ability to efficiently process larger volumes of ads also positions as well for the future as advertisers use our generative AI tools to create and test more ads. Another way we're delivering value for advertisers is through increased automation of their ad campaigns with Advantage Plus. Adoption of Advantage Plus shopping campaigns continues to scale with revenues surpassing a $20 billion annual run rate and growing 70% year-to-year in Q4. Given the strong performance and interest we're seeing in Advantage Plus shopping and our other end-to-end solutions, we're testing a new streamlined campaign creation flow so advertisers no longer need to choose between running a manual or Advantage Plus sales or app campaign. In this new setup, all campaigns optimizing for sales app or lead objectives will have Advantage Plus turned on from the beginning. This will allow more advertisers to take advantage of the performance Advantage Plus offers while still having the ability to further customize aspects of their campaigns when they need to. We plan to expand to more advertisers in the coming months before rolling it out later in the year. Advantage Plus creative is another area where we're seeing momentum. More than 4 million advertisers are now using at least one of our generative AI ad creative tools up from 1 million six months ago. There has been significant early adoption of our first video generation tool that we rolled out in October image animation with hundreds of thousands of advertisers already using it monthly. Next, I would like to discuss our approach to capital allocation. Our primary focus remains investing capital back into the business with infrastructure and talent being our top priorities. On the first, we expect compute will be central to many of the opportunities we're pursuing as we advance the capabilities of llama drive increased usage of generative AI products and features across our platform and fuel core ads and organic engagement initiatives. We're working to meet the growing capacity needs for these services by both scaling our infrastructure footprint and increasing the efficiency of our workloads. Another way we're pursuing efficiencies is by extending the useful lives of our servers and associated networking equipment. Our expectation going forward is that we'll be able to use both our non AI and AI servers for a longer period of time before replacing them, which we estimate will be approximately five and a half years. This will deliver savings in annual capex and resulting depreciation expense, which is already included in our guidance. Finally, we're pursuing cost efficiencies by deploying our custom MTIA silicon in areas where we can achieve a lower cost of compute by optimizing the chip to our unique workloads. In 2024, we started deploying MTIA to our ranking and recommendation inference workloads for ads and organic content. We expect to further ramp adoption of MTIA for these use cases throughout 2025 before extending our custom silicon efforts to training workloads for ranking and recommendations next year. From a hiring standpoint, our focus continues to be on adding technical talent to support our strategic priorities. In the fourth quarter, nearly 90% of our year over year headcount growth was within the R&D function. The remaining growth was primarily in cost of revenue as we added infrastructure headcount to support our data center operations. In 2025, we expect headcount growth will continue to be primarily driven by technical roles across our priority initiatives within infrastructure, monetization, reality labs, generative AI, as well as regulation and compliance. We anticipate headcount growth in our business functions will remain relatively limited. To achieve our ambitions in these areas, we will need to continue executing at a rapid pace. We're supporting this by building tools to help our engineering base be more productive. As part of our efficiency focus over the past two years, we've made significant improvements in our internal processes and developer tools and introduced new tools like our AI powered coding assistant, which is helping our engineers write code more quickly. Looking forward, we expect that the continuous advancements and llamas coding capabilities will provide even greater leverage to our engineers. And we are focused on expanding its capabilities to not only assist our engineers in writing and reviewing our code, but to also begin generating code changes to automate tool updates and improve the quality of our code base. Finally, we expect our strong financial position will enable us to support these investments while continuing to return capital to shareholders through share repurchases and dividends. Moving to our financial outlook, we expect first quarter total revenue to be in the range of $39.5 to $41.8 billion. This reflects 8 to 15 percent year year growth or 11 to 18 percent growth on a constant currency basis, as our guidance assumes foreign currency is an approximately 3 percent headwind to year over year total revenue growth based on current exchange rates. This also reflects the effect of lapping leap day in the first quarter of 2024. While we are not providing a full year 2025 revenue outlook, we expect the investments we're making in our core business this year will give us an opportunity to continue delivering strong revenue growth throughout 2025. Turning now to the expense outlook, we expect full year 2025 total expenses to be in the range of 114 to 119 billion dollars. We expect the single largest driver of expense growth in 2025 to be infrastructure costs driven by higher operating expenses and depreciation. We expect employee compensation to be the second largest factor as we add technical talent in the priority areas that I referenced earlier. Turning now to the cat-backs outlook, we expect our full year 2025 capital expenses will be in the range of 60 to 65 billion dollars. We expect cat-backs growth in 2025 will be driven by increased investment to support both our generative AI efforts and our core business. The majority of our cat-backs in 2025 will continue to be directed towards our core business. On to tax abs and any changes to our tax landscape, we expect our full year 2025 tax rate to be in the range of 12 to 15 percent. In addition, we continue to monitor an active regulatory landscape including legal and regulatory headwinds in the EU and the US that could significantly impact our business and our financial results. In closing, this was a good year for our company with investments across our priority areas delivering strong business performance and innovative new products for our community. We have a compelling set of opportunities to invest in this year, which we expect will help us drive continued strong growth and develop transformative technologies that shape the future of our company and of the industry. With that, Krista, let's open up the call for questions. Thank you. We will now open the lines for a question and answer session. To ask a question, please press star 1 on your touchstone phone. To withdraw your question, again, press star 1. Please limit yourself to one question. Please pick up your hands up before asking your question to ensure clarity. If you are streaming today's call, please mute your computer speakers. And our first question comes from the line of Brian Nowak with Morgan Stanley. Please go ahead. Thanks for taking my question. Marc, sound very, we appreciate all the excitement about about this year and all the innovation to come. I know there's a lot of announcements throughout the course of the year, but wonder if you could just share a few sort of high level examples of your vision on new potential use cases and offerings that could drive utility for your users and value for your advertisers. You sort of think about llama 4 and meta-i changing throughout 2025. And then the second one on custom silicon, maybe a question for either of you, just any learnings on the difference between your custom silicon and third party chips in your ranking models and results. And how should we think about the main gating factors as to how quickly you build a move, a higher percentage of your engagement to your custom silicon? Thanks. On the first one, I tried to lay this out in my opening comments a bit. I mean, we're very focused on meta-i as a highly intelligent and personalized assistant that you can access across our apps. There's a website, you can access it outside of our apps too. I think that the quality of this is just it's going to keep on improving and improved a lot over the last year. We're also finding more ways that it's useful to integrate it into our services to help more people discover it. I think that that's undoubtedly why so many hundreds of millions of people are using it today is because it's kind of easy to discover what we're doing and then keep using it. I don't know. I want to keep some surprises and fun for the stuff that we're going to release this year. I gave a bit of detail on what we're planning to do with Lama 4 that I'm sure technical people will enjoy because we hadn't talked about that before. But I'm going to refrain from adding a whole lot more on what we're launching this year. But it's the different things that I talked about. It's meta-i. I do expect Lama 4 to be a very exciting set of releases. It's not just one thing. It's just like with Lama 3. There were kind of a few different models at different dates. I think we'll see that with Lama 4 too. And then the AI engineer piece, I'm really excited about it. I don't know that that's going to be an external product anytime soon. But I think for what we're working on, our goal is to advance AI research and advance our own development internally. And I think it's just going to be a very profound thing. I mean, that's something that I think will show up through making our products better over time. But then as that works, there will potentially be a market opportunity down the road. But I mean, for now, in this year, we're really... I don't think you're going to see this year like an AI engineer that is extremely widely deployed, changing all of development. I think this is going to be the year where that really starts to become possible and lays the groundwork for a much more dramatic change in 26 and beyond. I don't know. Yeah, that's kind of it. Brian, I'm happy to take your second question about custom silicon. So first of all, we expect that we are continuing to purchase third-party silicon from leading providers in the industry. And we are certainly committed to those longstanding partnerships. But we're also very invested in developing our own custom silicon for unique workloads where off-the-shelf silicon isn't necessarily optimal. And specifically because we're able to optimize the full stack to achieve greater compute efficiency and performance per cost and power because our workloads might require a different mix of memory versus network bandwidth versus compute. And so we can optimize that really to the specific needs of our different types of workloads. Right now, the in-house MTIA program is focused on supporting our core ranking and recommendation inference workloads. We started adopting MTIA in the first half of 2024 for core ranking and recommendations inference. We'll continue ramping adoption for those workloads over the course of 2025 as we use it for both incremental capacity and to replace some GPU-based servers when they reach the end of their useful lives. You know, next year we're hoping to expand MTIA to support some of our core AI training workloads and over time some of our gen AI use cases. Your next question comes from the line of Eric Sheridan with Goldman Sachs. Please go ahead. Thank you so much for taking the question. Maybe I can go back to your comments on open source. Can you help us understand how your views continue to evolve with respect to the competitive dynamic around your approach with the open source versus others in the industry and how your approach to open source could possibly bend the cost curve and improve return on capital for AI over the medium to long term? Thanks so much. Yeah, I mean, on open source, I think the best analogy for us is what we did with open compute where we weren't first to building the system. So then by the time that we got around to building it, it wasn't really a big advantage to have it be proprietary, so we shared it and then a lot of the industry adopted what we were doing, contributed innovations back to it. By standardizing it on it, that meant that a bunch of supply chains standardized on building it which made prices more efficient for everyone. I think what we see here is as Loma becomes more used, it's more likely, for example, that silicon providers and others, other APIs and developer platforms will optimize their work more for that and basically drive down the costs of using it and drive improvements that we can in some cases use to. So I think that the strategy will continue to be effective. Yeah, I mean, I continue to be optimistic about this. I think it's working. I also just think in light of some of the recent news, the new competitor DeepSeek from China, I think it also just puts, it's one of the things that we're talking about is there's going to be an open source standard globally. And I think for our kind of own national advantage, it's important that it's an American standard. So we take that seriously and we want to build the AI system that people around the world are using. And I think that if anything, some of the recent news has only strengthened our conviction that this is the right thing for us to be focused on. Here next question comes from the line of Mark Schmulich with Bernstein. Please go ahead. Yes, thank you for taking my questions. Mark, I appreciate we may get an answer this here, but looking out, as you kind of track the progress of smart glasses, you know, Orion and so forth, do you view that as a better form factor to get the most out of the meta AI assistance you highlighted in your opening remarks? Or is it more complimentary to kind of the in-app experience in the way you've seen people use it today? And then Susan, the last few quarters, we've kind of seen pricing growth as the dominant driver of ad revenue growth. Given the efforts we've highlighted around driving deeper, more commercial engagement and better advertiser ROI, how do we just think about the contribution or the formula for ad revenue growth going forward? Thank you. Yeah, I mean, I can talk about glasses. Yeah, and I've said for a while that I think that glasses are the ideal form factor for an AI device, because you can let an AI assistant on your glasses see what you see and hear what you hear, which gives it the context to be able to understand everything that's going on in your life that you would want to talk to it about and get context on. But look, I mean, I think that glasses are going to be a very important computing platform in the future. When phones became the primary computing platform, it's not like computers went away. You know, I think we'll have phones for some time, but there are a lot of people in the world who have glasses. It's kind of hard for me to imagine that, you know, a decade or more from now, all the glasses aren't going to basically be AI glasses, as well as a lot of people who don't wear glasses today finding that to be a useful thing. So I'm incredibly optimistic about this. And like I shared last year, I think one of the big surprises last year was I'd previously thought that glasses weren't going to become a major form factor until we got these the full kind of holographic displays that we started showing in the prototype for Orion. But now I think it's pretty clear that AI is actually going to drive at least as much of the value as the holographic AR is. So that's a cause to be excited. But look, the Rayman Metas were hit. We still don't know what the long-term trajectory for this is going to be. And I think we're going to learn a lot this year. So I think that this is a really important year for that. And I can take the second question on pricing growth. So first of all, what I would say is over the long term, you know, we think we have continued opportunity to drive revenue growth across both pricing and impression growth. So both sort of supply and demand dimensions. When we look at pricing, our reported growth can be influenced by different factors such as supply because of the auction dynamics by the mix shift of the different types of surfaces where ads show for example, services like video or lower monetization efficiency, relatively speaking. And then of course, you know, broader macro factors. But we generally expect that, you know, we are going to be able to deliver ongoing ad performance improvements through a lot of the, you know, ongoing work that we're doing across our monetization roadmap. And that will have these sort of effect of benefiting pricing overall. And part of, you know, what I think is kind of important to think about here when we think about price growth is we really, the average price per ad as we report it is really blending, you know, it's an output metric. It's blending a lot of things that are happening, including what our advertisers bidding for, what are their bids for those things, you know, what is the average cost of their action. So given that there are so many different objectives that advertisers can optimize for that have different values, it's a very complex metric that tries to distill that into one thing. Overall, we are seeing healthy cost per action trends for advertisers for whatever is the action that they are optimizing for. And we believe we'll continue to get better at driving conversions for advertisers. And when we do that, we'll have the effect of continuing to lift CPMs over time because we're delivering more conversions per impressions served, resulting in higher value impressions. Here next question comes from the line of Justin Post with Bank of America. Please go ahead. Great. Thanks. Maybe one for Mark and one for Susan. Mark, you mentioned, you know, political changes in the U.S. and better positioning maybe for U.S. companies abroad. But how do you think about it in the U.S. as far as usage and advertiser adoption, you got rid of back checking. So you think the content can change? Could it appeal to more users? Will that impact advertising at all? And then Susan, on MetaAI, I know people are pretty excited about the use case, but also thinking about the revenue case. How do you think about monetizing that? Could it be CPC ads or how are you thinking about that? Thank you. The question was about fact checking and our content policies. I mean, look, I think we're we're trying to build the service that we think is the best for people. I believed in free expression for quite a while. People don't want to see misinformation, but you need to build an effective system that gives people more context. And I think what we've found over time is that the community notes system I think is just going to be more effective than the system that we had before. And I'm not afraid to admit when someone does something that's better than us. I think it's sort of our job to go and just do the best work and implement the best system. So I think that there's been a lot of people who have read this announcement as if we somehow don't care about adding context to things that are on our platform that are misinformation that's not right. I actually think that the community notes system, like what X has had for a while, is actually just more effective than what we were doing before. And I think our product is going to get better because of it. I would add to that just to say, we also haven't seen any noticeable impact from our content policy changes on advertiser spend. So we're continuing to see strong advertiser demand. Again, particularly for AI powered tools that are helping businesses maximize the value of their ad spend. So our commitment to brand safety is unchanged. And we expect that we will invest in our suite of tools to meet the needs of advertisers. On your second question, in terms of monetizing meta AI, our initial focus for meta AI is really about building a great consumer experience. And that's frankly where all of our energies are kind of directed to right now. There will, I think, be pretty clear monetization opportunities here over time, including paid recommendations and including a premium offering. But that's really not where we are focused in terms of the development of meta AI today. Here next question comes from the line of Douglas and Ruth with JP Morgan. Please go ahead. Thanks for taking the questions. One for Marc, one for Susan. Marc, just following up on open source as deep-seak and other models potentially leverage, llama, or others to train faster and cheaper. How does this impact meta in your view and what could it mean for the trajectory of investment required over a multi-year period? And then Susan, just as we think about the 60 to 65 billion CAPEX this year, does the composition change much from last year when he talks about servers as the largest part followed by data centers and networking equipment? And how should we think about that mix between training and inference just following up on Jan's post this week? Thanks. I can start on the deep-seak question. You know, I think that there's a number of novel things that they did that I think were still digesting. And there are a number of things that they have advances that we will hope to implement in our systems. And that's part of the nature of how this works, whether it's a Chinese competitor or not. You know, I kind of expect that every new company that has an advance that has a launch is going to have some new advances that the rest of the field learns from and that's sort of how the technology industry goes. I don't know, it's probably too early to really have a strong opinion on what this means for the trajectory around infrastructure and CAPEX and things like that. You know, there are a bunch of trends that are happening here all at once. There's already sort of a debate around how much of the compute infrastructure that we're using is going to go towards pre-training versus as you get more of these reasoning time models or reasoning models where you get more of the intelligence by putting more of the compute into inference, whether it will mix shift, how we use our compute infrastructure towards that. That was already something that I think a lot of the other labs and ourselves were starting to think more about and already seemed pretty likely even before this, that of all the compute that we're using that the large pieces aren't necessarily going to go towards pre-training. But that doesn't mean that you need less compute because one of the new properties that's emerged is the ability to apply more compute at inference time in order to generate a higher level of intelligence and a higher quality of service, which means that as a company that has a strong business model to support this, I think that's generally an advantage that we're now going to be able to provide a higher quality of service than others who don't necessarily have the business model to support it on a sustainable basis. The other thing is just that when we're building things like MetaAI but also how we're implementing AI into all the feeds and ad products and things like that, we're just serving billions of people, which is different from, okay, you start to pre-train a model and that model is sort of agnostic to how many people are using it. At some level, it's going to be expensive for us to serve all of these people because we are serving a lot of people. I'm not sure what the net effect of all of this is. The field continues to move quickly. There's a lot to learn from releases from basically everyone who does something interesting, not just the ones over the last month. We'll continue to kind of incorporate that into what we do as well as making novel contributions to the field ourselves. I continue to think that investing very heavily in CapEx and Infra is going to be a strategic advantage over time. It's possible that we'll learn otherwise at some point, but I just think it's way too early to call that. At this point, I would bet that the ability to build out that kind of infrastructure is going to be a major advantage for both the quality of the service and being able to serve this scale that we want to. I'm happy to add a little more color about our 2025 CapEx plans to your second question. We certainly expect that 2025 CapEx is going to grow across all three of those components you described. Servers will be the biggest growth driver that remains the largest portion of our overall CapEx budget. We expect both growth in AI capacity as we support our Gen AI efforts and continue to invest meaningfully in core AI, but we are also expecting growth in non-AI capacity as we invest in the core business, including to support a higher base of engagement and to refresh our existing servers. On the data center side, we're anticipating higher data center spend in 2025 to be driven by buildouts of our large training clusters and our higher power density data centers that are entering the core construction phase. We're expecting to use that capacity primarily for core AI and non-AI use cases. On the networking side, we expect networking spend to grow in 25 as we build higher capacity networks to accommodate the growth in non-AI and core AI related traffic along with our large Gen AI training clusters. We're also investing in fiber to handle future cross-region training traffic. And then in terms of the breakdown, for core versus Gen AI use cases, we're expecting total infrastructure spend within each of Gen AI, non-AI and core AI to increase in 25 with the majority of our CapEx directed to our core business with some caveat that that's not easy to measure perfectly as the data centers we're building can support AI or non-AI workloads and the GPU base servers we procure for Gen AI can be repurposed for core AI use cases and so on so forth. But overall, I would reiterate what Mark said, we are committed to building leading foundation models and applications. We expect that we're going to make big investments to support our training and inference objectives and we don't know exactly where we are in the cycle of that yet. Here next question comes from the line of Ron Josie with City Group. Please go ahead. Thanks for taking a question Mark. I want to get back to your comment on getting back to the OG Facebook and want to understand a little bit more on the use cases and how that could extend videos clearly to benefit local marketplace groups of all been positive so any insights on the OG Facebook and then back to meta-AI giving me adoption we're seeing on the 600 plus and they use just how does the user experience evolve to? What are people doing with meta-AI? Thank you. Okay, so for Facebook, a lot of people use Facebook every day and it's an important part of their lives and I think that there are a lot of opportunities to make it way more culturally influential than it is today and I think that that's sort of a fun and interesting goal that will take our product development in some interesting directions that we maybe haven't focused on as much over the last several years. So I don't know that I have anything much more specific on this other than that this is going to be one of my focus areas for this year. I think it's an investment area and something I'm going to spend some time on. It might mean that in the near term we make some trade-offs to kind of focus on some product areas of what we're doing ahead of just kind of maximizing business results in the near term on it but overall I'm really excited about about doing some exciting stuff here and not going to get into many specifics now but we'll get we'll follow up on this over the next kind of call it half a year or year as we start rolling stuff out and I think some of this will kind of get back to how Facebook was originally used back in the day so I think it'll be fun. I'm happy to share a little bit more about meta-AI and what people are doing with it you know we are in a phase where we are really learning a lot from the way that people engage with meta-AI so you know from an app perspective what's app continues to see the strongest meta-AI usage across our family of apps people there are using it most frequently for information seeking and educational queries along with emotional support use cases most of the WhatsApp engagement is in one-on-one threads though we see some usage in group messaging and on Facebook you know which is the second largest driver of meta-AI engagement we're seeing strong engagement from our feed deep dives integration that lets people ask meta-AI questions about the content that is recommended to them so across I would say all query types we continue to see signs that meta-AI is helping people leverage our apps for new use cases you know we talked about information gathering social interaction and communication lots of people use it for humor and casual conversation they use it for writing and editing research recommendations and as we look forward to 2025 in our meta-AI roadmap we are really focused on doing more to make it feel more personalized so that I would say some of the most exciting features we're working on including improving sort of the memory dimension of the meta-AI experience where it will be able to remember certain details that people share in one-on-one chats for example and use those details to personalize its responses and then you know really increasing its ability to deliver great content recommendations and enhance really what makes Facebook and Instagram so valuable for people for people today. Here next question comes from the line of Ken Growski with Wells Fargo please go ahead. Thank you very much to for me please. First could you talk a little bit I know you you talked a little bit on the on the cap one tent city side and the recent developments and it's hard to see it's hard to tell yet where things are going but maybe you could just talk a little bit more near term about 25 the CapEx budget you laid out or the CapEx forecast. Could you talk a little bit about the constraints you're seeing or where you're seeing constraints either internally resources planning or externally in any parts of the ecosystem and then on the second one I'm curious as you think about the as you think about your needs for hiring and we just think about we knew you gave the CapEx guide for this year but as we think about future needs for hiring could you just give us a sense of how we should think about that you you announced the the the performance related reductions earlier this for earlier this year could you just talk about how we should be thinking about that 26 27 and beyond thank you sure I'm happy to take both of those so on your first question you know on just where do we see constraints in our ability to execute against our CapEx plans obviously you know we are staying on top of supply availability that is certainly one of the factors that will influence our CapEx ban in 2025 but we don't really have any updates to share on supply availability right now we are planning to significantly ramp up deployment of GPUs in 2025 and we'll continue to engage with our vendors and invest in our own silicon to you know meet those needs you know and you asked how to think about capital intensity we're we're not really you know I as both Mark and I alluded to in our prior comments I think it is really too early to determine what long-run capital intensity is going to look like there are so many different factors the pace of advancement in underlying models how efficient can they be what is the adoption and use case of our gen AI products what performance gains come from next generation hardware innovations both our own and third party and then ultimately what monetization or other efficiency gains our AI investments unlock so again I think we are we are sort of early in the journey here and we don't have I would say we don't have kind of a anything to share about long-run capital intensity yet your second question was about thinking about hiring needs so it's a good segue after infrastructure employee compensation is the next largest driver of expense growth in 2025 and here you know growth in employee comp and headcount more broadly is primarily driven by those areas that I mentioned you know infrastructure monetization generative AI reality labs and regulation and compliance and those generally are more technical organizations that means that it is a higher cost base relative to business functions where we are also expecting to keep headcount growth constrained and you know I would say we are you know we're focused on running the company efficiently but at the same time it is we feel like we're in a critical period in terms of making sure that we are investing to win and we want to make sure that we staff those priority areas in a way that really positions us to best do that Krista we have time for one last question and that question comes from the line of Ross Sandler with Barclays please go ahead yeah one for mark on agents so we we also open AI's operator demo last week so mark as the industry moves from chat to agentic behavior and more commercial intent moves into these AI products like how are you thinking about monetization potential for meta AI and then how might lama for reasoning help drive some of these new agentic experiences for meta AI thank you yeah so I guess a couple of things that I'd say on this one is when you're thinking about agents and reasoning a lot of this is about being able to perform multi-step tasks so right now the way that a lot of these systems work is you you you kind of say something and then it responds and it's almost chat-like but I think that the direction that it's going is you're going to be able to give it an intent or a task and it's going to be able to go off and use sort of an arbitrary amount of compute as much as you want to use on it to be able to do a task some of the tasks might be pretty simple for people go go buy a specific thing some of them might be really hard like go right in app or optimize this code and like really make it as good as possible and that type of thing I think is just going to start becoming more and more prevalent over the next year or two so I think it's very exciting it sort of will will feel in some ways like the current products are just getting smarter and others it'll feel like sort of a new form factor because it won't be as much like chat but but it's sort of another generation of these products so I think it's it's just in general there's there's a lot to build and be excited about I guess my note of of caution or or just my my kind of periodic reminder on our product development process if you will is you know we we build these products we try to scale them to reach you know usually a billion people or more and it's at that point once they're at scale that we really start focusing on monetization so sometimes we'll we'll experiment with with monetization before we're running some experiments with threads now for example but we we typically don't really ramp these things up or see them as meaningfully contributing to the business until we reach quite a big scale so the thing that I think is is going to be meaningful this year is the kind of getting of the AI products to scale last year sort of the introduction and starting to get it to be used at this year my my kind of expectation and hope is that we will be at a sufficient scale and and have you know a sufficient kind of flywheel of people using it and an improvement from that that this will have a durable advantage but that doesn't mean that it's going to be a major contributor to the business this year this year the the improvements to the business are going to be taking the AI methods and applying them to advertising and recommendations and feeds and things like that so the actual business opportunity for meta AI and AI studio and business agents and people interacting with the AIs remains outside of 25 for the most part and I think that that's an important thing for for us to communicate and for for people to internalize as you're thinking about our prospects here but but nonetheless you know we've run a process like this many times you know we we build a product we make it good we scale it to be large we build out the business around it that's what we do i'm very optimistic but it's it's going to take some time great thank you everyone for joining us today I appreciate your time and we look forward to speaking with you again soon this concludes today's conference call thank you for your participation and you may now disconnect"
+}

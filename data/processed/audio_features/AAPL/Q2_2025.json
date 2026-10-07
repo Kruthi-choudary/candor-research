@@ -1,0 +1,6064 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "Good afternoon and welcome to the Apple Q2 fiscal year 2025 earnings conference call.",
+      "audio_features": {
+        "pause_before_sec": null,
+        "speaking_rate_wps": 2.33,
+        "mean_pitch_hz": 200.92,
+        "pitch_std_hz": 53.32,
+        "mean_energy": 0.06239
+      }
+    },
+    {
+      "start": 6.640000000000001,
+      "end": 10.64,
+      "text": "My name is Suhasni Chandramali, Director of Investor Relations.",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.25,
+        "mean_pitch_hz": 183.81,
+        "pitch_std_hz": 47.31,
+        "mean_energy": 0.08461
+      }
+    },
+    {
+      "start": 11.200000000000001,
+      "end": 17.44,
+      "text": "Today's call is being recorded. Speaking first today is Apple CEO Tim Cook,",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 207.55,
+        "pitch_std_hz": 58.12,
+        "mean_energy": 0.07539
+      }
+    },
+    {
+      "start": 17.44,
+      "end": 24.400000000000002,
+      "text": "and he'll be followed by CFO Kevin Perrec. After that, we'll open the call to questions from analysts.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.59,
+        "mean_pitch_hz": 180.31,
+        "pitch_std_hz": 33.56,
+        "mean_energy": 0.07976
+      }
+    },
+    {
+      "start": 25.76,
+      "end": 29.92,
+      "text": "Please note that some of the information you'll hear during our discussion today",
+      "audio_features": {
+        "pause_before_sec": 1.36,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 212.55,
+        "pitch_std_hz": 54.14,
+        "mean_energy": 0.11119
+      }
+    },
+    {
+      "start": 29.92,
+      "end": 36.800000000000004,
+      "text": "will consist of forward-looking statements, including without limitation, those regarding revenue,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.6,
+        "mean_pitch_hz": 201.06,
+        "pitch_std_hz": 48.35,
+        "mean_energy": 0.07294
+      }
+    },
+    {
+      "start": 36.800000000000004,
+      "end": 45.28,
+      "text": "gross margin, operating expenses, other income and expense, taxes, capital allocation, and future",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.53,
+        "mean_pitch_hz": 220.42,
+        "pitch_std_hz": 40.04,
+        "mean_energy": 0.07384
+      }
+    },
+    {
+      "start": 45.28,
+      "end": 50.96,
+      "text": "business outlook, including the potential impact of tariffs and other trade measures,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.11,
+        "mean_pitch_hz": 189.53,
+        "pitch_std_hz": 47.87,
+        "mean_energy": 0.07109
+      }
+    },
+    {
+      "start": 50.96,
+      "end": 56.32000000000001,
+      "text": "and macroeconomic conditions on the company's business and results of operations.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.05,
+        "mean_pitch_hz": 188.34,
+        "pitch_std_hz": 43.34,
+        "mean_energy": 0.07873
+      }
+    },
+    {
+      "start": 57.28,
+      "end": 64.4,
+      "text": "These statements involve risks and uncertainties that may cause actual results or trends to differ",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.11,
+        "mean_pitch_hz": 190.87,
+        "pitch_std_hz": 38.0,
+        "mean_energy": 0.06988
+      }
+    },
+    {
+      "start": 64.4,
+      "end": 71.52,
+      "text": "materially from our forecast. For more information, please refer to the risk factors discussed in",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.11,
+        "mean_pitch_hz": 203.76,
+        "pitch_std_hz": 54.44,
+        "mean_energy": 0.07376
+      }
+    },
+    {
+      "start": 71.52,
+      "end": 79.84,
+      "text": "Apple's most recently filed reports on Form 10Q and Form 10K, and the Form 8K filed with the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.16,
+        "mean_pitch_hz": 200.84,
+        "pitch_std_hz": 46.73,
+        "mean_energy": 0.06776
+      }
+    },
+    {
+      "start": 79.92,
+      "end": 87.76,
+      "text": "SEC today along with the associated press release. Additional information will also be in our report",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.04,
+        "mean_pitch_hz": 209.92,
+        "pitch_std_hz": 49.32,
+        "mean_energy": 0.07194
+      }
+    },
+    {
+      "start": 87.76,
+      "end": 96.48,
+      "text": "on Form 10Q for the quarter ended March 29, 2025, to be filed tomorrow and in other reports and",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.18,
+        "mean_pitch_hz": 200.73,
+        "pitch_std_hz": 44.36,
+        "mean_energy": 0.07592
+      }
+    },
+    {
+      "start": 96.48,
+      "end": 104.72,
+      "text": "filings we make with the SEC. Apple assumes no obligation to update any forward-looking statements,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.82,
+        "mean_pitch_hz": 203.11,
+        "pitch_std_hz": 53.09,
+        "mean_energy": 0.06472
+      }
+    },
+    {
+      "start": 104.72,
+      "end": 110.96,
+      "text": "which speak only as of the date they are made. I'd now like to turn the call over to Tim for",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.37,
+        "mean_pitch_hz": 237.44,
+        "pitch_std_hz": 58.84,
+        "mean_energy": 0.0759
+      }
+    },
+    {
+      "start": 110.96,
+      "end": 118.0,
+      "text": "introductory remarks. Thank you, Suhasani. Good afternoon, everyone, and thanks for joining the call.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 144.05,
+        "pitch_std_hz": 29.95,
+        "mean_energy": 0.07949
+      }
+    },
+    {
+      "start": 119.12,
+      "end": 126.0,
+      "text": "Today, we are reporting $95.4 billion in revenue up 5% from a year ago and at the high end of the",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 3.05,
+        "mean_pitch_hz": 137.3,
+        "pitch_std_hz": 22.29,
+        "mean_energy": 0.10445
+      }
+    },
+    {
+      "start": 126.0,
+      "end": 134.4,
+      "text": "range we provided last quarter. Deluded EPS was $1.65, up 8% year over year, and a March quarter",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.14,
+        "mean_pitch_hz": 140.35,
+        "pitch_std_hz": 26.66,
+        "mean_energy": 0.09902
+      }
+    },
+    {
+      "start": 134.4,
+      "end": 141.20000000000002,
+      "text": "record. Services achieved an all-time revenue record growing 12% compared to the prior year.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 136.37,
+        "pitch_std_hz": 19.25,
+        "mean_energy": 0.09079
+      }
+    },
+    {
+      "start": 142.0,
+      "end": 146.8,
+      "text": "We also set a number of quarterly records in countries and regions across the world,",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 143.61,
+        "pitch_std_hz": 21.92,
+        "mean_energy": 0.10857
+      }
+    },
+    {
+      "start": 146.8,
+      "end": 154.48000000000002,
+      "text": "including the UK, Spain, Finland, Brazil, Chile, Turkey, Poland, India, and the Philippines.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.69,
+        "mean_pitch_hz": 128.05,
+        "pitch_std_hz": 27.39,
+        "mean_energy": 0.08519
+      }
+    },
+    {
+      "start": 155.36,
+      "end": 160.96,
+      "text": "We are as dedicated as ever to the innovation and ingenuity that will enrich our customers' lives",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 3.04,
+        "mean_pitch_hz": 137.29,
+        "pitch_std_hz": 17.37,
+        "mean_energy": 0.09398
+      }
+    },
+    {
+      "start": 160.96,
+      "end": 166.64000000000001,
+      "text": "and help us leave the world better than we found it. And we are proud to increase our impact around",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.52,
+        "mean_pitch_hz": 136.84,
+        "pitch_std_hz": 16.21,
+        "mean_energy": 0.06725
+      }
+    },
+    {
+      "start": 166.64000000000001,
+      "end": 172.48000000000002,
+      "text": "the world, including here in the United States, where we recently announced plans to spend $500",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.74,
+        "mean_pitch_hz": 140.69,
+        "pitch_std_hz": 18.28,
+        "mean_energy": 0.07878
+      }
+    },
+    {
+      "start": 172.48000000000002,
+      "end": 178.4,
+      "text": "billion over the next four years. We're going to be expanding our teams and our facilities in",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.87,
+        "mean_pitch_hz": 137.97,
+        "pitch_std_hz": 20.22,
+        "mean_energy": 0.08601
+      }
+    },
+    {
+      "start": 178.4,
+      "end": 185.28,
+      "text": "several states, including Michigan, Texas, California, Arizona, Nevada, Iowa, Oregon,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.45,
+        "mean_pitch_hz": 136.51,
+        "pitch_std_hz": 20.66,
+        "mean_energy": 0.09135
+      }
+    },
+    {
+      "start": 185.28,
+      "end": 190.08,
+      "text": "North Carolina, and Washington. And we're going to be opening a new factory for advanced",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 155.04,
+        "pitch_std_hz": 44.17,
+        "mean_energy": 0.10197
+      }
+    },
+    {
+      "start": 190.08,
+      "end": 197.12,
+      "text": "server manufacturing in Texas. During calendar year 2025, we expect to source more than 19",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.13,
+        "mean_pitch_hz": 143.88,
+        "pitch_std_hz": 20.53,
+        "mean_energy": 0.08618
+      }
+    },
+    {
+      "start": 197.12,
+      "end": 203.20000000000002,
+      "text": "billion chips from a dozen states, including tens of billions of advanced chips being made in Arizona",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.8,
+        "mean_pitch_hz": 135.89,
+        "pitch_std_hz": 14.79,
+        "mean_energy": 0.0976
+      }
+    },
+    {
+      "start": 203.20000000000002,
+      "end": 210.16000000000003,
+      "text": "this year. We also source glass-used an iPhone from an American company. All told, we have more",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.44,
+        "mean_pitch_hz": 140.25,
+        "pitch_std_hz": 24.39,
+        "mean_energy": 0.08099
+      }
+    },
+    {
+      "start": 210.16000000000003,
+      "end": 217.44,
+      "text": "than 9,000 suppliers in the US across all 50 states. Now I'll turn to products, starting with",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 145.05,
+        "pitch_std_hz": 17.59,
+        "mean_energy": 0.08401
+      }
+    },
+    {
+      "start": 217.44,
+      "end": 226.07999999999998,
+      "text": "iPhone. iPhone revenue was $46.8 billion, up 2% from a year ago. During the quarter, we introduced",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.97,
+        "mean_pitch_hz": 137.28,
+        "pitch_std_hz": 25.19,
+        "mean_energy": 0.07782
+      }
+    },
+    {
+      "start": 226.07999999999998,
+      "end": 233.35999999999999,
+      "text": "iPhone 16E, a great new entry-level addition to our iPhone 16 lineup. It's powered by our latest",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 147.06,
+        "pitch_std_hz": 20.05,
+        "mean_energy": 0.07659
+      }
+    },
+    {
+      "start": 233.35999999999999,
+      "end": 240.4,
+      "text": "generation A18 chip and includes the all-new Apple Design C1 modem, the most energy-efficient",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 150.23,
+        "pitch_std_hz": 13.02,
+        "mean_energy": 0.08525
+      }
+    },
+    {
+      "start": 240.4,
+      "end": 246.8,
+      "text": "modem ever in an iPhone, allowing iPhone 16E to have the longest battery life of any",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 140.58,
+        "pitch_std_hz": 15.63,
+        "mean_energy": 0.09108
+      }
+    },
+    {
+      "start": 246.8,
+      "end": 253.76000000000002,
+      "text": "6.1-inch iPhone. Meanwhile, iPhone 16 and iPhone 16 Plus users are exploring how they can use",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 154.64,
+        "pitch_std_hz": 20.51,
+        "mean_energy": 0.08055
+      }
+    },
+    {
+      "start": 253.76000000000002,
+      "end": 259.76,
+      "text": "camera control, whether capturing stunning images or exploring the world with visual intelligence.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.17,
+        "mean_pitch_hz": 141.69,
+        "pitch_std_hz": 22.61,
+        "mean_energy": 0.07025
+      }
+    },
+    {
+      "start": 260.8,
+      "end": 266.96000000000004,
+      "text": "And our iPhone 16 Pro models continue to be a hit with our users. They are turbocharged by the",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 3.08,
+        "mean_pitch_hz": 157.1,
+        "pitch_std_hz": 23.9,
+        "mean_energy": 0.07867
+      }
+    },
+    {
+      "start": 266.96000000000004,
+      "end": 273.12,
+      "text": "remarkable capabilities and efficiency of A18 Pro and feature larger displays and advanced",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.11,
+        "mean_pitch_hz": 146.36,
+        "pitch_std_hz": 15.27,
+        "mean_energy": 0.07693
+      }
+    },
+    {
+      "start": 273.12,
+      "end": 282.96,
+      "text": "camera system and a beautiful design. Mac revenue was $7.9 billion, 7% higher year-over-year,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.42,
+        "mean_pitch_hz": 132.87,
+        "pitch_std_hz": 19.71,
+        "mean_energy": 0.04969
+      }
+    },
+    {
+      "start": 282.96,
+      "end": 289.36,
+      "text": "another great quarter for Mac. During the quarter, we introduced significant new updates to our lineup.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 141.32,
+        "pitch_std_hz": 20.43,
+        "mean_energy": 0.05704
+      }
+    },
+    {
+      "start": 290.0,
+      "end": 298.0,
+      "text": "The world's most popular laptop just got even better. The M4 powered MacBook Air features a 12-megapixel",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.12,
+        "mean_pitch_hz": 137.02,
+        "pitch_std_hz": 13.09,
+        "mean_energy": 0.05344
+      }
+    },
+    {
+      "start": 298.0,
+      "end": 303.76,
+      "text": "center-stage camera and delivers a massive boost in performance. And now it comes in a",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 135.45,
+        "pitch_std_hz": 16.69,
+        "mean_energy": 0.04908
+      }
+    },
+    {
+      "start": 303.76,
+      "end": 310.24,
+      "text": "beautiful new sky blue color. The new Mac studio is the most powerful Mac we've ever shipped,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.62,
+        "mean_pitch_hz": 139.65,
+        "pitch_std_hz": 22.17,
+        "mean_energy": 0.05704
+      }
+    },
+    {
+      "start": 310.24,
+      "end": 318.32,
+      "text": "equipped with M4 Macs and our new M3 Ultra chip. It's a true AI powerhouse capable of running",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.23,
+        "mean_pitch_hz": 137.83,
+        "pitch_std_hz": 15.75,
+        "mean_energy": 0.05909
+      }
+    },
+    {
+      "start": 318.32,
+      "end": 326.16,
+      "text": "large-language models with over 600 billion parameters entirely in memory. Apple Intelligence brings",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.66,
+        "mean_pitch_hz": 131.7,
+        "pitch_std_hz": 14.53,
+        "mean_energy": 0.05106
+      }
+    },
+    {
+      "start": 326.16,
+      "end": 331.52000000000004,
+      "text": "great capabilities to the Mac with features like writing tools and notification summaries",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.43,
+        "mean_pitch_hz": 129.29,
+        "pitch_std_hz": 15.95,
+        "mean_energy": 0.05618
+      }
+    },
+    {
+      "start": 331.52000000000004,
+      "end": 338.40000000000003,
+      "text": "that help users stay focused and get more done. Turning to iPad, revenue for the quarter was",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.47,
+        "mean_pitch_hz": 141.8,
+        "pitch_std_hz": 17.35,
+        "mean_energy": 0.05327
+      }
+    },
+    {
+      "start": 338.40000000000003,
+      "end": 345.36,
+      "text": "$6.4 billion. Up 15% from a year ago, another strong quarter of double-digit growth.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.01,
+        "mean_pitch_hz": 134.64,
+        "pitch_std_hz": 21.53,
+        "mean_energy": 0.05832
+      }
+    },
+    {
+      "start": 346.56,
+      "end": 353.20000000000005,
+      "text": "Our iPad lineup continues to help users learn, work, play, and go wherever their imaginations take",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 2.41,
+        "mean_pitch_hz": 133.35,
+        "pitch_std_hz": 21.0,
+        "mean_energy": 0.0556
+      }
+    },
+    {
+      "start": 353.2,
+      "end": 360.47999999999996,
+      "text": "them. The new iPad Air with M3 combines powerful performance and exceptional portability,",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 1.79,
+        "mean_pitch_hz": 139.36,
+        "pitch_std_hz": 13.73,
+        "mean_energy": 0.04502
+      }
+    },
+    {
+      "start": 360.47999999999996,
+      "end": 366.15999999999997,
+      "text": "whether you're taking it across the street or around the world. An Apple Intelligence and Apple",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.82,
+        "mean_pitch_hz": 147.49,
+        "pitch_std_hz": 18.65,
+        "mean_energy": 0.05422
+      }
+    },
+    {
+      "start": 366.15999999999997,
+      "end": 372.64,
+      "text": "Pencil Pro are a perfect match with features like the cleanup tool and photos to remove distractions",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.62,
+        "mean_pitch_hz": 141.97,
+        "pitch_std_hz": 17.71,
+        "mean_energy": 0.04991
+      }
+    },
+    {
+      "start": 372.64,
+      "end": 378.88,
+      "text": "and image one in the Notes app to elevate simple sketches into polished illustrations. Across",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.4,
+        "mean_pitch_hz": 133.65,
+        "pitch_std_hz": 20.2,
+        "mean_energy": 0.04514
+      }
+    },
+    {
+      "start": 378.88,
+      "end": 387.04,
+      "text": "wearables home in accessories, revenue was $7.5 billion down 5% from a year ago. From walking trails",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 143.32,
+        "pitch_std_hz": 18.76,
+        "mean_energy": 0.06544
+      }
+    },
+    {
+      "start": 387.04,
+      "end": 392.8,
+      "text": "to bike paths, Apple Watch Series 10 is an essential partner wherever you are on the health",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.95,
+        "mean_pitch_hz": 139.03,
+        "pitch_std_hz": 17.5,
+        "mean_energy": 0.06095
+      }
+    },
+    {
+      "start": 392.8,
+      "end": 399.2,
+      "text": "and fitness journey. And AirPods 4 with active noise cancellation delivers an extraordinary",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.03,
+        "mean_pitch_hz": 143.9,
+        "pitch_std_hz": 20.88,
+        "mean_energy": 0.05599
+      }
+    },
+    {
+      "start": 399.2,
+      "end": 405.36,
+      "text": "experience in an open-ear design. Customers continue to tell me how important our hearing",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.27,
+        "mean_pitch_hz": 140.93,
+        "pitch_std_hz": 21.2,
+        "mean_energy": 0.0503
+      }
+    },
+    {
+      "start": 405.36,
+      "end": 411.04,
+      "text": "held features for AirPods Pro 2 are to them, and we've been expanding their availability",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.64,
+        "mean_pitch_hz": 133.21,
+        "pitch_std_hz": 17.08,
+        "mean_energy": 0.05323
+      }
+    },
+    {
+      "start": 411.04,
+      "end": 417.28000000000003,
+      "text": "to reach even more users around the world. Millions have already taken hearing tests,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.24,
+        "mean_pitch_hz": 140.41,
+        "pitch_std_hz": 19.73,
+        "mean_energy": 0.05661
+      }
+    },
+    {
+      "start": 417.28000000000003,
+      "end": 421.52000000000004,
+      "text": "and the stories we received about the new hearing aid feature are deeply moving,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.3,
+        "mean_pitch_hz": 136.09,
+        "pitch_std_hz": 16.61,
+        "mean_energy": 0.07043
+      }
+    },
+    {
+      "start": 422.32,
+      "end": 426.72,
+      "text": "showing how these innovations are making a real difference in people's daily lives.",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.95,
+        "mean_pitch_hz": 133.82,
+        "pitch_std_hz": 20.43,
+        "mean_energy": 0.06996
+      }
+    },
+    {
+      "start": 427.52000000000004,
+      "end": 432.64,
+      "text": "It's a powerful reminder of the impact technology can have when it's designed with care.",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.93,
+        "mean_pitch_hz": 136.76,
+        "pitch_std_hz": 19.83,
+        "mean_energy": 0.0693
+      }
+    },
+    {
+      "start": 433.52,
+      "end": 439.44,
+      "text": "Meanwhile, Apple Vision Pro takes the concert experience to a whole new level with Metallica,",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.53,
+        "mean_pitch_hz": 147.65,
+        "pitch_std_hz": 15.72,
+        "mean_energy": 0.07745
+      }
+    },
+    {
+      "start": 439.44,
+      "end": 448.08,
+      "text": "our latest Apple immersive video which you have to see to believe. And VisionOS 2.4 unlocks the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.97,
+        "mean_pitch_hz": 137.04,
+        "pitch_std_hz": 18.41,
+        "mean_energy": 0.06125
+      }
+    },
+    {
+      "start": 448.08,
+      "end": 453.2,
+      "text": "first set of Apple Intelligence features for Vision Pro users while inviting them to explore",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.93,
+        "mean_pitch_hz": 130.56,
+        "pitch_std_hz": 21.73,
+        "mean_energy": 0.06043
+      }
+    },
+    {
+      "start": 453.2,
+      "end": 458.96,
+      "text": "a curated and regularly updated collection of spatial experiences with the spatial gallery app.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.43,
+        "mean_pitch_hz": 124.65,
+        "pitch_std_hz": 17.4,
+        "mean_energy": 0.0616
+      }
+    },
+    {
+      "start": 459.84000000000003,
+      "end": 465.68000000000006,
+      "text": "In retail, in addition to the two stores we opened during the quarter, we're also looking",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.74,
+        "mean_pitch_hz": 149.26,
+        "pitch_std_hz": 16.91,
+        "mean_energy": 0.08324
+      }
+    },
+    {
+      "start": 465.68000000000006,
+      "end": 471.84000000000003,
+      "text": "forward to a new retail store in the UAE, the arrival of the online store in Saudi Arabia,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.92,
+        "mean_pitch_hz": 134.48,
+        "pitch_std_hz": 13.37,
+        "mean_energy": 0.07816
+      }
+    },
+    {
+      "start": 471.84000000000003,
+      "end": 477.92,
+      "text": "and new retail stores in India starting later this year. Let's now turn to services where we",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.8,
+        "mean_pitch_hz": 141.76,
+        "pitch_std_hz": 29.39,
+        "mean_energy": 0.08055
+      }
+    },
+    {
+      "start": 477.92,
+      "end": 484.8,
+      "text": "achieved an all-time revenue record of $26.6 billion, up 12% from a year ago, with strong",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.33,
+        "mean_pitch_hz": 147.05,
+        "pitch_std_hz": 16.66,
+        "mean_energy": 0.08289
+      }
+    },
+    {
+      "start": 484.88,
+      "end": 491.6,
+      "text": "performance across all of our categories. From starting their morning with their podcast of choice",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.23,
+        "mean_pitch_hz": 146.99,
+        "pitch_std_hz": 22.04,
+        "mean_energy": 0.08211
+      }
+    },
+    {
+      "start": 491.6,
+      "end": 496.96000000000004,
+      "text": "to buying a coffee with Apple Pay, to spending an afternoon reading the latest bestseller on",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 150.54,
+        "pitch_std_hz": 22.05,
+        "mean_energy": 0.09476
+      }
+    },
+    {
+      "start": 496.96000000000004,
+      "end": 503.44,
+      "text": "Apple Books, to using their favorite app from the app store or an evening workout with Fitness Plus,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 148.95,
+        "pitch_std_hz": 22.73,
+        "mean_energy": 0.08042
+      }
+    },
+    {
+      "start": 503.44,
+      "end": 509.28000000000003,
+      "text": "Apple services are enriching our users' lives all throughout their day. With incredible shows like",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.57,
+        "mean_pitch_hz": 147.22,
+        "pitch_std_hz": 15.5,
+        "mean_energy": 0.08094
+      }
+    },
+    {
+      "start": 509.28000000000003,
+      "end": 515.36,
+      "text": "the studio, your friends and neighbors, and the culture-shaping severance, Apple TV Plus has",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 136.94,
+        "pitch_std_hz": 23.68,
+        "mean_energy": 0.06197
+      }
+    },
+    {
+      "start": 515.36,
+      "end": 521.76,
+      "text": "become a must-see destination with record viewership during the quarter. And we're excited for our",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 136.55,
+        "pitch_std_hz": 20.36,
+        "mean_energy": 0.05969
+      }
+    },
+    {
+      "start": 521.76,
+      "end": 528.48,
+      "text": "upcoming movie F1, starring Brad Pitt, which will hit theaters this summer and gives an incredible",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.38,
+        "mean_pitch_hz": 136.94,
+        "pitch_std_hz": 14.53,
+        "mean_energy": 0.05784
+      }
+    },
+    {
+      "start": 528.48,
+      "end": 535.36,
+      "text": "inside look at one of the most intense sports on Earth. And there is so much more to come this year.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.05,
+        "mean_pitch_hz": 139.69,
+        "pitch_std_hz": 17.73,
+        "mean_energy": 0.05066
+      }
+    },
+    {
+      "start": 535.36,
+      "end": 542.5600000000001,
+      "text": "It's no wonder Apple TV Plus has earned more than 2,500 award nominations and 560 wins.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.22,
+        "mean_pitch_hz": 135.44,
+        "pitch_std_hz": 15.09,
+        "mean_energy": 0.0571
+      }
+    },
+    {
+      "start": 544.0,
+      "end": 549.12,
+      "text": "We're also reaching sports fans in more ways than ever. From watching their favorite teams go to",
+      "audio_features": {
+        "pause_before_sec": 1.44,
+        "speaking_rate_wps": 3.32,
+        "mean_pitch_hz": 151.2,
+        "pitch_std_hz": 14.48,
+        "mean_energy": 0.07034
+      }
+    },
+    {
+      "start": 549.12,
+      "end": 555.52,
+      "text": "bat on Friday Night Baseball, to cheering on their local team with MLS season pass, to following the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.81,
+        "mean_pitch_hz": 135.75,
+        "pitch_std_hz": 13.91,
+        "mean_energy": 0.05749
+      }
+    },
+    {
+      "start": 555.52,
+      "end": 563.36,
+      "text": "results of every Grand Prix with Formula One now on the Apple Sports app. Turning to software,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.17,
+        "mean_pitch_hz": 133.01,
+        "pitch_std_hz": 14.64,
+        "mean_energy": 0.04866
+      }
+    },
+    {
+      "start": 563.36,
+      "end": 571.6,
+      "text": "we just released iOS 18.4, which brought Apple intelligence to more languages, including French,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.7,
+        "mean_pitch_hz": 139.78,
+        "pitch_std_hz": 20.89,
+        "mean_energy": 0.05494
+      }
+    },
+    {
+      "start": 571.6,
+      "end": 580.0,
+      "text": "German, Italian, Portuguese, Spanish, Japanese, Korean, and simplified Chinese, as well as localized",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.55,
+        "mean_pitch_hz": 129.6,
+        "pitch_std_hz": 24.33,
+        "mean_energy": 0.05791
+      }
+    },
+    {
+      "start": 580.0,
+      "end": 586.08,
+      "text": "English to Singapore and India. AI and machine learning are core to so many profound features",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.63,
+        "mean_pitch_hz": 141.14,
+        "pitch_std_hz": 14.96,
+        "mean_energy": 0.05981
+      }
+    },
+    {
+      "start": 586.08,
+      "end": 591.44,
+      "text": "we've rolled out over the years to help our users live a better day. It's why we designed Apple",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.54,
+        "mean_pitch_hz": 129.98,
+        "pitch_std_hz": 13.92,
+        "mean_energy": 0.04969
+      }
+    },
+    {
+      "start": 591.44,
+      "end": 597.2,
+      "text": "silicon with a neural engine that powers so many AI features across our products and third-party",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 133.28,
+        "pitch_std_hz": 14.61,
+        "mean_energy": 0.04878
+      }
+    },
+    {
+      "start": 597.2,
+      "end": 606.8000000000001,
+      "text": "apps. It's also what makes Apple products the best devices for generative AI. At WWDC 24, we announced",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.87,
+        "mean_pitch_hz": 145.14,
+        "pitch_std_hz": 22.61,
+        "mean_energy": 0.04951
+      }
+    },
+    {
+      "start": 606.8000000000001,
+      "end": 612.72,
+      "text": "Apple intelligence and shared our vision for integrating generative AI across our ecosystem",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.2,
+        "mean_pitch_hz": 129.31,
+        "pitch_std_hz": 13.35,
+        "mean_energy": 0.06727
+      }
+    },
+    {
+      "start": 612.72,
+      "end": 620.1600000000001,
+      "text": "into the apps and features our users rely on every day. To achieve this goal, we built our own",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.55,
+        "mean_pitch_hz": 135.41,
+        "pitch_std_hz": 21.55,
+        "mean_energy": 0.063
+      }
+    },
+    {
+      "start": 620.16,
+      "end": 626.48,
+      "text": "highly capable foundation models that are specialized for everyday tasks. We designed helpful",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 140.77,
+        "pitch_std_hz": 20.63,
+        "mean_energy": 0.06381
+      }
+    },
+    {
+      "start": 626.48,
+      "end": 632.8,
+      "text": "features that are right where our users need them and are easy to use. And we went to great links to",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.32,
+        "mean_pitch_hz": 140.81,
+        "pitch_std_hz": 26.81,
+        "mean_energy": 0.07635
+      }
+    },
+    {
+      "start": 632.8,
+      "end": 639.1999999999999,
+      "text": "build a system that protects user privacy, whether request or process on-device or in the cloud with",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.66,
+        "mean_pitch_hz": 137.96,
+        "pitch_std_hz": 15.41,
+        "mean_energy": 0.06561
+      }
+    },
+    {
+      "start": 639.1999999999999,
+      "end": 647.1999999999999,
+      "text": "private cloud compute and extraordinary step forward for privacy and AI. Since we launched iOS 18,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.0,
+        "mean_pitch_hz": 134.37,
+        "pitch_std_hz": 25.04,
+        "mean_energy": 0.05334
+      }
+    },
+    {
+      "start": 647.2,
+      "end": 653.44,
+      "text": "we've released a number of Apple intelligence features from helpful writing tools to Genmoji,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.24,
+        "mean_pitch_hz": 139.32,
+        "pitch_std_hz": 13.8,
+        "mean_energy": 0.07365
+      }
+    },
+    {
+      "start": 653.44,
+      "end": 659.9200000000001,
+      "text": "image playground, image wand, cleanup, visual intelligence, and a seamless connection to chat",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.01,
+        "mean_pitch_hz": 137.07,
+        "pitch_std_hz": 13.16,
+        "mean_energy": 0.06693
+      }
+    },
+    {
+      "start": 659.9200000000001,
+      "end": 665.84,
+      "text": "GPT. We made it possible for users to create movies of their memories with a simple prompt",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.87,
+        "mean_pitch_hz": 141.61,
+        "pitch_std_hz": 20.14,
+        "mean_energy": 0.07485
+      }
+    },
+    {
+      "start": 665.84,
+      "end": 673.0400000000001,
+      "text": "and added AI-powered photo search, smart replies, priority notifications, summaries for mail messages",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.81,
+        "mean_pitch_hz": 140.58,
+        "pitch_std_hz": 17.43,
+        "mean_energy": 0.0706
+      }
+    },
+    {
+      "start": 673.04,
+      "end": 679.68,
+      "text": "and more. We've also expanded these capabilities to more languages and regions. With regard to the",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.41,
+        "mean_pitch_hz": 143.01,
+        "pitch_std_hz": 23.42,
+        "mean_energy": 0.05288
+      }
+    },
+    {
+      "start": 679.68,
+      "end": 685.12,
+      "text": "more personal Siri features we announced, we need more time to complete our work on these features",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 132.07,
+        "pitch_std_hz": 24.07,
+        "mean_energy": 0.06564
+      }
+    },
+    {
+      "start": 685.12,
+      "end": 690.48,
+      "text": "so they meet our high quality bar. We are making progress and we look forward to getting these",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.36,
+        "mean_pitch_hz": 128.13,
+        "pitch_std_hz": 21.8,
+        "mean_energy": 0.05715
+      }
+    },
+    {
+      "start": 690.48,
+      "end": 697.4399999999999,
+      "text": "features into customers hands. Turning to sustainability, we just celebrated Earth Day and we were proud",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 150.34,
+        "pitch_std_hz": 28.68,
+        "mean_energy": 0.06124
+      }
+    },
+    {
+      "start": 697.44,
+      "end": 704.32,
+      "text": "to announce that we've cut our emissions by 60% from our 2015 levels. Today we're using more clean",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.62,
+        "mean_pitch_hz": 143.77,
+        "pitch_std_hz": 19.25,
+        "mean_energy": 0.05943
+      }
+    },
+    {
+      "start": 704.32,
+      "end": 710.48,
+      "text": "energy across our operations and more recycled materials in our products than ever. We have worked",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 131.51,
+        "pitch_std_hz": 16.03,
+        "mean_energy": 0.04636
+      }
+    },
+    {
+      "start": 710.48,
+      "end": 717.7600000000001,
+      "text": "with suppliers to bring 17.8 gigawatts of renewable electricity online. We're also saving billions of",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 142.21,
+        "pitch_std_hz": 19.64,
+        "mean_energy": 0.06001
+      }
+    },
+    {
+      "start": 717.7600000000001,
+      "end": 724.48,
+      "text": "gallons of fresh water and redirecting millions of metric tons of waste from landfills. All of this",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.53,
+        "mean_pitch_hz": 130.94,
+        "pitch_std_hz": 22.77,
+        "mean_energy": 0.05221
+      }
+    },
+    {
+      "start": 724.5600000000001,
+      "end": 730.24,
+      "text": "will help us make important progress towards our goal of carbon neutrality across our supply chain",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.82,
+        "mean_pitch_hz": 129.84,
+        "pitch_std_hz": 14.74,
+        "mean_energy": 0.04942
+      }
+    },
+    {
+      "start": 730.24,
+      "end": 736.72,
+      "text": "and the lifecycle of our products by 2030. Now let me walk you through the impacts of tariffs in the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.09,
+        "mean_pitch_hz": 141.67,
+        "pitch_std_hz": 28.98,
+        "mean_energy": 0.04881
+      }
+    },
+    {
+      "start": 736.72,
+      "end": 744.24,
+      "text": "March quarter and give you some color on what we expect for the June quarter. For the March quarter,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.53,
+        "mean_pitch_hz": 134.17,
+        "pitch_std_hz": 31.13,
+        "mean_energy": 0.04659
+      }
+    },
+    {
+      "start": 744.24,
+      "end": 750.0,
+      "text": "we had a limited impact from tariffs as we were able to optimize our supply chain and inventory.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.13,
+        "mean_pitch_hz": 106.5,
+        "pitch_std_hz": 10.06,
+        "mean_energy": 0.0511
+      }
+    },
+    {
+      "start": 750.96,
+      "end": 756.64,
+      "text": "For the June quarter, currently we are not able to precisely estimate the impact of tariffs as",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 120.67,
+        "pitch_std_hz": 23.89,
+        "mean_energy": 0.06343
+      }
+    },
+    {
+      "start": 756.64,
+      "end": 763.04,
+      "text": "we are uncertain of potential future actions prior to the end of the quarter. However,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 113.32,
+        "pitch_std_hz": 14.58,
+        "mean_energy": 0.04618
+      }
+    },
+    {
+      "start": 763.04,
+      "end": 769.04,
+      "text": "for some color, assuming the current global tariff rates, policies, and applications do not",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.33,
+        "mean_pitch_hz": 129.02,
+        "pitch_std_hz": 15.42,
+        "mean_energy": 0.05806
+      }
+    },
+    {
+      "start": 769.04,
+      "end": 775.12,
+      "text": "change for the balance of the quarter and no new tariffs are added, we estimate the impact to add",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 119.94,
+        "pitch_std_hz": 15.33,
+        "mean_energy": 0.05912
+      }
+    },
+    {
+      "start": 775.2,
+      "end": 782.4,
+      "text": "$900 million to our cost. This estimate should not be used to make projections for future quarters",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.36,
+        "mean_pitch_hz": 120.42,
+        "pitch_std_hz": 16.15,
+        "mean_energy": 0.05319
+      }
+    },
+    {
+      "start": 782.4,
+      "end": 788.08,
+      "text": "as there are certain unique factors that benefit the June quarter. For our part,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.46,
+        "mean_pitch_hz": 114.26,
+        "pitch_std_hz": 9.12,
+        "mean_energy": 0.05093
+      }
+    },
+    {
+      "start": 788.08,
+      "end": 793.6,
+      "text": "we will manage the company the way we always have with thoughtful and deliberate decisions,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.72,
+        "mean_pitch_hz": 129.83,
+        "pitch_std_hz": 9.81,
+        "mean_energy": 0.06147
+      }
+    },
+    {
+      "start": 793.6,
+      "end": 799.12,
+      "text": "with a focus on investing for the long term and with dedication to innovation and the possibilities",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.08,
+        "mean_pitch_hz": 117.67,
+        "pitch_std_hz": 12.66,
+        "mean_energy": 0.06081
+      }
+    },
+    {
+      "start": 799.2,
+      "end": 805.76,
+      "text": "it creates. As we look ahead, we remain confident, confident that we will continue to build the",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.59,
+        "mean_pitch_hz": 146.75,
+        "pitch_std_hz": 20.24,
+        "mean_energy": 0.06085
+      }
+    },
+    {
+      "start": 805.76,
+      "end": 812.24,
+      "text": "world's best products and services, confident in our ability to innovate and enrich our users' lives,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.47,
+        "mean_pitch_hz": 127.9,
+        "pitch_std_hz": 17.09,
+        "mean_energy": 0.06083
+      }
+    },
+    {
+      "start": 812.96,
+      "end": 818.32,
+      "text": "and confident that we can continue to run our business in a way that has always set Apple apart.",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 3.54,
+        "mean_pitch_hz": 126.82,
+        "pitch_std_hz": 17.58,
+        "mean_energy": 0.06686
+      }
+    },
+    {
+      "start": 819.28,
+      "end": 823.36,
+      "text": "Next month, we can't wait to welcome our developer community for the World Wide",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 3.43,
+        "mean_pitch_hz": 128.16,
+        "pitch_std_hz": 21.64,
+        "mean_energy": 0.08297
+      }
+    },
+    {
+      "start": 823.36,
+      "end": 827.76,
+      "text": "Developers Conference, and we look forward to revealing some exciting announcements.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 120.94,
+        "pitch_std_hz": 21.98,
+        "mean_energy": 0.07263
+      }
+    },
+    {
+      "start": 828.64,
+      "end": 833.44,
+      "text": "With that, I'll turn it over to Kevin. Thanks, Tim, and good afternoon, everyone.",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.92,
+        "mean_pitch_hz": 130.23,
+        "pitch_std_hz": 30.15,
+        "mean_energy": 0.06404
+      }
+    },
+    {
+      "start": 834.08,
+      "end": 839.2,
+      "text": "Our March quarter revenue of $95.4 billion was up 5% year over year,",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.54,
+        "mean_pitch_hz": 106.72,
+        "pitch_std_hz": 12.72,
+        "mean_energy": 0.08611
+      }
+    },
+    {
+      "start": 839.2,
+      "end": 844.64,
+      "text": "despite a headwind of almost 2.5 percentage points from foreign exchange. We also grew in",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.76,
+        "mean_pitch_hz": 165.11,
+        "pitch_std_hz": 103.88,
+        "mean_energy": 0.07357
+      }
+    },
+    {
+      "start": 844.64,
+      "end": 852.0,
+      "text": "the majority of the markets we track. Products revenue was $68.7 billion, up 3% year over year,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.31,
+        "mean_pitch_hz": 127.29,
+        "pitch_std_hz": 27.4,
+        "mean_energy": 0.07457
+      }
+    },
+    {
+      "start": 852.88,
+      "end": 858.64,
+      "text": "driven by growth in iPhone, iPad, and Mac. And thanks to our high levels of customer satisfaction",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.95,
+        "mean_pitch_hz": 148.96,
+        "pitch_std_hz": 33.11,
+        "mean_energy": 0.07715
+      }
+    },
+    {
+      "start": 858.64,
+      "end": 863.36,
+      "text": "and strong loyalty, our installed base of active devices reached an all-time high",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.75,
+        "mean_pitch_hz": 112.15,
+        "pitch_std_hz": 17.16,
+        "mean_energy": 0.07572
+      }
+    },
+    {
+      "start": 863.36,
+      "end": 866.08,
+      "text": "across all product categories in geographic segments.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.57,
+        "mean_pitch_hz": 101.2,
+        "pitch_std_hz": 5.88,
+        "mean_energy": 0.05144
+      }
+    },
+    {
+      "start": 867.28,
+      "end": 874.08,
+      "text": "Services revenue was $26.6 billion, up 12% year over year, despite over 2 percentage points",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 2.21,
+        "mean_pitch_hz": 155.52,
+        "pitch_std_hz": 48.58,
+        "mean_energy": 0.08459
+      }
+    },
+    {
+      "start": 874.08,
+      "end": 878.96,
+      "text": "of foreign exchange headwinds. And as Tim mentioned, this was an all-time revenue record.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.87,
+        "mean_pitch_hz": 134.11,
+        "pitch_std_hz": 37.6,
+        "mean_energy": 0.06863
+      }
+    },
+    {
+      "start": 879.6800000000001,
+      "end": 884.96,
+      "text": "We also grew in every geographic segment and saw double-digit growth in both developed and",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.84,
+        "mean_pitch_hz": 135.7,
+        "pitch_std_hz": 23.62,
+        "mean_energy": 0.09041
+      }
+    },
+    {
+      "start": 884.96,
+      "end": 892.0,
+      "text": "emerging markets. Company gross margin is 47.1% in the middle of our guidance range,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 127.51,
+        "pitch_std_hz": 28.01,
+        "mean_energy": 0.06898
+      }
+    },
+    {
+      "start": 892.0,
+      "end": 895.9200000000001,
+      "text": "and up 20 basis points sequentially, primarily driven by favorable mix.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.81,
+        "mean_pitch_hz": 107.94,
+        "pitch_std_hz": 11.63,
+        "mean_energy": 0.07542
+      }
+    },
+    {
+      "start": 896.96,
+      "end": 904.08,
+      "text": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix,",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 1.83,
+        "mean_pitch_hz": 122.03,
+        "pitch_std_hz": 19.02,
+        "mean_energy": 0.08374
+      }
+    },
+    {
+      "start": 904.08,
+      "end": 906.64,
+      "text": "foreign exchange, and a seasonal loss of leverage.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.13,
+        "mean_pitch_hz": 111.26,
+        "pitch_std_hz": 12.82,
+        "mean_energy": 0.06758
+      }
+    },
+    {
+      "start": 907.9200000000001,
+      "end": 913.6,
+      "text": "Services gross margin was 75.7%, up 70 basis points sequentially,",
+      "audio_features": {
+        "pause_before_sec": 1.28,
+        "speaking_rate_wps": 1.76,
+        "mean_pitch_hz": 134.27,
+        "pitch_std_hz": 30.53,
+        "mean_energy": 0.08168
+      }
+    },
+    {
+      "start": 914.24,
+      "end": 918.0,
+      "text": "primarily driven by a different mix, partly offset by foreign exchange.",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.93,
+        "mean_pitch_hz": 117.63,
+        "pitch_std_hz": 15.81,
+        "mean_energy": 0.08247
+      }
+    },
+    {
+      "start": 919.36,
+      "end": 924.5600000000001,
+      "text": "Operating expenses landed at $15.3 billion, up 6% year over year.",
+      "audio_features": {
+        "pause_before_sec": 1.36,
+        "speaking_rate_wps": 2.12,
+        "mean_pitch_hz": 102.38,
+        "pitch_std_hz": 15.33,
+        "mean_energy": 0.06334
+      }
+    },
+    {
+      "start": 925.84,
+      "end": 933.36,
+      "text": "Net income was $24.8 billion, and diluted earnings per share was $1.65, up 8% year over year,",
+      "audio_features": {
+        "pause_before_sec": 1.28,
+        "speaking_rate_wps": 2.26,
+        "mean_pitch_hz": 145.43,
+        "pitch_std_hz": 31.29,
+        "mean_energy": 0.10547
+      }
+    },
+    {
+      "start": 933.36,
+      "end": 938.72,
+      "text": "and a March quarter record. Operating cash flow was also strong at $24 billion.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.61,
+        "mean_pitch_hz": 128.18,
+        "pitch_std_hz": 35.0,
+        "mean_energy": 0.07746
+      }
+    },
+    {
+      "start": 940.48,
+      "end": 944.24,
+      "text": "Now, I'm going to provide some more details for each of our revenue categories.",
+      "audio_features": {
+        "pause_before_sec": 1.76,
+        "speaking_rate_wps": 3.72,
+        "mean_pitch_hz": 117.83,
+        "pitch_std_hz": 12.47,
+        "mean_energy": 0.10599
+      }
+    },
+    {
+      "start": 945.92,
+      "end": 952.64,
+      "text": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+      "audio_features": {
+        "pause_before_sec": 1.68,
+        "speaking_rate_wps": 2.38,
+        "mean_pitch_hz": 150.74,
+        "pitch_std_hz": 33.1,
+        "mean_energy": 0.10867
+      }
+    },
+    {
+      "start": 953.6,
+      "end": 960.16,
+      "text": "The iPhone active install base grew to an all-time high in total in an every geographic segment,",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.59,
+        "mean_pitch_hz": 132.11,
+        "pitch_std_hz": 25.35,
+        "mean_energy": 0.09698
+      }
+    },
+    {
+      "start": 960.16,
+      "end": 965.6,
+      "text": "and iPhone upgraders grew double digits year over year. According to a recent survey from",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.76,
+        "mean_pitch_hz": 152.22,
+        "pitch_std_hz": 35.61,
+        "mean_energy": 0.09585
+      }
+    },
+    {
+      "start": 965.6,
+      "end": 970.7199999999999,
+      "text": "CanTAR, during the March quarter, iPhone was a top selling model in the U.S.,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.73,
+        "mean_pitch_hz": 158.4,
+        "pitch_std_hz": 35.14,
+        "mean_energy": 0.09052
+      }
+    },
+    {
+      "start": 971.6,
+      "end": 976.7199999999999,
+      "text": "urban China, the U.K., Germany, Australia, and Japan.",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 1.56,
+        "mean_pitch_hz": 130.28,
+        "pitch_std_hz": 22.72,
+        "mean_energy": 0.06635
+      }
+    },
+    {
+      "start": 977.92,
+      "end": 983.6,
+      "text": "And we continued to see high levels of customer satisfaction in the U.S. at 97% as measured by",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 3.17,
+        "mean_pitch_hz": 131.77,
+        "pitch_std_hz": 34.86,
+        "mean_energy": 0.09518
+      }
+    },
+    {
+      "start": 983.6,
+      "end": 992.5600000000001,
+      "text": "451 research. Mac revenue was $7.9 billion, up 7% year over year, driven by the latest MacBook Air,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.01,
+        "mean_pitch_hz": 117.81,
+        "pitch_std_hz": 24.43,
+        "mean_energy": 0.0795
+      }
+    },
+    {
+      "start": 992.5600000000001,
+      "end": 999.2,
+      "text": "MacBook Pro, and Mac Mini models. This performance was broad-based, with every geographic segment",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.11,
+        "mean_pitch_hz": 137.23,
+        "pitch_std_hz": 30.17,
+        "mean_energy": 0.09296
+      }
+    },
+    {
+      "start": 999.2,
+      "end": 1004.5600000000001,
+      "text": "growing year over year. The Mac install base reached an all-time high, and we saw strong",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 124.55,
+        "pitch_std_hz": 28.62,
+        "mean_energy": 0.08448
+      }
+    },
+    {
+      "start": 1004.5600000000001,
+      "end": 1011.0400000000001,
+      "text": "growth for both upgraders and customers new to the Mac. Customer satisfaction was reported at 95%",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.47,
+        "mean_pitch_hz": 134.13,
+        "pitch_std_hz": 27.31,
+        "mean_energy": 0.09184
+      }
+    },
+    {
+      "start": 1011.0400000000001,
+      "end": 1020.72,
+      "text": "in the U.S. iPad revenue was $6.4 billion, up 15% year over year, driven by the new M3-powered",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.86,
+        "mean_pitch_hz": 123.29,
+        "pitch_std_hz": 30.03,
+        "mean_energy": 0.07872
+      }
+    },
+    {
+      "start": 1020.72,
+      "end": 1026.4,
+      "text": "iPad Air. The iPad install base reached another all-time high, and over half the customers who",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.82,
+        "mean_pitch_hz": 120.04,
+        "pitch_std_hz": 21.25,
+        "mean_energy": 0.08488
+      }
+    },
+    {
+      "start": 1026.4,
+      "end": 1032.0,
+      "text": "purchased an iPad during the quarter were new to the product. Based on the latest reports from",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.04,
+        "mean_pitch_hz": 132.19,
+        "pitch_std_hz": 34.45,
+        "mean_energy": 0.07342
+      }
+    },
+    {
+      "start": 1032.0,
+      "end": 1040.16,
+      "text": "451 research, customer satisfaction was 97% in the U.S. Wearables, Home, and Accessories revenue",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.72,
+        "mean_pitch_hz": 127.43,
+        "pitch_std_hz": 27.99,
+        "mean_energy": 0.07555
+      }
+    },
+    {
+      "start": 1040.16,
+      "end": 1046.64,
+      "text": "was $7.5 billion, down 5% year over year. Keep in mind, we did face a more difficult compare",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 129.48,
+        "pitch_std_hz": 20.26,
+        "mean_energy": 0.09304
+      }
+    },
+    {
+      "start": 1046.64,
+      "end": 1051.44,
+      "text": "against the launch of the Apple Vision Pro in the year ago quarter, as well as the Watch Ultra 2",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.17,
+        "mean_pitch_hz": 108.09,
+        "pitch_std_hz": 13.22,
+        "mean_energy": 0.09762
+      }
+    },
+    {
+      "start": 1051.44,
+      "end": 1057.1200000000001,
+      "text": "launch last year. At the same time, the Apple Watch install base reached a new all-time high,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 132.79,
+        "pitch_std_hz": 24.09,
+        "mean_energy": 0.08195
+      }
+    },
+    {
+      "start": 1057.1200000000001,
+      "end": 1061.8400000000001,
+      "text": "with over half of customers purchasing an Apple Watch during the quarter being new to the product.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.6,
+        "mean_pitch_hz": 114.77,
+        "pitch_std_hz": 14.86,
+        "mean_energy": 0.07547
+      }
+    },
+    {
+      "start": 1062.88,
+      "end": 1068.5600000000002,
+      "text": "And customer satisfaction for watch in the U.S. was recently measured at 95%. Our services",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 2.64,
+        "mean_pitch_hz": 137.64,
+        "pitch_std_hz": 38.45,
+        "mean_energy": 0.07511
+      }
+    },
+    {
+      "start": 1068.6399999999999,
+      "end": 1073.9199999999998,
+      "text": "revenue reached an all-time high of $26.6 billion, up 12% year over year.",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.46,
+        "mean_pitch_hz": 112.02,
+        "pitch_std_hz": 18.47,
+        "mean_energy": 0.06659
+      }
+    },
+    {
+      "start": 1074.8799999999999,
+      "end": 1078.96,
+      "text": "This growth rate was comparable to the December quarter year over year growth rate when we removed",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 4.17,
+        "mean_pitch_hz": 120.77,
+        "pitch_std_hz": 39.23,
+        "mean_energy": 0.09699
+      }
+    },
+    {
+      "start": 1078.96,
+      "end": 1083.9199999999998,
+      "text": "the negative impact from foreign exchange. We saw strong momentum in the March quarter,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.82,
+        "mean_pitch_hz": 117.08,
+        "pitch_std_hz": 30.8,
+        "mean_energy": 0.06189
+      }
+    },
+    {
+      "start": 1083.9199999999998,
+      "end": 1088.24,
+      "text": "and the growth of our install base of active devices gives us great opportunities for the future.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.94,
+        "mean_pitch_hz": 110.82,
+        "pitch_std_hz": 16.56,
+        "mean_energy": 0.08518
+      }
+    },
+    {
+      "start": 1089.2,
+      "end": 1094.24,
+      "text": "Customer engagement across our services offerings also continued to grow. Both transacting",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.38,
+        "mean_pitch_hz": 140.23,
+        "pitch_std_hz": 39.66,
+        "mean_energy": 0.07754
+      }
+    },
+    {
+      "start": 1094.24,
+      "end": 1099.2,
+      "text": "and paid accounts reached new all-time highs, with paid accounts growing double digits year over",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.02,
+        "mean_pitch_hz": 118.32,
+        "pitch_std_hz": 32.6,
+        "mean_energy": 0.07198
+      }
+    },
+    {
+      "start": 1099.2,
+      "end": 1105.6,
+      "text": "year. Paid subscriptions also grew double digits. We have well over a billion paid subscriptions",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.34,
+        "mean_pitch_hz": 138.57,
+        "pitch_std_hz": 46.83,
+        "mean_energy": 0.0723
+      }
+    },
+    {
+      "start": 1105.6,
+      "end": 1110.64,
+      "text": "across the services on our platform. We continue to improve the quality and breadth of our service",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.37,
+        "mean_pitch_hz": 122.83,
+        "pitch_std_hz": 28.1,
+        "mean_energy": 0.07019
+      }
+    },
+    {
+      "start": 1110.64,
+      "end": 1115.76,
+      "text": "offerings from additional features in News Plus to new games available in Arcade. Apple Pay",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.93,
+        "mean_pitch_hz": 140.13,
+        "pitch_std_hz": 33.51,
+        "mean_energy": 0.08045
+      }
+    },
+    {
+      "start": 1115.76,
+      "end": 1120.48,
+      "text": "continues to help our customers with an easy, secure and private payment solution. And we were",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.39,
+        "mean_pitch_hz": 122.13,
+        "pitch_std_hz": 20.74,
+        "mean_energy": 0.0827
+      }
+    },
+    {
+      "start": 1120.56,
+      "end": 1125.44,
+      "text": "pleased to see that our active users in Apple Pay reached an all-time record of double digits",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 3.48,
+        "mean_pitch_hz": 119.11,
+        "pitch_std_hz": 27.46,
+        "mean_energy": 0.07408
+      }
+    },
+    {
+      "start": 1125.44,
+      "end": 1132.48,
+      "text": "year over year. Turning to enterprise, organizations are investing more in Apple products and services",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.13,
+        "mean_pitch_hz": 114.91,
+        "pitch_std_hz": 22.83,
+        "mean_energy": 0.06631
+      }
+    },
+    {
+      "start": 1132.48,
+      "end": 1139.6,
+      "text": "to drive productivity and employee engagement. For example, KPMG recently rolled out iPhone 16",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.97,
+        "mean_pitch_hz": 152.04,
+        "pitch_std_hz": 48.0,
+        "mean_energy": 0.09231
+      }
+    },
+    {
+      "start": 1139.6,
+      "end": 1144.48,
+      "text": "for all U.S. employees reflecting their confidence in Apple security and privacy features.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.66,
+        "mean_pitch_hz": 141.1,
+        "pitch_std_hz": 28.41,
+        "mean_energy": 0.08862
+      }
+    },
+    {
+      "start": 1145.3600000000001,
+      "end": 1150.96,
+      "text": "We also continue to see strong Mac performance and enterprise. NewBank, the largest digital bank",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.68,
+        "mean_pitch_hz": 135.19,
+        "pitch_std_hz": 23.0,
+        "mean_energy": 0.08035
+      }
+    },
+    {
+      "start": 1150.96,
+      "end": 1156.24,
+      "text": "in Latin America, has selected MacBook Air as a standard computer for their thousands of employees.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.03,
+        "mean_pitch_hz": 109.72,
+        "pitch_std_hz": 18.96,
+        "mean_energy": 0.0745
+      }
+    },
+    {
+      "start": 1157.04,
+      "end": 1162.08,
+      "text": "With Vision Pro, companies are continuing to find new and innovative ways to leverage this",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.98,
+        "mean_pitch_hz": 144.08,
+        "pitch_std_hz": 37.9,
+        "mean_energy": 0.10451
+      }
+    },
+    {
+      "start": 1162.08,
+      "end": 1168.24,
+      "text": "technology. Desso System, a leading provider for engineering and 3D design software,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.95,
+        "mean_pitch_hz": 138.61,
+        "pitch_std_hz": 33.17,
+        "mean_energy": 0.0842
+      }
+    },
+    {
+      "start": 1168.24,
+      "end": 1173.92,
+      "text": "has natively integrated Apple Vision Pro into their next generation platform, bringing a powerful",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.46,
+        "mean_pitch_hz": 130.64,
+        "pitch_std_hz": 24.34,
+        "mean_energy": 0.08776
+      }
+    },
+    {
+      "start": 1173.92,
+      "end": 1179.2,
+      "text": "and immersive spatial experience to thousands of enterprise customers. Now, let's turn to our",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.65,
+        "mean_pitch_hz": 113.07,
+        "pitch_std_hz": 19.02,
+        "mean_energy": 0.05519
+      }
+    },
+    {
+      "start": 1179.2,
+      "end": 1185.8400000000001,
+      "text": "cash position and capital return program. We ended the quarter with $133 billion in cash",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.26,
+        "mean_pitch_hz": 127.78,
+        "pitch_std_hz": 29.76,
+        "mean_energy": 0.07021
+      }
+    },
+    {
+      "start": 1185.8400000000001,
+      "end": 1190.64,
+      "text": "and marketable securities. We had $3 billion in debt maturities and increased commercial paper",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.92,
+        "mean_pitch_hz": 114.64,
+        "pitch_std_hz": 17.07,
+        "mean_energy": 0.0639
+      }
+    },
+    {
+      "start": 1190.64,
+      "end": 1197.6000000000001,
+      "text": "by $4 billion, resulting in $98 billion in total debt. Therefore, at the end of the quarter,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.44,
+        "mean_pitch_hz": 111.4,
+        "pitch_std_hz": 16.17,
+        "mean_energy": 0.06089
+      }
+    },
+    {
+      "start": 1197.6000000000001,
+      "end": 1204.5600000000002,
+      "text": "net cash was $35 billion. During the quarter, we returned $29 billion to shareholders.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.01,
+        "mean_pitch_hz": 115.25,
+        "pitch_std_hz": 21.04,
+        "mean_energy": 0.05818
+      }
+    },
+    {
+      "start": 1205.1200000000001,
+      "end": 1211.68,
+      "text": "This included $3.8 billion in dividends and equivalents and $25 billion through open market",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 2.13,
+        "mean_pitch_hz": 133.38,
+        "pitch_std_hz": 25.8,
+        "mean_energy": 0.0778
+      }
+    },
+    {
+      "start": 1211.68,
+      "end": 1218.4800000000002,
+      "text": "repurchases of 108 million Apple shares. Given the continued confidence we have in our business now",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.35,
+        "mean_pitch_hz": 135.83,
+        "pitch_std_hz": 32.17,
+        "mean_energy": 0.0563
+      }
+    },
+    {
+      "start": 1218.4800000000002,
+      "end": 1225.0400000000002,
+      "text": "and into the future, today our board authorized an additional $100 billion for share repurchases",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.29,
+        "mean_pitch_hz": 139.05,
+        "pitch_std_hz": 34.91,
+        "mean_energy": 0.07951
+      }
+    },
+    {
+      "start": 1225.04,
+      "end": 1231.52,
+      "text": "as we maintain our goal of getting to net cash neutral. We're also raising our dividend by 4%",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 120.88,
+        "pitch_std_hz": 15.47,
+        "mean_energy": 0.07165
+      }
+    },
+    {
+      "start": 1231.52,
+      "end": 1237.28,
+      "text": "to $0.26 per share of common stock and we continue to plan for annual increases in the dividend going",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.3,
+        "mean_pitch_hz": 121.26,
+        "pitch_std_hz": 19.69,
+        "mean_energy": 0.06394
+      }
+    },
+    {
+      "start": 1237.28,
+      "end": 1245.76,
+      "text": "forward as we have done for the last 13 years. This cash dividend will be payable on May 15, 2025",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.36,
+        "mean_pitch_hz": 124.21,
+        "pitch_std_hz": 26.14,
+        "mean_energy": 0.06007
+      }
+    },
+    {
+      "start": 1245.76,
+      "end": 1252.08,
+      "text": "to shareholders of record as of May 12, 2025. As we move ahead into the June quarter,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.69,
+        "mean_pitch_hz": 133.55,
+        "pitch_std_hz": 37.52,
+        "mean_energy": 0.06043
+      }
+    },
+    {
+      "start": 1252.08,
+      "end": 1255.9199999999998,
+      "text": "I'd like to review our outlook, which includes the types of forward-looking information that's",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.65,
+        "mean_pitch_hz": 139.2,
+        "pitch_std_hz": 21.87,
+        "mean_energy": 0.10455
+      }
+    },
+    {
+      "start": 1255.9199999999998,
+      "end": 1261.6,
+      "text": "who hosting referred to. Importantly, the color we're providing assumes that global tariff rates,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.46,
+        "mean_pitch_hz": 138.56,
+        "pitch_std_hz": 29.77,
+        "mean_energy": 0.08786
+      }
+    },
+    {
+      "start": 1261.6,
+      "end": 1267.36,
+      "text": "policies and application remain in effect as of this call and the global macroeconomic outlook",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 125.27,
+        "pitch_std_hz": 14.31,
+        "mean_energy": 0.09422
+      }
+    },
+    {
+      "start": 1267.36,
+      "end": 1272.8799999999999,
+      "text": "doesn't worsen from today for the current quarter. Despite the overall uncertain environment,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.36,
+        "mean_pitch_hz": 140.45,
+        "pitch_std_hz": 28.65,
+        "mean_energy": 0.06954
+      }
+    },
+    {
+      "start": 1272.8799999999999,
+      "end": 1277.6,
+      "text": "we will still be providing color at the total company level subject to these assumptions and",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.39,
+        "mean_pitch_hz": 128.01,
+        "pitch_std_hz": 24.52,
+        "mean_energy": 0.08874
+      }
+    },
+    {
+      "start": 1277.6000000000001,
+      "end": 1283.2,
+      "text": "the risk factors that we refer to at the beginning of the call. We expect our June quarter total",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.39,
+        "mean_pitch_hz": 121.23,
+        "pitch_std_hz": 22.68,
+        "mean_energy": 0.07156
+      }
+    },
+    {
+      "start": 1283.2,
+      "end": 1289.2800000000002,
+      "text": "company revenue to grow low to mid-single digits year over year. We expect gross margin to be between",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.96,
+        "mean_pitch_hz": 119.73,
+        "pitch_std_hz": 23.55,
+        "mean_energy": 0.0831
+      }
+    },
+    {
+      "start": 1289.2800000000002,
+      "end": 1297.6000000000001,
+      "text": "45.5% and 46.5%, which includes the estimated impact of the $900 million of tariff related costs",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.92,
+        "mean_pitch_hz": 119.88,
+        "pitch_std_hz": 29.79,
+        "mean_energy": 0.07865
+      }
+    },
+    {
+      "start": 1297.6000000000001,
+      "end": 1304.88,
+      "text": "that Tim referred to earlier. We expect operating expenses to be between $15.3 billion and $15.5",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.2,
+        "mean_pitch_hz": 113.65,
+        "pitch_std_hz": 20.53,
+        "mean_energy": 0.07006
+      }
+    },
+    {
+      "start": 1305.2800000000002,
+      "end": 1312.0800000000002,
+      "text": "billion. We expect a liony to be around negative $300 million, excluding any potential impact from",
+      "audio_features": {
+        "pause_before_sec": 0.4,
+        "speaking_rate_wps": 2.35,
+        "mean_pitch_hz": 111.96,
+        "pitch_std_hz": 17.86,
+        "mean_energy": 0.07791
+      }
+    },
+    {
+      "start": 1312.0800000000002,
+      "end": 1317.44,
+      "text": "the market to market of minority investments and our tax rate to be around 16%. With that,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.17,
+        "mean_pitch_hz": 99.55,
+        "pitch_std_hz": 9.68,
+        "mean_energy": 0.06415
+      }
+    },
+    {
+      "start": 1317.44,
+      "end": 1324.64,
+      "text": "let's open the call to questions. Ask that you limit yourself to two questions. Operator,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 224.62,
+        "pitch_std_hz": 88.27,
+        "mean_energy": 0.0589
+      }
+    },
+    {
+      "start": 1324.64,
+      "end": 1332.3200000000002,
+      "text": "may we have the first question, please? Certainly. We'll go ahead and take our first question,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 222.82,
+        "pitch_std_hz": 52.11,
+        "mean_energy": 0.06245
+      }
+    },
+    {
+      "start": 1332.32,
+      "end": 1338.8,
+      "text": "from Eric Woodring with Morgan Stanley. Great. Thanks so much, guys, for taking my questions.",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.31,
+        "mean_pitch_hz": 156.56,
+        "pitch_std_hz": 57.91,
+        "mean_energy": 0.0816
+      }
+    },
+    {
+      "start": 1339.9199999999998,
+      "end": 1345.6,
+      "text": "Tim, I'd love to maybe touch on the tariff point first. There were comments from you earlier on",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 3.17,
+        "mean_pitch_hz": 119.46,
+        "pitch_std_hz": 23.55,
+        "mean_energy": 0.11016
+      }
+    },
+    {
+      "start": 1345.6,
+      "end": 1352.08,
+      "text": "CNBC talking about 50% of iPhones for the US currently coming from India. Where do you expect",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.62,
+        "mean_pitch_hz": 106.84,
+        "pitch_std_hz": 36.29,
+        "mean_energy": 0.10518
+      }
+    },
+    {
+      "start": 1352.08,
+      "end": 1359.6,
+      "text": "the mix of India-sourced iPhones for the US to be by the end of your fiscal year? And is it the goal",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.93,
+        "mean_pitch_hz": 104.86,
+        "pitch_std_hz": 20.46,
+        "mean_energy": 0.10848
+      }
+    },
+    {
+      "start": 1359.6000000000001,
+      "end": 1364.4,
+      "text": "to source 100% of your US-bound iPhones from India? Can you just help us understand how we",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.54,
+        "mean_pitch_hz": 129.65,
+        "pitch_std_hz": 20.62,
+        "mean_energy": 0.1109
+      }
+    },
+    {
+      "start": 1364.4,
+      "end": 1368.88,
+      "text": "should expect that to trend as we look beyond just the June quarter? And then I have a follow-up.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.24,
+        "mean_pitch_hz": 103.33,
+        "pitch_std_hz": 16.16,
+        "mean_energy": 0.07766
+      }
+    },
+    {
+      "start": 1368.88,
+      "end": 1377.6000000000001,
+      "text": "Thank you. Yeah, Eric. Hi, it's Tim. The existing tariffs that apply to Apple",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.61,
+        "mean_pitch_hz": 132.97,
+        "pitch_std_hz": 21.16,
+        "mean_energy": 0.04888
+      }
+    },
+    {
+      "start": 1378.4800000000002,
+      "end": 1386.16,
+      "text": "today are based on the products country of origin, as you allude to. For the June quarter,",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.21,
+        "mean_pitch_hz": 106.84,
+        "pitch_std_hz": 20.84,
+        "mean_energy": 0.06263
+      }
+    },
+    {
+      "start": 1386.96,
+      "end": 1393.44,
+      "text": "we do expect the majority of iPhones sold in the US will have India as their country of origin",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.93,
+        "mean_pitch_hz": 113.74,
+        "pitch_std_hz": 15.89,
+        "mean_energy": 0.0835
+      }
+    },
+    {
+      "start": 1394.5600000000002,
+      "end": 1403.92,
+      "text": "and Vietnam to be the country of origin for almost all iPad Mac, Apple Watch and AirPods products",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 1.92,
+        "mean_pitch_hz": 116.2,
+        "pitch_std_hz": 10.88,
+        "mean_energy": 0.0734
+      }
+    },
+    {
+      "start": 1403.92,
+      "end": 1411.0400000000002,
+      "text": "sold and also sold in the US. China would continue to be the country of origin for the vast majority",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.81,
+        "mean_pitch_hz": 109.89,
+        "pitch_std_hz": 12.21,
+        "mean_energy": 0.06049
+      }
+    },
+    {
+      "start": 1411.04,
+      "end": 1419.44,
+      "text": "of total product sales outside the US. And so if you look at the categories of tariffs that",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.14,
+        "mean_pitch_hz": 123.64,
+        "pitch_std_hz": 20.44,
+        "mean_energy": 0.05014
+      }
+    },
+    {
+      "start": 1419.44,
+      "end": 1427.2,
+      "text": "are applicable to us today, for the June quarter, most of our tariff exposure relates to the February",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.32,
+        "mean_pitch_hz": 116.55,
+        "pitch_std_hz": 19.68,
+        "mean_energy": 0.07094
+      }
+    },
+    {
+      "start": 1428.1599999999999,
+      "end": 1437.76,
+      "text": "IEEPA related tariff at the rate of 20%, which applies to imports to the US for products that",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 1.87,
+        "mean_pitch_hz": 114.09,
+        "pitch_std_hz": 10.62,
+        "mean_energy": 0.0677
+      }
+    },
+    {
+      "start": 1437.76,
+      "end": 1447.36,
+      "text": "have China as their country of origin. In addition, for China, there was an additional 125% tariff",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.77,
+        "mean_pitch_hz": 131.29,
+        "pitch_std_hz": 18.35,
+        "mean_energy": 0.05354
+      }
+    },
+    {
+      "start": 1447.36,
+      "end": 1454.0,
+      "text": "for imports of certain categories of products announced in April. And for us, that's some of",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.41,
+        "mean_pitch_hz": 106.05,
+        "pitch_std_hz": 9.95,
+        "mean_energy": 0.04453
+      }
+    },
+    {
+      "start": 1454.0,
+      "end": 1461.52,
+      "text": "our US Apple care and accessories businesses and brings the total rate in China for these products",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.26,
+        "mean_pitch_hz": 106.61,
+        "pitch_std_hz": 10.52,
+        "mean_energy": 0.04785
+      }
+    },
+    {
+      "start": 1461.52,
+      "end": 1473.52,
+      "text": "to at least 145%. Also for transparency and clarity, the vast majority of our products, including",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.33,
+        "mean_pitch_hz": 114.08,
+        "pitch_std_hz": 17.22,
+        "mean_energy": 0.05517
+      }
+    },
+    {
+      "start": 1473.52,
+      "end": 1482.4,
+      "text": "iPhone, Mac, iPad, Apple Watch and Vision Pro, are currently not subject to the global reciprocal",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.8,
+        "mean_pitch_hz": 117.95,
+        "pitch_std_hz": 13.99,
+        "mean_energy": 0.0604
+      }
+    },
+    {
+      "start": 1482.4,
+      "end": 1488.4,
+      "text": "tariffs that were announced in April, as the Commerce Department has initiated a section 232",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 116.43,
+        "pitch_std_hz": 13.79,
+        "mean_energy": 0.05696
+      }
+    },
+    {
+      "start": 1488.48,
+      "end": 1494.72,
+      "text": "investigation into imports of semiconductors, semiconductor manufacturing equipment and",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.44,
+        "mean_pitch_hz": 114.47,
+        "pitch_std_hz": 11.47,
+        "mean_energy": 0.05044
+      }
+    },
+    {
+      "start": 1494.72,
+      "end": 1502.88,
+      "text": "downstream products that contain semiconductors. And so if you, for the June quarter, as I talked",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.96,
+        "mean_pitch_hz": 119.13,
+        "pitch_std_hz": 18.31,
+        "mean_energy": 0.05932
+      }
+    },
+    {
+      "start": 1502.88,
+      "end": 1512.3200000000002,
+      "text": "about in the in the my opening comments, we estimate the impact, assuming that the current",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.69,
+        "mean_pitch_hz": 113.33,
+        "pitch_std_hz": 13.63,
+        "mean_energy": 0.0591
+      }
+    },
+    {
+      "start": 1513.0400000000002,
+      "end": 1517.44,
+      "text": "global tariff rates policies and applications don't change for the balance of the quarter to",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 3.41,
+        "mean_pitch_hz": 116.59,
+        "pitch_std_hz": 9.41,
+        "mean_energy": 0.07073
+      }
+    },
+    {
+      "start": 1517.44,
+      "end": 1528.3200000000002,
+      "text": "be 900 million to our cost. I wouldn't want to predict the mix of of production in the future.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.75,
+        "mean_pitch_hz": 114.22,
+        "pitch_std_hz": 17.13,
+        "mean_energy": 0.04855
+      }
+    },
+    {
+      "start": 1528.96,
+      "end": 1535.28,
+      "text": "But I wanted to give you clarity for the June quarter of, you know, where the country of origins",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 3.01,
+        "mean_pitch_hz": 112.56,
+        "pitch_std_hz": 10.4,
+        "mean_energy": 0.05728
+      }
+    },
+    {
+      "start": 1535.28,
+      "end": 1544.0,
+      "text": "are so you can you can use that for your modeling. Okay, I appreciate that color. Thank you, Tim.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.18,
+        "mean_pitch_hz": 112.22,
+        "pitch_std_hz": 27.11,
+        "mean_energy": 0.03922
+      }
+    },
+    {
+      "start": 1544.56,
+      "end": 1550.32,
+      "text": "And then maybe my follow up is there were a number of reports, you know, during the quarter",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 3.13,
+        "mean_pitch_hz": 116.63,
+        "pitch_std_hz": 31.6,
+        "mean_energy": 0.08776
+      }
+    },
+    {
+      "start": 1550.32,
+      "end": 1556.32,
+      "text": "that Apple had pulled forward selling into the channel to get ahead of tariff. So can you just",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.0,
+        "mean_pitch_hz": 109.7,
+        "pitch_std_hz": 58.9,
+        "mean_energy": 0.07487
+      }
+    },
+    {
+      "start": 1556.32,
+      "end": 1562.0,
+      "text": "help us better kind of understand or clarify if selling and sell through were aligned in the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 105.64,
+        "pitch_std_hz": 23.37,
+        "mean_energy": 0.0774
+      }
+    },
+    {
+      "start": 1562.0,
+      "end": 1569.12,
+      "text": "March quarter? If you're assuming that they would be aligned in the June quarter guide and ultimately",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.39,
+        "mean_pitch_hz": 98.77,
+        "pitch_std_hz": 9.61,
+        "mean_energy": 0.05719
+      }
+    },
+    {
+      "start": 1569.1200000000001,
+      "end": 1574.24,
+      "text": "do you believe that consumers are accelerating hardware purchases to get ahead of any potential",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.93,
+        "mean_pitch_hz": 95.65,
+        "pitch_std_hz": 7.44,
+        "mean_energy": 0.05779
+      }
+    },
+    {
+      "start": 1574.24,
+      "end": 1579.92,
+      "text": "pricing increases or was, you know, behavior normal? Thank you so much, Tim.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.29,
+        "mean_pitch_hz": 103.36,
+        "pitch_std_hz": 14.85,
+        "mean_energy": 0.05346
+      }
+    },
+    {
+      "start": 1579.92,
+      "end": 1584.72,
+      "text": "Yeah, thanks, Eric, for the question. There are several questions there. One, in terms of the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.33,
+        "mean_pitch_hz": 133.57,
+        "pitch_std_hz": 18.98,
+        "mean_energy": 0.10615
+      }
+    },
+    {
+      "start": 1584.72,
+      "end": 1592.64,
+      "text": "pull forward in demand, if you look at the March quarter, we don't believe that we saw obvious",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.27,
+        "mean_pitch_hz": 132.62,
+        "pitch_std_hz": 33.85,
+        "mean_energy": 0.08081
+      }
+    },
+    {
+      "start": 1592.64,
+      "end": 1598.0800000000002,
+      "text": "evidence of a significant pull forward in demand in the in the March quarter due to tariffs.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 108.91,
+        "pitch_std_hz": 8.35,
+        "mean_energy": 0.06243
+      }
+    },
+    {
+      "start": 1599.5200000000002,
+      "end": 1607.0400000000002,
+      "text": "If you look at our channel inventory from the beginning of the quarter to the end of the quarter,",
+      "audio_features": {
+        "pause_before_sec": 1.44,
+        "speaking_rate_wps": 2.53,
+        "mean_pitch_hz": 120.7,
+        "pitch_std_hz": 16.45,
+        "mean_energy": 0.07236
+      }
+    },
+    {
+      "start": 1607.0400000000002,
+      "end": 1615.44,
+      "text": "the unit channel inventory was similar, not only for iPhone, but for the balance of our products.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.02,
+        "mean_pitch_hz": 112.8,
+        "pitch_std_hz": 12.63,
+        "mean_energy": 0.05174
+      }
+    },
+    {
+      "start": 1616.5600000000002,
+      "end": 1626.4,
+      "text": "For again, for transparency, you will see that we did build a head inventory and that's reflected",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 1.73,
+        "mean_pitch_hz": 123.28,
+        "pitch_std_hz": 20.82,
+        "mean_energy": 0.05923
+      }
+    },
+    {
+      "start": 1626.48,
+      "end": 1633.8400000000001,
+      "text": "in our manufacturing purchase obligations that you'll see on the quarterly filing when it comes out.",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.17,
+        "mean_pitch_hz": 110.1,
+        "pitch_std_hz": 10.33,
+        "mean_energy": 0.04767
+      }
+    },
+    {
+      "start": 1633.8400000000001,
+      "end": 1637.52,
+      "text": "So I hope that makes the answers to all your questions.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 115.89,
+        "pitch_std_hz": 10.01,
+        "mean_energy": 0.04104
+      }
+    },
+    {
+      "start": 1642.0800000000002,
+      "end": 1647.76,
+      "text": "So much, Tim, good luck. Thanks. Thank you, Eric, operator. Could we have the next question, please?",
+      "audio_features": {
+        "pause_before_sec": 4.56,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 208.09,
+        "pitch_std_hz": 52.45,
+        "mean_energy": 0.0456
+      }
+    },
+    {
+      "start": 1650.4,
+      "end": 1654.8000000000002,
+      "text": "Our next question is from Ben Ricey, the familiar. Please go ahead.",
+      "audio_features": {
+        "pause_before_sec": 2.64,
+        "speaking_rate_wps": 2.73,
+        "mean_pitch_hz": 190.79,
+        "pitch_std_hz": 42.47,
+        "mean_energy": 0.07435
+      }
+    },
+    {
+      "start": 1655.76,
+      "end": 1664.72,
+      "text": "Hey, thanks a lot. Hey, Tim, if you had told me that on April 2nd that your hit from tariffs",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.23,
+        "mean_pitch_hz": 151.43,
+        "pitch_std_hz": 33.01,
+        "mean_energy": 0.04316
+      }
+    },
+    {
+      "start": 1664.72,
+      "end": 1673.68,
+      "text": "was only a nickel, a quarter at 900 mill, that would have been a pretty good outcome given the panic",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.23,
+        "mean_pitch_hz": 120.77,
+        "pitch_std_hz": 14.46,
+        "mean_energy": 0.04468
+      }
+    },
+    {
+      "start": 1673.68,
+      "end": 1681.6,
+      "text": "that ensued. I'm surprised that it's that low. But then you did make a comment about after the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.27,
+        "mean_pitch_hz": 128.39,
+        "pitch_std_hz": 22.85,
+        "mean_energy": 0.0641
+      }
+    },
+    {
+      "start": 1681.6000000000001,
+      "end": 1688.4,
+      "text": "June quarter and sorry to push you on that, but could it be a multiple of that figure? Or is it",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.09,
+        "mean_pitch_hz": 174.68,
+        "pitch_std_hz": 45.64,
+        "mean_energy": 0.07733
+      }
+    },
+    {
+      "start": 1688.4,
+      "end": 1696.3200000000002,
+      "text": "just completely unknown? We're all just trying to figure out what happens after June and if there's",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.15,
+        "mean_pitch_hz": 140.23,
+        "pitch_std_hz": 26.95,
+        "mean_energy": 0.06326
+      }
+    },
+    {
+      "start": 1696.3200000000002,
+      "end": 1704.16,
+      "text": "just any guidance you guys can possibly give that it's bigger, smaller, or what? And I hope",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.17,
+        "mean_pitch_hz": 114.32,
+        "pitch_std_hz": 10.8,
+        "mean_energy": 0.0468
+      }
+    },
+    {
+      "start": 1704.16,
+      "end": 1708.5600000000002,
+      "text": "you can just give us a little color on that. Thanks. Yeah, Ben, thanks for the question.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.86,
+        "mean_pitch_hz": 123.37,
+        "pitch_std_hz": 22.74,
+        "mean_energy": 0.05657
+      }
+    },
+    {
+      "start": 1709.44,
+      "end": 1714.8,
+      "text": "I tried to give you some information in the previous question about the country of origin,",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 112.11,
+        "pitch_std_hz": 14.05,
+        "mean_energy": 0.04657
+      }
+    },
+    {
+      "start": 1715.52,
+      "end": 1723.9199999999998,
+      "text": "which currently is the key factor in determining the tariffs that we're paying.",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 1.55,
+        "mean_pitch_hz": 110.31,
+        "pitch_std_hz": 14.54,
+        "mean_energy": 0.03724
+      }
+    },
+    {
+      "start": 1725.44,
+      "end": 1731.6,
+      "text": "I don't want to predict the future because I'm not sure what will happen with the tariffs and",
+      "audio_features": {
+        "pause_before_sec": 1.52,
+        "speaking_rate_wps": 2.92,
+        "mean_pitch_hz": 117.58,
+        "pitch_std_hz": 17.95,
+        "mean_energy": 0.05195
+      }
+    },
+    {
+      "start": 1731.68,
+      "end": 1744.0000000000002,
+      "text": "there is the Section 232 investigation going on. And so it's very difficult to predict beyond June",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.38,
+        "mean_pitch_hz": 104.85,
+        "pitch_std_hz": 12.46,
+        "mean_energy": 0.05088
+      }
+    },
+    {
+      "start": 1744.0000000000002,
+      "end": 1750.3200000000002,
+      "text": "and June has the assumptions that I had mentioned earlier. All right. Well, thanks, Tim.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.37,
+        "mean_pitch_hz": 114.68,
+        "pitch_std_hz": 22.55,
+        "mean_energy": 0.04347
+      }
+    },
+    {
+      "start": 1751.2800000000002,
+      "end": 1758.72,
+      "text": "And then just with regard to China, down 2%, I mean, you intuitively would have thought there would",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.42,
+        "mean_pitch_hz": 153.37,
+        "pitch_std_hz": 37.16,
+        "mean_energy": 0.05626
+      }
+    },
+    {
+      "start": 1758.72,
+      "end": 1762.8,
+      "text": "have been an increased nationalism there and perhaps it would have been worse than that.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.68,
+        "mean_pitch_hz": 115.3,
+        "pitch_std_hz": 10.57,
+        "mean_energy": 0.04193
+      }
+    },
+    {
+      "start": 1762.8,
+      "end": 1768.72,
+      "text": "And, you know, the trajectory there improving even with subsidies because subsidies benefited",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.2,
+        "mean_pitch_hz": 131.5,
+        "pitch_std_hz": 20.18,
+        "mean_energy": 0.04958
+      }
+    },
+    {
+      "start": 1768.72,
+      "end": 1775.2,
+      "text": "your competitors too. Just wondering if a little more color there, can it keep improving?",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.31,
+        "mean_pitch_hz": 144.89,
+        "pitch_std_hz": 29.83,
+        "mean_energy": 0.06973
+      }
+    },
+    {
+      "start": 1776.08,
+      "end": 1780.88,
+      "text": "What are you thinking, you know, with regard to that trajectory in China, given all the geopolitical",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 3.54,
+        "mean_pitch_hz": 116.79,
+        "pitch_std_hz": 9.65,
+        "mean_energy": 0.04747
+      }
+    },
+    {
+      "start": 1780.88,
+      "end": 1788.72,
+      "text": "tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.42,
+        "mean_pitch_hz": 128.69,
+        "pitch_std_hz": 22.97,
+        "mean_energy": 0.08058
+      }
+    },
+    {
+      "start": 1788.72,
+      "end": 1794.8000000000002,
+      "text": "little more transparency around that, we were roughly flat when you removed the headwinds from",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.47,
+        "mean_pitch_hz": 118.84,
+        "pitch_std_hz": 9.57,
+        "mean_energy": 0.07387
+      }
+    },
+    {
+      "start": 1794.8000000000002,
+      "end": 1801.8400000000001,
+      "text": "foreign exchange. And so we did see quite a bit of sequential improvement from the December quarter,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.41,
+        "mean_pitch_hz": 130.75,
+        "pitch_std_hz": 20.26,
+        "mean_energy": 0.06265
+      }
+    },
+    {
+      "start": 1801.8400000000001,
+      "end": 1810.16,
+      "text": "which was down 11. And again, for going out of the way for transparency, the channel inventory",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.04,
+        "mean_pitch_hz": 117.8,
+        "pitch_std_hz": 11.63,
+        "mean_energy": 0.06035
+      }
+    },
+    {
+      "start": 1810.8000000000002,
+      "end": 1815.44,
+      "text": "at the end of March, the unit channel inventory was similar to where we started the quarter.",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 3.66,
+        "mean_pitch_hz": 112.61,
+        "pitch_std_hz": 10.2,
+        "mean_energy": 0.06084
+      }
+    },
+    {
+      "start": 1816.96,
+      "end": 1825.52,
+      "text": "So there wasn't a build of channel inventory in there. I do believe that the subsidies played",
+      "audio_features": {
+        "pause_before_sec": 1.52,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 117.03,
+        "pitch_std_hz": 17.69,
+        "mean_energy": 0.05545
+      }
+    },
+    {
+      "start": 1825.52,
+      "end": 1832.48,
+      "text": "a favorable impact on the results. It's difficult to estimate with precision as to, you know,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 114.95,
+        "pitch_std_hz": 13.69,
+        "mean_energy": 0.05349
+      }
+    },
+    {
+      "start": 1832.48,
+      "end": 1838.4,
+      "text": "exactly how much, but I think it was positive. Some of our products are included, some of them are",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.21,
+        "mean_pitch_hz": 114.02,
+        "pitch_std_hz": 11.98,
+        "mean_energy": 0.06377
+      }
+    },
+    {
+      "start": 1838.48,
+      "end": 1848.16,
+      "text": "not. Generally on iPhone, if something is priced above 6000 R&B, it is not eligible for the subsidy.",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.86,
+        "mean_pitch_hz": 111.45,
+        "pitch_std_hz": 10.25,
+        "mean_energy": 0.05707
+      }
+    },
+    {
+      "start": 1848.16,
+      "end": 1858.8000000000002,
+      "text": "And the other products have different rules. But I do think it helped. And I think it's helping",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.69,
+        "mean_pitch_hz": 117.08,
+        "pitch_std_hz": 18.76,
+        "mean_energy": 0.05074
+      }
+    },
+    {
+      "start": 1858.8,
+      "end": 1867.9199999999998,
+      "text": "others as well, I'm sure. iPhone was the key driver of the improvement sequentially.",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 1.54,
+        "mean_pitch_hz": 117.86,
+        "pitch_std_hz": 18.34,
+        "mean_energy": 0.05635
+      }
+    },
+    {
+      "start": 1869.84,
+      "end": 1875.04,
+      "text": "And so hopefully that provides you some color. The other thing I would say is that the",
+      "audio_features": {
+        "pause_before_sec": 1.92,
+        "speaking_rate_wps": 3.27,
+        "mean_pitch_hz": 121.34,
+        "pitch_std_hz": 17.83,
+        "mean_energy": 0.08409
+      }
+    },
+    {
+      "start": 1876.6399999999999,
+      "end": 1887.28,
+      "text": "Mac, the iPad and the watch are attracting a majority of customers new to that product. And so that",
+      "audio_features": {
+        "pause_before_sec": 1.6,
+        "speaking_rate_wps": 1.79,
+        "mean_pitch_hz": 114.25,
+        "pitch_std_hz": 11.44,
+        "mean_energy": 0.06327
+      }
+    },
+    {
+      "start": 1887.28,
+      "end": 1893.92,
+      "text": "continues to look quite good in China. And iPhone was the top two models in urban China.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.56,
+        "mean_pitch_hz": 110.95,
+        "pitch_std_hz": 11.28,
+        "mean_energy": 0.05187
+      }
+    },
+    {
+      "start": 1894.56,
+      "end": 1901.52,
+      "text": "And iPad was the top two tablets in urban China. So there's some positive nuggets there.",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.3,
+        "mean_pitch_hz": 107.26,
+        "pitch_std_hz": 12.16,
+        "mean_energy": 0.04452
+      }
+    },
+    {
+      "start": 1903.52,
+      "end": 1909.44,
+      "text": "Thanks a lot, Tim. Yep. Thank you, Ben. Thank you, Ben. Operator, maybe have the next question, please.",
+      "audio_features": {
+        "pause_before_sec": 2.0,
+        "speaking_rate_wps": 3.04,
+        "mean_pitch_hz": 184.96,
+        "pitch_std_hz": 55.77,
+        "mean_energy": 0.04911
+      }
+    },
+    {
+      "start": 1909.44,
+      "end": 1916.24,
+      "text": "Our next question is from Michael Aing with Goldman Sachs. Please go ahead.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.91,
+        "mean_pitch_hz": 209.77,
+        "pitch_std_hz": 60.54,
+        "mean_energy": 0.03594
+      }
+    },
+    {
+      "start": 1917.52,
+      "end": 1922.96,
+      "text": "Hi. Good afternoon. Thank you very much for the question. I was just wondering if you could talk",
+      "audio_features": {
+        "pause_before_sec": 1.28,
+        "speaking_rate_wps": 3.31,
+        "mean_pitch_hz": 123.27,
+        "pitch_std_hz": 32.11,
+        "mean_energy": 0.06181
+      }
+    },
+    {
+      "start": 1922.96,
+      "end": 1929.68,
+      "text": "a little bit about your responses on some of this trade policy uncertainty. I appreciated the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.38,
+        "mean_pitch_hz": 90.63,
+        "pitch_std_hz": 4.09,
+        "mean_energy": 0.05803
+      }
+    },
+    {
+      "start": 1929.68,
+      "end": 1939.28,
+      "text": "transparency around building ahead with inventory. Will you continue to do that in this interim",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.56,
+        "mean_pitch_hz": 100.95,
+        "pitch_std_hz": 11.46,
+        "mean_energy": 0.05592
+      }
+    },
+    {
+      "start": 1939.28,
+      "end": 1944.72,
+      "text": "period until we get some clarity on the Section 232 investigation? And could you talk a little bit",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.31,
+        "mean_pitch_hz": 101.69,
+        "pitch_std_hz": 18.95,
+        "mean_energy": 0.05417
+      }
+    },
+    {
+      "start": 1944.72,
+      "end": 1951.36,
+      "text": "about your philosophy on pricing, elevated costs, the extent that comes through, whether",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.96,
+        "mean_pitch_hz": 97.19,
+        "pitch_std_hz": 10.18,
+        "mean_energy": 0.06456
+      }
+    },
+    {
+      "start": 1952.16,
+      "end": 1957.12,
+      "text": "that be to resellers or end consumers and other efficiency efforts that you might be able to",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 3.43,
+        "mean_pitch_hz": 88.42,
+        "pitch_std_hz": 6.27,
+        "mean_energy": 0.055
+      }
+    },
+    {
+      "start": 1957.12,
+      "end": 1963.04,
+      "text": "pursue? Thank you. Yeah, obviously we're very engaged on the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.69,
+        "mean_pitch_hz": 126.17,
+        "pitch_std_hz": 19.81,
+        "mean_energy": 0.05327
+      }
+    },
+    {
+      "start": 1963.76,
+      "end": 1970.24,
+      "text": "tariff discussions. We believe in engagement and we'll continue to engage.",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 1.7,
+        "mean_pitch_hz": 101.77,
+        "pitch_std_hz": 9.46,
+        "mean_energy": 0.04143
+      }
+    },
+    {
+      "start": 1970.8,
+      "end": 1974.48,
+      "text": "On the pricing piece, we have nothing to announce today.",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 2.72,
+        "mean_pitch_hz": 116.78,
+        "pitch_std_hz": 14.6,
+        "mean_energy": 0.06969
+      }
+    },
+    {
+      "start": 1976.56,
+      "end": 1986.32,
+      "text": "And I'll just say that the operational team has done an incredible job around optimizing the",
+      "audio_features": {
+        "pause_before_sec": 2.08,
+        "speaking_rate_wps": 1.64,
+        "mean_pitch_hz": 105.89,
+        "pitch_std_hz": 10.57,
+        "mean_energy": 0.05364
+      }
+    },
+    {
+      "start": 1986.32,
+      "end": 1989.92,
+      "text": "supply chain of the inventory. And we'll obviously continue to",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 103.02,
+        "pitch_std_hz": 8.35,
+        "mean_energy": 0.04142
+      }
+    },
+    {
+      "start": 1990.24,
+      "end": 1998.64,
+      "text": "do those things to the degree that we can. Great. Thanks. And just as a quick follow-up,",
+      "audio_features": {
+        "pause_before_sec": 0.32,
+        "speaking_rate_wps": 2.02,
+        "mean_pitch_hz": 100.44,
+        "pitch_std_hz": 7.01,
+        "mean_energy": 0.03339
+      }
+    },
+    {
+      "start": 1999.52,
+      "end": 2004.72,
+      "text": "for Kevin, on product gross margins, I was just wondering if you could provide a little bit more",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 3.46,
+        "mean_pitch_hz": 112.44,
+        "pitch_std_hz": 20.61,
+        "mean_energy": 0.06805
+      }
+    },
+    {
+      "start": 2004.72,
+      "end": 2010.96,
+      "text": "color on some of the factors that may have impacted product gross margins in the quarter,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.56,
+        "mean_pitch_hz": 92.84,
+        "pitch_std_hz": 6.29,
+        "mean_energy": 0.05732
+      }
+    },
+    {
+      "start": 2012.0800000000002,
+      "end": 2019.3600000000001,
+      "text": "obviously down sequentially on seasonal factors, but there was a year-over-year decline as well. So",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 93.8,
+        "pitch_std_hz": 8.61,
+        "mean_energy": 0.05725
+      }
+    },
+    {
+      "start": 2019.44,
+      "end": 2024.72,
+      "text": "any additional color will be helpful. Thank you. Yeah, Michael, thanks. This is Kevin. So on the",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 3.22,
+        "mean_pitch_hz": 98.34,
+        "pitch_std_hz": 12.76,
+        "mean_energy": 0.04687
+      }
+    },
+    {
+      "start": 2024.72,
+      "end": 2030.72,
+      "text": "sequential, as we mentioned in the prior remarks, we had a decrease in the product gross margin",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.83,
+        "mean_pitch_hz": 104.33,
+        "pitch_std_hz": 21.91,
+        "mean_energy": 0.05748
+      }
+    },
+    {
+      "start": 2030.72,
+      "end": 2036.8000000000002,
+      "text": "by 340 basis points sequentially. That was primarily driven by mix, seasonal loss of leverage,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.47,
+        "mean_pitch_hz": 113.96,
+        "pitch_std_hz": 19.94,
+        "mean_energy": 0.05891
+      }
+    },
+    {
+      "start": 2037.44,
+      "end": 2042.72,
+      "text": "foreign exchange. And that was partly offset by cost savings. And when we look at the year-on-year",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 3.22,
+        "mean_pitch_hz": 133.12,
+        "pitch_std_hz": 23.53,
+        "mean_energy": 0.06813
+      }
+    },
+    {
+      "start": 2042.72,
+      "end": 2048.4,
+      "text": "performance, we were down 70 basis points on a year-on-year basis. And that was driven by a",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 106.09,
+        "pitch_std_hz": 10.8,
+        "mean_energy": 0.04793
+      }
+    },
+    {
+      "start": 2048.4,
+      "end": 2058.1600000000003,
+      "text": "different mix and foreign exchange. Great. Thank you. Thank you. Great. Thank you, Mike.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.43,
+        "mean_pitch_hz": 176.89,
+        "pitch_std_hz": 92.07,
+        "mean_energy": 0.01762
+      }
+    },
+    {
+      "start": 2058.1600000000003,
+      "end": 2065.92,
+      "text": "Operator, could we have the next question, please? Our next question is from Amit Darianani with",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 227.65,
+        "pitch_std_hz": 60.09,
+        "mean_energy": 0.04519
+      }
+    },
+    {
+      "start": 2065.92,
+      "end": 2071.92,
+      "text": "Evercore. Please go ahead. Yep. Thanks a lot. I guess I'll have to start with a tear of question as",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.33,
+        "mean_pitch_hz": 150.39,
+        "pitch_std_hz": 38.15,
+        "mean_energy": 0.05613
+      }
+    },
+    {
+      "start": 2071.92,
+      "end": 2077.12,
+      "text": "well. Tim, I think when you talked about the 900 million impact your cost of goods sold,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.27,
+        "mean_pitch_hz": 162.36,
+        "pitch_std_hz": 46.6,
+        "mean_energy": 0.06429
+      }
+    },
+    {
+      "start": 2077.12,
+      "end": 2080.64,
+      "text": "you thought I had a statement that, you know, there are certain unique factors that benefit you",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.83,
+        "mean_pitch_hz": 117.59,
+        "pitch_std_hz": 11.28,
+        "mean_energy": 0.06665
+      }
+    },
+    {
+      "start": 2080.64,
+      "end": 2084.72,
+      "text": "in the June quarter related to that number. Can you just talk about what are these unique factors",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.41,
+        "mean_pitch_hz": 135.38,
+        "pitch_std_hz": 59.74,
+        "mean_energy": 0.05518
+      }
+    },
+    {
+      "start": 2084.72,
+      "end": 2089.6,
+      "text": "that are benefiting you in the June quarter and what would the impact be without those benefits",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.48,
+        "mean_pitch_hz": 122.18,
+        "pitch_std_hz": 16.07,
+        "mean_energy": 0.0453
+      }
+    },
+    {
+      "start": 2089.6,
+      "end": 2097.2,
+      "text": "essentially? I wouldn't want to go through all of them, but as an example, the build ahead",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.24,
+        "mean_pitch_hz": 122.76,
+        "pitch_std_hz": 18.29,
+        "mean_energy": 0.06405
+      }
+    },
+    {
+      "start": 2098.7999999999997,
+      "end": 2105.2799999999997,
+      "text": "that is I mentioned earlier that's in the manufacturing purchase obligations is",
+      "audio_features": {
+        "pause_before_sec": 1.6,
+        "speaking_rate_wps": 1.85,
+        "mean_pitch_hz": 104.47,
+        "pitch_std_hz": 9.07,
+        "mean_energy": 0.04369
+      }
+    },
+    {
+      "start": 2106.0,
+      "end": 2115.52,
+      "text": "or helpful. Got it. And then I think about the June quarter guide of, you know, low to",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 1.89,
+        "mean_pitch_hz": 180.76,
+        "pitch_std_hz": 57.24,
+        "mean_energy": 0.0417
+      }
+    },
+    {
+      "start": 2115.52,
+      "end": 2121.2000000000003,
+      "text": "mid-single-digit revenue growth. Do you folks expect services growth to remain in the double-digit",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.46,
+        "mean_pitch_hz": 152.76,
+        "pitch_std_hz": 38.38,
+        "mean_energy": 0.05522
+      }
+    },
+    {
+      "start": 2121.2000000000003,
+      "end": 2125.36,
+      "text": "range as you go into the back half of the year? I imagine FX is a bit of a benefit as you go",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 5.53,
+        "mean_pitch_hz": 113.51,
+        "pitch_std_hz": 8.02,
+        "mean_energy": 0.05006
+      }
+    },
+    {
+      "start": 2125.36,
+      "end": 2128.88,
+      "text": "to the back half. I'd love to just understand within that framework, how do you think services",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.83,
+        "mean_pitch_hz": 115.4,
+        "pitch_std_hz": 16.69,
+        "mean_energy": 0.04861
+      }
+    },
+    {
+      "start": 2128.88,
+      "end": 2135.2000000000003,
+      "text": "stacks up as you go through the June quarter? Yeah, I'm going to say it's Kevin. So I think",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.01,
+        "mean_pitch_hz": 103.89,
+        "pitch_std_hz": 5.88,
+        "mean_energy": 0.03472
+      }
+    },
+    {
+      "start": 2135.2000000000003,
+      "end": 2139.76,
+      "text": "when we talk about the overall June quarter, we talked about the load in mid-single-digits year",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.51,
+        "mean_pitch_hz": 101.36,
+        "pitch_std_hz": 6.94,
+        "mean_energy": 0.09507
+      }
+    },
+    {
+      "start": 2139.76,
+      "end": 2144.8,
+      "text": "over year, we do expect foreign exchange in the June quarter to improve sequentially. However,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.98,
+        "mean_pitch_hz": 130.36,
+        "pitch_std_hz": 32.99,
+        "mean_energy": 0.08421
+      }
+    },
+    {
+      "start": 2144.8,
+      "end": 2149.92,
+      "text": "we are expecting it to be a slight headwind to revenue on a year on your basis. With respect to",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.91,
+        "mean_pitch_hz": 106.61,
+        "pitch_std_hz": 10.07,
+        "mean_energy": 0.06816
+      }
+    },
+    {
+      "start": 2149.92,
+      "end": 2156.1600000000003,
+      "text": "services, given the uncertainty we see from several factors, we aren't providing the category level",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.4,
+        "mean_pitch_hz": 133.12,
+        "pitch_std_hz": 29.76,
+        "mean_energy": 0.06704
+      }
+    },
+    {
+      "start": 2156.16,
+      "end": 2168.96,
+      "text": "of color today. Got it. Thank you. Thanks, Amit. Operator, could we have the next question, please?",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 1.33,
+        "mean_pitch_hz": 197.9,
+        "pitch_std_hz": 62.74,
+        "mean_energy": 0.02521
+      }
+    },
+    {
+      "start": 2171.7599999999998,
+      "end": 2176.48,
+      "text": "Our next question is from Juan C. Moen with Bank of America. Please go ahead.",
+      "audio_features": {
+        "pause_before_sec": 2.8,
+        "speaking_rate_wps": 3.18,
+        "mean_pitch_hz": 204.6,
+        "pitch_std_hz": 43.13,
+        "mean_energy": 0.07619
+      }
+    },
+    {
+      "start": 2177.92,
+      "end": 2182.3199999999997,
+      "text": "Yes, thank you. Tim, we're having a how should investors think about the",
+      "audio_features": {
+        "pause_before_sec": 1.44,
+        "speaking_rate_wps": 2.95,
+        "mean_pitch_hz": 114.62,
+        "pitch_std_hz": 13.31,
+        "mean_energy": 0.06341
+      }
+    },
+    {
+      "start": 2182.32,
+      "end": 2188.2400000000002,
+      "text": "growth margin trajectory as you source more from the U.S. in particular, or other supply",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.53,
+        "mean_pitch_hz": 91.15,
+        "pitch_std_hz": 5.26,
+        "mean_energy": 0.06527
+      }
+    },
+    {
+      "start": 2188.2400000000002,
+      "end": 2195.6000000000004,
+      "text": "changes that you're making, including in India, how should those kind of go into the past structure",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.31,
+        "mean_pitch_hz": 85.17,
+        "pitch_std_hz": 3.47,
+        "mean_energy": 0.04697
+      }
+    },
+    {
+      "start": 2195.6000000000004,
+      "end": 2198.7200000000003,
+      "text": "and how should we think about that growth margin trajectory? And I will follow up.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.81,
+        "mean_pitch_hz": 78.2,
+        "pitch_std_hz": 1.93,
+        "mean_energy": 0.03703
+      }
+    },
+    {
+      "start": 2200.0,
+      "end": 2207.36,
+      "text": "We're excited about bringing more production to the U.S. As you know, we've been",
+      "audio_features": {
+        "pause_before_sec": 1.28,
+        "speaking_rate_wps": 1.9,
+        "mean_pitch_hz": 110.09,
+        "pitch_std_hz": 13.06,
+        "mean_energy": 0.04394
+      }
+    },
+    {
+      "start": 2208.2400000000002,
+      "end": 2217.44,
+      "text": "very key in the TSMC project in Arizona and are the largest and first customer",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 1.63,
+        "mean_pitch_hz": 107.75,
+        "pitch_std_hz": 10.85,
+        "mean_energy": 0.03545
+      }
+    },
+    {
+      "start": 2219.1200000000003,
+      "end": 2224.88,
+      "text": "getting product out of that. And that's the SOC that's coming out of there.",
+      "audio_features": {
+        "pause_before_sec": 1.68,
+        "speaking_rate_wps": 2.43,
+        "mean_pitch_hz": 105.21,
+        "pitch_std_hz": 9.59,
+        "mean_energy": 0.04845
+      }
+    },
+    {
+      "start": 2225.84,
+      "end": 2234.08,
+      "text": "We also have glass coming out of the U.S. and the Face ID module and loads of chips. In fact,",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.43,
+        "mean_pitch_hz": 111.38,
+        "pitch_std_hz": 15.99,
+        "mean_energy": 0.0672
+      }
+    },
+    {
+      "start": 2234.08,
+      "end": 2242.08,
+      "text": "there's 19 billion chips coming out across 12 states. This is down to the resisting capacitor",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.0,
+        "mean_pitch_hz": 107.87,
+        "pitch_std_hz": 10.23,
+        "mean_energy": 0.04802
+      }
+    },
+    {
+      "start": 2242.08,
+      "end": 2254.56,
+      "text": "level, obviously. And so there's some that is already built into the margins that Kevin has quoted,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.36,
+        "mean_pitch_hz": 116.16,
+        "pitch_std_hz": 22.81,
+        "mean_energy": 0.05252
+      }
+    },
+    {
+      "start": 2254.56,
+      "end": 2258.08,
+      "text": "and we don't really forecast beyond the current quarter as you know.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.41,
+        "mean_pitch_hz": 111.02,
+        "pitch_std_hz": 14.85,
+        "mean_energy": 0.06061
+      }
+    },
+    {
+      "start": 2258.88,
+      "end": 2263.12,
+      "text": "Yeah, and maybe I'll add a couple more points as we think about just the margin going forward.",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 4.25,
+        "mean_pitch_hz": 99.88,
+        "pitch_std_hz": 8.2,
+        "mean_energy": 0.06208
+      }
+    },
+    {
+      "start": 2263.2,
+      "end": 2266.7999999999997,
+      "text": "You know, a couple of observations I had mentioned is every product cycle is different.",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 4.17,
+        "mean_pitch_hz": 100.87,
+        "pitch_std_hz": 9.95,
+        "mean_energy": 0.07341
+      }
+    },
+    {
+      "start": 2268.0,
+      "end": 2271.2,
+      "text": "And over the years we have managed growth margin well. We made good decisions",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 4.38,
+        "mean_pitch_hz": 108.56,
+        "pitch_std_hz": 13.06,
+        "mean_energy": 0.0869
+      }
+    },
+    {
+      "start": 2271.2,
+      "end": 2275.52,
+      "text": "of balancing units for revenue margins. You know, when we launched new products, they tend to have",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.94,
+        "mean_pitch_hz": 102.14,
+        "pitch_std_hz": 4.83,
+        "mean_energy": 0.06072
+      }
+    },
+    {
+      "start": 2275.52,
+      "end": 2280.0,
+      "text": "a higher cost structure than the products they replace as we introduce new features and technologies.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.57,
+        "mean_pitch_hz": 107.9,
+        "pitch_std_hz": 11.69,
+        "mean_energy": 0.06569
+      }
+    },
+    {
+      "start": 2280.72,
+      "end": 2285.04,
+      "text": "We do have a good track record of reducing those costs and structures over the life of the product.",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 4.4,
+        "mean_pitch_hz": 124.32,
+        "pitch_std_hz": 11.11,
+        "mean_energy": 0.09938
+      }
+    },
+    {
+      "start": 2286.24,
+      "end": 2289.44,
+      "text": "And our products and services all have different levels of profitability and the",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 4.06,
+        "mean_pitch_hz": 131.9,
+        "pitch_std_hz": 22.18,
+        "mean_energy": 0.10735
+      }
+    },
+    {
+      "start": 2289.44,
+      "end": 2293.44,
+      "text": "relative success in the marketplace has an impact on the overall gross margin.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.25,
+        "mean_pitch_hz": 101.24,
+        "pitch_std_hz": 5.3,
+        "mean_energy": 0.06917
+      }
+    },
+    {
+      "start": 2294.88,
+      "end": 2298.0,
+      "text": "So I hope that's helpful coloring context for you.",
+      "audio_features": {
+        "pause_before_sec": 1.44,
+        "speaking_rate_wps": 2.88,
+        "mean_pitch_hz": 94.35,
+        "pitch_std_hz": 3.37,
+        "mean_energy": 0.04493
+      }
+    },
+    {
+      "start": 2299.84,
+      "end": 2305.84,
+      "text": "Yeah, no, that's super helpful. Thank you. I guess, you know, you just noted that you wouldn't",
+      "audio_features": {
+        "pause_before_sec": 1.84,
+        "speaking_rate_wps": 2.83,
+        "mean_pitch_hz": 109.59,
+        "pitch_std_hz": 16.23,
+        "mean_energy": 0.06503
+      }
+    },
+    {
+      "start": 2305.84,
+      "end": 2312.88,
+      "text": "want to give services, maybe grow a forecast here in light of some of the uncertain news.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.41,
+        "mean_pitch_hz": 90.09,
+        "pitch_std_hz": 5.01,
+        "mean_energy": 0.06439
+      }
+    },
+    {
+      "start": 2313.52,
+      "end": 2321.6,
+      "text": "But maybe, Tim, could you share any color around what you have seen in developer behavior in areas",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.23,
+        "mean_pitch_hz": 99.07,
+        "pitch_std_hz": 14.51,
+        "mean_energy": 0.0733
+      }
+    },
+    {
+      "start": 2321.6,
+      "end": 2327.04,
+      "text": "like Europe where there has now been emergence of alternate app stores for a little more time?",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 82.98,
+        "pitch_std_hz": 3.58,
+        "mean_energy": 0.0556
+      }
+    },
+    {
+      "start": 2328.4,
+      "end": 2333.6800000000003,
+      "text": "What have you seen anecdotally or within your data in terms of maybe",
+      "audio_features": {
+        "pause_before_sec": 1.36,
+        "speaking_rate_wps": 2.46,
+        "mean_pitch_hz": 85.65,
+        "pitch_std_hz": 8.7,
+        "mean_energy": 0.0664
+      }
+    },
+    {
+      "start": 2334.32,
+      "end": 2340.56,
+      "text": "developer behavior, whether it's large or small, any color you can share on what has actually happened?",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.72,
+        "mean_pitch_hz": 85.05,
+        "pitch_std_hz": 4.99,
+        "mean_energy": 0.06528
+      }
+    },
+    {
+      "start": 2341.52,
+      "end": 2352.48,
+      "text": "It's embedded in our results that Kevin talked about earlier and embedded in the overall company",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 1.46,
+        "mean_pitch_hz": 116.51,
+        "pitch_std_hz": 21.67,
+        "mean_energy": 0.0507
+      }
+    },
+    {
+      "start": 2353.04,
+      "end": 2359.52,
+      "text": "color that was provided. But as you know, the Digital Markets Act went into effect in,",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 2.47,
+        "mean_pitch_hz": 107.96,
+        "pitch_std_hz": 11.68,
+        "mean_energy": 0.05053
+      }
+    },
+    {
+      "start": 2360.64,
+      "end": 2367.2799999999997,
+      "text": "I believe it was March of last year. And so the Digital Markets Act has been",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 2.41,
+        "mean_pitch_hz": 114.13,
+        "pitch_std_hz": 11.98,
+        "mean_energy": 0.04697
+      }
+    },
+    {
+      "start": 2368.0800000000004,
+      "end": 2377.0400000000004,
+      "text": "enacted for a bit over a year. And there's been alternate app stores for some period of time of that.",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.23,
+        "mean_pitch_hz": 101.99,
+        "pitch_std_hz": 8.84,
+        "mean_energy": 0.05423
+      }
+    },
+    {
+      "start": 2378.0,
+      "end": 2386.4,
+      "text": "And so it's at this point in Europe, there are some embedded in the actuals.",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 1.79,
+        "mean_pitch_hz": 100.87,
+        "pitch_std_hz": 6.97,
+        "mean_energy": 0.05334
+      }
+    },
+    {
+      "start": 2386.4,
+      "end": 2394.88,
+      "text": "That means there may be more to come and so forth. I don't want to predict beyond the current quarter.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.36,
+        "mean_pitch_hz": 111.0,
+        "pitch_std_hz": 13.91,
+        "mean_energy": 0.05491
+      }
+    },
+    {
+      "start": 2397.92,
+      "end": 2398.7200000000003,
+      "text": "Okay, thank you, Tim.",
+      "audio_features": {
+        "pause_before_sec": 3.04,
+        "speaking_rate_wps": 5.0,
+        "mean_pitch_hz": null,
+        "pitch_std_hz": null,
+        "mean_energy": 0.02079
+      }
+    },
+    {
+      "start": 2400.2400000000002,
+      "end": 2403.92,
+      "text": "Thank you, Wonzi. Operator, could we have the next question, please?",
+      "audio_features": {
+        "pause_before_sec": 1.52,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 227.42,
+        "pitch_std_hz": 55.95,
+        "mean_energy": 0.06115
+      }
+    },
+    {
+      "start": 2406.1600000000003,
+      "end": 2410.2400000000002,
+      "text": "Our next question is from David Vogt with UPS. Please go ahead.",
+      "audio_features": {
+        "pause_before_sec": 2.24,
+        "speaking_rate_wps": 2.94,
+        "mean_pitch_hz": 234.73,
+        "pitch_std_hz": 100.3,
+        "mean_energy": 0.07021
+      }
+    },
+    {
+      "start": 2411.44,
+      "end": 2414.7200000000003,
+      "text": "Great. Thanks, guys. Thanks for taking my question. So I've got two as well.",
+      "audio_features": {
+        "pause_before_sec": 1.2,
+        "speaking_rate_wps": 4.27,
+        "mean_pitch_hz": 112.16,
+        "pitch_std_hz": 14.95,
+        "mean_energy": 0.06604
+      }
+    },
+    {
+      "start": 2415.6000000000004,
+      "end": 2419.28,
+      "text": "And Tim, this is more of a big picture of supply chain philosophical question.",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 3.8,
+        "mean_pitch_hz": 138.88,
+        "pitch_std_hz": 44.79,
+        "mean_energy": 0.03231
+      }
+    },
+    {
+      "start": 2419.28,
+      "end": 2424.1600000000003,
+      "text": "So can you come and update us on your thoughts on how you're thinking about your sort of resiliency",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.89,
+        "mean_pitch_hz": 150.62,
+        "pitch_std_hz": 67.23,
+        "mean_energy": 0.04372
+      }
+    },
+    {
+      "start": 2424.16,
+      "end": 2428.08,
+      "text": "and redundancy following the changes that you guys talked about earlier on the call?",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 3.57,
+        "mean_pitch_hz": 109.18,
+        "pitch_std_hz": 7.64,
+        "mean_energy": 0.07026
+      }
+    },
+    {
+      "start": 2428.08,
+      "end": 2432.0,
+      "text": "I guess what I'm trying to understand is how do we think about where your supply chain is two",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.85,
+        "mean_pitch_hz": 128.58,
+        "pitch_std_hz": 17.12,
+        "mean_energy": 0.07137
+      }
+    },
+    {
+      "start": 2432.0,
+      "end": 2437.2799999999997,
+      "text": "to three years from now? And is there any risk, at least in the near term of maybe some export",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.79,
+        "mean_pitch_hz": 120.32,
+        "pitch_std_hz": 13.45,
+        "mean_energy": 0.07122
+      }
+    },
+    {
+      "start": 2437.2799999999997,
+      "end": 2441.6,
+      "text": "control issues in your outlook for the balance of this year? And I'll give you my second one at the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.63,
+        "mean_pitch_hz": 113.67,
+        "pitch_std_hz": 11.32,
+        "mean_energy": 0.07551
+      }
+    },
+    {
+      "start": 2441.6,
+      "end": 2447.68,
+      "text": "same time. You know, you quantified a $900 million hit from tariffs, but, or Kevin, is there any",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.96,
+        "mean_pitch_hz": 121.62,
+        "pitch_std_hz": 27.54,
+        "mean_energy": 0.07609
+      }
+    },
+    {
+      "start": 2447.68,
+      "end": 2452.3199999999997,
+      "text": "impact in how you're thinking about the demand backdrop in your outlook for the June quarter",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.45,
+        "mean_pitch_hz": 125.96,
+        "pitch_std_hz": 13.51,
+        "mean_energy": 0.06607
+      }
+    },
+    {
+      "start": 2452.32,
+      "end": 2455.1200000000003,
+      "text": "on the review line? You know, holistically, thanks.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.86,
+        "mean_pitch_hz": 123.03,
+        "pitch_std_hz": 14.21,
+        "mean_energy": 0.05046
+      }
+    },
+    {
+      "start": 2456.2400000000002,
+      "end": 2462.2400000000002,
+      "text": "In terms of the resiliency and risk, et cetera, there we have a complex supply chain. There's",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 2.83,
+        "mean_pitch_hz": 118.61,
+        "pitch_std_hz": 19.59,
+        "mean_energy": 0.07675
+      }
+    },
+    {
+      "start": 2462.2400000000002,
+      "end": 2468.4,
+      "text": "always risk in the supply chain. And so I wouldn't tell you anything different than that.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 103.93,
+        "pitch_std_hz": 6.95,
+        "mean_energy": 0.05414
+      }
+    },
+    {
+      "start": 2469.6800000000003,
+      "end": 2479.36,
+      "text": "What we learned some time ago was that having everything in one location",
+      "audio_features": {
+        "pause_before_sec": 1.28,
+        "speaking_rate_wps": 1.34,
+        "mean_pitch_hz": 116.07,
+        "pitch_std_hz": 14.19,
+        "mean_energy": 0.0637
+      }
+    },
+    {
+      "start": 2480.1600000000003,
+      "end": 2487.76,
+      "text": "had too much risk with it. And so we have over time with certain parts of the supply chain,",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 108.79,
+        "pitch_std_hz": 12.38,
+        "mean_energy": 0.0511
+      }
+    },
+    {
+      "start": 2487.76,
+      "end": 2497.2000000000003,
+      "text": "not the whole thing, but certain parts of it opened up new sources of supply. And you could",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.91,
+        "mean_pitch_hz": 108.64,
+        "pitch_std_hz": 12.08,
+        "mean_energy": 0.04495
+      }
+    },
+    {
+      "start": 2497.2000000000003,
+      "end": 2504.4,
+      "text": "see that kind of thing continuing in the future. I'll let Kevin answer the other question.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.22,
+        "mean_pitch_hz": 108.22,
+        "pitch_std_hz": 14.98,
+        "mean_energy": 0.04696
+      }
+    },
+    {
+      "start": 2505.12,
+      "end": 2510.88,
+      "text": "Hi, David. On the other question, I would say that our best thinking is captured in the outlook",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 118.64,
+        "pitch_std_hz": 12.5,
+        "mean_energy": 0.06831
+      }
+    },
+    {
+      "start": 2510.88,
+      "end": 2516.7200000000003,
+      "text": "that we provided. However, I did want to reemphasize the point that the assumptions we made on the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.08,
+        "mean_pitch_hz": 118.21,
+        "pitch_std_hz": 26.7,
+        "mean_energy": 0.06852
+      }
+    },
+    {
+      "start": 2516.7200000000003,
+      "end": 2523.28,
+      "text": "outlook do assume that the global tariff rates, the policies and application remain the same as",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.44,
+        "mean_pitch_hz": 100.62,
+        "pitch_std_hz": 8.34,
+        "mean_energy": 0.05314
+      }
+    },
+    {
+      "start": 2523.28,
+      "end": 2528.1600000000003,
+      "text": "they are today as of this call, and that the global macroeconomic outlook doesn't worsen from today.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.48,
+        "mean_pitch_hz": 100.41,
+        "pitch_std_hz": 7.49,
+        "mean_energy": 0.06379
+      }
+    },
+    {
+      "start": 2528.16,
+      "end": 2536.7999999999997,
+      "text": "Okay, but no quantifiable impact on demand to date, at least from where we are over the last",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 107.73,
+        "pitch_std_hz": 8.59,
+        "mean_energy": 0.04582
+      }
+    },
+    {
+      "start": 2536.7999999999997,
+      "end": 2540.7999999999997,
+      "text": "month, your way to kind of think about that, you know, from early April to early May.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.25,
+        "mean_pitch_hz": 110.76,
+        "pitch_std_hz": 16.77,
+        "mean_energy": 0.06236
+      }
+    },
+    {
+      "start": 2542.16,
+      "end": 2544.7999999999997,
+      "text": "I would say our best thinking is reflected in the range that we provided.",
+      "audio_features": {
+        "pause_before_sec": 1.36,
+        "speaking_rate_wps": 5.3,
+        "mean_pitch_hz": 105.75,
+        "pitch_std_hz": 7.88,
+        "mean_energy": 0.06054
+      }
+    },
+    {
+      "start": 2546.3199999999997,
+      "end": 2548.72,
+      "text": "Okay, thanks, Kevin. Thanks, guys. Thank you.",
+      "audio_features": {
+        "pause_before_sec": 1.52,
+        "speaking_rate_wps": 2.92,
+        "mean_pitch_hz": null,
+        "pitch_std_hz": null,
+        "mean_energy": 0.03813
+      }
+    },
+    {
+      "start": 2549.3599999999997,
+      "end": 2552.72,
+      "text": "Thank you, David. Operator, could we have the next question, please?",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 3.27,
+        "mean_pitch_hz": 212.39,
+        "pitch_std_hz": 30.13,
+        "mean_energy": 0.07211
+      }
+    },
+    {
+      "start": 2553.44,
+      "end": 2560.0000000000005,
+      "text": "Our next question is from Somic Chatterjee with JP Morgan. Please go ahead.",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 1.98,
+        "mean_pitch_hz": 194.76,
+        "pitch_std_hz": 48.9,
+        "mean_energy": 0.05286
+      }
+    },
+    {
+      "start": 2561.44,
+      "end": 2567.6800000000003,
+      "text": "Hi, good afternoon. Thanks for taking my questions. I guess, Tim, you made a comment on the last earnings",
+      "audio_features": {
+        "pause_before_sec": 1.44,
+        "speaking_rate_wps": 3.04,
+        "mean_pitch_hz": 117.97,
+        "pitch_std_hz": 10.1,
+        "mean_energy": 0.04052
+      }
+    },
+    {
+      "start": 2567.6800000000003,
+      "end": 2573.44,
+      "text": "call about Apple intelligence making a visible impact on iPhone sales in the countries where",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.6,
+        "mean_pitch_hz": 91.99,
+        "pitch_std_hz": 4.58,
+        "mean_energy": 0.04185
+      }
+    },
+    {
+      "start": 2573.44,
+      "end": 2578.8,
+      "text": "it was available. I'm just curious if you continue to see that play out similarly in",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 97.65,
+        "pitch_std_hz": 4.8,
+        "mean_energy": 0.05108
+      }
+    },
+    {
+      "start": 2578.8,
+      "end": 2583.76,
+      "text": "so the more broader number of countries you've rolled that out, or the delays that you talked",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.43,
+        "mean_pitch_hz": 100.49,
+        "pitch_std_hz": 1.52,
+        "mean_energy": 0.05012
+      }
+    },
+    {
+      "start": 2583.76,
+      "end": 2589.76,
+      "text": "about related to Siri or Somic Siri features has that had an impact in terms of consumer willingness",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.0,
+        "mean_pitch_hz": 90.31,
+        "pitch_std_hz": 3.3,
+        "mean_energy": 0.03329
+      }
+    },
+    {
+      "start": 2589.76,
+      "end": 2594.7200000000003,
+      "text": "to upgrade and have a follow-up. Thank you. Yeah, thank you for the question. During the March",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.43,
+        "mean_pitch_hz": 125.26,
+        "pitch_std_hz": 17.45,
+        "mean_energy": 0.05473
+      }
+    },
+    {
+      "start": 2594.7200000000003,
+      "end": 2601.36,
+      "text": "quarter, we saw that in markets where we had rolled out Apple intelligence that the year-over-year",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.41,
+        "mean_pitch_hz": 111.79,
+        "pitch_std_hz": 9.77,
+        "mean_energy": 0.05414
+      }
+    },
+    {
+      "start": 2601.36,
+      "end": 2607.52,
+      "text": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.44,
+        "mean_pitch_hz": 104.63,
+        "pitch_std_hz": 8.58,
+        "mean_energy": 0.04567
+      }
+    },
+    {
+      "start": 2607.52,
+      "end": 2613.7599999999998,
+      "text": "available. A lot of the languages that I think you're referring to rolled out in April and so",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.88,
+        "mean_pitch_hz": 116.09,
+        "pitch_std_hz": 15.27,
+        "mean_energy": 0.06183
+      }
+    },
+    {
+      "start": 2613.7599999999998,
+      "end": 2622.56,
+      "text": "they actually rolled out in Q3. Okay, correct. Yeah, then maybe for my follow-up,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.59,
+        "mean_pitch_hz": 102.38,
+        "pitch_std_hz": 9.58,
+        "mean_energy": 0.02343
+      }
+    },
+    {
+      "start": 2622.56,
+      "end": 2629.52,
+      "text": "I mean, you have a lot of insights now in terms of what consumers are, how consumers are reacting",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.73,
+        "mean_pitch_hz": 96.9,
+        "pitch_std_hz": 5.9,
+        "mean_energy": 0.03627
+      }
+    },
+    {
+      "start": 2629.52,
+      "end": 2634.64,
+      "text": "to the overall macro. And I know you sort of prefaced all your guidance with macro remaining",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.32,
+        "mean_pitch_hz": 92.61,
+        "pitch_std_hz": 2.44,
+        "mean_energy": 0.02385
+      }
+    },
+    {
+      "start": 2634.64,
+      "end": 2640.56,
+      "text": "consistent, but what are you seeing in terms of the U.S. consumer and what's the reaction there",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.87,
+        "mean_pitch_hz": 106.42,
+        "pitch_std_hz": 12.28,
+        "mean_energy": 0.04353
+      }
+    },
+    {
+      "start": 2640.56,
+      "end": 2647.92,
+      "text": "in terms of the tariff impact or we saw U.S. GDP also shrink here in 1Q when you look at",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.72,
+        "mean_pitch_hz": 91.01,
+        "pitch_std_hz": 0.52,
+        "mean_energy": 0.03877
+      }
+    },
+    {
+      "start": 2647.92,
+      "end": 2652.24,
+      "text": "velocity at this door or sort of create down within those sort of iPhone portfolio makes,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.7,
+        "mean_pitch_hz": 94.73,
+        "pitch_std_hz": 1.22,
+        "mean_energy": 0.03189
+      }
+    },
+    {
+      "start": 2652.24,
+      "end": 2655.92,
+      "text": "what are you seeing in terms of how the consumers are reacting to the macro at this point?",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.89,
+        "mean_pitch_hz": 92.4,
+        "pitch_std_hz": 3.51,
+        "mean_energy": 0.02418
+      }
+    },
+    {
+      "start": 2655.92,
+      "end": 2663.3599999999997,
+      "text": "Thank you. You know, I'm not an economist and so I start by saying that in terms of the, as you",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.82,
+        "mean_pitch_hz": 114.06,
+        "pitch_std_hz": 17.29,
+        "mean_energy": 0.06179
+      }
+    },
+    {
+      "start": 2663.36,
+      "end": 2669.52,
+      "text": "can see from a total company point of view, our results accelerated sequentially",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.11,
+        "mean_pitch_hz": 114.55,
+        "pitch_std_hz": 16.19,
+        "mean_energy": 0.06627
+      }
+    },
+    {
+      "start": 2671.28,
+      "end": 2680.8,
+      "text": "to the 5% level and the U.S. is obviously the vast majority of the America's segment and you",
+      "audio_features": {
+        "pause_before_sec": 1.76,
+        "speaking_rate_wps": 1.89,
+        "mean_pitch_hz": 105.42,
+        "pitch_std_hz": 10.46,
+        "mean_energy": 0.05406
+      }
+    },
+    {
+      "start": 2680.8,
+      "end": 2690.1600000000003,
+      "text": "can see how the America's performed during the quarter and so that's all I want to say about that.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.03,
+        "mean_pitch_hz": 103.66,
+        "pitch_std_hz": 10.27,
+        "mean_energy": 0.04145
+      }
+    },
+    {
+      "start": 2690.16,
+      "end": 2696.0,
+      "text": "I don't want to try to predict what happens in the months from now.",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.4,
+        "mean_pitch_hz": 102.46,
+        "pitch_std_hz": 10.15,
+        "mean_energy": 0.03637
+      }
+    },
+    {
+      "start": 2697.2799999999997,
+      "end": 2702.96,
+      "text": "That the past, I'm quite pleased with the results from Q2.",
+      "audio_features": {
+        "pause_before_sec": 1.28,
+        "speaking_rate_wps": 1.94,
+        "mean_pitch_hz": 111.41,
+        "pitch_std_hz": 16.43,
+        "mean_energy": 0.04994
+      }
+    },
+    {
+      "start": 2705.44,
+      "end": 2706.64,
+      "text": "Thank you. Thanks for taking the lead.",
+      "audio_features": {
+        "pause_before_sec": 2.48,
+        "speaking_rate_wps": 5.83,
+        "mean_pitch_hz": 78.75,
+        "pitch_std_hz": 2.76,
+        "mean_energy": 0.0061
+      }
+    },
+    {
+      "start": 2706.64,
+      "end": 2710.8799999999997,
+      "text": "Yes. Thank you, Samick. Operator, could we have the next question please?",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.83,
+        "mean_pitch_hz": 212.77,
+        "pitch_std_hz": 42.37,
+        "mean_energy": 0.04022
+      }
+    },
+    {
+      "start": 2714.08,
+      "end": 2718.64,
+      "text": "Our next question is from Krish Sankar, TD Cowan. Please go ahead.",
+      "audio_features": {
+        "pause_before_sec": 3.2,
+        "speaking_rate_wps": 2.63,
+        "mean_pitch_hz": 204.67,
+        "pitch_std_hz": 36.23,
+        "mean_energy": 0.06774
+      }
+    },
+    {
+      "start": 2719.52,
+      "end": 2724.56,
+      "text": "Hi, thanks for taking my question. I actually owe them to Tim, thanks for that information",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 3.17,
+        "mean_pitch_hz": 159.37,
+        "pitch_std_hz": 33.08,
+        "mean_energy": 0.06075
+      }
+    },
+    {
+      "start": 2724.56,
+      "end": 2729.7599999999998,
+      "text": "on the 500 billion U.S. investment. I'm kind of curious how to think about the composition of that.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.46,
+        "mean_pitch_hz": 139.32,
+        "pitch_std_hz": 46.05,
+        "mean_energy": 0.053
+      }
+    },
+    {
+      "start": 2729.7599999999998,
+      "end": 2735.3599999999997,
+      "text": "How much is CapEx? This is R&D. How much is, you know, going into like the Texas",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.04,
+        "mean_pitch_hz": 124.48,
+        "pitch_std_hz": 14.62,
+        "mean_energy": 0.05684
+      }
+    },
+    {
+      "start": 2735.3599999999997,
+      "end": 2740.0,
+      "text": "server? How much is going into maybe TS into Arizona? Any kind of color you can give one",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.88,
+        "mean_pitch_hz": 131.58,
+        "pitch_std_hz": 27.12,
+        "mean_energy": 0.08909
+      }
+    },
+    {
+      "start": 2740.0,
+      "end": 2743.7599999999998,
+      "text": "that 500 billion investment would be helpful in the amount of follow-up.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.19,
+        "mean_pitch_hz": 111.43,
+        "pitch_std_hz": 7.43,
+        "mean_energy": 0.06209
+      }
+    },
+    {
+      "start": 2744.5600000000004,
+      "end": 2752.8,
+      "text": "Well, there's lots of all of it is what I would say. We're not giving out the exact split, but as we",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.67,
+        "mean_pitch_hz": 117.57,
+        "pitch_std_hz": 15.52,
+        "mean_energy": 0.07314
+      }
+    },
+    {
+      "start": 2752.8,
+      "end": 2759.76,
+      "text": "expand facilities in the different states from Michigan to Texas to California and Arizona and",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.16,
+        "mean_pitch_hz": 120.19,
+        "pitch_std_hz": 16.54,
+        "mean_energy": 0.05826
+      }
+    },
+    {
+      "start": 2759.76,
+      "end": 2766.96,
+      "text": "Nevada and Iowa and Oregon and North Carolina and Washington, there will be CapEx involved in that",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.36,
+        "mean_pitch_hz": 105.52,
+        "pitch_std_hz": 6.65,
+        "mean_energy": 0.05309
+      }
+    },
+    {
+      "start": 2766.96,
+      "end": 2775.84,
+      "text": "and OPEX involved in it and standing up a server, advanced server manufacturing in Texas.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.69,
+        "mean_pitch_hz": 107.01,
+        "pitch_std_hz": 11.61,
+        "mean_energy": 0.0539
+      }
+    },
+    {
+      "start": 2776.88,
+      "end": 2780.56,
+      "text": "We'll do that through a partner as we do our manufacturing through a partner,",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 3.8,
+        "mean_pitch_hz": 110.19,
+        "pitch_std_hz": 9.93,
+        "mean_energy": 0.06438
+      }
+    },
+    {
+      "start": 2781.68,
+      "end": 2791.68,
+      "text": "but we'll be putting a fair amount in cost of good self to do that and some OPEX as well and I'm",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 2.2,
+        "mean_pitch_hz": 107.9,
+        "pitch_std_hz": 9.63,
+        "mean_energy": 0.04417
+      }
+    },
+    {
+      "start": 2791.68,
+      "end": 2796.16,
+      "text": "sure some CapEx as well and so it's a bit of all of it.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.12,
+        "mean_pitch_hz": 115.64,
+        "pitch_std_hz": 15.48,
+        "mean_energy": 0.05067
+      }
+    },
+    {
+      "start": 2798.8799999999997,
+      "end": 2803.44,
+      "text": "Got it, got it. I kind of had like a long-term, more like a philosophical question. When you",
+      "audio_features": {
+        "pause_before_sec": 2.72,
+        "speaking_rate_wps": 3.95,
+        "mean_pitch_hz": 120.7,
+        "pitch_std_hz": 10.6,
+        "mean_energy": 0.09685
+      }
+    },
+    {
+      "start": 2803.44,
+      "end": 2808.56,
+      "text": "look at, you know, in the past you've spoken about AI on the edge, obviously it's very topical to",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.71,
+        "mean_pitch_hz": 126.46,
+        "pitch_std_hz": 11.42,
+        "mean_energy": 0.06075
+      }
+    },
+    {
+      "start": 2808.56,
+      "end": 2814.72,
+      "text": "you from both the iPhone angle and the Mac angle, but I'm just kind of curious and look at AI on the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.57,
+        "mean_pitch_hz": 131.79,
+        "pitch_std_hz": 34.69,
+        "mean_energy": 0.06506
+      }
+    },
+    {
+      "start": 2814.7200000000003,
+      "end": 2822.2400000000002,
+      "text": "edge. Are the current smartphone specs or improved hardware and silicon specs good enough to meet",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.13,
+        "mean_pitch_hz": 129.56,
+        "pitch_std_hz": 19.85,
+        "mean_energy": 0.04979
+      }
+    },
+    {
+      "start": 2822.96,
+      "end": 2827.76,
+      "text": "future HLLM from inference or do you think you need to come up with a whole new different kind of",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 4.17,
+        "mean_pitch_hz": 128.75,
+        "pitch_std_hz": 21.58,
+        "mean_energy": 0.07199
+      }
+    },
+    {
+      "start": 2827.76,
+      "end": 2833.84,
+      "text": "device? We're just kind of curious how to think about the evolution of the edge devices from here.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.96,
+        "mean_pitch_hz": 123.77,
+        "pitch_std_hz": 22.99,
+        "mean_energy": 0.06385
+      }
+    },
+    {
+      "start": 2834.4,
+      "end": 2844.5600000000004,
+      "text": "Thank you. Yeah, as you know, we're shipping an LLM on the iPhone 16 today and there are",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 1.77,
+        "mean_pitch_hz": 119.55,
+        "pitch_std_hz": 22.41,
+        "mean_energy": 0.05608
+      }
+    },
+    {
+      "start": 2845.6000000000004,
+      "end": 2855.36,
+      "text": "some of the queries that are being used by our customers are on device and then others go to the",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 2.05,
+        "mean_pitch_hz": 108.57,
+        "pitch_std_hz": 15.05,
+        "mean_energy": 0.04727
+      }
+    },
+    {
+      "start": 2855.36,
+      "end": 2864.0800000000004,
+      "text": "private cloud where we've essentially mimicked the security and privacy of the device into the cloud",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.83,
+        "mean_pitch_hz": 108.68,
+        "pitch_std_hz": 14.91,
+        "mean_energy": 0.04031
+      }
+    },
+    {
+      "start": 2864.0800000000004,
+      "end": 2874.1600000000003,
+      "text": "and then others for world knowledge are we'd be integration with chat GPT and so there's we",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.69,
+        "mean_pitch_hz": 110.31,
+        "pitch_std_hz": 12.02,
+        "mean_energy": 0.0469
+      }
+    },
+    {
+      "start": 2874.16,
+      "end": 2884.0,
+      "text": "continue to be very excited about the opportunities here. We are very excited about the roadmap",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 1.63,
+        "mean_pitch_hz": 114.8,
+        "pitch_std_hz": 15.65,
+        "mean_energy": 0.05701
+      }
+    },
+    {
+      "start": 2884.8799999999997,
+      "end": 2890.72,
+      "text": "and we are, you know, pleased with the progress that we're making.",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.05,
+        "mean_pitch_hz": 110.22,
+        "pitch_std_hz": 11.33,
+        "mean_energy": 0.04
+      }
+    },
+    {
+      "start": 2893.12,
+      "end": 2898.96,
+      "text": "Thanks, Jim. Thank you, Chris, operator. Could we get the next question, please?",
+      "audio_features": {
+        "pause_before_sec": 2.4,
+        "speaking_rate_wps": 2.23,
+        "mean_pitch_hz": 219.68,
+        "pitch_std_hz": 39.56,
+        "mean_energy": 0.03938
+      }
+    },
+    {
+      "start": 2898.96,
+      "end": 2906.0,
+      "text": "Our next question is from Richard Kramer with the rate research. Please go ahead.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 209.93,
+        "pitch_std_hz": 52.95,
+        "mean_energy": 0.04873
+      }
+    },
+    {
+      "start": 2908.08,
+      "end": 2913.44,
+      "text": "Thank you very much. I won't ask about tariffs. Tim, given your recognition that a new",
+      "audio_features": {
+        "pause_before_sec": 2.08,
+        "speaking_rate_wps": 2.99,
+        "mean_pitch_hz": 138.08,
+        "pitch_std_hz": 20.01,
+        "mean_energy": 0.08097
+      }
+    },
+    {
+      "start": 2913.44,
+      "end": 2917.92,
+      "text": "Siri assistant is taking longer than you thought to deliver, I'd like to go back to my question",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.02,
+        "mean_pitch_hz": 132.31,
+        "pitch_std_hz": 15.86,
+        "mean_energy": 0.07834
+      }
+    },
+    {
+      "start": 2917.92,
+      "end": 2923.04,
+      "text": "from the last call and ask about what some of the learnings you had from those delays and whether",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.71,
+        "mean_pitch_hz": 129.8,
+        "pitch_std_hz": 15.26,
+        "mean_energy": 0.06365
+      }
+    },
+    {
+      "start": 2923.04,
+      "end": 2929.2799999999997,
+      "text": "you attribute them to organizational factors to your legacy software stack or is it a matter of",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.72,
+        "mean_pitch_hz": 135.29,
+        "pitch_std_hz": 13.17,
+        "mean_energy": 0.07102
+      }
+    },
+    {
+      "start": 2929.2799999999997,
+      "end": 2934.64,
+      "text": "R&B spending and what are some of the key gating factors investors should look for",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.8,
+        "mean_pitch_hz": 135.65,
+        "pitch_std_hz": 22.35,
+        "mean_energy": 0.05644
+      }
+    },
+    {
+      "start": 2935.36,
+      "end": 2940.72,
+      "text": "either at WWDC or beyond, have a sense that Apple can deliver on some of the promises of the",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 3.54,
+        "mean_pitch_hz": 129.12,
+        "pitch_std_hz": 10.03,
+        "mean_energy": 0.05437
+      }
+    },
+    {
+      "start": 2940.72,
+      "end": 2949.7599999999998,
+      "text": "announcements at the prior WWDC. Thanks. Yeah, if you sort of step back from what we said at",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 130.95,
+        "pitch_std_hz": 35.61,
+        "mean_energy": 0.04906
+      }
+    },
+    {
+      "start": 2949.84,
+      "end": 2956.8,
+      "text": "WWDC, we talked about a number of different features that would launch with iOS 18",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 2.16,
+        "mean_pitch_hz": 110.5,
+        "pitch_std_hz": 13.5,
+        "mean_energy": 0.06171
+      }
+    },
+    {
+      "start": 2957.6000000000004,
+      "end": 2965.28,
+      "text": "and we've released a slew of those from writing tools to seamlessly connecting to chat GPT,",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.08,
+        "mean_pitch_hz": 110.43,
+        "pitch_std_hz": 13.76,
+        "mean_energy": 0.06829
+      }
+    },
+    {
+      "start": 2967.28,
+      "end": 2972.4,
+      "text": "to Jim Moji, to image playground, to image wand, to clean up visual intelligence,",
+      "audio_features": {
+        "pause_before_sec": 2.0,
+        "speaking_rate_wps": 2.73,
+        "mean_pitch_hz": 110.24,
+        "pitch_std_hz": 5.29,
+        "mean_energy": 0.07657
+      }
+    },
+    {
+      "start": 2973.28,
+      "end": 2983.44,
+      "text": "making movies or movies of your memories with a simple prompt, AI powered photos search,",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 1.48,
+        "mean_pitch_hz": 106.14,
+        "pitch_std_hz": 9.16,
+        "mean_energy": 0.06363
+      }
+    },
+    {
+      "start": 2983.44,
+      "end": 2990.1600000000003,
+      "text": "smart replies, priority notifications, and the list goes on. And so we've delivered a lot and",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.38,
+        "mean_pitch_hz": 114.3,
+        "pitch_std_hz": 11.77,
+        "mean_energy": 0.07081
+      }
+    },
+    {
+      "start": 2990.1600000000003,
+      "end": 2997.44,
+      "text": "we've just recently, just a few weeks ago, expanded it into several different languages,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.92,
+        "mean_pitch_hz": 120.75,
+        "pitch_std_hz": 17.21,
+        "mean_energy": 0.07344
+      }
+    },
+    {
+      "start": 2997.52,
+      "end": 3004.64,
+      "text": "including French, German, Italian, Portuguese, Spanish, Japanese, Korean, simplified Chinese,",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.4,
+        "mean_pitch_hz": 112.35,
+        "pitch_std_hz": 11.92,
+        "mean_energy": 0.05777
+      }
+    },
+    {
+      "start": 3004.64,
+      "end": 3010.88,
+      "text": "as well as localized English for both Singapore and India. So we've delivered a lot. However,",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.56,
+        "mean_pitch_hz": 120.57,
+        "pitch_std_hz": 21.35,
+        "mean_energy": 0.08441
+      }
+    },
+    {
+      "start": 3012.0,
+      "end": 3017.76,
+      "text": "with regard to the more personal Siri, as you mentioned, we just need more time to",
+      "audio_features": {
+        "pause_before_sec": 1.12,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 120.75,
+        "pitch_std_hz": 13.59,
+        "mean_energy": 0.08593
+      }
+    },
+    {
+      "start": 3018.7200000000003,
+      "end": 3026.2400000000002,
+      "text": "complete the work so they meet our high quality bar. And there's not a lot of other",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.26,
+        "mean_pitch_hz": 112.22,
+        "pitch_std_hz": 11.18,
+        "mean_energy": 0.06039
+      }
+    },
+    {
+      "start": 3028.1600000000003,
+      "end": 3035.5200000000004,
+      "text": "reason for it. It's just taking a bit longer than we thought. But we are making progress",
+      "audio_features": {
+        "pause_before_sec": 1.92,
+        "speaking_rate_wps": 2.31,
+        "mean_pitch_hz": 105.63,
+        "pitch_std_hz": 12.53,
+        "mean_energy": 0.05173
+      }
+    },
+    {
+      "start": 3036.32,
+      "end": 3041.6800000000003,
+      "text": "and we're extremely excited to get the more personal Siri features out there.",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 2.43,
+        "mean_pitch_hz": 111.0,
+        "pitch_std_hz": 15.14,
+        "mean_energy": 0.05684
+      }
+    },
+    {
+      "start": 3041.68,
+      "end": 3046.3199999999997,
+      "text": "And Richard, I'll just add that, you know, on your question about investment,",
+      "audio_features": {
+        "pause_before_sec": -0.0,
+        "speaking_rate_wps": 2.8,
+        "mean_pitch_hz": 107.21,
+        "pitch_std_hz": 14.56,
+        "mean_energy": 0.03943
+      }
+    },
+    {
+      "start": 3047.2,
+      "end": 3051.3599999999997,
+      "text": "that we don't underestimate, you know, underestimate and invest in our business.",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.88,
+        "mean_pitch_hz": 103.37,
+        "pitch_std_hz": 7.55,
+        "mean_energy": 0.06587
+      }
+    },
+    {
+      "start": 3051.3599999999997,
+      "end": 3055.04,
+      "text": "You know, we make significant investments in R&D that continues to grow or continue to grow",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 4.35,
+        "mean_pitch_hz": 103.16,
+        "pitch_std_hz": 12.64,
+        "mean_energy": 0.07041
+      }
+    },
+    {
+      "start": 3055.04,
+      "end": 3059.52,
+      "text": "our R&D investment. And so we definitely are making all the investments we think we need to",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.79,
+        "mean_pitch_hz": 97.2,
+        "pitch_std_hz": 5.68,
+        "mean_energy": 0.05393
+      }
+    },
+    {
+      "start": 3059.52,
+      "end": 3068.3199999999997,
+      "text": "enable our roadmap. And Kevin, one for you. I mean, it's hard to ignore some of the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.93,
+        "mean_pitch_hz": 131.56,
+        "pitch_std_hz": 21.89,
+        "mean_energy": 0.04374
+      }
+    },
+    {
+      "start": 3068.6400000000003,
+      "end": 3074.6400000000003,
+      "text": "ongoing, very high-profile legal cases that touch on Apple, be it yesterday's epic case in",
+      "audio_features": {
+        "pause_before_sec": 0.32,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 129.04,
+        "pitch_std_hz": 10.81,
+        "mean_energy": 0.06471
+      }
+    },
+    {
+      "start": 3074.6400000000003,
+      "end": 3079.6000000000004,
+      "text": "Junction or the Google antitrust trial touching on default search. And investors are clearly",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.82,
+        "mean_pitch_hz": 129.93,
+        "pitch_std_hz": 13.1,
+        "mean_energy": 0.06142
+      }
+    },
+    {
+      "start": 3079.6000000000004,
+      "end": 3084.8,
+      "text": "concerned that these might have material impacts on your services business. Do you feel now that you",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.27,
+        "mean_pitch_hz": 134.72,
+        "pitch_std_hz": 18.91,
+        "mean_energy": 0.06016
+      }
+    },
+    {
+      "start": 3084.8,
+      "end": 3089.6000000000004,
+      "text": "have ample ways in which you might be able to mitigate some of the potential negative impacts",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.54,
+        "mean_pitch_hz": 134.42,
+        "pitch_std_hz": 7.82,
+        "mean_energy": 0.05456
+      }
+    },
+    {
+      "start": 3089.6000000000004,
+      "end": 3096.0,
+      "text": "on Apple services business that might come about from what's been proposed or might come about",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.5,
+        "mean_pitch_hz": 126.54,
+        "pitch_std_hz": 8.66,
+        "mean_energy": 0.04698
+      }
+    },
+    {
+      "start": 3096.0,
+      "end": 3099.6,
+      "text": "in legal rather than commercial pressures that the business faces?",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.78,
+        "mean_pitch_hz": 126.04,
+        "pitch_std_hz": 8.01,
+        "mean_energy": 0.05348
+      }
+    },
+    {
+      "start": 3101.52,
+      "end": 3108.4,
+      "text": "Let me make a couple of comments on that before, Kevin. The case yesterday, we strongly disagree with",
+      "audio_features": {
+        "pause_before_sec": 1.92,
+        "speaking_rate_wps": 2.62,
+        "mean_pitch_hz": 114.37,
+        "pitch_std_hz": 18.34,
+        "mean_energy": 0.06964
+      }
+    },
+    {
+      "start": 3109.76,
+      "end": 3117.52,
+      "text": "we've complied with the court's order and we're going to appeal. In the DOJ case that you referenced",
+      "audio_features": {
+        "pause_before_sec": 1.36,
+        "speaking_rate_wps": 2.32,
+        "mean_pitch_hz": 112.31,
+        "pitch_std_hz": 10.95,
+        "mean_energy": 0.05924
+      }
+    },
+    {
+      "start": 3117.52,
+      "end": 3124.32,
+      "text": "with Google, that case is ongoing and I don't really have anything to add beyond that. And so",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.65,
+        "mean_pitch_hz": 102.1,
+        "pitch_std_hz": 9.46,
+        "mean_energy": 0.05185
+      }
+    },
+    {
+      "start": 3125.1200000000003,
+      "end": 3132.88,
+      "text": "we're monitoring these closely. But there, as you point out, there's risk associated with them",
+      "audio_features": {
+        "pause_before_sec": 0.8,
+        "speaking_rate_wps": 1.93,
+        "mean_pitch_hz": 114.75,
+        "pitch_std_hz": 14.63,
+        "mean_energy": 0.06378
+      }
+    },
+    {
+      "start": 3132.88,
+      "end": 3137.2000000000003,
+      "text": "and the outcome is unclear.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.16,
+        "mean_pitch_hz": 103.01,
+        "pitch_std_hz": 8.75,
+        "mean_energy": 0.0433
+      }
+    },
+    {
+      "start": 3140.88,
+      "end": 3143.52,
+      "text": "Yeah, I think Tim answered it really well. I don't have anything to add to that.",
+      "audio_features": {
+        "pause_before_sec": 3.68,
+        "speaking_rate_wps": 6.06,
+        "mean_pitch_hz": 103.33,
+        "pitch_std_hz": 10.53,
+        "mean_energy": 0.06459
+      }
+    },
+    {
+      "start": 3146.32,
+      "end": 3146.8,
+      "text": "Thank you.",
+      "audio_features": {
+        "pause_before_sec": 2.8,
+        "speaking_rate_wps": 4.17,
+        "mean_pitch_hz": 143.52,
+        "pitch_std_hz": 6.08,
+        "mean_energy": 0.04412
+      }
+    },
+    {
+      "start": 3147.84,
+      "end": 3152.32,
+      "text": "All right. Thank you, Richard. Operator, we will take our last question, please.",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 2.9,
+        "mean_pitch_hz": 215.9,
+        "pitch_std_hz": 45.24,
+        "mean_energy": 0.04198
+      }
+    },
+    {
+      "start": 3155.28,
+      "end": 3160.32,
+      "text": "We'll go ahead and take our last question from Aaron Rieker as well as Fargo. Please go ahead.",
+      "audio_features": {
+        "pause_before_sec": 2.96,
+        "speaking_rate_wps": 3.57,
+        "mean_pitch_hz": 216.83,
+        "pitch_std_hz": 50.68,
+        "mean_energy": 0.06075
+      }
+    },
+    {
+      "start": 3161.36,
+      "end": 3167.92,
+      "text": "Yeah, thanks for taking a question. I want to go back to the AI strategy a little bit. I know Tim",
+      "audio_features": {
+        "pause_before_sec": 1.04,
+        "speaking_rate_wps": 3.2,
+        "mean_pitch_hz": 137.98,
+        "pitch_std_hz": 19.11,
+        "mean_energy": 0.06341
+      }
+    },
+    {
+      "start": 3167.92,
+      "end": 3172.48,
+      "text": "in your prepared comments, you had mentioned building some of your own foundational models.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.07,
+        "mean_pitch_hz": 136.32,
+        "pitch_std_hz": 17.26,
+        "mean_energy": 0.06157
+      }
+    },
+    {
+      "start": 3172.48,
+      "end": 3179.2000000000003,
+      "text": "And I'm curious of how important you think it is for Apple to have their own foundational models.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.68,
+        "mean_pitch_hz": 135.23,
+        "pitch_std_hz": 18.28,
+        "mean_energy": 0.06811
+      }
+    },
+    {
+      "start": 3179.6800000000003,
+      "end": 3185.36,
+      "text": "And kind of dovetailed with that is that how do you think about your data center footprint when",
+      "audio_features": {
+        "pause_before_sec": 0.48,
+        "speaking_rate_wps": 3.17,
+        "mean_pitch_hz": 197.11,
+        "pitch_std_hz": 106.31,
+        "mean_energy": 0.07025
+      }
+    },
+    {
+      "start": 3185.36,
+      "end": 3191.2000000000003,
+      "text": "we look at Apple spending, call it three billion a quarter relative to some of these other companies",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 3.08,
+        "mean_pitch_hz": 127.34,
+        "pitch_std_hz": 8.08,
+        "mean_energy": 0.07149
+      }
+    },
+    {
+      "start": 3191.2000000000003,
+      "end": 3197.1200000000003,
+      "text": "spending multiples of that? How does the strategy play out in your opinion?",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.2,
+        "mean_pitch_hz": 122.05,
+        "pitch_std_hz": 9.04,
+        "mean_energy": 0.06294
+      }
+    },
+    {
+      "start": 3198.0800000000004,
+      "end": 3205.6800000000003,
+      "text": "Well, on the data center side, we have a hybrid strategy. And so we utilize third parties",
+      "audio_features": {
+        "pause_before_sec": 0.96,
+        "speaking_rate_wps": 2.24,
+        "mean_pitch_hz": 119.19,
+        "pitch_std_hz": 19.9,
+        "mean_energy": 0.07438
+      }
+    },
+    {
+      "start": 3205.76,
+      "end": 3214.32,
+      "text": "in addition to the data center investments that we're making. And as I mentioned in the 500",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.99,
+        "mean_pitch_hz": 110.69,
+        "pitch_std_hz": 13.5,
+        "mean_energy": 0.05972
+      }
+    },
+    {
+      "start": 3214.32,
+      "end": 3220.9600000000005,
+      "text": "billion, there's a number of states that we're expanding in. Some of those are data center",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.41,
+        "mean_pitch_hz": 109.52,
+        "pitch_std_hz": 13.19,
+        "mean_energy": 0.05952
+      }
+    },
+    {
+      "start": 3220.9600000000005,
+      "end": 3228.4,
+      "text": "investments. And so we do plan on making investments in that area. And we're not gating it.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.28,
+        "mean_pitch_hz": 114.07,
+        "pitch_std_hz": 15.24,
+        "mean_energy": 0.05635
+      }
+    },
+    {
+      "start": 3229.12,
+      "end": 3235.6800000000003,
+      "text": "It's we invest in the business first as Kevin talked about is our most important thing to do.",
+      "audio_features": {
+        "pause_before_sec": 0.72,
+        "speaking_rate_wps": 2.74,
+        "mean_pitch_hz": 108.86,
+        "pitch_std_hz": 9.82,
+        "mean_energy": 0.05111
+      }
+    },
+    {
+      "start": 3236.2400000000002,
+      "end": 3247.44,
+      "text": "In terms of the foundation models, we want to have certain models and we'll partner as well. And",
+      "audio_features": {
+        "pause_before_sec": 0.56,
+        "speaking_rate_wps": 1.61,
+        "mean_pitch_hz": 124.63,
+        "pitch_std_hz": 23.41,
+        "mean_energy": 0.05975
+      }
+    },
+    {
+      "start": 3247.44,
+      "end": 3256.4,
+      "text": "so I don't view it as a all of one or all of the other. We've been working on foundation models for",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.46,
+        "mean_pitch_hz": 109.13,
+        "pitch_std_hz": 12.14,
+        "mean_energy": 0.06489
+      }
+    },
+    {
+      "start": 3256.4,
+      "end": 3266.56,
+      "text": "quite some time and are shipping some today, obviously, with what's on device and what's in the",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.67,
+        "mean_pitch_hz": 96.33,
+        "pitch_std_hz": 6.5,
+        "mean_energy": 0.04226
+      }
+    },
+    {
+      "start": 3266.56,
+      "end": 3274.4,
+      "text": "private cloud compute. And then as a follow up, I'm curious with the iPhone 16E launching this",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.17,
+        "mean_pitch_hz": 151.02,
+        "pitch_std_hz": 38.8,
+        "mean_energy": 0.05046
+      }
+    },
+    {
+      "start": 3274.4,
+      "end": 3283.28,
+      "text": "quarter internalizing your C1 modem. I'm curious of how you see kind of the modem strategy playing",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.91,
+        "mean_pitch_hz": 136.52,
+        "pitch_std_hz": 18.51,
+        "mean_energy": 0.06104
+      }
+    },
+    {
+      "start": 3283.28,
+      "end": 3289.6000000000004,
+      "text": "out or maybe just the continual deepening of that internal silicon opportunity for Apple.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.22,
+        "mean_pitch_hz": 125.5,
+        "pitch_std_hz": 12.47,
+        "mean_energy": 0.05501
+      }
+    },
+    {
+      "start": 3290.2400000000002,
+      "end": 3297.6800000000003,
+      "text": "We're super excited to ship the first one and get it out there and it's gone well.",
+      "audio_features": {
+        "pause_before_sec": 0.64,
+        "speaking_rate_wps": 2.28,
+        "mean_pitch_hz": 116.14,
+        "pitch_std_hz": 18.8,
+        "mean_energy": 0.06394
+      }
+    },
+    {
+      "start": 3299.52,
+      "end": 3306.1600000000003,
+      "text": "We love that we can produce better products from a point of view of really focusing on",
+      "audio_features": {
+        "pause_before_sec": 1.84,
+        "speaking_rate_wps": 2.56,
+        "mean_pitch_hz": 110.1,
+        "pitch_std_hz": 12.02,
+        "mean_energy": 0.0498
+      }
+    },
+    {
+      "start": 3307.04,
+      "end": 3314.7999999999997,
+      "text": "battery life and and other things that customers want. And so we're we have started on",
+      "audio_features": {
+        "pause_before_sec": 0.88,
+        "speaking_rate_wps": 2.06,
+        "mean_pitch_hz": 106.85,
+        "pitch_std_hz": 10.11,
+        "mean_energy": 0.05988
+      }
+    },
+    {
+      "start": 3316.72,
+      "end": 3326.08,
+      "text": "a journey is the way I would put it. Thank you. Yep. Thank you, Aaron. A replay of today's call",
+      "audio_features": {
+        "pause_before_sec": 1.92,
+        "speaking_rate_wps": 2.14,
+        "mean_pitch_hz": 214.82,
+        "pitch_std_hz": 87.82,
+        "mean_energy": 0.03484
+      }
+    },
+    {
+      "start": 3326.08,
+      "end": 3332.7999999999997,
+      "text": "will be available for two weeks on Apple podcasts as a webcast on apple.com slash investor and via",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.68,
+        "mean_pitch_hz": 187.91,
+        "pitch_std_hz": 32.33,
+        "mean_energy": 0.05908
+      }
+    },
+    {
+      "start": 3332.88,
+      "end": 3342.8,
+      "text": "telephone. The number for the telephone replay is 866-583-1035. Please enter confirmation code",
+      "audio_features": {
+        "pause_before_sec": 0.08,
+        "speaking_rate_wps": 1.31,
+        "mean_pitch_hz": 205.35,
+        "pitch_std_hz": 43.37,
+        "mean_energy": 0.05972
+      }
+    },
+    {
+      "start": 3342.8,
+      "end": 3350.96,
+      "text": "372-9688 followed by the pound sign. These replays will be available by approximately 5 p.m.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.84,
+        "mean_pitch_hz": 194.86,
+        "pitch_std_hz": 32.62,
+        "mean_energy": 0.05734
+      }
+    },
+    {
+      "start": 3350.96,
+      "end": 3356.8,
+      "text": "Pacific time today. Members of the press with additional questions can contact Josh Rosenstock",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 2.4,
+        "mean_pitch_hz": 195.73,
+        "pitch_std_hz": 45.33,
+        "mean_energy": 0.06073
+      }
+    },
+    {
+      "start": 3356.8,
+      "end": 3365.76,
+      "text": "at 408-862-1142. And financial analysts can contact me, Suhasan, each other Molly with additional",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.56,
+        "mean_pitch_hz": 204.64,
+        "pitch_std_hz": 32.77,
+        "mean_energy": 0.06909
+      }
+    },
+    {
+      "start": 3365.76,
+      "end": 3372.6400000000003,
+      "text": "questions at 408-974-3123. Thank you again for joining us today.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 1.45,
+        "mean_pitch_hz": 188.66,
+        "pitch_std_hz": 29.43,
+        "mean_energy": 0.06281
+      }
+    },
+    {
+      "start": 3375.92,
+      "end": 3379.52,
+      "text": "Once again, this does conclude today's conference. We do appreciate your",
+      "audio_features": {
+        "pause_before_sec": 3.28,
+        "speaking_rate_wps": 3.06,
+        "mean_pitch_hz": 214.7,
+        "pitch_std_hz": 33.82,
+        "mean_energy": 0.09073
+      }
+    },
+    {
+      "start": 3379.52,
+      "end": 3381.52,
+      "text": "time.",
+      "audio_features": {
+        "pause_before_sec": 0.0,
+        "speaking_rate_wps": 0.5,
+        "mean_pitch_hz": 184.62,
+        "pitch_std_hz": 5.91,
+        "mean_energy": 0.0765
+      }
+    }
+  ]
+}

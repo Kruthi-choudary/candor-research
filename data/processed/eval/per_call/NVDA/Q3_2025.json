@@ -1,0 +1,73 @@
+{
+  "ticker": "NVDA",
+  "quarter": "Q3_2025",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "Operating expenses increased by 9% due to higher compute, infrastructure, and engineering development.",
+      "source_text": "operating expenses were up 9%. Due to higher compute, infrastructure and engineering development",
+      "timestamp_sec": 1093,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "NVIDIA Hopper demand is exceptional and sequential NVIDIA H200 sales increased significantly.",
+      "source_text": "NVIDIA Hopper demand is exceptional and sequentially NVIDIA H200 sales increased significantly",
+      "timestamp_sec": 168,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue of 486 million grew 7% sequentially and 17% year on year.",
+      "source_text": "Revenue of 486 million was up 7% sequentially and 17% year on year.",
+      "timestamp_sec": 1009,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year.",
+      "source_text": "PCs. Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year. Q3 was a",
+      "timestamp_sec": 916,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Networking business was down about 15 percent.",
+      "source_text": "quarter you know Klet you mentioned that obviously the networking business was down about 15 percent",
+      "timestamp_sec": 3022,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue was down 75% sequentially, primarily driven by a mix shift of the H100 systems to more complex configurations.",
+      "source_text": "was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex",
+      "timestamp_sec": 1078,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Higher\u2011cost data\u2011center systems led to a sequential increase in operating expenses and non\u2011GAAP gaps.",
+      "source_text": "and higher cost systems within data center. Sequentially, gap operating expenses and non-gap",
+      "timestamp_sec": 1086,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Suppliers indicate a tight quarter ahead as the company turns the corner into the new calendar year.",
+      "source_text": "more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter.",
+      "timestamp_sec": 3239,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

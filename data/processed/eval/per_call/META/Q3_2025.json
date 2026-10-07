@@ -1,0 +1,73 @@
+{
+  "ticker": "META",
+  "quarter": "Q3_2025",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "Overall service usage grew 14%.",
+      "source_text": "served across our services increased 14%.",
+      "timestamp_sec": 547,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Legal-related expenses grew more than in Q2.",
+      "source_text": "First, legal-related expense growth was higher than in Q2,",
+      "timestamp_sec": 648,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "WhatsApp paid messaging revenue drove a 59% increase.",
+      "source_text": "up 59%, driven by WhatsApp paid messaging revenue growth,",
+      "timestamp_sec": 581,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Ad performance improvements were a major driver of growth.",
+      "source_text": "largely driven by improved ad performance.",
+      "timestamp_sec": 566,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The quarter included an accounting charge.",
+      "source_text": "resulted in an accounting charge in the third quarter,",
+      "timestamp_sec": 741,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Charges recorded in the third quarter impacted results.",
+      "source_text": "due to charges we recorded in the third quarter,",
+      "timestamp_sec": 652,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Depreciation on incremental CAPX spend affected earnings.",
+      "source_text": "depreciation on our incremental CAPX spend,",
+      "timestamp_sec": 679,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "European revenue faced a negative impact.",
+      "source_text": "negative impact on our European revenue",
+      "timestamp_sec": 1629,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "claim": "iPhone revenue reached $46.8 billion, a 2% year-over-year increase.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 217,
+        "source_text": "iPhone. iPhone revenue was $46.8 billion, up 2% from a year ago. During the quarter, we introduced"
+      }
+    },
+    {
+      "claim": "The company observed strong momentum in the March quarter despite a negative foreign-exchange impact.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1078,
+        "source_text": "the negative impact from foreign exchange. We saw strong momentum in the March quarter,"
+      }
+    },
+    {
+      "claim": "Management expects foreign-exchange conditions to improve sequentially in the June quarter.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 2139,
+        "source_text": "over year, we do expect foreign exchange in the June quarter to improve sequentially. However,"
+      }
+    },
+    {
+      "claim": "The iPhone 16 family drove iPhone revenue to $46.8 billion, up 2% YoY.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 945,
+        "source_text": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family."
+      }
+    },
+    {
+      "claim": "Product gross margin fell to 35.9%, down 340 basis points sequentially due to product mix.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 896,
+        "source_text": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix,"
+      }
+    },
+    {
+      "claim": "Revenue of $7.5 billion declined 5% year over year, reflecting a tougher comparative environment.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1040,
+        "source_text": "was $7.5 billion, down 5% year over year. Keep in mind, we did face a more difficult compare"
+      }
+    },
+    {
+      "claim": "The company\u2019s performance was down 2% in the March quarter.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1780,
+        "source_text": "tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a"
+      }
+    },
+    {
+      "claim": "Wearables and accessories revenue was $7.5 billion, down 5% year over year.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 378,
+        "source_text": "wearables home in accessories, revenue was $7.5 billion down 5% from a year ago. From walking trails"
+      }
+    }
+  ],
+  "overall_summary": "Apple\u2019s iPhone segment showed modest growth, with revenue hitting $46.8\u202fbillion and a 2% YoY increase, while foreign\u2011exchange conditions are expected to improve. However, product margins contracted and wearables revenue declined, leading to a largely neutral sentiment overall (22.4% positive, 3.8% negative, 73.9% neutral)."
+}

@@ -1,0 +1,5071 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.18,
+      "text": "Greetings and welcome to the Microsoft fiscal year 2024 fourth quarter earnings conference",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8497496843338013
+      }
+    },
+    {
+      "start": 9.18,
+      "end": 14.68,
+      "text": "call. At this time, all participants are in a listen-only mode. A question and answer",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9376222491264343
+      }
+    },
+    {
+      "start": 14.68,
+      "end": 19.84,
+      "text": "session will follow the formal presentation. If anyone should require operator assistance",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.894740641117096
+      }
+    },
+    {
+      "start": 19.84,
+      "end": 25.76,
+      "text": "during the conference, please press star zero on your telephone keypad. As a reminder, this",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9473403692245483
+      }
+    },
+    {
+      "start": 25.76,
+      "end": 29.6,
+      "text": "conference is being recorded. I would now like to turn the conference over to your",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9518114924430847
+      }
+    },
+    {
+      "start": 29.6,
+      "end": 33.88,
+      "text": "host, Brett Iverson, Vice President of Investor Relations.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9408978819847107
+      }
+    },
+    {
+      "start": 33.88,
+      "end": 38.6,
+      "text": "Good afternoon and thank you for joining us today. On the call with me are Satine Adala,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9135079979896545
+      }
+    },
+    {
+      "start": 38.6,
+      "end": 44.480000000000004,
+      "text": "Chairman and Chief Executive Officer, Amy Hood, Chief Financial Officer, Alice Jala,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9510659575462341
+      }
+    },
+    {
+      "start": 44.480000000000004,
+      "end": 50.400000000000006,
+      "text": "Chief Accounting Officer, and Keith Oliver, Corporate Secretary and Deputy General Counsel.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9460332989692688
+      }
+    },
+    {
+      "start": 50.400000000000006,
+      "end": 55.2,
+      "text": "On the Microsoft Investor Relations website, you can find our earnings press release and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9483340978622437
+      }
+    },
+    {
+      "start": 55.2,
+      "end": 60.040000000000006,
+      "text": "financial summary slide deck, which is intended to supplement our prepared remarks during today's",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9486533999443054
+      }
+    },
+    {
+      "start": 60.040000000000006,
+      "end": 66.96000000000001,
+      "text": "call and provides the reconciliation of differences between GAP and non-GAP financial measures.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.884557843208313
+      }
+    },
+    {
+      "start": 66.96000000000001,
+      "end": 71.80000000000001,
+      "text": "More detailed outlook slides will be available on the Microsoft Investor Relations website",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9464633464813232
+      }
+    },
+    {
+      "start": 71.80000000000001,
+      "end": 76.76,
+      "text": "when we provide Outlook commentary on today's call. On this call, we will discuss certain",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.941969096660614
+      }
+    },
+    {
+      "start": 76.76,
+      "end": 83.04,
+      "text": "non-GAP items. The non-GAP financial measures provided should not be considered as a substitute",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9433003664016724
+      }
+    },
+    {
+      "start": 83.08000000000001,
+      "end": 88.68,
+      "text": "for or superior to the measures of financial performance prepared in accordance with GAP.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9155870079994202
+      }
+    },
+    {
+      "start": 88.68,
+      "end": 93.16000000000001,
+      "text": "They are included as additional clarifying items to aid investors in further understanding",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8662678599357605
+      }
+    },
+    {
+      "start": 93.16000000000001,
+      "end": 98.0,
+      "text": "the company's fourth-order performance. In addition to the impact these items and events",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9297654628753662
+      }
+    },
+    {
+      "start": 98.0,
+      "end": 104.08000000000001,
+      "text": "have on the financial results, all growth comparisons we make on the call today relate to the corresponding",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.947197437286377
+      }
+    },
+    {
+      "start": 104.08000000000001,
+      "end": 109.16000000000001,
+      "text": "period of last year unless otherwise noted. We will also provide growth rates and constant",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9494417309761047
+      }
+    },
+    {
+      "start": 109.16,
+      "end": 114.28,
+      "text": "currency when available, as a framework for assessing how our underlying business is performed",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8854625225067139
+      }
+    },
+    {
+      "start": 114.28,
+      "end": 119.92,
+      "text": "excluding the effect of foreign currency rate fluctuations. Where growth rates are the same",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9418697953224182
+      }
+    },
+    {
+      "start": 119.92,
+      "end": 125.08,
+      "text": "in constant currency, we will refer to the growth rate only. We will post our prepared remarks",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9514962434768677
+      }
+    },
+    {
+      "start": 125.08,
+      "end": 130.92,
+      "text": "to our website immediately following the call until the complete transcript is available.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9464488625526428
+      }
+    },
+    {
+      "start": 130.92,
+      "end": 135.44,
+      "text": "Today's call has been webcast live and recorded. If you ask a question, it will be included",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9491381049156189
+      }
+    },
+    {
+      "start": 135.44,
+      "end": 140.64,
+      "text": "in our live transmission, in the transcript, and in any future use of the recording. You",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9501534104347229
+      }
+    },
+    {
+      "start": 140.64,
+      "end": 146.48,
+      "text": "can replay the call and view the transcript on the Microsoft Investor Relations website.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.949164867401123
+      }
+    },
+    {
+      "start": 146.48,
+      "end": 151.16,
+      "text": "During this call, we will be making four looking statements which are predictions, projections,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9453195929527283
+      }
+    },
+    {
+      "start": 151.16,
+      "end": 156.28,
+      "text": "or other statements about future events. These statements are based on current expectations",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9382431507110596
+      }
+    },
+    {
+      "start": 156.28,
+      "end": 162.84,
+      "text": "and assumptions that are subject to risks and uncertainties. Actual results could materially",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.8387370109558105
+      }
+    },
+    {
+      "start": 162.92000000000002,
+      "end": 168.08,
+      "text": "differ because of factors discussed in today's earnings press release in the comments made",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9354246854782104
+      }
+    },
+    {
+      "start": 168.08,
+      "end": 174.12,
+      "text": "during this conference call and in the risk factors section of our Form 10K, Forms 10Q,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9506476521492004
+      }
+    },
+    {
+      "start": 174.12,
+      "end": 179.16,
+      "text": "and other reports and filings with the Securities and Exchange Commission. We do not undertake",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9162681698799133
+      }
+    },
+    {
+      "start": 179.16,
+      "end": 184.88,
+      "text": "any duty to update any forward-looking statement. And with that, I will turn the call over to Satya.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9422199726104736
+      }
+    },
+    {
+      "start": 184.88,
+      "end": 191.04,
+      "text": "Thank you, Brad. We had a solid close to our fiscal year. All up annual revenue was more",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9333274364471436
+      }
+    },
+    {
+      "start": 191.04,
+      "end": 199.04,
+      "text": "than $245 billion, up 15% year over year, and Microsoft Cloud revenue surpassed $135",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9532817006111145
+      }
+    },
+    {
+      "start": 199.04,
+      "end": 207.04,
+      "text": "billion, up 23%. Before I dive in, I want to offer some broader perspective on the AI platform",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6977992653846741
+      }
+    },
+    {
+      "start": 207.04,
+      "end": 212.64,
+      "text": "shift. Similar to the cloud, this transition involves both knowledge and capital-intensive",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8755652904510498
+      }
+    },
+    {
+      "start": 212.64,
+      "end": 219.51999999999998,
+      "text": "investments. And as we go through this shift, we are focused on two fundamental things. First,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8651293516159058
+      }
+    },
+    {
+      "start": 219.52,
+      "end": 225.44,
+      "text": "driving innovation across a product portfolio that spans infrastructure and applications so",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7505940794944763
+      }
+    },
+    {
+      "start": 225.44,
+      "end": 231.92000000000002,
+      "text": "as to ensure that we are maximizing our opportunity while in parallel continuing to scale our cloud",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7824273109436035
+      }
+    },
+    {
+      "start": 231.92000000000002,
+      "end": 239.28,
+      "text": "business and prioritizing fundamentals starting with security. Second, using customer demand",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8796194791793823
+      }
+    },
+    {
+      "start": 239.28,
+      "end": 245.52,
+      "text": "signal and time to value to manage our cost structure dynamically and generate durable long-term",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7532110214233398
+      }
+    },
+    {
+      "start": 245.52,
+      "end": 250.16,
+      "text": "operating leverage. With that, let me highlight examples starting with Azure.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9302500486373901
+      }
+    },
+    {
+      "start": 250.96,
+      "end": 257.52,
+      "text": "Our share gains accelerated this year, driven by AI. We expanded our data center footprint",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9310694336891174
+      }
+    },
+    {
+      "start": 257.52,
+      "end": 263.92,
+      "text": "announcing investments across four continents. These are long-term assets around the world to drive",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9222628474235535
+      }
+    },
+    {
+      "start": 263.92,
+      "end": 270.40000000000003,
+      "text": "growth for the next decade and beyond. We added new AI accelerators from AMD and NVIDIA,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8112519383430481
+      }
+    },
+    {
+      "start": 270.4,
+      "end": 276.88,
+      "text": "as well as our own first-party Silicon Azure Maya. And we introduced new Cobalt 100, which provides",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7859727144241333
+      }
+    },
+    {
+      "start": 276.88,
+      "end": 283.03999999999996,
+      "text": "best-in-class performance for customers like Elastic, MongoDB, Siemens, Snowflake, and Teradata.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9437394142150879
+      }
+    },
+    {
+      "start": 284.0,
+      "end": 289.67999999999995,
+      "text": "We continue to see sustained revenue growth from migrations. Azure Arc is helping customers in",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9285600781440735
+      }
+    },
+    {
+      "start": 289.67999999999995,
+      "end": 295.52,
+      "text": "every industry from ABB and Cathay Pacific to La Liga to streamline their cloud migrations.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8838874697685242
+      }
+    },
+    {
+      "start": 296.24,
+      "end": 304.0,
+      "text": "We now have 36,000 our customers up 90 percent year over year. We remain the hyperscale cloud",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6395241022109985
+      }
+    },
+    {
+      "start": 304.0,
+      "end": 310.96,
+      "text": "with choice for SAP and Oracle workloads, ATOS, Coles, Daimler, Truck AG, Domino's,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9101080894470215
+      }
+    },
+    {
+      "start": 310.96,
+      "end": 317.03999999999996,
+      "text": "Helion, for example, all migrated their mission-critical SAP workloads to our cloud.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7974279522895813
+      }
+    },
+    {
+      "start": 317.03999999999996,
+      "end": 324.08,
+      "text": "And with our Azure VMware solution, we offer the fastest and most cost-effective way for customers",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.808295488357544
+      }
+    },
+    {
+      "start": 324.08,
+      "end": 331.44,
+      "text": "to migrate their VMware workloads to. With Azure AI, we are building out the app server for the AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8317939639091492
+      }
+    },
+    {
+      "start": 331.44,
+      "end": 337.2,
+      "text": "wave, providing access to the most diverse selection of models to meet customers' unique cost, latency,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5386460423469543
+      }
+    },
+    {
+      "start": 337.2,
+      "end": 344.79999999999995,
+      "text": "and design considerations. All up, we now have over 60,000 Azure AI customers up nearly 60 percent",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6746855974197388
+      }
+    },
+    {
+      "start": 344.79999999999995,
+      "end": 351.36,
+      "text": "year over year, and average spend per customer continues to grow. Azure OpenAI service provides",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8437277674674988
+      }
+    },
+    {
+      "start": 351.36,
+      "end": 358.0,
+      "text": "access to best-in-class frontier models, including as of this quarter, GPT-40 and GPT-40 mini.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6070048809051514
+      }
+    },
+    {
+      "start": 358.96000000000004,
+      "end": 365.12,
+      "text": "It's being used by leading companies in every industry, including H&R blocks, Zukki,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8099964261054993
+      }
+    },
+    {
+      "start": 365.12,
+      "end": 370.48,
+      "text": "Swiss-free, Telstra, as well as digital natives like Freshworks, Mysho, and Zomato.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8906432390213013
+      }
+    },
+    {
+      "start": 371.6,
+      "end": 378.0,
+      "text": "With 5.3, we offer a family of powerful small-language models, which are being used by companies like Black",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.752382755279541
+      }
+    },
+    {
+      "start": 378.0,
+      "end": 383.04,
+      "text": "Rock, Emirates, Epic, ITC, Navy, Federal Credit Union, and others.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9524586200714111
+      }
+    },
+    {
+      "start": 384.08,
+      "end": 390.24,
+      "text": "And with models as a service, we provide API access to third-party models, including as of last week,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6673064231872559
+      }
+    },
+    {
+      "start": 390.24,
+      "end": 397.2,
+      "text": "the latest from Cohere, Meta, and Mistral. The number of paid models as service customers,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9301449656486511
+      }
+    },
+    {
+      "start": 397.2,
+      "end": 402.56,
+      "text": "more than double quarter over quarter, and we are seeing increased usage by leaders in every",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9355795383453369
+      }
+    },
+    {
+      "start": 402.56,
+      "end": 406.88,
+      "text": "industry, from Adobe and Bridgestone to Novonodisk and Palantir.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9346355199813843
+      }
+    },
+    {
+      "start": 408.16,
+      "end": 414.0,
+      "text": "Now on to data. Our Microsoft Intelligent Data Platform provides customers with the broadest",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7542020082473755
+      }
+    },
+    {
+      "start": 414.0,
+      "end": 420.32,
+      "text": "capability spanning databases, analytics, business intelligence, and governance, along with seamless",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5768837332725525
+      }
+    },
+    {
+      "start": 420.32,
+      "end": 427.36,
+      "text": "integration with all of our AI services. The number of Azure AI customers also using our data and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9097088575363159
+      }
+    },
+    {
+      "start": 427.36,
+      "end": 434.64,
+      "text": "analytics tools grew nearly 50% year over year. Microsoft Fabric, our AI-powered next-generation",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6401099562644958
+      }
+    },
+    {
+      "start": 434.64,
+      "end": 440.88,
+      "text": "data platform, now has over 14,000 paid customers, including leaders in every industry,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6067003607749939
+      }
+    },
+    {
+      "start": 440.88,
+      "end": 447.2,
+      "text": "from Accenture and Kroger to Rockwell Automation and Zeiss, up 20% quarter over quarter.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9306688904762268
+      }
+    },
+    {
+      "start": 447.92,
+      "end": 454.08000000000004,
+      "text": "And this quarter, we introduced new first of their kind, real-time intelligence capabilities in",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6555491089820862
+      }
+    },
+    {
+      "start": 454.08,
+      "end": 459.03999999999996,
+      "text": "fabrics or customers can unlock insights on high-volume, time-sensitive data.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8781470656394958
+      }
+    },
+    {
+      "start": 459.91999999999996,
+      "end": 465.84,
+      "text": "Now on to developer tools. Get Up Co-Pilot is by far the most widely adopted AI-powered",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8851731419563293
+      }
+    },
+    {
+      "start": 465.84,
+      "end": 472.96,
+      "text": "developer tool. Just over two years since its general availability, more than 77,000 organizations",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.852540910243988
+      }
+    },
+    {
+      "start": 472.96,
+      "end": 481.52,
+      "text": "from BBVA, FedEx, and H&M to Infosys and PATM have adopted Co-Pilot up 180% year over year.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6607060432434082
+      }
+    },
+    {
+      "start": 482.08,
+      "end": 487.35999999999996,
+      "text": "And we're going further. With Co-Pilot workspace, we offer Co-Pilot native end-to-end developer",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.759783148765564
+      }
+    },
+    {
+      "start": 487.35999999999996,
+      "end": 494.08,
+      "text": "productivity across planned, build, test, debug, and deploy cycle. Co-Pilot is driving",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7617950439453125
+      }
+    },
+    {
+      "start": 494.08,
+      "end": 500.32,
+      "text": "get-up growth all up. Get-up annual revenue run rate is now $2 billion. Co-Pilot accounted for",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8186720013618469
+      }
+    },
+    {
+      "start": 500.32,
+      "end": 505.52,
+      "text": "over 40% of get-up revenue growth this year and is already a larger business than all",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6891807317733765
+      }
+    },
+    {
+      "start": 505.52000000000004,
+      "end": 512.0,
+      "text": "the get-up was when we acquired it. We're also integrating generative AI across power platform",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.829211413860321
+      }
+    },
+    {
+      "start": 512.0,
+      "end": 517.44,
+      "text": "enabling anyone to use natural language to create apps, automate workflows, or build a website.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9341681003570557
+      }
+    },
+    {
+      "start": 518.24,
+      "end": 524.48,
+      "text": "Today, over 480,000 organizations have used AI-powered capabilities in power platform,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.859272837638855
+      }
+    },
+    {
+      "start": 524.48,
+      "end": 531.6800000000001,
+      "text": "up 45% quarter over quarter. In total, we now have 48 million monthly active users of power",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9243239760398865
+      }
+    },
+    {
+      "start": 531.6800000000001,
+      "end": 540.32,
+      "text": "platform up 40% year over year. Now on to future work. Co-Pilot for Microsoft 365 is becoming a daily",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6110280156135559
+      }
+    },
+    {
+      "start": 540.32,
+      "end": 547.7600000000001,
+      "text": "habit for knowledge workers as it transforms work, workflow, and work artifacts. The number of people",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6147992014884949
+      }
+    },
+    {
+      "start": 547.7600000000001,
+      "end": 552.6400000000001,
+      "text": "who use Co-Pilot daily at work nearly double quarter over quarter as they use it to complete",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.592729926109314
+      }
+    },
+    {
+      "start": 552.6400000000001,
+      "end": 557.7600000000001,
+      "text": "tasks faster, hold more more effective meetings, and automate business workflows and processes.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8289769291877747
+      }
+    },
+    {
+      "start": 558.64,
+      "end": 564.88,
+      "text": "Co-Pilot customers increased more than 60% quarter over quarter. Feedback has been positive",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9521514177322388
+      }
+    },
+    {
+      "start": 564.88,
+      "end": 570.24,
+      "text": "with majority of enterprise customers coming back to purchase more seats. All up, the number",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7603355050086975
+      }
+    },
+    {
+      "start": 570.24,
+      "end": 575.92,
+      "text": "of customers with more than 10,000 seats, more than doubled quarter over quarter including capital",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.873795747756958
+      }
+    },
+    {
+      "start": 575.92,
+      "end": 585.36,
+      "text": "group, Disney, Dow, Kendro, Novartis, and EY alone will deploy Co-Pilot to 150,000 of its employees.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6167168021202087
+      }
+    },
+    {
+      "start": 586.08,
+      "end": 593.6800000000001,
+      "text": "And we're going further adding agent capabilities to Co-Pilot. New team Co-Pilot can facilitate",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5899588465690613
+      }
+    },
+    {
+      "start": 593.6800000000001,
+      "end": 600.96,
+      "text": "meetings and create and assign tasks. And with Co-Pilot, studio customers can extend Co-Pilot for",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9342553615570068
+      }
+    },
+    {
+      "start": 600.96,
+      "end": 607.2,
+      "text": "Microsoft 365 and build custom Co-Pilots that proactively respond to data and events using",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8655593395233154
+      }
+    },
+    {
+      "start": 607.2,
+      "end": 613.9200000000001,
+      "text": "their own first and third party business data. To date, 50,000 organizations from Carnival",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9435250759124756
+      }
+    },
+    {
+      "start": 613.92,
+      "end": 622.16,
+      "text": "Corporations, Cognizant, and Eaton to KPMG, Majesco, and McKinsey have used Co-Pilot studio up over",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9396560192108154
+      }
+    },
+    {
+      "start": 622.16,
+      "end": 629.12,
+      "text": "70% quarter over quarter. We're also extending Co-Pilot to specific industries including healthcare,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6099997758865356
+      }
+    },
+    {
+      "start": 629.12,
+      "end": 635.04,
+      "text": "a DAX Co-Pilot, more than 400 healthcare organizations including Community Health Network,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.788511335849762
+      }
+    },
+    {
+      "start": 635.04,
+      "end": 639.76,
+      "text": "Intermountain, Northwestern, Memorial Healthcare, and Ohio State University,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9397338032722473
+      }
+    },
+    {
+      "start": 639.76,
+      "end": 646.3199999999999,
+      "text": "Wexner Medical Center have purchased DAX Co-Pilot to date up 40% quarter over quarter",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.851648211479187
+      }
+    },
+    {
+      "start": 646.3199999999999,
+      "end": 653.12,
+      "text": "and the number of EY generated clinical reports more than tripled. Co-Pilot is also transforming",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6246986389160156
+      }
+    },
+    {
+      "start": 653.12,
+      "end": 658.16,
+      "text": "ERP and CRM business applications. We again took share this quarter as customers like",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8187666535377502
+      }
+    },
+    {
+      "start": 658.16,
+      "end": 664.64,
+      "text": "Thermo Fisher Scientific switched to Dynamics. Our new Dynamics 365 Contact Center is a Co-Pilot",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9441447257995605
+      }
+    },
+    {
+      "start": 664.64,
+      "end": 669.1999999999999,
+      "text": "first solution that infuses generated AI throughout the Contact Center workflow.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.857363224029541
+      }
+    },
+    {
+      "start": 669.76,
+      "end": 675.84,
+      "text": "Companies like 1-800 Flowers, Mediterranean Shipping, Synoptech will rely on it to deliver",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8528358936309814
+      }
+    },
+    {
+      "start": 675.84,
+      "end": 684.16,
+      "text": "better customer support. Dynamics 365 Business Central is now trusted by over 40,000 organizations",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5255611538887024
+      }
+    },
+    {
+      "start": 684.16,
+      "end": 691.12,
+      "text": "for core ERP. Microsoft Teams has become essential to how hundreds of millions of people meet,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9147152304649353
+      }
+    },
+    {
+      "start": 691.12,
+      "end": 696.96,
+      "text": "call, chat, collaborate, and do business. We once again saw year-over-year usage growth.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9268786907196045
+      }
+    },
+    {
+      "start": 696.96,
+      "end": 704.48,
+      "text": "Teams Premium has surpassed 3 million seats up nearly 400% year-over-year as organizations like",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8929255604743958
+      }
+    },
+    {
+      "start": 704.48,
+      "end": 712.0,
+      "text": "Densu, Eli Lilly, and Ford chose it for advanced features like end-to-end encryption and real-time",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8552766442298889
+      }
+    },
+    {
+      "start": 712.0,
+      "end": 719.6,
+      "text": "translation. When it comes to devices, we introduced our new category of Co-Pilot plus PCs this quarter.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7368583679199219
+      }
+    },
+    {
+      "start": 720.16,
+      "end": 725.84,
+      "text": "They are the fastest, most intelligent Windows PCs ever. They include a new system architecture",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8449983596801758
+      }
+    },
+    {
+      "start": 725.84,
+      "end": 732.48,
+      "text": "designed to deliver best-in-class performance and breakthrough AI experiences. We are delighted",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7794699668884277
+      }
+    },
+    {
+      "start": 732.48,
+      "end": 738.5600000000001,
+      "text": "by early reviews and we are looking forward to the introduction of more Co-Pilot plus PCs",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5249618291854858
+      }
+    },
+    {
+      "start": 738.5600000000001,
+      "end": 744.72,
+      "text": "powered by all of our silicon and OEM partners in the coming months. More broadly, Windows 11",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8677639365196228
+      }
+    },
+    {
+      "start": 744.72,
+      "end": 751.36,
+      "text": "active devices increased 50% year-over-year and we are seeing accelerated adoption of Windows 11",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9491979479789734
+      }
+    },
+    {
+      "start": 751.36,
+      "end": 758.32,
+      "text": "by companies like Carlsberg, Eon, National Australia Bank. And now on to security.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9394837617874146
+      }
+    },
+    {
+      "start": 758.32,
+      "end": 764.0,
+      "text": "We continue to prioritize security about all else. We are doubling down on our secure future",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9426116943359375
+      }
+    },
+    {
+      "start": 764.0,
+      "end": 770.1600000000001,
+      "text": "initiative as we implement our principles of secure by design, secure by default, and secure",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8155772686004639
+      }
+    },
+    {
+      "start": 770.16,
+      "end": 775.4399999999999,
+      "text": "operations. Through this initiative, we are also continually applying what we are learning",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6547480225563049
+      }
+    },
+    {
+      "start": 775.4399999999999,
+      "end": 780.8,
+      "text": "and translating it into innovation for our customers including how we approach AI.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7765625715255737
+      }
+    },
+    {
+      "start": 780.8,
+      "end": 787.1999999999999,
+      "text": "Over a thousand paid customers used Co-Pilot for security including Alaska Airlines,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9344105124473572
+      }
+    },
+    {
+      "start": 787.1999999999999,
+      "end": 795.4399999999999,
+      "text": "Oregon State University, Petrovac, Wipro, WTW, and we are also securing customers' AI deployments",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.535480260848999
+      }
+    },
+    {
+      "start": 795.44,
+      "end": 802.5600000000001,
+      "text": "with updates to Defender and PerView. All up, we now have 1.2 million security customers",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8554543852806091
+      }
+    },
+    {
+      "start": 802.5600000000001,
+      "end": 809.12,
+      "text": "over 800,000 including Dell Technologies, Deutsche Telcom, Tom Tom use four or more workloads,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.935901939868927
+      }
+    },
+    {
+      "start": 809.12,
+      "end": 817.36,
+      "text": "up 25% year-over-year. And Defender for Cloud, our cloud security solution surpassed $1 billion",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9375539422035217
+      }
+    },
+    {
+      "start": 817.36,
+      "end": 823.12,
+      "text": "in revenue over the past 12 months as we protect customer workloads across multi-cloud and hybrid",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.86668860912323
+      }
+    },
+    {
+      "start": 823.2,
+      "end": 827.84,
+      "text": "environments. Now let me turn to our consumer businesses starting with LinkedIn.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9287126064300537
+      }
+    },
+    {
+      "start": 828.48,
+      "end": 834.48,
+      "text": "LinkedIn continues to see accelerated member growth and record engagement.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9518039226531982
+      }
+    },
+    {
+      "start": 834.48,
+      "end": 840.96,
+      "text": "1.5 million pieces of content are shared every minute on the platform and video is now the fastest",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9345229864120483
+      }
+    },
+    {
+      "start": 840.96,
+      "end": 847.76,
+      "text": "growing format on LinkedIn with uploads up 34% year-over-year. LinkedIn marketing solutions",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9189298152923584
+      }
+    },
+    {
+      "start": 847.76,
+      "end": 853.04,
+      "text": "continues to be a leader in B2B digital advertising helping companies deliver the right message",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8893522620201111
+      }
+    },
+    {
+      "start": 853.04,
+      "end": 858.8,
+      "text": "to the right audience on a safe, trusted platform. And when it comes to our subscription businesses,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.879411518573761
+      }
+    },
+    {
+      "start": 858.8,
+      "end": 864.64,
+      "text": "premium sign-ups increased 51% this fiscal year and we're adding even more value to our members",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9473590850830078
+      }
+    },
+    {
+      "start": 864.64,
+      "end": 870.8,
+      "text": "and customers with new AI tools. Our reimagined AI-powered LinkedIn premium experience is now",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6347575783729553
+      }
+    },
+    {
+      "start": 870.8,
+      "end": 876.9599999999999,
+      "text": "available for every premium subscriber worldwide helping them more easily and intuitively connect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6461942195892334
+      }
+    },
+    {
+      "start": 876.96,
+      "end": 883.6,
+      "text": "to opportunity, learn and get career coaching. Finally, hiring Tookshare for the second consecutive",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8556510806083679
+      }
+    },
+    {
+      "start": 883.6,
+      "end": 890.4000000000001,
+      "text": "year and now on to search advertising and news. We are ensuring that Bing, Edge and Co-Pilot",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.592748761177063
+      }
+    },
+    {
+      "start": 890.4000000000001,
+      "end": 896.4000000000001,
+      "text": "collectively are driving more engagement and value to end users, publishers and advertisers.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6576709747314453
+      }
+    },
+    {
+      "start": 896.4000000000001,
+      "end": 904.48,
+      "text": "Our overall revenue, X-TAC increased 19% year-over-year and we again Tookshare across Bing and Edge.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9582144618034363
+      }
+    },
+    {
+      "start": 905.12,
+      "end": 911.12,
+      "text": "We continue to apply generative AI to pioneer new approaches to how people search and browse.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6521751880645752
+      }
+    },
+    {
+      "start": 911.12,
+      "end": 916.08,
+      "text": "Just last week we announced we are testing a new generative search experience which creates",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7459827661514282
+      }
+    },
+    {
+      "start": 916.08,
+      "end": 923.6,
+      "text": "a dynamic response to users query while maintaining click share to publishers and we continue to drive",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6860342621803284
+      }
+    },
+    {
+      "start": 923.6,
+      "end": 930.08,
+      "text": "record engagement with Co-Pilot for the web. Consumers have used Co-Pilot to create over 12 billion",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7162111401557922
+      }
+    },
+    {
+      "start": 930.1600000000001,
+      "end": 936.96,
+      "text": "images and conduct 13 billion chats to date up 150% since the start of the calendar year.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8961406946182251
+      }
+    },
+    {
+      "start": 937.84,
+      "end": 943.76,
+      "text": "Thousands of news and entertainment publishers trust us to reach new audiences with Microsoft's start",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7906888723373413
+      }
+    },
+    {
+      "start": 943.76,
+      "end": 950.24,
+      "text": "and in fact we have paid them 1 billion dollars over the last five years. We are helping advertisers",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7198750376701355
+      }
+    },
+    {
+      "start": 950.24,
+      "end": 956.8000000000001,
+      "text": "increase their ROI2. We have seen positive response to performance Macs which uses AI to",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9585382342338562
+      }
+    },
+    {
+      "start": 956.8000000000001,
+      "end": 963.36,
+      "text": "dynamically create and optimize ads and Co-Pilot in Microsoft ad platform helps marketeers create",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8359360098838806
+      }
+    },
+    {
+      "start": 963.36,
+      "end": 971.84,
+      "text": "campaigns and troubleshoot using natural language. Now on to gaming. We now have over 500 million",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9266411662101746
+      }
+    },
+    {
+      "start": 971.84,
+      "end": 977.84,
+      "text": "monthly active users across platforms and devices and our content pipeline has never been stronger.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9375129342079163
+      }
+    },
+    {
+      "start": 978.6400000000001,
+      "end": 985.7600000000001,
+      "text": "We previewed a record 30 new titles at our showcase this quarter, 18 of them such as Call of Duty,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6513653993606567
+      }
+    },
+    {
+      "start": 985.76,
+      "end": 992.24,
+      "text": "Black Ops 6 will be available on Game Pass. Game Pass Ultimate subscribers can now stream",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9493988156318665
+      }
+    },
+    {
+      "start": 992.24,
+      "end": 998.08,
+      "text": "games directly on devices they already have including as of last month Amazon Fire TVs.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9434343576431274
+      }
+    },
+    {
+      "start": 998.8,
+      "end": 1005.6,
+      "text": "Finally we are bringing our IP to new audiences. Fallout for example made its debut as a TV show",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7241209149360657
+      }
+    },
+    {
+      "start": 1005.6,
+      "end": 1013.28,
+      "text": "on Amazon Prime this quarter. It was the second most watched title on the platform ever and hours",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8567631244659424
+      }
+    },
+    {
+      "start": 1013.28,
+      "end": 1019.36,
+      "text": "played on Game Pass for the Fallout franchise increased nearly 5x quarter over quarter.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9307312369346619
+      }
+    },
+    {
+      "start": 1020.0,
+      "end": 1025.76,
+      "text": "In closing I'm energized about the opportunities ahead we are investing for the long term in our",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.643261194229126
+      }
+    },
+    {
+      "start": 1025.76,
+      "end": 1031.6,
+      "text": "fundamentals in our innovation and in our people with that let me turn it over to Amy.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9116401076316833
+      }
+    },
+    {
+      "start": 1032.24,
+      "end": 1038.48,
+      "text": "Thank you Satya and good afternoon everyone. This quarter revenue was 64.7 billion dollars",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9190372228622437
+      }
+    },
+    {
+      "start": 1038.56,
+      "end": 1045.1200000000001,
+      "text": "up 15% and 16% in constant currency earnings per share was two dollars and 95 cents and increased",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8581644296646118
+      }
+    },
+    {
+      "start": 1045.1200000000001,
+      "end": 1051.6,
+      "text": "10% and 11% in constant currency. In our largest quarter of the year we again delivered double-digit",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9312157034873962
+      }
+    },
+    {
+      "start": 1051.6,
+      "end": 1057.6,
+      "text": "top and bottom line growth with continued share gains across many of our businesses",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9445281624794006
+      }
+    },
+    {
+      "start": 1057.6,
+      "end": 1063.28,
+      "text": "and record commitments to our Microsoft cloud platform. Commercial booking were significantly",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.48597094416618347
+      }
+    },
+    {
+      "start": 1063.28,
+      "end": 1069.36,
+      "text": "ahead of expectations and increased 17% and 19% in constant currency. This record commitment quarter",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9541647434234619
+      }
+    },
+    {
+      "start": 1069.36,
+      "end": 1075.28,
+      "text": "was driven by growth in the number of 10 million dollar plus and 100 million dollar plus contracts",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8580703139305115
+      }
+    },
+    {
+      "start": 1075.28,
+      "end": 1082.32,
+      "text": "for both Azure and Microsoft 365 and consistent execution across our core annuity sales motions.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9304923415184021
+      }
+    },
+    {
+      "start": 1083.04,
+      "end": 1088.16,
+      "text": "Commercial remaining performance obligation increased 20% and 21% in constant currency",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9559401273727417
+      }
+    },
+    {
+      "start": 1088.16,
+      "end": 1095.0400000000002,
+      "text": "to 269 billion dollars. Roughly 40% will be recognized in revenue in the next 12 months",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.598418653011322
+      }
+    },
+    {
+      "start": 1095.0400000000002,
+      "end": 1100.64,
+      "text": "of 18% year over year. The remaining portion recognized beyond the next 12 months increased",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8961291909217834
+      }
+    },
+    {
+      "start": 1100.64,
+      "end": 1108.5600000000002,
+      "text": "21% and this quarter our annuity mix was 97%. At a company level, Activision contributed a net",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8000047206878662
+      }
+    },
+    {
+      "start": 1108.5600000000002,
+      "end": 1113.6000000000001,
+      "text": "impact of approximately three points to revenue growth was a two point drag on operating income",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.947196900844574
+      }
+    },
+    {
+      "start": 1113.6000000000001,
+      "end": 1120.4800000000002,
+      "text": "growth and had a negative 6 cent impact to earnings per share. A reminder that this net impact",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9313613772392273
+      }
+    },
+    {
+      "start": 1120.4800000000002,
+      "end": 1124.4800000000002,
+      "text": "includes adjusting for the movement of Activision content from our prior relationship as a third",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8839902877807617
+      }
+    },
+    {
+      "start": 1124.4800000000002,
+      "end": 1130.0800000000002,
+      "text": "party partner to first party and includes 938 million dollars from purchase accounting adjustments,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9386045336723328
+      }
+    },
+    {
+      "start": 1130.0800000000002,
+      "end": 1135.7600000000002,
+      "text": "integration and transaction related cost. FX did not have a significant impact on our results",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8833644390106201
+      }
+    },
+    {
+      "start": 1135.7600000000002,
+      "end": 1140.64,
+      "text": "almost roughly in line with our expectations on total company revenue, segment level revenue,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7293659448623657
+      }
+    },
+    {
+      "start": 1140.72,
+      "end": 1146.5600000000002,
+      "text": "cogs and operating expense growth. Microsoft cloud revenue was 36.8 billion dollars in",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8921815156936646
+      }
+    },
+    {
+      "start": 1146.5600000000002,
+      "end": 1153.44,
+      "text": "group 21% and 22% in constant currency roughly in line with expectations. Microsoft cloud grows",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.886772871017456
+      }
+    },
+    {
+      "start": 1153.44,
+      "end": 1161.0400000000002,
+      "text": "margin percentage decreased roughly 2.0 over year to 69% in line with expectations. Excluding the",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9639673829078674
+      }
+    },
+    {
+      "start": 1161.0400000000002,
+      "end": 1165.68,
+      "text": "impact of the change in accounting estimate for useful lives, gross margin percentage decreased",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8880904912948608
+      }
+    },
+    {
+      "start": 1165.68,
+      "end": 1171.76,
+      "text": "slightly driven by sales mix shift to Azure, partially offset by improvement in Azure even",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9433608651161194
+      }
+    },
+    {
+      "start": 1171.76,
+      "end": 1178.48,
+      "text": "with the impact of scaling our AI infrastructure. Company gross margin dollars increased 14% and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9630743861198425
+      }
+    },
+    {
+      "start": 1178.48,
+      "end": 1184.5600000000002,
+      "text": "15% in constant currency and gross margin percentage decreased slightly over year to 70%.",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9596556425094604
+      }
+    },
+    {
+      "start": 1185.3600000000001,
+      "end": 1189.52,
+      "text": "Excluding the impact of the change in accounting estimate, gross margin percentage increased",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9171118140220642
+      }
+    },
+    {
+      "start": 1189.52,
+      "end": 1194.24,
+      "text": "slightly even with the impact from purchase accounting adjustments, integration and transaction",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8269405364990234
+      }
+    },
+    {
+      "start": 1194.24,
+      "end": 1200.48,
+      "text": "related cost from the Activision acquisition. Operating expenses increased 13% with nine",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9585139155387878
+      }
+    },
+    {
+      "start": 1200.48,
+      "end": 1206.48,
+      "text": "points from the Activision acquisition. At a total company level, head count at the end of June",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9318269491195679
+      }
+    },
+    {
+      "start": 1206.48,
+      "end": 1213.84,
+      "text": "was 3% higher than a year ago. Operating income increased 15% and 16% in constant currency",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9609367847442627
+      }
+    },
+    {
+      "start": 1213.84,
+      "end": 1220.48,
+      "text": "and operating margins were 43% relatively unchanged year over year. Excluding the impact of the",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.4779978394508362
+      }
+    },
+    {
+      "start": 1220.48,
+      "end": 1225.04,
+      "text": "change in accounting estimate, operating margins increased slightly, driven by the higher gross",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9620724320411682
+      }
+    },
+    {
+      "start": 1225.04,
+      "end": 1230.16,
+      "text": "margin noted earlier and improved operating leverage through continued cost discipline.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9572719931602478
+      }
+    },
+    {
+      "start": 1230.8,
+      "end": 1236.72,
+      "text": "Now to our segment results. Revenue from productivity and business processes was 20.3 billion dollars",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9048462510108948
+      }
+    },
+    {
+      "start": 1236.72,
+      "end": 1242.4,
+      "text": "and grew 11% and 12% in constant currency, slightly ahead of expectations driven by better",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9479777812957764
+      }
+    },
+    {
+      "start": 1242.4,
+      "end": 1248.72,
+      "text": "than expected results across all business units. Office commerce revenue grew 12% and 13% in",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9599880576133728
+      }
+    },
+    {
+      "start": 1248.72,
+      "end": 1256.08,
+      "text": "constant currency. Office 365 commercial revenue increased 13% and 14% in constant currency",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9578855633735657
+      }
+    },
+    {
+      "start": 1256.08,
+      "end": 1263.2,
+      "text": "with our proof growth primarily from E5 momentum as well as co-pilot for Microsoft 365. Paid",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7712821364402771
+      }
+    },
+    {
+      "start": 1263.2,
+      "end": 1269.1200000000001,
+      "text": "Office 365 commercial seats grew 7% year over year with installed base expansion across all",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9559637904167175
+      }
+    },
+    {
+      "start": 1269.1200000000001,
+      "end": 1274.32,
+      "text": "customer segments. Seat growth was again driven by our small and medium business and frontline",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8368988037109375
+      }
+    },
+    {
+      "start": 1274.32,
+      "end": 1280.48,
+      "text": "worker offerings although both segments continued to moderate. Office commercial licensing declined",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.690514862537384
+      }
+    },
+    {
+      "start": 1280.48,
+      "end": 1287.12,
+      "text": "9% and 7% in constant currency with continued customer shift to cloud offerings. Office consumer",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6697642207145691
+      }
+    },
+    {
+      "start": 1287.12,
+      "end": 1293.6799999999998,
+      "text": "revenue increased 3% and 4% in constant currency with continued momentum in Microsoft 365 subscriptions",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9577308893203735
+      }
+    },
+    {
+      "start": 1293.6799999999998,
+      "end": 1301.6,
+      "text": "was grew 10% to 82.5 million. Linked in revenue increased 10% and 9% in constant currency",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9575808048248291
+      }
+    },
+    {
+      "start": 1301.68,
+      "end": 1307.68,
+      "text": "driven by better than expected performance across all businesses. Dynamics revenue grew 16%",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.962622344493866
+      }
+    },
+    {
+      "start": 1308.4800000000002,
+      "end": 1316.0000000000002,
+      "text": "driven by Dynamics 365 which grew 19% and 20% in constant currency. We saw continued growth across",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9457895159721375
+      }
+    },
+    {
+      "start": 1316.0000000000002,
+      "end": 1324.0800000000002,
+      "text": "all workloads and better than expected new business. Dynamics 365 now represents roughly 90% of total",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7685583233833313
+      }
+    },
+    {
+      "start": 1324.0800000000002,
+      "end": 1330.0800000000002,
+      "text": "dynamics revenue. Segment growth margin dollars increased 9% and 10% in constant currency and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.962123453617096
+      }
+    },
+    {
+      "start": 1330.08,
+      "end": 1335.84,
+      "text": "growth margin percentage decreased roughly 1. year over year. Exuding the impact of the change",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9516599178314209
+      }
+    },
+    {
+      "start": 1335.84,
+      "end": 1341.6,
+      "text": "in accounting estimate, growth margin percentage decreased slightly driven by Office 365 as we scale",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9563832879066467
+      }
+    },
+    {
+      "start": 1341.6,
+      "end": 1349.76,
+      "text": "our AI infrastructure. Operating expenses increased 5% and operating income increased 12% and 13% in",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9578827023506165
+      }
+    },
+    {
+      "start": 1349.76,
+      "end": 1357.6,
+      "text": "constant currency. Next the intelligent cloud segment. Revenue was $28.5 billion increasing 19%",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9200297594070435
+      }
+    },
+    {
+      "start": 1357.6000000000001,
+      "end": 1364.2400000000002,
+      "text": "and 20% in constant currency in line with expectations. Overall server products in cloud",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6232870817184448
+      }
+    },
+    {
+      "start": 1364.2400000000002,
+      "end": 1370.4800000000002,
+      "text": "services revenue grew 21% and 22% in constant currency. Azure and other cloud services revenue",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9373332858085632
+      }
+    },
+    {
+      "start": 1370.4800000000002,
+      "end": 1377.5200000000002,
+      "text": "grew 29% and 30% in constant currency in line with expectations and consistent with Q3 when",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.949416995048523
+      }
+    },
+    {
+      "start": 1377.5200000000002,
+      "end": 1383.7600000000002,
+      "text": "adjusting for leap year. Azure growth included eight points from AI services where demand remained",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8297057151794434
+      }
+    },
+    {
+      "start": 1383.84,
+      "end": 1389.92,
+      "text": "higher than our available capacity. In June we saw slightly lower than expected growth",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.915428102016449
+      }
+    },
+    {
+      "start": 1389.92,
+      "end": 1396.8799999999999,
+      "text": "in a few European GOs. In our per user business the enterprise mobility and security install base",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9290843605995178
+      }
+    },
+    {
+      "start": 1396.8799999999999,
+      "end": 1403.28,
+      "text": "grew 10% to over 281 billion seats with continued impact from moderated growth and seats sold",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9486767649650574
+      }
+    },
+    {
+      "start": 1403.28,
+      "end": 1410.24,
+      "text": "outside the Microsoft 365 suite. Therefore our Azure consumption business continues to grow",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6744683384895325
+      }
+    },
+    {
+      "start": 1410.24,
+      "end": 1416.72,
+      "text": "faster than total Azure. In our on-premises server business revenue increased 2% and 3% in",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9608858227729797
+      }
+    },
+    {
+      "start": 1416.72,
+      "end": 1421.92,
+      "text": "constant currency. Growth was driven by demand for our hybrid solutions although was slightly",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8277713060379028
+      }
+    },
+    {
+      "start": 1421.92,
+      "end": 1427.1200000000001,
+      "text": "lower than expected transactional purchasing. Enterprise and partner services revenue decreased",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.8785544037818909
+      }
+    },
+    {
+      "start": 1427.1200000000001,
+      "end": 1433.68,
+      "text": "7% on a strong prior year comparable for enterprise support services. Segment gross margin dollars",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9488199353218079
+      }
+    },
+    {
+      "start": 1433.68,
+      "end": 1440.16,
+      "text": "increased 16% and gross margin percentage decreased roughly 2.0 year over year. Excluding the impact",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9048213958740234
+      }
+    },
+    {
+      "start": 1440.16,
+      "end": 1444.8000000000002,
+      "text": "of the change in accounting estimate gross margin percentage decreased slightly driven by sales",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.5667181015014648
+      }
+    },
+    {
+      "start": 1444.8000000000002,
+      "end": 1450.72,
+      "text": "mix shift to Azure partially offset by the improvement in Azure noted earlier even with the impact of",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9465852379798889
+      }
+    },
+    {
+      "start": 1450.72,
+      "end": 1456.24,
+      "text": "scaling our AI infrastructure. Operating expenses increased 5% and operating income",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9591966271400452
+      }
+    },
+    {
+      "start": 1456.24,
+      "end": 1463.28,
+      "text": "through 22% and 23% in constant currency. Now to more personal computing revenue was 15.9",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7789125442504883
+      }
+    },
+    {
+      "start": 1463.28,
+      "end": 1469.1200000000001,
+      "text": "billion dollars increasing 14% and 15% in constant currency with 12 points of net impact from the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9242154955863953
+      }
+    },
+    {
+      "start": 1469.1200000000001,
+      "end": 1474.16,
+      "text": "Activision acquisition. Results were above expectations driven by Windows commercial",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9349451065063477
+      }
+    },
+    {
+      "start": 1474.16,
+      "end": 1479.8400000000001,
+      "text": "and search. The PC market was as expected and Windows OEM revenue increased 4% year over year.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9569383859634399
+      }
+    },
+    {
+      "start": 1480.5600000000002,
+      "end": 1486.4,
+      "text": "Windows commercial products and cloud services revenue increased 11% and 12% in constant currency",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9610403776168823
+      }
+    },
+    {
+      "start": 1486.4,
+      "end": 1491.5200000000002,
+      "text": "ahead of expectations due to higher in period revenue recognition from the mix of contracts.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9545021653175354
+      }
+    },
+    {
+      "start": 1492.3200000000002,
+      "end": 1497.8400000000001,
+      "text": "Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9726715087890625
+      }
+    },
+    {
+      "start": 1497.84,
+      "end": 1503.76,
+      "text": "as we remain focused on our higher margin premium products. While early days we're excited about",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8734612464904785
+      }
+    },
+    {
+      "start": 1503.76,
+      "end": 1510.0,
+      "text": "the recent launch of our co-pilot plus PC's. Search and news advertising revenue X-TAC increased 19%",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9602165222167969
+      }
+    },
+    {
+      "start": 1510.0,
+      "end": 1516.9599999999998,
+      "text": "ahead of expectations primarily due to improved execution. Healthy volume growth was driven by",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9590858817100525
+      }
+    },
+    {
+      "start": 1516.9599999999998,
+      "end": 1523.76,
+      "text": "Bing and Edge and in gaming revenue increased 44% with 48 points of net impact from the Activision",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9572405219078064
+      }
+    },
+    {
+      "start": 1523.76,
+      "end": 1530.0,
+      "text": "acquisition. Xbox content and services revenue increased 61% slightly ahead of expectations",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.959013819694519
+      }
+    },
+    {
+      "start": 1530.0,
+      "end": 1535.52,
+      "text": "with 58 points of net impact from the Activision acquisition. Stronger than expected performance",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9554145932197571
+      }
+    },
+    {
+      "start": 1535.52,
+      "end": 1541.12,
+      "text": "in first party content was partially offset by third party content performance. Xbox hardware",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.3563573360443115
+      }
+    },
+    {
+      "start": 1541.12,
+      "end": 1548.4,
+      "text": "revenue decreased 42% and 41% in constant currency. Segment gross margin dollars increased 21% with",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.8258744478225708
+      }
+    },
+    {
+      "start": 1548.48,
+      "end": 1554.48,
+      "text": "10 points of net impact from the Activision acquisition. Gross margin percentage increased roughly 3",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9606925845146179
+      }
+    },
+    {
+      "start": 1554.48,
+      "end": 1559.52,
+      "text": "points year over year primarily driven by sales mix shift to higher margin businesses.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.627720057964325
+      }
+    },
+    {
+      "start": 1560.24,
+      "end": 1565.2,
+      "text": "Operating expenses increased 43% with 41 points from the Activision acquisition",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9570699334144592
+      }
+    },
+    {
+      "start": 1565.2,
+      "end": 1571.3600000000001,
+      "text": "operating income increased 5% and 6% in constant currency. Now back to total company results.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6079976558685303
+      }
+    },
+    {
+      "start": 1571.92,
+      "end": 1577.8400000000001,
+      "text": "Capital expenditures including finance leases were 19 billion dollars in line with expectations",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5400250554084778
+      }
+    },
+    {
+      "start": 1577.8400000000001,
+      "end": 1585.2,
+      "text": "and cash paid for PP&E with 13.9 billion dollars. Cloud and AI related spend represents nearly all",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9453129768371582
+      }
+    },
+    {
+      "start": 1585.2,
+      "end": 1591.0400000000002,
+      "text": "of our total capital expenditures. Within that roughly half is for infrastructure needs where",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9517272710800171
+      }
+    },
+    {
+      "start": 1591.0400000000002,
+      "end": 1597.0400000000002,
+      "text": "we continue to build and lease data centers that will support monetization over the next 15 years",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8102831840515137
+      }
+    },
+    {
+      "start": 1597.0400000000002,
+      "end": 1604.0000000000002,
+      "text": "and beyond. The remaining cloud and AI related spend is primarily for servers both CPUs and GPUs",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9504799246788025
+      }
+    },
+    {
+      "start": 1604.0,
+      "end": 1609.84,
+      "text": "to serve customers based on demand signals. For the full fiscal year the mix of our cloud and AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8998434543609619
+      }
+    },
+    {
+      "start": 1609.84,
+      "end": 1617.28,
+      "text": "related spend was similar to Q4. Cashflow from operations was 37.2 billion dollars up 29%",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9465258717536926
+      }
+    },
+    {
+      "start": 1618.0,
+      "end": 1625.44,
+      "text": "driven by strong cloud billings and collections. Free cashflow was 23.3 billion dollars up 18%",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9541335701942444
+      }
+    },
+    {
+      "start": 1625.44,
+      "end": 1631.2,
+      "text": "over year reflecting higher capital expenditures to support our cloud and AI offerings. For the full",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8888468742370605
+      }
+    },
+    {
+      "start": 1631.2,
+      "end": 1638.56,
+      "text": "year cashflow from operations surpassed 100 billion dollars for the first time reaching 119",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9300655126571655
+      }
+    },
+    {
+      "start": 1638.56,
+      "end": 1646.0,
+      "text": "billion dollars. This quarter other income expense was negative 675 million dollars more",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.941779375076294
+      }
+    },
+    {
+      "start": 1646.0,
+      "end": 1651.44,
+      "text": "favorable than anticipated with lower than expected interest expense and higher than expected interest",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9490918517112732
+      }
+    },
+    {
+      "start": 1651.44,
+      "end": 1656.4,
+      "text": "income. Our losses on investments accounted for under the equity method were as expected.",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.677169144153595
+      }
+    },
+    {
+      "start": 1656.48,
+      "end": 1662.72,
+      "text": "Our effective tax rate was approximately 19% higher than anticipated due to a state tax law",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8967605233192444
+      }
+    },
+    {
+      "start": 1662.72,
+      "end": 1669.0400000000002,
+      "text": "signed in June that was effective retroactively. And finally we returned 8.4 billion dollars to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7139747142791748
+      }
+    },
+    {
+      "start": 1669.0400000000002,
+      "end": 1674.24,
+      "text": "shareholders through dividends and share repurchases bringing our total cash return to shareholders",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7518875598907471
+      }
+    },
+    {
+      "start": 1674.24,
+      "end": 1681.2800000000002,
+      "text": "to over 34 billion dollars for the full fiscal year. Now moving to our outlook. My commentary",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8754567503929138
+      }
+    },
+    {
+      "start": 1681.28,
+      "end": 1686.56,
+      "text": "for both the full year and next quarter is on a U.S. dollar basis unless specifically noted",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9421576261520386
+      }
+    },
+    {
+      "start": 1686.56,
+      "end": 1693.68,
+      "text": "otherwise. Let me start with some full year commentary for FY 25. First FX. Assuming current",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9508935809135437
+      }
+    },
+    {
+      "start": 1693.68,
+      "end": 1698.72,
+      "text": "rates remain stable we expect FX to have no meaningful impact to fully at revenue cogs are",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6414151787757874
+      }
+    },
+    {
+      "start": 1698.72,
+      "end": 1705.2,
+      "text": "operating expense growth. Next we continue to expect double digit revenue and operating income growth",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.938034176826477
+      }
+    },
+    {
+      "start": 1705.2,
+      "end": 1710.32,
+      "text": "as we focus on delivering differentiated value for our customers to meet the growing demand",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7776911854743958
+      }
+    },
+    {
+      "start": 1710.32,
+      "end": 1715.04,
+      "text": "signal for our AI and cloud products. We will scale our infrastructure investments with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5555877685546875
+      }
+    },
+    {
+      "start": 1715.04,
+      "end": 1722.48,
+      "text": "FY 25 capital expenditures expected to be higher than FY 24. As a reminder these expenditures are",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7073453068733215
+      }
+    },
+    {
+      "start": 1722.48,
+      "end": 1728.72,
+      "text": "dependent on demand signals and adoption of our services that will be managed through the year.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7586593627929688
+      }
+    },
+    {
+      "start": 1729.6,
+      "end": 1734.32,
+      "text": "As scaling these investments drives growth in cogs we will remain disciplined on operating",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7550018429756165
+      }
+    },
+    {
+      "start": 1734.32,
+      "end": 1741.4399999999998,
+      "text": "expense management. Therefore we expect FY 25 op-x growth to be in the single digits.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8056374192237854
+      }
+    },
+    {
+      "start": 1742.48,
+      "end": 1748.3999999999999,
+      "text": "And given our focus commitment to managing at the operating margin level we still expect FY 25",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9415432214736938
+      }
+    },
+    {
+      "start": 1748.3999999999999,
+      "end": 1756.0,
+      "text": "operating margins to be down only about one point year over year. And finally we expect our FY 25",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9649524688720703
+      }
+    },
+    {
+      "start": 1756.0,
+      "end": 1762.56,
+      "text": "effective tax rate to be around 19%. Now to the outlook for our first quarter.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9139158725738525
+      }
+    },
+    {
+      "start": 1763.36,
+      "end": 1768.72,
+      "text": "Based on current rates we expect FX to decrease total revenue and segment level revenue growth",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9700371623039246
+      }
+    },
+    {
+      "start": 1768.72,
+      "end": 1774.24,
+      "text": "by less than one point. We expect FX to decrease cogs growth by less than one point",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5509986877441406
+      }
+    },
+    {
+      "start": 1774.24,
+      "end": 1778.8799999999999,
+      "text": "and to have no meaningful impact to operating expense growth. In commercial bookings",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9438869953155518
+      }
+    },
+    {
+      "start": 1779.44,
+      "end": 1783.52,
+      "text": "increased long-term commitments to our platform and strong execution across core",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9537553191184998
+      }
+    },
+    {
+      "start": 1783.52,
+      "end": 1790.08,
+      "text": "annuity sales motions should drive healthy growth on a growing expiry base. As a reminder",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8280749320983887
+      }
+    },
+    {
+      "start": 1790.08,
+      "end": 1793.6799999999998,
+      "text": "larger long-term as our contracts which are more unpredictable in their timing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8496220111846924
+      }
+    },
+    {
+      "start": 1793.6799999999998,
+      "end": 1799.12,
+      "text": "can derive increased quarterly volatility in our bookings growth rate. Microsoft cloud grows",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5232135057449341
+      }
+    },
+    {
+      "start": 1799.12,
+      "end": 1805.36,
+      "text": "margin percentage should be roughly 70% down year over year driven by the impact of scaling our AI",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9433258175849915
+      }
+    },
+    {
+      "start": 1805.36,
+      "end": 1810.24,
+      "text": "infrastructure. We expect capital expenditures to increase on a sequential basis given our cloud",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9412045478820801
+      }
+    },
+    {
+      "start": 1810.24,
+      "end": 1816.72,
+      "text": "and AI demand as well as existing AI capacity constraints. As a reminder there can be quarterly",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8141196966171265
+      }
+    },
+    {
+      "start": 1816.72,
+      "end": 1822.32,
+      "text": "spend variability from cloud infrastructure build out and the timing of delivery of finance leases.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8258754014968872
+      }
+    },
+    {
+      "start": 1823.2,
+      "end": 1828.32,
+      "text": "Next is segment guidance. In productivity and business processes we expect revenue to grow",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.862307608127594
+      }
+    },
+    {
+      "start": 1828.32,
+      "end": 1836.72,
+      "text": "between 10 and 11% in constant currency or 20.3 to 20.6 billion US dollars. In office commercial",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9451985955238342
+      }
+    },
+    {
+      "start": 1836.72,
+      "end": 1842.0,
+      "text": "revenue growth will again be driven by office 365 with seat growth across customer segments",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9295604228973389
+      }
+    },
+    {
+      "start": 1842.08,
+      "end": 1848.56,
+      "text": "and our progress through E5 and co-pilot for Microsoft 365. We expect office 365 revenue growth to be",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9422282576560974
+      }
+    },
+    {
+      "start": 1848.56,
+      "end": 1854.4,
+      "text": "approximately 14% in constant currency. In our on-premises business we expect revenue to decline",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9490724802017212
+      }
+    },
+    {
+      "start": 1854.4,
+      "end": 1859.92,
+      "text": "in the mid to high teens. In office consumer we expect revenue growth in the low to mid single",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7185431122779846
+      }
+    },
+    {
+      "start": 1859.92,
+      "end": 1865.6,
+      "text": "digits driven by Microsoft 365 subscriptions. For LinkedIn we expect revenue growth in the high",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9398553967475891
+      }
+    },
+    {
+      "start": 1865.6,
+      "end": 1871.6,
+      "text": "single digits driven by continued growth across all businesses and in dynamics we expect revenue",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9313758611679077
+      }
+    },
+    {
+      "start": 1871.6000000000001,
+      "end": 1878.4,
+      "text": "growth in the low to mid teens driven by dynamics 365. For intelligent cloud we expect revenue to grow",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9205942749977112
+      }
+    },
+    {
+      "start": 1878.4,
+      "end": 1888.72,
+      "text": "between 18 and 20% in constant currency or 28.6 to 28.9 billion US dollars. Revenue will continue to",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6505981087684631
+      }
+    },
+    {
+      "start": 1888.72,
+      "end": 1895.0400000000002,
+      "text": "be driven by Azure which as a reminder can have quarterly variability primarily from our per user",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6653093695640564
+      }
+    },
+    {
+      "start": 1895.04,
+      "end": 1901.84,
+      "text": "business and in period revenue recognition depending on the mix of contracts. In Azure we expect Q1",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9044854640960693
+      }
+    },
+    {
+      "start": 1901.84,
+      "end": 1908.48,
+      "text": "revenue growth to be 28 to 29% in constant currency. Growth will continue to be driven by our consumption",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5763605237007141
+      }
+    },
+    {
+      "start": 1908.48,
+      "end": 1914.56,
+      "text": "business inclusive of AI which is growing faster than total Azure. We expect the consumption trends",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5974352955818176
+      }
+    },
+    {
+      "start": 1914.56,
+      "end": 1921.28,
+      "text": "from Q4 to continue through the first half of the year. This includes both AI demand impacted",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9220175743103027
+      }
+    },
+    {
+      "start": 1921.28,
+      "end": 1928.08,
+      "text": "by capacity constraints and non-AI growth trends similar to June. Growth in our per user business",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9482815861701965
+      }
+    },
+    {
+      "start": 1928.08,
+      "end": 1934.6399999999999,
+      "text": "will continue to moderate and in H2 we expect Azure growth to accelerate as our capital investments",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9439789056777954
+      }
+    },
+    {
+      "start": 1934.6399999999999,
+      "end": 1940.96,
+      "text": "create an increase in available AI capacity to serve more of the growing demand. In our on-premises",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7098560929298401
+      }
+    },
+    {
+      "start": 1940.96,
+      "end": 1945.28,
+      "text": "server business we expect revenue to decline in low single digits as continued hybrid demand",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9705690741539001
+      }
+    },
+    {
+      "start": 1945.28,
+      "end": 1950.24,
+      "text": "will be more than offset by lower transactional purchasing and in enterprise and partner services",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8268911242485046
+      }
+    },
+    {
+      "start": 1950.32,
+      "end": 1955.6,
+      "text": "revenue should decline in the low single digits and more personal computing. We expect revenue",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9586936831474304
+      }
+    },
+    {
+      "start": 1955.6,
+      "end": 1963.2,
+      "text": "to grow between 9 and 12% in constant currency or 14.9 to 15.3 billion US dollars. Windows OEM",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6905169486999512
+      }
+    },
+    {
+      "start": 1963.2,
+      "end": 1969.44,
+      "text": "revenue growth should be relatively fought roughly in line with the PC market and Windows commercial",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8406575322151184
+      }
+    },
+    {
+      "start": 1969.44,
+      "end": 1975.04,
+      "text": "products and cloud services customer demand for Microsoft 365 and our advanced security solutions",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8711937665939331
+      }
+    },
+    {
+      "start": 1975.04,
+      "end": 1980.24,
+      "text": "should drive revenue growth in the mid single digits. As a reminder our quarterly revenue growth",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.899573564529419
+      }
+    },
+    {
+      "start": 1980.24,
+      "end": 1985.28,
+      "text": "can have variability primarily from in period revenue recognition depending on the mix of contracts.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.853767991065979
+      }
+    },
+    {
+      "start": 1986.1599999999999,
+      "end": 1991.04,
+      "text": "Indivices revenue growth should be in the low to mid single digits. Search and news advertising",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9050964117050171
+      }
+    },
+    {
+      "start": 1991.04,
+      "end": 1996.32,
+      "text": "ex-tact revenue growth should be in the mid to high teens. This will be higher than overall",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8854288458824158
+      }
+    },
+    {
+      "start": 1996.32,
+      "end": 2001.2,
+      "text": "search and news advertising revenue growth which we expect to be in the low single digits and in",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8213844299316406
+      }
+    },
+    {
+      "start": 2001.2,
+      "end": 2006.0,
+      "text": "gaming. We expect revenue growth in the mid 30s including approximately 40 points of net impact from",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.933060348033905
+      }
+    },
+    {
+      "start": 2006.0,
+      "end": 2011.92,
+      "text": "the Activision acquisition. We expect Xbox content and services revenue growth in the low to mid 50s",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9052637815475464
+      }
+    },
+    {
+      "start": 2011.92,
+      "end": 2017.1200000000001,
+      "text": "driven by the net impact from the Activision acquisition. Harder revenue will again decline",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.44049763679504395
+      }
+    },
+    {
+      "start": 2017.1200000000001,
+      "end": 2025.76,
+      "text": "year over year. Now back to company guidance. We expect cogs between 19.95 to 20.15 billion US dollars",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9263898134231567
+      }
+    },
+    {
+      "start": 2025.76,
+      "end": 2030.0800000000002,
+      "text": "including approximately 700 million dollars from purchase accounting integration and transaction",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8482359051704407
+      }
+    },
+    {
+      "start": 2030.16,
+      "end": 2037.7600000000002,
+      "text": "related costs from the Activision acquisition. We expect operating expense of 15.2 to 15.3",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.8581034541130066
+      }
+    },
+    {
+      "start": 2037.7600000000002,
+      "end": 2042.4,
+      "text": "billion US dollars including approximately 200 million dollars from purchase accounting",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8510829210281372
+      }
+    },
+    {
+      "start": 2042.4,
+      "end": 2047.6000000000001,
+      "text": "integration and transaction related costs from the Activision acquisition. Other income and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8842113018035889
+      }
+    },
+    {
+      "start": 2047.6000000000001,
+      "end": 2052.8,
+      "text": "expense should be roughly negative 650 million dollars driven by losses on investments accounted",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9552320241928101
+      }
+    },
+    {
+      "start": 2052.8,
+      "end": 2057.52,
+      "text": "for under the equity method as interest income will be mostly offset by interest expense.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9183375835418701
+      }
+    },
+    {
+      "start": 2058.4,
+      "end": 2062.32,
+      "text": "As a reminder, we are required to recognize gains or losses on our equity investment",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7259122729301453
+      }
+    },
+    {
+      "start": 2062.32,
+      "end": 2068.72,
+      "text": "which can increase quarterly volatility. We expect our Q1 effective tax rate to be approximately 19%.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8021864295005798
+      }
+    },
+    {
+      "start": 2069.68,
+      "end": 2075.04,
+      "text": "In closing, we remain focused on delivering innovations that matter to our global customers",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6527801156044006
+      }
+    },
+    {
+      "start": 2075.04,
+      "end": 2082.0,
+      "text": "of every size. That focus extends to delivering on our financial commitments as well. We delivered",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.906544029712677
+      }
+    },
+    {
+      "start": 2082.0,
+      "end": 2088.32,
+      "text": "operating margin growth of nearly 3.0 over year even as we accelerate our AI investments",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9316602349281311
+      }
+    },
+    {
+      "start": 2088.32,
+      "end": 2093.76,
+      "text": "completed the Activision acquisition and had a headwind from the change in useful lives last year.",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9256725907325745
+      }
+    },
+    {
+      "start": 2093.76,
+      "end": 2098.96,
+      "text": "So as we begin FY 25, we will continue to invest in the cloud and AI opportunity ahead",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5268219113349915
+      }
+    },
+    {
+      "start": 2099.6,
+      "end": 2106.24,
+      "text": "aligned and if needed adjusted to the demand signals we see. We are committed to growing our",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6071868538856506
+      }
+    },
+    {
+      "start": 2106.2400000000002,
+      "end": 2111.84,
+      "text": "leadership across our commercial cloud and within that, the AI platform and we feel well",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5689382553100586
+      }
+    },
+    {
+      "start": 2111.84,
+      "end": 2116.0000000000005,
+      "text": "positioned as we start FY 25. With that, let's go to Q&A Brett.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9385258555412292
+      }
+    },
+    {
+      "start": 2117.44,
+      "end": 2122.48,
+      "text": "Thanks, Davie. We'll now move over to Q&A out of respect for others on the call. We request",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.892734944820404
+      }
+    },
+    {
+      "start": 2122.48,
+      "end": 2127.5200000000004,
+      "text": "the participants please only ask what a question. Operator, can you please repeat your instruction?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9455261826515198
+      }
+    },
+    {
+      "start": 2129.92,
+      "end": 2134.7200000000003,
+      "text": "Ladies and gentlemen, if you would like to ask a question, please press star one",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9401323199272156
+      }
+    },
+    {
+      "start": 2134.7200000000003,
+      "end": 2139.0400000000004,
+      "text": "on your telephone keypad and our confirmation telling will indicate your line is in the question",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9409961700439453
+      }
+    },
+    {
+      "start": 2139.0400000000004,
+      "end": 2143.5200000000004,
+      "text": "queue. You may press star two if you would like to remove your question from the queue.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8317199945449829
+      }
+    },
+    {
+      "start": 2144.4800000000005,
+      "end": 2148.88,
+      "text": "For participants using speaker equipment, it may be necessary to pick up your handset before pressing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8114408254623413
+      }
+    },
+    {
+      "start": 2148.88,
+      "end": 2154.88,
+      "text": "the star keys. And our first question comes from the line of Keith Weiss with Morgan Stanley. Please",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9381222724914551
+      }
+    },
+    {
+      "start": 2154.88,
+      "end": 2161.1200000000003,
+      "text": "proceed. Excellent. Thank you guys for taking the question and congratulations on another",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5152013301849365
+      }
+    },
+    {
+      "start": 2161.12,
+      "end": 2168.08,
+      "text": "great quarter and really solid overall fiscal year. Right now, there's an industry debate",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7637558579444885
+      }
+    },
+    {
+      "start": 2168.08,
+      "end": 2173.92,
+      "text": "raging around the CAPEX requirements around General of AI and whether the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8140972852706909
+      }
+    },
+    {
+      "start": 2173.92,
+      "end": 2179.92,
+      "text": "monetization is actually going to match with that. And I think the question for you guys from a",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8790223598480225
+      }
+    },
+    {
+      "start": 2179.92,
+      "end": 2187.52,
+      "text": "Microsoft perspective is CAPEX fuel an appropriate leading indicator for cloud growth or do the shifting",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8749799728393555
+      }
+    },
+    {
+      "start": 2187.6,
+      "end": 2192.72,
+      "text": "gross margin profiles change that equation? Or said another way, maybe can you give us a little",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8794742822647095
+      }
+    },
+    {
+      "start": 2192.72,
+      "end": 2198.24,
+      "text": "bit more help in understanding the timing between the CAPEX investments and the yields on those",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9295814633369446
+      }
+    },
+    {
+      "start": 2198.24,
+      "end": 2207.04,
+      "text": "investments? Thank you. Thank you Keith. Let me start and then Amy can add to this. I think I'd say",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9308414459228516
+      }
+    },
+    {
+      "start": 2207.04,
+      "end": 2214.88,
+      "text": "we primarily start right now from the demand side. What I mean by that is what's the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9268839955329895
+      }
+    },
+    {
+      "start": 2214.88,
+      "end": 2220.8,
+      "text": "product shape of the product portfolio? What we learned even from the cloud transition which",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9084979891777039
+      }
+    },
+    {
+      "start": 2220.8,
+      "end": 2225.84,
+      "text": "as you know Keith was similar in the sense it was both a knowledge intensive and a capital intensive",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9190569519996643
+      }
+    },
+    {
+      "start": 2225.84,
+      "end": 2230.1600000000003,
+      "text": "transition. We needed to have the product portfolio where there was the right mix of our",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8196204304695129
+      }
+    },
+    {
+      "start": 2230.1600000000003,
+      "end": 2236.88,
+      "text": "call it infrastructure meters as well as SaaS applications. So that's the first thing that we",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9395904541015625
+      }
+    },
+    {
+      "start": 2236.88,
+      "end": 2242.32,
+      "text": "are looking at and how is that value landing with customers and what's the growth rate. So when I",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9346503019332886
+      }
+    },
+    {
+      "start": 2242.32,
+      "end": 2250.1600000000003,
+      "text": "think about what's happening with M365 co-pilot as perhaps the best Office 365 or M365 suite we",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.865168035030365
+      }
+    },
+    {
+      "start": 2250.1600000000003,
+      "end": 2256.2400000000002,
+      "text": "have had the fact that we're getting recurring customers or customers coming back, buying more",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5823580622673035
+      }
+    },
+    {
+      "start": 2256.2400000000002,
+      "end": 2262.2400000000002,
+      "text": "seats or get up co-pilot now being bigger than even get up when we bought it what's happening in",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9179393649101257
+      }
+    },
+    {
+      "start": 2262.2400000000002,
+      "end": 2269.92,
+      "text": "the contact center with dynamics. So I would say and obviously the Azure AI growth that's the first",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8725867867469788
+      }
+    },
+    {
+      "start": 2270.0,
+      "end": 2276.7200000000003,
+      "text": "place we look at that then drives bulk of the cap expense basically that's the demand signal",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9323264360427856
+      }
+    },
+    {
+      "start": 2277.44,
+      "end": 2282.32,
+      "text": "because you got to remember even in the capital spend there is land and there is data center",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9115146994590759
+      }
+    },
+    {
+      "start": 2282.32,
+      "end": 2289.6800000000003,
+      "text": "built but 60 plus percent is the kit that only will be bought for inferencing and everything else",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9461230635643005
+      }
+    },
+    {
+      "start": 2289.6800000000003,
+      "end": 2294.4,
+      "text": "if there is demand signal right. So that's I think the key way to think about capital cycle even",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9143840670585632
+      }
+    },
+    {
+      "start": 2295.2000000000003,
+      "end": 2301.2000000000003,
+      "text": "the asset as Amy said is a long-term asset which is land and the data center which by the way we",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9355135560035706
+      }
+    },
+    {
+      "start": 2301.2000000000003,
+      "end": 2305.84,
+      "text": "don't even construct things fully we can even have things which are semi-constructory called",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9384403228759766
+      }
+    },
+    {
+      "start": 2305.84,
+      "end": 2311.76,
+      "text": "cold shells and so on. So we know how to manage our cap expense to build out a long-term asset",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5269340872764587
+      }
+    },
+    {
+      "start": 2312.7200000000003,
+      "end": 2317.2000000000003,
+      "text": "and a lot of the hydration of the kit happens when we have the demand signal. There is definitely",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9199703335762024
+      }
+    },
+    {
+      "start": 2317.28,
+      "end": 2325.28,
+      "text": "spend for training even there of course we will only be scaling training as we see the demand",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9209050536155701
+      }
+    },
+    {
+      "start": 2325.84,
+      "end": 2330.0000000000005,
+      "text": "or crew in any given period in time. So I would say it's more important to manage",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9215789437294006
+      }
+    },
+    {
+      "start": 2330.5600000000004,
+      "end": 2335.28,
+      "text": "to capture the opportunity with the right product portfolio that's driving value and on that front",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5845276117324829
+      }
+    },
+    {
+      "start": 2335.28,
+      "end": 2340.88,
+      "text": "I feel good about the breadth of Microsoft offering whether it's in consumer side whether it's in",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5117504596710205
+      }
+    },
+    {
+      "start": 2340.88,
+      "end": 2346.32,
+      "text": "commercial perceived side or on the consumption meters that's I think the fundamental driver.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9143413305282593
+      }
+    },
+    {
+      "start": 2347.04,
+      "end": 2353.6000000000004,
+      "text": "And Keith you know I do think and I really do appreciate how you phrase the question as well because",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6990430951118469
+      }
+    },
+    {
+      "start": 2353.6000000000004,
+      "end": 2360.2400000000002,
+      "text": "I think the timing and some of the questions you all have had really led to how we were talking",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8785193562507629
+      }
+    },
+    {
+      "start": 2360.2400000000002,
+      "end": 2367.52,
+      "text": "even about capital expense in our comments in my comments today. Being able to maybe share a",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7497881054878235
+      }
+    },
+    {
+      "start": 2367.52,
+      "end": 2375.44,
+      "text": "little more about that when we talked about roughly half of FY24's total capital expense as well as",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9330756068229675
+      }
+    },
+    {
+      "start": 2375.44,
+      "end": 2383.84,
+      "text": "half of Q4's expense it's really on land and builds and finance leases and those things really",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.878075361251831
+      }
+    },
+    {
+      "start": 2383.84,
+      "end": 2391.36,
+      "text": "will be monetized over 15 years and beyond and they're incredibly flexible because we've built",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.4996708333492279
+      }
+    },
+    {
+      "start": 2391.36,
+      "end": 2398.96,
+      "text": "a consistent architecture first with a commercial cloud and second with the Azure Stack for AI regardless",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6774433851242065
+      }
+    },
+    {
+      "start": 2398.96,
+      "end": 2403.84,
+      "text": "of whether the demand is at the platform layer or at the app layer or through third parties and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9515327215194702
+      }
+    },
+    {
+      "start": 2403.84,
+      "end": 2412.56,
+      "text": "partners or frankly our first party fast it uses the same infrastructure. So with that long life",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9198333621025085
+      }
+    },
+    {
+      "start": 2412.56,
+      "end": 2419.76,
+      "text": "flexible assets and if you think about it that way you can see what we're doing and focused on",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9055206775665283
+      }
+    },
+    {
+      "start": 2419.76,
+      "end": 2426.1600000000003,
+      "text": "is building out this network and parallel of across the globe because you know when we did this",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8876251578330994
+      }
+    },
+    {
+      "start": 2426.1600000000003,
+      "end": 2431.28,
+      "text": "last transition the first transition to the cloud which seems a long time ago sometimes",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9079869389533997
+      }
+    },
+    {
+      "start": 2431.92,
+      "end": 2438.2400000000002,
+      "text": "it rolled out quite differently we rolled out more geo by geo and this one because we have",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8625705242156982
+      }
+    },
+    {
+      "start": 2438.2400000000002,
+      "end": 2444.4,
+      "text": "demand on a global basis we are doing it on a global basis which is important we have large",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8105669021606445
+      }
+    },
+    {
+      "start": 2444.4,
+      "end": 2453.1200000000003,
+      "text": "customers in every geo and so hopefully with that sort of shape of our capital expense it helps",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6868045330047607
+      }
+    },
+    {
+      "start": 2453.1200000000003,
+      "end": 2459.92,
+      "text": "people see how much of that is sort of near-term monetization driver as well as a much longer",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9335060715675354
+      }
+    },
+    {
+      "start": 2460.8,
+      "end": 2467.76,
+      "text": "duration. That's available thank you very much. Thanks Keith operator next question please.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9311917424201965
+      }
+    },
+    {
+      "start": 2469.44,
+      "end": 2474.8,
+      "text": "The next question comes from the line of Mark Mortler with Bernstein Research please proceed.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9420723915100098
+      }
+    },
+    {
+      "start": 2476.48,
+      "end": 2480.64,
+      "text": "Thank you very much thank you for taking the question and congrats on us from here.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6376532912254333
+      }
+    },
+    {
+      "start": 2481.44,
+      "end": 2485.12,
+      "text": "Jenny I has been a bit of rollercoaster to the tech over the last year with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6093217134475708
+      }
+    },
+    {
+      "start": 2485.12,
+      "end": 2492.64,
+      "text": "periods of acceleration high expectations and the expectations drop is reality kicked in.",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9149693250656128
+      }
+    },
+    {
+      "start": 2493.12,
+      "end": 2499.92,
+      "text": "With azure growth we've seen this quarter and 0365 commercial not yet fully visible in numbers",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7677510380744934
+      }
+    },
+    {
+      "start": 2499.92,
+      "end": 2505.12,
+      "text": "even though Amy you gave us a lot of color on it two quick parts to the question. So Satya how",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9164667725563049
+      }
+    },
+    {
+      "start": 2505.12,
+      "end": 2510.64,
+      "text": "do we think about what it's going to take for Jenny I to become more real across the industry",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8088650107383728
+      }
+    },
+    {
+      "start": 2510.72,
+      "end": 2514.48,
+      "text": "and for it to become more visible within your satchel offerings and Amy",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9100112915039062
+      }
+    },
+    {
+      "start": 2515.6,
+      "end": 2522.3199999999997,
+      "text": "with cloud it took time for margins to improve. It looks like with AI it's happening quicker.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8257554769515991
+      }
+    },
+    {
+      "start": 2522.3199999999997,
+      "end": 2527.3599999999997,
+      "text": "Can you give us the sense of how you think about the margin impact near-term and long-term from",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9360395073890686
+      }
+    },
+    {
+      "start": 2527.3599999999997,
+      "end": 2533.04,
+      "text": "all the investment on AI? Thank you. Yeah thanks again Mark for the question.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.614994466304779
+      }
+    },
+    {
+      "start": 2533.04,
+      "end": 2541.04,
+      "text": "So to me look at the end of the day Jenny I is just software. So it is really translating into",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8913248181343079
+      }
+    },
+    {
+      "start": 2542.08,
+      "end": 2550.4,
+      "text": "fundamentally growth on what has been our m365 SaaS offering with a new offering that is",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8795543313026428
+      }
+    },
+    {
+      "start": 2550.4,
+      "end": 2556.88,
+      "text": "the co-pilot SaaS offering which today is on a growth rate that's faster than any other",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8514470458030701
+      }
+    },
+    {
+      "start": 2556.88,
+      "end": 2562.72,
+      "text": "previous generation of software we launched as a suite in m365 that's I think the best way to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8191372156143188
+      }
+    },
+    {
+      "start": 2562.7200000000003,
+      "end": 2567.0400000000004,
+      "text": "describe it. I mean the numbers I think we shared even this quarter are indicative of this",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.76361083984375
+      }
+    },
+    {
+      "start": 2567.0400000000004,
+      "end": 2573.5200000000004,
+      "text": "Mark so if you look at it we have both the landing of the seats itself quarter over quarter that is",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9334284663200378
+      }
+    },
+    {
+      "start": 2574.0800000000004,
+      "end": 2580.0800000000004,
+      "text": "growing 60% right that's a pretty good healthy sign. The most healthy sign for me is the fact",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8272873163223267
+      }
+    },
+    {
+      "start": 2580.0800000000004,
+      "end": 2584.8,
+      "text": "that customers are coming back there that is the same customers with whom we landed the seats",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9163959622383118
+      }
+    },
+    {
+      "start": 2584.8,
+      "end": 2590.4800000000005,
+      "text": "coming back and buying more seats and then the number of customers with 10 000 plus seats",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9240974187850952
+      }
+    },
+    {
+      "start": 2590.48,
+      "end": 2597.2,
+      "text": "doubled right it's 2x quarter over quarter. That to me is a healthy SaaS core business and on top of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8217530250549316
+      }
+    },
+    {
+      "start": 2597.2,
+      "end": 2602.56,
+      "text": "that you know some of the things that Amy shared are on dynamic that's another exciting place for",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8909545540809631
+      }
+    },
+    {
+      "start": 2602.56,
+      "end": 2610.72,
+      "text": "us which is one the gaining share where your dynamics with Jenny I built in is sort of really",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8773385882377625
+      }
+    },
+    {
+      "start": 2610.72,
+      "end": 2617.28,
+      "text": "biz app is probably the category that gets completely transformed with Jenny I contact centers being a",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9104681015014648
+      }
+    },
+    {
+      "start": 2617.36,
+      "end": 2623.76,
+      "text": "great example we ourselves are you know on course to save hundreds of millions of dollars in our own",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7397255897521973
+      }
+    },
+    {
+      "start": 2623.76,
+      "end": 2629.28,
+      "text": "customer support and contact center operations I think we can drive that value to our customers",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7636289596557617
+      }
+    },
+    {
+      "start": 2629.28,
+      "end": 2634.4,
+      "text": "and then on the Azure side you see the numbers very clearly in fact we I think last quarter is when",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8833390474319458
+      }
+    },
+    {
+      "start": 2634.4,
+      "end": 2640.8,
+      "text": "we started giving you that you saw an acceleration of that this quarter. One of the other pieces Mark",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6569300293922424
+      }
+    },
+    {
+      "start": 2640.8,
+      "end": 2647.44,
+      "text": "is AI doesn't sit on its own right so it's just for it we have a concept of design wins",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9216364622116089
+      }
+    },
+    {
+      "start": 2648.0800000000004,
+      "end": 2656.32,
+      "text": "in Azure so in fact 50% of the folks who are using Azure AI are also using a data meter",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9453244805335999
+      }
+    },
+    {
+      "start": 2656.32,
+      "end": 2661.44,
+      "text": "that's very exciting to us because the most important thing in Azure is to win workloads",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7830526828765869
+      }
+    },
+    {
+      "start": 2661.44,
+      "end": 2668.6400000000003,
+      "text": "in the enterprise and that is starting to happen and these are generational things once they get",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9274008870124817
+      }
+    },
+    {
+      "start": 2668.64,
+      "end": 2673.2,
+      "text": "going with you so that's I think how we think about it at least when I look at what's happening",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9313308596611023
+      }
+    },
+    {
+      "start": 2673.2,
+      "end": 2680.16,
+      "text": "on our demand site and Mark answered the second half of your question on margin improvement looking",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6652687191963196
+      }
+    },
+    {
+      "start": 2680.16,
+      "end": 2686.0,
+      "text": "different than it did through the last cloud cycle that's primarily for a reason I've mentioned a",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8913179039955139
+      }
+    },
+    {
+      "start": 2686.0,
+      "end": 2694.72,
+      "text": "couple times we have a consistent platform so because we're building to one Azure AI stack",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5515869855880737
+      }
+    },
+    {
+      "start": 2695.44,
+      "end": 2701.0400000000004,
+      "text": "we don't have to have multiple infrastructure investments we're making one we're using that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9391505122184753
+      }
+    },
+    {
+      "start": 2701.0400000000004,
+      "end": 2706.1600000000003,
+      "text": "internally first party and that's what we're using with customers to build on as well as ISVs so it",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8712360858917236
+      }
+    },
+    {
+      "start": 2706.1600000000003,
+      "end": 2712.6400000000003,
+      "text": "does in fact make margins start off better and obviously scale consistently.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9493733644485474
+      }
+    },
+    {
+      "start": 2715.36,
+      "end": 2718.88,
+      "text": "Thank you. Thanks Mark operator next question please.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9352957606315613
+      }
+    },
+    {
+      "start": 2718.88,
+      "end": 2726.0,
+      "text": "The next question comes from the line of cash rangan with Goldman Sachs please proceed.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9477484822273254
+      }
+    },
+    {
+      "start": 2726.88,
+      "end": 2732.7200000000003,
+      "text": "I thank you very much and congrats on a great your fiscal year ending question for you Amy when",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7856839895248413
+      }
+    },
+    {
+      "start": 2732.7200000000003,
+      "end": 2738.2400000000002,
+      "text": "you look at the capex how do you bring efficiencies out of the capex you disclose at 50% of the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.928779661655426
+      }
+    },
+    {
+      "start": 2738.2400000000002,
+      "end": 2744.08,
+      "text": "with infrastructure the other 50% tech is very useful so in other words do you have to keep going",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8712798357009888
+      }
+    },
+    {
+      "start": 2744.08,
+      "end": 2750.0,
+      "text": "growing capex at these elevated rates or could you slow down capex and still get that consistent",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8721931576728821
+      }
+    },
+    {
+      "start": 2750.0,
+      "end": 2755.84,
+      "text": "revenue growth rate in your Azure and generative AI that that's the main question on my mind thank",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8989980220794678
+      }
+    },
+    {
+      "start": 2755.84,
+      "end": 2762.56,
+      "text": "you so much. Thanks cash that that's a very good question there's really two pieces I think as I",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8906353116035461
+      }
+    },
+    {
+      "start": 2762.56,
+      "end": 2770.96,
+      "text": "heard your question that I would reflect on the first is could we see sort of consistent revenue growth",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.796816885471344
+      }
+    },
+    {
+      "start": 2771.04,
+      "end": 2777.68,
+      "text": "without maybe what you would say is more of this sort of elevated capital expense number or",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9068139791488647
+      }
+    },
+    {
+      "start": 2778.2400000000002,
+      "end": 2782.4,
+      "text": "something that continues to accelerate and the answer to that is yes because there's two different",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8822150826454163
+      }
+    },
+    {
+      "start": 2782.4,
+      "end": 2787.76,
+      "text": "pieces right you're seeing half of this go toward long-term bills that Sott you mentioned",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8945311307907104
+      }
+    },
+    {
+      "start": 2788.88,
+      "end": 2796.32,
+      "text": "you know the pace at which we fill those bills with CPUs or GPUs will be demand driven and so if",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9012048840522766
+      }
+    },
+    {
+      "start": 2796.32,
+      "end": 2803.52,
+      "text": "we see differences in demand signal we can throttle that investment on the CPU side which we've done",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5661230683326721
+      }
+    },
+    {
+      "start": 2803.52,
+      "end": 2809.44,
+      "text": "for I guess a long time but the point is I reflect and we'll use all that same learning and demand",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8810780048370361
+      }
+    },
+    {
+      "start": 2809.44,
+      "end": 2815.44,
+      "text": "signal understand to do the same thing on the GPU side and so you're right that you could see",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7640535235404968
+      }
+    },
+    {
+      "start": 2815.44,
+      "end": 2824.0,
+      "text": "relatively consistent revenue patterns and yet see these inconsistencies and capital spend quarter to",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9082795977592468
+      }
+    },
+    {
+      "start": 2824.0,
+      "end": 2831.84,
+      "text": "quarter. The other thing I would note cash is you'll also notice there's a sort of growing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.716992974281311
+      }
+    },
+    {
+      "start": 2831.84,
+      "end": 2839.52,
+      "text": "distinction between our CAPEx number and on occasion the cash that we pay for PP&E and you're",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9309175610542297
+      }
+    },
+    {
+      "start": 2839.52,
+      "end": 2846.56,
+      "text": "going to start to see that more often in this period because it happens when we use leases",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9128771424293518
+      }
+    },
+    {
+      "start": 2847.28,
+      "end": 2851.44,
+      "text": "leases sort of show up all at once and so you'll see a little bit more volatility I've mentioned",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8296653628349304
+      }
+    },
+    {
+      "start": 2851.44,
+      "end": 2855.2000000000003,
+      "text": "to that in my comments before but I mentioned again just because you're starting to see that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7940956950187683
+      }
+    },
+    {
+      "start": 2855.2000000000003,
+      "end": 2860.0,
+      "text": "distinction in my comments and hopefully that's helpful context. Just one other thing Amy if I",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9171175956726074
+      }
+    },
+    {
+      "start": 2860.0,
+      "end": 2865.12,
+      "text": "want to add I think as people think about capital spend I think it's important separate out leases",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8827559947967529
+      }
+    },
+    {
+      "start": 2865.12,
+      "end": 2870.4,
+      "text": "from build and when it comes to build I think it's important for us to think about we think",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8804849982261658
+      }
+    },
+    {
+      "start": 2870.4,
+      "end": 2875.76,
+      "text": "about it in terms of what's the total percentage of cost that goes into each line item land",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9341411590576172
+      }
+    },
+    {
+      "start": 2876.56,
+      "end": 2880.8,
+      "text": "which obviously has a very different duration and a very different lead time so those are the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8662214279174805
+      }
+    },
+    {
+      "start": 2880.88,
+      "end": 2887.28,
+      "text": "other two considerations we think about lead time and duration of the asset land you know network",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9467113018035889
+      }
+    },
+    {
+      "start": 2887.28,
+      "end": 2893.84,
+      "text": "construction the system or the kit and then the ongoing cost and so if you think about it that way",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9242467880249023
+      }
+    },
+    {
+      "start": 2893.84,
+      "end": 2898.5600000000004,
+      "text": "then it you know how to even adjust if you will the capital spend based on demand signal.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9320826530456543
+      }
+    },
+    {
+      "start": 2899.6800000000003,
+      "end": 2903.04,
+      "text": "Thank you it was triggered by the jump in CAPEx and as Amy pointed out you're",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7666866183280945
+      }
+    },
+    {
+      "start": 2903.04,
+      "end": 2907.6000000000004,
+      "text": "guiding to accelerating Azure revenue growth rate which I guess follows the CAPEx",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8646397590637207
+      }
+    },
+    {
+      "start": 2907.6,
+      "end": 2912.64,
+      "text": "thank you so much once again. Thanks Cash operator next question please.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9259243607521057
+      }
+    },
+    {
+      "start": 2914.56,
+      "end": 2918.7999999999997,
+      "text": "The next question comes from the line of Brent Till with Jeffries please proceed.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9419992566108704
+      }
+    },
+    {
+      "start": 2920.3199999999997,
+      "end": 2925.04,
+      "text": "Thanks Amy the magnitude of beat this order was a little lower than we've seen in the past",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.5181235074996948
+      }
+    },
+    {
+      "start": 2925.04,
+      "end": 2929.8399999999997,
+      "text": "was there anything unusual on sales cycle that closed rates that you saw thanks?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.490329384803772
+      }
+    },
+    {
+      "start": 2929.84,
+      "end": 2938.7200000000003,
+      "text": "Thanks Brent actually know as I was talking on the corner I mean commercial bookings were",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9124174118041992
+      }
+    },
+    {
+      "start": 2939.52,
+      "end": 2948.2400000000002,
+      "text": "much better than we expected going into the quarter. Commitments were very good execution",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9451509714126587
+      }
+    },
+    {
+      "start": 2948.2400000000002,
+      "end": 2957.92,
+      "text": "across both the core sort of annuity renewal motion was good as expected the larger long-term",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9303650856018066
+      }
+    },
+    {
+      "start": 2957.92,
+      "end": 2964.2400000000002,
+      "text": "commitment were better than we expected so Brent I would not say there was anything really",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5636032223701477
+      }
+    },
+    {
+      "start": 2964.2400000000002,
+      "end": 2973.04,
+      "text": "unusual in how I thought about what we saw in our commercial execution through the quarter.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8035090565681458
+      }
+    },
+    {
+      "start": 2976.0,
+      "end": 2980.32,
+      "text": "Great thank you. Thanks Brent operator next question please.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9268442988395691
+      }
+    },
+    {
+      "start": 2981.2000000000003,
+      "end": 2986.56,
+      "text": "The next question comes from the line of Carl Kierstedt with UBS please proceed.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.944818913936615
+      }
+    },
+    {
+      "start": 2988.0800000000004,
+      "end": 2992.6400000000003,
+      "text": "Okay great so maybe I'll direct this to Amy. Amy I know when you set your Azure guidance you're",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9212672114372253
+      }
+    },
+    {
+      "start": 2992.6400000000003,
+      "end": 2999.52,
+      "text": "always looking to meet or beat the high end the 30 percent you put up in the June quarter",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6557441353797913
+      }
+    },
+    {
+      "start": 2999.52,
+      "end": 3004.7200000000003,
+      "text": "amazing number given the scale of Azure but it did come in at the low end of your range and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6448524594306946
+      }
+    },
+    {
+      "start": 3004.7200000000003,
+      "end": 3011.6800000000003,
+      "text": "I just love for you to maybe elaborate on on the delta I guess as I reflect on what you said in your",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9033313989639282
+      }
+    },
+    {
+      "start": 3011.6800000000003,
+      "end": 3018.4,
+      "text": "comments there's two things that I heard you say one it sounded like there's persistent capacity",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8355873823165894
+      }
+    },
+    {
+      "start": 3018.4,
+      "end": 3024.4,
+      "text": "constraints that you think might get alleviated in the second half and then secondly you mentioned",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8231827616691589
+      }
+    },
+    {
+      "start": 3024.4,
+      "end": 3030.96,
+      "text": "perhaps some modest softness in Europe I presume that's a little bit more economic rather than",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7632872462272644
+      }
+    },
+    {
+      "start": 3030.96,
+      "end": 3036.32,
+      "text": "Azure specific is that the right way to frame the performance in the quarter thank you.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7516751885414124
+      }
+    },
+    {
+      "start": 3038.16,
+      "end": 3043.6,
+      "text": "Thanks Carl yes that's exactly right maybe I'll just repeat it just so people can hear it",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9035513997077942
+      }
+    },
+    {
+      "start": 3044.32,
+      "end": 3052.08,
+      "text": "in my words as well to that 30 to 31 percent guide for Q4 and coming in at the lower end at 30",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7756614685058594
+      }
+    },
+    {
+      "start": 3053.04,
+      "end": 3059.04,
+      "text": "you're exactly right the distinguishing between being at the higher end or at the lower end really",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8763147592544556
+      }
+    },
+    {
+      "start": 3059.04,
+      "end": 3070.88,
+      "text": "was some softness we saw in a few European gos on non AI consumption really you know made the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7217297554016113
+      }
+    },
+    {
+      "start": 3070.88,
+      "end": 3078.96,
+      "text": "difference in that number and and we've assumed that going forward into H1 inclusive of my guide",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8607153296470642
+      }
+    },
+    {
+      "start": 3078.96,
+      "end": 3085.36,
+      "text": "in 28 to 29 going forward and then let me separate which was your larger point which is one of the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9139812588691711
+      }
+    },
+    {
+      "start": 3085.36,
+      "end": 3093.84,
+      "text": "other factors you see ongoing number one you're right capacity constraints particularly on AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6199098825454712
+      }
+    },
+    {
+      "start": 3094.7200000000003,
+      "end": 3104.4,
+      "text": "and Azure will remain in Q4 and will remain in H1 so hopefully hopefully that's helpful yeah thank",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9002289772033691
+      }
+    },
+    {
+      "start": 3104.4,
+      "end": 3112.56,
+      "text": "you Annie thanks Carl operator next question please the next question comes from the line of Brad",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9264550805091858
+      }
+    },
+    {
+      "start": 3112.64,
+      "end": 3119.2799999999997,
+      "text": "Selnik with Deutsche Bank please proceed great thank you very much Amy with Azure demand once again",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8445644974708557
+      }
+    },
+    {
+      "start": 3119.2799999999997,
+      "end": 3124.08,
+      "text": "greater than available capacity I appreciate you know the CAPEX investments in the build out",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7313122153282166
+      }
+    },
+    {
+      "start": 3124.08,
+      "end": 3130.08,
+      "text": "and acceleration you expect in the back half but as we think about cloud capacity and AI services",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8662658333778381
+      }
+    },
+    {
+      "start": 3130.08,
+      "end": 3134.88,
+      "text": "specifically can you talk about both the near term and long term strategy around the AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9318972229957581
+      }
+    },
+    {
+      "start": 3134.88,
+      "end": 3140.0,
+      "text": "partnerships that you're signing with the likes of Oracle and Corwee for example thank you",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5753638744354248
+      }
+    },
+    {
+      "start": 3143.2,
+      "end": 3145.92,
+      "text": "thanks Brad maybe separate a couple of things",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7487577199935913
+      }
+    },
+    {
+      "start": 3148.0,
+      "end": 3155.12,
+      "text": "we are and we've talked about being held for quite a few quarters we are constrained on AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7747712731361389
+      }
+    },
+    {
+      "start": 3155.12,
+      "end": 3161.2,
+      "text": "capacity and because of that actually we've to your point have signed up with third parties",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6658195853233337
+      }
+    },
+    {
+      "start": 3161.84,
+      "end": 3170.56,
+      "text": "to help us as we are behind with some leases on AI capacity we've done that with partners who are",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5953233242034912
+      }
+    },
+    {
+      "start": 3170.56,
+      "end": 3177.84,
+      "text": "happy to help us extend the Azure platform to be able to serve this a Azure AI demand",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7801828384399414
+      }
+    },
+    {
+      "start": 3177.84,
+      "end": 3183.84,
+      "text": "and you do see us investing quite a bit as we've talked about in build so that we can get back",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6680552363395691
+      }
+    },
+    {
+      "start": 3183.84,
+      "end": 3189.7599999999998,
+      "text": "in a more balanced place yeah I mean to me it's no different than leases that we would have done",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7971128821372986
+      }
+    },
+    {
+      "start": 3189.7599999999998,
+      "end": 3196.24,
+      "text": "in the past these we would even say sometimes buying from Oracle maybe even more efficient leases",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.832496702671051
+      }
+    },
+    {
+      "start": 3196.2400000000002,
+      "end": 3204.2400000000002,
+      "text": "because they're even shorter date excellent thanks for the color thanks Brad operator next",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7713673710823059
+      }
+    },
+    {
+      "start": 3204.2400000000002,
+      "end": 3210.6400000000003,
+      "text": "question please the next question comes from the line of Mark Murphy with JP Morgan please proceed",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.93621426820755
+      }
+    },
+    {
+      "start": 3212.48,
+      "end": 3218.6400000000003,
+      "text": "thank you very much with a couple quarters of co-pilot for m365 availability under under your",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6631795167922974
+      }
+    },
+    {
+      "start": 3218.6400000000003,
+      "end": 3225.92,
+      "text": "belt now how are you assessing the capability of co-pilot to replicate the productivity gains that",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.765423595905304
+      }
+    },
+    {
+      "start": 3225.92,
+      "end": 3232.64,
+      "text": "they've created for developers which seem to be very high and to do something similar for",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8485350608825684
+      }
+    },
+    {
+      "start": 3232.64,
+      "end": 3238.4,
+      "text": "the broader population of of knowledge workers for instance what you're mentioning the the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9186481237411499
+      }
+    },
+    {
+      "start": 3238.4,
+      "end": 3244.64,
+      "text": "10,000 feet deals the repeat purchases is it possible to eventually see co-pilot penetration",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.49981993436813354
+      }
+    },
+    {
+      "start": 3244.64,
+      "end": 3251.2000000000003,
+      "text": "rates equally high in office as they will be in github yeah that's a that's a great question",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8010585308074951
+      }
+    },
+    {
+      "start": 3251.92,
+      "end": 3259.1200000000003,
+      "text": "in fact the the github design system and the github co-pilot workspace design system which",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.950596034526825
+      }
+    },
+    {
+      "start": 3259.1200000000003,
+      "end": 3265.84,
+      "text": "now you know for example you start with an issue you create a plan from a plan you create a spec",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9245885610580444
+      }
+    },
+    {
+      "start": 3267.28,
+      "end": 3272.7200000000003,
+      "text": "or you create a spec and from a spec you create a plan and then you go operate across the full repo",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9415213465690613
+      }
+    },
+    {
+      "start": 3273.6800000000003,
+      "end": 3281.28,
+      "text": "that's effectively the design system that is getting replicated inside of even the m365",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8394680619239807
+      }
+    },
+    {
+      "start": 3281.28,
+      "end": 3289.6000000000004,
+      "text": "co-pilot and you see this even now for example you get an email you're in sales you want to respond",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9308550357818604
+      }
+    },
+    {
+      "start": 3289.6000000000004,
+      "end": 3297.76,
+      "text": "to the customer the data from the email is essentially context for a prompt but you expand by bringing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9429870247840881
+      }
+    },
+    {
+      "start": 3297.76,
+      "end": 3302.48,
+      "text": "in all of your crm data right so if this customer email is in the context of some order",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9237352609634399
+      }
+    },
+    {
+      "start": 3303.0400000000004,
+      "end": 3310.6400000000003,
+      "text": "all of the crm record gets completed in context and a reply gets generated with the crm data",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9428277611732483
+      }
+    },
+    {
+      "start": 3311.1200000000003,
+      "end": 3316.4,
+      "text": "that's the type of stuff that's already happening then you take something like co-pilot studio you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9204386472702026
+      }
+    },
+    {
+      "start": 3316.4,
+      "end": 3322.4,
+      "text": "can start even grounding it in more data and then completing workflows so you could say if this",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9068063497543335
+      }
+    },
+    {
+      "start": 3322.4,
+      "end": 3330.4,
+      "text": "email comes from this customer whose order date is you know got a particular issue with it you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7697816491127014
+      }
+    },
+    {
+      "start": 3330.4,
+      "end": 3335.36,
+      "text": "can then go and escalate it to somebody else who gets an notification in teams and those are the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9073813557624817
+      }
+    },
+    {
+      "start": 3335.36,
+      "end": 3343.28,
+      "text": "kinds of workflows that are getting built within IT or by end users themselves what used to be",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9335557222366333
+      }
+    },
+    {
+      "start": 3343.28,
+      "end": 3350.4,
+      "text": "line of business applications to us are co-pilot extensions going forward so we think of this as",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8302083015441895
+      }
+    },
+    {
+      "start": 3351.04,
+      "end": 3357.28,
+      "text": "really a new design system for knowledge and frontline work to drive productivity",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8640525937080383
+      }
+    },
+    {
+      "start": 3357.28,
+      "end": 3361.28,
+      "text": "which would be very akin to what has happened in software engineering so when you think about",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8944358825683594
+      }
+    },
+    {
+      "start": 3361.28,
+      "end": 3368.64,
+      "text": "marketing or finance or sales or customer service we will effectively replicate what you just said",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.871382474899292
+      }
+    },
+    {
+      "start": 3368.64,
+      "end": 3374.4,
+      "text": "which is the type of product you really see in developers will come to all of these functions",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9391453862190247
+      }
+    },
+    {
+      "start": 3374.4,
+      "end": 3380.0,
+      "text": "as they think about their work workflow and work artifact all being driven by co-pilots",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9274343252182007
+      }
+    },
+    {
+      "start": 3381.28,
+      "end": 3386.64,
+      "text": "thank you very much thanks Mark operator we have time for one last question",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8975528478622437
+      }
+    },
+    {
+      "start": 3388.32,
+      "end": 3393.12,
+      "text": "and the last question will come from the line of Keith Bachmann with bmo capital markets please",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9440934062004089
+      }
+    },
+    {
+      "start": 3393.12,
+      "end": 3399.44,
+      "text": "proceed hi good evening and thank you for their opportunity to ask the question i actually wanted",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7288331985473633
+      }
+    },
+    {
+      "start": 3399.44,
+      "end": 3406.0,
+      "text": "to veer towards gaming if i could for a second x-box content services revenue grew 61 percent",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9528813362121582
+      }
+    },
+    {
+      "start": 3406.0,
+      "end": 3413.68,
+      "text": "58 points help from Activision so net is about three points of growth how should investors",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8713662624359131
+      }
+    },
+    {
+      "start": 3413.68,
+      "end": 3419.76,
+      "text": "think about the longer term growth potential in this area you've made significant investments",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6542631983757019
+      }
+    },
+    {
+      "start": 3419.76,
+      "end": 3425.6,
+      "text": "including the Activision deal but how should investors be thinking about the growth potential",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9345744848251343
+      }
+    },
+    {
+      "start": 3425.6,
+      "end": 3430.4,
+      "text": "of the gaming area what are the puts and takes to help make considerations here thank you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9138500690460205
+      }
+    },
+    {
+      "start": 3431.2000000000003,
+      "end": 3439.76,
+      "text": "yeah for us you know our investment in gaming fundamentally was to have i'd say the right portfolio",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6967489719390869
+      }
+    },
+    {
+      "start": 3439.76,
+      "end": 3445.28,
+      "text": "of both what we love about gaming and always i've loved about gaming which is x-box and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9297557473182678
+      }
+    },
+    {
+      "start": 3446.2400000000002,
+      "end": 3453.52,
+      "text": "the content for the console and expand from there so that we have content for everywhere people play",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7752320766448975
+      }
+    },
+    {
+      "start": 3453.52,
+      "end": 3460.0,
+      "text": "games starting with the pc so when i think about the Activision portfolio it comes with our great",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9223200678825378
+      }
+    },
+    {
+      "start": 3460.08,
+      "end": 3467.2,
+      "text": "assets for us to cover both the pc and the console and then of course assets to cover mobile sockets",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9389825463294983
+      }
+    },
+    {
+      "start": 3467.2,
+      "end": 3475.2,
+      "text": "which we never had so we feel that now we have both the content and the ability to access all",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6531804203987122
+      }
+    },
+    {
+      "start": 3475.2,
+      "end": 3482.24,
+      "text": "the traditional high scale platforms where people play games which is the console pc and mobile",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9481905698776245
+      }
+    },
+    {
+      "start": 3482.88,
+      "end": 3487.04,
+      "text": "but we're also excited about these new sockets right i mean the fact that even in this last quarter",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5149931311607361
+      }
+    },
+    {
+      "start": 3487.04,
+      "end": 3497.2,
+      "text": "we expanded xcloud to amazon tv i forget the name of what it's called but but that's the type of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9397211670875549
+      }
+    },
+    {
+      "start": 3497.84,
+      "end": 3504.8,
+      "text": "new access that really helps us a lot get reach new gamers or the same gamer everywhere they want",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7196642756462097
+      }
+    },
+    {
+      "start": 3504.8,
+      "end": 3511.7599999999998,
+      "text": "to play and that ultimately will show up in that software plus services and transaction revenue",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8175439834594727
+      }
+    },
+    {
+      "start": 3511.76,
+      "end": 3518.2400000000002,
+      "text": "for us which is really our long-term KPI and that's what we're building towards and that was the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5667779445648193
+      }
+    },
+    {
+      "start": 3518.2400000000002,
+      "end": 3525.1200000000003,
+      "text": "strategy behind Activision as an asset in e-front and at it no i i do think the real goal here is",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8399403691291809
+      }
+    },
+    {
+      "start": 3525.1200000000003,
+      "end": 3532.48,
+      "text": "to be able to take a broad set of content to more users in more places and really build what looks",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7701934576034546
+      }
+    },
+    {
+      "start": 3532.48,
+      "end": 3539.2000000000003,
+      "text": "more like the software annuity and subscription business with enhanced transactions and the ownership",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9278015494346619
+      }
+    },
+    {
+      "start": 3539.2000000000003,
+      "end": 3544.32,
+      "text": "of IP which is quite valuable long-term as sakya mentioned things where with the ownership of IP",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8362507820129395
+      }
+    },
+    {
+      "start": 3544.32,
+      "end": 3548.9600000000005,
+      "text": "it can be monetized in multiple ways and i think we're really encouraged by some of the progress",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5351858139038086
+      }
+    },
+    {
+      "start": 3548.9600000000005,
+      "end": 3553.5200000000004,
+      "text": "and and how we're making making progress with game pass as well with some of the new announcements",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5034151673316956
+      }
+    },
+    {
+      "start": 3554.4,
+      "end": 3562.1600000000003,
+      "text": "thank you keith thanks keith that wraps up the q&a portion of today's earnings call",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5463241934776306
+      }
+    },
+    {
+      "start": 3562.1600000000003,
+      "end": 3565.5200000000004,
+      "text": "thank you for joining us today and we look forward to speaking with all of you soon",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6159483790397644
+      }
+    },
+    {
+      "start": 3565.52,
+      "end": 3573.2,
+      "text": "thank you thank you all",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.562743604183197
+      }
+    }
+  ]
+}

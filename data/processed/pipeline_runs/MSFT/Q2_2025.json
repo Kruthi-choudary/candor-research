@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "quarter": "Q2 2025",
+  "call_date": "2025-01-29",
+  "overall_summary": "Microsoft\u2019s Q2\u202f2025 earnings call highlighted solid growth in gaming margins, M365 commercial revenue, and overall gross margin, contributing to a predominantly positive sentiment (27.2% positive) despite a large neutral share. However, declines in free cash flow, on\u2011premises server, and enterprise services revenue, along with currency headwinds, generated negative sentiment (6.0%). The mix of strong segment performance and cost pressures led to a balanced but largely neutral investor outlook.",
+  "sentiment_distribution": {
+    "positive": 27.2,
+    "negative": 6.0,
+    "neutral": 66.8
+  },
+  "key_claims": [
+    {
+      "claim": "Xbox content and services revenue grew 2% year-over-year, exceeding expectations, helped by strong Blizzard and Activision titles such as Call of Duty.",
+      "evidence": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
+      "timestamp_sec": 1400,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Gross margin percentage rose 6 points year-over-year, driven by a shift toward higher\u2011margin businesses and margin improvements in gaming and search.",
+      "evidence": "Gross margin percentage increased 6.0 over year, driven by sales mix shift to higher margin businesses, as well as strong execution on margin improvement in gaming and search.",
+      "timestamp_sec": 1415,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Segment gross margin dollars increased 13% and 12% in constant currency.",
+      "evidence": "Segment gross margin dollars increased 13% and 12% in constant currency.",
+      "timestamp_sec": 1411,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "M365 commercial products revenue rose 13%, well ahead of expectations, boosted by higher transactional purchases linked to the Office 2024 launch and strong Windows commercial on\u2011premises sales.",
+      "evidence": "M365 commercial products revenue increased 13% significantly ahead of expectations driven by higher than expected transactional purchasing with the launch of Office 2024, as well as the Windows commercial on-premises components from the better than expected performance of M365 suite noted earlier.",
+      "timestamp_sec": 1177,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Free cash flow fell to $6.5\u202fbillion, a 29% year\u2011over\u2011year decline, reflecting higher capital expenditures.",
+      "evidence": "Free cashflow was $6.5 billion down 29% year over year, reflecting the capital expenditures, noted earlier.",
+      "timestamp_sec": 1480,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "On\u2011premises server revenue declined 3%, slightly below expectations, due to slower purchasing around the Windows Server 2025 launch.",
+      "evidence": "In our on-premises server business, revenue decreased 3%, slightly below expectations, driven by slower than expected purchasing around Windows Server 2025 launch.",
+      "timestamp_sec": 1308,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Enterprise and partner services revenue dropped 1%, missing expectations because of weaker performance in enterprise support services and industry solutions.",
+      "evidence": "Enterprise and partner services revenue decreased 1%, below expectations, with lower than expected performance across enterprise support services and industry solutions.",
+      "timestamp_sec": 1319,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "A stronger US dollar in October is expected to reduce Q4 revenue and COGS growth by over one point and operating expense growth by roughly one point.",
+      "evidence": "With the strengthening of the US dollars in October, we now expect FX to decrease Q4 revenue and cogs growth by more than one point and operating expense growth by roughly one point.",
+      "timestamp_sec": 1867,
+      "sentiment": "negative"
+    }
+  ],
+  "risks": [],
+  "management_outlook": [],
+  "citation_verification": {
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0
+  },
+  "audio_features_summary": {
+    "mean_pitch_hz": 176.65,
+    "mean_energy": 0.07,
+    "mean_speaking_rate_wps": 2.61,
+    "segments_analyzed": 672
+  },
+  "prior_quarter_context_used": [
+    {
+      "quarter": "Q1 2025",
+      "start_sec": 2217.0,
+      "text": "You may press star two if you would like to remove your question from the queue. Participants using speaker equipment and may be necessary to pick up your handset before pressing the star keys. And our first question comes from the line of Keith Weiss with Morgan Stanley. Please proceed. Excellent. Thank you guys for taking the question. And congratulations on a really solid quarter. The expansion of capabilities, the speed of innovation, the magnitude of the opportunity to head for gender. It makes this the most exciting period for software I've seen in my 25 years of covering the space and based upon this call, it seems like you share that excitement. But in my investor conversation, that excitement also feeds two related questions and they both have to do with constraints. And the first is, like, what are the internal constraints or guardrails that Microsoft has when it comes to investing behind these innovations, particularly in relation to the funding of future generations of foundational models where people were talking about price tags, and then on the other side of the spectrum, what are the external constraints that Microsoft sees in building out this capacity to meet the demand and capture the opportunity, particularly constraints in your ability to power all these new data centers being built out, empowered in an environmentally sustainable fashion? I'd love to get to Microsoft perspective on both those questions. Thank you, Keith, for those questions. I think on the first point, ultimately, when you think about, let's say, a capital outlay for training, because that's essentially what you're asking."
+    },
+    {
+      "quarter": "Q4 2024",
+      "start_sec": 2340.88,
+      "text": "commercial perceived side or on the consumption meters that's I think the fundamental driver. And Keith you know I do think and I really do appreciate how you phrase the question as well because I think the timing and some of the questions you all have had really led to how we were talking even about capital expense in our comments in my comments today. Being able to maybe share a little more about that when we talked about roughly half of FY24's total capital expense as well as half of Q4's expense it's really on land and builds and finance leases and those things really will be monetized over 15 years and beyond and they're incredibly flexible because we've built a consistent architecture first with a commercial cloud and second with the Azure Stack for AI regardless of whether the demand is at the platform layer or at the app layer or through third parties and partners or frankly our first party fast it uses the same infrastructure. So with that long life flexible assets and if you think about it that way you can see what we're doing and focused on is building out this network and parallel of across the globe because you know when we did this last transition the first transition to the cloud which seems a long time ago sometimes it rolled out quite differently we rolled out more geo by geo and this one because we have demand on a global basis we are doing it on a global basis which is important we have large"
+    },
+    {
+      "quarter": "Q4 2024",
+      "start_sec": 2831.84,
+      "text": "distinction between our CAPEx number and on occasion the cash that we pay for PP&E and you're going to start to see that more often in this period because it happens when we use leases leases sort of show up all at once and so you'll see a little bit more volatility I've mentioned to that in my comments before but I mentioned again just because you're starting to see that distinction in my comments and hopefully that's helpful context. Just one other thing Amy if I want to add I think as people think about capital spend I think it's important separate out leases from build and when it comes to build I think it's important for us to think about we think about it in terms of what's the total percentage of cost that goes into each line item land which obviously has a very different duration and a very different lead time so those are the other two considerations we think about lead time and duration of the asset land you know network construction the system or the kit and then the ongoing cost and so if you think about it that way then it you know how to even adjust if you will the capital spend based on demand signal. Thank you it was triggered by the jump in CAPEx and as Amy pointed out you're guiding to accelerating Azure revenue growth rate which I guess follows the CAPEx thank you so much once again. Thanks Cash operator next question please."
+    }
+  ],
+  "pipeline_version": "1.0",
+  "stage_durations_sec": {
+    "transcription_sec": 0.0,
+    "sentiment_sec": 0.0,
+    "prosody_sec": 0.0,
+    "rag_sec": 4.8,
+    "generation_sec": 0.0,
+    "citation_check_sec": 0.0
+  }
+}

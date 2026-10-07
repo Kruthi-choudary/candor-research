@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "ticker": "META",
+  "company": "Meta",
+  "quarter": "Q3 2025",
+  "call_date": "2025-10-29",
+  "overall_summary": "Meta's Q3 2025 earnings call highlighted strong growth in services usage, legal expenses, WhatsApp paid messaging, and ad performance, reflecting a largely positive tone. However, the company also noted accounting charges, depreciation from incremental CAPX spend, and a negative impact on European revenue, contributing to a predominantly neutral sentiment overall, with 12% positive, 1.3% negative, and 86.6% neutral.",
+  "sentiment_distribution": {
+    "positive": 12.0,
+    "negative": 1.3,
+    "neutral": 86.6
+  },
+  "key_claims": [
+    {
+      "claim": "Overall service usage grew 14%.",
+      "evidence": "served across our services increased 14%.",
+      "timestamp_sec": 547,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Legal-related expenses grew more than in Q2.",
+      "evidence": "First, legal-related expense growth was higher than in Q2,",
+      "timestamp_sec": 648,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "WhatsApp paid messaging revenue drove a 59% increase.",
+      "evidence": "up 59%, driven by WhatsApp paid messaging revenue growth,",
+      "timestamp_sec": 581,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Ad performance improvements were a major driver of growth.",
+      "evidence": "largely driven by improved ad performance.",
+      "timestamp_sec": 566,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "The quarter included an accounting charge.",
+      "evidence": "resulted in an accounting charge in the third quarter,",
+      "timestamp_sec": 741,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Charges recorded in the third quarter impacted results.",
+      "evidence": "due to charges we recorded in the third quarter,",
+      "timestamp_sec": 652,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Depreciation on incremental CAPX spend affected earnings.",
+      "evidence": "depreciation on our incremental CAPX spend,",
+      "timestamp_sec": 679,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "European revenue faced a negative impact.",
+      "evidence": "negative impact on our European revenue",
+      "timestamp_sec": 1629,
+      "sentiment": "negative"
+    }
+  ],
+  "risks": [],
+  "management_outlook": [],
+  "citation_verification": {
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0
+  },
+  "audio_features_summary": {
+    "mean_pitch_hz": 158.56,
+    "mean_energy": 0.07,
+    "mean_speaking_rate_wps": 2.87,
+    "segments_analyzed": 1782
+  },
+  "prior_quarter_context_used": [
+    {
+      "quarter": "Q1 2025",
+      "start_sec": 2356.28,
+      "text": "How you thought about that in the guide and maybe how you're thinking about it for the back half. And then on a bigger picture question, you know, your CAPX spend is now close to some hyperscalers with very big client bases. Just double conceptualize the kind of ecosystem you're building with your CAPX. I know you gave a lot of help on the intro, but maybe the ROI works without direct enterprise spend to drive revenues. How you're thinking about that. Thank you. Thanks, Justin. You know, on the Q2 guide, there's uncertainty, obviously, in how the macro environment will evolve over time and how that could impact different segments of our business. You know, our Q2 revenue outlook aims to factor that in and partly that's partly why the $3 billion range reflects the potential for a wider range of outcomes. Specifically, we have seen some reduced spend in the US from Asia based e-commerce exporters, which we believe is an anticipation of the de minimis exemption going away on May 2nd. A portion of that spend has been redirected to other markets, but overall spend for those advertisers is below the levels prior to April. But our Q2 outlook reflects the trends we're seeing so far in April, which have generally been healthy. So it's very early, hard to know how things will play out over the quarter and certainly harder to know that for the rest of the year. Your second question is about why we're investing more in CAPX."
+    },
+    {
+      "quarter": "Q1 2025",
+      "start_sec": 2758.28,
+      "text": "And that's partially offset by higher expected infrastructure costs related to our increased CAPX outlook, as well as higher expected reality labs cost of goods sold. And we've maintained our $5 billion range, just given the more dynamic operating environment that we're in. And what I would say is, you know, our investment posture today reflects, you know, those significant opportunities that we see across each of the company and priorities that we're investing in this year. We will obviously continue evaluating, depending on how macro conditions more broadly evolve, but we really feel like these are big strategic priorities for us and are critical for us to continue investing in. And in fact, you know, I think one of the aims of our efficiency work over the last two years was to put us in a stronger financial position so that we can continue investing in key priorities through tougher financial cycles. Your next question comes from the line of Ross Sandler with Barclays. Please go ahead. Great. Mark, yesterday in one of your many kind of podcasts or keynote presentations, you'd mentioned that like a bunch of projects that your teams want to or aspire to do are kind of bottlenecked by the AI capacity, which Susan just talked about earlier. And that even, you know, some of the testing that the ad ranking team wants to run by just getting kind of delayed. So I guess looking out either this year next year, whatever, when do you kind of see some of this constraint being eased back."
+    },
+    {
+      "quarter": "Q4 2024",
+      "start_sec": 1566.52,
+      "text": "towards our core business. On to tax abs and any changes to our tax landscape, we expect our full year 2025 tax rate to be in the range of 12 to 15 percent. In addition, we continue to monitor an active regulatory landscape including legal and regulatory headwinds in the EU and the US that could significantly impact our business and our financial results. In closing, this was a good year for our company with investments across our priority areas delivering strong business performance and innovative new products for our community. We have a compelling set of opportunities to invest in this year, which we expect will help us drive continued strong growth and develop transformative technologies that shape the future of our company and of the industry. With that, Krista, let's open up the call for questions. Thank you. We will now open the lines for a question and answer session. To ask a question, please press star 1 on your touchstone phone. To withdraw your question, again, press star 1. Please limit yourself to one question. Please pick up your hands up before asking your question to ensure clarity. If you are streaming today's call, please mute your computer speakers. And our first question comes from the line of Brian Nowak with Morgan Stanley. Please go ahead. Thanks for taking my question. Marc, sound very, we appreciate all the excitement about about this year and all the innovation to come. I know there's a lot of announcements throughout"
+    }
+  ],
+  "pipeline_version": "1.0",
+  "stage_durations_sec": {
+    "transcription_sec": 0.0,
+    "sentiment_sec": 0.0,
+    "prosody_sec": 0.0,
+    "rag_sec": 5.7,
+    "generation_sec": 0.0,
+    "citation_check_sec": 0.0
+  }
+}

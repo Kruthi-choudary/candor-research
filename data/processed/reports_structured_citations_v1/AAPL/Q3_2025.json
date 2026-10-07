@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "claim": "Mac revenue was $8 billion, up 15% year over year.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1157,
+        "source_text": "Mac revenue was $8 billion, up 15% year over year,"
+      }
+    },
+    {
+      "claim": "Total revenue reached $94 billion, representing a 10% increase year over year.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1007,
+        "source_text": "Our revenue of $94 billion was up 10% year over year"
+      }
+    },
+    {
+      "claim": "Revenue grew 10% from a year ago, exceeding expectations.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 117,
+        "source_text": "up 10% from a year ago, which was better than we expected."
+      }
+    },
+    {
+      "claim": "Revenue grew 15% year over year.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 177,
+        "source_text": "with revenue up 15% year over year."
+      }
+    },
+    {
+      "claim": "iPad revenue was $6.6 billion, down 8% year over year.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1187,
+        "source_text": "iPad revenue was $6.6 billion, down 8% year over year,"
+      }
+    },
+    {
+      "claim": "Revenue was $7.4 billion, down 9% year over year.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1219,
+        "source_text": "was $7.4 billion, down 9% year over year."
+      }
+    },
+    {
+      "claim": "Diluted earnings per share were $1.57.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1093,
+        "source_text": "and diluted earnings per share of $1.57,"
+      }
+    },
+    {
+      "claim": "The situation also leads to a difficult comparison this year.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 2109,
+        "source_text": "which also leads to a difficult compare this year."
+      }
+    }
+  ],
+  "overall_summary": "Apple's Q3 2025 earnings call highlighted strong revenue growth, with total revenue reaching $94\u202fbillion and Mac sales climbing 15% year\u2011over\u2011year, contributing to an overall positive sentiment of 18.1%. However, declines in iPad revenue and modest earnings per share, alongside a challenging year\u2011over\u2011year comparison, generated negative sentiment of 2.0%, while the majority of remarks remained neutral (80%)."
+}

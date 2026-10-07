@@ -1,0 +1,73 @@
+{
+  "ticker": "AAPL",
+  "quarter": "Q2_2025",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "iPhone revenue reached $46.8 billion, a 2% year-over-year increase.",
+      "source_text": "iPhone. iPhone revenue was $46.8 billion, up 2% from a year ago. During the quarter, we introduced",
+      "timestamp_sec": 217,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The company observed strong momentum in the March quarter despite a negative foreign-exchange impact.",
+      "source_text": "the negative impact from foreign exchange. We saw strong momentum in the March quarter,",
+      "timestamp_sec": 1078,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Management expects foreign-exchange conditions to improve sequentially in the June quarter.",
+      "source_text": "over year, we do expect foreign exchange in the June quarter to improve sequentially. However,",
+      "timestamp_sec": 2139,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The iPhone 16 family drove iPhone revenue to $46.8 billion, up 2% YoY.",
+      "source_text": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+      "timestamp_sec": 945,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Product gross margin fell to 35.9%, down 340 basis points sequentially due to product mix.",
+      "source_text": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix,",
+      "timestamp_sec": 896,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Revenue of $7.5 billion declined 5% year over year, reflecting a tougher comparative environment.",
+      "source_text": "was $7.5 billion, down 5% year over year. Keep in mind, we did face a more difficult compare",
+      "timestamp_sec": 1040,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The company\u2019s performance was down 2% in the March quarter.",
+      "source_text": "tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a",
+      "timestamp_sec": 1780,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Wearables and accessories revenue was $7.5 billion, down 5% year over year.",
+      "source_text": "wearables home in accessories, revenue was $7.5 billion down 5% from a year ago. From walking trails",
+      "timestamp_sec": 378,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

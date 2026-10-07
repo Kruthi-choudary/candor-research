@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "claim": "Apple saw strong performance in many emerging markets during Q4 2024.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1063,
+        "source_text": "we also saw strong performance in many emerging markets,"
+      }
+    },
+    {
+      "claim": "Sequential foreign\u2011exchange improvements contributed to better year\u2011over\u2011year performance.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 2309,
+        "source_text": "improvement relative to the year over year performance that we had been achieving is that there was a sequential improvement in foreign exchange."
+      }
+    },
+    {
+      "claim": "Products revenue reached $70\u202fbillion, a 4% year\u2011over\u2011year increase.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 863,
+        "source_text": "Products revenue was 70 billion, up 4% year over year,"
+      }
+    },
+    {
+      "claim": "The entire segment delivered very good results in the quarter.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 2437,
+        "source_text": "So we've seen very, very good results for us in the entire segment."
+      }
+    },
+    {
+      "claim": "Overall revenue declined to $9\u202fbillion, down 3% year over year.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 414,
+        "source_text": "revenue was $9 billion, down 3% from a year ago."
+      }
+    },
+    {
+      "claim": "There is a risk that product revenue could be down in the December quarter based on current commentary.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 2474,
+        "source_text": "Are we to assume based on sort of the commentary that there is a risk that maybe the product revenue portfolio could be down in the December quarter if I take your numbers at face value?"
+      }
+    },
+    {
+      "claim": "Apple has been facing headwinds that have persisted for a period of time.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 2324,
+        "source_text": "As you know, it's been a headwind that we've been reporting for a period of time."
+      }
+    },
+    {
+      "claim": "The company incurred unspecified costs during fiscal 24.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1611,
+        "source_text": "that we've incurred during the course of fiscal 24,"
+      }
+    }
+  ],
+  "overall_summary": "Apple's Q4\u202f2024 earnings call highlighted several positive themes, including strong emerging\u2011market performance, sequential foreign\u2011exchange gains and a 4% increase in product revenue to $70\u202fbillion, while also noting very good segment results. However, concerns were raised about a revenue dip to $9\u202fbillion, potential product\u2011revenue weakness in the December quarter, ongoing headwinds and costs incurred during fiscal\u202f24. The sentiment distribution was 19.0% positive, 2.1% negative and 78.9% neutral."
+}

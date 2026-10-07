@@ -17,6 +17,7 @@ export function CallReport() {
   const [transcript, setTranscript] = useState<Transcript | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [currentTime, setCurrentTime] = useState(0);
+  const [audioError, setAudioError] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
@@ -86,13 +87,22 @@ export function CallReport() {
       </div>
 
       {tab === "transcript" && (
-        <audio
-          ref={audioRef}
-          src={api.audioUrl(ticker, quarter)}
-          controls
-          onTimeUpdate={(e) => setCurrentTime(e.currentTarget.currentTime)}
-          className="sticky top-0 z-10 mt-4 h-10 w-full rounded-lg bg-raised"
-        />
+        <>
+          <audio
+            ref={audioRef}
+            src={api.audioUrl(ticker, quarter)}
+            controls
+            onTimeUpdate={(e) => setCurrentTime(e.currentTarget.currentTime)}
+            onError={() => setAudioError(true)}
+            className="sticky top-0 z-10 mt-4 h-10 w-full rounded-lg bg-raised"
+          />
+          {audioError && (
+            <p className="mt-2 text-xs text-text-faint">
+              Audio unavailable — the source file isn't included in this checkout (see README).
+              Clicking a line below will have no effect.
+            </p>
+          )}
+        </>
       )}
 
       {tab === "overview" && (

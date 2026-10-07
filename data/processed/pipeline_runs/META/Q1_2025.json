@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "ticker": "META",
+  "company": "Meta",
+  "quarter": "Q1 2025",
+  "call_date": "2025-04-30",
+  "overall_summary": "The call highlighted strong ad revenue growth in key geographies and increased marketing, R&D, and cost of revenue driven by infrastructure spending, reflecting a largely positive outlook. However, declines were noted in Meta Quest sales, government and politics, gaming, and G&A expenses, contributing to a predominantly neutral sentiment with 26.1% positive, 3.2% negative, and 70.7% neutral sentiment overall.",
+  "sentiment_distribution": {
+    "positive": 26.1,
+    "negative": 3.2,
+    "neutral": 70.7
+  },
+  "key_claims": [
+    {
+      "claim": "Ad revenue growth was strongest in the rest of world and North America.",
+      "evidence": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at",
+      "timestamp_sec": 898,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Marketing and sales expenses increased 8 percent, mainly due to higher infrastructure costs.",
+      "evidence": "infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in",
+      "timestamp_sec": 764,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Cost of revenue rose 14 percent, primarily driven by higher infrastructure costs.",
+      "evidence": "cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and",
+      "timestamp_sec": 745,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "R&D spending grew 22 percent, largely from increased employee compensation and longer server useful lives.",
+      "evidence": "of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and",
+      "timestamp_sec": 756,
+      "sentiment": "positive"
+    },
+    {
+      "claim": "Meta Quest sales declined, contributing to a $412 million drop (6% YoY).",
+      "evidence": "was 412 million dollars, down 6 percent year over year due to lower meta quest sales,",
+      "timestamp_sec": 998,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Growth in the government and politics vertical fell sharply after the US elections, remaining a very small overall segment.",
+      "evidence": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall.",
+      "timestamp_sec": 3516,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "Gaming revenue declined YoY in Q1, impacted by reduced spend from China-based advertisers.",
+      "evidence": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024.",
+      "timestamp_sec": 3498,
+      "sentiment": "negative"
+    },
+    {
+      "claim": "General and administrative expenses fell 34 percent, driven by lower legal costs.",
+      "evidence": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over",
+      "timestamp_sec": 777,
+      "sentiment": "negative"
+    }
+  ],
+  "risks": [],
+  "management_outlook": [],
+  "citation_verification": {
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0
+  },
+  "audio_features_summary": {
+    "mean_pitch_hz": 159.18,
+    "mean_energy": 0.04,
+    "mean_speaking_rate_wps": 2.7,
+    "segments_analyzed": 467
+  },
+  "prior_quarter_context_used": [
+    {
+      "quarter": "Q4 2024",
+      "start_sec": 1566.52,
+      "text": "towards our core business. On to tax abs and any changes to our tax landscape, we expect our full year 2025 tax rate to be in the range of 12 to 15 percent. In addition, we continue to monitor an active regulatory landscape including legal and regulatory headwinds in the EU and the US that could significantly impact our business and our financial results. In closing, this was a good year for our company with investments across our priority areas delivering strong business performance and innovative new products for our community. We have a compelling set of opportunities to invest in this year, which we expect will help us drive continued strong growth and develop transformative technologies that shape the future of our company and of the industry. With that, Krista, let's open up the call for questions. Thank you. We will now open the lines for a question and answer session. To ask a question, please press star 1 on your touchstone phone. To withdraw your question, again, press star 1. Please limit yourself to one question. Please pick up your hands up before asking your question to ensure clarity. If you are streaming today's call, please mute your computer speakers. And our first question comes from the line of Brian Nowak with Morgan Stanley. Please go ahead. Thanks for taking my question. Marc, sound very, we appreciate all the excitement about about this year and all the innovation to come. I know there's a lot of announcements throughout"
+    },
+    {
+      "quarter": "Q3 2025",
+      "start_sec": 1891.8600000000001,
+      "text": "that I alluded to. The biggest factor is we're lapping the introduction of Quest 3S and Q4 of last year and we don't have a new headset in the market this year. We also recorded all of our holiday-related Quest 3S sales in Q4 24 since the headset was launched in October 24. This year we're recognizing some of the requests in advance of the holiday season. We're still expecting significant year-over-year growth in A.I. Glasses revenue in Q4 as we benefit from strong demand for the recent products that we've introduced. But that is more than offset by the headwinds to the Quest headsets. Your next question comes from the line of Doug and move with JP Morgan. Please go ahead. Thanks for taking the time. I appreciate the strategy to front-load capacity for super intelligence. You can talk about your thought process in triangulating the CapEx dollar growth and the significantly faster expense growth next year with core growth in the business and then the impact on earnings and pre-cash flow. Do you have targets that we should be thinking about for cash on hand or net cash overall? Thanks, Doug. We're right now, I would say, in the process of relatively early, actually still in the process of putting together our budget for 2026. And it is on the capacity side a particularly dynamic process. We're certainly seeing that we wish we had more capacity today than we do. We would be able to put it towards"
+    },
+    {
+      "quarter": "Q2 2025",
+      "start_sec": 3060.0,
+      "text": "is kind of always the way that we work, whether we're building some new social product or this, something like MedAI or a new product around this, we're going to work on getting to leading scale, building the highest quality product, focus on that for a few years. And then once we're really confident in that position, then we'll focus on ramping up the business around it. So it's, I mean, going back to the last question a little bit, it's sort of when you compare this business to some of the cloud businesses, it's like we do have this delay, where we focus on building research and then doing research and ramping consumer products. And it often does take some period of time before we really are ramping up the business around it. I think that that's kind of a known property of our business and the cycle around it. But I guess on the flip side, we believe that if you are building super intelligence, you should use all of your GPUs to make it so that you're serving your customers really well with that. And we think that there's going to be a much higher return that we can do by generating that directly rather than just kind of renting or leasing out the infrastructure at other companies. On the second part of your question, you know, we've said in the past that our primary focus from a profitability perspective is driving consolidated operating profit growth over time. And it won't be linear. In some years, we'll"
+    }
+  ],
+  "pipeline_version": "1.0",
+  "stage_durations_sec": {
+    "transcription_sec": 0.0,
+    "sentiment_sec": 0.0,
+    "prosody_sec": 0.0,
+    "rag_sec": 6.3,
+    "generation_sec": 0.0,
+    "citation_check_sec": 0.0
+  }
+}

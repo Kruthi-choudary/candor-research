@@ -1,0 +1,5197 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.5600000000000005,
+      "text": "Good afternoon. My name is Krista, and I will be your conference operator today.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9211438894271851
+      }
+    },
+    {
+      "start": 4.96,
+      "end": 9.26,
+      "text": "At this time, I would like to welcome everyone to the META fourth quarter and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8092672228813171
+      }
+    },
+    {
+      "start": 9.26,
+      "end": 12.32,
+      "text": "full year 2024 earnings conference call.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9061712026596069
+      }
+    },
+    {
+      "start": 12.96,
+      "end": 16.32,
+      "text": "All lines have been placed on mute to prevent any background noise.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8475874066352844
+      }
+    },
+    {
+      "start": 16.92,
+      "end": 20.72,
+      "text": "After the speaker's remarks, so it will be a question and answer session.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9293498396873474
+      }
+    },
+    {
+      "start": 21.28,
+      "end": 25.64,
+      "text": "If you would like to ask a question, please press star one on your telephone keypad",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9422741532325745
+      }
+    },
+    {
+      "start": 26.2,
+      "end": 30.6,
+      "text": "to withdraw your question. Again, press star one, and we ask that you limit",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9356269836425781
+      }
+    },
+    {
+      "start": 30.6,
+      "end": 34.120000000000005,
+      "text": "yourself to one question. And this call will be recorded.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.943246603012085
+      }
+    },
+    {
+      "start": 34.6,
+      "end": 40.52,
+      "text": "Thank you very much. Kenneth Dorrell, META's director of an investor relations. You may begin.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9274671077728271
+      }
+    },
+    {
+      "start": 41.72,
+      "end": 45.8,
+      "text": "Thank you. Good afternoon and welcome to META platform's fourth quarter and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6828429102897644
+      }
+    },
+    {
+      "start": 45.8,
+      "end": 48.040000000000006,
+      "text": "full year 2024 earnings conference call.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9061712026596069
+      }
+    },
+    {
+      "start": 48.84,
+      "end": 53.72,
+      "text": "Joining me today to discuss our results are Mark Zuckerberg, CEO and Susan Lee, CFO.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9345890879631042
+      }
+    },
+    {
+      "start": 54.44,
+      "end": 58.12,
+      "text": "Before we get started, I would like to take this opportunity to remind you that our",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.883438229560852
+      }
+    },
+    {
+      "start": 58.12,
+      "end": 62.6,
+      "text": "remarks today will include forward-looking statements. Actual results may differ",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9282423853874207
+      }
+    },
+    {
+      "start": 62.6,
+      "end": 65.4,
+      "text": "materially from those contemplated by these forward-looking statements.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9209182858467102
+      }
+    },
+    {
+      "start": 66.28,
+      "end": 70.6,
+      "text": "Factors that could cause these results to differ materially are set forth in today's earnings",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8707433938980103
+      }
+    },
+    {
+      "start": 70.6,
+      "end": 75.08,
+      "text": "press release and in our quarterly report on form 10Q filed with the SEC.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9464850425720215
+      }
+    },
+    {
+      "start": 75.8,
+      "end": 80.44,
+      "text": "Any forward-looking statements that we make on this call are based on assumptions as of today,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9350811243057251
+      }
+    },
+    {
+      "start": 80.52,
+      "end": 85.24,
+      "text": "and we undertake no obligation to update these statements as a result of new information or",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9443382024765015
+      }
+    },
+    {
+      "start": 85.24,
+      "end": 90.67999999999999,
+      "text": "future events. During this call, we will present both GAP and certain non-GAP financial measures.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9464960694313049
+      }
+    },
+    {
+      "start": 91.24,
+      "end": 95.8,
+      "text": "A reconciliation of GAP to non-GAP measures is included in today's earnings press release.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.932928740978241
+      }
+    },
+    {
+      "start": 96.44,
+      "end": 100.84,
+      "text": "The earnings press release and an accompanying investor presentation are available on our",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9505360722541809
+      }
+    },
+    {
+      "start": 100.84,
+      "end": 106.12,
+      "text": "website at investor.atmeta.com. And now I'd like to turn it all over to Mark.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.938428521156311
+      }
+    },
+    {
+      "start": 106.84,
+      "end": 113.16000000000001,
+      "text": "Alright, thanks Ken. Thanks everyone for joining today. We ended 2024 on a strong note with now",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9409140348434448
+      }
+    },
+    {
+      "start": 113.16000000000001,
+      "end": 120.36,
+      "text": "more than 3.3 billion people using at least one of our apps each day. This is going to be a really",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7798486948013306
+      }
+    },
+    {
+      "start": 120.36,
+      "end": 127.08000000000001,
+      "text": "big year. I know it always feels like every year is a big year, but more than usual, it feels like",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8525775671005249
+      }
+    },
+    {
+      "start": 127.08000000000001,
+      "end": 133.4,
+      "text": "the trajectory for most of our long-term initiatives is going to be a lot clearer by the end of this",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5974174737930298
+      }
+    },
+    {
+      "start": 133.4,
+      "end": 140.44,
+      "text": "year. So I keep telling our teams that this is going to be intense because we have about 48",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8428848385810852
+      }
+    },
+    {
+      "start": 140.44,
+      "end": 147.16,
+      "text": "weeks to get on the trajectory that we want to be on. In AI, I expect that this is going to be the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8798717260360718
+      }
+    },
+    {
+      "start": 147.16,
+      "end": 154.20000000000002,
+      "text": "year when a highly intelligent and personalized AI assistant reaches more than 1 billion people,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7920007109642029
+      }
+    },
+    {
+      "start": 154.84,
+      "end": 161.56,
+      "text": "and I expect meta-AI to be that leading AI assistant. Meta-AI is already used by more people",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7694981694221497
+      }
+    },
+    {
+      "start": 161.56,
+      "end": 167.72,
+      "text": "than any other assistant, and once a service reaches that kind of scale, it usually develops",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9175757765769958
+      }
+    },
+    {
+      "start": 167.72,
+      "end": 174.04,
+      "text": "a durable long-term advantage. We have a really exciting roadmap for this year with a unique vision",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8048023581504822
+      }
+    },
+    {
+      "start": 175.32,
+      "end": 179.4,
+      "text": "focused on personalization. We believe that people don't all want to use the same AI.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9221462607383728
+      }
+    },
+    {
+      "start": 180.04,
+      "end": 184.44,
+      "text": "People want their AI to be personalized to their context, their interests, their personality,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9368317723274231
+      }
+    },
+    {
+      "start": 184.44,
+      "end": 189.4,
+      "text": "their culture, and how they think about the world. I don't think that there's just going to be one big",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9102905988693237
+      }
+    },
+    {
+      "start": 189.48000000000002,
+      "end": 195.32,
+      "text": "AI that everyone uses that does the same thing. People are going to get to choose how their AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9433857798576355
+      }
+    },
+    {
+      "start": 195.32,
+      "end": 199.96,
+      "text": "works and what it looks like for them. I continue to think that this is going to be one of the most",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7096990942955017
+      }
+    },
+    {
+      "start": 199.96,
+      "end": 205.48000000000002,
+      "text": "transformative products that we've made, and we have some fun surprises that I think people are",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8053238391876221
+      }
+    },
+    {
+      "start": 205.48000000000002,
+      "end": 212.68,
+      "text": "going to like this year. I think this will very well be the year when llama and open source become",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9140224456787109
+      }
+    },
+    {
+      "start": 212.68,
+      "end": 219.56,
+      "text": "the most advanced and widely used AI models as well. llama 4 is making great progress in training,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8634344935417175
+      }
+    },
+    {
+      "start": 220.28,
+      "end": 226.04000000000002,
+      "text": "llama 4 mini is done with pre-training, and our reasoning models and larger model",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8830418586730957
+      }
+    },
+    {
+      "start": 226.76000000000002,
+      "end": 233.4,
+      "text": "are looking good too. Our goal with llama 3 was to make open source competitive with closed models,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5282388925552368
+      }
+    },
+    {
+      "start": 234.04000000000002,
+      "end": 241.32,
+      "text": "and our goal for llama 4 is to lead. llama 4 will be natively multi-modal, it's an omnimodel,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8875369429588318
+      }
+    },
+    {
+      "start": 241.32,
+      "end": 246.35999999999999,
+      "text": "and it will have agentic capabilities, so it's going to be novel, and it's going to unlock",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5911363363265991
+      }
+    },
+    {
+      "start": 247.23999999999998,
+      "end": 252.84,
+      "text": "a lot of new use cases, and I'm looking forward to sharing more of our plan for the year on that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.786458432674408
+      }
+    },
+    {
+      "start": 252.84,
+      "end": 260.03999999999996,
+      "text": "over the next couple of months. I also expect that 2025 will be the year when it becomes possible to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8947184085845947
+      }
+    },
+    {
+      "start": 260.03999999999996,
+      "end": 269.88,
+      "text": "build an AI engineering agent that has coding and problem-solving abilities of around a good",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7224111557006836
+      }
+    },
+    {
+      "start": 270.2,
+      "end": 277.56,
+      "text": "level engineer. This is going to be a profound milestone, and potentially one of the most important",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7167839407920837
+      }
+    },
+    {
+      "start": 277.56,
+      "end": 284.04,
+      "text": "innovations in history, as well as over time, potentially a very large market.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.786612868309021
+      }
+    },
+    {
+      "start": 285.24,
+      "end": 289.96,
+      "text": "Whichever company builds this first is going to have a meaningful advantage in deploying it to",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7353922128677368
+      }
+    },
+    {
+      "start": 289.96,
+      "end": 297.56,
+      "text": "advance their AI research and shape the field. That's another reason why I think that this year is going",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7408896684646606
+      }
+    },
+    {
+      "start": 297.56,
+      "end": 306.6,
+      "text": "to set the course for the future. Our Rayben meta AI glasses are a real hit, and this will be the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5578946471214294
+      }
+    },
+    {
+      "start": 306.6,
+      "end": 313.48,
+      "text": "year when we understand the trajectory for AI glasses as a category. Many breakout products",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9078086018562317
+      }
+    },
+    {
+      "start": 315.16,
+      "end": 319.72,
+      "text": "in the history of consumer electronics have sold 5 to 10 million units in their third generation.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9233117699623108
+      }
+    },
+    {
+      "start": 320.92,
+      "end": 326.44,
+      "text": "This will be a defining year that determines if we're on a path towards many hundreds of millions,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7187655568122864
+      }
+    },
+    {
+      "start": 326.44,
+      "end": 332.04,
+      "text": "and eventually billions of AI glasses, and glasses being the next computing platform like we've been",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8667173385620117
+      }
+    },
+    {
+      "start": 332.04,
+      "end": 339.48,
+      "text": "talking about for some time, or if this is just going to be a longer grind. But it's great overall to see",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7271295189857483
+      }
+    },
+    {
+      "start": 339.48,
+      "end": 346.04,
+      "text": "people recognizing that these glasses are the perfect form factor for AI, as well as just great",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6085628271102905
+      }
+    },
+    {
+      "start": 346.04,
+      "end": 353.48,
+      "text": "stylish glasses. These are all big investments, especially the hundreds of billions of dollars",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9208042025566101
+      }
+    },
+    {
+      "start": 353.56,
+      "end": 360.04,
+      "text": "that we will invest in AI infrastructure over the long term. I announced last week that we expect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.787024736404419
+      }
+    },
+    {
+      "start": 360.04,
+      "end": 367.48,
+      "text": "to bring online almost a gigawatt of capacity this year, and we're building a two gigawatt",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.705405592918396
+      }
+    },
+    {
+      "start": 367.48,
+      "end": 374.12,
+      "text": "and potentially bigger AI data center that is so big that it will cover a significant part of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6022031903266907
+      }
+    },
+    {
+      "start": 374.12,
+      "end": 380.92,
+      "text": "Manhattan if it were placed there. We're planning to fund all of this by at the same time investing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9267259836196899
+      }
+    },
+    {
+      "start": 380.92,
+      "end": 387.32,
+      "text": "aggressively in initiatives that use these AI advances to increase revenue growth.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8873632550239563
+      }
+    },
+    {
+      "start": 387.32,
+      "end": 393.56,
+      "text": "We've put together a plan that will hopefully accelerate the pace of these initiatives over",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.892504870891571
+      }
+    },
+    {
+      "start": 393.56,
+      "end": 398.76,
+      "text": "the next few years. That's what a lot of our new headcount growth is going towards,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.809928834438324
+      }
+    },
+    {
+      "start": 399.64,
+      "end": 405.8,
+      "text": "and how well we execute on this will also determine our financial trajectory over the next few years.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8680603504180908
+      }
+    },
+    {
+      "start": 406.68,
+      "end": 411.96000000000004,
+      "text": "There are a number of other important product trends related to our family of apps that I think",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8338188529014587
+      }
+    },
+    {
+      "start": 411.96000000000004,
+      "end": 416.2,
+      "text": "we're going to know more about this year as well. We're going to learn what's going to happen with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8474966287612915
+      }
+    },
+    {
+      "start": 416.2,
+      "end": 421.56,
+      "text": "TikTok, and regardless of that, I expect reels on Instagram and Facebook to continue growing.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9477949738502502
+      }
+    },
+    {
+      "start": 422.52,
+      "end": 428.92,
+      "text": "I expect threads to continue on its trajectory to become the leading discussion platform and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9128552079200745
+      }
+    },
+    {
+      "start": 428.92,
+      "end": 435.72,
+      "text": "eventually reach billion people over the next several years. Threads now has more than",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8734462261199951
+      }
+    },
+    {
+      "start": 436.6,
+      "end": 441.32,
+      "text": "320 million monthly actives and has been adding more than 1 million signups per day.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8514844179153442
+      }
+    },
+    {
+      "start": 442.36,
+      "end": 447.08000000000004,
+      "text": "I expect WhatsApp to continue gaining share and making progress towards becoming the leading",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.943631649017334
+      }
+    },
+    {
+      "start": 447.08000000000004,
+      "end": 452.52000000000004,
+      "text": "messaging platform in the US like it is in a lot of the rest of the world. WhatsApp now has more",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9282106161117554
+      }
+    },
+    {
+      "start": 452.59999999999997,
+      "end": 458.68,
+      "text": "than 100 million monthly actives in the US. Facebook is used by more than 3 billion",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9421674609184265
+      }
+    },
+    {
+      "start": 460.03999999999996,
+      "end": 463.64,
+      "text": "monthly actives, and we're focused on growing its cultural influence.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7276248335838318
+      }
+    },
+    {
+      "start": 464.52,
+      "end": 471.88,
+      "text": "I'm excited this year to get back to some OG Facebook. This is also going to be a pivotal year",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5886049270629883
+      }
+    },
+    {
+      "start": 471.88,
+      "end": 476.68,
+      "text": "for the metaverse. The number of people using Quest and Horizon has been steadily growing,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5752502083778381
+      }
+    },
+    {
+      "start": 477.64,
+      "end": 482.92,
+      "text": "and this is a year when a number of the long-term investments that we've been working on",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8745828866958618
+      }
+    },
+    {
+      "start": 482.92,
+      "end": 489.08,
+      "text": "that will make the metaverse more visually stunning and inspiring will really start to land.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6863886713981628
+      }
+    },
+    {
+      "start": 489.08,
+      "end": 493.64,
+      "text": "So I think we're going to know a lot more about Horizon's trajectory by the end of this year.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8400142192840576
+      }
+    },
+    {
+      "start": 494.92,
+      "end": 500.28000000000003,
+      "text": "This is also going to be a big year for redefining our relationship with governments.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.822921872138977
+      }
+    },
+    {
+      "start": 501.64,
+      "end": 505.8,
+      "text": "We now have a US administration that is proud of our leading companies.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6725990176200867
+      }
+    },
+    {
+      "start": 506.68,
+      "end": 514.12,
+      "text": "Prioritizes American technology winning, and that will defend our values and interests abroad,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6505630016326904
+      }
+    },
+    {
+      "start": 514.12,
+      "end": 518.04,
+      "text": "and I am optimistic about the progress and innovation that this can unlock.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6208640336990356
+      }
+    },
+    {
+      "start": 519.08,
+      "end": 524.6,
+      "text": "So this is going to be a big year. I think that this is the most exciting and dynamic",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5953754782676697
+      }
+    },
+    {
+      "start": 524.6,
+      "end": 531.48,
+      "text": "that I have ever seen our industry. Between AI, glasses, massive infrastructure projects,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9013005495071411
+      }
+    },
+    {
+      "start": 531.5600000000001,
+      "end": 538.2,
+      "text": "you know, doing a bunch of work to try to accelerate our business and building the future of social",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7935301065444946
+      }
+    },
+    {
+      "start": 538.2,
+      "end": 543.96,
+      "text": "media, we have a lot to do. And I think we're going to build some awesome things that",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5786982774734497
+      }
+    },
+    {
+      "start": 544.9200000000001,
+      "end": 549.96,
+      "text": "shape the future of human connection. As always, I am grateful for everyone who's on this journey",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.747567892074585
+      }
+    },
+    {
+      "start": 549.96,
+      "end": 556.6,
+      "text": "with us. Thank you, near Susan. Thanks, Mark, and good afternoon, everyone.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8149312138557434
+      }
+    },
+    {
+      "start": 557.4,
+      "end": 563.5600000000001,
+      "text": "Let's begin with our consolidated results. All comparisons are on a year over year basis, unless",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9475145936012268
+      }
+    },
+    {
+      "start": 563.5600000000001,
+      "end": 573.64,
+      "text": "otherwise noted. Q4 total revenue was $48.4 billion, up 21% on both a reported and constant currency basis.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9564009308815002
+      }
+    },
+    {
+      "start": 574.76,
+      "end": 582.76,
+      "text": "Q4 total expenses were $25 billion, up 5% compared to last year. Before I cover the specific cost",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8059106469154358
+      }
+    },
+    {
+      "start": 582.76,
+      "end": 588.28,
+      "text": "lines, I would note that our fourth quarter expense growth rate reflects a 13 percentage point",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5662346482276917
+      }
+    },
+    {
+      "start": 588.28,
+      "end": 594.84,
+      "text": "favorable impact from legal accrual reductions in Q4 and lower year over year restructuring costs.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9527341723442078
+      }
+    },
+    {
+      "start": 596.4399999999999,
+      "end": 602.84,
+      "text": "In terms of the specific line items, cost of revenue increased 15% driven mostly by higher",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9594396352767944
+      }
+    },
+    {
+      "start": 602.84,
+      "end": 610.36,
+      "text": "infrastructure costs. R&D increased 16% primarily driven by higher employee compensation and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9575443267822266
+      }
+    },
+    {
+      "start": 610.44,
+      "end": 614.84,
+      "text": "infrastructure costs, which were partially offset by lower restructuring costs.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8959135413169861
+      }
+    },
+    {
+      "start": 615.96,
+      "end": 623.5600000000001,
+      "text": "Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9736875891685486
+      }
+    },
+    {
+      "start": 623.5600000000001,
+      "end": 631.08,
+      "text": "by lower legal related expenses due to a $1.55 billion reduction in legal accruals related to",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.838973879814148
+      }
+    },
+    {
+      "start": 631.08,
+      "end": 638.6,
+      "text": "certain legal proceedings. We ended the year with over 74,000 employees, up 10% year over year,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9527540802955627
+      }
+    },
+    {
+      "start": 638.6,
+      "end": 642.76,
+      "text": "with growth primarily driven by hiring and priority areas of monetization,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.627094030380249
+      }
+    },
+    {
+      "start": 643.32,
+      "end": 649.0,
+      "text": "infrastructure, generative AI, reality labs, as well as regulation and compliance.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9380404949188232
+      }
+    },
+    {
+      "start": 650.6,
+      "end": 657.48,
+      "text": "Fourth quarter operating income was $23.4 billion representing a 48% operating margin.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8429012298583984
+      }
+    },
+    {
+      "start": 658.6800000000001,
+      "end": 668.2,
+      "text": "Our tax rate for the quarter was 12%. Net income was $20.8 billion or $8.02 per share.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8964117765426636
+      }
+    },
+    {
+      "start": 669.4,
+      "end": 675.4,
+      "text": "Capital expenditures including principal payments on finance leases were $14.8 billion",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9267206788063049
+      }
+    },
+    {
+      "start": 676.6,
+      "end": 680.44,
+      "text": "driven by investments in servers, data centers and network infrastructure.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7234441041946411
+      }
+    },
+    {
+      "start": 681.64,
+      "end": 688.52,
+      "text": "Free cash flow was $13.2 billion. We paid $1.3 billion in dividends to shareholders,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9388726353645325
+      }
+    },
+    {
+      "start": 689.08,
+      "end": 696.9200000000001,
+      "text": "ending the year with $77.8 billion in cash and marketable securities and $28.8 billion in debt.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8139296174049377
+      }
+    },
+    {
+      "start": 698.6,
+      "end": 703.24,
+      "text": "Moving now to our segment results. I'll begin with our family of apps segment.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8922719359397888
+      }
+    },
+    {
+      "start": 703.8000000000001,
+      "end": 708.6800000000001,
+      "text": "Our community across the family of apps continues to grow and we estimate more than",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9201934933662415
+      }
+    },
+    {
+      "start": 708.6800000000001,
+      "end": 714.12,
+      "text": "3.3 billion people used at least one of our family of apps on a daily basis in December.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9287304282188416
+      }
+    },
+    {
+      "start": 715.32,
+      "end": 721.64,
+      "text": "Q4 total family of apps revenue was $47.3 billion, up 21% year over year.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9563418626785278
+      }
+    },
+    {
+      "start": 722.6,
+      "end": 731.16,
+      "text": "And Q4 family of apps ad revenue was $46.8 billion, up 21% on both a reported and constant currency basis.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9559491872787476
+      }
+    },
+    {
+      "start": 732.6,
+      "end": 737.8,
+      "text": "Within ad revenue, the online commerce vertical was the largest contributor to year over year growth.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5658947229385376
+      }
+    },
+    {
+      "start": 739.0,
+      "end": 744.68,
+      "text": "On a user geography basis, ad revenue growth was strongest in rest of world at 27%,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9621807336807251
+      }
+    },
+    {
+      "start": 745.6400000000001,
+      "end": 753.1600000000001,
+      "text": "followed by Asia Pacific in Europe at 23% and 22% respectively. North America grew 18%.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6258001327514648
+      }
+    },
+    {
+      "start": 754.6800000000001,
+      "end": 761.32,
+      "text": "In Q4, the total number of ad impressions served across our services increased 6% and the average",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9504015445709229
+      }
+    },
+    {
+      "start": 761.32,
+      "end": 768.44,
+      "text": "price per ad increased 14%. Impression growth was mainly driven by Asia Pacific. Pricing growth",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8332435488700867
+      }
+    },
+    {
+      "start": 768.44,
+      "end": 773.32,
+      "text": "benefited from increased advertiser demand in part driven by improved ad performance.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.958487868309021
+      }
+    },
+    {
+      "start": 774.12,
+      "end": 779.24,
+      "text": "This was partially offset by impression growth, particularly from lower monetizing regions and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9529035091400146
+      }
+    },
+    {
+      "start": 779.24,
+      "end": 789.08,
+      "text": "surfaces. Family of apps other revenue was $519 million, up 55%, driven primarily by business",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9507864117622375
+      }
+    },
+    {
+      "start": 789.08,
+      "end": 794.2,
+      "text": "messaging revenue growth from our WhatsApp business platform. We continue to direct the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5007802844047546
+      }
+    },
+    {
+      "start": 794.2,
+      "end": 799.4000000000001,
+      "text": "majority of our investments toward the development and operation of our family of apps. In Q4,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8789759278297424
+      }
+    },
+    {
+      "start": 799.48,
+      "end": 806.28,
+      "text": "family of apps expenses were $19 billion representing 76% of our overall expenses.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9428372979164124
+      }
+    },
+    {
+      "start": 807.24,
+      "end": 813.16,
+      "text": "Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9582500457763672
+      }
+    },
+    {
+      "start": 813.16,
+      "end": 820.76,
+      "text": "compensation, which were partially offset by lower legal related expenses. Family of apps operating",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8088232278823853
+      }
+    },
+    {
+      "start": 820.76,
+      "end": 829.16,
+      "text": "income was $28.3 billion representing a 60% operating margin. Within our reality lab segment,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8934017419815063
+      }
+    },
+    {
+      "start": 829.16,
+      "end": 835.7199999999999,
+      "text": "Q4 revenue was $1.1 billion, driven by hardware sales and up 1% year over year.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9578853249549866
+      }
+    },
+    {
+      "start": 837.16,
+      "end": 843.56,
+      "text": "Reality Labs expenses were $6 billion, up 6% year over year, driven primarily by higher",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9575265645980835
+      }
+    },
+    {
+      "start": 843.56,
+      "end": 849.64,
+      "text": "infrastructure costs and employee compensation, partially offset by lower restructuring costs.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7224907279014587
+      }
+    },
+    {
+      "start": 850.8399999999999,
+      "end": 857.64,
+      "text": "Reality Labs operating loss was $5 billion. Turning now to the business outlook, there are",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.7451005578041077
+      }
+    },
+    {
+      "start": 857.64,
+      "end": 862.36,
+      "text": "two primary factors that drive our revenue performance, our ability to deliver engaging",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8508997559547424
+      }
+    },
+    {
+      "start": 862.36,
+      "end": 867.4,
+      "text": "experiences for our community and our effectiveness at monetizing that engagement over time.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6129116415977478
+      }
+    },
+    {
+      "start": 868.1999999999999,
+      "end": 873.4,
+      "text": "On the first, daily actives continue to grow across Facebook, Instagram, and WhatsApp year over",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.842806339263916
+      }
+    },
+    {
+      "start": 873.4,
+      "end": 879.8,
+      "text": "year, both globally and in the United States. In Q4, global video time grew at double digit",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5291800498962402
+      }
+    },
+    {
+      "start": 879.8,
+      "end": 885.4,
+      "text": "percentages year over year on Instagram, and we're seeing particular strength in the US on Facebook,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8994812369346619
+      }
+    },
+    {
+      "start": 885.4,
+      "end": 891.3199999999999,
+      "text": "where video time spent was also up double digit rates year over year. We see continued",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.797514021396637
+      }
+    },
+    {
+      "start": 891.3199999999999,
+      "end": 898.28,
+      "text": "opportunities to drive video growth in 2025 through ongoing optimizations to our ranking systems.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8869368433952332
+      }
+    },
+    {
+      "start": 899.0,
+      "end": 904.28,
+      "text": "We're also making several product bets that are focused on setting up our platforms for longer",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8291976451873779
+      }
+    },
+    {
+      "start": 904.28,
+      "end": 911.72,
+      "text": "term success. Creators are one of our central focuses. On Instagram, we continue to prioritize",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8867245316505432
+      }
+    },
+    {
+      "start": 911.72,
+      "end": 915.96,
+      "text": "original posts and recommendations to help smaller creators get discovered.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9285919666290283
+      }
+    },
+    {
+      "start": 916.6800000000001,
+      "end": 921.32,
+      "text": "We also want to ensure creators have a place to experiment with their content,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8263141512870789
+      }
+    },
+    {
+      "start": 921.32,
+      "end": 927.1600000000001,
+      "text": "so we introduced a new feature in Q4 that allows creators to first share a reel with people who",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8101256489753723
+      }
+    },
+    {
+      "start": 927.1600000000001,
+      "end": 934.28,
+      "text": "don't follow them. This allows them to test content and see what performs best before deciding to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9036371111869812
+      }
+    },
+    {
+      "start": 934.28,
+      "end": 940.36,
+      "text": "share it with their followers, and also helps introduce them to entirely new audiences. Creative",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7935003638267517
+      }
+    },
+    {
+      "start": 940.36,
+      "end": 946.28,
+      "text": "Tools is another area we're investing in. In the coming weeks, we'll launch a new standalone app",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.852713406085968
+      }
+    },
+    {
+      "start": 946.28,
+      "end": 952.2,
+      "text": "called edits that provides a full suite of creative tools to make it easier for creators to make great",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8734431266784668
+      }
+    },
+    {
+      "start": 952.2,
+      "end": 959.72,
+      "text": "reels on their phone. Another focus is making it easier for people to connect over content. Reels",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9247334003448486
+      }
+    },
+    {
+      "start": 959.72,
+      "end": 965.16,
+      "text": "are already re-shared over 4.5 billion times a day, and we've been introducing more features that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7049232721328735
+      }
+    },
+    {
+      "start": 965.16,
+      "end": 970.6,
+      "text": "bring together the social and entertainment aspects of Instagram. In the U.S., we recently",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9265817999839783
+      }
+    },
+    {
+      "start": 970.6,
+      "end": 976.04,
+      "text": "launched a new destination in reels that consists of content your friends have left a note on or liked.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8889776468276978
+      }
+    },
+    {
+      "start": 976.8399999999999,
+      "end": 982.1999999999999,
+      "text": "We're seeing very positive early results, and we'll look to expand this globally in the coming months.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9394131302833557
+      }
+    },
+    {
+      "start": 983.48,
+      "end": 988.68,
+      "text": "On threads, we made tremendous progress in 2024, and are focused this year as establishing",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8016124963760376
+      }
+    },
+    {
+      "start": 988.68,
+      "end": 994.68,
+      "text": "threads as the place people come to keep up with what they care about. We're making a number of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9170474410057068
+      }
+    },
+    {
+      "start": 994.7600000000001,
+      "end": 1001.4000000000001,
+      "text": "updates to our recommendation systems to prioritize more recent posts, surface content from top creators,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9106781482696533
+      }
+    },
+    {
+      "start": 1001.4000000000001,
+      "end": 1007.1600000000001,
+      "text": "and ensure people see more of the content from accounts they follow. We will also continue",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8854671716690063
+      }
+    },
+    {
+      "start": 1007.1600000000001,
+      "end": 1012.2800000000001,
+      "text": "improving custom feeds so people can build personalized feeds on topics they're interested in.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8057717680931091
+      }
+    },
+    {
+      "start": 1014.2,
+      "end": 1018.7600000000001,
+      "text": "Finally, meta-AI usage continues to scale with more than 700 million monthly",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.899646520614624
+      }
+    },
+    {
+      "start": 1018.76,
+      "end": 1023.96,
+      "text": "actors. We're now introducing updates that will enable meta-AI to deliver more personalized",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5545393228530884
+      }
+    },
+    {
+      "start": 1023.96,
+      "end": 1029.56,
+      "text": "and relevant responses by remembering certain details from people's prior queries and considering",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9358395934104919
+      }
+    },
+    {
+      "start": 1029.56,
+      "end": 1034.84,
+      "text": "what they engage with on Facebook and Instagram to develop better intuition for their interests",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8730656504631042
+      }
+    },
+    {
+      "start": 1034.84,
+      "end": 1041.64,
+      "text": "and preferences. Now to the second driver of our revenue performance, increasing monetization",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7214392423629761
+      }
+    },
+    {
+      "start": 1041.64,
+      "end": 1046.76,
+      "text": "efficiency. The first part of this work is optimizing the level of ads with an organic",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8695587515830994
+      }
+    },
+    {
+      "start": 1046.76,
+      "end": 1053.4,
+      "text": "engagement. We continue to grow supply on lower monetizing surfaces, like video, while optimizing",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7940346598625183
+      }
+    },
+    {
+      "start": 1053.4,
+      "end": 1059.0,
+      "text": "ad supply on each of our services to deliver ads at the time and place they will be most relevant",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9494212865829468
+      }
+    },
+    {
+      "start": 1059.0,
+      "end": 1066.2,
+      "text": "to people. For example, we are continuing to better personalize when ads show up, including",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7318782806396484
+      }
+    },
+    {
+      "start": 1066.2,
+      "end": 1072.12,
+      "text": "the optimal locations in the depth of someone's feed to introduce ad supply when it's most optimal",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9287031888961792
+      }
+    },
+    {
+      "start": 1072.2,
+      "end": 1076.6000000000001,
+      "text": "for the user and revenue. This is enabling efficient supply growth.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.85631263256073
+      }
+    },
+    {
+      "start": 1077.8000000000002,
+      "end": 1083.48,
+      "text": "Longer term, we also see impression growth opportunities on unmonetized surfaces like threads,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8487439155578613
+      }
+    },
+    {
+      "start": 1084.2800000000002,
+      "end": 1090.1200000000001,
+      "text": "which we are beginning to test ads on this quarter. We expect the introduction of ads on",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6384812593460083
+      }
+    },
+    {
+      "start": 1090.1200000000001,
+      "end": 1094.68,
+      "text": "threads will be gradual and don't anticipate it being a meaningful driver of overall",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8778510689735413
+      }
+    },
+    {
+      "start": 1094.68,
+      "end": 1100.8400000000001,
+      "text": "impression or revenue growth in 2025. The second part of increasing monetization",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8039672374725342
+      }
+    },
+    {
+      "start": 1100.84,
+      "end": 1107.08,
+      "text": "efficiency is improving marketing performance. The ongoing enhancements to our ads ranking systems",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9222061038017273
+      }
+    },
+    {
+      "start": 1107.08,
+      "end": 1113.72,
+      "text": "are an important driver of this work. In the second half of 2024, we introduced an innovative",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7368389368057251
+      }
+    },
+    {
+      "start": 1113.72,
+      "end": 1119.3999999999999,
+      "text": "new machine learning system in partnership with NVIDIA called Andromeda. This more efficient",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.689252495765686
+      }
+    },
+    {
+      "start": 1119.3999999999999,
+      "end": 1125.8799999999999,
+      "text": "system enabled a 10,000 times increase in the complexity of models we use for ads retrieval,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6837995648384094
+      }
+    },
+    {
+      "start": 1126.44,
+      "end": 1131.48,
+      "text": "which is the part of the ranking process where we narrow down a pool of tens of millions of ads",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9360132813453674
+      }
+    },
+    {
+      "start": 1131.48,
+      "end": 1137.3200000000002,
+      "text": "to the few thousand we consider showing someone. The increase in model complexity is enabling",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7335042357444763
+      }
+    },
+    {
+      "start": 1137.3200000000002,
+      "end": 1143.0,
+      "text": "us to run far more sophisticated prediction models to better personalize which ads we show",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7743538022041321
+      }
+    },
+    {
+      "start": 1143.0,
+      "end": 1149.24,
+      "text": "someone. This has driven an 8% increase in the quality of ads that people see on objectives we've",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7362210154533386
+      }
+    },
+    {
+      "start": 1149.32,
+      "end": 1155.8,
+      "text": "tested. Andromeda's ability to efficiently process larger volumes of ads also positions",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8578254580497742
+      }
+    },
+    {
+      "start": 1155.8,
+      "end": 1162.1200000000001,
+      "text": "as well for the future as advertisers use our generative AI tools to create and test more ads.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7324885129928589
+      }
+    },
+    {
+      "start": 1164.2,
+      "end": 1169.64,
+      "text": "Another way we're delivering value for advertisers is through increased automation of their ad campaigns",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7050942778587341
+      }
+    },
+    {
+      "start": 1169.64,
+      "end": 1175.48,
+      "text": "with Advantage Plus. Adoption of Advantage Plus shopping campaigns continues to scale",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7507537007331848
+      }
+    },
+    {
+      "start": 1175.48,
+      "end": 1182.04,
+      "text": "with revenues surpassing a $20 billion annual run rate and growing 70% year-to-year in Q4.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9506367444992065
+      }
+    },
+    {
+      "start": 1183.0,
+      "end": 1187.88,
+      "text": "Given the strong performance and interest we're seeing in Advantage Plus shopping and our other",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8010945320129395
+      }
+    },
+    {
+      "start": 1187.88,
+      "end": 1195.56,
+      "text": "end-to-end solutions, we're testing a new streamlined campaign creation flow so advertisers no longer",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8319845199584961
+      }
+    },
+    {
+      "start": 1195.56,
+      "end": 1201.88,
+      "text": "need to choose between running a manual or Advantage Plus sales or app campaign. In this new setup,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9253531694412231
+      }
+    },
+    {
+      "start": 1201.88,
+      "end": 1207.72,
+      "text": "all campaigns optimizing for sales app or lead objectives will have Advantage Plus turned on",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7765400409698486
+      }
+    },
+    {
+      "start": 1207.72,
+      "end": 1214.1200000000001,
+      "text": "from the beginning. This will allow more advertisers to take advantage of the performance Advantage Plus",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8269454836845398
+      }
+    },
+    {
+      "start": 1214.1200000000001,
+      "end": 1221.5600000000002,
+      "text": "offers while still having the ability to further customize aspects of their campaigns when they need",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8318076729774475
+      }
+    },
+    {
+      "start": 1221.5600000000002,
+      "end": 1228.44,
+      "text": "to. We plan to expand to more advertisers in the coming months before rolling it out later in the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5866889357566833
+      }
+    },
+    {
+      "start": 1228.44,
+      "end": 1234.6000000000001,
+      "text": "year. Advantage Plus creative is another area where we're seeing momentum. More than 4 million",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7111883163452148
+      }
+    },
+    {
+      "start": 1234.6000000000001,
+      "end": 1241.16,
+      "text": "advertisers are now using at least one of our generative AI ad creative tools up from 1 million",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5074707269668579
+      }
+    },
+    {
+      "start": 1241.16,
+      "end": 1247.24,
+      "text": "six months ago. There has been significant early adoption of our first video generation tool that",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7420539259910583
+      }
+    },
+    {
+      "start": 1247.24,
+      "end": 1253.56,
+      "text": "we rolled out in October image animation with hundreds of thousands of advertisers already",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9191318154335022
+      }
+    },
+    {
+      "start": 1253.56,
+      "end": 1260.36,
+      "text": "using it monthly. Next, I would like to discuss our approach to capital allocation. Our primary",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.923445463180542
+      }
+    },
+    {
+      "start": 1260.36,
+      "end": 1266.76,
+      "text": "focus remains investing capital back into the business with infrastructure and talent being our",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5589767694473267
+      }
+    },
+    {
+      "start": 1266.76,
+      "end": 1274.76,
+      "text": "top priorities. On the first, we expect compute will be central to many of the opportunities we're",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7088985443115234
+      }
+    },
+    {
+      "start": 1274.76,
+      "end": 1281.48,
+      "text": "pursuing as we advance the capabilities of llama drive increased usage of generative AI products",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.829120397567749
+      }
+    },
+    {
+      "start": 1281.48,
+      "end": 1286.84,
+      "text": "and features across our platform and fuel core ads and organic engagement initiatives.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7744220495223999
+      }
+    },
+    {
+      "start": 1288.04,
+      "end": 1292.68,
+      "text": "We're working to meet the growing capacity needs for these services by both scaling our",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7903596758842468
+      }
+    },
+    {
+      "start": 1292.68,
+      "end": 1298.84,
+      "text": "infrastructure footprint and increasing the efficiency of our workloads. Another way we're",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6151546239852905
+      }
+    },
+    {
+      "start": 1298.84,
+      "end": 1303.8,
+      "text": "pursuing efficiencies is by extending the useful lives of our servers and associated networking",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6343606114387512
+      }
+    },
+    {
+      "start": 1303.8,
+      "end": 1310.68,
+      "text": "equipment. Our expectation going forward is that we'll be able to use both our non AI and AI",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7768774032592773
+      }
+    },
+    {
+      "start": 1310.68,
+      "end": 1316.3600000000001,
+      "text": "servers for a longer period of time before replacing them, which we estimate will be approximately",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8201473951339722
+      }
+    },
+    {
+      "start": 1316.3600000000001,
+      "end": 1323.24,
+      "text": "five and a half years. This will deliver savings in annual capex and resulting depreciation expense,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9453331232070923
+      }
+    },
+    {
+      "start": 1323.24,
+      "end": 1329.8,
+      "text": "which is already included in our guidance. Finally, we're pursuing cost efficiencies by deploying",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6589388847351074
+      }
+    },
+    {
+      "start": 1329.8,
+      "end": 1336.1200000000001,
+      "text": "our custom MTIA silicon in areas where we can achieve a lower cost of compute by optimizing",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6883391737937927
+      }
+    },
+    {
+      "start": 1336.2,
+      "end": 1342.2800000000002,
+      "text": "the chip to our unique workloads. In 2024, we started deploying MTIA to our ranking",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7728881239891052
+      }
+    },
+    {
+      "start": 1342.2800000000002,
+      "end": 1349.0000000000002,
+      "text": "and recommendation inference workloads for ads and organic content. We expect to further ramp",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8229876160621643
+      }
+    },
+    {
+      "start": 1349.0000000000002,
+      "end": 1356.0400000000002,
+      "text": "adoption of MTIA for these use cases throughout 2025 before extending our custom silicon efforts",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7957143783569336
+      }
+    },
+    {
+      "start": 1356.0400000000002,
+      "end": 1362.0400000000002,
+      "text": "to training workloads for ranking and recommendations next year. From a hiring standpoint,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9035181999206543
+      }
+    },
+    {
+      "start": 1362.92,
+      "end": 1368.68,
+      "text": "our focus continues to be on adding technical talent to support our strategic priorities.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8759098649024963
+      }
+    },
+    {
+      "start": 1369.56,
+      "end": 1375.1599999999999,
+      "text": "In the fourth quarter, nearly 90% of our year over year headcount growth was within the R&D",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6728034019470215
+      }
+    },
+    {
+      "start": 1375.1599999999999,
+      "end": 1380.2,
+      "text": "function. The remaining growth was primarily in cost of revenue as we added infrastructure",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8671523332595825
+      }
+    },
+    {
+      "start": 1380.2,
+      "end": 1387.6399999999999,
+      "text": "headcount to support our data center operations. In 2025, we expect headcount growth will continue",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9486055374145508
+      }
+    },
+    {
+      "start": 1387.64,
+      "end": 1392.8400000000001,
+      "text": "to be primarily driven by technical roles across our priority initiatives within infrastructure,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8074861168861389
+      }
+    },
+    {
+      "start": 1393.48,
+      "end": 1398.44,
+      "text": "monetization, reality labs, generative AI, as well as regulation and compliance.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9398765563964844
+      }
+    },
+    {
+      "start": 1399.72,
+      "end": 1403.96,
+      "text": "We anticipate headcount growth in our business functions will remain relatively limited.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.35237908363342285
+      }
+    },
+    {
+      "start": 1405.16,
+      "end": 1409.72,
+      "text": "To achieve our ambitions in these areas, we will need to continue executing at a rapid pace.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7959998846054077
+      }
+    },
+    {
+      "start": 1410.68,
+      "end": 1414.6000000000001,
+      "text": "We're supporting this by building tools to help our engineering base be more productive.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8608719110488892
+      }
+    },
+    {
+      "start": 1415.3200000000002,
+      "end": 1420.5200000000002,
+      "text": "As part of our efficiency focus over the past two years, we've made significant improvements",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9081377387046814
+      }
+    },
+    {
+      "start": 1420.5200000000002,
+      "end": 1426.0400000000002,
+      "text": "in our internal processes and developer tools and introduced new tools like our AI powered coding",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7255648970603943
+      }
+    },
+    {
+      "start": 1426.0400000000002,
+      "end": 1432.2,
+      "text": "assistant, which is helping our engineers write code more quickly. Looking forward, we expect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6948898434638977
+      }
+    },
+    {
+      "start": 1432.2,
+      "end": 1437.88,
+      "text": "that the continuous advancements and llamas coding capabilities will provide even greater leverage",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9024686813354492
+      }
+    },
+    {
+      "start": 1437.88,
+      "end": 1443.5600000000002,
+      "text": "to our engineers. And we are focused on expanding its capabilities to not only assist our engineers",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8778039813041687
+      }
+    },
+    {
+      "start": 1443.56,
+      "end": 1449.32,
+      "text": "in writing and reviewing our code, but to also begin generating code changes to automate tool",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8782268762588501
+      }
+    },
+    {
+      "start": 1449.32,
+      "end": 1456.04,
+      "text": "updates and improve the quality of our code base. Finally, we expect our strong financial position",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9509178400039673
+      }
+    },
+    {
+      "start": 1456.04,
+      "end": 1460.9199999999998,
+      "text": "will enable us to support these investments while continuing to return capital to shareholders",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7951258420944214
+      }
+    },
+    {
+      "start": 1461.48,
+      "end": 1469.32,
+      "text": "through share repurchases and dividends. Moving to our financial outlook, we expect first quarter",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8436542749404907
+      }
+    },
+    {
+      "start": 1469.32,
+      "end": 1477.24,
+      "text": "total revenue to be in the range of $39.5 to $41.8 billion. This reflects 8 to 15 percent",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.918861448764801
+      }
+    },
+    {
+      "start": 1477.24,
+      "end": 1483.48,
+      "text": "year year growth or 11 to 18 percent growth on a constant currency basis, as our guidance assumes",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8777634501457214
+      }
+    },
+    {
+      "start": 1483.48,
+      "end": 1489.3999999999999,
+      "text": "foreign currency is an approximately 3 percent headwind to year over year total revenue growth",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.966323971748352
+      }
+    },
+    {
+      "start": 1489.3999999999999,
+      "end": 1495.24,
+      "text": "based on current exchange rates. This also reflects the effect of lapping leap day in the first quarter",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9038499593734741
+      }
+    },
+    {
+      "start": 1495.24,
+      "end": 1503.0,
+      "text": "of 2024. While we are not providing a full year 2025 revenue outlook, we expect the investments",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9114757776260376
+      }
+    },
+    {
+      "start": 1503.0,
+      "end": 1508.2,
+      "text": "we're making in our core business this year will give us an opportunity to continue delivering",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8940311074256897
+      }
+    },
+    {
+      "start": 1508.2,
+      "end": 1516.84,
+      "text": "strong revenue growth throughout 2025. Turning now to the expense outlook, we expect full year 2025",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9064229130744934
+      }
+    },
+    {
+      "start": 1516.84,
+      "end": 1524.44,
+      "text": "total expenses to be in the range of 114 to 119 billion dollars. We expect the single largest",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9379193186759949
+      }
+    },
+    {
+      "start": 1524.44,
+      "end": 1530.76,
+      "text": "driver of expense growth in 2025 to be infrastructure costs driven by higher operating expenses and",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.802635133266449
+      }
+    },
+    {
+      "start": 1530.76,
+      "end": 1537.72,
+      "text": "depreciation. We expect employee compensation to be the second largest factor as we add technical talent",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6191082000732422
+      }
+    },
+    {
+      "start": 1537.72,
+      "end": 1545.0,
+      "text": "in the priority areas that I referenced earlier. Turning now to the cat-backs outlook, we expect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8987337946891785
+      }
+    },
+    {
+      "start": 1545.0,
+      "end": 1553.3200000000002,
+      "text": "our full year 2025 capital expenses will be in the range of 60 to 65 billion dollars. We expect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9446566700935364
+      }
+    },
+    {
+      "start": 1553.32,
+      "end": 1559.3999999999999,
+      "text": "cat-backs growth in 2025 will be driven by increased investment to support both our generative",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9053840041160583
+      }
+    },
+    {
+      "start": 1559.3999999999999,
+      "end": 1566.52,
+      "text": "AI efforts and our core business. The majority of our cat-backs in 2025 will continue to be directed",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8660829067230225
+      }
+    },
+    {
+      "start": 1566.52,
+      "end": 1573.48,
+      "text": "towards our core business. On to tax abs and any changes to our tax landscape, we expect our full",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5518742799758911
+      }
+    },
+    {
+      "start": 1573.48,
+      "end": 1581.08,
+      "text": "year 2025 tax rate to be in the range of 12 to 15 percent. In addition, we continue to monitor an",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9167637228965759
+      }
+    },
+    {
+      "start": 1581.1599999999999,
+      "end": 1586.76,
+      "text": "active regulatory landscape including legal and regulatory headwinds in the EU and the US",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.9209024310112
+      }
+    },
+    {
+      "start": 1586.76,
+      "end": 1592.4399999999998,
+      "text": "that could significantly impact our business and our financial results. In closing, this was a good",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.7806488275527954
+      }
+    },
+    {
+      "start": 1592.4399999999998,
+      "end": 1597.1599999999999,
+      "text": "year for our company with investments across our priority areas delivering strong business",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9495272636413574
+      }
+    },
+    {
+      "start": 1597.1599999999999,
+      "end": 1603.0,
+      "text": "performance and innovative new products for our community. We have a compelling set of opportunities",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5988646149635315
+      }
+    },
+    {
+      "start": 1603.0,
+      "end": 1609.0,
+      "text": "to invest in this year, which we expect will help us drive continued strong growth and develop",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9300652146339417
+      }
+    },
+    {
+      "start": 1609.0,
+      "end": 1613.0,
+      "text": "transformative technologies that shape the future of our company and of the industry.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.847848653793335
+      }
+    },
+    {
+      "start": 1613.96,
+      "end": 1616.6,
+      "text": "With that, Krista, let's open up the call for questions.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9232399463653564
+      }
+    },
+    {
+      "start": 1618.68,
+      "end": 1624.44,
+      "text": "Thank you. We will now open the lines for a question and answer session. To ask a question,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9391971230506897
+      }
+    },
+    {
+      "start": 1624.44,
+      "end": 1630.04,
+      "text": "please press star 1 on your touchstone phone. To withdraw your question, again, press star 1.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9464350938796997
+      }
+    },
+    {
+      "start": 1630.68,
+      "end": 1636.68,
+      "text": "Please limit yourself to one question. Please pick up your hands up before asking your question",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9178274869918823
+      }
+    },
+    {
+      "start": 1636.68,
+      "end": 1642.6000000000001,
+      "text": "to ensure clarity. If you are streaming today's call, please mute your computer speakers.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.947945773601532
+      }
+    },
+    {
+      "start": 1643.48,
+      "end": 1650.04,
+      "text": "And our first question comes from the line of Brian Nowak with Morgan Stanley. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.935019850730896
+      }
+    },
+    {
+      "start": 1651.3200000000002,
+      "end": 1656.2,
+      "text": "Thanks for taking my question. Marc, sound very, we appreciate all the excitement about",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6763991713523865
+      }
+    },
+    {
+      "start": 1656.2,
+      "end": 1660.6000000000001,
+      "text": "about this year and all the innovation to come. I know there's a lot of announcements throughout",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8276692032814026
+      }
+    },
+    {
+      "start": 1660.6000000000001,
+      "end": 1664.68,
+      "text": "the course of the year, but wonder if you could just share a few sort of high level examples of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9294002652168274
+      }
+    },
+    {
+      "start": 1664.68,
+      "end": 1671.0800000000002,
+      "text": "your vision on new potential use cases and offerings that could drive utility for your users",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.728523313999176
+      }
+    },
+    {
+      "start": 1671.0800000000002,
+      "end": 1676.2,
+      "text": "and value for your advertisers. You sort of think about llama 4 and meta-i changing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9297810196876526
+      }
+    },
+    {
+      "start": 1676.2,
+      "end": 1682.3600000000001,
+      "text": "throughout 2025. And then the second one on custom silicon, maybe a question for either of you,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9411687850952148
+      }
+    },
+    {
+      "start": 1682.3600000000001,
+      "end": 1688.3600000000001,
+      "text": "just any learnings on the difference between your custom silicon and third party chips in your ranking",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9378138780593872
+      }
+    },
+    {
+      "start": 1688.3600000000001,
+      "end": 1693.3200000000002,
+      "text": "models and results. And how should we think about the main gating factors as to how quickly you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9475530982017517
+      }
+    },
+    {
+      "start": 1693.32,
+      "end": 1697.6399999999999,
+      "text": "build a move, a higher percentage of your engagement to your custom silicon? Thanks.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7313868403434753
+      }
+    },
+    {
+      "start": 1704.52,
+      "end": 1710.6799999999998,
+      "text": "On the first one, I tried to lay this out in my opening comments a bit. I mean, we're very",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9041042327880859
+      }
+    },
+    {
+      "start": 1710.6799999999998,
+      "end": 1719.08,
+      "text": "focused on meta-i as a highly intelligent and personalized assistant that you can access",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8127877116203308
+      }
+    },
+    {
+      "start": 1719.96,
+      "end": 1724.28,
+      "text": "across our apps. There's a website, you can access it outside of our apps too.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9316449165344238
+      }
+    },
+    {
+      "start": 1727.0,
+      "end": 1733.6399999999999,
+      "text": "I think that the quality of this is just it's going to keep on improving and improved a lot",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9403323531150818
+      }
+    },
+    {
+      "start": 1733.6399999999999,
+      "end": 1740.9199999999998,
+      "text": "over the last year. We're also finding more ways that it's useful to integrate it into our services",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6932904124259949
+      }
+    },
+    {
+      "start": 1740.9199999999998,
+      "end": 1746.12,
+      "text": "to help more people discover it. I think that that's undoubtedly why so many hundreds of millions of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8953104615211487
+      }
+    },
+    {
+      "start": 1746.1200000000001,
+      "end": 1752.8400000000001,
+      "text": "people are using it today is because it's kind of easy to discover what we're doing and then keep",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9251282811164856
+      }
+    },
+    {
+      "start": 1752.8400000000001,
+      "end": 1761.96,
+      "text": "using it. I don't know. I want to keep some surprises and fun for the stuff that we're going to release",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9238092303276062
+      }
+    },
+    {
+      "start": 1761.96,
+      "end": 1767.48,
+      "text": "this year. I gave a bit of detail on what we're planning to do with Lama 4 that I'm sure technical",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9163707494735718
+      }
+    },
+    {
+      "start": 1767.48,
+      "end": 1772.68,
+      "text": "people will enjoy because we hadn't talked about that before. But I'm going to refrain from adding a",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.897722601890564
+      }
+    },
+    {
+      "start": 1772.68,
+      "end": 1777.48,
+      "text": "whole lot more on what we're launching this year. But it's the different things that I talked about.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9270570278167725
+      }
+    },
+    {
+      "start": 1777.48,
+      "end": 1783.16,
+      "text": "It's meta-i. I do expect Lama 4 to be a very exciting set of releases. It's not just one thing.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9121719002723694
+      }
+    },
+    {
+      "start": 1783.16,
+      "end": 1787.0800000000002,
+      "text": "It's just like with Lama 3. There were kind of a few different models at different dates. I think",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8914267420768738
+      }
+    },
+    {
+      "start": 1787.0800000000002,
+      "end": 1794.2,
+      "text": "we'll see that with Lama 4 too. And then the AI engineer piece, I'm really excited about it. I",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7408921718597412
+      }
+    },
+    {
+      "start": 1794.2,
+      "end": 1799.3200000000002,
+      "text": "don't know that that's going to be an external product anytime soon. But I think for what we're",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8874497413635254
+      }
+    },
+    {
+      "start": 1799.32,
+      "end": 1806.2,
+      "text": "working on, our goal is to advance AI research and advance our own development internally. And",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5053829550743103
+      }
+    },
+    {
+      "start": 1806.2,
+      "end": 1809.56,
+      "text": "I think it's just going to be a very profound thing. I mean, that's something that I think will",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8865097165107727
+      }
+    },
+    {
+      "start": 1809.56,
+      "end": 1815.8,
+      "text": "show up through making our products better over time. But then as that works, there will potentially",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.66496741771698
+      }
+    },
+    {
+      "start": 1815.8,
+      "end": 1821.3999999999999,
+      "text": "be a market opportunity down the road. But I mean, for now, in this year, we're really... I don't",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.870904803276062
+      }
+    },
+    {
+      "start": 1821.3999999999999,
+      "end": 1828.04,
+      "text": "think you're going to see this year like an AI engineer that is extremely widely deployed,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7955228686332703
+      }
+    },
+    {
+      "start": 1828.04,
+      "end": 1831.72,
+      "text": "changing all of development. I think this is going to be the year where that really",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8535093069076538
+      }
+    },
+    {
+      "start": 1831.72,
+      "end": 1837.32,
+      "text": "starts to become possible and lays the groundwork for a much more dramatic change in 26 and beyond.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5598390102386475
+      }
+    },
+    {
+      "start": 1838.6,
+      "end": 1843.6399999999999,
+      "text": "I don't know. Yeah, that's kind of it. Brian, I'm happy to take your second question",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8839700818061829
+      }
+    },
+    {
+      "start": 1843.6399999999999,
+      "end": 1850.52,
+      "text": "about custom silicon. So first of all, we expect that we are continuing to purchase third-party",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6133044958114624
+      }
+    },
+    {
+      "start": 1850.52,
+      "end": 1856.44,
+      "text": "silicon from leading providers in the industry. And we are certainly committed to those longstanding",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6937702298164368
+      }
+    },
+    {
+      "start": 1856.44,
+      "end": 1861.56,
+      "text": "partnerships. But we're also very invested in developing our own custom silicon for unique",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7201654314994812
+      }
+    },
+    {
+      "start": 1861.56,
+      "end": 1867.88,
+      "text": "workloads where off-the-shelf silicon isn't necessarily optimal. And specifically because we're",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8987668752670288
+      }
+    },
+    {
+      "start": 1867.88,
+      "end": 1873.4,
+      "text": "able to optimize the full stack to achieve greater compute efficiency and performance per cost and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9257606863975525
+      }
+    },
+    {
+      "start": 1873.4,
+      "end": 1879.64,
+      "text": "power because our workloads might require a different mix of memory versus network bandwidth versus",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9172273278236389
+      }
+    },
+    {
+      "start": 1879.64,
+      "end": 1885.16,
+      "text": "compute. And so we can optimize that really to the specific needs of our different types of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8310174345970154
+      }
+    },
+    {
+      "start": 1885.16,
+      "end": 1891.3200000000002,
+      "text": "workloads. Right now, the in-house MTIA program is focused on supporting our core ranking and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5629375576972961
+      }
+    },
+    {
+      "start": 1891.3200000000002,
+      "end": 1898.52,
+      "text": "recommendation inference workloads. We started adopting MTIA in the first half of 2024 for core",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9242917895317078
+      }
+    },
+    {
+      "start": 1898.52,
+      "end": 1903.3200000000002,
+      "text": "ranking and recommendations inference. We'll continue ramping adoption for those workloads over the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7502474188804626
+      }
+    },
+    {
+      "start": 1903.3200000000002,
+      "end": 1910.68,
+      "text": "course of 2025 as we use it for both incremental capacity and to replace some GPU-based servers",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7390105724334717
+      }
+    },
+    {
+      "start": 1910.76,
+      "end": 1916.6000000000001,
+      "text": "when they reach the end of their useful lives. You know, next year we're hoping to expand MTIA",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6506103277206421
+      }
+    },
+    {
+      "start": 1916.6000000000001,
+      "end": 1922.52,
+      "text": "to support some of our core AI training workloads and over time some of our gen AI use cases.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7985828518867493
+      }
+    },
+    {
+      "start": 1925.16,
+      "end": 1930.8400000000001,
+      "text": "Your next question comes from the line of Eric Sheridan with Goldman Sachs. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9356447458267212
+      }
+    },
+    {
+      "start": 1931.88,
+      "end": 1936.6000000000001,
+      "text": "Thank you so much for taking the question. Maybe I can go back to your comments on open source.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9202936291694641
+      }
+    },
+    {
+      "start": 1936.6000000000001,
+      "end": 1941.8000000000002,
+      "text": "Can you help us understand how your views continue to evolve with respect to the competitive",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.741899847984314
+      }
+    },
+    {
+      "start": 1941.8000000000002,
+      "end": 1947.16,
+      "text": "dynamic around your approach with the open source versus others in the industry and how your approach",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9000439047813416
+      }
+    },
+    {
+      "start": 1947.16,
+      "end": 1952.7600000000002,
+      "text": "to open source could possibly bend the cost curve and improve return on capital for AI over the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9487364292144775
+      }
+    },
+    {
+      "start": 1952.7600000000002,
+      "end": 1960.44,
+      "text": "medium to long term? Thanks so much. Yeah, I mean, on open source, I think the best analogy for us is",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9031152725219727
+      }
+    },
+    {
+      "start": 1960.52,
+      "end": 1967.72,
+      "text": "what we did with open compute where we weren't first to building the system. So then by the time",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9153792858123779
+      }
+    },
+    {
+      "start": 1967.72,
+      "end": 1971.48,
+      "text": "that we got around to building it, it wasn't really a big advantage to have it be proprietary,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8417673110961914
+      }
+    },
+    {
+      "start": 1971.48,
+      "end": 1977.96,
+      "text": "so we shared it and then a lot of the industry adopted what we were doing, contributed innovations",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8948028087615967
+      }
+    },
+    {
+      "start": 1977.96,
+      "end": 1984.28,
+      "text": "back to it. By standardizing it on it, that meant that a bunch of supply chains standardized on",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9192013144493103
+      }
+    },
+    {
+      "start": 1984.28,
+      "end": 1989.24,
+      "text": "building it which made prices more efficient for everyone. I think what we see here",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8517253398895264
+      }
+    },
+    {
+      "start": 1990.2,
+      "end": 1997.08,
+      "text": "is as Loma becomes more used, it's more likely, for example, that silicon providers and others,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9203360080718994
+      }
+    },
+    {
+      "start": 1997.8,
+      "end": 2003.96,
+      "text": "other APIs and developer platforms will optimize their work more for that and basically drive down",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7329760789871216
+      }
+    },
+    {
+      "start": 2003.96,
+      "end": 2011.64,
+      "text": "the costs of using it and drive improvements that we can in some cases use to. So I think that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6890149712562561
+      }
+    },
+    {
+      "start": 2012.6000000000001,
+      "end": 2022.5200000000002,
+      "text": "the strategy will continue to be effective. Yeah, I mean, I continue to be optimistic about",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7998729944229126
+      }
+    },
+    {
+      "start": 2022.5200000000002,
+      "end": 2035.48,
+      "text": "this. I think it's working. I also just think in light of some of the recent news, the new competitor",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6855670809745789
+      }
+    },
+    {
+      "start": 2036.44,
+      "end": 2042.2,
+      "text": "DeepSeek from China, I think it also just puts, it's one of the things that we're talking about",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8968011736869812
+      }
+    },
+    {
+      "start": 2042.2,
+      "end": 2049.2400000000002,
+      "text": "is there's going to be an open source standard globally. And I think for our kind of own national",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8544203042984009
+      }
+    },
+    {
+      "start": 2049.2400000000002,
+      "end": 2055.08,
+      "text": "advantage, it's important that it's an American standard. So we take that seriously and we want to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8546792268753052
+      }
+    },
+    {
+      "start": 2055.08,
+      "end": 2060.76,
+      "text": "build the AI system that people around the world are using. And I think that if anything, some of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8670509457588196
+      }
+    },
+    {
+      "start": 2060.92,
+      "end": 2067.88,
+      "text": "the recent news has only strengthened our conviction that this is the right thing for us to be focused on.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9283303022384644
+      }
+    },
+    {
+      "start": 2070.6800000000003,
+      "end": 2075.2400000000002,
+      "text": "Here next question comes from the line of Mark Schmulich with Bernstein. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.934341311454773
+      }
+    },
+    {
+      "start": 2076.84,
+      "end": 2082.5200000000004,
+      "text": "Yes, thank you for taking my questions. Mark, I appreciate we may get an answer this here,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5983135104179382
+      }
+    },
+    {
+      "start": 2082.5200000000004,
+      "end": 2089.5600000000004,
+      "text": "but looking out, as you kind of track the progress of smart glasses, you know, Orion and so forth,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9383312463760376
+      }
+    },
+    {
+      "start": 2089.56,
+      "end": 2092.92,
+      "text": "do you view that as a better form factor to get the most out of the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8033429980278015
+      }
+    },
+    {
+      "start": 2092.92,
+      "end": 2097.4,
+      "text": "meta AI assistance you highlighted in your opening remarks? Or is it more complimentary to kind of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9150939583778381
+      }
+    },
+    {
+      "start": 2097.4,
+      "end": 2103.24,
+      "text": "the in-app experience in the way you've seen people use it today? And then Susan, the last few quarters,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9092186689376831
+      }
+    },
+    {
+      "start": 2103.24,
+      "end": 2108.12,
+      "text": "we've kind of seen pricing growth as the dominant driver of ad revenue growth. Given the efforts",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5035209655761719
+      }
+    },
+    {
+      "start": 2108.12,
+      "end": 2113.08,
+      "text": "we've highlighted around driving deeper, more commercial engagement and better advertiser ROI,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9182565808296204
+      }
+    },
+    {
+      "start": 2113.08,
+      "end": 2117.24,
+      "text": "how do we just think about the contribution or the formula for ad revenue growth going forward?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9370027780532837
+      }
+    },
+    {
+      "start": 2117.2400000000002,
+      "end": 2125.5600000000004,
+      "text": "Thank you. Yeah, I mean, I can talk about glasses. Yeah, and I've said for a while that I",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8229489922523499
+      }
+    },
+    {
+      "start": 2125.5600000000004,
+      "end": 2133.0800000000004,
+      "text": "think that glasses are the ideal form factor for an AI device, because you can let an AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8600419163703918
+      }
+    },
+    {
+      "start": 2133.0800000000004,
+      "end": 2138.44,
+      "text": "assistant on your glasses see what you see and hear what you hear, which gives it the context",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.937133252620697
+      }
+    },
+    {
+      "start": 2138.44,
+      "end": 2143.4,
+      "text": "to be able to understand everything that's going on in your life that you would want to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8700373768806458
+      }
+    },
+    {
+      "start": 2143.96,
+      "end": 2151.7200000000003,
+      "text": "talk to it about and get context on. But look, I mean, I think that glasses are going to be a very",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8164748549461365
+      }
+    },
+    {
+      "start": 2151.7200000000003,
+      "end": 2156.6,
+      "text": "important computing platform in the future. When phones became the primary computing platform,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8579545021057129
+      }
+    },
+    {
+      "start": 2156.6,
+      "end": 2161.08,
+      "text": "it's not like computers went away. You know, I think we'll have phones for some time, but",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9119319915771484
+      }
+    },
+    {
+      "start": 2161.7200000000003,
+      "end": 2166.52,
+      "text": "there are a lot of people in the world who have glasses. It's kind of hard for me to imagine that,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8346561193466187
+      }
+    },
+    {
+      "start": 2166.52,
+      "end": 2171.64,
+      "text": "you know, a decade or more from now, all the glasses aren't going to basically be AI glasses,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9226144552230835
+      }
+    },
+    {
+      "start": 2172.52,
+      "end": 2177.16,
+      "text": "as well as a lot of people who don't wear glasses today finding that to be a useful thing. So",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6585056185722351
+      }
+    },
+    {
+      "start": 2178.44,
+      "end": 2181.96,
+      "text": "I'm incredibly optimistic about this. And like I shared last year, I think one of the big",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6841447353363037
+      }
+    },
+    {
+      "start": 2181.96,
+      "end": 2188.92,
+      "text": "surprises last year was I'd previously thought that glasses weren't going to become a major form",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8924845457077026
+      }
+    },
+    {
+      "start": 2188.92,
+      "end": 2196.7599999999998,
+      "text": "factor until we got these the full kind of holographic displays that we started showing in the prototype",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9196479320526123
+      }
+    },
+    {
+      "start": 2196.76,
+      "end": 2202.44,
+      "text": "for Orion. But now I think it's pretty clear that AI is actually going to drive at least as",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7014748454093933
+      }
+    },
+    {
+      "start": 2202.44,
+      "end": 2208.0400000000004,
+      "text": "much of the value as the holographic AR is. So that's a cause to be excited. But look,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9076203107833862
+      }
+    },
+    {
+      "start": 2209.2400000000002,
+      "end": 2214.36,
+      "text": "the Rayman Metas were hit. We still don't know what the long-term trajectory for this is going to be.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6615791320800781
+      }
+    },
+    {
+      "start": 2215.2400000000002,
+      "end": 2218.5200000000004,
+      "text": "And I think we're going to learn a lot this year. So I think that this is a really important",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5499658584594727
+      }
+    },
+    {
+      "start": 2218.5200000000004,
+      "end": 2224.76,
+      "text": "year for that. And I can take the second question on pricing growth. So first of all, what I would",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9312300682067871
+      }
+    },
+    {
+      "start": 2224.76,
+      "end": 2230.5200000000004,
+      "text": "say is over the long term, you know, we think we have continued opportunity to drive revenue growth",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9437851905822754
+      }
+    },
+    {
+      "start": 2231.2400000000002,
+      "end": 2236.92,
+      "text": "across both pricing and impression growth. So both sort of supply and demand dimensions.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9118546843528748
+      }
+    },
+    {
+      "start": 2237.8,
+      "end": 2242.92,
+      "text": "When we look at pricing, our reported growth can be influenced by different factors such as supply",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9345996975898743
+      }
+    },
+    {
+      "start": 2243.6400000000003,
+      "end": 2249.0,
+      "text": "because of the auction dynamics by the mix shift of the different types of surfaces where ads show",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9167634844779968
+      }
+    },
+    {
+      "start": 2249.24,
+      "end": 2254.84,
+      "text": "for example, services like video or lower monetization efficiency, relatively speaking.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7571236491203308
+      }
+    },
+    {
+      "start": 2255.4,
+      "end": 2261.24,
+      "text": "And then of course, you know, broader macro factors. But we generally expect that, you know,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9170743823051453
+      }
+    },
+    {
+      "start": 2261.24,
+      "end": 2266.28,
+      "text": "we are going to be able to deliver ongoing ad performance improvements through a lot of the,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9447188377380371
+      }
+    },
+    {
+      "start": 2266.28,
+      "end": 2271.16,
+      "text": "you know, ongoing work that we're doing across our monetization roadmap. And that will have these",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7512275576591492
+      }
+    },
+    {
+      "start": 2271.16,
+      "end": 2279.48,
+      "text": "sort of effect of benefiting pricing overall. And part of, you know, what I think is kind of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8572641015052795
+      }
+    },
+    {
+      "start": 2279.48,
+      "end": 2285.72,
+      "text": "important to think about here when we think about price growth is we really, the average price per",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9314971566200256
+      }
+    },
+    {
+      "start": 2285.72,
+      "end": 2289.72,
+      "text": "ad as we report it is really blending, you know, it's an output metric. It's blending a lot of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8637841939926147
+      }
+    },
+    {
+      "start": 2289.72,
+      "end": 2294.44,
+      "text": "things that are happening, including what our advertisers bidding for, what are their bids for",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9342539310455322
+      }
+    },
+    {
+      "start": 2294.44,
+      "end": 2300.2799999999997,
+      "text": "those things, you know, what is the average cost of their action. So given that there are so many",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9141536951065063
+      }
+    },
+    {
+      "start": 2300.36,
+      "end": 2305.0800000000004,
+      "text": "different objectives that advertisers can optimize for that have different values, it's a very complex",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.891819417476654
+      }
+    },
+    {
+      "start": 2305.0800000000004,
+      "end": 2310.52,
+      "text": "metric that tries to distill that into one thing. Overall, we are seeing healthy cost per action",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9027828574180603
+      }
+    },
+    {
+      "start": 2310.52,
+      "end": 2318.92,
+      "text": "trends for advertisers for whatever is the action that they are optimizing for. And we believe we'll",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7478256225585938
+      }
+    },
+    {
+      "start": 2318.92,
+      "end": 2323.4,
+      "text": "continue to get better at driving conversions for advertisers. And when we do that, we'll have the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8089329600334167
+      }
+    },
+    {
+      "start": 2323.4,
+      "end": 2329.1600000000003,
+      "text": "effect of continuing to lift CPMs over time because we're delivering more conversions per",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9152085781097412
+      }
+    },
+    {
+      "start": 2329.16,
+      "end": 2332.04,
+      "text": "impressions served, resulting in higher value impressions.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7222455739974976
+      }
+    },
+    {
+      "start": 2334.7599999999998,
+      "end": 2340.2799999999997,
+      "text": "Here next question comes from the line of Justin Post with Bank of America. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9382506012916565
+      }
+    },
+    {
+      "start": 2341.72,
+      "end": 2346.12,
+      "text": "Great. Thanks. Maybe one for Mark and one for Susan. Mark, you mentioned, you know,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8823960423469543
+      }
+    },
+    {
+      "start": 2346.12,
+      "end": 2351.3199999999997,
+      "text": "political changes in the U.S. and better positioning maybe for U.S. companies abroad. But how do you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8734194040298462
+      }
+    },
+    {
+      "start": 2351.3199999999997,
+      "end": 2358.92,
+      "text": "think about it in the U.S. as far as usage and advertiser adoption, you got rid of back checking.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8835326433181763
+      }
+    },
+    {
+      "start": 2358.92,
+      "end": 2364.6,
+      "text": "So you think the content can change? Could it appeal to more users? Will that impact advertising",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8759271502494812
+      }
+    },
+    {
+      "start": 2364.6,
+      "end": 2370.2000000000003,
+      "text": "at all? And then Susan, on MetaAI, I know people are pretty excited about the use case,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7931333184242249
+      }
+    },
+    {
+      "start": 2370.2000000000003,
+      "end": 2375.96,
+      "text": "but also thinking about the revenue case. How do you think about monetizing that? Could it be CPC ads",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9298701882362366
+      }
+    },
+    {
+      "start": 2375.96,
+      "end": 2378.04,
+      "text": "or how are you thinking about that? Thank you.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7993773221969604
+      }
+    },
+    {
+      "start": 2379.0,
+      "end": 2395.4,
+      "text": "The question was about fact checking and our content policies. I mean, look, I think we're",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9019061326980591
+      }
+    },
+    {
+      "start": 2396.6,
+      "end": 2401.72,
+      "text": "we're trying to build the service that we think is the best for people. I believed in free expression",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8745381236076355
+      }
+    },
+    {
+      "start": 2402.1200000000003,
+      "end": 2409.8,
+      "text": "for quite a while. People don't want to see misinformation, but you need to build an effective system",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8432175517082214
+      }
+    },
+    {
+      "start": 2409.8,
+      "end": 2415.1600000000003,
+      "text": "that gives people more context. And I think what we've found over time is that the community",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8337370157241821
+      }
+    },
+    {
+      "start": 2415.1600000000003,
+      "end": 2419.8,
+      "text": "notes system I think is just going to be more effective than the system that we had before.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7032924890518188
+      }
+    },
+    {
+      "start": 2419.8,
+      "end": 2425.0000000000005,
+      "text": "And I'm not afraid to admit when someone does something that's better than us. I think it's sort",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8190913200378418
+      }
+    },
+    {
+      "start": 2425.0000000000005,
+      "end": 2431.5600000000004,
+      "text": "of our job to go and just do the best work and implement the best system. So I think that there's",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8327808976173401
+      }
+    },
+    {
+      "start": 2431.56,
+      "end": 2440.44,
+      "text": "been a lot of people who have read this announcement as if we somehow don't care about adding context",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8508912324905396
+      }
+    },
+    {
+      "start": 2440.44,
+      "end": 2445.32,
+      "text": "to things that are on our platform that are misinformation that's not right. I actually think",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.579357922077179
+      }
+    },
+    {
+      "start": 2445.32,
+      "end": 2449.72,
+      "text": "that the community notes system, like what X has had for a while, is actually just more effective",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8047835826873779
+      }
+    },
+    {
+      "start": 2449.72,
+      "end": 2453.0,
+      "text": "than what we were doing before. And I think our product is going to get better because of it.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.942068338394165
+      }
+    },
+    {
+      "start": 2455.88,
+      "end": 2460.7599999999998,
+      "text": "I would add to that just to say, we also haven't seen any noticeable impact",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7729495167732239
+      }
+    },
+    {
+      "start": 2460.84,
+      "end": 2467.8,
+      "text": "from our content policy changes on advertiser spend. So we're continuing to see strong",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6333427429199219
+      }
+    },
+    {
+      "start": 2467.8,
+      "end": 2473.96,
+      "text": "advertiser demand. Again, particularly for AI powered tools that are helping businesses maximize",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6699052453041077
+      }
+    },
+    {
+      "start": 2473.96,
+      "end": 2478.6800000000003,
+      "text": "the value of their ad spend. So our commitment to brand safety is unchanged. And we expect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7283082604408264
+      }
+    },
+    {
+      "start": 2478.6800000000003,
+      "end": 2482.28,
+      "text": "that we will invest in our suite of tools to meet the needs of advertisers.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6074694991111755
+      }
+    },
+    {
+      "start": 2483.2400000000002,
+      "end": 2491.5600000000004,
+      "text": "On your second question, in terms of monetizing meta AI, our initial focus for meta AI is really",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9263251423835754
+      }
+    },
+    {
+      "start": 2491.5600000000004,
+      "end": 2498.28,
+      "text": "about building a great consumer experience. And that's frankly where all of our energies are",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8722326755523682
+      }
+    },
+    {
+      "start": 2498.28,
+      "end": 2504.44,
+      "text": "kind of directed to right now. There will, I think, be pretty clear monetization opportunities",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7774798274040222
+      }
+    },
+    {
+      "start": 2504.44,
+      "end": 2511.32,
+      "text": "here over time, including paid recommendations and including a premium offering. But that's really",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9101811647415161
+      }
+    },
+    {
+      "start": 2511.32,
+      "end": 2515.8,
+      "text": "not where we are focused in terms of the development of meta AI today.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9372883439064026
+      }
+    },
+    {
+      "start": 2518.52,
+      "end": 2524.6800000000003,
+      "text": "Here next question comes from the line of Douglas and Ruth with JP Morgan. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9427489042282104
+      }
+    },
+    {
+      "start": 2526.36,
+      "end": 2531.6400000000003,
+      "text": "Thanks for taking the questions. One for Marc, one for Susan. Marc, just following up on open source",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9250341057777405
+      }
+    },
+    {
+      "start": 2531.6400000000003,
+      "end": 2537.0800000000004,
+      "text": "as deep-seak and other models potentially leverage, llama, or others to train faster and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7505021095275879
+      }
+    },
+    {
+      "start": 2537.08,
+      "end": 2542.12,
+      "text": "cheaper. How does this impact meta in your view and what could it mean for the trajectory of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9124655723571777
+      }
+    },
+    {
+      "start": 2542.12,
+      "end": 2548.68,
+      "text": "investment required over a multi-year period? And then Susan, just as we think about the 60 to 65",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9267379641532898
+      }
+    },
+    {
+      "start": 2548.68,
+      "end": 2554.68,
+      "text": "billion CAPEX this year, does the composition change much from last year when he talks about",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9180647134780884
+      }
+    },
+    {
+      "start": 2554.68,
+      "end": 2561.0,
+      "text": "servers as the largest part followed by data centers and networking equipment? And how should we",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9396017789840698
+      }
+    },
+    {
+      "start": 2561.0,
+      "end": 2565.88,
+      "text": "think about that mix between training and inference just following up on Jan's post this week?",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9231671094894409
+      }
+    },
+    {
+      "start": 2565.88,
+      "end": 2573.2400000000002,
+      "text": "Thanks. I can start on the deep-seak question.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9280341267585754
+      }
+    },
+    {
+      "start": 2576.84,
+      "end": 2583.96,
+      "text": "You know, I think that there's a number of novel things that they did that I think were still",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.885087251663208
+      }
+    },
+    {
+      "start": 2585.48,
+      "end": 2591.88,
+      "text": "digesting. And there are a number of things that they have advances that we will hope to implement",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.880911111831665
+      }
+    },
+    {
+      "start": 2592.36,
+      "end": 2599.6400000000003,
+      "text": "in our systems. And that's part of the nature of how this works, whether it's a Chinese competitor",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9355368614196777
+      }
+    },
+    {
+      "start": 2599.6400000000003,
+      "end": 2605.1600000000003,
+      "text": "or not. You know, I kind of expect that every new company that has an advance that has a launch is",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9218431115150452
+      }
+    },
+    {
+      "start": 2605.1600000000003,
+      "end": 2609.96,
+      "text": "going to have some new advances that the rest of the field learns from and that's sort of how the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8547878861427307
+      }
+    },
+    {
+      "start": 2609.96,
+      "end": 2621.08,
+      "text": "technology industry goes. I don't know, it's probably too early to really have a strong opinion",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9064950346946716
+      }
+    },
+    {
+      "start": 2621.08,
+      "end": 2627.24,
+      "text": "on what this means for the trajectory around infrastructure and CAPEX and things like that.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9290112853050232
+      }
+    },
+    {
+      "start": 2628.2,
+      "end": 2634.2,
+      "text": "You know, there are a bunch of trends that are happening here all at once. There's already sort",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8992648720741272
+      }
+    },
+    {
+      "start": 2634.2,
+      "end": 2639.4,
+      "text": "of a debate around how much of the compute infrastructure that we're using is going to go towards",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9263240098953247
+      }
+    },
+    {
+      "start": 2639.4,
+      "end": 2645.56,
+      "text": "pre-training versus as you get more of these reasoning time models or reasoning models where you get",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9333813190460205
+      }
+    },
+    {
+      "start": 2645.56,
+      "end": 2651.64,
+      "text": "more of the intelligence by putting more of the compute into inference, whether it will mix",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9281339049339294
+      }
+    },
+    {
+      "start": 2652.36,
+      "end": 2660.2,
+      "text": "shift, how we use our compute infrastructure towards that. That was already something that I",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9088897705078125
+      }
+    },
+    {
+      "start": 2660.2,
+      "end": 2667.24,
+      "text": "think a lot of the other labs and ourselves were starting to think more about and already",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8847290277481079
+      }
+    },
+    {
+      "start": 2667.24,
+      "end": 2674.04,
+      "text": "seemed pretty likely even before this, that of all the compute that we're using that the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9177688956260681
+      }
+    },
+    {
+      "start": 2674.04,
+      "end": 2678.12,
+      "text": "large pieces aren't necessarily going to go towards pre-training. But that doesn't mean that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9065035581588745
+      }
+    },
+    {
+      "start": 2678.12,
+      "end": 2683.56,
+      "text": "you need less compute because one of the new properties that's emerged is the ability to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7833844423294067
+      }
+    },
+    {
+      "start": 2683.56,
+      "end": 2689.4,
+      "text": "apply more compute at inference time in order to generate a higher level of intelligence and a",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6556077003479004
+      }
+    },
+    {
+      "start": 2689.4,
+      "end": 2697.08,
+      "text": "higher quality of service, which means that as a company that has a strong business model to support",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8887189030647278
+      }
+    },
+    {
+      "start": 2697.08,
+      "end": 2701.8,
+      "text": "this, I think that's generally an advantage that we're now going to be able to provide a higher quality",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.905839204788208
+      }
+    },
+    {
+      "start": 2701.8,
+      "end": 2707.48,
+      "text": "of service than others who don't necessarily have the business model to support it on a sustainable",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6971126198768616
+      }
+    },
+    {
+      "start": 2707.48,
+      "end": 2714.04,
+      "text": "basis. The other thing is just that when we're building things like MetaAI but also how we're",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9340940117835999
+      }
+    },
+    {
+      "start": 2714.04,
+      "end": 2719.1600000000003,
+      "text": "implementing AI into all the feeds and ad products and things like that, we're just serving billions",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9379952549934387
+      }
+    },
+    {
+      "start": 2719.1600000000003,
+      "end": 2727.5600000000004,
+      "text": "of people, which is different from, okay, you start to pre-train a model and that model is sort of",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.918941080570221
+      }
+    },
+    {
+      "start": 2727.56,
+      "end": 2732.84,
+      "text": "agnostic to how many people are using it. At some level, it's going to be expensive for us to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6869260668754578
+      }
+    },
+    {
+      "start": 2732.84,
+      "end": 2741.16,
+      "text": "serve all of these people because we are serving a lot of people. I'm not sure what the net effect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9279617667198181
+      }
+    },
+    {
+      "start": 2741.16,
+      "end": 2748.52,
+      "text": "of all of this is. The field continues to move quickly. There's a lot to learn from releases from",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.871343731880188
+      }
+    },
+    {
+      "start": 2748.52,
+      "end": 2756.36,
+      "text": "basically everyone who does something interesting, not just the ones over the last month. We'll continue",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9322947263717651
+      }
+    },
+    {
+      "start": 2756.36,
+      "end": 2760.36,
+      "text": "to kind of incorporate that into what we do as well as making novel contributions to the field",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8782439827919006
+      }
+    },
+    {
+      "start": 2760.36,
+      "end": 2766.44,
+      "text": "ourselves. I continue to think that investing very heavily in CapEx and Infra is going to be a",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6457720994949341
+      }
+    },
+    {
+      "start": 2766.44,
+      "end": 2771.96,
+      "text": "strategic advantage over time. It's possible that we'll learn otherwise at some point, but I just",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8113479614257812
+      }
+    },
+    {
+      "start": 2771.96,
+      "end": 2776.6800000000003,
+      "text": "think it's way too early to call that. At this point, I would bet that the ability to build out that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.717852771282196
+      }
+    },
+    {
+      "start": 2776.6800000000003,
+      "end": 2782.36,
+      "text": "kind of infrastructure is going to be a major advantage for both the quality of the service and",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7653743028640747
+      }
+    },
+    {
+      "start": 2783.08,
+      "end": 2790.6,
+      "text": "being able to serve this scale that we want to. I'm happy to add a little more color about our",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7376920580863953
+      }
+    },
+    {
+      "start": 2790.6,
+      "end": 2797.88,
+      "text": "2025 CapEx plans to your second question. We certainly expect that 2025 CapEx is going to grow",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8574538230895996
+      }
+    },
+    {
+      "start": 2797.88,
+      "end": 2803.08,
+      "text": "across all three of those components you described. Servers will be the biggest growth driver that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7540456652641296
+      }
+    },
+    {
+      "start": 2803.08,
+      "end": 2810.04,
+      "text": "remains the largest portion of our overall CapEx budget. We expect both growth in AI capacity as we",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9364100098609924
+      }
+    },
+    {
+      "start": 2810.04,
+      "end": 2816.36,
+      "text": "support our Gen AI efforts and continue to invest meaningfully in core AI, but we are also expecting",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9382877945899963
+      }
+    },
+    {
+      "start": 2816.36,
+      "end": 2822.04,
+      "text": "growth in non-AI capacity as we invest in the core business, including to support a higher base of",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.927538275718689
+      }
+    },
+    {
+      "start": 2822.04,
+      "end": 2827.4,
+      "text": "engagement and to refresh our existing servers. On the data center side, we're anticipating higher",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7848783731460571
+      }
+    },
+    {
+      "start": 2827.4,
+      "end": 2835.16,
+      "text": "data center spend in 2025 to be driven by buildouts of our large training clusters and our higher",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8716590404510498
+      }
+    },
+    {
+      "start": 2835.16,
+      "end": 2840.44,
+      "text": "power density data centers that are entering the core construction phase. We're expecting to use",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.83979332447052
+      }
+    },
+    {
+      "start": 2840.44,
+      "end": 2846.2,
+      "text": "that capacity primarily for core AI and non-AI use cases. On the networking side, we expect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9008013606071472
+      }
+    },
+    {
+      "start": 2846.2,
+      "end": 2851.48,
+      "text": "networking spend to grow in 25 as we build higher capacity networks to accommodate the growth in",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9001222252845764
+      }
+    },
+    {
+      "start": 2851.48,
+      "end": 2857.72,
+      "text": "non-AI and core AI related traffic along with our large Gen AI training clusters. We're also",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5400428771972656
+      }
+    },
+    {
+      "start": 2857.72,
+      "end": 2864.8399999999997,
+      "text": "investing in fiber to handle future cross-region training traffic. And then in terms of the breakdown,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8877453207969666
+      }
+    },
+    {
+      "start": 2865.8799999999997,
+      "end": 2872.8399999999997,
+      "text": "for core versus Gen AI use cases, we're expecting total infrastructure spend within each of Gen AI,",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6370229721069336
+      }
+    },
+    {
+      "start": 2872.8399999999997,
+      "end": 2879.48,
+      "text": "non-AI and core AI to increase in 25 with the majority of our CapEx directed to our core business",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9376922249794006
+      }
+    },
+    {
+      "start": 2879.48,
+      "end": 2886.2,
+      "text": "with some caveat that that's not easy to measure perfectly as the data centers we're building can",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9057825803756714
+      }
+    },
+    {
+      "start": 2886.2,
+      "end": 2892.44,
+      "text": "support AI or non-AI workloads and the GPU base servers we procure for Gen AI can be repurposed",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8812885880470276
+      }
+    },
+    {
+      "start": 2892.52,
+      "end": 2897.7200000000003,
+      "text": "for core AI use cases and so on so forth. But overall, I would reiterate what Mark said,",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8846954703330994
+      }
+    },
+    {
+      "start": 2897.7200000000003,
+      "end": 2902.04,
+      "text": "we are committed to building leading foundation models and applications.",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6352241635322571
+      }
+    },
+    {
+      "start": 2903.16,
+      "end": 2908.92,
+      "text": "We expect that we're going to make big investments to support our training and inference objectives",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9019777774810791
+      }
+    },
+    {
+      "start": 2908.92,
+      "end": 2914.2000000000003,
+      "text": "and we don't know exactly where we are in the cycle of that yet.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8629244565963745
+      }
+    },
+    {
+      "start": 2915.0800000000004,
+      "end": 2922.2000000000003,
+      "text": "Here next question comes from the line of Ron Josie with City Group. Please go ahead.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9361746311187744
+      }
+    },
+    {
+      "start": 2923.7200000000003,
+      "end": 2927.88,
+      "text": "Thanks for taking a question Mark. I want to get back to your comment on getting back to the OG",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8772598505020142
+      }
+    },
+    {
+      "start": 2927.88,
+      "end": 2931.6400000000003,
+      "text": "Facebook and want to understand a little bit more on the use cases and how that could",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9355815052986145
+      }
+    },
+    {
+      "start": 2931.6400000000003,
+      "end": 2937.9600000000005,
+      "text": "extend videos clearly to benefit local marketplace groups of all been positive so any insights on the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7077701687812805
+      }
+    },
+    {
+      "start": 2938.12,
+      "end": 2943.8,
+      "text": "OG Facebook and then back to meta-AI giving me adoption we're seeing on the 600 plus and they use",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9329391121864319
+      }
+    },
+    {
+      "start": 2943.8,
+      "end": 2948.52,
+      "text": "just how does the user experience evolve to? What are people doing with meta-AI? Thank you.",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8984707593917847
+      }
+    },
+    {
+      "start": 2959.8,
+      "end": 2966.6,
+      "text": "Okay, so for Facebook, a lot of people use Facebook every day and it's an important part of their",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9298759698867798
+      }
+    },
+    {
+      "start": 2966.6,
+      "end": 2971.88,
+      "text": "lives and I think that there are a lot of opportunities to make it way more culturally",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5902746319770813
+      }
+    },
+    {
+      "start": 2971.88,
+      "end": 2979.3199999999997,
+      "text": "influential than it is today and I think that that's sort of a fun and interesting goal that will take",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6765797734260559
+      }
+    },
+    {
+      "start": 2979.3199999999997,
+      "end": 2985.96,
+      "text": "our product development in some interesting directions that we maybe haven't focused on as",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6796294450759888
+      }
+    },
+    {
+      "start": 2985.96,
+      "end": 2992.36,
+      "text": "much over the last several years. So I don't know that I have anything much more specific on this",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9083997011184692
+      }
+    },
+    {
+      "start": 2992.44,
+      "end": 3001.48,
+      "text": "other than that this is going to be one of my focus areas for this year. I think it's an",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8427321314811707
+      }
+    },
+    {
+      "start": 3001.48,
+      "end": 3006.76,
+      "text": "investment area and something I'm going to spend some time on. It might mean that in the near term",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7774099707603455
+      }
+    },
+    {
+      "start": 3006.76,
+      "end": 3013.88,
+      "text": "we make some trade-offs to kind of focus on some product areas of what we're doing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9159982204437256
+      }
+    },
+    {
+      "start": 3016.1200000000003,
+      "end": 3021.4,
+      "text": "ahead of just kind of maximizing business results in the near term on it but overall I'm really",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7270198464393616
+      }
+    },
+    {
+      "start": 3021.4,
+      "end": 3029.4,
+      "text": "excited about about doing some exciting stuff here and not going to get into many specifics now",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8948884010314941
+      }
+    },
+    {
+      "start": 3029.4,
+      "end": 3037.48,
+      "text": "but we'll get we'll follow up on this over the next kind of call it half a year or year as we",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9150029420852661
+      }
+    },
+    {
+      "start": 3037.48,
+      "end": 3042.76,
+      "text": "start rolling stuff out and I think some of this will kind of get back to how Facebook was originally",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9019729495048523
+      }
+    },
+    {
+      "start": 3042.76,
+      "end": 3049.2400000000002,
+      "text": "used back in the day so I think it'll be fun. I'm happy to share a little bit more about meta-AI",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8478348851203918
+      }
+    },
+    {
+      "start": 3049.32,
+      "end": 3053.8,
+      "text": "and what people are doing with it you know we are in a phase where we are really learning a lot",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8178001642227173
+      }
+    },
+    {
+      "start": 3053.8,
+      "end": 3061.5600000000004,
+      "text": "from the way that people engage with meta-AI so you know from an app perspective what's app",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9402424693107605
+      }
+    },
+    {
+      "start": 3061.5600000000004,
+      "end": 3067.1600000000003,
+      "text": "continues to see the strongest meta-AI usage across our family of apps people there are using it most",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8408778309822083
+      }
+    },
+    {
+      "start": 3067.1600000000003,
+      "end": 3072.6800000000003,
+      "text": "frequently for information seeking and educational queries along with emotional support use cases",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.937453031539917
+      }
+    },
+    {
+      "start": 3073.2400000000002,
+      "end": 3078.0400000000004,
+      "text": "most of the WhatsApp engagement is in one-on-one threads though we see some usage in group messaging",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.943844735622406
+      }
+    },
+    {
+      "start": 3078.12,
+      "end": 3082.84,
+      "text": "and on Facebook you know which is the second largest driver of meta-AI engagement we're seeing",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.918050229549408
+      }
+    },
+    {
+      "start": 3082.84,
+      "end": 3088.52,
+      "text": "strong engagement from our feed deep dives integration that lets people ask meta-AI questions about the",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6230458617210388
+      }
+    },
+    {
+      "start": 3088.52,
+      "end": 3097.16,
+      "text": "content that is recommended to them so across I would say all query types we continue to see signs",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8176087141036987
+      }
+    },
+    {
+      "start": 3097.16,
+      "end": 3102.2799999999997,
+      "text": "that meta-AI is helping people leverage our apps for new use cases you know we talked about",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7479274272918701
+      }
+    },
+    {
+      "start": 3102.36,
+      "end": 3108.1200000000003,
+      "text": "information gathering social interaction and communication lots of people use it for humor",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9356640577316284
+      }
+    },
+    {
+      "start": 3108.1200000000003,
+      "end": 3115.4,
+      "text": "and casual conversation they use it for writing and editing research recommendations and as we look",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9391039609909058
+      }
+    },
+    {
+      "start": 3115.4,
+      "end": 3123.8,
+      "text": "forward to 2025 in our meta-AI roadmap we are really focused on doing more to make it feel more",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.691593587398529
+      }
+    },
+    {
+      "start": 3123.8,
+      "end": 3130.0400000000004,
+      "text": "personalized so that I would say some of the most exciting features we're working on including",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8513707518577576
+      }
+    },
+    {
+      "start": 3130.92,
+      "end": 3134.92,
+      "text": "improving sort of the memory dimension of the meta-AI experience where it will",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8989930748939514
+      }
+    },
+    {
+      "start": 3134.92,
+      "end": 3139.56,
+      "text": "be able to remember certain details that people share in one-on-one chats for example and use",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9383147358894348
+      }
+    },
+    {
+      "start": 3139.56,
+      "end": 3145.4,
+      "text": "those details to personalize its responses and then you know really increasing its ability to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9281737804412842
+      }
+    },
+    {
+      "start": 3145.4,
+      "end": 3152.12,
+      "text": "deliver great content recommendations and enhance really what makes Facebook and Instagram so valuable",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7161034941673279
+      }
+    },
+    {
+      "start": 3152.12,
+      "end": 3162.3599999999997,
+      "text": "for people for people today. Here next question comes from the line of Ken Growski with Wells Fargo",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.924592912197113
+      }
+    },
+    {
+      "start": 3162.3599999999997,
+      "end": 3169.0,
+      "text": "please go ahead. Thank you very much to for me please. First could you talk a little bit I know",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9187173843383789
+      }
+    },
+    {
+      "start": 3169.0,
+      "end": 3173.16,
+      "text": "you you talked a little bit on the on the cap one tent city side and the recent developments and it's",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8972023725509644
+      }
+    },
+    {
+      "start": 3173.16,
+      "end": 3178.12,
+      "text": "hard to see it's hard to tell yet where things are going but maybe you could just talk a little",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9040336608886719
+      }
+    },
+    {
+      "start": 3178.12,
+      "end": 3184.8399999999997,
+      "text": "bit more near term about 25 the CapEx budget you laid out or the CapEx forecast. Could you talk a",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9332813620567322
+      }
+    },
+    {
+      "start": 3184.8399999999997,
+      "end": 3190.2,
+      "text": "little bit about the constraints you're seeing or where you're seeing constraints either internally",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9228130578994751
+      }
+    },
+    {
+      "start": 3190.2,
+      "end": 3199.16,
+      "text": "resources planning or externally in any parts of the ecosystem and then on the second one",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.946401834487915
+      }
+    },
+    {
+      "start": 3199.7999999999997,
+      "end": 3210.68,
+      "text": "I'm curious as you think about the as you think about your needs for hiring and we just think about",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9233099818229675
+      }
+    },
+    {
+      "start": 3210.68,
+      "end": 3215.96,
+      "text": "we knew you gave the CapEx guide for this year but as we think about future needs for hiring",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8676490187644958
+      }
+    },
+    {
+      "start": 3216.68,
+      "end": 3222.68,
+      "text": "could you just give us a sense of how we should think about that you you announced the the the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8748096823692322
+      }
+    },
+    {
+      "start": 3222.76,
+      "end": 3229.0800000000004,
+      "text": "performance related reductions earlier this for earlier this year could you just talk about how",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8640484809875488
+      }
+    },
+    {
+      "start": 3229.0800000000004,
+      "end": 3235.4,
+      "text": "we should be thinking about that 26 27 and beyond thank you sure I'm happy to take both of those",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6291035413742065
+      }
+    },
+    {
+      "start": 3235.4,
+      "end": 3242.5200000000004,
+      "text": "so on your first question you know on just where do we see constraints in our ability to execute",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8553613424301147
+      }
+    },
+    {
+      "start": 3242.5200000000004,
+      "end": 3248.6800000000003,
+      "text": "against our CapEx plans obviously you know we are staying on top of supply availability that is",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7232074737548828
+      }
+    },
+    {
+      "start": 3248.6800000000003,
+      "end": 3254.0400000000004,
+      "text": "certainly one of the factors that will influence our CapEx ban in 2025 but we don't really have any",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9264089465141296
+      }
+    },
+    {
+      "start": 3254.0400000000004,
+      "end": 3260.84,
+      "text": "updates to share on supply availability right now we are planning to significantly ramp up",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.9192228317260742
+      }
+    },
+    {
+      "start": 3260.84,
+      "end": 3266.0400000000004,
+      "text": "deployment of GPUs in 2025 and we'll continue to engage with our vendors and invest in our own",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8235241174697876
+      }
+    },
+    {
+      "start": 3266.0400000000004,
+      "end": 3272.92,
+      "text": "silicon to you know meet those needs you know and you asked how to think about capital intensity",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9204888343811035
+      }
+    },
+    {
+      "start": 3273.48,
+      "end": 3278.6800000000003,
+      "text": "we're we're not really you know I as both Mark and I alluded to in our prior comments I think it is",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.922897458076477
+      }
+    },
+    {
+      "start": 3278.6800000000003,
+      "end": 3284.12,
+      "text": "really too early to determine what long-run capital intensity is going to look like there are so many",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9108895659446716
+      }
+    },
+    {
+      "start": 3284.12,
+      "end": 3291.08,
+      "text": "different factors the pace of advancement in underlying models how efficient can they be what is the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9012373089790344
+      }
+    },
+    {
+      "start": 3291.08,
+      "end": 3298.52,
+      "text": "adoption and use case of our gen AI products what performance gains come from next generation",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.731242835521698
+      }
+    },
+    {
+      "start": 3298.52,
+      "end": 3304.44,
+      "text": "hardware innovations both our own and third party and then ultimately what monetization or other",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9505739808082581
+      }
+    },
+    {
+      "start": 3304.44,
+      "end": 3310.12,
+      "text": "efficiency gains our AI investments unlock so again I think we are we are sort of early in the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8025716543197632
+      }
+    },
+    {
+      "start": 3310.12,
+      "end": 3316.7599999999998,
+      "text": "journey here and we don't have I would say we don't have kind of a anything to share about long-run",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9231951236724854
+      }
+    },
+    {
+      "start": 3316.7599999999998,
+      "end": 3325.64,
+      "text": "capital intensity yet your second question was about thinking about hiring needs so it's a good segue",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8753962516784668
+      }
+    },
+    {
+      "start": 3325.64,
+      "end": 3331.4,
+      "text": "after infrastructure employee compensation is the next largest driver of expense growth in 2025",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.809327244758606
+      }
+    },
+    {
+      "start": 3332.2799999999997,
+      "end": 3338.2,
+      "text": "and here you know growth in employee comp and headcount more broadly is primarily driven by",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8168068528175354
+      }
+    },
+    {
+      "start": 3338.2,
+      "end": 3344.52,
+      "text": "those areas that I mentioned you know infrastructure monetization generative AI reality labs and",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9415490627288818
+      }
+    },
+    {
+      "start": 3344.52,
+      "end": 3350.2799999999997,
+      "text": "regulation and compliance and those generally are more technical organizations that means that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9299169778823853
+      }
+    },
+    {
+      "start": 3350.28,
+      "end": 3356.2000000000003,
+      "text": "it is a higher cost base relative to business functions where we are also expecting to keep",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5038934350013733
+      }
+    },
+    {
+      "start": 3356.92,
+      "end": 3362.36,
+      "text": "headcount growth constrained and you know I would say we are you know we're focused on",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5311810374259949
+      }
+    },
+    {
+      "start": 3362.36,
+      "end": 3367.32,
+      "text": "running the company efficiently but at the same time it is we feel like we're in a critical",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.6385756134986877
+      }
+    },
+    {
+      "start": 3367.32,
+      "end": 3371.4,
+      "text": "period in terms of making sure that we are investing to win and we want to make sure that we staff",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7721956968307495
+      }
+    },
+    {
+      "start": 3371.4,
+      "end": 3378.44,
+      "text": "those priority areas in a way that really positions us to best do that Krista we have time for one last",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8188304305076599
+      }
+    },
+    {
+      "start": 3378.44,
+      "end": 3386.2000000000003,
+      "text": "question and that question comes from the line of Ross Sandler with Barclays please go ahead",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9325798749923706
+      }
+    },
+    {
+      "start": 3387.56,
+      "end": 3396.04,
+      "text": "yeah one for mark on agents so we we also open AI's operator demo last week so mark as the industry",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9162588119506836
+      }
+    },
+    {
+      "start": 3396.04,
+      "end": 3404.04,
+      "text": "moves from chat to agentic behavior and more commercial intent moves into these AI products",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8864017128944397
+      }
+    },
+    {
+      "start": 3404.04,
+      "end": 3410.6,
+      "text": "like how are you thinking about monetization potential for meta AI and then how might lama",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9387615323066711
+      }
+    },
+    {
+      "start": 3410.6,
+      "end": 3417.56,
+      "text": "for reasoning help drive some of these new agentic experiences for meta AI thank you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.7558624148368835
+      }
+    },
+    {
+      "start": 3419.88,
+      "end": 3426.68,
+      "text": "yeah so I guess a couple of things that I'd say on this one is when you're thinking about",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8974837064743042
+      }
+    },
+    {
+      "start": 3428.84,
+      "end": 3433.88,
+      "text": "agents and reasoning a lot of this is about being able to perform multi-step tasks",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9241513013839722
+      }
+    },
+    {
+      "start": 3433.88,
+      "end": 3440.36,
+      "text": "so right now the way that a lot of these systems work is you you you kind of say something and then",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8503650426864624
+      }
+    },
+    {
+      "start": 3440.36,
+      "end": 3447.32,
+      "text": "it responds and it's almost chat-like but I think that the direction that it's going is you're going",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8941071629524231
+      }
+    },
+    {
+      "start": 3447.32,
+      "end": 3453.08,
+      "text": "to be able to give it an intent or a task and it's going to be able to go off and use sort of an",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9159159064292908
+      }
+    },
+    {
+      "start": 3453.08,
+      "end": 3460.36,
+      "text": "arbitrary amount of compute as much as you want to use on it to be able to do a task some of the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9268821477890015
+      }
+    },
+    {
+      "start": 3460.44,
+      "end": 3465.48,
+      "text": "tasks might be pretty simple for people go go buy a specific thing some of them might be really hard",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9238150119781494
+      }
+    },
+    {
+      "start": 3465.48,
+      "end": 3470.6800000000003,
+      "text": "like go right in app or optimize this code and like really make it as good as possible",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8222998380661011
+      }
+    },
+    {
+      "start": 3472.6800000000003,
+      "end": 3478.1200000000003,
+      "text": "and that type of thing I think is just going to start becoming more and more prevalent over",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8325756788253784
+      }
+    },
+    {
+      "start": 3478.1200000000003,
+      "end": 3485.2400000000002,
+      "text": "the next year or two so I think it's very exciting it sort of will will feel in some ways like the",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8382545709609985
+      }
+    },
+    {
+      "start": 3485.2400000000002,
+      "end": 3488.92,
+      "text": "current products are just getting smarter and others it'll feel like sort of a new form factor",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.915653645992279
+      }
+    },
+    {
+      "start": 3488.92,
+      "end": 3497.4,
+      "text": "because it won't be as much like chat but but it's sort of another generation of these products",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9371592402458191
+      }
+    },
+    {
+      "start": 3497.4,
+      "end": 3501.48,
+      "text": "so I think it's it's just in general there's there's a lot to build and be excited about",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8512324690818787
+      }
+    },
+    {
+      "start": 3502.92,
+      "end": 3510.28,
+      "text": "I guess my note of of caution or or just my my kind of periodic reminder on our product",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9091272354125977
+      }
+    },
+    {
+      "start": 3510.28,
+      "end": 3516.52,
+      "text": "development process if you will is you know we we build these products we try to scale them to",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9217049479484558
+      }
+    },
+    {
+      "start": 3516.52,
+      "end": 3523.16,
+      "text": "reach you know usually a billion people or more and it's at that point once they're at scale",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.932098925113678
+      }
+    },
+    {
+      "start": 3523.16,
+      "end": 3529.32,
+      "text": "that we really start focusing on monetization so sometimes we'll we'll experiment with with",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9213840961456299
+      }
+    },
+    {
+      "start": 3529.32,
+      "end": 3536.12,
+      "text": "monetization before we're running some experiments with threads now for example but we we typically",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9334442615509033
+      }
+    },
+    {
+      "start": 3536.12,
+      "end": 3541.48,
+      "text": "don't really ramp these things up or see them as meaningfully contributing to the business",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.859704315662384
+      }
+    },
+    {
+      "start": 3542.28,
+      "end": 3547.64,
+      "text": "until we reach quite a big scale so the thing that I think is is going to be meaningful this year",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.521994411945343
+      }
+    },
+    {
+      "start": 3547.64,
+      "end": 3553.8,
+      "text": "is the kind of getting of the AI products to scale last year sort of the introduction and starting",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9316020607948303
+      }
+    },
+    {
+      "start": 3553.8,
+      "end": 3559.16,
+      "text": "to get it to be used at this year my my kind of expectation and hope is that we will be at a",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.7112042307853699
+      }
+    },
+    {
+      "start": 3559.16,
+      "end": 3566.12,
+      "text": "sufficient scale and and have you know a sufficient kind of flywheel of people using it and an",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9335657954216003
+      }
+    },
+    {
+      "start": 3566.12,
+      "end": 3570.76,
+      "text": "improvement from that that this will have a durable advantage but that doesn't mean that it's going",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.6682616472244263
+      }
+    },
+    {
+      "start": 3570.84,
+      "end": 3574.6800000000003,
+      "text": "to be a major contributor to the business this year this year the the improvements to the business",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.8368407487869263
+      }
+    },
+    {
+      "start": 3574.6800000000003,
+      "end": 3580.5200000000004,
+      "text": "are going to be taking the AI methods and applying them to advertising and recommendations and feeds",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9316304326057434
+      }
+    },
+    {
+      "start": 3580.5200000000004,
+      "end": 3588.36,
+      "text": "and things like that so the actual business opportunity for meta AI and AI studio and business",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9130536913871765
+      }
+    },
+    {
+      "start": 3588.36,
+      "end": 3594.76,
+      "text": "agents and people interacting with the AIs remains outside of 25 for the most part and I think that",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8043642640113831
+      }
+    },
+    {
+      "start": 3594.76,
+      "end": 3599.88,
+      "text": "that's an important thing for for us to communicate and for for people to internalize as you're",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.9076263904571533
+      }
+    },
+    {
+      "start": 3599.88,
+      "end": 3607.1600000000003,
+      "text": "thinking about our prospects here but but nonetheless you know we've run a process like this many times",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8588255643844604
+      }
+    },
+    {
+      "start": 3607.1600000000003,
+      "end": 3612.84,
+      "text": "you know we we build a product we make it good we scale it to be large we build out the business",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8010488152503967
+      }
+    },
+    {
+      "start": 3612.84,
+      "end": 3620.52,
+      "text": "around it that's what we do i'm very optimistic but it's it's going to take some time great thank",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8541161417961121
+      }
+    },
+    {
+      "start": 3620.52,
+      "end": 3624.84,
+      "text": "you everyone for joining us today I appreciate your time and we look forward to speaking with you",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.5920395255088806
+      }
+    },
+    {
+      "start": 3624.84,
+      "end": 3632.04,
+      "text": "again soon this concludes today's conference call thank you for your participation and you may now",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.8368457555770874
+      }
+    },
+    {
+      "start": 3632.04,
+      "end": 3634.84,
+      "text": "disconnect",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.817196249961853
+      }
+    }
+  ]
+}

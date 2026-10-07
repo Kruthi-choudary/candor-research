@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "claim": "Overall service usage grew 14%.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 547,
+        "source_text": "served across our services increased 14%."
+      }
+    },
+    {
+      "claim": "Legal-related expenses grew more than in Q2.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 648,
+        "source_text": "First, legal-related expense growth was higher than in Q2,"
+      }
+    },
+    {
+      "claim": "WhatsApp paid messaging revenue drove a 59% increase.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 581,
+        "source_text": "up 59%, driven by WhatsApp paid messaging revenue growth,"
+      }
+    },
+    {
+      "claim": "Ad performance improvements were a major driver of growth.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 566,
+        "source_text": "largely driven by improved ad performance."
+      }
+    },
+    {
+      "claim": "The quarter included an accounting charge.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 741,
+        "source_text": "resulted in an accounting charge in the third quarter,"
+      }
+    },
+    {
+      "claim": "Charges recorded in the third quarter impacted results.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 652,
+        "source_text": "due to charges we recorded in the third quarter,"
+      }
+    },
+    {
+      "claim": "Depreciation on incremental CAPX spend affected earnings.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 679,
+        "source_text": "depreciation on our incremental CAPX spend,"
+      }
+    },
+    {
+      "claim": "European revenue faced a negative impact.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1629,
+        "source_text": "negative impact on our European revenue"
+      }
+    }
+  ],
+  "overall_summary": "Meta's Q3 2025 earnings call highlighted strong growth in services usage, legal expenses, WhatsApp paid messaging, and ad performance, reflecting a largely positive tone. However, the company also noted accounting charges, depreciation from incremental CAPX spend, and a negative impact on European revenue, contributing to a predominantly neutral sentiment overall, with 12% positive, 1.3% negative, and 86.6% neutral."
+}

@@ -1,0 +1,752 @@
+{
+  "run_label": "baseline_free_text_v1",
+  "format_compliance": 0.812,
+  "overall_accuracy": 0.814,
+  "total_citations": 86,
+  "total_verified": 70,
+  "reports": [
+    {
+      "ticker": "AAPL",
+      "quarter": "Q1_2025",
+      "total_citations": 3,
+      "verified": 2,
+      "accuracy": 0.667,
+      "citations": [
+        {
+          "quote": "performed stronger than those where Apple intelligence was not",
+          "timestamp": "22:56",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.792,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "growing 14% from a year ago",
+          "timestamp": "9:46",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "have a negative impact on revenue of about 2.5 percentage points on a year\u2011over\u2011year basis",
+          "timestamp": "20:56",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.306,
+          "actual_segment_text": "With that headwind, we expect our March quarter total company revenue to grow low to"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "quarter": "Q2_2025",
+      "total_citations": 0,
+      "verified": 0,
+      "accuracy": null,
+      "citations": []
+    },
+    {
+      "ticker": "AAPL",
+      "quarter": "Q3_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "quote": "Mac revenue was $8\u202fbillion, up\u202f15\u202f% year over year",
+          "timestamp": "19:17",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "Our revenue of $94\u202fbillion was up\u202f10\u202f% year over year",
+          "timestamp": "16:47",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "up\u202f10\u202f% from a year ago, which was better than we expected",
+          "timestamp": "1:57",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "with revenue up\u202f15\u202f% year over year",
+          "timestamp": "2:57",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "iPad revenue was $6.6\u202fbillion, down\u202f8\u202f% year over year",
+          "timestamp": "19:47",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "was $7.4\u202fbillion, down\u202f9\u202f% year over year",
+          "timestamp": "20:19",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "diluted earnings per share of $1.57",
+          "timestamp": "18:13",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.943,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "which also leads to a difficult compare this year",
+          "timestamp": "35:09",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "quarter": "Q4_2024",
+      "total_citations": 5,
+      "verified": 4,
+      "accuracy": 0.8,
+      "citations": [
+        {
+          "quote": "strong performance in many emerging markets",
+          "timestamp": "17:43",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.878,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "very, very good",
+          "timestamp": "40:37",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.359,
+          "actual_segment_text": "So we've seen very, very good results for us in the entire segment."
+        },
+        {
+          "quote": "down 3\u202f% from a year ago",
+          "timestamp": "6:54",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.667,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "a headwind that we've been reporting for a period of time",
+          "timestamp": "38:44",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.842,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "incurred during the course of fiscal\u202f24",
+          "timestamp": "26:51",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.886,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q1_2025",
+      "total_citations": 8,
+      "verified": 7,
+      "accuracy": 0.875,
+      "citations": [
+        {
+          "quote": "ad revenue growth was strongest in rest of world and North America",
+          "timestamp": "14:58",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.82,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "infrastructure costs. Marketing and sales increased\u202f8\u202fpercent, driven mainly by an increase in",
+          "timestamp": "12:44",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "cost of revenue increased\u202f14\u202fpercent, driven primarily by higher infrastructure costs",
+          "timestamp": "12:25",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.977,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "R&D increased\u202f22\u202fpercent, mostly due to higher employee compensation",
+          "timestamp": "12:36",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.83,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "down\u202f6\u202fpercent year over year due to lower Meta Quest sales",
+          "timestamp": "16:38",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.831,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "year\u2011over\u2011year growth in the government and politics vertical dropped sharply \u2026",
+          "timestamp": "58:36",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.562,
+          "actual_segment_text": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall."
+        },
+        {
+          "quote": "weakness in gaming \u2026 growth in gaming was negative \u2026 as we lapped a period of strong spend from China\u2011based advertisers",
+          "timestamp": "58:18",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.663,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "G&A decreased\u202f34\u202fpercent, driven primarily by lower legal related costs",
+          "timestamp": "12:57",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.863,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q2_2025",
+      "total_citations": 6,
+      "verified": 5,
+      "accuracy": 0.833,
+      "citations": [
+        {
+          "quote": "ad revenue growth was strongest in Europe and rest of world at\u202f24\u202f%",
+          "timestamp": "11:45",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.833,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "promising performance lifts",
+          "timestamp": "22:51",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.478,
+          "actual_segment_text": "languages. While it's early, we've seen promising performance lifts in our pre-launch tests."
+        },
+        {
+          "quote": "over\u202f75,900\u202femployees down\u202f1\u202fpercent quarter over quarter",
+          "timestamp": "9:23",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.752,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "the vast majority of the employees impacted by performance\u2011related reductions earlier this",
+          "timestamp": "9:34",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.978,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "dropping by roughly\u202f30\u202f% over the past\u202f10\u202fmonths",
+          "timestamp": "16:04",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.724,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "pricing growth slowed modestly from the first quarter due to the accelerated impression growth",
+          "timestamp": "12:31",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q3_2025",
+      "total_citations": 8,
+      "verified": 7,
+      "accuracy": 0.875,
+      "citations": [
+        {
+          "quote": "served across our services increased\u202f14\u202f%",
+          "timestamp": "9:07",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "largely driven by improved ad performance",
+          "timestamp": "9:26",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "up\u202f59\u202f%, driven by WhatsApp paid messaging revenue growth",
+          "timestamp": "9:41",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "was higher than in Q2",
+          "timestamp": "10:48",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.553,
+          "actual_segment_text": "First, legal-related expense growth was higher than in Q2,"
+        },
+        {
+          "quote": "accounting charge in the third quarter",
+          "timestamp": "12:21",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.835,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "charges we recorded in the third quarter",
+          "timestamp": "10:52",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.92,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "depreciation on our incremental CAPX spend",
+          "timestamp": "11:19",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "negative impact on our European revenue",
+          "timestamp": "27:09",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q4_2024",
+      "total_citations": 7,
+      "verified": 4,
+      "accuracy": 0.571,
+      "citations": [
+        {
+          "quote": "rest of world at 27%",
+          "timestamp": "12:19",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.384,
+          "actual_segment_text": "On a user geography basis, ad revenue growth was strongest in rest of world at 27%,"
+        },
+        {
+          "quote": "benefited from increased advertiser demand in part driven by improved ad performance",
+          "timestamp": "12:48",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "driven mostly by higher",
+          "timestamp": "9:56",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.414,
+          "actual_segment_text": "In terms of the specific line items, cost of revenue increased 15% driven mostly by higher"
+        },
+        {
+          "quote": "67% driven mostly",
+          "timestamp": "10:15",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.308,
+          "actual_segment_text": "Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly"
+        },
+        {
+          "quote": "foreign currency \u2026 approximately 3 percent headwind to year over year total revenue growth",
+          "timestamp": "24:43",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.967,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "active regulatory landscape \u2026 legal and regulatory headwinds in the EU and the US",
+          "timestamp": "26:21",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.94,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "driver of expense growth in 2025 \u2026 infrastructure costs driven by higher operating expenses",
+          "timestamp": "25:24",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.947,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q1_2025",
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "quote": "M365 consumer products and cloud services revenue increased 5\u202f% and 6\u202f% in constant currency",
+          "timestamp": "23:06",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "M365 commercial products revenue increased 2\u202f% and 3\u202f% in constant currency ahead of expectations",
+          "timestamp": "22:56",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "revenue increased 10\u202f% and 9\u202f% in constant currency, slightly ahead of expectations, with growth across all lines of business",
+          "timestamp": "23:32",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.96,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "excluding the net impact from the Activision acquisition, operating margins were up 1.0",
+          "timestamp": "21:50",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "Free cash flow was 19.3\u202fbillion dollars down 7\u202f% year over year reflecting higher capital expenditures to support our cloud and AI offerings",
+          "timestamp": "28:09",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "enterprise and partner services \u2026 decreased 1\u202f% and was relatively unchanged in constant currency",
+          "timestamp": "25:28",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.959,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "on\u2011premises server business \u2026 revenue decreased 1\u202f%",
+          "timestamp": "25:09",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.929,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "Microsoft cloud gross margin percentage decreased 2.0\u202f% over year to 71\u202f%",
+          "timestamp": "20:45",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q2_2025",
+      "total_citations": 5,
+      "verified": 3,
+      "accuracy": 0.6,
+      "citations": [
+        {
+          "quote": "stronger than expected performance in Blizzard and Activision content, including\u202fCall\u202fof\u202fDuty",
+          "timestamp": "23:20",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.702,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "strong execution on margin improvement in gaming and search",
+          "timestamp": "23:35",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.513,
+          "actual_segment_text": "Gross margin percentage increased 6.0 over year, driven by sales mix shift to higher margin businesses, as well as strong execution on margin improvement in gaming and search."
+        },
+        {
+          "quote": "driven by slower than expected purchasing around\u202fWindows\u202fServer\u202f2025 launch",
+          "timestamp": "21:48",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.647,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "Enterprise and partner services revenue decreased\u202f1\u202f%\u2026 below expectations",
+          "timestamp": "21:59",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.596,
+          "actual_segment_text": "Enterprise and partner services revenue decreased 1%, below expectations, with lower than expected performance across enterprise support services and industry solutions."
+        },
+        {
+          "quote": "strengthening of the US dollar\u2026 now expect[ed] FX to decrease Q4 revenue and COGS growth by more than one point and operating expense growth by roughly one point",
+          "timestamp": "31:07",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.923,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q3_2025",
+      "total_citations": 8,
+      "verified": 7,
+      "accuracy": 0.875,
+      "citations": [
+        {
+          "quote": "we saw better than expected performance across our segments",
+          "timestamp": "51:26",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.915,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "M365 commercial products revenue increased 5%",
+          "timestamp": "20:45",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.652,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "Segment gross margin dollars increased 9% and 11% in \u2026",
+          "timestamp": "24:26",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.719,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "13% and 14% in constant currency",
+          "timestamp": "23:10",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.556,
+          "actual_segment_text": "services. Segment gross margin dollars increased 13% and 14% in constant currency,"
+        },
+        {
+          "quote": "revenue decreased 6% and 4% in constant currency, slightly below expectations",
+          "timestamp": "22:45",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "The year\u2011over\u2011year decline is reflective of the continued customer shift to cloud offerings",
+          "timestamp": "22:55",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.989,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "revenue will decline in the mid\u2011single digits with the ongoing customer shift to cloud offerings",
+          "timestamp": "30:18",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.933,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "67% \u2026 primarily driven by the impact of scaling our AI infrastructure",
+          "timestamp": "27:53",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.868,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q4_2024",
+      "total_citations": 0,
+      "verified": 0,
+      "accuracy": null,
+      "citations": []
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q1_2025",
+      "total_citations": 0,
+      "verified": 0,
+      "accuracy": null,
+      "citations": []
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q2_2025",
+      "total_citations": 5,
+      "verified": 4,
+      "accuracy": 0.8,
+      "citations": [
+        {
+          "quote": "was\u202f14.5\u202f[...]",
+          "timestamp": "18:49",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.133,
+          "actual_segment_text": "were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was 14.5"
+        },
+        {
+          "quote": "due to a higher mix of new products within data center and inventory",
+          "timestamp": "18:36",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.883,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "remains below level seen prior to the",
+          "timestamp": "5:43",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.607,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "Our customers hate that we do integration. The supply chain hates us doing",
+          "timestamp": "59:15",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.869,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "new approach, computing inflation would be driving up the cost for every",
+          "timestamp": "24:42",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.887,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q3_2025",
+      "total_citations": 7,
+      "verified": 5,
+      "accuracy": 0.714,
+      "citations": [
+        {
+          "quote": "operating expenses were up 9\u202f%\u202f\u2026\u202fDue to higher compute, infrastructure and engineering development",
+          "timestamp": "18:13",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "H200 sales increased significantly",
+          "timestamp": "2:48",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.531,
+          "actual_segment_text": "NVIDIA Hopper demand is exceptional and sequentially NVIDIA H200 sales increased significantly"
+        },
+        {
+          "quote": "Revenue of 486\u202fmillion was up 7\u202f% sequentially and 17\u202f% year on year",
+          "timestamp": "16:49",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "Gaming revenue of 3.3\u202fbillion increased 14\u202f% sequentially and 15\u202f% year on year",
+          "timestamp": "15:16",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.919,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "down about 15\u202f%",
+          "timestamp": "50:22",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.23,
+          "actual_segment_text": "quarter you know Klet you mentioned that obviously the networking business was down about 15 percent"
+        },
+        {
+          "quote": "was 75\u202f%\u202f\u2026\u202fDown sequentially, primarily driven by a mix shift of the H100 systems to more complex and higher cost systems within data center",
+          "timestamp": "17:58",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.811,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "more suppliers we turn the corner into the new calendar year we\u2019re just going to be tight for this quarter",
+          "timestamp": "53:59",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q4_2024",
+      "total_citations": 8,
+      "verified": 6,
+      "accuracy": 0.75,
+      "citations": [
+        {
+          "quote": "Revenue of\u202f22.1\u202fbillion\u202fwas up\u202f22\u202f% sequentially",
+          "timestamp": "2:00",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.672,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "benefit\u2026 margins in Q4",
+          "timestamp": "21:00",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.325,
+          "actual_segment_text": "on strong data center growth and mix. Our growth margins in Q4 benefited from favorable component"
+        },
+        {
+          "quote": "the chain is really doing fantastic supporting us\u2026 overall, the supply is improving",
+          "timestamp": "37:16",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.933,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "Fiscal year revenue of\u202f1.55\u202fbillion\u2026 up\u202f1\u202f%",
+          "timestamp": "18:21",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.619,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "our business significantly declined as we paused in the marketplace",
+          "timestamp": "54:05",
+          "verdict": "VERIFIED",
+          "match_ratio": 0.865,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "down\u202f4\u202f% year on year",
+          "timestamp": "19:32",
+          "verdict": "TEXT_MISMATCH",
+          "match_ratio": 0.362,
+          "actual_segment_text": "Moving to automotive, revenue was 281 million up 8% sequentially and down 4% year on year."
+        },
+        {
+          "quote": "lead times for your products have come down quite a bit\u2026 you didn\u2019t talk about the inventory purchase",
+          "timestamp": "45:22",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        },
+        {
+          "quote": "as more law slows, while computing demand continues to skyrocket, companies may accelerate",
+          "timestamp": "2:51",
+          "verdict": "VERIFIED",
+          "match_ratio": 1.0,
+          "actual_segment_text": null
+        }
+      ]
+    }
+  ]
+}

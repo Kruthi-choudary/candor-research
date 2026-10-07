@@ -1,0 +1,2622 @@
+{
+  "duration_sec": 3738.301,
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.32,
+      "text": "Good afternoon. My name is Jael and I'll be your conference operator today. At this time,"
+    },
+    {
+      "start": 4.32,
+      "end": 8.88,
+      "text": "I would like to welcome everyone to NVIDIA's third quarter earnings call. All lines have"
+    },
+    {
+      "start": 8.88,
+      "end": 13.280000000000001,
+      "text": "been placed on mute to prevent any background noise. After the speakers remarks, there will"
+    },
+    {
+      "start": 13.280000000000001,
+      "end": 18.48,
+      "text": "be a question and answer session. If you'd like to ask a question during this time, simply press star"
+    },
+    {
+      "start": 18.48,
+      "end": 23.52,
+      "text": "followed by the number one on your telephone keypad. If you would like to withdraw your question,"
+    },
+    {
+      "start": 23.52,
+      "end": 28.72,
+      "text": "press the star one again. Thank you. Stuart Stecker, you may begin your conference."
+    },
+    {
+      "start": 30.72,
+      "end": 36.0,
+      "text": "Thank you. Good afternoon everyone and welcome to NVIDIA's conference call for the third quarter"
+    },
+    {
+      "start": 36.0,
+      "end": 43.28,
+      "text": "of fiscal 2025. With me today from NVIDIA R. Jensen Wong, president and chief executive officer"
+    },
+    {
+      "start": 43.28,
+      "end": 49.04,
+      "text": "and Colette Kress, executive vice president and chief financial officer. I'd like to remind you"
+    },
+    {
+      "start": 49.04,
+      "end": 54.32,
+      "text": "that our call is being webcast live on NVIDIA's investor relations website. The webcast will be"
+    },
+    {
+      "start": 54.32,
+      "end": 59.68,
+      "text": "available for replay until the conference call to discuss our financial results for the fourth quarter"
+    },
+    {
+      "start": 59.68,
+      "end": 66.64,
+      "text": "of fiscal 2025. Content of today's call is NVIDIA's property. It can't be reproduced or transcribed"
+    },
+    {
+      "start": 66.64,
+      "end": 73.36,
+      "text": "without our prior written consent. During this call, we may make forward-looking statements based on"
+    },
+    {
+      "start": 73.36,
+      "end": 78.64,
+      "text": "current expectations. These are subject to a number of significant risks and uncertainties"
+    },
+    {
+      "start": 78.64,
+      "end": 83.44,
+      "text": "and our actual results may differ materially. For discussion of factors that could affect our"
+    },
+    {
+      "start": 83.44,
+      "end": 88.88,
+      "text": "future financial results in business, please refer to their disclosure in today's earnings release."
+    },
+    {
+      "start": 88.88,
+      "end": 96.24000000000001,
+      "text": "Our most recent forms, 10K and 10Q, and the reports that we may file on form 8K with the Securities"
+    },
+    {
+      "start": 96.24000000000001,
+      "end": 102.4,
+      "text": "and Exchange Commission. All our statements are made as of today, November 20, 2024,"
+    },
+    {
+      "start": 102.4,
+      "end": 107.6,
+      "text": "based on information currently available to us. Except it's required by law, we assume no"
+    },
+    {
+      "start": 107.68,
+      "end": 113.68,
+      "text": "obligations to update any such statements. During this call, we will discuss non-GAP financial measures."
+    },
+    {
+      "start": 113.68,
+      "end": 118.80000000000001,
+      "text": "You can find a reconciliation of these non-GAP financial measures to GAP financial measures"
+    },
+    {
+      "start": 118.80000000000001,
+      "end": 124.32000000000001,
+      "text": "in our CFO commentary, which is posted on our website. With that, let me turn the call over to"
+    },
+    {
+      "start": 124.32000000000001,
+      "end": 132.48000000000002,
+      "text": "Collette. Thank you, Stuart. Q3 was another record quarter. We continue to deliver incredible growth."
+    },
+    {
+      "start": 132.48,
+      "end": 140.0,
+      "text": "Revenue of 35.1 billion was up 17 percent sequentially and up 94 percent year on year"
+    },
+    {
+      "start": 140.0,
+      "end": 147.2,
+      "text": "and well above our outlook of 32.5 billion. All market platforms posted strong sequential"
+    },
+    {
+      "start": 147.2,
+      "end": 153.04,
+      "text": "and year over year growth fueled by the adoption of NVIDIA Accelerated Computing and AI."
+    },
+    {
+      "start": 154.23999999999998,
+      "end": 158.23999999999998,
+      "text": "Starting with data center, another record was achieved in data center."
+    },
+    {
+      "start": 158.96,
+      "end": 167.44,
+      "text": "Revenue of 30.8 billion dollars, up 17 percent sequential and up 112 percent year on year."
+    },
+    {
+      "start": 168.16,
+      "end": 176.16000000000003,
+      "text": "NVIDIA Hopper demand is exceptional and sequentially NVIDIA H200 sales increased significantly"
+    },
+    {
+      "start": 176.16000000000003,
+      "end": 181.28,
+      "text": "to double-digit billions, the fastest product ramp in our company's history."
+    },
+    {
+      "start": 182.24,
+      "end": 191.04,
+      "text": "The H200 delivers up to 2x faster inference performance and up to 50 percent improved TCO."
+    },
+    {
+      "start": 192.08,
+      "end": 196.72,
+      "text": "Cloud service providers were approximately half of our data center sales with revenue"
+    },
+    {
+      "start": 196.72,
+      "end": 204.48,
+      "text": "increasing more than 2x year on year. CSPs deployed NVIDIA H200 infrastructure and high speed"
+    },
+    {
+      "start": 204.48,
+      "end": 210.56,
+      "text": "networking with installations scaling to tens of thousands of DPUs to grow their business"
+    },
+    {
+      "start": 210.56,
+      "end": 215.76,
+      "text": "and serve rapidly rising demand for AI training and inference workloads."
+    },
+    {
+      "start": 216.56,
+      "end": 225.84,
+      "text": "NVIDIA H200 powered cloud instances are now available from AWS, Corwee and Microsoft Azure"
+    },
+    {
+      "start": 225.84,
+      "end": 234.08,
+      "text": "with Google Cloud and OCI coming soon. Alongside significant growth from our large CSPs"
+    },
+    {
+      "start": 234.64000000000001,
+      "end": 242.8,
+      "text": "NVIDIA GPU regional cloud revenue jumped to x year on year as North America, India and Asia"
+    },
+    {
+      "start": 242.8,
+      "end": 250.96,
+      "text": "Pacific regions ramped NVIDIA cloud instances and sovereign cloud buildouts. Consumer internet"
+    },
+    {
+      "start": 250.96,
+      "end": 257.68,
+      "text": "revenue more than doubled year on year as companies scaled their NVIDIA Hopper infrastructure to support"
+    },
+    {
+      "start": 257.68,
+      "end": 264.88,
+      "text": "next-generation AI models, training, multimodal and agentic AI, deep learning recommender engines"
+    },
+    {
+      "start": 264.88,
+      "end": 272.64,
+      "text": "and generative AI inference and content creation workloads. NVIDIA's ampere and Hopper infrastructures"
+    },
+    {
+      "start": 272.64,
+      "end": 280.32,
+      "text": "are fueling inference revenue growth for customers. NVIDIA is the largest inference platform in the"
+    },
+    {
+      "start": 280.32,
+      "end": 287.76,
+      "text": "world. Our large install base and rich software ecosystem encouraged developers to optimize for"
+    },
+    {
+      "start": 287.76,
+      "end": 294.96,
+      "text": "NVIDIA and deliver continued performance and TCL improvements. Rapid advancements in NVIDIA"
+    },
+    {
+      "start": 294.96,
+      "end": 303.28,
+      "text": "software algorithms boosted Hopper inference throughput by an incredible 5x in one year and cut time"
+    },
+    {
+      "start": 303.28000000000003,
+      "end": 311.36,
+      "text": "to first token by 5x. Our upcoming release of NVIDIA NIMM will boost Hopper inference performance"
+    },
+    {
+      "start": 311.36,
+      "end": 319.92,
+      "text": "by an additional 2.4x. Continuous performance optimizations are a hallmark of NVIDIA and drive"
+    },
+    {
+      "start": 319.92,
+      "end": 328.8,
+      "text": "increasingly economic returns for the entire NVIDIA installed base. Blackwell is in full production"
+    },
+    {
+      "start": 328.88,
+      "end": 335.92,
+      "text": "after a successfully executed mass change. We ship 13,000 GPU samples to customers in the third"
+    },
+    {
+      "start": 335.92,
+      "end": 345.04,
+      "text": "quarter including one of the first Blackwell DGX engineering samples to open AI. Blackwell is a full"
+    },
+    {
+      "start": 345.04,
+      "end": 353.28000000000003,
+      "text": "stack full infrastructure. AI data center scale system with customizable configurations needed"
+    },
+    {
+      "start": 353.28000000000003,
+      "end": 360.64000000000004,
+      "text": "to address a diverse and growing AI market. From x86 to ARM, training to inferencing GPUs,"
+    },
+    {
+      "start": 361.28000000000003,
+      "end": 367.28000000000003,
+      "text": "infinivine to ethernet switches and ND link and from liquid cooled to air cooled."
+    },
+    {
+      "start": 368.56000000000006,
+      "end": 375.04,
+      "text": "Every customer is racing to be the first to market. Blackwell is now in the hands of all of"
+    },
+    {
+      "start": 375.04,
+      "end": 381.12,
+      "text": "our major partners and they are working to bring up their data centers. We are integrating Blackwell"
+    },
+    {
+      "start": 381.2,
+      "end": 387.36,
+      "text": "systems into the diverse data center configurations of our customers. Blackwell demand is staggering"
+    },
+    {
+      "start": 387.36,
+      "end": 393.6,
+      "text": "and we are racing to scale supply to meet the incredible demand customers are placing on us."
+    },
+    {
+      "start": 395.04,
+      "end": 401.76,
+      "text": "Customers are gearing up to deploy Blackwell at scale. Oracle announced the world's first"
+    },
+    {
+      "start": 401.84,
+      "end": 409.92,
+      "text": "data scale AI cloud computing clusters that can scale to over 131,000 Blackwell GPUs"
+    },
+    {
+      "start": 409.92,
+      "end": 415.84,
+      "text": "to help enterprises train and deploy some of the most demanding next generation AI models."
+    },
+    {
+      "start": 417.12,
+      "end": 423.36,
+      "text": "Yesterday, Microsoft announced they will be the first CSP to offer. In private preview,"
+    },
+    {
+      "start": 423.36,
+      "end": 430.0,
+      "text": "Blackwell based cloud instances powered by NVIDIA, GB 200 and quantum incident event."
+    },
+    {
+      "start": 430.64,
+      "end": 438.08,
+      "text": "Last week, Blackwell made its debut on the most recent round of ML per training results,"
+    },
+    {
+      "start": 438.72,
+      "end": 446.4,
+      "text": "sweeping the per GPU benchmarks and delivering a 2.2x lead in performance over hopper."
+    },
+    {
+      "start": 447.12,
+      "end": 452.16,
+      "text": "The results also demonstrate our relentless pursuit to drive down the cost of compute."
+    },
+    {
+      "start": 452.88000000000005,
+      "end": 463.52000000000004,
+      "text": "Just 64 Blackwell GPUs are required to run the GPT pre benchmark compared to 256 H100 or a"
+    },
+    {
+      "start": 463.52000000000004,
+      "end": 473.52000000000004,
+      "text": "4x reduction in cost. NVIDIA Blackwell architecture with NVLink switch enables up to 30x faster inference"
+    },
+    {
+      "start": 473.52000000000004,
+      "end": 480.56,
+      "text": "performance and a new level of inference scaling throughput and response time that is excellent for"
+    },
+    {
+      "start": 480.64,
+      "end": 486.32,
+      "text": "running new reasoning inference applications like OpenAI's O1 model."
+    },
+    {
+      "start": 487.6,
+      "end": 494.08,
+      "text": "With every new platform shift, a wave of startups is created. Hundreds of AI native"
+    },
+    {
+      "start": 494.08,
+      "end": 501.68,
+      "text": "companies are already delivering AI services with great success. Through Google, Meta, Microsoft"
+    },
+    {
+      "start": 501.68,
+      "end": 509.36,
+      "text": "and OpenAI are the headliners on thread and traffic, perplexity, mestral, Adobe firefly,"
+    },
+    {
+      "start": 509.36,
+      "end": 516.96,
+      "text": "runway, mid-journey, light tricks, Harvey, Cotium, cursor, and a bridge are seen great"
+    },
+    {
+      "start": 516.96,
+      "end": 525.44,
+      "text": "success while thousands of AI native startups are building new services. The next waves of AI"
+    },
+    {
+      "start": 525.44,
+      "end": 534.0,
+      "text": "are enterprise AI and industrial AI. Enterprise AI is in full throttle. NVIDIA AI enterprise"
+    },
+    {
+      "start": 534.0,
+      "end": 542.5600000000001,
+      "text": "which includes NVIDIA MIMO and NIMM microservices is an operating platform of agent AI. Industry"
+    },
+    {
+      "start": 542.5600000000001,
+      "end": 551.36,
+      "text": "leaders are using NVIDIA AI to build co-pilots and agents. Working with NVIDIA, cadence,"
+    },
+    {
+      "start": 551.44,
+      "end": 561.44,
+      "text": "caldera, cohesity, NetApp, Nutanix, Salesforce, SAP, and ServiceNow are racing to accelerate"
+    },
+    {
+      "start": 561.44,
+      "end": 566.8000000000001,
+      "text": "development of these applications with the potential for billions of agents to be deployed"
+    },
+    {
+      "start": 566.8000000000001,
+      "end": 574.08,
+      "text": "in the coming years. Consulting leaders like Accenture and Deloitte are taking NVIDIA AI"
+    },
+    {
+      "start": 574.08,
+      "end": 580.4,
+      "text": "to the world enterprises. Accenture launched a new business group with 30,000 professionals"
+    },
+    {
+      "start": 580.48,
+      "end": 588.3199999999999,
+      "text": "trained on NVIDIA AI technology to help facilitate this global build-out. Additionally, Accenture"
+    },
+    {
+      "start": 588.3199999999999,
+      "end": 596.48,
+      "text": "with over 770,000 employees is leveraging NVIDIA powered Agenic AI applications internally,"
+    },
+    {
+      "start": 597.04,
+      "end": 606.24,
+      "text": "including one case that cuts manual steps in marketing campaigns by 25 to 35%. Nearly 1,000"
+    },
+    {
+      "start": 606.24,
+      "end": 613.2,
+      "text": "companies are using NVIDIA MIMM and the speed of its uptake is evident in NVIDIA AI enterprise"
+    },
+    {
+      "start": 613.2,
+      "end": 622.0,
+      "text": "monetization. We expect NVIDIA AI enterprise full-year revenue to increase over 2x from last year and"
+    },
+    {
+      "start": 622.0,
+      "end": 629.92,
+      "text": "our pipeline continues to build. Overall, our software service and support revenue is annualizing"
+    },
+    {
+      "start": 629.92,
+      "end": 636.64,
+      "text": "at 1.5 billion and we expect to exit this year annualizing at over 2 billion."
+    },
+    {
+      "start": 638.16,
+      "end": 644.0,
+      "text": "Industrial AI and robotics are accelerating. This is triggered by breakthroughs in physical AI,"
+    },
+    {
+      "start": 644.56,
+      "end": 650.64,
+      "text": "foundation models that understand the physical world. Like NVIDIA MIMO for enterprise AI agents,"
+    },
+    {
+      "start": 651.36,
+      "end": 658.4,
+      "text": "we built NVIDIA Omniverse for developers to build, train, and operate industrial AI and robotics."
+    },
+    {
+      "start": 659.1999999999999,
+      "end": 665.1999999999999,
+      "text": "Some of the largest industrial manufacturers in the world are adopting NVIDIA Omniverse"
+    },
+    {
+      "start": 665.1999999999999,
+      "end": 671.04,
+      "text": "to accelerate their businesses, automate their workflows, and to achieve new levels of operating"
+    },
+    {
+      "start": 671.04,
+      "end": 679.76,
+      "text": "efficiency. Foxconn, the world's largest electronics manufacturer, is using digital twins and industrial"
+    },
+    {
+      "start": 679.76,
+      "end": 686.88,
+      "text": "AI built on NVIDIA Omniverse to speed the bring up of its Blackwell factories and drive new levels"
+    },
+    {
+      "start": 686.88,
+      "end": 694.56,
+      "text": "of efficiency. And its Mexico facility alone, Foxconn expects to reduce a reduction of over"
+    },
+    {
+      "start": 694.56,
+      "end": 705.6,
+      "text": "3% in annual kilowatt-hour usage. From a geographic perspective, our data center revenue in China"
+    },
+    {
+      "start": 705.6,
+      "end": 711.36,
+      "text": "grew sequentially due to shipments of export compliant hopper products to industries."
+    },
+    {
+      "start": 712.24,
+      "end": 718.8000000000001,
+      "text": "As a percentage of total data center revenue, it remains well below levels prior to the onset"
+    },
+    {
+      "start": 718.8000000000001,
+      "end": 725.6800000000001,
+      "text": "of export controls. We expect the market in China to remain very competitive going forward."
+    },
+    {
+      "start": 726.24,
+      "end": 730.8000000000001,
+      "text": "We will continue to comply with export controls while serving our customers."
+    },
+    {
+      "start": 732.32,
+      "end": 739.28,
+      "text": "Our sovereign AI initiatives continue to gather momentum as countries embrace NVIDIA accelerated"
+    },
+    {
+      "start": 739.28,
+      "end": 747.52,
+      "text": "computing for a new industrial revolution powered by AI. India's leading CSPs include"
+    },
+    {
+      "start": 747.52,
+      "end": 753.04,
+      "text": "product communications and Zoda data services are building AI factories for tens of thousands"
+    },
+    {
+      "start": 753.04,
+      "end": 760.72,
+      "text": "of NVIDIA GPUs. By year end, they will have boosted NVIDIA GPU deployments in the country by nearly"
+    },
+    {
+      "start": 760.8000000000001,
+      "end": 771.12,
+      "text": "10x. Infosys, TSC, Whipro, are adopting NVIDIA AI Enterprise and upskilling nearly half a million"
+    },
+    {
+      "start": 771.12,
+      "end": 777.2,
+      "text": "developers and consultants to help clients build and run AI agents on our platform."
+    },
+    {
+      "start": 778.1600000000001,
+      "end": 783.6800000000001,
+      "text": "In Japan, SoftBank is building the nation's most powerful AI supercomputer within"
+    },
+    {
+      "start": 783.6800000000001,
+      "end": 790.08,
+      "text": "NVIDIA DGX Blackwell and Quantum Incentuban. SoftBank is also partnering with NVIDIA"
+    },
+    {
+      "start": 790.08,
+      "end": 796.4000000000001,
+      "text": "to transform the telecommunications network into a distributed AI network with NVIDIA AI Ariel"
+    },
+    {
+      "start": 797.7600000000001,
+      "end": 808.4000000000001,
+      "text": "and a RAN platform that can process both 5G RAN on AI on CUDA. We are launching the same in the US"
+    },
+    {
+      "start": 808.4,
+      "end": 817.1999999999999,
+      "text": "with T-Mobile. Leaders across Japan including Fujitsu, NEC, and NTT are adopting NVIDIA AI"
+    },
+    {
+      "start": 817.1999999999999,
+      "end": 825.28,
+      "text": "Enterprise and major consulting companies including EY strategy and consulting will help bring NVIDIA"
+    },
+    {
+      "start": 825.28,
+      "end": 834.0,
+      "text": "AI technology to Japan's industries. Networking revenue increased 20% year on year. Areas of"
+    },
+    {
+      "start": 834.48,
+      "end": 839.84,
+      "text": "sequential revenue growth include Incentuban and Ethernet switches, smart necks, and bluefield"
+    },
+    {
+      "start": 839.84,
+      "end": 846.48,
+      "text": "GPUs. So networking revenue was sequentially down. Networking demand is strong and growing"
+    },
+    {
+      "start": 846.48,
+      "end": 856.8,
+      "text": "and we anticipate sequential growth in Q4. CSPs and supercomputing centers are using and adopting"
+    },
+    {
+      "start": 856.8000000000001,
+      "end": 865.36,
+      "text": "the NVIDIA Incentuban platform to power new H200 clusters. NVIDIA spectrum X Ethernet 4 AI"
+    },
+    {
+      "start": 865.36,
+      "end": 872.96,
+      "text": "revenue increased over 3X year on year and our pipeline continues to build with multiple CSPs"
+    },
+    {
+      "start": 872.96,
+      "end": 879.7600000000001,
+      "text": "and consumer internet companies planning large cluster deployments. Traditional Ethernet was"
+    },
+    {
+      "start": 879.76,
+      "end": 887.84,
+      "text": "not designed for AI. NVIDIA spectrum X uniquely leverages technology previously exclusive to"
+    },
+    {
+      "start": 887.84,
+      "end": 896.16,
+      "text": "Incentuban to enable customers to achieve massive scale of their GPU compute. Utilizing spectrum X"
+    },
+    {
+      "start": 896.16,
+      "end": 904.96,
+      "text": "XAI's Colossus 100,000 Hopper supercomputer experience zero application latency degradation"
+    },
+    {
+      "start": 904.96,
+      "end": 916.1600000000001,
+      "text": "and maintained 95% data throughput versus 60% for traditional Ethernet. Now moving to gaming and AI"
+    },
+    {
+      "start": 916.1600000000001,
+      "end": 925.2,
+      "text": "PCs. Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year. Q3 was a"
+    },
+    {
+      "start": 925.2,
+      "end": 931.36,
+      "text": "great quarter for gaming with notebook console and desktop revenue all growing sequentially"
+    },
+    {
+      "start": 931.36,
+      "end": 938.96,
+      "text": "and year on year. RTX and demand was fueled by strong back to school sales as consumers"
+    },
+    {
+      "start": 938.96,
+      "end": 946.08,
+      "text": "continue to choose GeForce RTX GPUs and devices to power gaming, creative and AI applications."
+    },
+    {
+      "start": 947.12,
+      "end": 954.08,
+      "text": "Channel inventory remains healthy and we are gearing up for the holiday season. We began shipping"
+    },
+    {
+      "start": 954.1600000000001,
+      "end": 965.44,
+      "text": "new GeForce RTX AI PCs with up to 321 AI tops from ASUS and MSI with Microsoft's co-pilot plus"
+    },
+    {
+      "start": 965.44,
+      "end": 973.9200000000001,
+      "text": "capabilities anticipated in Q4. These machines harness the power of RTX ray tracing and AI"
+    },
+    {
+      "start": 973.9200000000001,
+      "end": 981.6,
+      "text": "technologies to supercharge gaming photo and video editing, image generation and coding."
+    },
+    {
+      "start": 982.5600000000001,
+      "end": 992.5600000000001,
+      "text": "This past quarter we celebrated the 25th anniversary of the GeForce 256, the world's first GPU."
+    },
+    {
+      "start": 993.36,
+      "end": 1000.08,
+      "text": "The transforming computing graphics to igniting the AI revolution and video GPUs have been the"
+    },
+    {
+      "start": 1000.08,
+      "end": 1008.32,
+      "text": "driving force behind some of the most consequential technologies of our time. Moving to ProViz."
+    },
+    {
+      "start": 1009.2800000000001,
+      "end": 1015.5200000000001,
+      "text": "Revenue of 486 million was up 7% sequentially and 17% year on year."
+    },
+    {
+      "start": 1016.24,
+      "end": 1022.5600000000001,
+      "text": "NVIDIA RTX workstations continue to be the preferred choice to power professional graphics,"
+    },
+    {
+      "start": 1022.5600000000001,
+      "end": 1029.68,
+      "text": "design and engineering related workloads. Additionally, AI is emerging as a powerful demand"
+    },
+    {
+      "start": 1029.68,
+      "end": 1036.64,
+      "text": "driver including autonomous vehicle simulation, generative AI model prototyping for productivity"
+    },
+    {
+      "start": 1036.72,
+      "end": 1042.16,
+      "text": "related use cases and generative AI content creation in media and entertainment."
+    },
+    {
+      "start": 1043.5200000000002,
+      "end": 1052.16,
+      "text": "Moving to automotive, revenue was a record 449 million, up 30% sequentially and up 72% year on year."
+    },
+    {
+      "start": 1052.8000000000002,
+      "end": 1058.0800000000002,
+      "text": "Strong growth was driven by self-driving brands of NVIDIA orin and robust"
+    },
+    {
+      "start": 1058.08,
+      "end": 1067.4399999999998,
+      "text": "and market demand for NEVs. Global cars is rolling out its fully electric SUV built on NVIDIA orin"
+    },
+    {
+      "start": 1067.4399999999998,
+      "end": 1078.24,
+      "text": "and drive OS. Moving to the rest of the P&L, gap growth margin was 74.6% and non-gap growth margin"
+    },
+    {
+      "start": 1078.24,
+      "end": 1086.3999999999999,
+      "text": "was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex"
+    },
+    {
+      "start": 1086.4,
+      "end": 1093.2800000000002,
+      "text": "and higher cost systems within data center. Sequentially, gap operating expenses and non-gap"
+    },
+    {
+      "start": 1093.2800000000002,
+      "end": 1100.3200000000002,
+      "text": "operating expenses were up 9%. Due to higher compute, infrastructure and engineering development"
+    },
+    {
+      "start": 1100.3200000000002,
+      "end": 1108.3200000000002,
+      "text": "costs for new product introductions. In Q3, we returned 11.2 billion to shareholders"
+    },
+    {
+      "start": 1108.3200000000002,
+      "end": 1115.92,
+      "text": "in the form of share repurchases and cash dividends. Let me turn to the outlook for the fourth quarter."
+    },
+    {
+      "start": 1117.1200000000001,
+      "end": 1125.3600000000001,
+      "text": "Total revenue is expected to be 37.5 billion plus or minus 2%, which incorporates continued demand"
+    },
+    {
+      "start": 1125.3600000000001,
+      "end": 1132.72,
+      "text": "for hopper architecture and the initial ramp of our Blackwell products. While demand is greatly"
+    },
+    {
+      "start": 1132.72,
+      "end": 1139.8400000000001,
+      "text": "exceed supply, we are on track to exceed our previous Blackwell revenue estimate of several"
+    },
+    {
+      "start": 1139.9199999999998,
+      "end": 1145.52,
+      "text": "billion dollars as our visibility into supply continues to increase."
+    },
+    {
+      "start": 1146.9599999999998,
+      "end": 1152.56,
+      "text": "On gaming, although sell through a strong in Q3, we expect fourth quarter revenue to decline"
+    },
+    {
+      "start": 1152.56,
+      "end": 1161.6,
+      "text": "sequentially due to supply constraints. Gap and non-gap growth margins are expected to be 73%"
+    },
+    {
+      "start": 1162.0800000000002,
+      "end": 1171.1200000000001,
+      "text": "and 73.5% respectively, plus or minus 50 basis points. Blackwell is a customizable AI"
+    },
+    {
+      "start": 1171.1200000000001,
+      "end": 1177.68,
+      "text": "infrastructure with seven different types of NVIDIA build chips, multiple network"
+    },
+    {
+      "start": 1177.68,
+      "end": 1185.5200000000002,
+      "text": "skin options, and for air and liquid cooled data centers. Our current focus is on ramping"
+    },
+    {
+      "start": 1185.6,
+      "end": 1192.56,
+      "text": "to strong demand. Increasing system availability and providing the optimal mix of configurations"
+    },
+    {
+      "start": 1192.56,
+      "end": 1199.52,
+      "text": "to our customer. As Blackwell ramps, we expect to risk margins to moderate to the low 70s."
+    },
+    {
+      "start": 1200.32,
+      "end": 1205.2,
+      "text": "When fully ramped, we expect Blackwell margins to be in the mid 70s."
+    },
+    {
+      "start": 1206.96,
+      "end": 1213.2,
+      "text": "Gap and non-gap operating expenses are expected to be approximately 4.8 billion"
+    },
+    {
+      "start": 1213.2,
+      "end": 1220.64,
+      "text": "and 3.4 billion respectively. We are a data center scale AI infrastructure company. Our"
+    },
+    {
+      "start": 1220.64,
+      "end": 1226.56,
+      "text": "investments include building data centers for development of our hardware and software stacks"
+    },
+    {
+      "start": 1226.56,
+      "end": 1234.56,
+      "text": "and to support new introductions. Gap and non-gap other income and expenses are expected to be an"
+    },
+    {
+      "start": 1234.56,
+      "end": 1240.56,
+      "text": "income of approximately 400 million, excluding gains and losses from non-affiliated investments."
+    },
+    {
+      "start": 1241.44,
+      "end": 1251.9199999999998,
+      "text": "Gap and non-gap tax rates are expected to be 16.5% plus or minus 1%, excluding any discrete items."
+    },
+    {
+      "start": 1253.84,
+      "end": 1258.08,
+      "text": "Further financial details are included in the CFO commentary and other information"
+    },
+    {
+      "start": 1258.08,
+      "end": 1264.24,
+      "text": "available on our IR websites. In closing, let me highlight upcoming events for the financial"
+    },
+    {
+      "start": 1264.32,
+      "end": 1271.04,
+      "text": "community. We will be attending the UBS Global Technology and AI Conference on December 3rd in"
+    },
+    {
+      "start": 1271.04,
+      "end": 1279.1200000000001,
+      "text": "Scottsdale. Please join us at CES in Las Vegas, where Jensen will deliver a keynote on January 6th."
+    },
+    {
+      "start": 1279.68,
+      "end": 1285.1200000000001,
+      "text": "And we will host a Q&A session for financial analyst the next day on January 7th."
+    },
+    {
+      "start": 1286.88,
+      "end": 1292.56,
+      "text": "Our earnings call to discuss results for the fourth quarter of fiscal 2025 is scheduled for"
+    },
+    {
+      "start": 1292.56,
+      "end": 1301.44,
+      "text": "February 26th, 2025. We will now open the call for questions. Operator, can you pull for questions,"
+    },
+    {
+      "start": 1301.44,
+      "end": 1307.6,
+      "text": "please? At this time, I would like to remind everyone in order to ask a question, press star,"
+    },
+    {
+      "start": 1307.6,
+      "end": 1312.8799999999999,
+      "text": "then the number one on your telephone keypad. We'll pause for just a moment to compile the Q&A roster."
+    },
+    {
+      "start": 1313.68,
+      "end": 1327.1200000000001,
+      "text": "As a reminder, please limit yourself to one question. Your first question comes from the line of CJMusef"
+    },
+    {
+      "start": 1327.1200000000001,
+      "end": 1332.64,
+      "text": "Cantor Fitzgerald. Your line is open. Yeah, good afternoon. Thank you for taking the question."
+    },
+    {
+      "start": 1332.64,
+      "end": 1338.24,
+      "text": "I guess just a question for you in one, the debate around whether scaling for large language models"
+    },
+    {
+      "start": 1338.24,
+      "end": 1343.52,
+      "text": "have stalled. Obviously, we're very early here, but we'd love to hear your thoughts on this front."
+    },
+    {
+      "start": 1343.52,
+      "end": 1347.6,
+      "text": "How are you helping your customers as they work through these issues? And then obviously,"
+    },
+    {
+      "start": 1347.6,
+      "end": 1352.88,
+      "text": "part of the context here is we're discussing clusters that have yet to benefit from Blackwell."
+    },
+    {
+      "start": 1352.88,
+      "end": 1355.92,
+      "text": "So is this driving even greater demand for Blackwell? Thank you."
+    },
+    {
+      "start": 1359.52,
+      "end": 1365.84,
+      "text": "Foundation model pre-training scaling is intact, and it's continuing."
+    },
+    {
+      "start": 1366.48,
+      "end": 1371.4399999999998,
+      "text": "You know, as you know, this is an empirical law, not a fundamental physical law,"
+    },
+    {
+      "start": 1372.32,
+      "end": 1379.6799999999998,
+      "text": "but the evidence is that it continues to scale. What we're learning, however, is that it's not"
+    },
+    {
+      "start": 1379.6799999999998,
+      "end": 1387.6,
+      "text": "enough. That we've now discovered two other ways to scale. One is post-training scaling."
+    },
+    {
+      "start": 1388.1599999999999,
+      "end": 1393.4399999999998,
+      "text": "Of course, the first generation of post-training was reinforcement learning human feedback,"
+    },
+    {
+      "start": 1393.44,
+      "end": 1399.1200000000001,
+      "text": "but now we have reinforcement learning AI feedback, and all forms of synthetic data generated"
+    },
+    {
+      "start": 1399.92,
+      "end": 1407.68,
+      "text": "data that assists in post-training scaling. And one of the biggest events,"
+    },
+    {
+      "start": 1408.8,
+      "end": 1419.6000000000001,
+      "text": "and one of the most exciting developments is Strawberry, Catupt01, OpenAI's 01, which does inference"
+    },
+    {
+      "start": 1419.6000000000001,
+      "end": 1426.5600000000002,
+      "text": "time scaling. It's called test time scaling. The longer it thinks, the better and higher quality"
+    },
+    {
+      "start": 1427.2,
+      "end": 1435.5200000000002,
+      "text": "answer it produces, and it considers approaches like chain of thought and multi-path planning,"
+    },
+    {
+      "start": 1435.5200000000002,
+      "end": 1443.3600000000001,
+      "text": "and all kinds of techniques necessary to reflect, and so on and so forth. It intuitively,"
+    },
+    {
+      "start": 1443.3600000000001,
+      "end": 1448.0800000000002,
+      "text": "it's a little bit like us doing thinking in our head before we answer a question."
+    },
+    {
+      "start": 1449.04,
+      "end": 1453.12,
+      "text": "And so we now have three ways of scaling, and we're seeing all three ways of scaling,"
+    },
+    {
+      "start": 1453.12,
+      "end": 1457.52,
+      "text": "and as a result of that, the demand for our infrastructure is really great."
+    },
+    {
+      "start": 1458.8,
+      "end": 1465.6799999999998,
+      "text": "You see now that at the tail end of the last generation of foundation models, we're at about"
+    },
+    {
+      "start": 1465.6799999999998,
+      "end": 1474.96,
+      "text": "100,000 hoppers. The next generation starts at 100,000 blackwells, and so that kind of gives you a sense"
+    },
+    {
+      "start": 1474.96,
+      "end": 1482.72,
+      "text": "of where the industry is moving with respect to pre-training, scaling, post-training, scaling,"
+    },
+    {
+      "start": 1482.72,
+      "end": 1489.68,
+      "text": "and then now very importantly, inference time scaling. And so the demand is really great for"
+    },
+    {
+      "start": 1489.68,
+      "end": 1496.32,
+      "text": "all of those reasons, but remember simultaneously we're seeing inference really starting to scale"
+    },
+    {
+      "start": 1496.32,
+      "end": 1501.28,
+      "text": "out for our company. We are the largest inference platform in the world today,"
+    },
+    {
+      "start": 1501.28,
+      "end": 1507.36,
+      "text": "because our install base is so large, and everything that was trained on amperes and hoppers"
+    },
+    {
+      "start": 1508.0,
+      "end": 1515.84,
+      "text": "inference incredibly on amperes and hoppers. And as we move to blackwells for training,"
+    },
+    {
+      "start": 1515.84,
+      "end": 1522.72,
+      "text": "foundation models, it leaves behind it a large install base of extraordinary infrastructure for"
+    },
+    {
+      "start": 1522.72,
+      "end": 1529.36,
+      "text": "inference. And so we're seeing inference demand go up. We're seeing inference time scaling go up."
+    },
+    {
+      "start": 1529.3600000000001,
+      "end": 1536.72,
+      "text": "We see the number of AI-native companies continue to grow. And of course, we're starting to see"
+    },
+    {
+      "start": 1537.2800000000002,
+      "end": 1546.72,
+      "text": "enterprise adoption of agentic AI really is the latest rage. And so we're seeing a lot of demand"
+    },
+    {
+      "start": 1546.72,
+      "end": 1553.6000000000001,
+      "text": "coming from a lot of different places. Your next question comes from the line of Tushia,"
+    },
+    {
+      "start": 1553.6000000000001,
+      "end": 1555.7600000000002,
+      "text": "Harry of Goldman Sachs. You line is open."
+    },
+    {
+      "start": 1557.68,
+      "end": 1561.3600000000001,
+      "text": "Hi, good afternoon. Thank you so much for taking the question. Jensen,"
+    },
+    {
+      "start": 1561.3600000000001,
+      "end": 1568.64,
+      "text": "you executed the mask change earlier this year. There were some reports over the weekend about"
+    },
+    {
+      "start": 1568.64,
+      "end": 1575.8400000000001,
+      "text": "some heating issues. On the back of this, we've had investors ask about your ability to execute"
+    },
+    {
+      "start": 1575.8400000000001,
+      "end": 1581.44,
+      "text": "to the roadmap you presented at GTC this year with Ultra coming out next year and"
+    },
+    {
+      "start": 1581.44,
+      "end": 1588.4,
+      "text": "the transition to Rubin in 26. Can you sort of speak to that? And some investors are questioning"
+    },
+    {
+      "start": 1588.4,
+      "end": 1593.92,
+      "text": "that. So if you can sort of speak to your ability to execute on time, that would be super helpful."
+    },
+    {
+      "start": 1593.92,
+      "end": 1600.64,
+      "text": "And then a quick part B on supply constraints, is it a multitude of component tree that's"
+    },
+    {
+      "start": 1600.64,
+      "end": 1606.56,
+      "text": "causing this? Or is it specifically co-op HBM? Is the supply constraints, are the supply"
+    },
+    {
+      "start": 1606.56,
+      "end": 1612.1599999999999,
+      "text": "constraints getting better? Are they worsening? Any sort of color on that would be super helpful"
+    },
+    {
+      "start": 1612.1599999999999,
+      "end": 1622.8799999999999,
+      "text": "as well. Thank you. Yeah, thanks. Thanks. So let's see. Back to the first question. Blackwell"
+    },
+    {
+      "start": 1622.8799999999999,
+      "end": 1632.8,
+      "text": "production is in full steam. In fact, as Collette mentioned earlier, we will deliver this quarter"
+    },
+    {
+      "start": 1633.76,
+      "end": 1642.3999999999999,
+      "text": "more blackwells than we had previously estimated. And so the supply chain team is doing an incredible"
+    },
+    {
+      "start": 1642.3999999999999,
+      "end": 1649.68,
+      "text": "job working with our supply partners to increase blackwell. And we're going to continue to work"
+    },
+    {
+      "start": 1649.68,
+      "end": 1656.8,
+      "text": "hard to increase blackwell through next year. It is the case that demand exceeds our supply. And"
+    },
+    {
+      "start": 1657.36,
+      "end": 1664.0,
+      "text": "that's expected as we're in the beginnings of this generative AI revolution, as we all know."
+    },
+    {
+      "start": 1665.2,
+      "end": 1674.8,
+      "text": "And we're at the beginning of a new generation of foundation models that are able to do reasoning"
+    },
+    {
+      "start": 1674.8,
+      "end": 1682.8,
+      "text": "and able to do long thinking. And of course, one of the really exciting areas is physical AI."
+    },
+    {
+      "start": 1683.52,
+      "end": 1691.44,
+      "text": "AI that now understands the structure of the physical world. And so blackwell demand is very"
+    },
+    {
+      "start": 1691.44,
+      "end": 1700.24,
+      "text": "strong. Our execution is going well. And there's obviously a lot of engineering that we're doing"
+    },
+    {
+      "start": 1700.24,
+      "end": 1709.04,
+      "text": "across the world you see now systems that are being stood up by Dell and Corweave. I think you saw"
+    },
+    {
+      "start": 1709.04,
+      "end": 1715.12,
+      "text": "systems from Oracle stood up. You have systems from Microsoft, and they're about to preview"
+    },
+    {
+      "start": 1715.84,
+      "end": 1722.08,
+      "text": "their great blackwell systems. You have systems that are at Google. And so all of these"
+    },
+    {
+      "start": 1722.08,
+      "end": 1729.12,
+      "text": "SPS are racing to be first. The engineering that we do with them is as you know,"
+    },
+    {
+      "start": 1729.12,
+      "end": 1735.28,
+      "text": "rather complicated. And the reason for that is because although we build full stack and full"
+    },
+    {
+      "start": 1735.28,
+      "end": 1744.8,
+      "text": "infrastructure, we disaggregate all of the AI supercomputer, and we integrate it into all of the"
+    },
+    {
+      "start": 1744.8,
+      "end": 1752.8,
+      "text": "custom data centers in architectures around the world. That integration process is something we've"
+    },
+    {
+      "start": 1752.8,
+      "end": 1758.96,
+      "text": "done several generations now. We're very good at it, but still, there's still a lot of engineering"
+    },
+    {
+      "start": 1758.96,
+      "end": 1764.8,
+      "text": "that happens at this point. But as you see from all of the systems that are being stood up,"
+    },
+    {
+      "start": 1765.28,
+      "end": 1771.6,
+      "text": "blackwell is in great shape. And as we mentioned earlier, the supply and what we're planning to"
+    },
+    {
+      "start": 1771.6,
+      "end": 1777.92,
+      "text": "ship this quarter is greater than our previous estimates. With respect to the supply chain,"
+    },
+    {
+      "start": 1780.0,
+      "end": 1786.8799999999999,
+      "text": "there's seven different chips, seven custom chips that we built in order for us to deliver"
+    },
+    {
+      "start": 1786.8799999999999,
+      "end": 1791.84,
+      "text": "the blackwell systems. The blackwell systems go in air cooled or liquid cooled,"
+    },
+    {
+      "start": 1792.4800000000002,
+      "end": 1806.16,
+      "text": "NVLink 8 or NVLink 72 or NVLink 8, NVLink 36, NVLink 72. We have X86 or GRACE. And the"
+    },
+    {
+      "start": 1806.16,
+      "end": 1812.8000000000002,
+      "text": "integration of all of those systems into the world's data centers is nothing short of a miracle."
+    },
+    {
+      "start": 1813.36,
+      "end": 1822.6399999999999,
+      "text": "And so the component supply chain necessary to ramp at this scale, you have to take a look at"
+    },
+    {
+      "start": 1823.9199999999998,
+      "end": 1830.56,
+      "text": "how much blackwell was shipped last quarter, which was zero. And in terms of how much blackwell"
+    },
+    {
+      "start": 1830.56,
+      "end": 1836.3999999999999,
+      "text": "total systems will ship this quarter, which is measured in billions, the ramp is incredible."
+    },
+    {
+      "start": 1836.4,
+      "end": 1843.0400000000002,
+      "text": "And so almost every company in the world seems to be involved in our supply chain."
+    },
+    {
+      "start": 1843.6000000000001,
+      "end": 1853.3600000000001,
+      "text": "And we've got great partners, everybody from, of course, TSMC and Mfanol, the connector company,"
+    },
+    {
+      "start": 1853.3600000000001,
+      "end": 1865.52,
+      "text": "incredible company, Vertiv and SKHynix and Micron, Spill Amcor and KYEC. And there's FoxCon and"
+    },
+    {
+      "start": 1865.52,
+      "end": 1876.24,
+      "text": "the factories that they've built and Quanta and we win and gosh Dell and HP and Super Micro"
+    },
+    {
+      "start": 1876.24,
+      "end": 1885.36,
+      "text": "Lenovo. And you know, the number of companies is just really quite incredible. Quanta, and I'm"
+    },
+    {
+      "start": 1885.36,
+      "end": 1892.96,
+      "text": "sure I've missed partners that are involved in the ramping of blackwell, which I really appreciate."
+    },
+    {
+      "start": 1892.96,
+      "end": 1900.24,
+      "text": "And so anyways, I think we're in great shape with respect to the blackwell ramp at this point."
+    },
+    {
+      "start": 1901.8400000000001,
+      "end": 1905.6000000000001,
+      "text": "And then lastly, your question about our execution of our roadmap,"
+    },
+    {
+      "start": 1906.48,
+      "end": 1911.92,
+      "text": "we're on an annual roadmap and we're expecting to continue to execute on our annual roadmap."
+    },
+    {
+      "start": 1911.92,
+      "end": 1918.88,
+      "text": "And by doing so, we increased the performance, of course, of our platform. But it's also really"
+    },
+    {
+      "start": 1918.88,
+      "end": 1928.3200000000002,
+      "text": "important to realize that when we're able to increase performance and, and do so at X-factors"
+    },
+    {
+      "start": 1928.3200000000002,
+      "end": 1933.68,
+      "text": "at a time, we're reducing the cost of training. We're reducing the cost of inferencing. We're"
+    },
+    {
+      "start": 1933.68,
+      "end": 1940.5600000000002,
+      "text": "reducing the cost of AI so that it could be much more accessible. But the other factor that's"
+    },
+    {
+      "start": 1940.5600000000002,
+      "end": 1946.24,
+      "text": "very important to note is that when there's a data center of some fixed size and a data center"
+    },
+    {
+      "start": 1946.24,
+      "end": 1951.76,
+      "text": "always is of some fixed size. It could be, you know, of course, tens of megawatts in the past."
+    },
+    {
+      "start": 1951.76,
+      "end": 1956.48,
+      "text": "And now it's, you know, most data centers are now a hundred megawatts to several hundred megawatts"
+    },
+    {
+      "start": 1956.48,
+      "end": 1962.96,
+      "text": "and we're planning on gigawatt data centers. It doesn't really matter how large the data centers"
+    },
+    {
+      "start": 1962.96,
+      "end": 1970.16,
+      "text": "are. The power is limited. And when you're in the power limited data center, the best, the highest"
+    },
+    {
+      "start": 1970.16,
+      "end": 1977.28,
+      "text": "performance per watt translates directly into the highest revenues for our partners."
+    },
+    {
+      "start": 1978.0800000000002,
+      "end": 1985.2,
+      "text": "And so on the one hand, our annual roadmap reduces cost. But on the other hand, because our per watt"
+    },
+    {
+      "start": 1985.2,
+      "end": 1992.64,
+      "text": "is so good compared to anything out there, we generate for our customers the greatest possible"
+    },
+    {
+      "start": 1992.64,
+      "end": 1999.68,
+      "text": "revenues. And so that annual rhythm is really important to us. And we have every, every intentions"
+    },
+    {
+      "start": 1999.68,
+      "end": 2003.3600000000001,
+      "text": "of continuing to do that. And everything's on track. As far as I know."
+    },
+    {
+      "start": 2006.96,
+      "end": 2011.44,
+      "text": "Your next question comes from line of Timothy. Our query of UBS, your line is open."
+    },
+    {
+      "start": 2012.96,
+      "end": 2017.2,
+      "text": "Thanks a lot. I'm wondering if you can talk about the trajectory of how Blackwell's going to ramp"
+    },
+    {
+      "start": 2017.2,
+      "end": 2021.68,
+      "text": "this year. I know, you know, Jensen, you did just talk about Blackwell being better than I think"
+    },
+    {
+      "start": 2021.68,
+      "end": 2026.3200000000002,
+      "text": "you had said several billions of dollars in January. Sounds like you're going to do more than that."
+    },
+    {
+      "start": 2026.32,
+      "end": 2030.96,
+      "text": "But I think in recent months also, you said that Blackwell crosses over Hopper in the April"
+    },
+    {
+      "start": 2030.96,
+      "end": 2034.8799999999999,
+      "text": "quarter. So I guess I had two questions. First of all, is that still the right way to think about it?"
+    },
+    {
+      "start": 2034.8799999999999,
+      "end": 2040.6399999999999,
+      "text": "That Blackwell will cross over Hopper in April. And then, Collette, you kind of talked about Blackwell"
+    },
+    {
+      "start": 2040.6399999999999,
+      "end": 2050.4,
+      "text": "bringing down gross margin to the low 70s as it ramps. So I guess if April is the crossover,"
+    },
+    {
+      "start": 2050.4,
+      "end": 2055.44,
+      "text": "is that the worst of the pressure on gross margins? So you're going to be kind of in the low 70s as"
+    },
+    {
+      "start": 2055.44,
+      "end": 2058.96,
+      "text": "soon as April. I'm just wondering if you can sort of shape that for us, thanks."
+    },
+    {
+      "start": 2060.8,
+      "end": 2066.64,
+      "text": "Collette, why don't you start? Sure. Let me first start with your question, Tim. Thank you regarding"
+    },
+    {
+      "start": 2066.64,
+      "end": 2074.0,
+      "text": "our gross margins. And we discussed that our gross margins as we are ramping Blackwell in the"
+    },
+    {
+      "start": 2074.0,
+      "end": 2078.7200000000003,
+      "text": "very beginning and the many different configurations, the many different tips that we are bringing"
+    },
+    {
+      "start": 2078.7200000000003,
+      "end": 2083.68,
+      "text": "to market, we are going to focus on making sure we have the best experience for our customers as they"
+    },
+    {
+      "start": 2083.68,
+      "end": 2090.0,
+      "text": "stand that up. We will start growing in for our gross margins, but we do believe those will be in"
+    },
+    {
+      "start": 2090.0,
+      "end": 2096.24,
+      "text": "the low 70s in that first part of the round. So you're correct. As you look at the quarters"
+    },
+    {
+      "start": 2096.24,
+      "end": 2102.72,
+      "text": "following after that, we will start increasing our gross margins. And we hope to get to the mid"
+    },
+    {
+      "start": 2102.72,
+      "end": 2112.8799999999997,
+      "text": "70s quite quickly as part of that round. Hopper demand will continue through next year."
+    },
+    {
+      "start": 2114.3199999999997,
+      "end": 2123.2799999999997,
+      "text": "Fairly the first several quarters of the next year. And meanwhile, we will ship more Blackwell's"
+    },
+    {
+      "start": 2123.2799999999997,
+      "end": 2130.16,
+      "text": "next quarter than this. And we'll ship more Blackwell's the quarter after that than our first quarter."
+    },
+    {
+      "start": 2130.8799999999997,
+      "end": 2138.96,
+      "text": "And so that kind of puts it in perspective. We are really at the beginnings of two fundamental"
+    },
+    {
+      "start": 2138.96,
+      "end": 2146.88,
+      "text": "shifts in computing that is really quite significant. The first is moving from coding"
+    },
+    {
+      "start": 2148.4,
+      "end": 2154.08,
+      "text": "that runs on CPUs to machine learning that creates neural networks that runs on GPUs."
+    },
+    {
+      "start": 2155.04,
+      "end": 2163.2,
+      "text": "And that fundamental shift from coding to machine learning is widespread at this point."
+    },
+    {
+      "start": 2163.6,
+      "end": 2169.2,
+      "text": "There are no companies who are not going to do machine learning. And so machine learning is also"
+    },
+    {
+      "start": 2169.2,
+      "end": 2175.6,
+      "text": "what enables generative AI. And so on the one hand, the first thing that's happening is"
+    },
+    {
+      "start": 2177.2,
+      "end": 2181.68,
+      "text": "a trillion dollars worth of computing systems and data centers around the world is now being"
+    },
+    {
+      "start": 2181.68,
+      "end": 2189.8399999999997,
+      "text": "modernized for machine learning. On the other hand, secondarily, I guess, is that on top of these"
+    },
+    {
+      "start": 2189.84,
+      "end": 2198.1600000000003,
+      "text": "systems, we're going to be creating a new type of capability called AI. And when we say generative"
+    },
+    {
+      "start": 2198.1600000000003,
+      "end": 2205.1200000000003,
+      "text": "AI, we're essentially saying that these data centers are really AI factories. They're generating"
+    },
+    {
+      "start": 2205.1200000000003,
+      "end": 2210.7200000000003,
+      "text": "something. Just like we generate electricity, we're now going to be generating AI. And if the number"
+    },
+    {
+      "start": 2210.7200000000003,
+      "end": 2217.84,
+      "text": "of customers is large, just as the number of consumers of electricity is large, these generators"
+    },
+    {
+      "start": 2217.92,
+      "end": 2225.52,
+      "text": "are going to be running 24-7. And today, many AI services are running 24-7, just like an AI factory."
+    },
+    {
+      "start": 2226.1600000000003,
+      "end": 2232.7200000000003,
+      "text": "And so we're going to see this new type of system come online. And I call it an AI factory because"
+    },
+    {
+      "start": 2232.7200000000003,
+      "end": 2238.56,
+      "text": "that's really as close to what it is. It's unlike a data center of the past. And so these two"
+    },
+    {
+      "start": 2238.56,
+      "end": 2244.32,
+      "text": "fundamental trends are really just beginning. And so we expect this to happen, this growth,"
+    },
+    {
+      "start": 2244.4,
+      "end": 2250.1600000000003,
+      "text": "this modernization, and the creation of a new industry, to go on for several years."
+    },
+    {
+      "start": 2253.84,
+      "end": 2258.56,
+      "text": "Your next question comes from Alina Vivek, area of Bank of America Securities. Your line is open."
+    },
+    {
+      "start": 2260.6400000000003,
+      "end": 2265.04,
+      "text": "Thanks for taking my question. Cola, just to clarify, do you think it's a fair assumption"
+    },
+    {
+      "start": 2265.04,
+      "end": 2269.2000000000003,
+      "text": "to think NVIDIA could recover to kind of mid-70s growth margin in the back half of"
+    },
+    {
+      "start": 2269.92,
+      "end": 2274.4800000000005,
+      "text": "calendar 25? I just wanted to clarify that. And then, this is my main question,"
+    },
+    {
+      "start": 2275.36,
+      "end": 2280.7200000000003,
+      "text": "historically, when we have seen hardware deployment cycles, they have inevitably included some"
+    },
+    {
+      "start": 2280.7200000000003,
+      "end": 2286.5600000000004,
+      "text": "digestion along the way. When you think we get to that phase, or is it just too premature to discuss"
+    },
+    {
+      "start": 2286.5600000000004,
+      "end": 2291.1200000000003,
+      "text": "that because you're just going to start a black world? So how many quarters of shipments do you"
+    },
+    {
+      "start": 2291.1200000000003,
+      "end": 2297.6800000000003,
+      "text": "think is required to going to satisfy this first wave? Can you continue to grow this into calendar"
+    },
+    {
+      "start": 2297.68,
+      "end": 2305.3599999999997,
+      "text": "26? Just how should we be prepared to see what we have seen historically, the periods of digestion"
+    },
+    {
+      "start": 2305.3599999999997,
+      "end": 2308.96,
+      "text": "along the way of a long-term kind of secular hardware deployment?"
+    },
+    {
+      "start": 2311.2,
+      "end": 2316.8799999999997,
+      "text": "Okay, that's that. Thank you for the question. Let me clarify. Your question regarding gross"
+    },
+    {
+      "start": 2316.8799999999997,
+      "end": 2327.2,
+      "text": "margins, could we reach the mid-70s in the second half of next year? And yes, I think it is reasonable"
+    },
+    {
+      "start": 2328.0,
+      "end": 2333.2,
+      "text": "assumption or goal for us to do, but we'll just have to see how that mix of ramp goes. But yes,"
+    },
+    {
+      "start": 2333.2,
+      "end": 2342.96,
+      "text": "it is definitely possible. The way to think through that Vivek is I believe that there will be no"
+    },
+    {
+      "start": 2342.96,
+      "end": 2349.44,
+      "text": "digestion until we modernize a trillion dollars with the data centers. If you just look at the"
+    },
+    {
+      "start": 2349.52,
+      "end": 2359.28,
+      "text": "world's data centers, the vast majority of it is built for a time when we wrote applications by hand"
+    },
+    {
+      "start": 2359.28,
+      "end": 2368.96,
+      "text": "and we ran them on CPUs. It's just not a sensible thing to do anymore. If every company's CAPX,"
+    },
+    {
+      "start": 2368.96,
+      "end": 2373.76,
+      "text": "if they're ready to build a data center tomorrow, they ought to build it for a future of machine"
+    },
+    {
+      "start": 2373.76,
+      "end": 2379.6800000000003,
+      "text": "learning and generative AI because they have plenty of old data centers. And so what's going"
+    },
+    {
+      "start": 2379.6800000000003,
+      "end": 2385.28,
+      "text": "to happen over the course of next, you know, next number of years, and let's assume that over the"
+    },
+    {
+      "start": 2385.28,
+      "end": 2394.4,
+      "text": "course of four years, the world's data centers could be modernized as we grow into IT. As you know,"
+    },
+    {
+      "start": 2394.4,
+      "end": 2400.88,
+      "text": "IT continues to grow about 20%, 30% a year, let's say. And so let's say by 2030,"
+    },
+    {
+      "start": 2401.76,
+      "end": 2409.36,
+      "text": "the world's data centers for computing is called a couple trillion dollars. We have to grow into"
+    },
+    {
+      "start": 2409.36,
+      "end": 2416.7200000000003,
+      "text": "that. We have to modernize the data center from coding to machine learning. That's number one."
+    },
+    {
+      "start": 2417.52,
+      "end": 2423.76,
+      "text": "The second part of it is gem to AI. And we're now producing a new type of capability that"
+    },
+    {
+      "start": 2423.76,
+      "end": 2430.08,
+      "text": "world's never known, a new market segment that the world's never had. If you look at OpenAI,"
+    },
+    {
+      "start": 2430.48,
+      "end": 2435.68,
+      "text": "it didn't replace anything. It's something that's completely brand new. It's in a lot of ways"
+    },
+    {
+      "start": 2436.48,
+      "end": 2440.0,
+      "text": "as when the iPhone came, it was completely brand new. It wasn't really replacing anything."
+    },
+    {
+      "start": 2440.7999999999997,
+      "end": 2450.96,
+      "text": "And so we're going to see more and more companies like that. And they're going to create and generate"
+    },
+    {
+      "start": 2452.72,
+      "end": 2459.2799999999997,
+      "text": "out of their services, essentially intelligence. Some of it would be digital artist intelligence,"
+    },
+    {
+      "start": 2459.28,
+      "end": 2466.0800000000004,
+      "text": "like runway. Some of it would be basic intelligence, like OpenAI. Some of it would be legal intelligence"
+    },
+    {
+      "start": 2466.0800000000004,
+      "end": 2476.4,
+      "text": "like Harvey, digital marketing intelligence like writers, so on and so forth. And the number of"
+    },
+    {
+      "start": 2476.4,
+      "end": 2484.8,
+      "text": "these companies, what are they called AI native companies, are just in hundreds. And almost every"
+    },
+    {
+      "start": 2484.8,
+      "end": 2491.36,
+      "text": "platform shift, there were internet companies, as you recall. There were cloud first companies."
+    },
+    {
+      "start": 2492.0,
+      "end": 2499.44,
+      "text": "There were mobile first companies. Now they're AI natives. And so these companies are being"
+    },
+    {
+      "start": 2499.44,
+      "end": 2503.84,
+      "text": "created because people see that there's a platform shift and there's a brand new opportunity to do"
+    },
+    {
+      "start": 2503.84,
+      "end": 2510.1600000000003,
+      "text": "something completely new. And so my sense is that we're going to continue to build out,"
+    },
+    {
+      "start": 2511.04,
+      "end": 2518.64,
+      "text": "to modernize IT, modernize computing, number one. And then number two, create these AI factories"
+    },
+    {
+      "start": 2518.64,
+      "end": 2523.04,
+      "text": "that are going to be for a new industry for the production of artificial intelligence."
+    },
+    {
+      "start": 2526.8799999999997,
+      "end": 2531.2,
+      "text": "Your next question comes from the line of Stacey Rexson of Bernstein Research. Your line is open."
+    },
+    {
+      "start": 2532.16,
+      "end": 2536.64,
+      "text": "Hi guys. Thanks for taking my questions. Collette, I had a clarification and a question for you."
+    },
+    {
+      "start": 2537.52,
+      "end": 2542.96,
+      "text": "The clarification is when you say low 70s gross margins, is 73.5 count as low 70s,"
+    },
+    {
+      "start": 2542.96,
+      "end": 2548.56,
+      "text": "or do you have something else in mind? And for my question, you're guiding total revenues. And so"
+    },
+    {
+      "start": 2548.56,
+      "end": 2553.2,
+      "text": "I mean total data center revenues in the next quarter must be up, quote unquote, several billion"
+    },
+    {
+      "start": 2553.2,
+      "end": 2559.7599999999998,
+      "text": "dollars. But it sounds like Blackwell now should be up more than that. But you also said Hoppe was"
+    },
+    {
+      "start": 2559.7599999999998,
+      "end": 2565.8399999999997,
+      "text": "still strong. It's like is Hopper down sequentially the next quarter? And if it is, why? Is it because"
+    },
+    {
+      "start": 2565.92,
+      "end": 2570.96,
+      "text": "of the supply constraint? Is China's been pretty strong? Is China kind of rolling off a bit into"
+    },
+    {
+      "start": 2570.96,
+      "end": 2576.96,
+      "text": "Q4? So any color you can give us on sort of the Blackwell ramp and the Blackwell versus Hopper"
+    },
+    {
+      "start": 2576.96,
+      "end": 2584.8,
+      "text": "behavior into Q4 would be really helpful. Thank you. So first starting on your first question there,"
+    },
+    {
+      "start": 2584.8,
+      "end": 2594.4,
+      "text": "Stacey, regarding our gross margin and define low. Low of course is below the mid and let's say we might"
+    },
+    {
+      "start": 2594.4,
+      "end": 2601.6800000000003,
+      "text": "be at 71, maybe about 72, 72 and a half. We're going to be in that range. We could be"
+    },
+    {
+      "start": 2602.48,
+      "end": 2607.28,
+      "text": "higher than that as well. We're just going to have to see how it comes through. We do want to make"
+    },
+    {
+      "start": 2607.28,
+      "end": 2613.52,
+      "text": "sure that we are ramping and continuing that improvement, the improvement in terms of our yields,"
+    },
+    {
+      "start": 2613.52,
+      "end": 2617.6,
+      "text": "the improvement in terms of the product as we go through the rest of the year. So we'll get up to"
+    },
+    {
+      "start": 2617.6,
+      "end": 2625.7599999999998,
+      "text": "the mid 70s by that point. The second statement was a question regarding our Hopper and what is our"
+    },
+    {
+      "start": 2625.7599999999998,
+      "end": 2634.3199999999997,
+      "text": "Hopper doing? We have seen substantial growth for H200, not only in terms of orders but the"
+    },
+    {
+      "start": 2634.3199999999997,
+      "end": 2639.36,
+      "text": "quickness in terms of those that are standing that up. It is an amazing product and it's the fastest"
+    },
+    {
+      "start": 2639.36,
+      "end": 2647.2799999999997,
+      "text": "growing and ramping that we've seen. We will continue to be selling Hopper in this quarter in Q4 for"
+    },
+    {
+      "start": 2647.28,
+      "end": 2652.88,
+      "text": "sure. That is across the board in terms of all of our different configurations and our configurations"
+    },
+    {
+      "start": 2653.6000000000004,
+      "end": 2661.0400000000004,
+      "text": "include what we may do in terms of China. But keep that mind that folks are also at the same time"
+    },
+    {
+      "start": 2661.0400000000004,
+      "end": 2668.7200000000003,
+      "text": "looking to build out their Blackwell. So we've got a little bit of both happening in Q4 but yes,"
+    },
+    {
+      "start": 2668.7200000000003,
+      "end": 2675.1200000000003,
+      "text": "is it possible for Hopper to grow between Q3 and Q4? It's possible but we'll just have to see."
+    },
+    {
+      "start": 2678.1600000000003,
+      "end": 2682.96,
+      "text": "Your next question comes from the line of Joseph Moore of Morgan Stanley. Your line is open."
+    },
+    {
+      "start": 2685.1200000000003,
+      "end": 2688.4,
+      "text": "Great, thank you. I wonder if you could talk a little bit about what you're seeing in the"
+    },
+    {
+      "start": 2688.4,
+      "end": 2695.36,
+      "text": "inference market. You've talked about strawberry and some of the ramifications of longer scaling"
+    },
+    {
+      "start": 2695.36,
+      "end": 2701.1200000000003,
+      "text": "inference projects but you've also talked about the possibility that as some of these Hopper clusters"
+    },
+    {
+      "start": 2701.1200000000003,
+      "end": 2706.48,
+      "text": "age that you could use some of the Hopper latin chips for inference. So I guess you expect"
+    },
+    {
+      "start": 2706.48,
+      "end": 2711.04,
+      "text": "inference to outgrow training in the next kind of 12-month timeframe and just generally your thoughts"
+    },
+    {
+      "start": 2711.04,
+      "end": 2723.68,
+      "text": "there. Our hopes and dreams is that someday the world does a ton of inference and that's when AI"
+    },
+    {
+      "start": 2723.68,
+      "end": 2730.56,
+      "text": "has really succeeded. It's when every single company is doing inference inside their companies"
+    },
+    {
+      "start": 2731.12,
+      "end": 2736.7999999999997,
+      "text": "for the marketing department and forecasting department and supply chain group and"
+    },
+    {
+      "start": 2737.7599999999998,
+      "end": 2744.4,
+      "text": "their legal department and engineering of course and coding of course. So we hope that every company"
+    },
+    {
+      "start": 2744.96,
+      "end": 2753.04,
+      "text": "is doing inference 24-7 and that there will be a whole bunch of AI-native startups,"
+    },
+    {
+      "start": 2754.0,
+      "end": 2758.96,
+      "text": "thousands of AI-native startups that are generating tokens and generating AI."
+    },
+    {
+      "start": 2760.72,
+      "end": 2768.56,
+      "text": "Every aspect of your computer experience from using outlook to power pointing or"
+    },
+    {
+      "start": 2769.12,
+      "end": 2775.12,
+      "text": "when you're sitting there with Excel, you're constantly generating tokens and every time you"
+    },
+    {
+      "start": 2775.12,
+      "end": 2781.36,
+      "text": "read a PDF, open a PDF, it's generated a whole bunch of tokens. One of my favorite applications"
+    },
+    {
+      "start": 2781.36,
+      "end": 2789.68,
+      "text": "is Notebook LM, this Google application that came out. I used the living daylights out of it just"
+    },
+    {
+      "start": 2789.68,
+      "end": 2796.56,
+      "text": "because it's fun. I put every PDF, every archive paper into it just to listen to it as well as"
+    },
+    {
+      "start": 2796.56,
+      "end": 2804.64,
+      "text": "scanning through it. So I think that's the goal, is to train these models so that people use it."
+    },
+    {
+      "start": 2805.8399999999997,
+      "end": 2813.52,
+      "text": "There's now a whole new era of AI, if you will, a whole new genre of AI called physical AI."
+    },
+    {
+      "start": 2814.32,
+      "end": 2819.7599999999998,
+      "text": "Just those large language models understand the human language and how the thinking process, if"
+    },
+    {
+      "start": 2819.7599999999998,
+      "end": 2825.68,
+      "text": "you will. Physical AI understands the physical world and it understands the meaning of the"
+    },
+    {
+      "start": 2825.68,
+      "end": 2831.68,
+      "text": "structure and understands what's sensible and what's not and what could happen and what want and"
+    },
+    {
+      "start": 2832.64,
+      "end": 2840.16,
+      "text": "not only does it understand but it can predict, roll out a short future. That capability is"
+    },
+    {
+      "start": 2840.16,
+      "end": 2847.92,
+      "text": "incredible and valuable for industrial AI and robotics and so that's fired up so many"
+    },
+    {
+      "start": 2849.68,
+      "end": 2854.72,
+      "text": "AI native companies and robotics companies and physical AI companies that you're probably"
+    },
+    {
+      "start": 2854.72,
+      "end": 2862.7999999999997,
+      "text": "hearing about and it's really the reason why we built Omniverse. Omniverse is so that we can"
+    },
+    {
+      "start": 2862.7999999999997,
+      "end": 2869.7599999999998,
+      "text": "enable these AI's to be created and learn in Omniverse and learn from synthetic data"
+    },
+    {
+      "start": 2869.76,
+      "end": 2876.48,
+      "text": "generation and reinforcement, learning physics feedback instead of human feedback. It's now"
+    },
+    {
+      "start": 2876.48,
+      "end": 2882.32,
+      "text": "physics feedback. To have these capabilities Omniverse was created so that we can enable"
+    },
+    {
+      "start": 2882.32,
+      "end": 2889.0400000000004,
+      "text": "physical AI and so that the goal is to generate tokens, the goal is to inference and we're starting"
+    },
+    {
+      "start": 2889.0400000000004,
+      "end": 2893.6000000000004,
+      "text": "to see that growth happening so I'm super excited about that. Now let me just say one more thing,"
+    },
+    {
+      "start": 2894.2400000000002,
+      "end": 2898.4,
+      "text": "inference is super hard and the reason why inference is super hard"
+    },
+    {
+      "start": 2898.4,
+      "end": 2907.28,
+      "text": "is because you need the accuracy to be high on the one hand. You need the throughput to be high"
+    },
+    {
+      "start": 2907.28,
+      "end": 2913.76,
+      "text": "so that the cost could be as low as possible but you also need the latency to be low and computers"
+    },
+    {
+      "start": 2913.76,
+      "end": 2920.88,
+      "text": "that are high throughput as well as low latency is incredibly hard to build and these applications"
+    },
+    {
+      "start": 2920.88,
+      "end": 2926.96,
+      "text": "have long context lengths because they want to understand, they want to be able to inference"
+    },
+    {
+      "start": 2926.96,
+      "end": 2932.56,
+      "text": "within understanding the context of what they're being asked to do and so the context length is"
+    },
+    {
+      "start": 2932.56,
+      "end": 2937.92,
+      "text": "growing larger and larger. On the other hand the models are getting larger, they're multi-modality."
+    },
+    {
+      "start": 2938.88,
+      "end": 2946.56,
+      "text": "Just a number of dimensions that inference is innovating is incredible and this innovation rate"
+    },
+    {
+      "start": 2946.56,
+      "end": 2954.4,
+      "text": "is what makes NVIDIA's architecture so great because our ecosystem is fantastic. Everybody knows"
+    },
+    {
+      "start": 2955.2000000000003,
+      "end": 2961.92,
+      "text": "that if they innovate on top of CUDA and top of NVIDIA's architecture they can innovate more"
+    },
+    {
+      "start": 2961.92,
+      "end": 2966.32,
+      "text": "quickly and they know that everything should work and if something were to happen is probably"
+    },
+    {
+      "start": 2966.32,
+      "end": 2974.08,
+      "text": "likely their code and not ours and so that ability to innovate in every single direction at the same"
+    },
+    {
+      "start": 2974.08,
+      "end": 2982.4,
+      "text": "time having a large install base so that whatever you create could land on an NVIDIA computer and"
+    },
+    {
+      "start": 2982.4,
+      "end": 2986.2400000000002,
+      "text": "and be deployed broadly all around the world in every single data center"
+    },
+    {
+      "start": 2987.12,
+      "end": 2992.08,
+      "text": "all the way out to the edge you know into robotic systems you know that capability is"
+    },
+    {
+      "start": 2992.08,
+      "end": 2995.52,
+      "text": "is really quite phenomenal."
+    },
+    {
+      "start": 3004.64,
+      "end": 3010.4,
+      "text": "Your next question comes from the line of Aaron Walker's sorry Aaron Rakers of Wells Fargo."
+    },
+    {
+      "start": 3010.4,
+      "end": 3017.76,
+      "text": "The line is open. Yeah thanks for taking a question. I want to ask you as we kind of focus on the"
+    },
+    {
+      "start": 3017.76,
+      "end": 3022.48,
+      "text": "blackboard cycle and think about the data center business. When I look at the results this last"
+    },
+    {
+      "start": 3022.48,
+      "end": 3027.6800000000003,
+      "text": "quarter you know Klet you mentioned that obviously the networking business was down about 15 percent"
+    },
+    {
+      "start": 3027.6800000000003,
+      "end": 3033.76,
+      "text": "sequentially but then your comments were that you were seeing very strong demand. You mentioned"
+    },
+    {
+      "start": 3033.76,
+      "end": 3039.6,
+      "text": "also that you had multiple cloud you know CFP design wins for these large scale clusters so I'm"
+    },
+    {
+      "start": 3039.6,
+      "end": 3044.0,
+      "text": "curious if you could unpack what's going on in the networking business and where maybe you've"
+    },
+    {
+      "start": 3044.0,
+      "end": 3050.3199999999997,
+      "text": "seen some constraints and just your your confidence in the pace of spectrum X progressing to that"
+    },
+    {
+      "start": 3050.3199999999997,
+      "end": 3054.3199999999997,
+      "text": "multiple billions of dollars that you previously had talked about. Thank you."
+    },
+    {
+      "start": 3057.44,
+      "end": 3064.0,
+      "text": "Let's first start with the networking. The growth year over year is tremendous and"
+    },
+    {
+      "start": 3064.8,
+      "end": 3074.64,
+      "text": "our focus since the beginning of our acquisition of melanox has really been about building together"
+    },
+    {
+      "start": 3075.28,
+      "end": 3080.96,
+      "text": "the work that we do in terms of in the data center. The networking is such a critical part of that."
+    },
+    {
+      "start": 3081.52,
+      "end": 3089.92,
+      "text": "Our ability to sell our networking with many of our systems that we are doing in data center"
+    },
+    {
+      "start": 3090.64,
+      "end": 3098.0,
+      "text": "is continuing to grow and do quite well. So this quarter is just a slight dip down"
+    },
+    {
+      "start": 3098.0,
+      "end": 3102.2400000000002,
+      "text": "and we're going to be right back up in terms of growing. They're getting ready for blackwell"
+    },
+    {
+      "start": 3102.2400000000002,
+      "end": 3108.96,
+      "text": "and more and more systems that we'll be using not only our existing networking"
+    },
+    {
+      "start": 3108.96,
+      "end": 3113.36,
+      "text": "but also the networking that is going to be incorporated in a lot of these large systems that"
+    },
+    {
+      "start": 3113.36,
+      "end": 3116.48,
+      "text": "we're providing them to."
+    },
+    {
+      "start": 3119.6800000000003,
+      "end": 3123.6,
+      "text": "Your next question comes from the line of Etif Malek of City. Your line is open."
+    },
+    {
+      "start": 3125.76,
+      "end": 3129.04,
+      "text": "Thank you for taking my question. I have two quick ones for Colette."
+    },
+    {
+      "start": 3129.04,
+      "end": 3134.32,
+      "text": "Colette on the last earnings call you mentioned that sovereign demand is in low double-digit"
+    },
+    {
+      "start": 3134.32,
+      "end": 3140.48,
+      "text": "billions. Can you provide an update on that? And then can you explain the supply constraint"
+    },
+    {
+      "start": 3141.12,
+      "end": 3146.48,
+      "text": "in situation in gaming? Is that because you're shifting the supply towards data center?"
+    },
+    {
+      "start": 3149.2,
+      "end": 3156.0,
+      "text": "So first starting in terms of sovereign AI. Such an important part of growth. Something that is"
+    },
+    {
+      "start": 3156.0,
+      "end": 3163.28,
+      "text": "really surfaced with the onset of genital AI and building models in the individual countries"
+    },
+    {
+      "start": 3163.28,
+      "end": 3167.84,
+      "text": "around the world. And we see a lot of them and we talked about a lot of them in the call today"
+    },
+    {
+      "start": 3168.7200000000003,
+      "end": 3173.04,
+      "text": "and the work that they are doing. So our sovereign AI and our pipeline going forward"
+    },
+    {
+      "start": 3173.6800000000003,
+      "end": 3179.6000000000004,
+      "text": "is still absolutely intact as those are working to build these foundational models in their own"
+    },
+    {
+      "start": 3179.6000000000004,
+      "end": 3185.52,
+      "text": "language and their own culture and working in terms of the enterprises within those countries."
+    },
+    {
+      "start": 3185.52,
+      "end": 3190.0,
+      "text": "And I think you'll continue to see this be a growth opportunities that you may see"
+    },
+    {
+      "start": 3190.0,
+      "end": 3195.84,
+      "text": "with our regional clouds that are being stood up and or those that are focusing in terms of AI"
+    },
+    {
+      "start": 3195.84,
+      "end": 3201.6000000000004,
+      "text": "factories for many parts of the sovereign AI. This is areas where this is growing not only"
+    },
+    {
+      "start": 3201.6000000000004,
+      "end": 3207.44,
+      "text": "in terms of in Europe but you're also seeing this in terms of growth in terms of in the Asia"
+    },
+    {
+      "start": 3207.44,
+      "end": 3213.6000000000004,
+      "text": "pack as well. Let me flip to your second question that you asked regarding gaming."
+    },
+    {
+      "start": 3214.4,
+      "end": 3221.2000000000003,
+      "text": "So our gaming right now from a supply we're busy trying to make sure that we can ramp all"
+    },
+    {
+      "start": 3221.28,
+      "end": 3229.36,
+      "text": "of our different products. And in this case our gaming supply given what we saw selling through"
+    },
+    {
+      "start": 3229.36,
+      "end": 3233.76,
+      "text": "was moving quite fast. Now the challenge that we have is how fast could we get that supply"
+    },
+    {
+      "start": 3233.76,
+      "end": 3239.36,
+      "text": "getting ready into the market for this quarter. Not to worry I think we'll be back on track with"
+    },
+    {
+      "start": 3239.36,
+      "end": 3245.0400000000004,
+      "text": "more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter."
+    },
+    {
+      "start": 3245.36,
+      "end": 3252.0,
+      "text": "Your next question comes from the line of Ben Reitz's of"
+    },
+    {
+      "start": 3252.0,
+      "end": 3258.56,
+      "text": "Milius Research. Your line is open. Yeah hi thanks a lot for the question. I wanted to ask"
+    },
+    {
+      "start": 3259.44,
+      "end": 3265.2,
+      "text": "Collette and Jensen you know with regard to sequential growth so a very strong sequential growth this"
+    },
+    {
+      "start": 3265.2,
+      "end": 3272.4,
+      "text": "quarter and you're guiding to about 7%. Do your comments on Blackwell imply that we reaccelerate"
+    },
+    {
+      "start": 3272.4,
+      "end": 3278.2400000000002,
+      "text": "from there as you get more supply just in the in the first half but you know it would seem that"
+    },
+    {
+      "start": 3279.04,
+      "end": 3284.64,
+      "text": "there would be some catch-up so I was wondering how prescriptive you could be there. And then Jensen"
+    },
+    {
+      "start": 3284.64,
+      "end": 3290.2400000000002,
+      "text": "just overall you know with the change in administration that's going to take place here in the US and"
+    },
+    {
+      "start": 3290.2400000000002,
+      "end": 3296.7200000000003,
+      "text": "the China situation have you gotten any sense or any conversations about you know tariffs or"
+    },
+    {
+      "start": 3296.7200000000003,
+      "end": 3303.28,
+      "text": "anything with regard to your China business any sense of what may or may not go on it's probably"
+    },
+    {
+      "start": 3303.28,
+      "end": 3306.8,
+      "text": "too early but wondering if you had any thoughts there thanks so much."
+    },
+    {
+      "start": 3311.2000000000003,
+      "end": 3318.96,
+      "text": "We got one quarter at a time. We are working right now on the quarter that we're in and building"
+    },
+    {
+      "start": 3319.84,
+      "end": 3325.5200000000004,
+      "text": "what we need to ship in terms of Blackwell. We have every supplier on the planet working"
+    },
+    {
+      "start": 3326.32,
+      "end": 3333.04,
+      "text": "seamlessly with us to do that and once we get to next quarter we'll help you understand in terms of"
+    },
+    {
+      "start": 3333.04,
+      "end": 3342.8,
+      "text": "that ramp that we'll see to the next quarter going after that. Whatever the new administration"
+    },
+    {
+      "start": 3342.8,
+      "end": 3350.48,
+      "text": "decides we will of course support the administration and that's our the highest mandate and then after"
+    },
+    {
+      "start": 3350.48,
+      "end": 3358.48,
+      "text": "that do the best we can and just as we always do and so so we have we have to simultaneously and"
+    },
+    {
+      "start": 3358.48,
+      "end": 3366.8,
+      "text": "we will comply with any regulation that comes along fully and support our customers the best"
+    },
+    {
+      "start": 3366.8,
+      "end": 3372.2400000000002,
+      "text": "of our abilities and and compete in the marketplace. We'll do all of these three things simultaneously."
+    },
+    {
+      "start": 3373.0400000000004,
+      "end": 3381.0400000000004,
+      "text": "Your final question comes from the line of Pierre Farragu of New Street Research. Your line is open."
+    },
+    {
+      "start": 3383.0400000000004,
+      "end": 3389.76,
+      "text": "Hey thanks for taking my question. Jensen you mentioned in your comments you know you have the"
+    },
+    {
+      "start": 3389.76,
+      "end": 3395.76,
+      "text": "free training the actual language matters and you have reinforcement learning that becomes more"
+    },
+    {
+      "start": 3395.76,
+      "end": 3401.44,
+      "text": "and more important in training and in inference as well and then you have inference says"
+    },
+    {
+      "start": 3402.2400000000002,
+      "end": 3406.88,
+      "text": "and I was wondering if you have a sense you know like a high-level typical sense of"
+    },
+    {
+      "start": 3408.4,
+      "end": 3414.1600000000003,
+      "text": "out of another world AI ecosystem like maybe one of your clients or one of the large mothers"
+    },
+    {
+      "start": 3414.8,
+      "end": 3420.2400000000002,
+      "text": "that are out there. Today how much of the compute goes into each of these buckets?"
+    },
+    {
+      "start": 3420.2400000000002,
+      "end": 3424.88,
+      "text": "How much for the free training? How much for the reinforcement and how much into"
+    },
+    {
+      "start": 3425.52,
+      "end": 3432.6400000000003,
+      "text": "into inference today? Do you have any sense for how it's pleasing and and where the growth is the"
+    },
+    {
+      "start": 3432.6400000000003,
+      "end": 3444.56,
+      "text": "most important as well? Well today it's it's vastly in pre-training of foundation model"
+    },
+    {
+      "start": 3445.6800000000003,
+      "end": 3451.04,
+      "text": "because as you know post-training the new technologies are are just coming online"
+    },
+    {
+      "start": 3452.0,
+      "end": 3457.68,
+      "text": "and whatever you could do in pre-training and post-training you would try to do so that the"
+    },
+    {
+      "start": 3457.68,
+      "end": 3462.56,
+      "text": "inference cost could be as low as possible for everyone. However there there are only so many"
+    },
+    {
+      "start": 3462.56,
+      "end": 3470.24,
+      "text": "things that you could do a priority and so you'll always have to do on the spot thinking and in context"
+    },
+    {
+      "start": 3470.8,
+      "end": 3479.7599999999998,
+      "text": "thinking and reflection and so I think that that the fact that all three are scaling is actually"
+    },
+    {
+      "start": 3479.76,
+      "end": 3486.96,
+      "text": "very sensible based on where we are and and in the area of foundation model now we have multi-modality"
+    },
+    {
+      "start": 3486.96,
+      "end": 3493.84,
+      "text": "foundation models and and the amount of petabytes of video that these foundation models are going"
+    },
+    {
+      "start": 3493.84,
+      "end": 3500.8,
+      "text": "to be trained on is it's incredible and so my expectation is that for the foreseeable future"
+    },
+    {
+      "start": 3501.5200000000004,
+      "end": 3508.0800000000004,
+      "text": "we're going to be scaling pre-training post-training as well as inference time scaling"
+    },
+    {
+      "start": 3508.08,
+      "end": 3512.96,
+      "text": "and which is the reason why I think we're going to need more and more compute and we're going to"
+    },
+    {
+      "start": 3512.96,
+      "end": 3519.12,
+      "text": "have to drive as hard as we can to keep increasing the performance by X-factors at a time so that we"
+    },
+    {
+      "start": 3519.12,
+      "end": 3525.12,
+      "text": "can continue to drive down the cost and continue to increase the revenues and you know get get the"
+    },
+    {
+      "start": 3525.12,
+      "end": 3534.88,
+      "text": "AI revolution going. Thank you. Thank you. I want to turn the call back over to Jensen Hong for closing remarks."
+    },
+    {
+      "start": 3534.88,
+      "end": 3541.44,
+      "text": "Thank you. The tremendous growth in our business is being fueled by two fundamental trends that are"
+    },
+    {
+      "start": 3541.44,
+      "end": 3548.7200000000003,
+      "text": "driving global adoption of NVIDIA computing. First the computing stack is undergoing a re-invention,"
+    },
+    {
+      "start": 3548.7200000000003,
+      "end": 3558.6400000000003,
+      "text": "a platform shift from coding to machine learning from executing code on CPUs to processing neural"
+    },
+    {
+      "start": 3558.6400000000003,
+      "end": 3564.1600000000003,
+      "text": "networks on GPUs. The trillion dollar install based of traditional data center infrastructure is"
+    },
+    {
+      "start": 3564.16,
+      "end": 3573.68,
+      "text": "being rebuilt for software 2.0 which applies machine learning to produce AI. Second the age"
+    },
+    {
+      "start": 3573.68,
+      "end": 3581.2,
+      "text": "of AI is in full steam. Generative AI is not just a new software capability but a new industry"
+    },
+    {
+      "start": 3582.0,
+      "end": 3589.92,
+      "text": "with AI factories manufacturing digital intelligence a new industrial revolution that can be create that"
+    },
+    {
+      "start": 3590.0,
+      "end": 3598.7200000000003,
+      "text": "can create a multi trillion dollar AI industry. Demand for Hopper and anticipation for Blackwell"
+    },
+    {
+      "start": 3598.7200000000003,
+      "end": 3605.6,
+      "text": "which is now in full production are incredible for several reasons. There are more foundation model"
+    },
+    {
+      "start": 3605.6,
+      "end": 3614.64,
+      "text": "makers now than there were a year ago. The computing scale of pre-training and post-training continues"
+    },
+    {
+      "start": 3614.64,
+      "end": 3622.56,
+      "text": "to grow exponentially. There are more AI native startups than ever and the number of successful"
+    },
+    {
+      "start": 3622.56,
+      "end": 3632.64,
+      "text": "inference services is rising. And with the introduction of CHAT UBT01, OpenAI01, a new scaling law called"
+    },
+    {
+      "start": 3632.64,
+      "end": 3641.2,
+      "text": "test time scaling has emerged. All of these consume a great deal of computing. AI is transforming"
+    },
+    {
+      "start": 3641.2000000000003,
+      "end": 3648.88,
+      "text": "every industry company and country. Enterprises are adopting agent AI to revolutionize workflows."
+    },
+    {
+      "start": 3649.76,
+      "end": 3658.0000000000005,
+      "text": "Over time AI co-workers will assist employees in performing their jobs faster and better."
+    },
+    {
+      "start": 3659.28,
+      "end": 3666.6400000000003,
+      "text": "Investments in industrial robotics are surging due to breakthroughs in physical AI."
+    },
+    {
+      "start": 3667.6,
+      "end": 3672.72,
+      "text": "Driving new training infrastructure demand as researchers train world foundation models"
+    },
+    {
+      "start": 3673.2799999999997,
+      "end": 3680.64,
+      "text": "on a bitabytes of video and omniverse synthetically generated data. The age of robotics is coming."
+    },
+    {
+      "start": 3682.08,
+      "end": 3687.92,
+      "text": "Countries across the world recognize the fundamental AI trends we are seeing and have"
+    },
+    {
+      "start": 3687.92,
+      "end": 3695.2,
+      "text": "awakened to the importance of developing their national AI infrastructure. The age of AI is upon us"
+    },
+    {
+      "start": 3695.84,
+      "end": 3705.2000000000003,
+      "text": "and it's large and diverse. NVIDIA's expertise scale and ability to deliver full stack and full"
+    },
+    {
+      "start": 3705.2000000000003,
+      "end": 3713.84,
+      "text": "infrastructure let us serve the entire multi trillion dollar AI and robotics opportunities ahead."
+    },
+    {
+      "start": 3714.6400000000003,
+      "end": 3722.96,
+      "text": "From every hyperscale cloud enterprise private cloud to sovereign regional AI clouds"
+    },
+    {
+      "start": 3724.32,
+      "end": 3733.44,
+      "text": "on-prem to industrial edge and robotics. Thanks for joining us today and catch up next time."
+    },
+    {
+      "start": 3733.44,
+      "end": 3738.08,
+      "text": "This concludes today's conference call. You may now disconnect."
+    }
+  ],
+  "full_text": "Good afternoon. My name is Jael and I'll be your conference operator today. At this time, I would like to welcome everyone to NVIDIA's third quarter earnings call. All lines have been placed on mute to prevent any background noise. After the speakers remarks, there will be a question and answer session. If you'd like to ask a question during this time, simply press star followed by the number one on your telephone keypad. If you would like to withdraw your question, press the star one again. Thank you. Stuart Stecker, you may begin your conference. Thank you. Good afternoon everyone and welcome to NVIDIA's conference call for the third quarter of fiscal 2025. With me today from NVIDIA R. Jensen Wong, president and chief executive officer and Colette Kress, executive vice president and chief financial officer. I'd like to remind you that our call is being webcast live on NVIDIA's investor relations website. The webcast will be available for replay until the conference call to discuss our financial results for the fourth quarter of fiscal 2025. Content of today's call is NVIDIA's property. It can't be reproduced or transcribed without our prior written consent. During this call, we may make forward-looking statements based on current expectations. These are subject to a number of significant risks and uncertainties and our actual results may differ materially. For discussion of factors that could affect our future financial results in business, please refer to their disclosure in today's earnings release. Our most recent forms, 10K and 10Q, and the reports that we may file on form 8K with the Securities and Exchange Commission. All our statements are made as of today, November 20, 2024, based on information currently available to us. Except it's required by law, we assume no obligations to update any such statements. During this call, we will discuss non-GAP financial measures. You can find a reconciliation of these non-GAP financial measures to GAP financial measures in our CFO commentary, which is posted on our website. With that, let me turn the call over to Collette. Thank you, Stuart. Q3 was another record quarter. We continue to deliver incredible growth. Revenue of 35.1 billion was up 17 percent sequentially and up 94 percent year on year and well above our outlook of 32.5 billion. All market platforms posted strong sequential and year over year growth fueled by the adoption of NVIDIA Accelerated Computing and AI. Starting with data center, another record was achieved in data center. Revenue of 30.8 billion dollars, up 17 percent sequential and up 112 percent year on year. NVIDIA Hopper demand is exceptional and sequentially NVIDIA H200 sales increased significantly to double-digit billions, the fastest product ramp in our company's history. The H200 delivers up to 2x faster inference performance and up to 50 percent improved TCO. Cloud service providers were approximately half of our data center sales with revenue increasing more than 2x year on year. CSPs deployed NVIDIA H200 infrastructure and high speed networking with installations scaling to tens of thousands of DPUs to grow their business and serve rapidly rising demand for AI training and inference workloads. NVIDIA H200 powered cloud instances are now available from AWS, Corwee and Microsoft Azure with Google Cloud and OCI coming soon. Alongside significant growth from our large CSPs NVIDIA GPU regional cloud revenue jumped to x year on year as North America, India and Asia Pacific regions ramped NVIDIA cloud instances and sovereign cloud buildouts. Consumer internet revenue more than doubled year on year as companies scaled their NVIDIA Hopper infrastructure to support next-generation AI models, training, multimodal and agentic AI, deep learning recommender engines and generative AI inference and content creation workloads. NVIDIA's ampere and Hopper infrastructures are fueling inference revenue growth for customers. NVIDIA is the largest inference platform in the world. Our large install base and rich software ecosystem encouraged developers to optimize for NVIDIA and deliver continued performance and TCL improvements. Rapid advancements in NVIDIA software algorithms boosted Hopper inference throughput by an incredible 5x in one year and cut time to first token by 5x. Our upcoming release of NVIDIA NIMM will boost Hopper inference performance by an additional 2.4x. Continuous performance optimizations are a hallmark of NVIDIA and drive increasingly economic returns for the entire NVIDIA installed base. Blackwell is in full production after a successfully executed mass change. We ship 13,000 GPU samples to customers in the third quarter including one of the first Blackwell DGX engineering samples to open AI. Blackwell is a full stack full infrastructure. AI data center scale system with customizable configurations needed to address a diverse and growing AI market. From x86 to ARM, training to inferencing GPUs, infinivine to ethernet switches and ND link and from liquid cooled to air cooled. Every customer is racing to be the first to market. Blackwell is now in the hands of all of our major partners and they are working to bring up their data centers. We are integrating Blackwell systems into the diverse data center configurations of our customers. Blackwell demand is staggering and we are racing to scale supply to meet the incredible demand customers are placing on us. Customers are gearing up to deploy Blackwell at scale. Oracle announced the world's first data scale AI cloud computing clusters that can scale to over 131,000 Blackwell GPUs to help enterprises train and deploy some of the most demanding next generation AI models. Yesterday, Microsoft announced they will be the first CSP to offer. In private preview, Blackwell based cloud instances powered by NVIDIA, GB 200 and quantum incident event. Last week, Blackwell made its debut on the most recent round of ML per training results, sweeping the per GPU benchmarks and delivering a 2.2x lead in performance over hopper. The results also demonstrate our relentless pursuit to drive down the cost of compute. Just 64 Blackwell GPUs are required to run the GPT pre benchmark compared to 256 H100 or a 4x reduction in cost. NVIDIA Blackwell architecture with NVLink switch enables up to 30x faster inference performance and a new level of inference scaling throughput and response time that is excellent for running new reasoning inference applications like OpenAI's O1 model. With every new platform shift, a wave of startups is created. Hundreds of AI native companies are already delivering AI services with great success. Through Google, Meta, Microsoft and OpenAI are the headliners on thread and traffic, perplexity, mestral, Adobe firefly, runway, mid-journey, light tricks, Harvey, Cotium, cursor, and a bridge are seen great success while thousands of AI native startups are building new services. The next waves of AI are enterprise AI and industrial AI. Enterprise AI is in full throttle. NVIDIA AI enterprise which includes NVIDIA MIMO and NIMM microservices is an operating platform of agent AI. Industry leaders are using NVIDIA AI to build co-pilots and agents. Working with NVIDIA, cadence, caldera, cohesity, NetApp, Nutanix, Salesforce, SAP, and ServiceNow are racing to accelerate development of these applications with the potential for billions of agents to be deployed in the coming years. Consulting leaders like Accenture and Deloitte are taking NVIDIA AI to the world enterprises. Accenture launched a new business group with 30,000 professionals trained on NVIDIA AI technology to help facilitate this global build-out. Additionally, Accenture with over 770,000 employees is leveraging NVIDIA powered Agenic AI applications internally, including one case that cuts manual steps in marketing campaigns by 25 to 35%. Nearly 1,000 companies are using NVIDIA MIMM and the speed of its uptake is evident in NVIDIA AI enterprise monetization. We expect NVIDIA AI enterprise full-year revenue to increase over 2x from last year and our pipeline continues to build. Overall, our software service and support revenue is annualizing at 1.5 billion and we expect to exit this year annualizing at over 2 billion. Industrial AI and robotics are accelerating. This is triggered by breakthroughs in physical AI, foundation models that understand the physical world. Like NVIDIA MIMO for enterprise AI agents, we built NVIDIA Omniverse for developers to build, train, and operate industrial AI and robotics. Some of the largest industrial manufacturers in the world are adopting NVIDIA Omniverse to accelerate their businesses, automate their workflows, and to achieve new levels of operating efficiency. Foxconn, the world's largest electronics manufacturer, is using digital twins and industrial AI built on NVIDIA Omniverse to speed the bring up of its Blackwell factories and drive new levels of efficiency. And its Mexico facility alone, Foxconn expects to reduce a reduction of over 3% in annual kilowatt-hour usage. From a geographic perspective, our data center revenue in China grew sequentially due to shipments of export compliant hopper products to industries. As a percentage of total data center revenue, it remains well below levels prior to the onset of export controls. We expect the market in China to remain very competitive going forward. We will continue to comply with export controls while serving our customers. Our sovereign AI initiatives continue to gather momentum as countries embrace NVIDIA accelerated computing for a new industrial revolution powered by AI. India's leading CSPs include product communications and Zoda data services are building AI factories for tens of thousands of NVIDIA GPUs. By year end, they will have boosted NVIDIA GPU deployments in the country by nearly 10x. Infosys, TSC, Whipro, are adopting NVIDIA AI Enterprise and upskilling nearly half a million developers and consultants to help clients build and run AI agents on our platform. In Japan, SoftBank is building the nation's most powerful AI supercomputer within NVIDIA DGX Blackwell and Quantum Incentuban. SoftBank is also partnering with NVIDIA to transform the telecommunications network into a distributed AI network with NVIDIA AI Ariel and a RAN platform that can process both 5G RAN on AI on CUDA. We are launching the same in the US with T-Mobile. Leaders across Japan including Fujitsu, NEC, and NTT are adopting NVIDIA AI Enterprise and major consulting companies including EY strategy and consulting will help bring NVIDIA AI technology to Japan's industries. Networking revenue increased 20% year on year. Areas of sequential revenue growth include Incentuban and Ethernet switches, smart necks, and bluefield GPUs. So networking revenue was sequentially down. Networking demand is strong and growing and we anticipate sequential growth in Q4. CSPs and supercomputing centers are using and adopting the NVIDIA Incentuban platform to power new H200 clusters. NVIDIA spectrum X Ethernet 4 AI revenue increased over 3X year on year and our pipeline continues to build with multiple CSPs and consumer internet companies planning large cluster deployments. Traditional Ethernet was not designed for AI. NVIDIA spectrum X uniquely leverages technology previously exclusive to Incentuban to enable customers to achieve massive scale of their GPU compute. Utilizing spectrum X XAI's Colossus 100,000 Hopper supercomputer experience zero application latency degradation and maintained 95% data throughput versus 60% for traditional Ethernet. Now moving to gaming and AI PCs. Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year. Q3 was a great quarter for gaming with notebook console and desktop revenue all growing sequentially and year on year. RTX and demand was fueled by strong back to school sales as consumers continue to choose GeForce RTX GPUs and devices to power gaming, creative and AI applications. Channel inventory remains healthy and we are gearing up for the holiday season. We began shipping new GeForce RTX AI PCs with up to 321 AI tops from ASUS and MSI with Microsoft's co-pilot plus capabilities anticipated in Q4. These machines harness the power of RTX ray tracing and AI technologies to supercharge gaming photo and video editing, image generation and coding. This past quarter we celebrated the 25th anniversary of the GeForce 256, the world's first GPU. The transforming computing graphics to igniting the AI revolution and video GPUs have been the driving force behind some of the most consequential technologies of our time. Moving to ProViz. Revenue of 486 million was up 7% sequentially and 17% year on year. NVIDIA RTX workstations continue to be the preferred choice to power professional graphics, design and engineering related workloads. Additionally, AI is emerging as a powerful demand driver including autonomous vehicle simulation, generative AI model prototyping for productivity related use cases and generative AI content creation in media and entertainment. Moving to automotive, revenue was a record 449 million, up 30% sequentially and up 72% year on year. Strong growth was driven by self-driving brands of NVIDIA orin and robust and market demand for NEVs. Global cars is rolling out its fully electric SUV built on NVIDIA orin and drive OS. Moving to the rest of the P&L, gap growth margin was 74.6% and non-gap growth margin was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex and higher cost systems within data center. Sequentially, gap operating expenses and non-gap operating expenses were up 9%. Due to higher compute, infrastructure and engineering development costs for new product introductions. In Q3, we returned 11.2 billion to shareholders in the form of share repurchases and cash dividends. Let me turn to the outlook for the fourth quarter. Total revenue is expected to be 37.5 billion plus or minus 2%, which incorporates continued demand for hopper architecture and the initial ramp of our Blackwell products. While demand is greatly exceed supply, we are on track to exceed our previous Blackwell revenue estimate of several billion dollars as our visibility into supply continues to increase. On gaming, although sell through a strong in Q3, we expect fourth quarter revenue to decline sequentially due to supply constraints. Gap and non-gap growth margins are expected to be 73% and 73.5% respectively, plus or minus 50 basis points. Blackwell is a customizable AI infrastructure with seven different types of NVIDIA build chips, multiple network skin options, and for air and liquid cooled data centers. Our current focus is on ramping to strong demand. Increasing system availability and providing the optimal mix of configurations to our customer. As Blackwell ramps, we expect to risk margins to moderate to the low 70s. When fully ramped, we expect Blackwell margins to be in the mid 70s. Gap and non-gap operating expenses are expected to be approximately 4.8 billion and 3.4 billion respectively. We are a data center scale AI infrastructure company. Our investments include building data centers for development of our hardware and software stacks and to support new introductions. Gap and non-gap other income and expenses are expected to be an income of approximately 400 million, excluding gains and losses from non-affiliated investments. Gap and non-gap tax rates are expected to be 16.5% plus or minus 1%, excluding any discrete items. Further financial details are included in the CFO commentary and other information available on our IR websites. In closing, let me highlight upcoming events for the financial community. We will be attending the UBS Global Technology and AI Conference on December 3rd in Scottsdale. Please join us at CES in Las Vegas, where Jensen will deliver a keynote on January 6th. And we will host a Q&A session for financial analyst the next day on January 7th. Our earnings call to discuss results for the fourth quarter of fiscal 2025 is scheduled for February 26th, 2025. We will now open the call for questions. Operator, can you pull for questions, please? At this time, I would like to remind everyone in order to ask a question, press star, then the number one on your telephone keypad. We'll pause for just a moment to compile the Q&A roster. As a reminder, please limit yourself to one question. Your first question comes from the line of CJMusef Cantor Fitzgerald. Your line is open. Yeah, good afternoon. Thank you for taking the question. I guess just a question for you in one, the debate around whether scaling for large language models have stalled. Obviously, we're very early here, but we'd love to hear your thoughts on this front. How are you helping your customers as they work through these issues? And then obviously, part of the context here is we're discussing clusters that have yet to benefit from Blackwell. So is this driving even greater demand for Blackwell? Thank you. Foundation model pre-training scaling is intact, and it's continuing. You know, as you know, this is an empirical law, not a fundamental physical law, but the evidence is that it continues to scale. What we're learning, however, is that it's not enough. That we've now discovered two other ways to scale. One is post-training scaling. Of course, the first generation of post-training was reinforcement learning human feedback, but now we have reinforcement learning AI feedback, and all forms of synthetic data generated data that assists in post-training scaling. And one of the biggest events, and one of the most exciting developments is Strawberry, Catupt01, OpenAI's 01, which does inference time scaling. It's called test time scaling. The longer it thinks, the better and higher quality answer it produces, and it considers approaches like chain of thought and multi-path planning, and all kinds of techniques necessary to reflect, and so on and so forth. It intuitively, it's a little bit like us doing thinking in our head before we answer a question. And so we now have three ways of scaling, and we're seeing all three ways of scaling, and as a result of that, the demand for our infrastructure is really great. You see now that at the tail end of the last generation of foundation models, we're at about 100,000 hoppers. The next generation starts at 100,000 blackwells, and so that kind of gives you a sense of where the industry is moving with respect to pre-training, scaling, post-training, scaling, and then now very importantly, inference time scaling. And so the demand is really great for all of those reasons, but remember simultaneously we're seeing inference really starting to scale out for our company. We are the largest inference platform in the world today, because our install base is so large, and everything that was trained on amperes and hoppers inference incredibly on amperes and hoppers. And as we move to blackwells for training, foundation models, it leaves behind it a large install base of extraordinary infrastructure for inference. And so we're seeing inference demand go up. We're seeing inference time scaling go up. We see the number of AI-native companies continue to grow. And of course, we're starting to see enterprise adoption of agentic AI really is the latest rage. And so we're seeing a lot of demand coming from a lot of different places. Your next question comes from the line of Tushia, Harry of Goldman Sachs. You line is open. Hi, good afternoon. Thank you so much for taking the question. Jensen, you executed the mask change earlier this year. There were some reports over the weekend about some heating issues. On the back of this, we've had investors ask about your ability to execute to the roadmap you presented at GTC this year with Ultra coming out next year and the transition to Rubin in 26. Can you sort of speak to that? And some investors are questioning that. So if you can sort of speak to your ability to execute on time, that would be super helpful. And then a quick part B on supply constraints, is it a multitude of component tree that's causing this? Or is it specifically co-op HBM? Is the supply constraints, are the supply constraints getting better? Are they worsening? Any sort of color on that would be super helpful as well. Thank you. Yeah, thanks. Thanks. So let's see. Back to the first question. Blackwell production is in full steam. In fact, as Collette mentioned earlier, we will deliver this quarter more blackwells than we had previously estimated. And so the supply chain team is doing an incredible job working with our supply partners to increase blackwell. And we're going to continue to work hard to increase blackwell through next year. It is the case that demand exceeds our supply. And that's expected as we're in the beginnings of this generative AI revolution, as we all know. And we're at the beginning of a new generation of foundation models that are able to do reasoning and able to do long thinking. And of course, one of the really exciting areas is physical AI. AI that now understands the structure of the physical world. And so blackwell demand is very strong. Our execution is going well. And there's obviously a lot of engineering that we're doing across the world you see now systems that are being stood up by Dell and Corweave. I think you saw systems from Oracle stood up. You have systems from Microsoft, and they're about to preview their great blackwell systems. You have systems that are at Google. And so all of these SPS are racing to be first. The engineering that we do with them is as you know, rather complicated. And the reason for that is because although we build full stack and full infrastructure, we disaggregate all of the AI supercomputer, and we integrate it into all of the custom data centers in architectures around the world. That integration process is something we've done several generations now. We're very good at it, but still, there's still a lot of engineering that happens at this point. But as you see from all of the systems that are being stood up, blackwell is in great shape. And as we mentioned earlier, the supply and what we're planning to ship this quarter is greater than our previous estimates. With respect to the supply chain, there's seven different chips, seven custom chips that we built in order for us to deliver the blackwell systems. The blackwell systems go in air cooled or liquid cooled, NVLink 8 or NVLink 72 or NVLink 8, NVLink 36, NVLink 72. We have X86 or GRACE. And the integration of all of those systems into the world's data centers is nothing short of a miracle. And so the component supply chain necessary to ramp at this scale, you have to take a look at how much blackwell was shipped last quarter, which was zero. And in terms of how much blackwell total systems will ship this quarter, which is measured in billions, the ramp is incredible. And so almost every company in the world seems to be involved in our supply chain. And we've got great partners, everybody from, of course, TSMC and Mfanol, the connector company, incredible company, Vertiv and SKHynix and Micron, Spill Amcor and KYEC. And there's FoxCon and the factories that they've built and Quanta and we win and gosh Dell and HP and Super Micro Lenovo. And you know, the number of companies is just really quite incredible. Quanta, and I'm sure I've missed partners that are involved in the ramping of blackwell, which I really appreciate. And so anyways, I think we're in great shape with respect to the blackwell ramp at this point. And then lastly, your question about our execution of our roadmap, we're on an annual roadmap and we're expecting to continue to execute on our annual roadmap. And by doing so, we increased the performance, of course, of our platform. But it's also really important to realize that when we're able to increase performance and, and do so at X-factors at a time, we're reducing the cost of training. We're reducing the cost of inferencing. We're reducing the cost of AI so that it could be much more accessible. But the other factor that's very important to note is that when there's a data center of some fixed size and a data center always is of some fixed size. It could be, you know, of course, tens of megawatts in the past. And now it's, you know, most data centers are now a hundred megawatts to several hundred megawatts and we're planning on gigawatt data centers. It doesn't really matter how large the data centers are. The power is limited. And when you're in the power limited data center, the best, the highest performance per watt translates directly into the highest revenues for our partners. And so on the one hand, our annual roadmap reduces cost. But on the other hand, because our per watt is so good compared to anything out there, we generate for our customers the greatest possible revenues. And so that annual rhythm is really important to us. And we have every, every intentions of continuing to do that. And everything's on track. As far as I know. Your next question comes from line of Timothy. Our query of UBS, your line is open. Thanks a lot. I'm wondering if you can talk about the trajectory of how Blackwell's going to ramp this year. I know, you know, Jensen, you did just talk about Blackwell being better than I think you had said several billions of dollars in January. Sounds like you're going to do more than that. But I think in recent months also, you said that Blackwell crosses over Hopper in the April quarter. So I guess I had two questions. First of all, is that still the right way to think about it? That Blackwell will cross over Hopper in April. And then, Collette, you kind of talked about Blackwell bringing down gross margin to the low 70s as it ramps. So I guess if April is the crossover, is that the worst of the pressure on gross margins? So you're going to be kind of in the low 70s as soon as April. I'm just wondering if you can sort of shape that for us, thanks. Collette, why don't you start? Sure. Let me first start with your question, Tim. Thank you regarding our gross margins. And we discussed that our gross margins as we are ramping Blackwell in the very beginning and the many different configurations, the many different tips that we are bringing to market, we are going to focus on making sure we have the best experience for our customers as they stand that up. We will start growing in for our gross margins, but we do believe those will be in the low 70s in that first part of the round. So you're correct. As you look at the quarters following after that, we will start increasing our gross margins. And we hope to get to the mid 70s quite quickly as part of that round. Hopper demand will continue through next year. Fairly the first several quarters of the next year. And meanwhile, we will ship more Blackwell's next quarter than this. And we'll ship more Blackwell's the quarter after that than our first quarter. And so that kind of puts it in perspective. We are really at the beginnings of two fundamental shifts in computing that is really quite significant. The first is moving from coding that runs on CPUs to machine learning that creates neural networks that runs on GPUs. And that fundamental shift from coding to machine learning is widespread at this point. There are no companies who are not going to do machine learning. And so machine learning is also what enables generative AI. And so on the one hand, the first thing that's happening is a trillion dollars worth of computing systems and data centers around the world is now being modernized for machine learning. On the other hand, secondarily, I guess, is that on top of these systems, we're going to be creating a new type of capability called AI. And when we say generative AI, we're essentially saying that these data centers are really AI factories. They're generating something. Just like we generate electricity, we're now going to be generating AI. And if the number of customers is large, just as the number of consumers of electricity is large, these generators are going to be running 24-7. And today, many AI services are running 24-7, just like an AI factory. And so we're going to see this new type of system come online. And I call it an AI factory because that's really as close to what it is. It's unlike a data center of the past. And so these two fundamental trends are really just beginning. And so we expect this to happen, this growth, this modernization, and the creation of a new industry, to go on for several years. Your next question comes from Alina Vivek, area of Bank of America Securities. Your line is open. Thanks for taking my question. Cola, just to clarify, do you think it's a fair assumption to think NVIDIA could recover to kind of mid-70s growth margin in the back half of calendar 25? I just wanted to clarify that. And then, this is my main question, historically, when we have seen hardware deployment cycles, they have inevitably included some digestion along the way. When you think we get to that phase, or is it just too premature to discuss that because you're just going to start a black world? So how many quarters of shipments do you think is required to going to satisfy this first wave? Can you continue to grow this into calendar 26? Just how should we be prepared to see what we have seen historically, the periods of digestion along the way of a long-term kind of secular hardware deployment? Okay, that's that. Thank you for the question. Let me clarify. Your question regarding gross margins, could we reach the mid-70s in the second half of next year? And yes, I think it is reasonable assumption or goal for us to do, but we'll just have to see how that mix of ramp goes. But yes, it is definitely possible. The way to think through that Vivek is I believe that there will be no digestion until we modernize a trillion dollars with the data centers. If you just look at the world's data centers, the vast majority of it is built for a time when we wrote applications by hand and we ran them on CPUs. It's just not a sensible thing to do anymore. If every company's CAPX, if they're ready to build a data center tomorrow, they ought to build it for a future of machine learning and generative AI because they have plenty of old data centers. And so what's going to happen over the course of next, you know, next number of years, and let's assume that over the course of four years, the world's data centers could be modernized as we grow into IT. As you know, IT continues to grow about 20%, 30% a year, let's say. And so let's say by 2030, the world's data centers for computing is called a couple trillion dollars. We have to grow into that. We have to modernize the data center from coding to machine learning. That's number one. The second part of it is gem to AI. And we're now producing a new type of capability that world's never known, a new market segment that the world's never had. If you look at OpenAI, it didn't replace anything. It's something that's completely brand new. It's in a lot of ways as when the iPhone came, it was completely brand new. It wasn't really replacing anything. And so we're going to see more and more companies like that. And they're going to create and generate out of their services, essentially intelligence. Some of it would be digital artist intelligence, like runway. Some of it would be basic intelligence, like OpenAI. Some of it would be legal intelligence like Harvey, digital marketing intelligence like writers, so on and so forth. And the number of these companies, what are they called AI native companies, are just in hundreds. And almost every platform shift, there were internet companies, as you recall. There were cloud first companies. There were mobile first companies. Now they're AI natives. And so these companies are being created because people see that there's a platform shift and there's a brand new opportunity to do something completely new. And so my sense is that we're going to continue to build out, to modernize IT, modernize computing, number one. And then number two, create these AI factories that are going to be for a new industry for the production of artificial intelligence. Your next question comes from the line of Stacey Rexson of Bernstein Research. Your line is open. Hi guys. Thanks for taking my questions. Collette, I had a clarification and a question for you. The clarification is when you say low 70s gross margins, is 73.5 count as low 70s, or do you have something else in mind? And for my question, you're guiding total revenues. And so I mean total data center revenues in the next quarter must be up, quote unquote, several billion dollars. But it sounds like Blackwell now should be up more than that. But you also said Hoppe was still strong. It's like is Hopper down sequentially the next quarter? And if it is, why? Is it because of the supply constraint? Is China's been pretty strong? Is China kind of rolling off a bit into Q4? So any color you can give us on sort of the Blackwell ramp and the Blackwell versus Hopper behavior into Q4 would be really helpful. Thank you. So first starting on your first question there, Stacey, regarding our gross margin and define low. Low of course is below the mid and let's say we might be at 71, maybe about 72, 72 and a half. We're going to be in that range. We could be higher than that as well. We're just going to have to see how it comes through. We do want to make sure that we are ramping and continuing that improvement, the improvement in terms of our yields, the improvement in terms of the product as we go through the rest of the year. So we'll get up to the mid 70s by that point. The second statement was a question regarding our Hopper and what is our Hopper doing? We have seen substantial growth for H200, not only in terms of orders but the quickness in terms of those that are standing that up. It is an amazing product and it's the fastest growing and ramping that we've seen. We will continue to be selling Hopper in this quarter in Q4 for sure. That is across the board in terms of all of our different configurations and our configurations include what we may do in terms of China. But keep that mind that folks are also at the same time looking to build out their Blackwell. So we've got a little bit of both happening in Q4 but yes, is it possible for Hopper to grow between Q3 and Q4? It's possible but we'll just have to see. Your next question comes from the line of Joseph Moore of Morgan Stanley. Your line is open. Great, thank you. I wonder if you could talk a little bit about what you're seeing in the inference market. You've talked about strawberry and some of the ramifications of longer scaling inference projects but you've also talked about the possibility that as some of these Hopper clusters age that you could use some of the Hopper latin chips for inference. So I guess you expect inference to outgrow training in the next kind of 12-month timeframe and just generally your thoughts there. Our hopes and dreams is that someday the world does a ton of inference and that's when AI has really succeeded. It's when every single company is doing inference inside their companies for the marketing department and forecasting department and supply chain group and their legal department and engineering of course and coding of course. So we hope that every company is doing inference 24-7 and that there will be a whole bunch of AI-native startups, thousands of AI-native startups that are generating tokens and generating AI. Every aspect of your computer experience from using outlook to power pointing or when you're sitting there with Excel, you're constantly generating tokens and every time you read a PDF, open a PDF, it's generated a whole bunch of tokens. One of my favorite applications is Notebook LM, this Google application that came out. I used the living daylights out of it just because it's fun. I put every PDF, every archive paper into it just to listen to it as well as scanning through it. So I think that's the goal, is to train these models so that people use it. There's now a whole new era of AI, if you will, a whole new genre of AI called physical AI. Just those large language models understand the human language and how the thinking process, if you will. Physical AI understands the physical world and it understands the meaning of the structure and understands what's sensible and what's not and what could happen and what want and not only does it understand but it can predict, roll out a short future. That capability is incredible and valuable for industrial AI and robotics and so that's fired up so many AI native companies and robotics companies and physical AI companies that you're probably hearing about and it's really the reason why we built Omniverse. Omniverse is so that we can enable these AI's to be created and learn in Omniverse and learn from synthetic data generation and reinforcement, learning physics feedback instead of human feedback. It's now physics feedback. To have these capabilities Omniverse was created so that we can enable physical AI and so that the goal is to generate tokens, the goal is to inference and we're starting to see that growth happening so I'm super excited about that. Now let me just say one more thing, inference is super hard and the reason why inference is super hard is because you need the accuracy to be high on the one hand. You need the throughput to be high so that the cost could be as low as possible but you also need the latency to be low and computers that are high throughput as well as low latency is incredibly hard to build and these applications have long context lengths because they want to understand, they want to be able to inference within understanding the context of what they're being asked to do and so the context length is growing larger and larger. On the other hand the models are getting larger, they're multi-modality. Just a number of dimensions that inference is innovating is incredible and this innovation rate is what makes NVIDIA's architecture so great because our ecosystem is fantastic. Everybody knows that if they innovate on top of CUDA and top of NVIDIA's architecture they can innovate more quickly and they know that everything should work and if something were to happen is probably likely their code and not ours and so that ability to innovate in every single direction at the same time having a large install base so that whatever you create could land on an NVIDIA computer and and be deployed broadly all around the world in every single data center all the way out to the edge you know into robotic systems you know that capability is is really quite phenomenal. Your next question comes from the line of Aaron Walker's sorry Aaron Rakers of Wells Fargo. The line is open. Yeah thanks for taking a question. I want to ask you as we kind of focus on the blackboard cycle and think about the data center business. When I look at the results this last quarter you know Klet you mentioned that obviously the networking business was down about 15 percent sequentially but then your comments were that you were seeing very strong demand. You mentioned also that you had multiple cloud you know CFP design wins for these large scale clusters so I'm curious if you could unpack what's going on in the networking business and where maybe you've seen some constraints and just your your confidence in the pace of spectrum X progressing to that multiple billions of dollars that you previously had talked about. Thank you. Let's first start with the networking. The growth year over year is tremendous and our focus since the beginning of our acquisition of melanox has really been about building together the work that we do in terms of in the data center. The networking is such a critical part of that. Our ability to sell our networking with many of our systems that we are doing in data center is continuing to grow and do quite well. So this quarter is just a slight dip down and we're going to be right back up in terms of growing. They're getting ready for blackwell and more and more systems that we'll be using not only our existing networking but also the networking that is going to be incorporated in a lot of these large systems that we're providing them to. Your next question comes from the line of Etif Malek of City. Your line is open. Thank you for taking my question. I have two quick ones for Colette. Colette on the last earnings call you mentioned that sovereign demand is in low double-digit billions. Can you provide an update on that? And then can you explain the supply constraint in situation in gaming? Is that because you're shifting the supply towards data center? So first starting in terms of sovereign AI. Such an important part of growth. Something that is really surfaced with the onset of genital AI and building models in the individual countries around the world. And we see a lot of them and we talked about a lot of them in the call today and the work that they are doing. So our sovereign AI and our pipeline going forward is still absolutely intact as those are working to build these foundational models in their own language and their own culture and working in terms of the enterprises within those countries. And I think you'll continue to see this be a growth opportunities that you may see with our regional clouds that are being stood up and or those that are focusing in terms of AI factories for many parts of the sovereign AI. This is areas where this is growing not only in terms of in Europe but you're also seeing this in terms of growth in terms of in the Asia pack as well. Let me flip to your second question that you asked regarding gaming. So our gaming right now from a supply we're busy trying to make sure that we can ramp all of our different products. And in this case our gaming supply given what we saw selling through was moving quite fast. Now the challenge that we have is how fast could we get that supply getting ready into the market for this quarter. Not to worry I think we'll be back on track with more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter. Your next question comes from the line of Ben Reitz's of Milius Research. Your line is open. Yeah hi thanks a lot for the question. I wanted to ask Collette and Jensen you know with regard to sequential growth so a very strong sequential growth this quarter and you're guiding to about 7%. Do your comments on Blackwell imply that we reaccelerate from there as you get more supply just in the in the first half but you know it would seem that there would be some catch-up so I was wondering how prescriptive you could be there. And then Jensen just overall you know with the change in administration that's going to take place here in the US and the China situation have you gotten any sense or any conversations about you know tariffs or anything with regard to your China business any sense of what may or may not go on it's probably too early but wondering if you had any thoughts there thanks so much. We got one quarter at a time. We are working right now on the quarter that we're in and building what we need to ship in terms of Blackwell. We have every supplier on the planet working seamlessly with us to do that and once we get to next quarter we'll help you understand in terms of that ramp that we'll see to the next quarter going after that. Whatever the new administration decides we will of course support the administration and that's our the highest mandate and then after that do the best we can and just as we always do and so so we have we have to simultaneously and we will comply with any regulation that comes along fully and support our customers the best of our abilities and and compete in the marketplace. We'll do all of these three things simultaneously. Your final question comes from the line of Pierre Farragu of New Street Research. Your line is open. Hey thanks for taking my question. Jensen you mentioned in your comments you know you have the free training the actual language matters and you have reinforcement learning that becomes more and more important in training and in inference as well and then you have inference says and I was wondering if you have a sense you know like a high-level typical sense of out of another world AI ecosystem like maybe one of your clients or one of the large mothers that are out there. Today how much of the compute goes into each of these buckets? How much for the free training? How much for the reinforcement and how much into into inference today? Do you have any sense for how it's pleasing and and where the growth is the most important as well? Well today it's it's vastly in pre-training of foundation model because as you know post-training the new technologies are are just coming online and whatever you could do in pre-training and post-training you would try to do so that the inference cost could be as low as possible for everyone. However there there are only so many things that you could do a priority and so you'll always have to do on the spot thinking and in context thinking and reflection and so I think that that the fact that all three are scaling is actually very sensible based on where we are and and in the area of foundation model now we have multi-modality foundation models and and the amount of petabytes of video that these foundation models are going to be trained on is it's incredible and so my expectation is that for the foreseeable future we're going to be scaling pre-training post-training as well as inference time scaling and which is the reason why I think we're going to need more and more compute and we're going to have to drive as hard as we can to keep increasing the performance by X-factors at a time so that we can continue to drive down the cost and continue to increase the revenues and you know get get the AI revolution going. Thank you. Thank you. I want to turn the call back over to Jensen Hong for closing remarks. Thank you. The tremendous growth in our business is being fueled by two fundamental trends that are driving global adoption of NVIDIA computing. First the computing stack is undergoing a re-invention, a platform shift from coding to machine learning from executing code on CPUs to processing neural networks on GPUs. The trillion dollar install based of traditional data center infrastructure is being rebuilt for software 2.0 which applies machine learning to produce AI. Second the age of AI is in full steam. Generative AI is not just a new software capability but a new industry with AI factories manufacturing digital intelligence a new industrial revolution that can be create that can create a multi trillion dollar AI industry. Demand for Hopper and anticipation for Blackwell which is now in full production are incredible for several reasons. There are more foundation model makers now than there were a year ago. The computing scale of pre-training and post-training continues to grow exponentially. There are more AI native startups than ever and the number of successful inference services is rising. And with the introduction of CHAT UBT01, OpenAI01, a new scaling law called test time scaling has emerged. All of these consume a great deal of computing. AI is transforming every industry company and country. Enterprises are adopting agent AI to revolutionize workflows. Over time AI co-workers will assist employees in performing their jobs faster and better. Investments in industrial robotics are surging due to breakthroughs in physical AI. Driving new training infrastructure demand as researchers train world foundation models on a bitabytes of video and omniverse synthetically generated data. The age of robotics is coming. Countries across the world recognize the fundamental AI trends we are seeing and have awakened to the importance of developing their national AI infrastructure. The age of AI is upon us and it's large and diverse. NVIDIA's expertise scale and ability to deliver full stack and full infrastructure let us serve the entire multi trillion dollar AI and robotics opportunities ahead. From every hyperscale cloud enterprise private cloud to sovereign regional AI clouds on-prem to industrial edge and robotics. Thanks for joining us today and catch up next time. This concludes today's conference call. You may now disconnect."
+}

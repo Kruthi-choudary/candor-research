@@ -1,0 +1,73 @@
+{
+  "ticker": "MSFT",
+  "quarter": "Q4_2024",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "AI infrastructure scaling contributed to a 14% increase in gross margin dollars.",
+      "source_text": "with the impact of scaling our AI infrastructure. Company gross margin dollars increased 14% and",
+      "timestamp_sec": 1171,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Better-than-expected performance across all businesses drove Dynamics revenue up 16%.",
+      "source_text": "driven by better than expected performance across all businesses. Dynamics revenue grew 16%",
+      "timestamp_sec": 1301,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Dynamics revenue grew, with segment margin dollars increasing 9% and 10% in constant currency.",
+      "source_text": "dynamics revenue. Segment growth margin dollars increased 9% and 10% in constant currency and",
+      "timestamp_sec": 1324,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Operating margins increased slightly, driven by a higher gross following an accounting estimate change.",
+      "source_text": "change in accounting estimate, operating margins increased slightly, driven by the higher gross",
+      "timestamp_sec": 1220,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Devices revenue decreased 11% and 9% in constant currency, roughly in line with expectations.",
+      "source_text": "Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations",
+      "timestamp_sec": 1492,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The server business is expected to see revenue decline in low single digits as hybrid demand continues.",
+      "source_text": "server business we expect revenue to decline in low single digits as continued hybrid demand",
+      "timestamp_sec": 1940,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Current FX rates are expected to reduce total revenue and segment-level revenue growth.",
+      "source_text": "Based on current rates we expect FX to decrease total revenue and segment level revenue growth",
+      "timestamp_sec": 1763,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Operating margins are projected to be down about one point year over year, with FY25 expectations outlined.",
+      "source_text": "operating margins to be down only about one point year over year. And finally we expect our FY 25",
+      "timestamp_sec": 1748,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

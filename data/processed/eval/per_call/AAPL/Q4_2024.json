@@ -1,0 +1,73 @@
+{
+  "ticker": "AAPL",
+  "quarter": "Q4_2024",
+  "total_citations": 8,
+  "verified": 8,
+  "accuracy": 1.0,
+  "citations": [
+    {
+      "claim": "Apple saw strong performance in many emerging markets during Q4 2024.",
+      "source_text": "we also saw strong performance in many emerging markets,",
+      "timestamp_sec": 1063,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Sequential foreign\u2011exchange improvements contributed to better year\u2011over\u2011year performance.",
+      "source_text": "improvement relative to the year over year performance that we had been achieving is that there was a sequential improvement in foreign exchange.",
+      "timestamp_sec": 2309,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Products revenue reached $70\u202fbillion, a 4% year\u2011over\u2011year increase.",
+      "source_text": "Products revenue was 70 billion, up 4% year over year,",
+      "timestamp_sec": 863,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The entire segment delivered very good results in the quarter.",
+      "source_text": "So we've seen very, very good results for us in the entire segment.",
+      "timestamp_sec": 2437,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Overall revenue declined to $9\u202fbillion, down 3% year over year.",
+      "source_text": "revenue was $9 billion, down 3% from a year ago.",
+      "timestamp_sec": 414,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "There is a risk that product revenue could be down in the December quarter based on current commentary.",
+      "source_text": "Are we to assume based on sort of the commentary that there is a risk that maybe the product revenue portfolio could be down in the December quarter if I take your numbers at face value?",
+      "timestamp_sec": 2474,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "Apple has been facing headwinds that have persisted for a period of time.",
+      "source_text": "As you know, it's been a headwind that we've been reporting for a period of time.",
+      "timestamp_sec": 2324,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    },
+    {
+      "claim": "The company incurred unspecified costs during fiscal 24.",
+      "source_text": "that we've incurred during the course of fiscal 24,",
+      "timestamp_sec": 1611,
+      "verdict": "VERIFIED",
+      "match_ratio": 1.0,
+      "actual_segment_text": null
+    }
+  ]
+}

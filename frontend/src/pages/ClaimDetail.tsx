@@ -19,6 +19,7 @@ export function ClaimDetail() {
   const [transcript, setTranscript] = useState<Transcript | null>(null);
   const [playing, setPlaying] = useState(false);
   const [audioReady, setAudioReady] = useState(false);
+  const [audioError, setAudioError] = useState(false);
 
   const waveformRef = useRef<HTMLDivElement>(null);
   const wsRef = useRef<WaveSurfer | null>(null);
@@ -37,6 +38,7 @@ export function ClaimDetail() {
   useEffect(() => {
     if (!waveformRef.current) return;
     setAudioReady(false);
+    setAudioError(false);
 
     // Guard against React StrictMode's dev-mode double-invoke: the first instance can get
     // destroy()'d mid-load, and without this flag its late "ready" event would still fire and
@@ -62,6 +64,9 @@ export function ClaimDetail() {
     ws.on("play", () => !cancelled && setPlaying(true));
     ws.on("pause", () => !cancelled && setPlaying(false));
     ws.on("finish", () => !cancelled && setPlaying(false));
+    // The source mp3 isn't in the repo (see README) -- on a fresh clone with only the
+    // committed data/processed/ JSON, this fires instead of "ready". Fail visibly, not silently.
+    ws.on("error", () => !cancelled && setAudioError(true));
 
     return () => {
       cancelled = true;
@@ -152,22 +157,28 @@ export function ClaimDetail() {
       <div className="mt-8">
         <div className="mb-2 flex items-center justify-between text-xs uppercase tracking-wide text-text-faint">
           Evidence from transcript
-          <button
-            onClick={() => wsRef.current?.playPause()}
-            disabled={!audioReady}
-            className="flex items-center gap-1.5 rounded-full bg-mint px-3 py-1 text-xs font-medium text-[#06120c] disabled:cursor-not-allowed disabled:opacity-40"
-          >
-            {playing ? <Pause size={12} /> : <Play size={12} />}{" "}
-            {audioReady ? (playing ? "Pause" : "Play") : "Loading…"}
-          </button>
+          {!audioError && (
+            <button
+              onClick={() => wsRef.current?.playPause()}
+              disabled={!audioReady}
+              className="flex items-center gap-1.5 rounded-full bg-mint px-3 py-1 text-xs font-medium text-[#06120c] disabled:cursor-not-allowed disabled:opacity-40"
+            >
+              {playing ? <Pause size={12} /> : <Play size={12} />}{" "}
+              {audioReady ? (playing ? "Pause" : "Play") : "Loading…"}
+            </button>
+          )}
         </div>
         <div className="relative overflow-hidden rounded-lg border border-border bg-raised p-3">
-          {!audioReady && (
+          {audioError ? (
+            <div className="flex h-16 items-center justify-center text-xs text-text-faint">
+              Audio unavailable — the source file isn't included in this checkout (see README).
+            </div>
+          ) : !audioReady ? (
             <div className="flex h-16 items-center justify-center text-xs text-text-faint">
               Decoding audio…
             </div>
-          )}
-          <div ref={waveformRef} className={audioReady ? "" : "hidden"} />
+          ) : null}
+          <div ref={waveformRef} className={audioReady && !audioError ? "" : "hidden"} />
         </div>
       </div>
 

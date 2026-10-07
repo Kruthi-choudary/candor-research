@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "claim": "Operating expenses increased by 9% due to higher compute, infrastructure, and engineering development.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1093,
+        "source_text": "operating expenses were up 9%. Due to higher compute, infrastructure and engineering development"
+      }
+    },
+    {
+      "claim": "NVIDIA Hopper demand is exceptional and sequential NVIDIA H200 sales increased significantly.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 168,
+        "source_text": "NVIDIA Hopper demand is exceptional and sequentially NVIDIA H200 sales increased significantly"
+      }
+    },
+    {
+      "claim": "Revenue of 486 million grew 7% sequentially and 17% year on year.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 1009,
+        "source_text": "Revenue of 486 million was up 7% sequentially and 17% year on year."
+      }
+    },
+    {
+      "claim": "Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year.",
+      "sentiment": "positive",
+      "citation": {
+        "timestamp_sec": 916,
+        "source_text": "PCs. Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year. Q3 was a"
+      }
+    },
+    {
+      "claim": "Networking business was down about 15 percent.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 3022,
+        "source_text": "quarter you know Klet you mentioned that obviously the networking business was down about 15 percent"
+      }
+    },
+    {
+      "claim": "Revenue was down 75% sequentially, primarily driven by a mix shift of the H100 systems to more complex configurations.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1078,
+        "source_text": "was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex"
+      }
+    },
+    {
+      "claim": "Higher\u2011cost data\u2011center systems led to a sequential increase in operating expenses and non\u2011GAAP gaps.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 1086,
+        "source_text": "and higher cost systems within data center. Sequentially, gap operating expenses and non-gap"
+      }
+    },
+    {
+      "claim": "Suppliers indicate a tight quarter ahead as the company turns the corner into the new calendar year.",
+      "sentiment": "negative",
+      "citation": {
+        "timestamp_sec": 3239,
+        "source_text": "more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter."
+      }
+    }
+  ],
+  "overall_summary": "The call highlighted strong revenue and gaming growth alongside exceptional Hopper demand, but also noted rising operating expenses and challenges in networking and data\u2011center margins. Sentiment was largely neutral, with 20.7% positive and 2.9% negative statements."
+}
