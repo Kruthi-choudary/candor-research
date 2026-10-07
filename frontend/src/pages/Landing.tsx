@@ -1,8 +1,13 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Layers, AudioLines, FileText, Gauge, Mic2, Search, ShieldCheck } from "lucide-react";
 import { Logo } from "../components/Logo";
 import { Reveal } from "../components/Reveal";
 import { VerdictBadge } from "../components/VerdictBadge";
+import { api, type Company, type KeyClaim } from "../lib/api";
+import { formatTimestamp } from "../lib/format";
+
+const EXAMPLE_CALL = { ticker: "AAPL", quarter: "Q1-2025", label: "Apple · Q1 2025 earnings call" };
 
 const PIPELINE_STEPS = [
   { icon: AudioLines, title: "Audio", body: "The earnings call recording, per ticker and quarter." },
@@ -14,6 +19,19 @@ const PIPELINE_STEPS = [
 ];
 
 export function Landing() {
+  const [companies, setCompanies] = useState<Company[] | null>(null);
+  const [callCount, setCallCount] = useState<number | null>(null);
+  const [exampleClaim, setExampleClaim] = useState<KeyClaim | null>(null);
+
+  useEffect(() => {
+    api.listCompanies().then((d) => setCompanies(d.companies)).catch(() => {});
+    api.listCalls().then((d) => setCallCount(d.calls.length)).catch(() => {});
+    api
+      .getClaims(EXAMPLE_CALL.ticker, EXAMPLE_CALL.quarter)
+      .then((d) => setExampleClaim(d.claims.find((c) => c.verdict === "VERIFIED") ?? d.claims[0] ?? null))
+      .catch(() => {});
+  }, []);
+
   return (
     <div className="relative min-h-screen bg-base">
       {/* Diagonal light-beam backdrop, confined to the hero area so it doesn't bleed into
@@ -73,7 +91,7 @@ export function Landing() {
               to="/app"
               className="rounded-full bg-mint px-6 py-3 text-sm font-medium text-[#06120c] transition-opacity hover:opacity-90"
             >
-              View the 16 processed calls <ArrowRight size={14} className="ml-1 inline" />
+              View the {callCount ?? "..."} processed calls <ArrowRight size={14} className="ml-1 inline" />
             </Link>
             <a href="#how-it-works" className="text-sm text-text-muted underline underline-offset-4 hover:text-text">
               Learn how it works
@@ -90,14 +108,18 @@ export function Landing() {
           </div>
           <div className="mt-6 grid grid-cols-3 divide-x divide-border">
             <div className="pr-8">
-              <div className="text-4xl font-medium text-mint">16</div>
+              <div className="text-4xl font-medium text-mint">{callCount ?? "–"}</div>
               <div className="mt-1 text-sm text-text">Calls processed</div>
-              <div className="text-xs text-text-faint">4 companies · 4 quarters each</div>
+              <div className="text-xs text-text-faint">
+                {companies ? `${companies.length} companies · 4 quarters each` : "loading…"}
+              </div>
             </div>
             <div className="px-8">
-              <div className="text-4xl font-medium text-mint">4</div>
+              <div className="text-4xl font-medium text-mint">{companies?.length ?? "–"}</div>
               <div className="mt-1 text-sm text-text">Companies</div>
-              <div className="text-xs text-text-faint">AAPL · MSFT · NVDA · META</div>
+              <div className="text-xs text-text-faint">
+                {companies ? companies.map((c) => c.ticker).join(" · ") : "loading…"}
+              </div>
             </div>
             <div className="flex items-start gap-3 pl-8">
               <Layers className="mt-0.5 shrink-0 text-mint" size={20} />
@@ -154,26 +176,31 @@ export function Landing() {
 
         <Reveal delay={120} className="mt-10">
           <div className="rounded-2xl border border-border bg-raised p-8">
-            <div className="flex items-start justify-between gap-4">
-              <blockquote className="text-xl font-medium leading-snug text-text">
-                "The iPhone 16 family performed stronger than models lacking Apple intelligence."
-              </blockquote>
-              <VerdictBadge verdict="VERIFIED" />
-            </div>
-            <div className="mt-6 grid grid-cols-2 gap-4 text-sm">
-              <div className="rounded-lg border border-border bg-base px-4 py-3">
-                <div className="text-xs uppercase tracking-wide text-text-faint">Timestamp</div>
-                <div className="mt-1 text-text">1376s (22:56)</div>
-              </div>
-              <div className="rounded-lg border border-border bg-base px-4 py-3">
-                <div className="text-xs uppercase tracking-wide text-text-faint">Source text</div>
-                <div className="mt-1 text-text">
-                  "performance on the iPhone 16 family was stronger than those where Apple
-                  intelligence was not"
+            {exampleClaim ? (
+              <>
+                <div className="flex items-start justify-between gap-4">
+                  <blockquote className="text-xl font-medium leading-snug text-text">
+                    "{exampleClaim.claim}"
+                  </blockquote>
+                  <VerdictBadge verdict={exampleClaim.verdict} />
                 </div>
-              </div>
-            </div>
-            <div className="mt-4 text-xs text-text-faint">Apple · Q1 2025 earnings call</div>
+                <div className="mt-6 grid grid-cols-2 gap-4 text-sm">
+                  <div className="rounded-lg border border-border bg-base px-4 py-3">
+                    <div className="text-xs uppercase tracking-wide text-text-faint">Timestamp</div>
+                    <div className="mt-1 text-text">
+                      {exampleClaim.timestamp_sec}s ({formatTimestamp(exampleClaim.timestamp_sec)})
+                    </div>
+                  </div>
+                  <div className="rounded-lg border border-border bg-base px-4 py-3">
+                    <div className="text-xs uppercase tracking-wide text-text-faint">Source text</div>
+                    <div className="mt-1 text-text">"{exampleClaim.evidence}"</div>
+                  </div>
+                </div>
+                <div className="mt-4 text-xs text-text-faint">{EXAMPLE_CALL.label}</div>
+              </>
+            ) : (
+              <div className="py-6 text-center text-sm text-text-faint">Loading a real claim…</div>
+            )}
           </div>
         </Reveal>
       </section>
@@ -182,7 +209,9 @@ export function Landing() {
       <section className="border-t border-border px-10 py-20 text-center">
         <Reveal>
           <h2 className="text-2xl font-medium text-text">See it on a real call.</h2>
-          <p className="mt-2 text-text-muted">16 calls, already processed, waiting in the dashboard.</p>
+          <p className="mt-2 text-text-muted">
+            {callCount ?? "Several"} calls, already processed, waiting in the dashboard.
+          </p>
           <Link
             to="/app"
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-mint px-6 py-3 text-sm font-medium text-[#06120c] transition-opacity hover:opacity-90"
