@@ -18,9 +18,11 @@ export function ClaimDetail() {
   const [claims, setClaims] = useState<KeyClaim[] | null>(null);
   const [transcript, setTranscript] = useState<Transcript | null>(null);
   const [playing, setPlaying] = useState(false);
+  const [audioReady, setAudioReady] = useState(false);
 
   const waveformRef = useRef<HTMLDivElement>(null);
   const wsRef = useRef<WaveSurfer | null>(null);
+  const regionsRef = useRef<InstanceType<typeof RegionsPlugin> | null>(null);
 
   useEffect(() => {
     api.getClaims(ticker, quarter).then((d) => setClaims(d.claims));
@@ -29,10 +31,17 @@ export function ClaimDetail() {
 
   const claim = claims?.[idx];
 
+  // Load the audio ONCE per call — not per claim. Recreating WaveSurfer on every claim change
+  // meant re-downloading and re-decoding the whole file each time, which is why the waveform
+  // often looked empty: it just hadn't finished decoding yet.
   useEffect(() => {
-    if (!claim || !waveformRef.current) return;
+    if (!waveformRef.current) return;
+    setAudioReady(false);
 
-    wsRef.current?.destroy();
+    // Guard against React StrictMode's dev-mode double-invoke: the first instance can get
+    // destroy()'d mid-load, and without this flag its late "ready" event would still fire and
+    // wire up a dead WaveSurfer instance, leaving the waveform permanently blank.
+    let cancelled = false;
     const ws = WaveSurfer.create({
       container: waveformRef.current,
       waveColor: "#2a3029",
@@ -43,23 +52,42 @@ export function ClaimDetail() {
     });
     const regions = ws.registerPlugin(RegionsPlugin.create());
 
+    ws.on("ready", () => {
+      if (cancelled) return;
+      ws.zoom(40);
+      regionsRef.current = regions;
+      wsRef.current = ws;
+      setAudioReady(true);
+    });
+    ws.on("play", () => !cancelled && setPlaying(true));
+    ws.on("pause", () => !cancelled && setPlaying(false));
+    ws.on("finish", () => !cancelled && setPlaying(false));
+
+    return () => {
+      cancelled = true;
+      ws.destroy();
+      if (wsRef.current === ws) {
+        wsRef.current = null;
+        regionsRef.current = null;
+      }
+    };
+    // `claims` loading is in the deps deliberately: until it resolves, the component renders a
+    // "Loading…" placeholder instead of the waveform container, so `waveformRef.current` is null
+    // on the first run of this effect. Re-running once `claims` flips from null to loaded is what
+    // lets this retry after the real container has mounted. It does NOT depend on `idx`/`claim`,
+    // so navigating between claims in the same call never re-triggers a reload.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ticker, quarter, !!claims]);
+
+  // Moving between claims just repositions the highlighted region on the already-loaded audio.
+  useEffect(() => {
+    if (!audioReady || !claim || !wsRef.current || !regionsRef.current) return;
+    regionsRef.current.clearRegions();
     const start = Math.max(0, claim.timestamp_sec - WINDOW_BEFORE);
     const end = claim.timestamp_sec + WINDOW_AFTER;
-
-    ws.on("ready", () => {
-      ws.zoom(40);
-      regions.addRegion({ start, end, color: "rgba(62,207,142,0.15)", drag: false, resize: false });
-      ws.setTime(start);
-      ws.setScrollTime?.(Math.max(0, start - 3));
-    });
-    ws.on("play", () => setPlaying(true));
-    ws.on("pause", () => setPlaying(false));
-    ws.on("finish", () => setPlaying(false));
-
-    wsRef.current = ws;
-    return () => ws.destroy();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [claim?.timestamp_sec, ticker, quarter]);
+    regionsRef.current.addRegion({ start, end, color: "rgba(62,207,142,0.15)", drag: false, resize: false });
+    wsRef.current.setTime(start);
+  }, [audioReady, claim?.timestamp_sec]);
 
   if (!claims || !claim) {
     return <div className="px-10 py-10 text-sm text-text-faint">Loading…</div>;
@@ -126,12 +154,21 @@ export function ClaimDetail() {
           Evidence from transcript
           <button
             onClick={() => wsRef.current?.playPause()}
-            className="flex items-center gap-1.5 rounded-full bg-mint px-3 py-1 text-xs font-medium text-[#06120c]"
+            disabled={!audioReady}
+            className="flex items-center gap-1.5 rounded-full bg-mint px-3 py-1 text-xs font-medium text-[#06120c] disabled:cursor-not-allowed disabled:opacity-40"
           >
-            {playing ? <Pause size={12} /> : <Play size={12} />} {playing ? "Pause" : "Play"}
+            {playing ? <Pause size={12} /> : <Play size={12} />}{" "}
+            {audioReady ? (playing ? "Pause" : "Play") : "Loading…"}
           </button>
         </div>
-        <div ref={waveformRef} className="overflow-hidden rounded-lg border border-border bg-raised p-3" />
+        <div className="relative overflow-hidden rounded-lg border border-border bg-raised p-3">
+          {!audioReady && (
+            <div className="flex h-16 items-center justify-center text-xs text-text-faint">
+              Decoding audio…
+            </div>
+          )}
+          <div ref={waveformRef} className={audioReady ? "" : "hidden"} />
+        </div>
       </div>
 
       {(contextBefore || contextAfter) && (

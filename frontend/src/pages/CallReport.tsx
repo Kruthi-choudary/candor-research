@@ -16,6 +16,7 @@ export function CallReport() {
   const [claims, setClaims] = useState<KeyClaim[] | null>(null);
   const [transcript, setTranscript] = useState<Transcript | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [currentTime, setCurrentTime] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
@@ -84,7 +85,15 @@ export function CallReport() {
         ))}
       </div>
 
-      <audio ref={audioRef} src={api.audioUrl(ticker, quarter)} className="hidden" />
+      {tab === "transcript" && (
+        <audio
+          ref={audioRef}
+          src={api.audioUrl(ticker, quarter)}
+          controls
+          onTimeUpdate={(e) => setCurrentTime(e.currentTarget.currentTime)}
+          className="sticky top-0 z-10 mt-4 h-10 w-full rounded-lg bg-raised"
+        />
+      )}
 
       {tab === "overview" && (
         <div className="mt-6 flex flex-col gap-6">
@@ -159,20 +168,28 @@ export function CallReport() {
       )}
 
       {tab === "transcript" && transcript && (
-        <div className="mt-6 flex flex-col gap-1">
-          {transcript.segments.map((seg, i) => (
-            <button
-              key={i}
-              onClick={() => seekTo(seg.start)}
-              className="group flex items-start gap-3 rounded-lg px-3 py-2 text-left transition-colors hover:bg-raised"
-            >
-              <span className="mt-0.5 flex items-center gap-1 text-xs text-text-faint">
-                <Play size={10} className="opacity-0 group-hover:opacity-100" />
-                {formatTimestamp(seg.start)}
-              </span>
-              <span className="text-sm text-text-muted group-hover:text-text">{seg.text}</span>
-            </button>
-          ))}
+        <div className="mt-2 flex flex-col gap-1">
+          {transcript.segments.map((seg, i) => {
+            const next = transcript.segments[i + 1];
+            const isActive = currentTime >= seg.start && (!next || currentTime < next.start) && currentTime > 0;
+            return (
+              <button
+                key={i}
+                onClick={() => seekTo(seg.start)}
+                className={`group flex items-start gap-3 rounded-lg border-l-2 px-3 py-2 text-left transition-colors ${
+                  isActive ? "border-mint bg-mint/5" : "border-transparent hover:bg-raised"
+                }`}
+              >
+                <span className={`mt-0.5 flex items-center gap-1 text-xs ${isActive ? "text-mint" : "text-text-faint"}`}>
+                  <Play size={10} className={isActive ? "opacity-100" : "opacity-0 group-hover:opacity-100"} />
+                  {formatTimestamp(seg.start)}
+                </span>
+                <span className={`text-sm group-hover:text-text ${isActive ? "text-text" : "text-text-muted"}`}>
+                  {seg.text}
+                </span>
+              </button>
+            );
+          })}
         </div>
       )}
     </div>
