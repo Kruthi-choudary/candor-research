@@ -3,52 +3,46 @@
   "quarter": "Q1_2025",
   "claims": [
     {
-      "claim": null,
+      "claim": "iPhone 16 performed well in places where it was released with Apple Intelligence, compared to places where Apple Intelligence wasn't released with iPhone 16.",
       "sentiment": "positive",
       "evidence_hint": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
       "timestamp_sec": 1376
     },
     {
-      "claim": null,
+      "claim": "Products revenue increased 2%, driven by growth in iPad and Mac sales.",
       "sentiment": "positive",
       "evidence_hint": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
       "timestamp_sec": 830
     },
     {
-      "claim": null,
+      "claim": "Services revenue increased 14% from last year in the December quarter.",
       "sentiment": "positive",
       "evidence_hint": "growing 14% from a year ago.",
       "timestamp_sec": 586
     },
     {
-      "claim": null,
+      "claim": "Mac revenue increased 16% from last year.",
       "sentiment": "positive",
       "evidence_hint": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by",
       "timestamp_sec": 386
     },
     {
-      "claim": null,
+      "claim": "Wearables, Home and Accessories revenue decreased 2% from last year.",
       "sentiment": "negative",
       "evidence_hint": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
       "timestamp_sec": 1054
     },
     {
-      "claim": null,
+      "claim": "Greater China revenue decreased 11% year-over-year, largely due to a change in channel inventory.",
       "sentiment": "negative",
       "evidence_hint": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
       "timestamp_sec": 1492
     },
     {
-      "claim": null,
+      "claim": "The stronger dollar will reduce reported revenue growth by about 2.5 percentage points, but the company still expects March quarter revenue to grow low-to-mid single digits year-over-year.",
       "sentiment": "negative",
       "evidence_hint": "With that headwind, we expect our March quarter total company revenue to grow low to",
       "timestamp_sec": 1256
-    },
-    {
-      "claim": null,
-      "sentiment": "negative",
-      "evidence_hint": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
-      "timestamp_sec": 1249
     }
   ]
 }

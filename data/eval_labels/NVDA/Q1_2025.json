@@ -1,0 +1,55 @@
+{
+  "ticker": "NVDA",
+  "quarter": "Q1_2025",
+  "source": "ai_drafted_pending_human_review",
+  "claims": [
+    {
+      "claim": "GAAP gross margin expanded sequentially to 78.4% (non-GAAP to 78.9%), aided by lower inventory charges.",
+      "sentiment": "positive",
+      "evidence_hint": "and non-gap growth margins to 78.9% on lower inventory charges.",
+      "timestamp_sec": 1296
+    },
+    {
+      "claim": "GAAP operating expenses rose 10% sequentially (non-GAAP up 13%), driven by higher compensation costs and increased compute/infrastructure investment.",
+      "sentiment": "positive",
+      "evidence_hint": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up",
+      "timestamp_sec": 1309
+    },
+    {
+      "claim": "Automotive revenue was $329 million, up 17% sequentially and 11% year-over-year.",
+      "sentiment": "positive",
+      "evidence_hint": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year.",
+      "timestamp_sec": 1232
+    },
+    {
+      "claim": "Total revenue was $26 billion, up 18% sequentially and 262% year-over-year, above the $24 billion outlook.",
+      "sentiment": "positive",
+      "evidence_hint": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our",
+      "timestamp_sec": 141
+    },
+    {
+      "claim": "Gaming revenue was $2.65 billion, down 8% sequentially but up 18% year-over-year, consistent with the expected seasonal decline.",
+      "sentiment": "negative",
+      "evidence_hint": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and",
+      "timestamp_sec": 1037
+    },
+    {
+      "claim": "ProViz revenue was $427 million, down 8% sequentially but up 45% year-over-year.",
+      "sentiment": "negative",
+      "evidence_hint": "Moving to ProViz, revenue of 427 million was down 8% sequentially and up 45% year on year.",
+      "timestamp_sec": 1149
+    },
+    {
+      "claim": "Data center revenue in China is down significantly from pre-October export-control-restriction levels.",
+      "sentiment": "negative",
+      "evidence_hint": "Our data center revenue in China is down significantly from the level prior to the imposition of",
+      "timestamp_sec": 582
+    },
+    {
+      "claim": "NVIDIA's China business is substantially lower than historical levels and more competitive now due to technology export limitations.",
+      "sentiment": "negative",
+      "evidence_hint": "It is the case that our business in China is substantially lower than the levels of",
+      "timestamp_sec": 3204
+    }
+  ]
+}

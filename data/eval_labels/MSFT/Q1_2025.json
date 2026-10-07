@@ -1,0 +1,55 @@
+{
+  "ticker": "MSFT",
+  "quarter": "Q1_2025",
+  "source": "ai_drafted_pending_human_review",
+  "claims": [
+    {
+      "claim": "M365 consumer products and cloud services revenue grew 5% (6% in constant currency).",
+      "sentiment": "positive",
+      "evidence_hint": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+      "timestamp_sec": 1386
+    },
+    {
+      "claim": "LinkedIn revenue grew 10% (9% in constant currency), slightly ahead of expectations, with growth across all lines of business.",
+      "sentiment": "positive",
+      "evidence_hint": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+      "timestamp_sec": 1412
+    },
+    {
+      "claim": "Operating margin was 47%, down 1 point year-over-year, but excluding the Activision acquisition's impact, margin was up 1 point.",
+      "sentiment": "positive",
+      "evidence_hint": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0.",
+      "timestamp_sec": 1310
+    },
+    {
+      "claim": "M365 commercial products revenue grew 2% (3% in constant currency), ahead of expectations due to in-period revenue recognition benefits.",
+      "sentiment": "positive",
+      "evidence_hint": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,",
+      "timestamp_sec": 1376
+    },
+    {
+      "claim": "Free cash flow was $19.3 billion, down 7% year-over-year, due to higher capital expenditures for cloud and AI.",
+      "sentiment": "negative",
+      "evidence_hint": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+      "timestamp_sec": 1689
+    },
+    {
+      "claim": "Enterprise and partner services revenue decreased 1% (relatively unchanged in constant currency).",
+      "sentiment": "negative",
+      "evidence_hint": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+      "timestamp_sec": 1528
+    },
+    {
+      "claim": "On-premises server business revenue decreased 1%, due to lower-than-expected transactional purchasing ahead of the Windows Server 2025 launch.",
+      "sentiment": "negative",
+      "evidence_hint": "In our on-premises server business, revenue decreased 1%.",
+      "timestamp_sec": 1509
+    },
+    {
+      "claim": "Microsoft Cloud gross margin decreased 2 points year-over-year to 71%, due to scaling AI infrastructure investments.",
+      "sentiment": "negative",
+      "evidence_hint": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+      "timestamp_sec": 1245
+    }
+  ]
+}

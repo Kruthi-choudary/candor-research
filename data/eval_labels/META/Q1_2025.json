@@ -1,0 +1,55 @@
+{
+  "ticker": "META",
+  "quarter": "Q1_2025",
+  "source": "ai_drafted_pending_human_review",
+  "claims": [
+    {
+      "claim": "Ad revenue growth was strongest in Rest of World (19%) and North America (18%), with Europe and Asia-Pacific growing 14% and 12%.",
+      "sentiment": "positive",
+      "evidence_hint": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at",
+      "timestamp_sec": 898
+    },
+    {
+      "claim": "Marketing and sales expenses increased 8%, driven mainly by professional services related to platform integrity efforts.",
+      "sentiment": "positive",
+      "evidence_hint": "infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in",
+      "timestamp_sec": 764
+    },
+    {
+      "claim": "Cost of revenue increased 14%, driven by higher infrastructure costs and partner payments, partially offset by extended server useful life benefits.",
+      "sentiment": "positive",
+      "evidence_hint": "cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and",
+      "timestamp_sec": 745
+    },
+    {
+      "claim": "R&D expenses increased 22%, mostly due to higher employee compensation and infrastructure costs.",
+      "sentiment": "positive",
+      "evidence_hint": "of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and",
+      "timestamp_sec": 756
+    },
+    {
+      "claim": "Reality Labs Q1 revenue was $412 million, down 6% year-over-year due to lower Meta Quest sales, partially offset by Ray-Ban Meta AI glasses sales.",
+      "sentiment": "negative",
+      "evidence_hint": "was 412 million dollars, down 6 percent year over year due to lower meta quest sales,",
+      "timestamp_sec": 998
+    },
+    {
+      "claim": "Government and politics ad vertical growth dropped sharply year-over-year as expected following the US elections, though it remains a small vertical overall.",
+      "sentiment": "negative",
+      "evidence_hint": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall.",
+      "timestamp_sec": 3516
+    },
+    {
+      "claim": "Gaming ad vertical growth was negative year-over-year in Q1, lapping strong China-based advertiser spend from Q1 2024.",
+      "sentiment": "negative",
+      "evidence_hint": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024.",
+      "timestamp_sec": 3498
+    },
+    {
+      "claim": "G&A expenses decreased 34%, driven primarily by lower legal-related costs.",
+      "sentiment": "negative",
+      "evidence_hint": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over",
+      "timestamp_sec": 777
+    }
+  ]
+}
