@@ -24,6 +24,11 @@ React (Vite + TS)  ──HTTP──▶  FastAPI (api/main.py)  ──reads/write
                                       └──calls──▶  pipeline.py  ──orchestrates──▶  src/*
 ```
 
+**Why Vite, not Next.js:** this is a local SPA that only ever runs on localhost for one
+person — there's no SSR, SEO, or multi-route-server need for Next.js to actually solve.
+Vite gets the same React/TypeScript/Tailwind stack running with less configuration and
+nothing unused sitting in the project.
+
 - **Frontend** (`frontend/`): Vite + React 19 + TypeScript + Tailwind v4. Dashboard, per-call
   report (overview / claims / transcript tabs), a claim-detail view with a WaveSurfer.js
   waveform player, and an evaluation page. Talks to the API only — no hardcoded report data.
