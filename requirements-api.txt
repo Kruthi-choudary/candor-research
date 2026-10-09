@@ -1,0 +1,7 @@
+# Minimal dependencies for READ_ONLY_MODE=true (the public demo deployment) -- serves the
+# committed data/processed/*.json only, never imports pipeline.py (no Whisper/FinBERT/
+# llama-index/Groq, which together are several GB and unnecessary for read-only serving).
+# For local full-pipeline use, install requirements.txt instead.
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+PyYAML==6.0.3

@@ -191,6 +191,33 @@ add a Groq key, then run the same `pipeline.py` command without `--force` needed
 pipeline degrades gracefully (logs a warning, continues without cross-quarter context)
 rather than failing the whole run.
 
+## Deploying (optional — a public, read-only demo)
+
+This deploys **Tier 1 only** — the 16 committed calls, browsable by anyone, no audio
+playback, no live processing. Deliberately not full pipeline hosting: that would need an
+always-on server and would share your Groq key across all traffic. Two free services,
+no server of your own:
+
+**API, on Render:**
+1. [render.com](https://render.com) → sign in with GitHub → **New → Blueprint** → select
+   this repo. `render.yaml` pre-fills everything (`requirements-api.txt` only — a few MB,
+   not the multi-GB Whisper/FinBERT/llama-index stack — and `READ_ONLY_MODE=true`, which
+   makes `POST /analyze` return 403 without ever importing the heavy pipeline code).
+2. Leave `ALLOWED_ORIGINS` blank for now — set it after step 2 below.
+3. Deploy. You'll get a URL like `https://candor-api-xxxx.onrender.com`. Free tier sleeps
+   after 15 minutes idle; the first request after that takes ~30s to wake it up.
+
+**Frontend, on Vercel:**
+1. [vercel.com](https://vercel.com) → sign in with GitHub → **Add New → Project** → select
+   this repo.
+2. Set **Root Directory** to `frontend`.
+3. Add an environment variable `VITE_API_BASE_URL` = the Render URL from above.
+4. Deploy. You'll get a URL like `https://candor-xxxx.vercel.app`.
+
+**Connect them:** back on Render → your service → **Environment** → set `ALLOWED_ORIGINS`
+to the Vercel URL from step 4 → save (Render redeploys automatically). Without this, the
+browser blocks the frontend's requests to the API as a CORS error.
+
 ## Scope — what this deliberately is not
 
 A local demo you run yourself, not a public hosted site: this was a conscious choice, not a

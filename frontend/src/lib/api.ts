@@ -1,4 +1,7 @@
-const BASE = "/api";
+// Local dev: Vite proxies "/api" to the local FastAPI server (see vite.config.ts).
+// Production build: set VITE_API_BASE_URL to the deployed API's full URL (e.g. a Render
+// service) at build time -- see README "Deploying".
+const BASE = import.meta.env.VITE_API_BASE_URL ?? "/api";
 
 export interface Company {
   ticker: string;

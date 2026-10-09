@@ -1,7 +1,11 @@
-"""Minimal local API serving the Candor pipeline — this runs on your own machine for your own
-demo, not a public-facing service (see the hosting scope decision in project memory). Just
-enough endpoints for the frontend (frontend/) to list calls, fetch a processed report, play the
-source audio, or trigger a new run:
+"""Candor API. Two deployment modes, same code:
+
+- Local (default): full pipeline, POST /analyze works, `requirements.txt` (includes
+  Whisper/FinBERT/llama-index/Groq — multiple GB).
+- Read-only (READ_ONLY_MODE=true): serves the committed data/processed/*.json only.
+  POST /analyze returns 403 without ever importing pipeline.py, so this mode only needs
+  `requirements-api.txt` (fastapi/uvicorn/PyYAML — a few MB). This is the mode used for the
+  public read-only demo deployment — see README "Deploying".
 
     uvicorn api.main:app --reload
 
@@ -10,18 +14,18 @@ GET  /calls                                -> every processed call, with summary
 GET  /calls/{ticker}/{quarter}              -> that call's standardized report (src/common/schema.py)
 GET  /calls/{ticker}/{quarter}/claims       -> key claims merged with their per-citation verdict
 GET  /calls/{ticker}/{quarter}/transcript   -> raw transcript segments
-GET  /calls/{ticker}/{quarter}/audio        -> the source mp3, for playback
+GET  /calls/{ticker}/{quarter}/audio        -> the source mp3, for playback (404 if not present)
 GET  /eval/summary                         -> baseline-vs-structured comparison + claim coverage
-POST /analyze?ticker=X&quarter=Y            -> run the pipeline for a call (reuses cached stages)
+POST /analyze?ticker=X&quarter=Y            -> run the pipeline for a call (disabled in read-only mode)
 """
 import json
+import os
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 
-from pipeline import run_pipeline
 from src.common.config import load_companies
 from src.common.errors import PipelineError
 from src.common.logging_setup import setup_logging
@@ -32,13 +36,17 @@ PIPELINE_RUNS_DIR = ROOT / "data" / "processed" / "pipeline_runs"
 EVAL_DIR = ROOT / "data" / "processed" / "eval"
 CLAIMS_DIR = ROOT / "data" / "processed" / "reports_structured_citations_v1"
 
+READ_ONLY_MODE = os.environ.get("READ_ONLY_MODE", "false").lower() == "true"
+
 setup_logging()
 app = FastAPI(title="Candor API", version="1.0")
 
-# Local-only demo: frontend dev server runs on a different port, same machine.
+# Local dev origins always allowed; add the deployed frontend's real origin via
+# ALLOWED_ORIGINS (comma-separated) once it exists, rather than hardcoding it here.
+_extra_origins = [o.strip() for o in os.environ.get("ALLOWED_ORIGINS", "").split(",") if o.strip()]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", *_extra_origins],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -155,6 +163,14 @@ def eval_summary():
 
 @app.post("/analyze")
 def analyze(ticker: str, quarter: str = None, date: str = None, force: bool = False):
+    if READ_ONLY_MODE:
+        raise HTTPException(
+            status_code=403,
+            detail="This is the public read-only demo — live pipeline processing is disabled. "
+                   "Clone the repo and run it locally to process a new call (see README).",
+        )
+    from pipeline import run_pipeline  # lazy: keeps this heavy import out of read-only mode entirely
+
     try:
         return run_pipeline(ticker, quarter=quarter, date=date, force=force)
     except PipelineError as e:
