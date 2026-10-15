@@ -18,11 +18,15 @@ TOP_K_QUOTES = _cfg["generation"]["top_k_quotes"]
 MAX_TOKENS = _cfg["generation"]["max_tokens"]
 
 
-def load_scored_segments(ticker: str, quarter: str) -> list:
+def load_segments(ticker: str, quarter: str) -> list:
     path = SENTIMENT_DIR / ticker / f"{quarter}.json"
     with open(path) as f:
         data = json.load(f)
-    return [s for s in data["segments"] if s["sentiment"]]
+    return data["segments"]
+
+
+def load_scored_segments(ticker: str, quarter: str) -> list:
+    return [s for s in load_segments(ticker, quarter) if s.get("sentiment")]
 
 
 def sentiment_distribution(segments: list) -> dict:

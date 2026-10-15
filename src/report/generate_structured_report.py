@@ -6,9 +6,10 @@ from groq import Groq
 
 from src.common.config import load_pipeline_config
 from src.common.errors import PipelineError
+from src.report.evidence import EVIDENCE_POLICY, select_evidence_passages
 from src.report.generate_report import (
     COMPANIES, SENTIMENT_DIR, ENV_PATH, MODEL_NAME, TOP_K_QUOTES,
-    load_scored_segments, sentiment_distribution, top_quotes,
+    load_segments, sentiment_distribution,
 )
 
 _cfg = load_pipeline_config()
@@ -77,20 +78,24 @@ Company: {company} ({ticker})
 Quarter: {quarter}
 FinBERT sentiment distribution: {distribution['positive']}% positive, {distribution['negative']}% negative, {distribution['neutral']}% neutral.
 
-Positively-scored source quotes (use only these for positive claims):
+Source passages selected around positively-scored transcript segments:
 {quote_lines(positive_quotes)}
 
-Negatively-scored source quotes (use only these for negative claims):
+Source passages selected around negatively-scored transcript segments:
 {quote_lines(negative_quotes)}{prior_block}
 
-For each source quote above, produce one claim object. Each claim's citation.timestamp_sec and citation.source_text MUST be copied exactly from one of the quotes listed above — do not invent, paraphrase, or combine quotes. Then write a short overall_summary (2-3 sentences) synthesizing the claims and the sentiment distribution."""
+The selection groups describe the seed segment's FinBERT score, not the sentiment of the complete passage or the claim. Read the whole passage, including qualifications and negations; assign each claim's sentiment from its meaning, independently of the selection group. Punctuation-based grouping does not establish speaker identity or guarantee complete context.
+
+For each source passage that supports a clear claim, produce at most one claim object. Omit passages that are ambiguous or insufficient; never complete a thought by guessing. Each claim's citation.timestamp_sec and citation.source_text MUST be copied exactly from one of the passages listed above — do not invent, paraphrase, shorten, or combine passages. Preserve numeric ranges and qualifications in the claim. Prior context must not introduce facts absent from the cited current-call passage. Then write a short overall_summary (2-3 sentences) synthesizing the supported claims and the sentiment distribution. If no passages support a claim, return an empty claims array and explain the limitation."""
 
 
 def generate_structured(ticker: str, quarter: str, client: Groq, prior_context: list = None) -> dict:
-    segments = load_scored_segments(ticker, quarter)
-    distribution = sentiment_distribution(segments)
-    positive_quotes = top_quotes(segments, "positive", TOP_K_QUOTES)
-    negative_quotes = top_quotes(segments, "negative", TOP_K_QUOTES)
+    segments = load_segments(ticker, quarter)
+    scored = [s for s in segments if s.get("sentiment")]
+    if not scored:
+        raise PipelineError(f"No scored segments for {ticker} {quarter}.")
+    distribution = sentiment_distribution(scored)
+    positive_quotes, negative_quotes = select_evidence_passages(segments, TOP_K_QUOTES)
 
     prompt = build_structured_prompt(ticker, quarter, distribution, positive_quotes, negative_quotes, prior_context)
     try:
@@ -104,7 +109,16 @@ def generate_structured(ticker: str, quarter: str, client: Groq, prior_context: 
         raise PipelineError(f"Groq API call failed for {ticker} {quarter}: {e}") from e
 
     try:
-        return json.loads(response.choices[0].message.content)
+        result = json.loads(response.choices[0].message.content)
+        allowed = {(int(q["start"]), q["text"].strip()) for q in positive_quotes + negative_quotes}
+        for claim in result["claims"]:
+            citation = claim["citation"]
+            if (citation["timestamp_sec"], citation["source_text"].strip()) not in allowed:
+                raise PipelineError(
+                    f"Generated citation is not an exact provided passage for {ticker} {quarter}."
+                )
+        result["evidence_policy"] = EVIDENCE_POLICY
+        return result
     except json.JSONDecodeError as e:
         raise PipelineError(f"LLM returned malformed JSON for {ticker} {quarter}: {e}") from e
 

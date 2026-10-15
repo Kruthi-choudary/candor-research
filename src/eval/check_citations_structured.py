@@ -4,6 +4,7 @@ from pathlib import Path
 
 from src.common.config import load_pipeline_config
 from src.eval.check_citations import normalize
+from src.report.evidence import EVIDENCE_POLICY, passage_at
 
 _cfg = load_pipeline_config()
 
@@ -20,8 +21,19 @@ SENTIMENT_DIR = Path(__file__).parent.parent.parent / "data" / "processed" / "se
 OUTPUT_PATH = Path(__file__).parent.parent.parent / "data" / "processed" / "eval" / f"citation_accuracy_{RUN_LABEL}.json"
 
 
-def find_segment_at(segments: list, target_sec: float, source_text: str) -> dict:
+def find_segment_at(segments: list, target_sec: float, source_text: str,
+                    require_complete: bool = False) -> dict:
     candidates = [s for s in segments if abs(s["start"] - target_sec) <= TIMESTAMP_TOLERANCE_SEC]
+    if require_complete:
+        # New reports must cite a complete contiguous passage at its copied integer
+        # start. Do not let the legacy fuzzy matcher bless a cut-off fragment.
+        candidates = []
+        for i, s in enumerate(segments):
+            if int(s["start"]) != target_sec:
+                continue
+            passage = passage_at(segments, i)
+            if passage and passage["segment_start"] == i:
+                candidates.append(passage)
     if not candidates:
         return None
     return max(candidates, key=lambda s: SequenceMatcher(None, normalize(source_text), normalize(s["text"])).ratio())
@@ -31,13 +43,14 @@ def check_report(ticker: str, quarter: str) -> dict:
     report_path = REPORTS_DIR / ticker / f"{quarter}.json"
     sentiment_path = SENTIMENT_DIR / ticker / f"{quarter}.json"
 
-    report = json.load(open(report_path))
-    segments = json.load(open(sentiment_path))["segments"]
+    report = json.loads(report_path.read_text())
+    segments = json.loads(sentiment_path.read_text())["segments"]
+    require_complete = report.get("evidence_policy") == EVIDENCE_POLICY
 
     citations = []
     for c in report["claims"]:
         citation = c["citation"]
-        segment = find_segment_at(segments, citation["timestamp_sec"], citation["source_text"])
+        segment = find_segment_at(segments, citation["timestamp_sec"], citation["source_text"], require_complete)
 
         if segment is None:
             citations.append({"claim": c["claim"], "source_text": citation["source_text"],
@@ -45,7 +58,11 @@ def check_report(ticker: str, quarter: str) -> dict:
             continue
 
         ratio = SequenceMatcher(None, normalize(citation["source_text"]), normalize(segment["text"])).ratio()
-        verdict = "VERIFIED" if ratio >= MATCH_THRESHOLD else "TEXT_MISMATCH"
+        matches = (
+            citation["source_text"].strip() == segment["text"].strip()
+            if require_complete else ratio >= MATCH_THRESHOLD
+        )
+        verdict = "VERIFIED" if matches else "TEXT_MISMATCH"
         citations.append({
             "claim": c["claim"],
             "source_text": citation["source_text"],

@@ -105,8 +105,8 @@ flowchart TD
 2. **Sentiment:** `ProsusAI/finbert` classifies each non-empty segment as positive, negative or neutral. The reported distribution is the percentage of segments in each class, not a measure of investor opinion.
 3. **Vocal measurements:** `librosa` extracts pitch, energy, pauses and speaking rate. These are summarized alongside the report; they are not inputs to claim generation.
 4. **Retrieval:** LlamaIndex queries PostgreSQL/pgvector using `BAAI/bge-small-en-v1.5` embeddings. Before vector search, metadata filters restrict candidates to the same company and quarters with recorded call dates strictly earlier than the target call. Returned results are checked against that eligibility list again. Missing or invalid target dates yield no context, and the earliest call needs no search. Ordering depends on the dates in `data/processed/call_dates.json`, which were collected from feed metadata and still need independent source verification. If retrieval fails, processing continues without it. **Older saved reports have not yet been regenerated with this fix.**
-5. **Generation:** the configured Groq-hosted model, `openai/gpt-oss-120b`, receives sentiment percentages, up to four positive and four negative source quotes, and optional retrieved context. It is asked to return one claim per quote and a short summary in a JSON-schema-constrained response. **It does not receive the full current-call transcript.**
-6. **Citation matching:** a separate checker finds transcript segments starting within two seconds of each citation and checks normalized text similarity against a `0.6` threshold. Match results are recorded before the standardized report is saved; a failed match does not automatically remove the claim.
+5. **Generation:** the configured Groq-hosted model, `openai/gpt-oss-120b`, receives sentiment percentages, up to four passages selected from positive seeds and four from negative seeds, and optional retrieved context. New generation joins adjacent segments through sentence boundaries and asks for at most one supported claim per passage plus a short summary in a JSON-schema-constrained response. Claim sentiment is assessed independently of the seed's label. **It does not receive the full current-call transcript.** Existing saved reports were generated from isolated quotes.
+6. **Citation matching:** new complete-passage reports require an exact passage copy and its integer start timestamp. Legacy reports use normalized text similarity against a `0.6` threshold for segments starting within two seconds of the citation. Match results are recorded before the standardized report is saved; a failed match does not automatically remove the claim. Neither procedure verifies the meaning of the generated claim.
 
 The final output contains claims, evidence, timestamps, sentiment distribution, citation-match counts, audio-feature summaries, retrieved context and stage durations. See an [included Apple report](data/processed/pipeline_runs/AAPL/Q1_2025.json) and the [report contract](src/common/schema.py). `risks` and `management_outlook` are reserved fields and currently empty.
 
@@ -179,6 +179,22 @@ python -m unittest discover -s tests -v
 ```
 
 The tests cover strictly earlier dates, same-day exclusion, company isolation, missing dates, unavailable retrieval, result limits and the included dataset's chronology. They require no audio, model downloads or live database. An additional adapter test checks the installed LlamaIndex filter types with model and database operations substituted; it is skipped when those optional dependencies are unavailable.
+
+### Complete evidence passages
+
+New structured generation expands sentiment-selected segments into contiguous passages through sentence boundaries. It retains unscored neighbouring text, preserves numeric ranges and negations, and avoids overlapping selections. For example, Apple's split statement `grow low to` now includes `mid-single digits year-over-year.` rather than presenting the first fragment alone.
+
+Passages are limited to 12 segments, 220 words and 90 seconds, with no gap over 2.5 seconds between joined segments. Incomplete passages that cannot fit these limits are skipped. Known speaker-label changes are respected when labels exist; the included transcripts still lack speaker identification. Punctuation is only a boundary heuristic and does not guarantee complete meaning or context. FinBERT scores belong to the original seed segments, not the expanded passages.
+
+Preview the exact selected passages without audio, model inference, network requests or file changes:
+
+```bash
+python -m src.report.evidence --ticker AAPL --quarter Q1-2025
+```
+
+New structured outputs carry `evidence_policy: complete_passages_v1`. Generation rejects citations that do not exactly copy a supplied passage and its integer start timestamp. Citation evaluation for these reports checks complete passages with exact text matching. Older reports retain their original matching behaviour and need deliberate regeneration; these code changes do not repair existing generated claims or alter the saved benchmarks. The original free-text baseline is preserved for comparison.
+
+The Python regression suite above also checks split ranges, recovered negations, punctuation edge cases, size limits, gaps, duplicate passages, strict citations and all 16 included calls. A substituted generation client tests prompt inputs and citation rejection without calling an LLM; that test is skipped if optional generation dependencies are absent. Claim correctness still requires separate review.
 
 ### Frontend connection and fallback tests
 
@@ -294,7 +310,7 @@ Set `READ_ONLY_MODE=true` on the API and `ALLOWED_ORIGINS` to the exact frontend
 
 ## Known limitations
 
-- **Incomplete evidence:** transcription segments can end mid-sentence. Selecting isolated fragments can change or obscure a claim's meaning.
+- **Incomplete evidence in saved reports:** older outputs selected isolated fragments that can change or obscure meaning. New structured generation joins bounded passages, but saved reports still need regeneration and punctuation alone cannot establish complete context.
 - **Selection bias:** generation sees sentiment-selected quotes, not a comprehensive selection of financial facts or the full transcript.
 - **Older saved context:** new retrieval enforces historical eligibility, but 10 included reports still contain 21 later-quarter context passages from earlier runs. These reports and their generated claims need review and regeneration; removing context fields alone would not undo its possible influence on generation.
 - **Date provenance:** historical ordering follows recorded feed dates, not independently verified event timestamps. Incorrect date metadata can still produce an incorrect historical comparison.
@@ -311,7 +327,7 @@ These are outstanding work, not completed features.
 
 ### Reliability of the existing pipeline
 
-1. Construct complete evidence passages from adjacent transcript segments.
+1. Regenerate saved claims using the implemented complete-passage selection and review whether each passage actually supports its claim.
 2. Verify call-date sources and regenerate reports produced before historical filtering was fixed.
 3. Add an independent claim-support review alongside citation matching.
 4. Expand independently human-reviewed reference claims and record reviewer provenance.

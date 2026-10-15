@@ -20,6 +20,7 @@ def build_report(call_ref, structured_claims: dict, sentiment_distribution: dict
         "quarter": call_ref.quarter.replace("_", " "),
         "call_date": call_ref.call_date,
         "overall_summary": structured_claims["overall_summary"],
+        "evidence_policy": structured_claims.get("evidence_policy", "legacy_segments_v1"),
         "sentiment_distribution": sentiment_distribution,
         "key_claims": [
             {
