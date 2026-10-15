@@ -1,31 +1,18 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { Search, ArrowUpRight } from "lucide-react";
-import { api, type CallSummary } from "../lib/api";
+import { resources, useAnalysisResource } from "../hooks/useAnalysis";
+import { DataSourceNote } from "../components/DataStatus";
 import { formatDate, formatPercent } from "../lib/format";
 import { TickerBadge } from "../components/TickerBadge";
 import { SentimentBar } from "../components/SentimentBar";
-import { EmptyState, ErrorState, LoadingState } from "../components/States";
+import { EmptyState } from "../components/States";
 
 export function Dashboard() {
-  const [calls, setCalls] = useState<CallSummary[] | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const library = useAnalysisResource(resources.calls);
+  const calls = library.data!.calls;
   const [query, setQuery] = useState("");
   const [company, setCompany] = useState("All companies");
-  useEffect(() => {
-    let cancelled = false;
-    api
-      .listCalls()
-      .then((d) => {
-        if (!cancelled) setCalls(d.calls);
-      })
-      .catch((e) => {
-        if (!cancelled) setError(e.message);
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
   const sorted = useMemo(
     () =>
       [...(calls ?? [])].sort(
@@ -52,15 +39,14 @@ export function Dashboard() {
   return (
     <div className="container page reveal">
       <p className="eyebrow muted">The research desk</p>
-      <h1 className="page-title">Earnings, in perspective.</h1>
+      <h1 className="page-title">Inside the earnings conversation.</h1>
       <p className="page-description">
-        Explore the calls. Read the signals. Go straight to the source.
+        Inspect language, vocal measurements and source evidence from individual
+        calls. Executive-specific historical comparisons are still in
+        development.
       </p>
-      {error ? (
-        <ErrorState message={error} />
-      ) : !calls ? (
-        <LoadingState label="Opening the research library…" />
-      ) : calls.length === 0 ? (
+      <DataSourceNote sources={{ library: library.source }} />
+      {calls.length === 0 ? (
         <EmptyState
           title="The library is waiting."
           description="Processed earnings-call reports will appear here when available."
@@ -72,7 +58,11 @@ export function Dashboard() {
               <div className="metric-value">
                 {calls.length.toString().padStart(2, "0")}
               </div>
-              <p className="metric-label">Calls in the library</p>
+              <p className="metric-label">
+                {library.source === "demo"
+                  ? "Bundled sample calls"
+                  : "Calls in the library"}
+              </p>
             </div>
             <div className="metric">
               <div className="metric-value">
@@ -83,7 +73,10 @@ export function Dashboard() {
             <div className="metric">
               <div className="metric-value">{formatPercent(meanMatch)}</div>
               <p className="metric-label">
-                Mean citation-match rate · {measured.length} calls
+                {library.source === "demo"
+                  ? "Sample citation-match rate"
+                  : "Mean citation-match rate"}{" "}
+                · {measured.length} calls
               </p>
             </div>
           </div>
@@ -93,7 +86,11 @@ export function Dashboard() {
               aria-labelledby="latest-heading"
             >
               <div>
-                <p className="eyebrow text-brass">Latest in the library</p>
+                <p className="eyebrow text-brass">
+                  {library.source === "demo"
+                    ? "Explore a sample"
+                    : "Latest in the library"}
+                </p>
                 <h2 id="latest-heading" className="editorial">
                   {latest.company}
                   <br />

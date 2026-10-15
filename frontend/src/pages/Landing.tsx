@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   ArrowRight,
@@ -10,7 +9,9 @@ import {
 } from "lucide-react";
 import { Logo } from "../components/Logo";
 import { VerdictBadge } from "../components/VerdictBadge";
-import { api, type CallSummary, type KeyClaim } from "../lib/api";
+import { resources, useAnalysisResource } from "../hooks/useAnalysis";
+import { ConnectionStatus, DataSourceNote } from "../components/DataStatus";
+import { demo } from "../data/demo";
 import { formatTimestamp } from "../lib/format";
 
 const WORKFLOW = [
@@ -27,45 +28,24 @@ const WORKFLOW = [
   },
   {
     icon: FileText,
-    title: "The intelligence",
-    subtitle: "An evidence-backed brief",
+    title: "The research workspace",
+    subtitle: "Inspect signals and their sources",
   },
 ];
 
 export function Landing() {
-  const [calls, setCalls] = useState<CallSummary[] | null>(null);
-  const [claim, setClaim] = useState<KeyClaim | null>(null);
-  const [error, setError] = useState(false);
-  useEffect(() => {
-    let cancelled = false;
-    api
-      .listCalls()
-      .then(async ({ calls: data }) => {
-        if (cancelled) return;
-        setCalls(data);
-        const example = data.find((c) => c.ticker === "AAPL") ?? data[0];
-        if (example) {
-          const result = await api.getClaims(example.ticker, example.quarter);
-          if (!cancelled)
-            setClaim(
-              result.claims.find((c) => c.evidence.split(" ").length > 12) ??
-                result.claims[0] ??
-                null,
-            );
-        }
-      })
-      .catch(() => {
-        if (!cancelled) setError(true);
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-  const example = calls?.find((c) => c.ticker === "AAPL") ?? calls?.[0];
-  const exampleUrl = example
-    ? `/app/calls/${example.ticker}/${example.quarter}`
-    : "/app";
-  const companyCount = calls ? new Set(calls.map((c) => c.ticker)).size : null;
+  const library = useAnalysisResource(resources.calls);
+  const example = demo.calls[0]!;
+  const exampleClaims = useAnalysisResource(
+    resources.claims(example.ticker, example.quarter),
+  );
+  const calls = library.data?.calls ?? [];
+  const claim =
+    exampleClaims.data?.claims.find((c) => c.evidence.split(" ").length > 12) ??
+    exampleClaims.data?.claims[0] ??
+    null;
+  const exampleUrl = `/app/calls/${example.ticker}/${example.quarter}`;
+  const companyCount = new Set(calls.map((c) => c.ticker)).size;
 
   return (
     <>
@@ -84,15 +64,16 @@ export function Landing() {
               <ArrowUpRight size={13} className="inline" aria-hidden="true" />
             </Link>
           </nav>
-          <span className="header-note">Earnings, in perspective</span>
+          <span className="header-note">Language. Voice. Context.</span>
         </header>
       </div>
+      <ConnectionStatus />
       <main id="main-content" tabIndex={-1}>
         <div className="dark">
           <section className="hero container" aria-labelledby="hero-heading">
             <div className="reveal">
               <p className="eyebrow text-brass">
-                Financial intelligence. With a source.
+                Earnings-call communication research.
               </p>
               <h1 className="hero-title editorial" id="hero-heading">
                 The story behind
@@ -100,9 +81,14 @@ export function Landing() {
                 the <em>numbers.</em>
               </h1>
               <p className="hero-copy">
-                Turn earnings-call audio into evidence-backed intelligence.
-                Explore executive sentiment, vocal patterns, verified claims,
-                and the exact moments behind every conclusion.
+                What executives say. How they say it. What changes over time.
+                Candor’s goal is to compare each executive with their own
+                earlier calls and explain the differences with evidence.
+              </p>
+              <p className="caption muted mt-4 max-w-lg">
+                Current prototype: transcript sentiment, vocal measurements and
+                inspectable claims. Comparisons against an executive’s
+                historical baseline are still in development.
               </p>
               <div className="hero-actions">
                 <Link className="btn btn-brass" to="/app">
@@ -120,10 +106,14 @@ export function Landing() {
             </div>
             <article
               className="research-preview reveal"
-              aria-label="A live-fetched example from the research library"
+              aria-label="An example from the research library"
             >
               <div className="preview-masthead">
-                <span className="eyebrow">The evidence brief</span>
+                <span className="eyebrow">
+                  {exampleClaims.source === "demo"
+                    ? "Demo evidence brief"
+                    : "The evidence brief"}
+                </span>
                 <FileText size={17} color="#82662e" aria-hidden="true" />
               </div>
               <p className="caption muted mt-6">
@@ -146,7 +136,10 @@ export function Landing() {
                       to={`${exampleUrl}?t=${claim.timestamp_sec}`}
                     >
                       <AudioLines size={14} aria-hidden="true" />
-                      {formatTimestamp(claim.timestamp_sec)} / source audio
+                      {formatTimestamp(claim.timestamp_sec)} /{" "}
+                      {exampleClaims.source === "demo"
+                        ? "transcript preview"
+                        : "source audio"}
                     </Link>
                     <Link to={exampleUrl} className="claim-action-link">
                       Read brief <ArrowUpRight size={14} aria-hidden="true" />
@@ -156,11 +149,8 @@ export function Landing() {
               ) : (
                 <div className="py-8">
                   <p className="muted text-sm" role="status">
-                    {error
-                      ? "The research preview is unavailable. Open the desk to retry."
-                      : calls?.length === 0
-                        ? "The library is ready for its first processed call."
-                        : "Opening a real claim from the library…"}
+                    No claims were returned for this example. Explore another
+                    call in the research library.
                   </p>
                 </div>
               )}
@@ -185,18 +175,25 @@ export function Landing() {
         >
           <div className="intro-grid">
             <div>
-              <p className="eyebrow muted">Less noise. More context.</p>
+              <p className="eyebrow muted">The research question</p>
               <h2 className="editorial editorial-heading" id="research-heading">
-                A conclusion is only as
-                <br />
-                good as its evidence.
+                Their own history.
+                <br />A meaningful reference.
               </h2>
             </div>
             <div>
               <p className="muted leading-8">
-                Move past the summary. Follow an extracted claim to its original
-                words, see where it appears in the transcript, and listen to the
-                moment yourself.
+                Some executives naturally speak slowly or pause often. The
+                question is whether their language and vocal patterns change
+                compared with their own earlier calls, and what they were
+                discussing when that happened.
+              </p>
+              <p className="muted leading-8 mt-4">
+                Today’s workspace lets you inspect individual calls: their
+                sentiment, descriptive vocal measurements and quoted evidence.
+                Speaker identification and historical change detection are the
+                next research steps. A change alone would not establish
+                nervousness, dishonesty or future stock performance.
               </p>
               <Link to="/app" className="text-link mt-5">
                 Inside the research library{" "}
@@ -207,7 +204,11 @@ export function Landing() {
           <div className="metric-row">
             <div className="metric">
               <div className="metric-value">{calls?.length ?? "—"}</div>
-              <p className="metric-label">Processed earnings calls</p>
+              <p className="metric-label">
+                {library.source === "demo"
+                  ? "Sample earnings calls"
+                  : "Processed earnings calls"}
+              </p>
             </div>
             <div className="metric">
               <div className="metric-value">{companyCount ?? "—"}</div>
@@ -220,12 +221,12 @@ export function Landing() {
               </p>
             </div>
           </div>
-          {error && (
-            <p className="caption muted mt-3">
-              Library figures are unavailable until the research service
-              reconnects.
-            </p>
-          )}
+          <DataSourceNote
+            sources={{
+              library: library.source,
+              "example claim": exampleClaims.source,
+            }}
+          />
         </section>
         <section
           className="container landing-section rule-top"
@@ -236,15 +237,16 @@ export function Landing() {
             <div>
               <p className="eyebrow muted">02 / The methodology</p>
               <h2 className="editorial editorial-heading" id="method-heading">
-                From spoken words
+                What the prototype
                 <br />
-                to inspectable insight.
+                can do today.
               </h2>
             </div>
             <p className="muted leading-8">
-              A transparent processing pipeline, with a clear distinction
-              between what the model concludes and what the source actually
-              says.
+              These tools provide the foundation for studying communication
+              changes. The current pipeline measures signals and makes their
+              sources inspectable; it does not yet calculate executive-specific
+              communication anomalies.
             </p>
           </div>
           <div className="method-list">
@@ -254,16 +256,16 @@ export function Landing() {
                 "Whisper turns the recording into timestamped transcript segments. FinBERT classifies their financial sentiment.",
               ],
               [
-                "Extract the signals",
-                "Selected positive and negative passages inform the brief. Pitch, energy and speaking rate are measured separately as audio context.",
+                "Measure vocal patterns",
+                "Pitch, energy, pauses and speaking rate are measured from the recording. These describe the audio; they are not yet compared against the same executive’s historical baseline.",
               ],
               [
                 "Trace every citation",
-                "The model returns structured claims with quotes and timestamps. A separate checker compares each citation with the transcript.",
+                "Selected positive and negative passages inform a short brief. Each generated claim includes a quote and timestamp that a separate checker compares with the transcript.",
               ],
               [
-                "Keep the limits visible",
-                "A matching citation confirms a source-text match, not the truth of an interpretation. Review the evidence and benchmark methodology yourself.",
+                "Build toward comparison",
+                "The next stage is to identify the same executive across calls, establish an earlier-call baseline and explain differences using relevant historical passages. Existing citation scores do not evaluate that future capability.",
               ],
             ].map(([title, body], i) => (
               <div className="method-row" key={title}>
@@ -283,7 +285,7 @@ export function Landing() {
         <div className="container footer-inner py-8">
           <Logo size="sm" />
           <p className="caption muted">
-            Independent research tooling. Evidence you can inspect.
+            Earnings-call communication research. Evidence you can inspect.
           </p>
         </div>
       </footer>

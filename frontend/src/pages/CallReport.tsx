@@ -5,7 +5,11 @@ import { api } from "../lib/api";
 import { formatDate, formatTimestamp, formatPercent } from "../lib/format";
 import { SentimentBar } from "../components/SentimentBar";
 import { VerdictBadge } from "../components/VerdictBadge";
-import { EmptyState, ErrorState, LoadingState } from "../components/States";
+import { EmptyState } from "../components/States";
+import {
+  CallPreviewUnavailable,
+  DataSourceNote,
+} from "../components/DataStatus";
 import { ReportTabs, type ReportTab } from "../components/ReportTabs";
 import { useCallData } from "../hooks/useCallData";
 
@@ -14,8 +18,11 @@ export function CallReport() {
   const [params] = useSearchParams();
   const initialTime = Number(params.get("t") ?? 0);
   const [tab, setTab] = useState<ReportTab>("overview");
-  const { data, error } = useCallData(ticker, quarter);
-  const [currentTime, setCurrentTime] = useState(0);
+  const { data, sources, reportResource, reportIsLive, transcriptIsLive } =
+    useCallData(ticker, quarter);
+  const [currentTime, setCurrentTime] = useState(
+    Number.isFinite(initialTime) && initialTime >= 0 ? initialTime : 0,
+  );
   const [audioError, setAudioError] = useState<string | null>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const requestedTime = useRef(
@@ -24,6 +31,11 @@ export function CallReport() {
 
   const seekTo = (sec: number) => {
     requestedTime.current = sec;
+    setCurrentTime(sec);
+    if (!reportIsLive) {
+      setTab("transcript");
+      return;
+    }
     const audio = audioRef.current;
     if (audio && audio.readyState >= 1 && !audio.error) {
       audio.currentTime = Math.min(
@@ -38,24 +50,24 @@ export function CallReport() {
       });
     }
   };
-  if (error)
-    return (
-      <div className="container page">
-        <Link to="/app" className="back-link">
-          <ArrowLeft size={14} />
-          Research desk
-        </Link>
-        <ErrorState message={error} />
-      </div>
-    );
   if (!data)
     return (
-      <div className="container page">
-        <LoadingState label="Opening the earnings brief…" />
-      </div>
+      <CallPreviewUnavailable
+        ticker={ticker}
+        quarter={quarter}
+        resource={reportResource}
+      />
     );
   const { report, claims, transcript, claimsError, transcriptError } = data;
   const features = report.audio_features_summary;
+  const selectedExcerpt =
+    !reportIsLive && currentTime > 0
+      ? transcript?.segments.find(
+          (seg) =>
+            Math.abs(seg.start - currentTime) <= 2 ||
+            (currentTime >= seg.start && currentTime < seg.end),
+        )
+      : null;
 
   return (
     <article className="container page reveal">
@@ -63,6 +75,7 @@ export function CallReport() {
         <ArrowLeft size={14} aria-hidden="true" />
         Back to research desk
       </Link>
+      <DataSourceNote sources={sources} />
       <header className="report-header">
         <div>
           <p className="eyebrow muted">
@@ -89,7 +102,9 @@ export function CallReport() {
       </header>
       <div className="audio-dock" aria-label="Source recording player">
         <div className="audio-info">
-          <p className="eyebrow">The original recording</p>
+          <p className="eyebrow">
+            {reportIsLive ? "The original recording" : "Transcript preview"}
+          </p>
           <p className="caption muted">
             {formatTimestamp(currentTime)} <span aria-hidden="true"> / </span>{" "}
             {transcript
@@ -97,24 +112,41 @@ export function CallReport() {
               : "source audio"}
           </p>
         </div>
-        <audio
-          aria-label={`${report.company} ${report.quarter} earnings-call audio`}
-          ref={audioRef}
-          src={api.audioUrl(ticker, quarter)}
-          controls
-          preload="metadata"
-          onTimeUpdate={(e) => setCurrentTime(e.currentTarget.currentTime)}
-          onLoadedMetadata={(e) => {
-            const audio = e.currentTarget;
-            audio.currentTime = Math.min(requestedTime.current, audio.duration);
-          }}
-          onError={() =>
-            setAudioError(
-              "The source recording is unavailable here. You can still inspect every claim and transcript passage.",
-            )
-          }
-        />
-        {audioError && (
+        {reportIsLive ? (
+          <audio
+            aria-label={`${report.company} ${report.quarter} earnings-call audio`}
+            ref={audioRef}
+            src={api.audioUrl(ticker, quarter)}
+            controls
+            preload="metadata"
+            onTimeUpdate={(e) => setCurrentTime(e.currentTarget.currentTime)}
+            onLoadedMetadata={(e) => {
+              const audio = e.currentTarget;
+              audio.currentTime = Math.min(
+                requestedTime.current,
+                audio.duration,
+              );
+            }}
+            onError={() =>
+              setAudioError(
+                "The source recording is unavailable here. You can still inspect every claim and transcript passage.",
+              )
+            }
+          />
+        ) : (
+          <p className="audio-status">
+            No audio is bundled with the demo. Select a timestamp to preview its
+            transcript passage; playback becomes available only when a source
+            recording can be loaded from the live API.
+            {selectedExcerpt && (
+              <span className="block mt-2" role="status">
+                Selected passage at {formatTimestamp(currentTime)}: “
+                {selectedExcerpt.text}”
+              </span>
+            )}
+          </p>
+        )}
+        {reportIsLive && audioError && (
           <p className="audio-status" role="status">
             {audioError}
           </p>
@@ -237,16 +269,18 @@ export function CallReport() {
                   </div>
                 </dl>
                 <p className="caption muted mt-4">
-                  Descriptive audio measurements. They are not a measure of
-                  honesty or executive confidence.
+                  These describe the whole recording, which can include several
+                  speakers. They are not yet compared against an individual
+                  executive’s historical baseline.
                 </p>
               </div>
               {report.prior_quarter_context_used.length > 0 && (
                 <div className="section-space">
                   <h3>Retrieved context</h3>
                   <p className="caption muted mb-4">
-                    Other calls surfaced by the current retrieval system;
-                    chronological filtering is not guaranteed.
+                    Context saved with this report. Older reports can include
+                    later-quarter passages and have not yet been regenerated
+                    with the historical-retrieval fix.
                   </p>
                   {report.prior_quarter_context_used.map((c, i) => (
                     <details key={i} className="border-t border-rule py-3">
@@ -280,7 +314,7 @@ export function CallReport() {
               its interpretation against the surrounding passage.
             </p>
             {claimsError ? (
-              <ErrorState message={claimsError} />
+              <p className="notice">{claimsError}</p>
             ) : claims?.length === 0 ? (
               <EmptyState
                 title="No claims in this report."
@@ -305,7 +339,9 @@ export function CallReport() {
                     >
                       <Play size={12} aria-hidden="true" />
                       {formatTimestamp(claim.timestamp_sec)}
-                      <span className="font-normal">/ play source</span>
+                      <span className="font-normal">
+                        {reportIsLive ? "/ play source" : "/ view passage"}
+                      </span>
                     </button>
                   </div>
                   <div className="claim-actions">
@@ -333,12 +369,25 @@ export function CallReport() {
               <AudioLines size={22} strokeWidth={1.3} aria-hidden="true" />
             </div>
             <div className="transcript-note">
-              <span>Select a timestamp to play that exact moment.</span>
-              <span>Automatic transcription · speakers are not identified</span>
+              <span>
+                {reportIsLive
+                  ? "Select a timestamp to play that exact moment."
+                  : "Select a timestamp to highlight its transcript passage. Audio is not bundled."}
+              </span>
+              <span>
+                {transcriptIsLive
+                  ? "Automatic transcription · speakers are not identified"
+                  : "Bundled transcript excerpts · gaps between passages are omitted"}
+              </span>
             </div>
             {transcriptError ? (
-              <ErrorState message={transcriptError} />
-            ) : transcript?.segments.length === 0 ? (
+              <p className="notice">{transcriptError}</p>
+            ) : !transcript ? (
+              <p className="notice">
+                The full transcript is connecting. Explore the claim evidence
+                while the live service responds.
+              </p>
+            ) : transcript.segments.length === 0 ? (
               <EmptyState
                 title="No transcript passages available."
                 description="The source recording can still be played above when available."
@@ -346,13 +395,13 @@ export function CallReport() {
             ) : (
               transcript?.segments.map((seg, i) => (
                 <div
-                  className={`transcript-row ${currentTime >= seg.start && currentTime < seg.end && currentTime > 0 ? "is-active" : ""}`}
+                  className={`transcript-row ${(reportIsLive ? currentTime >= seg.start && currentTime < seg.end : seg === selectedExcerpt) && currentTime > 0 ? "is-active" : ""}`}
                   key={i}
                 >
                   <button
                     className="timestamp"
                     onClick={() => seekTo(seg.start)}
-                    aria-label={`Play transcript at ${formatTimestamp(seg.start)}`}
+                    aria-label={`${reportIsLive ? "Play transcript" : "Preview transcript"} at ${formatTimestamp(seg.start)}`}
                   >
                     <Play size={11} aria-hidden="true" />
                     {formatTimestamp(seg.start)}

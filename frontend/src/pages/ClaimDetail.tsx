@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import {
   ArrowLeft,
@@ -7,33 +8,37 @@ import {
 } from "lucide-react";
 import { formatTimestamp, formatPercent } from "../lib/format";
 import { VerdictBadge } from "../components/VerdictBadge";
-import { EmptyState, ErrorState, LoadingState } from "../components/States";
+import { EmptyState } from "../components/States";
 import { EvidenceAudio } from "../components/EvidenceAudio";
 import { useCallData } from "../hooks/useCallData";
+import {
+  CallPreviewUnavailable,
+  DataSourceNote,
+} from "../components/DataStatus";
 
 export function ClaimDetail() {
   const { ticker = "", quarter = "", index = "0" } = useParams();
   const navigate = useNavigate();
   const idx = Number(index);
-  const { data, error } = useCallData(ticker, quarter);
+  const { data, sources, reportResource, claimsAreLive } = useCallData(
+    ticker,
+    quarter,
+  );
+  const [previewSelected, setPreviewSelected] = useState(false);
   const reportUrl = `/app/calls/${ticker}/${quarter}`;
-  if (error)
-    return (
-      <div className="container page">
-        <ErrorState message={error} />
-      </div>
-    );
   if (!data)
     return (
-      <div className="container page">
-        <LoadingState label="Tracing the claim to its source…" />
-      </div>
+      <CallPreviewUnavailable
+        ticker={ticker}
+        quarter={quarter}
+        resource={reportResource}
+      />
     );
   const { claims, transcript, report, claimsError, transcriptError } = data;
   if (claimsError)
     return (
       <div className="container page">
-        <ErrorState message={claimsError} />
+        <p className="notice">{claimsError}</p>
       </div>
     );
   const claim = Number.isInteger(idx) && idx >= 0 ? claims?.[idx] : undefined;
@@ -96,6 +101,7 @@ export function ClaimDetail() {
           </button>
         </nav>
       </div>
+      <DataSourceNote sources={sources} />
       <header className="rule-top">
         <p className="eyebrow muted">
           {report.company} / {report.quarter} / Evidence notebook
@@ -117,13 +123,43 @@ export function ClaimDetail() {
             Quoted from the automatic transcript. Read the surrounding passage
             before drawing a conclusion.
           </p>
-          <EvidenceAudio
-            ticker={ticker}
-            quarter={quarter}
-            timestamp={claim.timestamp_sec}
-            end={source?.end ?? claim.timestamp_sec + 8}
-          />
-          <section className="evidence-context">
+          {claimsAreLive ? (
+            <EvidenceAudio
+              ticker={ticker}
+              quarter={quarter}
+              timestamp={claim.timestamp_sec}
+              end={source?.end ?? claim.timestamp_sec + 8}
+            />
+          ) : (
+            <section
+              className="waveform-panel"
+              aria-label="Demo transcript preview"
+            >
+              <p className="eyebrow">Explore the source passage</p>
+              <p className="caption muted mt-3">
+                No audio is bundled with this demo. Read the cited words and
+                surrounding transcript without simulated playback.
+              </p>
+              <button
+                className="timestamp mt-3"
+                onClick={() => {
+                  setPreviewSelected(true);
+                  document
+                    .getElementById("evidence-transcript")
+                    ?.scrollIntoView?.({ block: "center" });
+                }}
+              >
+                View transcript at {formatTimestamp(claim.timestamp_sec)}
+              </button>
+              {previewSelected && (
+                <p className="caption muted" role="status">
+                  Transcript preview selected at{" "}
+                  {formatTimestamp(claim.timestamp_sec)}. No audio is playing.
+                </p>
+              )}
+            </section>
+          )}
+          <section className="evidence-context" id="evidence-transcript">
             <div className="section-top">
               <h2 className="section-heading">The surrounding words</h2>
               <Link

@@ -1,57 +1,31 @@
-import { useEffect, useState } from "react";
-import {
-  api,
-  type CallReport,
-  type KeyClaim,
-  type Transcript,
-} from "../lib/api";
+import { resources, useAnalysisResource } from "./useAnalysis";
 
-interface CallData {
-  report: CallReport;
-  claims: KeyClaim[] | null;
-  transcript: Transcript | null;
-  claimsError: string | null;
-  transcriptError: string | null;
-}
-
-// Call pages are keyed by ticker + quarter in App, so changing calls creates a
-// fresh request state while moving between claims preserves the audio instance.
 export function useCallData(ticker: string, quarter: string) {
-  const [data, setData] = useState<CallData | null>(null);
-  const [error, setError] = useState<string | null>(null);
-  useEffect(() => {
-    let cancelled = false;
-    Promise.allSettled([
-      api.getCall(ticker, quarter),
-      api.getClaims(ticker, quarter),
-      api.getTranscript(ticker, quarter),
-    ]).then(([report, claims, transcript]) => {
-      if (cancelled) return;
-      if (report.status === "rejected") {
-        setError(
-          report.reason instanceof Error
-            ? report.reason.message
-            : "The report could not be loaded.",
-        );
-        return;
-      }
-      setData({
-        report: report.value,
-        claims: claims.status === "fulfilled" ? claims.value.claims : null,
-        transcript: transcript.status === "fulfilled" ? transcript.value : null,
-        claimsError:
-          claims.status === "rejected"
-            ? "The claim evidence could not be loaded. Please reload to try again."
-            : null,
-        transcriptError:
-          transcript.status === "rejected"
-            ? "The transcript could not be loaded. Please reload to try again."
-            : null,
-      });
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [ticker, quarter]);
-  return { data, error };
+  const report = useAnalysisResource(resources.report(ticker, quarter));
+  const claims = useAnalysisResource(resources.claims(ticker, quarter));
+  const transcript = useAnalysisResource(resources.transcript(ticker, quarter));
+  return {
+    reportResource: report,
+    sources: {
+      report: report.source,
+      claims: claims.source,
+      [transcript.source === "demo" ? "transcript excerpts" : "transcript"]:
+        transcript.source,
+    },
+    reportIsLive: report.source === "live",
+    claimsAreLive: claims.source === "live",
+    transcriptIsLive: transcript.source === "live",
+    data: report.data
+      ? {
+          report: report.data,
+          claims: claims.data?.claims ?? report.data.key_claims,
+          transcript: transcript.data,
+          claimsError: null,
+          transcriptError:
+            transcript.data || !transcript.error
+              ? null
+              : "The full transcript is temporarily unavailable. Claim evidence remains available above.",
+        }
+      : null,
+  };
 }

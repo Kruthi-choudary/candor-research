@@ -1,0 +1,1370 @@
+{
+  "provenance": "Curated copies of committed Candor outputs; transcript excerpts only; no bundled audio.",
+  "companies": [
+    { "ticker": "AAPL", "name": "Apple" },
+    { "ticker": "MSFT", "name": "Microsoft" },
+    { "ticker": "NVDA", "name": "Nvidia" },
+    { "ticker": "META", "name": "Meta" }
+  ],
+  "calls": [
+    {
+      "ticker": "AAPL",
+      "quarter": "Q1-2025",
+      "company": "Apple",
+      "call_date": "2025-01-30",
+      "overall_summary": "The earnings call highlighted modest growth in core product lines, with iPhone 16 performance and Mac revenue showing gains, while wearables and Greater China saw declines. Investor sentiment was largely neutral (72.5%), with a smaller share positive (24.2%) and minimal negative (3.2%).",
+      "sentiment_distribution": {
+        "positive": 24.2,
+        "negative": 3.2,
+        "neutral": 72.5
+      },
+      "citation_accuracy": 1
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q1-2025",
+      "company": "Microsoft",
+      "call_date": "2024-10-30",
+      "overall_summary": "The call highlighted solid top‑line growth, with M365 consumer and commercial products, cloud services, and LinkedIn all posting double‑digit or low‑double‑digit increases, and operating margins improving modestly. However, pressure on cash flow, on‑premises server sales, enterprise services, and cloud gross margins tempered the outlook. Overall sentiment was 30% positive, 4.7% negative, and 65.2% neutral according to FinBERT.",
+      "sentiment_distribution": {
+        "positive": 30,
+        "negative": 4.7,
+        "neutral": 65.2
+      },
+      "citation_accuracy": 1
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q1-2025",
+      "company": "Nvidia",
+      "call_date": "2024-05-22",
+      "overall_summary": "The earnings call showed robust overall and automotive revenue growth and high margins, while gaming sales fell and the China business weakened. Sentiment was heavily neutral (81.0%) with modest positive (16.9%) and minimal negative (2.1%) tones.",
+      "sentiment_distribution": {
+        "positive": 16.9,
+        "negative": 2.1,
+        "neutral": 81
+      },
+      "citation_accuracy": 1
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q1-2025",
+      "company": "Meta",
+      "call_date": "2025-04-30",
+      "overall_summary": "The call highlighted strong ad revenue growth in key geographies and increased marketing, R&D, and cost of revenue driven by infrastructure spending, reflecting a largely positive outlook. However, declines were noted in Meta Quest sales, government and politics, gaming, and G&A expenses, contributing to a predominantly neutral sentiment with 26.1% positive, 3.2% negative, and 70.7% neutral sentiment overall.",
+      "sentiment_distribution": {
+        "positive": 26.1,
+        "negative": 3.2,
+        "neutral": 70.7
+      },
+      "citation_accuracy": 1
+    }
+  ],
+  "reports": {
+    "AAPL/Q1-2025": {
+      "schema_version": "1.0",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "quarter": "Q1 2025",
+      "call_date": "2025-01-30",
+      "overall_summary": "The earnings call highlighted modest growth in core product lines, with iPhone 16 performance and Mac revenue showing gains, while wearables and Greater China saw declines. Investor sentiment was largely neutral (72.5%), with a smaller share positive (24.2%) and minimal negative (3.2%).",
+      "sentiment_distribution": {
+        "positive": 24.2,
+        "negative": 3.2,
+        "neutral": 72.5
+      },
+      "key_claims": [
+        {
+          "claim": "The iPhone 16 family performed stronger than models lacking Apple intelligence.",
+          "evidence": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
+          "timestamp_sec": 1376,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Products revenue reached $98 billion, up 2% year over year, driven by iPad and Mac growth.",
+          "evidence": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+          "timestamp_sec": 830,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Revenue grew 14% compared to a year ago.",
+          "evidence": "growing 14% from a year ago.",
+          "timestamp_sec": 586,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Mac revenue was $9 billion for the December quarter, 16% higher year over year.",
+          "evidence": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by",
+          "timestamp_sec": 386,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "evidence": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "timestamp_sec": 1054,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "Greater China revenue declined 11% year over year.",
+          "evidence": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+          "timestamp_sec": 1492,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "The company expects March quarter total revenue growth to be low.",
+          "evidence": "With that headwind, we expect our March quarter total company revenue to grow low to",
+          "timestamp_sec": 1256,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "A negative impact of about 2.5 percentage points on year-over-year revenue is anticipated.",
+          "evidence": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+          "timestamp_sec": 1249,
+          "sentiment": "negative"
+        }
+      ],
+      "risks": [],
+      "management_outlook": [],
+      "citation_verification": {
+        "total_citations": 8,
+        "verified": 8,
+        "accuracy": 1
+      },
+      "audio_features_summary": {
+        "mean_pitch_hz": 142.98,
+        "mean_energy": 0.06,
+        "mean_speaking_rate_wps": 2.38,
+        "segments_analyzed": 710
+      },
+      "prior_quarter_context_used": [
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 3213.7000000000003,
+          "text": "Okay, thanks. And then, Luca, one piece of unfinished business was your pledge to get to a net neutral cash position. And over the last two years, you stayed around 50 billion of net cash. We've clearly seen instances in the past where elevated marketing spend or other programs brought increases in market share. I guess my question looking back on your tenure is at your scale now of 57 billion of topics. Do you still see incremental ways to put that cash to work in the business? Or will we just continue to see increased shareholder returns? Well, obviously, as you see in our opx has gone up over the years. We've also seen at the same time a significant expansion in gross margin. Maybe to a level that I would have not expected a few years ago. But we've done a very good job on a number of fronts. And so I would say we when we plan every time we plan for the upcoming year we think about all the different areas where we can deploy our resources and we make them available to grow the business. I think we've done very well over the long term and but our fundamental philosophy is to look after the business first. And then if we have excess cash, we will continue to return it to our shareholders and the planners worked quite well so far. Okay. Thank you very much. Thank you, Richard. We'll take our last question. Please operator."
+        },
+        {
+          "quarter": "Q3 2025",
+          "start_sec": 3131.16,
+          "text": "how much, how much currency benefit should we be thinking about embedded in the guidance into the September quarter? And then the second quick question is, you know, CAPEX is clearly moving higher. I know you guys don't guide specifically to that number, but just kind of qualitatively, should we, as you lean in more on AI, should we really start to see that CAPEX, which is running close to about four billion annualized today, really start to move appreciably higher. Any color on that would be helpful. Thank you. Great, Aaron. Thanks for the questions. Let me answer the first one. First around foreign exchange. For Q3, we really had no impact from a foreign exchange standpoint on the year on your results. And so when we look at both the revenue growth as well as a gross margin, there was really, you know, virtually no impact from foreign exchange. As we look at going from Q3 to June quarter to the September quarter, again, very, very, as I mentioned earlier, a very small tailwind going from Q3 to Q4 from a foreign exchange standpoint on both revenue as well as a gross margin. And then on the second question, sure, on the CAPEX side, I think we talked about the fact that we are, and Tim mentioned the fact that we are increasing our investment significantly, AI, you are going to continue to see our CAPEX grow. It's not going to be exponential growth, but it is going to grow, you know, substantially."
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 1528.9,
+          "text": "and we couldn't be more excited about it. Great. Thank you very much. And my second one, just for Luca, first, congratulations again, Luca, on the new role, and it's been a real privilege being able to spend some time with you. A question that I think will overlap with your new role as well. Could you just talk a little bit about the CAPEX outlook and whether investments in things like private cloud compute could change the historical CAPEX range of roughly $10 billion a year? Thank you very much. Thank you, Michael. On the CAPEX front, I mentioned before a number of times we have a bit of a hybrid model in the way we run our data centers. In some cases we use our own data centers, in some cases we use third-party providers, and so our CAPEX numbers may not be fully comparable with others. But obviously we are rolling out these features, Apple Intelligence features already now, and so we are making all the capacity that is needed available for these features. You will see in our 10K the amount of CAPEX that we've incurred during the course of fiscal 24, and we will, in fiscal 25, we will continue to make all the investments that are necessary, and of course, investments in AI-related CAPEX will be made. Thank you, Tim. Thank you, Luca. All right. Thanks, Mike. Can we have the next question, please? Our next question is from Eric Woodring with Morgan Stanley."
+        }
+      ],
+      "pipeline_version": "1.0",
+      "stage_durations_sec": {
+        "transcription_sec": 0,
+        "sentiment_sec": 0,
+        "prosody_sec": 0,
+        "rag_sec": 7.6,
+        "generation_sec": 0,
+        "citation_check_sec": 0
+      }
+    },
+    "MSFT/Q1-2025": {
+      "schema_version": "1.0",
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "quarter": "Q1 2025",
+      "call_date": "2024-10-30",
+      "overall_summary": "The call highlighted solid top‑line growth, with M365 consumer and commercial products, cloud services, and LinkedIn all posting double‑digit or low‑double‑digit increases, and operating margins improving modestly. However, pressure on cash flow, on‑premises server sales, enterprise services, and cloud gross margins tempered the outlook. Overall sentiment was 30% positive, 4.7% negative, and 65.2% neutral according to FinBERT.",
+      "sentiment_distribution": {
+        "positive": 30,
+        "negative": 4.7,
+        "neutral": 65.2
+      },
+      "key_claims": [
+        {
+          "claim": "Microsoft's M365 consumer products revenue grew 5% and its cloud services revenue grew 6% in constant currency.",
+          "evidence": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+          "timestamp_sec": 1386,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "LinkedIn revenue rose 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "evidence": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "timestamp_sec": 1412,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Operating margins, excluding the net impact from the Activision acquisition, increased by 1.0 percentage point.",
+          "evidence": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0.",
+          "timestamp_sec": 1310,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "M365 commercial products revenue grew 2% and 3% in constant currency, surpassing expectations.",
+          "evidence": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,",
+          "timestamp_sec": 1376,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Free cash flow fell 7% year over year to $19.3 billion, reflecting higher capital expenditures for cloud and AI.",
+          "evidence": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+          "timestamp_sec": 1689,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "Enterprise and partner services revenue declined 1% and was relatively flat in constant currency.",
+          "evidence": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+          "timestamp_sec": 1528,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "Revenue in the on-premises server business decreased 1%.",
+          "evidence": "In our on-premises server business, revenue decreased 1%.",
+          "timestamp_sec": 1509,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "Microsoft's cloud gross margin percentage fell 2.0 points year over year to 71%.",
+          "evidence": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+          "timestamp_sec": 1245,
+          "sentiment": "negative"
+        }
+      ],
+      "risks": [],
+      "management_outlook": [],
+      "citation_verification": {
+        "total_citations": 8,
+        "verified": 8,
+        "accuracy": 1
+      },
+      "audio_features_summary": {
+        "mean_pitch_hz": 180.19,
+        "mean_energy": 0.07,
+        "mean_speaking_rate_wps": 2.56,
+        "segments_analyzed": 656
+      },
+      "prior_quarter_context_used": [
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 2340.88,
+          "text": "commercial perceived side or on the consumption meters that's I think the fundamental driver. And Keith you know I do think and I really do appreciate how you phrase the question as well because I think the timing and some of the questions you all have had really led to how we were talking even about capital expense in our comments in my comments today. Being able to maybe share a little more about that when we talked about roughly half of FY24's total capital expense as well as half of Q4's expense it's really on land and builds and finance leases and those things really will be monetized over 15 years and beyond and they're incredibly flexible because we've built a consistent architecture first with a commercial cloud and second with the Azure Stack for AI regardless of whether the demand is at the platform layer or at the app layer or through third parties and partners or frankly our first party fast it uses the same infrastructure. So with that long life flexible assets and if you think about it that way you can see what we're doing and focused on is building out this network and parallel of across the globe because you know when we did this last transition the first transition to the cloud which seems a long time ago sometimes it rolled out quite differently we rolled out more geo by geo and this one because we have demand on a global basis we are doing it on a global basis which is important we have large"
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 2831.84,
+          "text": "distinction between our CAPEx number and on occasion the cash that we pay for PP&E and you're going to start to see that more often in this period because it happens when we use leases leases sort of show up all at once and so you'll see a little bit more volatility I've mentioned to that in my comments before but I mentioned again just because you're starting to see that distinction in my comments and hopefully that's helpful context. Just one other thing Amy if I want to add I think as people think about capital spend I think it's important separate out leases from build and when it comes to build I think it's important for us to think about we think about it in terms of what's the total percentage of cost that goes into each line item land which obviously has a very different duration and a very different lead time so those are the other two considerations we think about lead time and duration of the asset land you know network construction the system or the kit and then the ongoing cost and so if you think about it that way then it you know how to even adjust if you will the capital spend based on demand signal. Thank you it was triggered by the jump in CAPEx and as Amy pointed out you're guiding to accelerating Azure revenue growth rate which I guess follows the CAPEx thank you so much once again. Thanks Cash operator next question please."
+        },
+        {
+          "quarter": "Q3 2025",
+          "start_sec": 2452.4,
+          "text": "depends on that. So we want to stay disciplined and execute super well on that. Thank you. All right, Brent. All right. Next question, please. The next question comes from the line of Mark Mortler with Bernstein Research. Please proceed. Thank you very much for taking my question and I will reiterate what my peers have said. Congratulations on the great quarter. Satya and Amy, Microsoft is a very different business than it was during the last recession. Incredible job you've done. If we get into a recession, I hope we don't. How do you think about the sustainability, the sustainability, revenue volatility at Microsoft today, if we were to get into a recession? Would the business react early to recession or late? Would a recession have a more shallow impact on revenue? Any thoughts will be appreciated? Maybe I'll start and then Amy, Sadad, Mark, the way at least I think we will approach it is, quite frankly, the very focused on how we help our customers. If there is any turbulence in the macro, because one of the things that we feel we can do just because of the efficiencies of the cloud and the footprint we have and the differentiated layers of the stack from the SaaS application side to the infrastructure side, I think if you sort of buy into the argument that software is the most malleable resource we have to fight any type of inflationary pressure or any type of growth pressure where you need to do more with less, I think we can be super helpful"
+        }
+      ],
+      "pipeline_version": "1.0",
+      "stage_durations_sec": {
+        "transcription_sec": 0,
+        "sentiment_sec": 0,
+        "prosody_sec": 0,
+        "rag_sec": 5.6,
+        "generation_sec": 0,
+        "citation_check_sec": 0
+      }
+    },
+    "NVDA/Q1-2025": {
+      "schema_version": "1.0",
+      "ticker": "NVDA",
+      "company": "Nvidia",
+      "quarter": "Q1 2025",
+      "call_date": "2024-05-22",
+      "overall_summary": "The earnings call showed robust overall and automotive revenue growth and high margins, while gaming sales fell and the China business weakened. Sentiment was heavily neutral (81.0%) with modest positive (16.9%) and minimal negative (2.1%) tones.",
+      "sentiment_distribution": {
+        "positive": 16.9,
+        "negative": 2.1,
+        "neutral": 81
+      },
+      "key_claims": [
+        {
+          "claim": "Non-GAAP growth margins increased to 78.9% due to lower inventory charges.",
+          "evidence": "and non-gap growth margins to 78.9% on lower inventory charges.",
+          "timestamp_sec": 1296,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "GAAP operating expenses rose 10% sequentially, and non-GAAP operating expenses also increased.",
+          "evidence": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up",
+          "timestamp_sec": 1309,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Automotive revenue reached $329 million, up 17% sequentially and 11% year-over-year.",
+          "evidence": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year.",
+          "timestamp_sec": 1232,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Total revenue hit $26 billion, up 18% sequentially and 262% year-over-year, far exceeding expectations.",
+          "evidence": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our",
+          "timestamp_sec": 141,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Gaming revenue fell to $2.65 billion, an 8% sequential decline.",
+          "evidence": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and",
+          "timestamp_sec": 1037,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "ProViz revenue dropped 8% sequentially to $427 million, though it grew 45% year-over-year.",
+          "evidence": "Moving to ProViz, revenue of 427 million was down 8% sequentially and up 45% year on year.",
+          "timestamp_sec": 1149,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "Data center revenue in China has declined sharply from pre-imposition levels.",
+          "evidence": "Our data center revenue in China is down significantly from the level prior to the imposition of",
+          "timestamp_sec": 582,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "Overall business in China remains substantially lower than previous levels.",
+          "evidence": "It is the case that our business in China is substantially lower than the levels of",
+          "timestamp_sec": 3204,
+          "sentiment": "negative"
+        }
+      ],
+      "risks": [],
+      "management_outlook": [],
+      "citation_verification": {
+        "total_citations": 8,
+        "verified": 8,
+        "accuracy": 1
+      },
+      "audio_features_summary": {
+        "mean_pitch_hz": 173.45,
+        "mean_energy": 0.07,
+        "mean_speaking_rate_wps": 2.22,
+        "segments_analyzed": 751
+      },
+      "prior_quarter_context_used": [
+        {
+          "quarter": "Q2 2025",
+          "start_sec": 2297.44,
+          "text": "discussions about is with like the percentage of folks that you see that are spending all of this money and looking to sort of push the frontier towards AGI convergence. And as you just said, a new plateau in capability. And they're going to spend regardless to get to that level of capability because it opens up so many doors for the industry and for their company versus customers that are really, really focused today on CAPEx versus ROI. I don't know if that distinction makes sense. I'm just trying to get a sense of how you're seeing the priorities of people that are putting the dollars in the ground on the new technology and what their priorities are and their timeframes are for that investment. Thanks, Matt. The people who are investing in NVIDIA infrastructure are getting returns on it right away. It's the best ROI infrastructure, computing infrastructure investment you can make today. And so one way to think through it, probably the easiest way to think through it is just go back to first principles. You have a trillion dollars with a general purpose computing infrastructure and the question is do you want to build more of that or not? And for every billion dollars with a general CPU-based infrastructure that you stand up, you probably rent it for less than a billion. And so because it's commoditized, there's already a trillion dollars on the ground. What's the point of getting more? And so the people who are clamoring to get this infrastructure"
+        },
+        {
+          "quarter": "Q2 2025",
+          "start_sec": 2515.76,
+          "text": "And your next question comes from the line of Timothy Arkery with UBS. Your line is open. Thanks a lot. I had a question on the shape of the revenue growth both near and longer term. I know Colette, you did increase op-ex for the year. And if I look at the increase in your purchase commitments and your supply obligations, that's also quite bullish. On the other hand, there's some school of thought that not that many customers really seem ready for liquid cooling. And I do recognize that some of these racks can be air-cooled. But, Johnson, is that something to consider sort of on the shape of how Blackwell is going to ramp? And then I guess when you look beyond next year, which is obviously going to be a great year, and you look into 26, do you worry about any other, you know, gating factors like, say, the power supply chain or at some point, models start to get smaller? I'm just wondering if you could speak to that thing. I'm going to work backwards. I really appreciate the question, Tim. So remember, the world is moving from general purpose computing to accelerated computing. And the world builds about a trillion dollars with the data centers. You know, a trillion dollars worth of data centers in a few years will be all accelerated computing. In the past, no GPUs are in data centers, just CPUs. In the future, every single data center world GPUs. And the reason for that is it's very clear because we need to accelerate workloads"
+        },
+        {
+          "quarter": "Q2 2025",
+          "start_sec": 2827.36,
+          "text": "you expected to hopper demand to strengthen in the second after. That means hopper strengthens Q3 to Q4 as well on top of Blackwell, adding several billion dollars. And the second question on gross margins, if I have mid-70s for the year, it's saying where I want to draw that. If I have 75 for the year, I'd be something like 71 to 72 for Q4 somewhere in that range. Is that the kind of exit rate for gross margins that you're expecting? And how should we think about the drivers of gross margin evolution in the next year as Blackwell ramps? I mean, hopefully, I guess the yields and the inventory results and everything come up. Yes, Stacey, let's first take your question that you had about hopper and Blackwell. So we believe our hopper will continue to grow into the second half. We have many new products for hopper, our existing products for hopper, that we believe will start continuing to ramp in the next quarters, including our Q3 and those new products moving to Q4. So let's say hopper there for versus H1 is a growth opportunity for that. Additionally, we have the Blackwell on top of that, and the Blackwell starting of ramping in Q4. So hope that helps you on those two pieces. Your second piece is in terms of our gross margin. We provided gross margin of 4RQ3. We provided our gross margin on a non-gap at about 75. We'll work with all the different transitions that we're"
+        }
+      ],
+      "pipeline_version": "1.0",
+      "stage_durations_sec": {
+        "transcription_sec": 0,
+        "sentiment_sec": 0,
+        "prosody_sec": 0,
+        "rag_sec": 8.4,
+        "generation_sec": 0,
+        "citation_check_sec": 0
+      }
+    },
+    "META/Q1-2025": {
+      "schema_version": "1.0",
+      "ticker": "META",
+      "company": "Meta",
+      "quarter": "Q1 2025",
+      "call_date": "2025-04-30",
+      "overall_summary": "The call highlighted strong ad revenue growth in key geographies and increased marketing, R&D, and cost of revenue driven by infrastructure spending, reflecting a largely positive outlook. However, declines were noted in Meta Quest sales, government and politics, gaming, and G&A expenses, contributing to a predominantly neutral sentiment with 26.1% positive, 3.2% negative, and 70.7% neutral sentiment overall.",
+      "sentiment_distribution": {
+        "positive": 26.1,
+        "negative": 3.2,
+        "neutral": 70.7
+      },
+      "key_claims": [
+        {
+          "claim": "Ad revenue growth was strongest in the rest of world and North America.",
+          "evidence": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at",
+          "timestamp_sec": 898,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Marketing and sales expenses increased 8 percent, mainly due to higher infrastructure costs.",
+          "evidence": "infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in",
+          "timestamp_sec": 764,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Cost of revenue rose 14 percent, primarily driven by higher infrastructure costs.",
+          "evidence": "cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and",
+          "timestamp_sec": 745,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "R&D spending grew 22 percent, largely from increased employee compensation and longer server useful lives.",
+          "evidence": "of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and",
+          "timestamp_sec": 756,
+          "sentiment": "positive"
+        },
+        {
+          "claim": "Meta Quest sales declined, contributing to a $412 million drop (6% YoY).",
+          "evidence": "was 412 million dollars, down 6 percent year over year due to lower meta quest sales,",
+          "timestamp_sec": 998,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "Growth in the government and politics vertical fell sharply after the US elections, remaining a very small overall segment.",
+          "evidence": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall.",
+          "timestamp_sec": 3516,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "Gaming revenue declined YoY in Q1, impacted by reduced spend from China-based advertisers.",
+          "evidence": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024.",
+          "timestamp_sec": 3498,
+          "sentiment": "negative"
+        },
+        {
+          "claim": "General and administrative expenses fell 34 percent, driven by lower legal costs.",
+          "evidence": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over",
+          "timestamp_sec": 777,
+          "sentiment": "negative"
+        }
+      ],
+      "risks": [],
+      "management_outlook": [],
+      "citation_verification": {
+        "total_citations": 8,
+        "verified": 8,
+        "accuracy": 1
+      },
+      "audio_features_summary": {
+        "mean_pitch_hz": 159.18,
+        "mean_energy": 0.04,
+        "mean_speaking_rate_wps": 2.7,
+        "segments_analyzed": 467
+      },
+      "prior_quarter_context_used": [
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 1566.52,
+          "text": "towards our core business. On to tax abs and any changes to our tax landscape, we expect our full year 2025 tax rate to be in the range of 12 to 15 percent. In addition, we continue to monitor an active regulatory landscape including legal and regulatory headwinds in the EU and the US that could significantly impact our business and our financial results. In closing, this was a good year for our company with investments across our priority areas delivering strong business performance and innovative new products for our community. We have a compelling set of opportunities to invest in this year, which we expect will help us drive continued strong growth and develop transformative technologies that shape the future of our company and of the industry. With that, Krista, let's open up the call for questions. Thank you. We will now open the lines for a question and answer session. To ask a question, please press star 1 on your touchstone phone. To withdraw your question, again, press star 1. Please limit yourself to one question. Please pick up your hands up before asking your question to ensure clarity. If you are streaming today's call, please mute your computer speakers. And our first question comes from the line of Brian Nowak with Morgan Stanley. Please go ahead. Thanks for taking my question. Marc, sound very, we appreciate all the excitement about about this year and all the innovation to come. I know there's a lot of announcements throughout"
+        },
+        {
+          "quarter": "Q3 2025",
+          "start_sec": 1891.8600000000001,
+          "text": "that I alluded to. The biggest factor is we're lapping the introduction of Quest 3S and Q4 of last year and we don't have a new headset in the market this year. We also recorded all of our holiday-related Quest 3S sales in Q4 24 since the headset was launched in October 24. This year we're recognizing some of the requests in advance of the holiday season. We're still expecting significant year-over-year growth in A.I. Glasses revenue in Q4 as we benefit from strong demand for the recent products that we've introduced. But that is more than offset by the headwinds to the Quest headsets. Your next question comes from the line of Doug and move with JP Morgan. Please go ahead. Thanks for taking the time. I appreciate the strategy to front-load capacity for super intelligence. You can talk about your thought process in triangulating the CapEx dollar growth and the significantly faster expense growth next year with core growth in the business and then the impact on earnings and pre-cash flow. Do you have targets that we should be thinking about for cash on hand or net cash overall? Thanks, Doug. We're right now, I would say, in the process of relatively early, actually still in the process of putting together our budget for 2026. And it is on the capacity side a particularly dynamic process. We're certainly seeing that we wish we had more capacity today than we do. We would be able to put it towards"
+        },
+        {
+          "quarter": "Q2 2025",
+          "start_sec": 3060,
+          "text": "is kind of always the way that we work, whether we're building some new social product or this, something like MedAI or a new product around this, we're going to work on getting to leading scale, building the highest quality product, focus on that for a few years. And then once we're really confident in that position, then we'll focus on ramping up the business around it. So it's, I mean, going back to the last question a little bit, it's sort of when you compare this business to some of the cloud businesses, it's like we do have this delay, where we focus on building research and then doing research and ramping consumer products. And it often does take some period of time before we really are ramping up the business around it. I think that that's kind of a known property of our business and the cycle around it. But I guess on the flip side, we believe that if you are building super intelligence, you should use all of your GPUs to make it so that you're serving your customers really well with that. And we think that there's going to be a much higher return that we can do by generating that directly rather than just kind of renting or leasing out the infrastructure at other companies. On the second part of your question, you know, we've said in the past that our primary focus from a profitability perspective is driving consolidated operating profit growth over time. And it won't be linear. In some years, we'll"
+        }
+      ],
+      "pipeline_version": "1.0",
+      "stage_durations_sec": {
+        "transcription_sec": 0,
+        "sentiment_sec": 0,
+        "prosody_sec": 0,
+        "rag_sec": 6.3,
+        "generation_sec": 0,
+        "citation_check_sec": 0
+      }
+    }
+  },
+  "claims": {
+    "AAPL/Q1-2025": {
+      "ticker": "AAPL",
+      "quarter": "Q1 2025",
+      "claims": [
+        {
+          "claim": "The iPhone 16 family performed stronger than models lacking Apple intelligence.",
+          "evidence": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
+          "timestamp_sec": 1376,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Products revenue reached $98 billion, up 2% year over year, driven by iPad and Mac growth.",
+          "evidence": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+          "timestamp_sec": 830,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Revenue grew 14% compared to a year ago.",
+          "evidence": "growing 14% from a year ago.",
+          "timestamp_sec": 586,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Mac revenue was $9 billion for the December quarter, 16% higher year over year.",
+          "evidence": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by",
+          "timestamp_sec": 386,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "evidence": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "timestamp_sec": 1054,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Greater China revenue declined 11% year over year.",
+          "evidence": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+          "timestamp_sec": 1492,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "The company expects March quarter total revenue growth to be low.",
+          "evidence": "With that headwind, we expect our March quarter total company revenue to grow low to",
+          "timestamp_sec": 1256,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "A negative impact of about 2.5 percentage points on year-over-year revenue is anticipated.",
+          "evidence": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+          "timestamp_sec": 1249,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        }
+      ]
+    },
+    "MSFT/Q1-2025": {
+      "ticker": "MSFT",
+      "quarter": "Q1 2025",
+      "claims": [
+        {
+          "claim": "Microsoft's M365 consumer products revenue grew 5% and its cloud services revenue grew 6% in constant currency.",
+          "evidence": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+          "timestamp_sec": 1386,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "LinkedIn revenue rose 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "evidence": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "timestamp_sec": 1412,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Operating margins, excluding the net impact from the Activision acquisition, increased by 1.0 percentage point.",
+          "evidence": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0.",
+          "timestamp_sec": 1310,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "M365 commercial products revenue grew 2% and 3% in constant currency, surpassing expectations.",
+          "evidence": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,",
+          "timestamp_sec": 1376,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Free cash flow fell 7% year over year to $19.3 billion, reflecting higher capital expenditures for cloud and AI.",
+          "evidence": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+          "timestamp_sec": 1689,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Enterprise and partner services revenue declined 1% and was relatively flat in constant currency.",
+          "evidence": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+          "timestamp_sec": 1528,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Revenue in the on-premises server business decreased 1%.",
+          "evidence": "In our on-premises server business, revenue decreased 1%.",
+          "timestamp_sec": 1509,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Microsoft's cloud gross margin percentage fell 2.0 points year over year to 71%.",
+          "evidence": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+          "timestamp_sec": 1245,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        }
+      ]
+    },
+    "NVDA/Q1-2025": {
+      "ticker": "NVDA",
+      "quarter": "Q1 2025",
+      "claims": [
+        {
+          "claim": "Non-GAAP growth margins increased to 78.9% due to lower inventory charges.",
+          "evidence": "and non-gap growth margins to 78.9% on lower inventory charges.",
+          "timestamp_sec": 1296,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "GAAP operating expenses rose 10% sequentially, and non-GAAP operating expenses also increased.",
+          "evidence": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up",
+          "timestamp_sec": 1309,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Automotive revenue reached $329 million, up 17% sequentially and 11% year-over-year.",
+          "evidence": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year.",
+          "timestamp_sec": 1232,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Total revenue hit $26 billion, up 18% sequentially and 262% year-over-year, far exceeding expectations.",
+          "evidence": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our",
+          "timestamp_sec": 141,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Gaming revenue fell to $2.65 billion, an 8% sequential decline.",
+          "evidence": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and",
+          "timestamp_sec": 1037,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "ProViz revenue dropped 8% sequentially to $427 million, though it grew 45% year-over-year.",
+          "evidence": "Moving to ProViz, revenue of 427 million was down 8% sequentially and up 45% year on year.",
+          "timestamp_sec": 1149,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Data center revenue in China has declined sharply from pre-imposition levels.",
+          "evidence": "Our data center revenue in China is down significantly from the level prior to the imposition of",
+          "timestamp_sec": 582,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Overall business in China remains substantially lower than previous levels.",
+          "evidence": "It is the case that our business in China is substantially lower than the levels of",
+          "timestamp_sec": 3204,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        }
+      ]
+    },
+    "META/Q1-2025": {
+      "ticker": "META",
+      "quarter": "Q1 2025",
+      "claims": [
+        {
+          "claim": "Ad revenue growth was strongest in the rest of world and North America.",
+          "evidence": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at",
+          "timestamp_sec": 898,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Marketing and sales expenses increased 8 percent, mainly due to higher infrastructure costs.",
+          "evidence": "infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in",
+          "timestamp_sec": 764,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Cost of revenue rose 14 percent, primarily driven by higher infrastructure costs.",
+          "evidence": "cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and",
+          "timestamp_sec": 745,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "R&D spending grew 22 percent, largely from increased employee compensation and longer server useful lives.",
+          "evidence": "of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and",
+          "timestamp_sec": 756,
+          "sentiment": "positive",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Meta Quest sales declined, contributing to a $412 million drop (6% YoY).",
+          "evidence": "was 412 million dollars, down 6 percent year over year due to lower meta quest sales,",
+          "timestamp_sec": 998,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Growth in the government and politics vertical fell sharply after the US elections, remaining a very small overall segment.",
+          "evidence": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall.",
+          "timestamp_sec": 3516,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "Gaming revenue declined YoY in Q1, impacted by reduced spend from China-based advertisers.",
+          "evidence": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024.",
+          "timestamp_sec": 3498,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        },
+        {
+          "claim": "General and administrative expenses fell 34 percent, driven by lower legal costs.",
+          "evidence": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over",
+          "timestamp_sec": 777,
+          "sentiment": "negative",
+          "verdict": "VERIFIED",
+          "match_ratio": 1
+        }
+      ]
+    }
+  },
+  "transcripts": {
+    "AAPL/Q1-2025": {
+      "duration_sec": 3273.386,
+      "language": "en",
+      "segments": [
+        {
+          "start": 380.62,
+          "end": 386.82,
+          "text": "and a pro camera system so advanced it can turn moments and disaster pieces."
+        },
+        {
+          "start": 386.82,
+          "end": 394.3,
+          "text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by"
+        },
+        {
+          "start": 394.3,
+          "end": 399.78,
+          "text": "significant excitement around the world for our latest Mac lineup."
+        },
+        {
+          "start": 399.78000000000003,
+          "end": 404.90000000000003,
+          "text": "The Mac is more than just a powerful tool, it's a launch pad to enable users to bring"
+        },
+        {
+          "start": 579.5,
+          "end": 586.9,
+          "text": "Turning to services, we set an all-time revenue record of $26.3 billion for the December quarter"
+        },
+        {
+          "start": 586.9,
+          "end": 590.62,
+          "text": "growing 14% from a year ago."
+        },
+        {
+          "start": 590.62,
+          "end": 597.14,
+          "text": "We set all-time records in the Americas, Europe and rest of Asia Pacific and a December quarter"
+        },
+        { "start": 597.14, "end": 599.62, "text": "record in Japan." },
+        {
+          "start": 825.86,
+          "end": 830.62,
+          "text": "Pacific and grew in the vast majority of markets we track."
+        },
+        {
+          "start": 830.62,
+          "end": 838.0200000000001,
+          "text": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac."
+        },
+        {
+          "start": 838.0200000000001,
+          "end": 842.5400000000001,
+          "text": "Thanks to our incredible customer satisfaction and strong loyalty, our install base of active"
+        },
+        {
+          "start": 842.5400000000001,
+          "end": 848.26,
+          "text": "devices reached an all-time high across all products and geographic segments and is now"
+        },
+        {
+          "start": 1047.66,
+          "end": 1054.0600000000002,
+          "text": "Customer satisfaction was at 96% in the U.S., based on the latest reports from 451 research."
+        },
+        {
+          "start": 1054.0600000000002,
+          "end": 1059.98,
+          "text": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year."
+        },
+        {
+          "start": 1059.98,
+          "end": 1064.14,
+          "text": "Customers are excited about the new AirPods 4 and the latest hearing health features in"
+        },
+        {
+          "start": 1064.14,
+          "end": 1065.8200000000002,
+          "text": "AirPods Pro 2."
+        },
+        {
+          "start": 1244.14,
+          "end": 1249.6200000000001,
+          "text": "As a dollar is strengthened significantly, we expect foreign exchange to be a headwind and"
+        },
+        {
+          "start": 1249.6200000000001,
+          "end": 1256.3000000000002,
+          "text": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis."
+        },
+        {
+          "start": 1256.3,
+          "end": 1261.62,
+          "text": "With that headwind, we expect our March quarter total company revenue to grow low to"
+        },
+        {
+          "start": 1261.62,
+          "end": 1264.02,
+          "text": "mid-single digits year-over-year."
+        },
+        {
+          "start": 1264.02,
+          "end": 1268.22,
+          "text": "We expect services revenue to grow low double digits year-over-year."
+        },
+        {
+          "start": 1370.38,
+          "end": 1376.8200000000002,
+          "text": "We did see that the markets where we had rolled out Apple intelligence that the year-over-year"
+        },
+        {
+          "start": 1376.8200000000002,
+          "end": 1383.3400000000001,
+          "text": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not"
+        },
+        { "start": 1383.3400000000001, "end": 1384.66, "text": "available." },
+        {
+          "start": 1384.66,
+          "end": 1390.42,
+          "text": "In terms of the features that people are using, they're using all of the ones that I referenced"
+        },
+        { "start": 1491.42, "end": 1492.42, "text": "Yeah, sure." },
+        {
+          "start": 1492.42,
+          "end": 1500.94,
+          "text": "If you look at our greater China revenue for the quarter, we were down 11% year over year."
+        },
+        {
+          "start": 1500.94,
+          "end": 1508.9,
+          "text": "And over half of the decline that we experienced was driven by a change in channel inventory"
+        },
+        {
+          "start": 1508.9,
+          "end": 1512.3400000000001,
+          "text": "from the beginning to the end of the quarter."
+        }
+      ],
+      "full_text": "and a pro camera system so advanced it can turn moments and disaster pieces. In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by significant excitement around the world for our latest Mac lineup. The Mac is more than just a powerful tool, it's a launch pad to enable users to bring Turning to services, we set an all-time revenue record of $26.3 billion for the December quarter growing 14% from a year ago. We set all-time records in the Americas, Europe and rest of Asia Pacific and a December quarter record in Japan. Pacific and grew in the vast majority of markets we track. Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac. Thanks to our incredible customer satisfaction and strong loyalty, our install base of active devices reached an all-time high across all products and geographic segments and is now Customer satisfaction was at 96% in the U.S., based on the latest reports from 451 research. Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year. Customers are excited about the new AirPods 4 and the latest hearing health features in AirPods Pro 2. As a dollar is strengthened significantly, we expect foreign exchange to be a headwind and to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis. With that headwind, we expect our March quarter total company revenue to grow low to mid-single digits year-over-year. We expect services revenue to grow low double digits year-over-year. We did see that the markets where we had rolled out Apple intelligence that the year-over-year performance on the iPhone 16 family was stronger than those where Apple intelligence was not available. In terms of the features that people are using, they're using all of the ones that I referenced Yeah, sure. If you look at our greater China revenue for the quarter, we were down 11% year over year. And over half of the decline that we experienced was driven by a change in channel inventory from the beginning to the end of the quarter."
+    },
+    "MSFT/Q1-2025": {
+      "duration_sec": 3780.373,
+      "language": "en",
+      "segments": [
+        {
+          "start": 1238,
+          "end": 1245,
+          "text": "Microsoft crowd revenue was $38.9 billion and grew 22% roughly in line with expectations."
+        },
+        {
+          "start": 1245,
+          "end": 1250,
+          "text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%."
+        },
+        {
+          "start": 1250,
+          "end": 1254,
+          "text": "This was slightly better than expected due to improvement in Azure."
+        },
+        {
+          "start": 1254,
+          "end": 1261,
+          "text": "Although the gross margin percentage decreased year over year continues to be driven by scaling our AI infrastructure."
+        },
+        {
+          "start": 1303,
+          "end": 1310,
+          "text": "Operating income increased 14% and operating margins were 47% down 1.0 over year."
+        },
+        {
+          "start": 1310,
+          "end": 1316,
+          "text": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0."
+        },
+        {
+          "start": 1316,
+          "end": 1322,
+          "text": "We continue to drive efficiencies across our businesses as we invest in AI infrastructure and capabilities."
+        },
+        { "start": 1322, "end": 1325, "text": "Now to our segment results." },
+        {
+          "start": 1368,
+          "end": 1376,
+          "text": "M365 commercial cloud revenue represents nearly 90% of total M365 commercial products and cloud services."
+        },
+        {
+          "start": 1376,
+          "end": 1382,
+          "text": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,"
+        },
+        {
+          "start": 1382,
+          "end": 1386,
+          "text": "primarily due to the benefit from inquiry revenue recognition noted earlier."
+        },
+        {
+          "start": 1386,
+          "end": 1392,
+          "text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency."
+        },
+        {
+          "start": 1392,
+          "end": 1401,
+          "text": "M365 consumer cloud revenue increased 6% and 7% in constant currency with continued momentum in M365 consumer subscriptions,"
+        },
+        {
+          "start": 1401,
+          "end": 1404,
+          "text": "which grew 10% to 84.4 million."
+        },
+        {
+          "start": 1404,
+          "end": 1412,
+          "text": "M365 consumer cloud revenue represents 85% of total M365 consumer products and cloud services."
+        },
+        {
+          "start": 1412,
+          "end": 1421,
+          "text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business."
+        },
+        {
+          "start": 1421,
+          "end": 1434,
+          "text": "Dynamics revenue grew 14% driven by Dynamics 365, which grew 18% and 19% in constant currency with continued growth across all workloads and continued share gains."
+        },
+        {
+          "start": 1434,
+          "end": 1440,
+          "text": "As a reminder, Dynamics 365 represents about 90% of total Dynamics revenue."
+        },
+        {
+          "start": 1502,
+          "end": 1509,
+          "text": "The non-AI point contribution to Azure growth was sequentially lower by approximately one point."
+        },
+        {
+          "start": 1509,
+          "end": 1513,
+          "text": "In our on-premises server business, revenue decreased 1%."
+        },
+        {
+          "start": 1513,
+          "end": 1528,
+          "text": "Lower than expected transactional purchasing ahead of the Windows Server 2025 launch as well as lower purchasing of licenses running in multi cloud environments was mostly offset by the benefit from in period revenue recognition noted earlier."
+        },
+        {
+          "start": 1528,
+          "end": 1534,
+          "text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency."
+        },
+        {
+          "start": 1534,
+          "end": 1542,
+          "text": "Segment gross margin dollars increased 15% and gross margin percentage decreased 3.0 over year, driven by scaling our AI infrastructure."
+        },
+        {
+          "start": 1542,
+          "end": 1547,
+          "text": "Operating expenses increased 8% and operating income grew 18%."
+        },
+        {
+          "start": 1678,
+          "end": 1689,
+          "text": "Cashflow from operations with $34.2 billion up 12% driven by strong cloud buildings and collections partially offset by higher supplier employee and tax payments."
+        },
+        {
+          "start": 1689,
+          "end": 1698,
+          "text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings."
+        },
+        {
+          "start": 1698,
+          "end": 1709,
+          "text": "This quarter other income expense was negative $283 million significantly more favorable than anticipated due to foreign currency re measurement and net gains on investments."
+        },
+        {
+          "start": 1709,
+          "end": 1714,
+          "text": "Our losses on investments accounted for under the equity method were as expected."
+        }
+      ],
+      "full_text": "Microsoft crowd revenue was $38.9 billion and grew 22% roughly in line with expectations. Microsoft cloud gross margin percentage decreased 2.0 over year to 71%. This was slightly better than expected due to improvement in Azure. Although the gross margin percentage decreased year over year continues to be driven by scaling our AI infrastructure. Operating income increased 14% and operating margins were 47% down 1.0 over year. Excluding the net impact from the Activision acquisition, operating margins were up 1.0. We continue to drive efficiencies across our businesses as we invest in AI infrastructure and capabilities. Now to our segment results. M365 commercial cloud revenue represents nearly 90% of total M365 commercial products and cloud services. M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations, primarily due to the benefit from inquiry revenue recognition noted earlier. M365 consumer products and cloud services revenue increased 5% and 6% in constant currency. M365 consumer cloud revenue increased 6% and 7% in constant currency with continued momentum in M365 consumer subscriptions, which grew 10% to 84.4 million. M365 consumer cloud revenue represents 85% of total M365 consumer products and cloud services. Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business. Dynamics revenue grew 14% driven by Dynamics 365, which grew 18% and 19% in constant currency with continued growth across all workloads and continued share gains. As a reminder, Dynamics 365 represents about 90% of total Dynamics revenue. The non-AI point contribution to Azure growth was sequentially lower by approximately one point. In our on-premises server business, revenue decreased 1%. Lower than expected transactional purchasing ahead of the Windows Server 2025 launch as well as lower purchasing of licenses running in multi cloud environments was mostly offset by the benefit from in period revenue recognition noted earlier. Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency. Segment gross margin dollars increased 15% and gross margin percentage decreased 3.0 over year, driven by scaling our AI infrastructure. Operating expenses increased 8% and operating income grew 18%. Cashflow from operations with $34.2 billion up 12% driven by strong cloud buildings and collections partially offset by higher supplier employee and tax payments. Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings. This quarter other income expense was negative $283 million significantly more favorable than anticipated due to foreign currency re measurement and net gains on investments. Our losses on investments accounted for under the equity method were as expected."
+    },
+    "NVDA/Q1-2025": {
+      "duration_sec": 3879.805,
+      "language": "en",
+      "segments": [
+        {
+          "start": 138.32000000000002,
+          "end": 141.48000000000002,
+          "text": "Q1 was another record quarter."
+        },
+        {
+          "start": 141.48000000000002,
+          "end": 150.16,
+          "text": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our"
+        },
+        {
+          "start": 150.16,
+          "end": 153.48000000000002,
+          "text": "outlook of 24 billion."
+        },
+        {
+          "start": 153.48000000000002,
+          "end": 161.36,
+          "text": "Starting with data center, data center revenue of 22.6 billion was a record of 23% sequentially"
+        },
+        {
+          "start": 575.64,
+          "end": 581.6,
+          "text": "We've ramped new products designed specifically for China that don't require and support control"
+        },
+        { "start": 581.6, "end": 582.76, "text": "life." },
+        {
+          "start": 582.76,
+          "end": 587.88,
+          "text": "Our data center revenue in China is down significantly from the level prior to the imposition of"
+        },
+        {
+          "start": 587.88,
+          "end": 591.72,
+          "text": "the new export control restrictions in October."
+        },
+        {
+          "start": 1032.48,
+          "end": 1037.08,
+          "text": "deployment in the cloud or on-prem."
+        },
+        {
+          "start": 1037.08,
+          "end": 1045.56,
+          "text": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and"
+        },
+        {
+          "start": 1045.56,
+          "end": 1051.08,
+          "text": "up 18% year-on-year consistent with our outlook for a seasonal decline."
+        },
+        {
+          "start": 1051.08,
+          "end": 1058.6799999999998,
+          "text": "The GeForce RTX Super's GPUs, market reception is strong and end-demand and channel inventory"
+        },
+        {
+          "start": 1145.68,
+          "end": 1149.1200000000001,
+          "text": "and non-playable characters."
+        },
+        {
+          "start": 1149.1200000000001,
+          "end": 1158.3600000000001,
+          "text": "Moving to ProViz, revenue of 427 million was down 8% sequentially and up 45% year on year."
+        },
+        {
+          "start": 1158.3600000000001,
+          "end": 1164.16,
+          "text": "We believe genertive AI and omniverse industrial digitalization will drive the next wave of"
+        },
+        {
+          "start": 1164.16,
+          "end": 1166.88,
+          "text": "professional visualization growth."
+        },
+        {
+          "start": 1228.6399999999999,
+          "end": 1232.08,
+          "text": "planning and retail configurations."
+        },
+        {
+          "start": 1232.08,
+          "end": 1240.68,
+          "text": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year."
+        },
+        {
+          "start": 1240.68,
+          "end": 1246.3600000000001,
+          "text": "sequential growth was driven by the ramp of AI cockpit solutions with global OEM customers"
+        },
+        {
+          "start": 1246.3600000000001,
+          "end": 1250.3600000000001,
+          "text": "and strength in our self-driving platforms."
+        },
+        {
+          "start": 1289.0400000000002,
+          "end": 1296.5600000000002,
+          "text": "Okay, moving to the rest of the P&L, gap growth margin expanded sequentially to 78.4%"
+        },
+        {
+          "start": 1296.56,
+          "end": 1302.36,
+          "text": "and non-gap growth margins to 78.9% on lower inventory charges."
+        },
+        {
+          "start": 1302.36,
+          "end": 1309.44,
+          "text": "As noted last quarter, both Q4 and Q1 benefited from favorable component costs."
+        },
+        {
+          "start": 1309.44,
+          "end": 1315.44,
+          "text": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up"
+        },
+        {
+          "start": 1315.44,
+          "end": 1322.8,
+          "text": "13%, primarily reflecting higher compensation-related costs and increased compute and infrastructure"
+        },
+        { "start": 1322.8, "end": 1323.8, "text": "investments." },
+        {
+          "start": 3192.96,
+          "end": 3204.4,
+          "text": "We have customers that we honor and we do our best for every customer."
+        },
+        {
+          "start": 3204.4,
+          "end": 3213.64,
+          "text": "It is the case that our business in China is substantially lower than the levels of"
+        },
+        {
+          "start": 3213.64,
+          "end": 3223.48,
+          "text": "the past, and it's a lot more competitive in China now because of the limitations on"
+        },
+        {
+          "start": 3223.48,
+          "end": 3231,
+          "text": "our technology, and so those matters are true."
+        }
+      ],
+      "full_text": "Q1 was another record quarter. Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our outlook of 24 billion. Starting with data center, data center revenue of 22.6 billion was a record of 23% sequentially We've ramped new products designed specifically for China that don't require and support control life. Our data center revenue in China is down significantly from the level prior to the imposition of the new export control restrictions in October. deployment in the cloud or on-prem. Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and up 18% year-on-year consistent with our outlook for a seasonal decline. The GeForce RTX Super's GPUs, market reception is strong and end-demand and channel inventory and non-playable characters. Moving to ProViz, revenue of 427 million was down 8% sequentially and up 45% year on year. We believe genertive AI and omniverse industrial digitalization will drive the next wave of professional visualization growth. planning and retail configurations. Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year. sequential growth was driven by the ramp of AI cockpit solutions with global OEM customers and strength in our self-driving platforms. Okay, moving to the rest of the P&L, gap growth margin expanded sequentially to 78.4% and non-gap growth margins to 78.9% on lower inventory charges. As noted last quarter, both Q4 and Q1 benefited from favorable component costs. sequentially, gap operating expenses were up 10% and non-gap operating expenses were up 13%, primarily reflecting higher compensation-related costs and increased compute and infrastructure investments. We have customers that we honor and we do our best for every customer. It is the case that our business in China is substantially lower than the levels of the past, and it's a lot more competitive in China now because of the limitations on our technology, and so those matters are true."
+    },
+    "META/Q1-2025": {
+      "duration_sec": 3637.069,
+      "language": "en",
+      "segments": [
+        {
+          "start": 736.2400000000001,
+          "end": 744.32,
+          "text": "24.8 billion dollars, up 9 percent, compared to last year. In terms of the specific line items,"
+        },
+        {
+          "start": 745.0400000000001,
+          "end": 751.2800000000001,
+          "text": "cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and"
+        },
+        {
+          "start": 751.2800000000001,
+          "end": 756.8000000000001,
+          "text": "payments to partners, partially offset by a benefit from the previously announced extension"
+        },
+        {
+          "start": 756.8000000000001,
+          "end": 764.72,
+          "text": "of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and"
+        },
+        {
+          "start": 764.72,
+          "end": 771.6800000000001,
+          "text": "infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in"
+        },
+        {
+          "start": 771.6800000000001,
+          "end": 775.84,
+          "text": "professional services related to our ongoing platform integrity efforts."
+        },
+        {
+          "start": 777.1200000000001,
+          "end": 785.2,
+          "text": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over"
+        },
+        {
+          "start": 785.2,
+          "end": 795.2,
+          "text": "76,800 employees, up 4 percent quarter over quarter. First quarter operating income was 17.6 billion"
+        },
+        {
+          "start": 795.2,
+          "end": 802.88,
+          "text": "dollars, representing a 41 percent operating margin. Our tax rate for the quarter was 9 percent,"
+        },
+        {
+          "start": 893.12,
+          "end": 897.28,
+          "text": "the online commerce vertical was the largest contributor to year over year growth."
+        },
+        {
+          "start": 898.8,
+          "end": 905.12,
+          "text": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at"
+        },
+        {
+          "start": 905.12,
+          "end": 912.88,
+          "text": "19 percent and 18 percent respectively. Europe and Asia Pacific grew 14 percent and 12 percent."
+        },
+        {
+          "start": 914.88,
+          "end": 920.72,
+          "text": "In Q1, the total number of ad impressions served across our services increased 5 percent,"
+        },
+        {
+          "start": 990.4,
+          "end": 998.16,
+          "text": "dollars, representing a 52 percent operating margin. Within our reality lab segment, Q1 revenue"
+        },
+        {
+          "start": 998.16,
+          "end": 1004.56,
+          "text": "was 412 million dollars, down 6 percent year over year due to lower meta quest sales,"
+        },
+        {
+          "start": 1004.56,
+          "end": 1009.28,
+          "text": "which were partially offset by increased sales of Rayban meta AI glasses."
+        },
+        {
+          "start": 1010.88,
+          "end": 1017.28,
+          "text": "Reality Labs expenses were 4.6 billion dollars, up 8 percent year over year driven primarily by"
+        },
+        {
+          "start": 3493.28,
+          "end": 3498.28,
+          "text": "You know, we generally saw healthy growth in most verticals in Q1."
+        },
+        {
+          "start": 3498.28,
+          "end": 3516.28,
+          "text": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024."
+        },
+        {
+          "start": 3516.28,
+          "end": 3531.28,
+          "text": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall."
+        },
+        {
+          "start": 3531.28,
+          "end": 3536.28,
+          "text": "And then your second question on reality labs."
+        },
+        {
+          "start": 3536.28,
+          "end": 3540.28,
+          "text": "I mean, we're basically focused on doing the work more efficiently."
+        }
+      ],
+      "full_text": "24.8 billion dollars, up 9 percent, compared to last year. In terms of the specific line items, cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and payments to partners, partially offset by a benefit from the previously announced extension of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in professional services related to our ongoing platform integrity efforts. G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over 76,800 employees, up 4 percent quarter over quarter. First quarter operating income was 17.6 billion dollars, representing a 41 percent operating margin. Our tax rate for the quarter was 9 percent, the online commerce vertical was the largest contributor to year over year growth. On a user geography basis, ad revenue growth was strongest in rest of world and North America at 19 percent and 18 percent respectively. Europe and Asia Pacific grew 14 percent and 12 percent. In Q1, the total number of ad impressions served across our services increased 5 percent, dollars, representing a 52 percent operating margin. Within our reality lab segment, Q1 revenue was 412 million dollars, down 6 percent year over year due to lower meta quest sales, which were partially offset by increased sales of Rayban meta AI glasses. Reality Labs expenses were 4.6 billion dollars, up 8 percent year over year driven primarily by You know, we generally saw healthy growth in most verticals in Q1. We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024. And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall. And then your second question on reality labs. I mean, we're basically focused on doing the work more efficiently."
+    }
+  },
+  "evaluation": {
+    "citation_grounding": {
+      "baseline": {
+        "label": "Free-text citations",
+        "schema_compliance": 0.812,
+        "citation_accuracy": 0.814,
+        "total_citations": 86
+      },
+      "structured": {
+        "label": "JSON-schema citations",
+        "schema_compliance": 1,
+        "citation_accuracy": 1,
+        "total_citations": 128
+      }
+    },
+    "claim_coverage": {
+      "calls_evaluated": 4,
+      "avg_precision": 0.781,
+      "avg_recall": 0.803,
+      "avg_f1": 0.792,
+      "results": [
+        {
+          "ticker": "AAPL",
+          "quarter": "Q1_2025",
+          "generated_claims": 8,
+          "ground_truth_claims": 7,
+          "true_positives": 5,
+          "precision": 0.625,
+          "recall": 0.714,
+          "f1": 0.667
+        },
+        {
+          "ticker": "META",
+          "quarter": "Q1_2025",
+          "generated_claims": 8,
+          "ground_truth_claims": 8,
+          "true_positives": 6,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75
+        },
+        {
+          "ticker": "MSFT",
+          "quarter": "Q1_2025",
+          "generated_claims": 8,
+          "ground_truth_claims": 8,
+          "true_positives": 7,
+          "precision": 0.875,
+          "recall": 0.875,
+          "f1": 0.875
+        },
+        {
+          "ticker": "NVDA",
+          "quarter": "Q1_2025",
+          "generated_claims": 8,
+          "ground_truth_claims": 8,
+          "true_positives": 7,
+          "precision": 0.875,
+          "recall": 0.875,
+          "f1": 0.875
+        }
+      ]
+    }
+  }
+}

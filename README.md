@@ -35,7 +35,17 @@ The current interface demonstrates the available analysis and evidence trail. Th
 - **Audio navigation:** select a timestamp to seek the source player; the evidence view highlights the cited passage in a waveform.
 - **Methodology and evaluation:** inspect recorded baseline/structured results and per-call claim-coverage scores, with incomplete human review clearly labelled.
 
-The frontend includes responsive layouts, keyboard-operated report tabs and reduced-motion support. Report content is fetched from FastAPI rather than embedded in the frontend.
+The frontend includes responsive layouts, keyboard-operated report tabs and reduced-motion support. It opens immediately with a clearly labelled bundled demo, then replaces each resource with validated FastAPI responses as they arrive.
+
+### Instant demo and backend connection
+
+The frontend bundles curated copies of four existing reports (one per company), their claims, 109 transcript excerpts and a recorded evaluation snapshot. This is demonstration data from project outputs, not invented metrics or a live benchmark run. Full recordings and full transcripts are not bundled. Reports outside the sample set offer a link to an available example while their live response is pending.
+
+A shared client checks the existing `/companies` endpoint in the background. The header shows **Connecting to live analysis…**, **Live data** after a valid response, or **Interactive demo** after a failure or timeout. Every content section separately identifies demo versus live data, including partial availability. The connection label describes backend availability; it does not imply that all visible sections have already switched to live data.
+
+Requests time out after twelve seconds. Failed connections retry up to five times with delays of 2, 4, 8, 16 and 30 seconds; a manual retry remains available afterward. Failed content requests retain their bundled sample or previous live response. Shared caching, cancellation and request revisions prevent duplicate or stale requests from replacing newer data. Demo timestamps preview transcript passages without pretending to play audio. Optional web fonts load without blocking the first render.
+
+To refresh the curated snapshot from the current stored outputs, run `npm run demo:build` in `frontend/`. This only updates the frontend's demo file; it does not alter API responses or rerun evaluation.
 
 Audio playback requires the source MP3 to be available on the API server. A fresh clone and the public read-only deployment provide text-based research without those recordings.
 
@@ -67,7 +77,7 @@ npm ci
 npm run dev
 ```
 
-Open the URL Vite prints, normally **http://localhost:5173**. API documentation is at **http://127.0.0.1:8321/docs**. Vite proxies frontend `/api` requests to the backend on port `8321`.
+Open the URL Vite prints, normally **http://localhost:5173**. API documentation is at **http://127.0.0.1:8321/docs**. Vite proxies frontend `/api` requests to the backend on port `8321`. The frontend also works on its own: skip Terminal 1 to explore the bundled demo, with the connection status showing that live analysis is unavailable.
 
 This path does not install Whisper, FinBERT, the embedding model or Groq dependencies. `POST /analyze` returns `403` in read-only mode. Missing audio is reported in the interface while reports and transcripts remain usable.
 
@@ -102,7 +112,7 @@ The final output contains claims, evidence, timestamps, sentiment distribution, 
 
 ### Architecture and storage
 
-The React SPA requests data from FastAPI. The API reads saved JSON reports and intermediate outputs from `data/processed/`. In local processing mode, it can also invoke the pipeline. PostgreSQL/pgvector holds the optional retrieval index; it is not the main report store.
+The React SPA initially renders a bundled sample and requests live data from FastAPI in the background. The API reads saved JSON reports and intermediate outputs from `data/processed/`. In local processing mode, it can also invoke the pipeline. PostgreSQL/pgvector holds the optional retrieval index; it is not the main report store.
 
 Vite suits the existing client-rendered research interface: report selection, evidence navigation and playback happen in the browser. The hosted frontend uses a rewrite to `index.html` so direct links and refreshes work with React Router.
 
@@ -169,6 +179,18 @@ python -m unittest discover -s tests -v
 ```
 
 The tests cover strictly earlier dates, same-day exclusion, company isolation, missing dates, unavailable retrieval, result limits and the included dataset's chronology. They require no audio, model downloads or live database. An additional adapter test checks the installed LlamaIndex filter types with model and database operations substituted; it is skipped when those optional dependencies are unavailable.
+
+### Frontend connection and fallback tests
+
+With Node.js 24, run from `frontend/`:
+
+```bash
+npm test
+npm run build
+npm run lint
+```
+
+The dependency-free Node tests check immediate demo state, timeout and bounded retries, automatic recovery, partial failures, cache sharing, stale-response cancellation, response validation and sample-data shapes. They substitute transport responses rather than making calls to Render. They do not test browser audio decoding or visual layout.
 
 ## Run the processing pipeline locally
 
@@ -243,7 +265,7 @@ data/
   processed/            Included transcripts, reports, features and evaluations
   eval_labels/          Reference claims and available provenance metadata
   raw/                  Local source recordings and downloads; gitignored
-frontend/               React research interface
+frontend/               React interface, shared connection client and bundled demo
 tests/                  Historical-retrieval regression checks
 render.yaml             Read-only API deployment configuration
 ```

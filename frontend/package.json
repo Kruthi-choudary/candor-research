@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "demo:build": "node scripts/build-demo.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.52.0",

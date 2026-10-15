@@ -1,5 +1,6 @@
 import { Link, NavLink, Outlet } from "react-router-dom";
 import { Logo } from "./Logo";
+import { ConnectionStatus } from "./DataStatus";
 
 export function AppShell() {
   return (
@@ -18,9 +19,10 @@ export function AppShell() {
             </NavLink>
             <NavLink to="/app/evaluation">Methodology & evaluation</NavLink>
           </nav>
-          <span className="header-note">Independent intelligence</span>
+          <span className="header-note">Language. Voice. Context.</span>
         </header>
       </div>
+      <ConnectionStatus />
       <main id="main-content" tabIndex={-1}>
         <Outlet />
       </main>
@@ -28,7 +30,7 @@ export function AppShell() {
         <div className="container footer-inner">
           <span>
             CANDOR <span aria-hidden="true"> / </span> Earnings-call
-            intelligence
+            communication research
           </span>
           <span>Source first. Interpretation second.</span>
         </div>
