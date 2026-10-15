@@ -2,13 +2,30 @@
 
 ### The story behind the numbers.
 
-Candor is an earnings-call research prototype that connects generated claims to transcript quotes, timestamps and source audio. It combines speech recognition, financial sentiment classification, structured LLM generation and a separate citation-matching check in an editorial research interface.
+When a company announces its quarterly results, its leaders discuss how the business performed and answer questions in an earnings call. Their words may sound positive even when their language becomes more cautious or their speaking patterns change. Candor's research goal is to help readers investigate those changes by comparing what an executive says and how they say it with that same executive's earlier calls, then tracing the differences back to evidence.
+
+The current prototype builds part of that workflow: it transcribes recordings, classifies financial sentiment, measures vocal features and generates short briefs from selected quotes. Readers can inspect each claim's source text, surrounding conversation and, when audio is available, the original recording. **Executive-specific historical baselines and communication-anomaly detection are not yet implemented.**
 
 The included dataset covers **16 calls across Apple, Microsoft, Nvidia and Meta**, with four quarters per company. Reports, transcripts and evaluation outputs are committed so the research library can run without model downloads, API keys or a vector database.
 
 **A citation match confirms similar source text near a timestamp. It does not independently verify that the source supports the generated claim.**
 
 [Quick start](#quick-start) · [How it works](#how-it-works) · [Evaluation](#evaluation) · [Known limitations](#known-limitations) · [Deployment](#deployment)
+
+## Research question and current scope
+
+The central question is: **Does an executive communicate differently from their own usual pattern, and where does that change appear?** Someone who naturally speaks slowly should not be treated as unusual simply because another executive speaks faster. A meaningful comparison needs the same person's historical baseline, comparable passages and evidence a reader can inspect. A detected change would be a reason to investigate, not proof of nervousness, dishonesty or future stock performance.
+
+| Part of the intended workflow | Current implementation |
+|---|---|
+| Analyse what was said | Segment-level financial sentiment and claims generated from selected quotes; no dedicated hedging or uncertainty detector |
+| Analyse how it was said | Descriptive pitch, energy, pause and speaking-rate measurements |
+| Compare the same executive across calls | Not implemented; speakers are not identified |
+| Detect unusual changes against a historical baseline | Not implemented; no calibrated communication-anomaly score |
+| Retrieve relevant historical evidence | New retrieval uses the same company and strictly earlier recorded call dates; older saved reports still need regeneration and topic-specific comparisons need work |
+| Explain findings with inspectable evidence | Claim-to-quote, transcript and audio navigation exists; explanations of historical communication changes are future work |
+
+The current interface demonstrates the available analysis and evidence trail. The longer-term research direction is to connect language and vocal measurements through speaker-aware historical comparisons.
 
 ## Research workflow
 
@@ -18,7 +35,7 @@ The included dataset covers **16 calls across Apple, Microsoft, Nvidia and Meta*
 - **Audio navigation:** select a timestamp to seek the source player; the evidence view highlights the cited passage in a waveform.
 - **Methodology and evaluation:** inspect recorded baseline/structured results and per-call claim-coverage scores, with incomplete human review clearly labelled.
 
-The frontend uses an ink, parchment and brass palette, Manrope for interface text and DM Serif Display for editorial headings. It includes responsive layouts, keyboard-operated report tabs and reduced-motion support. Report content is fetched from FastAPI rather than embedded in the frontend.
+The frontend includes responsive layouts, keyboard-operated report tabs and reduced-motion support. Report content is fetched from FastAPI rather than embedded in the frontend.
 
 Audio playback requires the source MP3 to be available on the API server. A fresh clone and the public read-only deployment provide text-based research without those recordings.
 
@@ -77,7 +94,7 @@ flowchart TD
 1. **Transcription:** `faster-whisper`, configured with `base.en`, converts the recording into text segments with start and end times.
 2. **Sentiment:** `ProsusAI/finbert` classifies each non-empty segment as positive, negative or neutral. The reported distribution is the percentage of segments in each class, not a measure of investor opinion.
 3. **Vocal measurements:** `librosa` extracts pitch, energy, pauses and speaking rate. These are summarized alongside the report; they are not inputs to claim generation.
-4. **Retrieval:** LlamaIndex queries PostgreSQL/pgvector using `BAAI/bge-small-en-v1.5` embeddings. Results are filtered to the same company and exclude the current quarter. **Earlier-quarter filtering is not yet enforced**, so retrieved context can contain later information. If retrieval fails, processing continues without it.
+4. **Retrieval:** LlamaIndex queries PostgreSQL/pgvector using `BAAI/bge-small-en-v1.5` embeddings. Before vector search, metadata filters restrict candidates to the same company and quarters with recorded call dates strictly earlier than the target call. Returned results are checked against that eligibility list again. Missing or invalid target dates yield no context, and the earliest call needs no search. Ordering depends on the dates in `data/processed/call_dates.json`, which were collected from feed metadata and still need independent source verification. If retrieval fails, processing continues without it. **Older saved reports have not yet been regenerated with this fix.**
 5. **Generation:** the configured Groq-hosted model, `openai/gpt-oss-120b`, receives sentiment percentages, up to four positive and four negative source quotes, and optional retrieved context. It is asked to return one claim per quote and a short summary in a JSON-schema-constrained response. **It does not receive the full current-call transcript.**
 6. **Citation matching:** a separate checker finds transcript segments starting within two seconds of each citation and checks normalized text similarity against a `0.6` threshold. Match results are recorded before the standardized report is saved; a failed match does not automatically remove the claim.
 
@@ -145,6 +162,14 @@ python -m src.eval.compare_runs
 
 The first two commands recompute evaluation summaries from existing files without model calls or audio. They overwrite their corresponding saved summaries. `compare_runs` formats the saved baseline and structured results into `comparison.md`; it does not regenerate reports or rerun the original experiment. Per-call citation files served by the claims endpoint are written separately by `pipeline.py`.
 
+### Historical-retrieval regression checks
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The tests cover strictly earlier dates, same-day exclusion, company isolation, missing dates, unavailable retrieval, result limits and the included dataset's chronology. They require no audio, model downloads or live database. An additional adapter test checks the installed LlamaIndex filter types with model and database operations substituted; it is skipped when those optional dependencies are unavailable.
+
 ## Run the processing pipeline locally
 
 Full processing requires the heavier dependencies, source audio and a Groq key whenever new claims are generated. Models may download on first use.
@@ -182,7 +207,7 @@ For optional retrieval, configure a PostgreSQL database with the `vector` extens
 python -m src.rag.build_index
 ```
 
-The index is built from the saved transcripts. The current indexing script does not explicitly clear existing nodes, so repeated indexing should not be assumed to replace the index cleanly. Fixing chronological retrieval remains necessary even with a working database.
+The index is built from the saved transcripts. The current indexing script does not explicitly clear existing nodes, so repeated indexing should not be assumed to replace the index cleanly. Historical filtering uses the existing ticker and quarter metadata; an existing index does not need to be rebuilt just to apply that fix.
 
 ## API
 
@@ -209,7 +234,7 @@ src/
   data/                 Transcription and supporting data-collection scripts
   nlp/                  FinBERT sentiment classification
   audio/                Vocal-feature extraction
-  rag/                  Vector indexing and retrieval
+  rag/                  Vector indexing and historical retrieval
   report/               Free-text baseline and structured generation
   eval/                 Citation checks and claim-coverage evaluation
   analysis/             Separate stock-price reaction analysis
@@ -219,10 +244,15 @@ data/
   eval_labels/          Reference claims and available provenance metadata
   raw/                  Local source recordings and downloads; gitignored
 frontend/               React research interface
+tests/                  Historical-retrieval regression checks
 render.yaml             Read-only API deployment configuration
 ```
 
-The price-reaction and SEC-filing scripts are supporting experiments. They are not part of the main claim-generation workflow or currently exposed as frontend research features.
+### Exploratory stock-price comparison
+
+The separate price-reaction script compares a closing price on or before the recorded call date with the next available trading day's close, alongside transcript sentiment. Its current flag uses an absolute price-move threshold of 5%; it does not estimate what return should be expected from the call's tone. This price reference is not an executive's communication baseline, and the flag is not a statistically validated anomaly or a causal explanation of market movement.
+
+The price-reaction and SEC-filing scripts are supporting experiments. They are not part of the main claim-generation workflow or currently exposed as frontend research features. Price-window alignment with the actual call time needs validation before drawing event-study conclusions.
 
 ## Deployment
 
@@ -244,19 +274,31 @@ Set `READ_ONLY_MODE=true` on the API and `ALLOWED_ORIGINS` to the exact frontend
 
 - **Incomplete evidence:** transcription segments can end mid-sentence. Selecting isolated fragments can change or obscure a claim's meaning.
 - **Selection bias:** generation sees sentiment-selected quotes, not a comprehensive selection of financial facts or the full transcript.
-- **Later-quarter leakage:** retrieval excludes the current quarter but does not enforce earlier dates; some saved reports already contain later-quarter context.
+- **Older saved context:** new retrieval enforces historical eligibility, but 10 included reports still contain 21 later-quarter context passages from earlier runs. These reports and their generated claims need review and regeneration; removing context fields alone would not undo its possible influence on generation.
+- **Date provenance:** historical ordering follows recorded feed dates, not independently verified event timestamps. Incorrect date metadata can still produce an incorrect historical comparison.
 - **Limited verification:** citation matching checks text and time, not whether the evidence entails the claim. Failed matches remain in the saved report.
 - **Limited reference labels:** only four calls have reference claims, three sets await human review, and provenance has not been independently audited.
 - **No speaker identification:** transcript segments do not distinguish management, analysts or individual speakers.
+- **No historical communication baseline:** whole-call features mix speakers and passages; they cannot currently establish that a particular executive behaved unusually compared with their own history.
 - **Descriptive audio only:** vocal measurements are not validated indicators of confidence, deception or financial performance.
 - **File-based caching:** cache reuse depends on file existence, without automatic invalidation when prompts, models or configuration change.
 
 ## Planned improvements
 
-These are outstanding work, not completed features:
+These are outstanding work, not completed features.
+
+### Reliability of the existing pipeline
 
 1. Construct complete evidence passages from adjacent transcript segments.
-2. Enforce historical retrieval and regenerate affected reports.
+2. Verify call-date sources and regenerate reports produced before historical filtering was fixed.
 3. Add an independent claim-support review alongside citation matching.
 4. Expand independently human-reviewed reference claims and record reviewer provenance.
-5. Add regression tests for misleading citations, missing data, temporal filtering and API failure cases.
+5. Extend the historical-retrieval regression suite to cover misleading citations, other missing data and API failure cases.
+
+### Communication-change research
+
+1. Identify speakers and consistently associate the same executive across calls.
+2. Compare like-for-like passages, accounting for recording quality, speaker turns and prepared remarks versus questions and answers.
+3. Build historical language and vocal-feature baselines using only earlier calls, with explicit minimum-history requirements.
+4. Evaluate changes in sentiment, uncertainty language, pauses, pitch, energy and speaking rate against those baselines.
+5. Retrieve relevant earlier passages and explain observed differences with timestamps, uncertainty and human-reviewable evidence.

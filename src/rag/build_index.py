@@ -1,14 +1,11 @@
 import json
 import logging
+from datetime import date
 from pathlib import Path
 
-from llama_index.core import VectorStoreIndex, StorageContext, Settings
-from llama_index.core.schema import TextNode
-from llama_index.core.vector_stores import MetadataFilter, MetadataFilters, FilterOperator
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from llama_index.vector_stores.postgres import PGVectorStore
-
 from src.common.config import load_pipeline_config
+from src.common.errors import PipelineError
+from src.common.manifest import CALL_DATES_PATH, normalize_quarter
 
 _cfg = load_pipeline_config()
 logger = logging.getLogger("candor.rag")
@@ -49,6 +46,8 @@ def chunk_segments(segments: list) -> list:
 
 
 def build_nodes() -> list:
+    from llama_index.core.schema import TextNode
+
     nodes = []
     for ticker_dir in sorted(TRANSCRIPTS_DIR.iterdir()):
         if not ticker_dir.is_dir():
@@ -78,6 +77,10 @@ def build_nodes() -> list:
 
 
 def run():
+    from llama_index.core import VectorStoreIndex, StorageContext, Settings
+    from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+    from llama_index.vector_stores.postgres import PGVectorStore
+
     Settings.embed_model = HuggingFaceEmbedding(model_name=EMBED_MODEL)
     Settings.llm = None
 
@@ -91,41 +94,102 @@ def run():
     )
     storage_context = StorageContext.from_defaults(vector_store=vector_store)
 
-    print("Embedding and writing to pgvector (this rebuilds the table fresh each run)...")
+    print("Embedding and writing to pgvector...")
     VectorStoreIndex(nodes, storage_context=storage_context)
     print(f"Done. {len(nodes)} chunks indexed into table '{TABLE_NAME}'.")
 
 
-def query_prior_quarters(ticker: str, exclude_quarter: str, top_k: int = None) -> list:
-    """Best-effort retrieval of prior-quarter context for the same ticker, for cross-quarter
-    comparison in the generated report. This is an enrichment, not a hard dependency — if the
-    index hasn't been built yet or Postgres isn't reachable, it logs a warning and returns []
-    rather than failing the pipeline.
+def _eligible_prior_quarters(ticker: str, current_quarter: str) -> list[str]:
+    """Select strictly earlier calls using recorded dates, not fiscal-quarter labels.
+
+    An unknown target date cannot establish chronology and must fail closed.
+    Undated or malformed candidate calls are excluded rather than guessed.
     """
-    top_k = top_k or _cfg["retrieval"]["top_k"]
+    call_dates = json.loads(CALL_DATES_PATH.read_text()).get(ticker, {})
     try:
-        embed_model = HuggingFaceEmbedding(model_name=EMBED_MODEL)
-        vector_store = PGVectorStore.from_params(**PG_CONFIG, table_name=TABLE_NAME, embed_dim=EMBED_DIM)
-        index = VectorStoreIndex.from_vector_store(vector_store, embed_model=embed_model)
-        # Filter server-side by ticker — oversampling from the whole corpus and filtering in
-        # Python isn't reliable once there are several tickers: the nearest neighbors across
-        # all companies can easily contain zero chunks from the one ticker we actually want.
-        filters = MetadataFilters(filters=[MetadataFilter(key="ticker", value=ticker, operator=FilterOperator.EQ)])
-        retriever = index.as_retriever(similarity_top_k=top_k + 4, filters=filters)
-        nodes = retriever.retrieve("key financial highlights, guidance, and outlook")
+        current_date = date.fromisoformat(call_dates[current_quarter])
+    except (KeyError, TypeError, ValueError) as exc:
+        raise PipelineError(
+            f"No valid recorded call date for {ticker} {current_quarter}; "
+            "historical context cannot be selected safely."
+        ) from exc
+
+    eligible = []
+    for quarter, recorded_date in call_dates.items():
+        try:
+            candidate_date = date.fromisoformat(recorded_date)
+            normalized_quarter = normalize_quarter(quarter)
+        except (TypeError, ValueError, PipelineError):
+            logger.warning("Skipping invalid call-date entry for %s %s", ticker, quarter)
+            continue
+        if normalized_quarter != current_quarter and candidate_date < current_date:
+            eligible.append((candidate_date, normalized_quarter))
+    return [quarter for _, quarter in sorted(eligible)]
+
+
+def _retrieve_nodes(ticker: str, eligible_quarters: list[str], top_k: int) -> list:
+    """Apply company AND historical eligibility before the vector similarity limit.
+
+    Filtering existing quarter metadata also works with the existing index: a
+    new date field and re-embedding the transcripts are not required.
+    """
+    from llama_index.core import VectorStoreIndex
+    from llama_index.core.vector_stores import (
+        MetadataFilter, MetadataFilters, FilterOperator, FilterCondition,
+    )
+    from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+    from llama_index.vector_stores.postgres import PGVectorStore
+
+    embed_model = HuggingFaceEmbedding(model_name=EMBED_MODEL)
+    vector_store = PGVectorStore.from_params(**PG_CONFIG, table_name=TABLE_NAME, embed_dim=EMBED_DIM)
+    index = VectorStoreIndex.from_vector_store(vector_store, embed_model=embed_model)
+    filters = MetadataFilters(
+        filters=[
+            MetadataFilter(key="ticker", value=ticker, operator=FilterOperator.EQ),
+            MetadataFilter(key="quarter", value=eligible_quarters, operator=FilterOperator.IN),
+        ],
+        condition=FilterCondition.AND,
+    )
+    retriever = index.as_retriever(similarity_top_k=top_k, filters=filters)
+    return retriever.retrieve("key financial highlights, guidance, and outlook")
+
+
+def query_prior_quarters(ticker: str, exclude_quarter: str, top_k: int = None) -> list:
+    """Retrieve same-company context strictly before the target's recorded date.
+
+    ``exclude_quarter`` is the target call, retaining the existing pipeline
+    interface. Missing dates or unavailable retrieval yield no context. The
+    earliest dated call needs no retrieval or model initialization at all.
+    """
+    try:
+        ticker = ticker.strip().upper()
+        current_quarter = normalize_quarter(exclude_quarter)
+        limit = _cfg["retrieval"]["top_k"] if top_k is None else top_k
+        if limit <= 0:
+            return []
+        eligible_quarters = _eligible_prior_quarters(ticker, current_quarter)
+        if not eligible_quarters:
+            return []
+        nodes = _retrieve_nodes(ticker, eligible_quarters, limit)
+
+        # Defense in depth: never trust an unexpected index result merely
+        # because a metadata filter was requested. Keep the output contract.
+        matches = [
+            n for n in nodes
+            if n.node.metadata.get("ticker") == ticker
+            and n.node.metadata.get("quarter") in eligible_quarters
+        ][:limit]
+        return [
+            {
+                "quarter": n.node.metadata["quarter"].replace("_", " "),
+                "start_sec": n.node.metadata["start_sec"],
+                "text": n.node.text,
+            }
+            for n in matches
+        ]
     except Exception as e:
         logger.warning(f"RAG retrieval unavailable ({e.__class__.__name__}: {e}) — continuing without prior-quarter context")
         return []
-
-    matches = [n for n in nodes if n.node.metadata.get("quarter") != exclude_quarter][:top_k]
-    return [
-        {
-            "quarter": n.node.metadata["quarter"].replace("_", " "),
-            "start_sec": n.node.metadata["start_sec"],
-            "text": n.node.text,
-        }
-        for n in matches
-    ]
 
 
 if __name__ == "__main__":
