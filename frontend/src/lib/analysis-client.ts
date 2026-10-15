@@ -191,8 +191,9 @@ export class AnalysisClient {
         if (entry.listeners.size) void this.refresh(entry);
     } catch {
       if (!this.running || revision !== this.healthRevision) return;
-      this.setConnection("demo");
       const delay = this.retryDelays[this.healthAttempts - 1];
+      // A cold-start timeout is not a final failure while automatic retries remain.
+      this.setConnection(delay === undefined ? "demo" : "connecting");
       if (delay !== undefined)
         this.healthTimer = setTimeout(() => {
           this.healthTimer = null;
@@ -259,9 +260,9 @@ export class AnalysisClient {
         !this.healthTimer &&
         this.state === "live"
       ) {
-        this.setConnection("demo");
         this.healthAttempts = 0;
         const recoveryDelay = this.retryDelays[0];
+        this.setConnection(recoveryDelay === undefined ? "demo" : "connecting");
         if (recoveryDelay !== undefined)
           this.healthTimer = setTimeout(() => {
             this.healthTimer = null;

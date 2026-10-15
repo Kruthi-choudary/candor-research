@@ -26,7 +26,9 @@ export function ConnectionStatus() {
         <span className="connection-explanation">
           {state === "live"
             ? "Backend connected · each section identifies its data source"
-            : "Bundled examples work independently of the live service"}
+            : state === "connecting"
+              ? "Explore the demo now · connection attempts continue automatically"
+              : "Live service unavailable · the interactive demo remains available"}
         </span>
         {state === "demo" && (
           <button className="connection-retry" onClick={retry}>

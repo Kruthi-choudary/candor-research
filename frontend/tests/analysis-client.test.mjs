@@ -96,7 +96,25 @@ test("an unavailable backend stops retrying after its configured backoff", async
   await until(() => attempts === 3);
   await wait(20);
   assert.equal(attempts, 3);
+  assert.equal(client.getConnection(), "demo");
   assert.deepEqual(r.getSnapshot().data, ["sample"]);
+});
+test("a timed-out cold start stays connecting and recovers without manual retry", async (t) => {
+  let attempts = 0;
+  const states = [];
+  const client = setup(t, () => {
+    attempts++;
+    return attempts === 1 ? new Promise(() => {}) : Promise.resolve({});
+  }, { timeoutMs: 10, retryDelays: [5] });
+  const off = client.subscribeConnection(() => states.push(client.getConnection()));
+  t.after(off);
+  const r = resource(client);
+  watch(t, r);
+  client.start();
+  await until(() => r.getSnapshot().source === "live");
+  assert.equal(attempts, 2);
+  assert.deepEqual(states, ["live"]);
+  assert.deepEqual(r.getSnapshot().data, ["live"]);
 });
 test("subscribers share one in-flight request and one cached response", async (t) => {
   let calls = 0;
