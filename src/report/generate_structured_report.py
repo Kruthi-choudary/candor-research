@@ -1,4 +1,5 @@
 import json
+import hashlib
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -118,6 +119,15 @@ def generate_structured(ticker: str, quarter: str, client: Groq, prior_context: 
                     f"Generated citation is not an exact provided passage for {ticker} {quarter}."
                 )
         result["evidence_policy"] = EVIDENCE_POLICY
+        result["generation_provenance"] = {
+            "model": MODEL_NAME,
+            "max_tokens": MAX_TOKENS,
+            "response_id": getattr(response, "id", None),
+            "prompt_sha256": hashlib.sha256(prompt.encode()).hexdigest(),
+            "generator_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+            "input_segments_sha256": hashlib.sha256(json.dumps(segments, sort_keys=True).encode()).hexdigest(),
+            "selection": {"policy": EVIDENCE_POLICY, "top_k_per_seed_label": TOP_K_QUOTES},
+        }
         return result
     except json.JSONDecodeError as e:
         raise PipelineError(f"LLM returned malformed JSON for {ticker} {quarter}: {e}") from e

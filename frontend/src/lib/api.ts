@@ -54,6 +54,7 @@ export interface KeyClaim {
 }
 
 export interface CallReport {
+  report_version?: string;
   schema_version: string;
   ticker: string;
   company: string;

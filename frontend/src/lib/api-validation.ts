@@ -73,6 +73,7 @@ export const isReport = (v: unknown): v is CallReport => {
     !date(v.call_date) ||
     !text(v.overall_summary) ||
     !text(v.schema_version) ||
+    (v.report_version !== undefined && !text(v.report_version)) ||
     !text(v.pipeline_version)
   )
     return false;

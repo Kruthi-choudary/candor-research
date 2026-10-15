@@ -2,7 +2,13 @@
 // Run: node frontend/scripts/build-demo.mjs (from the repository root).
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { join } from "node:path";
+import { join, resolve } from "node:path";
+import { parseArgs } from "node:util";
+const { values: options } = parseArgs({ options: {
+  "override-bundle": { type: "string" }, output: { type: "string" },
+} });
+const override = options["override-bundle"]
+  ? JSON.parse(readFileSync(options["override-bundle"], "utf8")) : null;
 const root = fileURLToPath(new URL("../../", import.meta.url));
 const read = (path) => JSON.parse(readFileSync(join(root, path), "utf8"));
 const calls = [];
@@ -12,13 +18,14 @@ const transcripts = {};
 for (const ticker of ["AAPL", "MSFT", "NVDA", "META"]) {
   const quarter = "Q1_2025";
   const key = `${ticker}/Q1-2025`;
-  const report = read(`data/processed/pipeline_runs/${ticker}/${quarter}.json`);
-  const generated = read(
+  const replacing = override?.report.ticker === ticker && override.report.quarter.replaceAll(" ", "_") === quarter;
+  const report = replacing ? override.report : read(`data/processed/pipeline_runs/${ticker}/${quarter}.json`);
+  const generated = replacing ? override.structured_claims : read(
     `data/processed/reports_structured_citations_v1/${ticker}/${quarter}.json`,
   );
-  const verdicts = read(
+  const verdicts = (replacing ? override.citation_evaluation : read(
     `data/processed/eval/per_call/${ticker}/${quarter}.json`,
-  ).citations;
+  )).citations;
   const transcript = read(
     `data/processed/transcripts/${ticker}/${quarter}.json`,
   );
@@ -38,7 +45,7 @@ for (const ticker of ["AAPL", "MSFT", "NVDA", "META"]) {
   // Keep surrounding passages for each claim, not the full hour-long transcript.
   const selected = new Set();
   for (const c of claims[key].claims) {
-    const i = transcript.segments.reduce(
+    let i = transcript.segments.reduce(
       (best, s, index, segments) =>
         Math.abs(s.start - c.timestamp_sec) <
         Math.abs(segments[best].start - c.timestamp_sec)
@@ -46,9 +53,26 @@ for (const ticker of ["AAPL", "MSFT", "NVDA", "META"]) {
           : best,
       0,
     );
+    let end = i;
+    // Include the entire cited span, even when a complete passage exceeds three
+    // segments. Integer timestamps are copied by truncation, not nearest start.
+    let found = false;
+    for (let start = 0; start < transcript.segments.length && !found; start++) {
+      if (Math.trunc(transcript.segments[start].start) !== c.timestamp_sec) continue;
+      let text = "";
+      for (let last = start; last < transcript.segments.length; last++) {
+        text += `${text ? " " : ""}${transcript.segments[last].text.trim()}`;
+        if (text === c.evidence.trim()) {
+          i = start; end = last; found = true; break;
+        }
+        if (!c.evidence.trim().startsWith(text)) break;
+      }
+    }
+    if (report.evidence_policy === "complete_passages_v1" && !found)
+      throw new Error(`Complete evidence is missing from the transcript: ${key} at ${c.timestamp_sec}`);
     for (
       let j = Math.max(0, i - 1);
-      j < Math.min(transcript.segments.length, i + 3);
+      j < Math.min(transcript.segments.length, end + 3);
       j++
     )
       selected.add(j);
@@ -81,13 +105,13 @@ const structured = read(
 const evaluation = {
   citation_grounding: {
     baseline: {
-      label: "Free-text citations",
+      label: "Archived free-text citations",
       schema_compliance: baseline.format_compliance,
       citation_accuracy: baseline.overall_accuracy,
       total_citations: baseline.total_citations,
     },
     structured: {
-      label: "JSON-schema citations",
+      label: "Archived JSON-schema citations",
       schema_compliance: structured.format_compliance,
       citation_accuracy: structured.overall_accuracy,
       total_citations: structured.total_citations,
@@ -105,7 +129,7 @@ const snapshot = {
   transcripts,
   evaluation,
 };
-const output = join(root, "frontend/src/data/demo.json");
+const output = options.output ? resolve(options.output) : join(root, "frontend/src/data/demo.json");
 writeFileSync(output, JSON.stringify(snapshot) + "\n");
 console.log(
   `Bundled ${calls.length} reports and ${Object.values(transcripts).reduce((n, t) => n + t.segments.length, 0)} transcript excerpts (${Math.round(Buffer.byteLength(JSON.stringify(snapshot)) / 1024)} KB uncompressed).`,

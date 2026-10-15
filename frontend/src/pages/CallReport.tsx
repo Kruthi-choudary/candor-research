@@ -89,6 +89,7 @@ export function CallReport() {
               {formatDate(report.call_date)}
             </time>
             <span>{report.key_claims.length} extracted claims</span>
+            {report.report_version && <span>Version {report.report_version}</span>}
             <span>
               {transcript
                 ? `${Math.round(transcript.duration_sec / 60)} minute recording`
@@ -100,6 +101,18 @@ export function CallReport() {
           About the methodology <ArrowUpRight size={14} aria-hidden="true" />
         </Link>
       </header>
+      {report.report_version && (
+        <div className="notice mb-6">
+          <strong>Evidence review scope</strong>
+          <p>
+            AI-assisted review against the saved transcript; independent human
+            review is pending. Citation matching does not verify a claim’s meaning.
+            Call dates follow the recorded registry and await external verification.
+            {report.prior_quarter_context_used.length === 0 &&
+              " This report uses current-call evidence only; it does not assess historical communication changes."}
+          </p>
+        </div>
+      )}
       <div className="audio-dock" aria-label="Source recording player">
         <div className="audio-info">
           <p className="eyebrow">

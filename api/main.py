@@ -145,13 +145,13 @@ def eval_summary():
     return {
         "citation_grounding": {
             "baseline": {
-                "label": "Free-text citations",
+                "label": "Archived free-text citations",
                 "schema_compliance": baseline.get("format_compliance") if baseline else None,
                 "citation_accuracy": baseline["overall_accuracy"] if baseline else None,
                 "total_citations": baseline["total_citations"] if baseline else None,
             } if baseline else None,
             "structured": {
-                "label": "JSON-schema citations",
+                "label": "Archived JSON-schema citations",
                 "schema_compliance": structured["format_compliance"] if structured else None,
                 "citation_accuracy": structured["overall_accuracy"] if structured else None,
                 "total_citations": structured["total_citations"] if structured else None,

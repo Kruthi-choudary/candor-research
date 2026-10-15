@@ -39,7 +39,7 @@ The frontend includes responsive layouts, keyboard-operated report tabs and redu
 
 ### Instant demo and backend connection
 
-The frontend bundles curated copies of four existing reports (one per company), their claims, 109 transcript excerpts and a recorded evaluation snapshot. This is demonstration data from project outputs, not invented metrics or a live benchmark run. Full recordings and full transcripts are not bundled. Reports outside the sample set offer a link to an available example while their live response is pending.
+The frontend bundles curated copies of four existing reports (one per company), their claims, 115 transcript excerpts and a recorded evaluation snapshot. This is demonstration data from project outputs, not invented metrics or a live benchmark run. Full recordings and full transcripts are not bundled. Reports outside the sample set offer a link to an available example while their live response is pending.
 
 A shared client checks the existing `/companies` endpoint in the background. The header shows **Connecting to live analysis…**, **Live data** after a valid response, or **Interactive demo** after all automatic connection attempts fail. It stays in the connecting state during cold-start retries while the bundled demo remains usable. Every content section separately identifies demo versus live data, including partial availability. The connection label describes backend availability; it does not imply that all visible sections have already switched to live data.
 
@@ -104,7 +104,7 @@ flowchart TD
 1. **Transcription:** `faster-whisper`, configured with `base.en`, converts the recording into text segments with start and end times.
 2. **Sentiment:** `ProsusAI/finbert` classifies each non-empty segment as positive, negative or neutral. The reported distribution is the percentage of segments in each class, not a measure of investor opinion.
 3. **Vocal measurements:** `librosa` extracts pitch, energy, pauses and speaking rate. These are summarized alongside the report; they are not inputs to claim generation.
-4. **Retrieval:** LlamaIndex queries PostgreSQL/pgvector using `BAAI/bge-small-en-v1.5` embeddings. Before vector search, metadata filters restrict candidates to the same company and quarters with recorded call dates strictly earlier than the target call. Returned results are checked against that eligibility list again. Missing or invalid target dates yield no context, and the earliest call needs no search. Ordering depends on the dates in `data/processed/call_dates.json`, which were collected from feed metadata and still need independent source verification. If retrieval fails, processing continues without it. **Older saved reports have not yet been regenerated with this fix.**
+4. **Retrieval:** LlamaIndex queries PostgreSQL/pgvector using `BAAI/bge-small-en-v1.5` embeddings. Before vector search, metadata filters restrict candidates to the same company and quarters with recorded call dates strictly earlier than the target call. Returned results are checked against that eligibility list again. Missing or invalid target dates yield no context, and the earliest call needs no search. Ordering depends on the dates in `data/processed/call_dates.json`, which were collected from feed metadata and still need independent source verification. If retrieval fails, processing continues without it. **Apple Q1 2025 has been regenerated as a current-call-only report; the other 15 reports still require regeneration and review.**
 5. **Generation:** the configured Groq-hosted model, `openai/gpt-oss-120b`, receives sentiment percentages, up to four passages selected from positive seeds and four from negative seeds, and optional retrieved context. New generation joins adjacent segments through sentence boundaries and asks for at most one supported claim per passage plus a short summary in a JSON-schema-constrained response. Claim sentiment is assessed independently of the seed's label. **It does not receive the full current-call transcript.** Existing saved reports were generated from isolated quotes.
 6. **Citation matching:** new complete-passage reports require an exact passage copy and its integer start timestamp. Legacy reports use normalized text similarity against a `0.6` threshold for segments starting within two seconds of the citation. Match results are recorded before the standardized report is saved; a failed match does not automatically remove the claim. Neither procedure verifies the meaning of the generated claim.
 
@@ -142,13 +142,15 @@ Recorded results from [`data/processed/eval/`](data/processed/eval/):
 | Citations matched | 70 / 86 | 128 / 128 |
 | Recorded format-compliance value | 81.2% | 100.0% |
 
-These results describe the included dataset under the implemented checkers. They do **not** establish 100% factual accuracy, complete claim support or the absence of hallucinations.
+These are archived results from the original experiment; they do not evaluate newly regenerated reports. They do **not** establish 100% factual accuracy, complete claim support or the absence of hallucinations. Current report citation matches are stored separately in per-call evaluation files.
 
 The comparison changes both generation format and checking procedure: the baseline uses regex parsing and a one-second timestamp tolerance; the structured checker uses a two-second tolerance and selects the most text-similar nearby segment. This is not a controlled experiment isolating the effect of JSON schema. The structured checker's format-compliance field counts processed report files against an expected 16; it is not an independent schema-validation score.
 
 ### Claim coverage
 
 The coverage script greedily matches generated claims to reference claims using normalized text similarity with a `0.5` threshold.
+
+The figures below and the evaluation page's coverage snapshot describe the archived generation run, not the corrected Apple report. No new claim-correctness or communication-deviation performance has been established.
 
 | Call | Reference-label provenance | Precision | Recall | F1 |
 |---|---|---:|---:|---:|
@@ -195,6 +197,36 @@ python -m src.report.evidence --ticker AAPL --quarter Q1-2025
 New structured outputs carry `evidence_policy: complete_passages_v1`. Generation rejects citations that do not exactly copy a supplied passage and its integer start timestamp. Citation evaluation for these reports checks complete passages with exact text matching. Older reports retain their original matching behaviour and need deliberate regeneration; these code changes do not repair existing generated claims or alter the saved benchmarks. The original free-text baseline is preserved for comparison.
 
 The Python regression suite above also checks split ranges, recovered negations, punctuation edge cases, size limits, gaps, duplicate passages, strict citations and all 16 included calls. A substituted generation client tests prompt inputs and citation rejection without calling an LLM; that test is skipped if optional generation dependencies are absent. Claim correctness still requires separate review.
+
+### Stage a regenerated report without audio
+
+With the full pipeline dependencies installed and `GROQ_API_KEY` configured in `.env`, stage a fresh candidate from saved transcripts and sentiment:
+
+```bash
+python -m src.report.regenerate --ticker AAPL --quarter Q1-2025 --without-history --output /tmp/candor-aapl-q1-2025-candidate.json
+```
+
+This makes one generation request and writes a separate candidate bundle containing structured claims, citation checks, the API-shaped report and review metadata. The existing report supplies its descriptive audio summary, explicitly marked as reused rather than recomputed. No recording, Whisper run or sentiment-model run is required. The source transcript and saved sentiment text must agree, and unmatched citations stop staging.
+
+`--without-history` deliberately excludes all historical context for a current-call-only review. Omit that flag to use fresh date-filtered vector retrieval; unavailable retrieval returns no context. Cached context from the previous report is never reused. Recorded call dates still require independent verification. The command will not overwrite an existing output file.
+
+Review every candidate claim against its full passage, including numbers, ranges, qualifications and attribution. A successful citation check is not a claim-support review. Staging does not update served reports, per-call verdicts, the bundled frontend demo or archived evaluation results; these must be updated coherently after review. The test suite covers staging failures, missing audio, stale transcript inputs and preservation of existing outputs.
+
+### Verified, versioned report updates
+
+Apple Q1 2025 now uses version `complete-passages-fc37b1640da2`: eight complete-passage citations match, the summary and management attribution have been corrected, and historical context was explicitly omitted. The review is AI-assisted against saved transcript text; independent human review and external call-date verification remain pending. This is not a validated historical communication analysis.
+
+For a newly reviewed candidate, preview the update first:
+
+```bash
+python -m src.report.promote path/to/reviewed-candidate.json
+```
+
+The preview recomputes citation matches, checks report/claim consistency, recorded dates, sentiment distributions and reused audio measurements. Any historical context must come from a strictly earlier same-company transcript at its recorded timestamp. It also constructs the proposed demo and verifies that full cited passages can be included. Every claim must have a recorded support assessment; this is an audit requirement, not proof that the assessment is correct.
+
+To explicitly apply the previewed candidate, use `--apply --expected-sha256` with the full checksum printed by the preview. Changed inputs, stale evaluation, unknown versions and already-active candidates are rejected. The command archives both report bundles and checksums under `data/processed/report_versions/`, then replaces structured claims, per-call evaluation, the API-shaped report and the bundled demo. It reads back the outputs and restores changed files on ordinary write failures. It does not provide a transaction across a running server or protection from process termination; commit the entire change together and use the existing deployment process to publish it. No deployment is triggered by the command itself.
+
+The archive preserves the previous report and the AI-assisted review record. Configuration and input hashes identify the promotion inputs; the first Apple generation request predates full request-provenance recording, which is explicitly documented in its archive. Future generated candidates also record model settings, response ID, prompt/code/input hashes and dataset scope. Original evaluation snapshots remain unchanged and are labelled as archived experiments in both the API and UI.
 
 ### Frontend connection and fallback tests
 
@@ -312,7 +344,7 @@ Set `READ_ONLY_MODE=true` on the API and `ALLOWED_ORIGINS` to the exact frontend
 
 - **Incomplete evidence in saved reports:** older outputs selected isolated fragments that can change or obscure meaning. New structured generation joins bounded passages, but saved reports still need regeneration and punctuation alone cannot establish complete context.
 - **Selection bias:** generation sees sentiment-selected quotes, not a comprehensive selection of financial facts or the full transcript.
-- **Older saved context:** new retrieval enforces historical eligibility, but 10 included reports still contain 21 later-quarter context passages from earlier runs. These reports and their generated claims need review and regeneration; removing context fields alone would not undo its possible influence on generation.
+- **Older saved context:** after the Apple Q1 2025 correction, 9 included reports still contain 20 later-quarter context passages from earlier runs. These reports and their generated claims need review and regeneration; removing context fields alone would not undo its possible influence on generation.
 - **Date provenance:** historical ordering follows recorded feed dates, not independently verified event timestamps. Incorrect date metadata can still produce an incorrect historical comparison.
 - **Limited verification:** citation matching checks text and time, not whether the evidence entails the claim. Failed matches remain in the saved report.
 - **Limited reference labels:** only four calls have reference claims, three sets await human review, and provenance has not been independently audited.

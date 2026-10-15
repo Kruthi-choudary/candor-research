@@ -1,73 +1,74 @@
 {
-  "ticker": "AAPL",
-  "quarter": "Q1_2025",
-  "total_citations": 8,
-  "verified": 8,
   "accuracy": 1.0,
   "citations": [
     {
-      "claim": "The iPhone 16 family performed stronger than models lacking Apple intelligence.",
-      "source_text": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
-      "timestamp_sec": 1376,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Management reported stronger year-over-year iPhone 16 family performance in markets where Apple Intelligence was available than in markets where it was not.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "We did see that the markets where we had rolled out Apple intelligence that the year-over-year performance on the iPhone 16 family was stronger than those where Apple intelligence was not available.",
+      "timestamp_sec": 1370,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Products revenue reached $98 billion, up 2% year over year, driven by iPad and Mac growth.",
+      "actual_segment_text": null,
+      "claim": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+      "match_ratio": 1.0,
       "source_text": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
       "timestamp_sec": 830,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Revenue grew 14% compared to a year ago.",
-      "source_text": "growing 14% from a year ago.",
-      "timestamp_sec": 586,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Services set an all\u2011time revenue record of $26.3 billion for the December quarter, growing 14% from a year ago.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Turning to services, we set an all-time revenue record of $26.3 billion for the December quarter growing 14% from a year ago.",
+      "timestamp_sec": 579,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Mac revenue was $9 billion for the December quarter, 16% higher year over year.",
-      "source_text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by",
+      "actual_segment_text": null,
+      "claim": "Apple reported Mac revenue of $9 billion for the December quarter, up 16% year over year; management attributed the growth to excitement around the latest Mac lineup.",
+      "match_ratio": 1.0,
+      "source_text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by significant excitement around the world for our latest Mac lineup.",
       "timestamp_sec": 386,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+      "actual_segment_text": null,
+      "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year\u2011over\u2011year.",
+      "match_ratio": 1.0,
       "source_text": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
       "timestamp_sec": 1054,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Greater China revenue declined 11% year over year.",
+      "actual_segment_text": null,
+      "claim": "Greater China revenue was down 11% year over year for the quarter.",
+      "match_ratio": 1.0,
       "source_text": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
       "timestamp_sec": 1492,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "The company expects March quarter total revenue growth to be low.",
-      "source_text": "With that headwind, we expect our March quarter total company revenue to grow low to",
+      "actual_segment_text": null,
+      "claim": "Apple expects March-quarter total company revenue to grow low to mid-single digits year over year.",
+      "match_ratio": 1.0,
+      "source_text": "With that headwind, we expect our March quarter total company revenue to grow low to mid-single digits year-over-year.",
       "timestamp_sec": 1256,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "A negative impact of about 2.5 percentage points on year-over-year revenue is anticipated.",
-      "source_text": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
-      "timestamp_sec": 1249,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "A significantly stronger dollar is expected to be a headwind, negatively impacting revenue by about 2.5 percentage points on a year\u2011over\u2011year basis.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "As a dollar is strengthened significantly, we expect foreign exchange to be a headwind and to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+      "timestamp_sec": 1244,
+      "verdict": "VERIFIED"
     }
-  ]
+  ],
+  "quarter": "Q1_2025",
+  "report_version": "complete-passages-fc37b1640da2",
+  "ticker": "AAPL",
+  "total_citations": 8,
+  "verified": 8
 }

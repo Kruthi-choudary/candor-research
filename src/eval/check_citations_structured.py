@@ -45,6 +45,11 @@ def check_report(ticker: str, quarter: str) -> dict:
 
     report = json.loads(report_path.read_text())
     segments = json.loads(sentiment_path.read_text())["segments"]
+    return evaluate_report(ticker, quarter, report, segments)
+
+
+def evaluate_report(ticker: str, quarter: str, report: dict, segments: list) -> dict:
+    """Evaluate in-memory candidates without overwriting the served report files."""
     require_complete = report.get("evidence_policy") == EVIDENCE_POLICY
 
     citations = []

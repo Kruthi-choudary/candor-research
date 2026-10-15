@@ -1,69 +1,71 @@
 {
   "claims": [
     {
-      "claim": "The iPhone 16 family performed stronger than models lacking Apple intelligence.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1376,
-        "source_text": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not"
-      }
+        "source_text": "We did see that the markets where we had rolled out Apple intelligence that the year-over-year performance on the iPhone 16 family was stronger than those where Apple intelligence was not available.",
+        "timestamp_sec": 1370
+      },
+      "claim": "Management reported stronger year-over-year iPhone 16 family performance in markets where Apple Intelligence was available than in markets where it was not.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Products revenue reached $98 billion, up 2% year over year, driven by iPad and Mac growth.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 830,
-        "source_text": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac."
-      }
+        "source_text": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+        "timestamp_sec": 830
+      },
+      "claim": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Revenue grew 14% compared to a year ago.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 586,
-        "source_text": "growing 14% from a year ago."
-      }
+        "source_text": "Turning to services, we set an all-time revenue record of $26.3 billion for the December quarter growing 14% from a year ago.",
+        "timestamp_sec": 579
+      },
+      "claim": "Services set an all\u2011time revenue record of $26.3 billion for the December quarter, growing 14% from a year ago.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Mac revenue was $9 billion for the December quarter, 16% higher year over year.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 386,
-        "source_text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by"
-      }
+        "source_text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by significant excitement around the world for our latest Mac lineup.",
+        "timestamp_sec": 386
+      },
+      "claim": "Apple reported Mac revenue of $9 billion for the December quarter, up 16% year over year; management attributed the growth to excitement around the latest Mac lineup.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 1054,
-        "source_text": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year."
-      }
+        "source_text": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+        "timestamp_sec": 1054
+      },
+      "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year\u2011over\u2011year.",
+      "sentiment": "negative"
     },
     {
-      "claim": "Greater China revenue declined 11% year over year.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 1492,
-        "source_text": "If you look at our greater China revenue for the quarter, we were down 11% year over year."
-      }
+        "source_text": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+        "timestamp_sec": 1492
+      },
+      "claim": "Greater China revenue was down 11% year over year for the quarter.",
+      "sentiment": "negative"
     },
     {
-      "claim": "The company expects March quarter total revenue growth to be low.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 1256,
-        "source_text": "With that headwind, we expect our March quarter total company revenue to grow low to"
-      }
+        "source_text": "With that headwind, we expect our March quarter total company revenue to grow low to mid-single digits year-over-year.",
+        "timestamp_sec": 1256
+      },
+      "claim": "Apple expects March-quarter total company revenue to grow low to mid-single digits year over year.",
+      "sentiment": "neutral"
     },
     {
-      "claim": "A negative impact of about 2.5 percentage points on year-over-year revenue is anticipated.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 1249,
-        "source_text": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis."
-      }
+        "source_text": "As a dollar is strengthened significantly, we expect foreign exchange to be a headwind and to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+        "timestamp_sec": 1244
+      },
+      "claim": "A significantly stronger dollar is expected to be a headwind, negatively impacting revenue by about 2.5 percentage points on a year\u2011over\u2011year basis.",
+      "sentiment": "negative"
     }
   ],
-  "overall_summary": "The earnings call highlighted modest growth in core product lines, with iPhone 16 performance and Mac revenue showing gains, while wearables and Greater China saw declines. Investor sentiment was largely neutral (72.5%), with a smaller share positive (24.2%) and minimal negative (3.2%)."
+  "evidence_policy": "complete_passages_v1",
+  "overall_summary": "Apple reported products revenue growth of 2% and services revenue growth of 14%, alongside revenue declines of 11% in Greater China and 2% in Wearables, Home and Accessories. Management reported stronger year-over-year iPhone 16 family performance in markets with Apple Intelligence and expected March-quarter total company revenue growth in the low to mid-single digits. FinBERT classified 24.2% of scored transcript segments as positive, 3.2% as negative and 72.5% as neutral; these labels do not measure investor sentiment.",
+  "report_version": "complete-passages-fc37b1640da2"
 }

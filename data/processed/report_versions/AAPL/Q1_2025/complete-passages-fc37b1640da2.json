@@ -1,0 +1,643 @@
+{
+  "applied_at": "2026-10-15T18:26:38.825505+00:00",
+  "candidate_sha256": "fc37b1640da265d61524511071b1e850454ae899503caae14472eb17b659dd6d",
+  "configuration_at_promotion": {
+    "evaluation": {
+      "citation_match_threshold": 0.6,
+      "citation_tolerance_sec": 2.0
+    },
+    "generation": {
+      "llm_model": "openai/gpt-oss-120b",
+      "max_tokens": 1500,
+      "max_tokens_structured": 4000,
+      "top_k_quotes": 4
+    },
+    "models": {
+      "embedding": "BAAI/bge-small-en-v1.5",
+      "sentiment": "ProsusAI/finbert",
+      "whisper": "base.en"
+    },
+    "retrieval": {
+      "chunk_words": 250,
+      "embed_dim": 384,
+      "table_name": "transcript_chunks",
+      "top_k": 3
+    }
+  },
+  "input_sha256": {
+    "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+    "config/pipeline.yaml": "6a49b07006d37d5a843f38f738474428820fbc5ae960b1253d00231c333e897a",
+    "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+    "data/processed/eval/citation_accuracy_baseline_free_text_v1.json": "8d7ca45472e067915f49912d5937f2cc830acf0f48351cfc99e61c6602ba886a",
+    "data/processed/eval/citation_accuracy_structured_citations_v1.json": "185b0d26062cc8732335afc933efe9b04fa586899027df20033e53a4442e128e",
+    "data/processed/eval/claim_coverage.json": "3ce127afcd847c446d18ead6198eafbc08022b1b52a2103855673719dd6b08b3",
+    "data/processed/eval/per_call/AAPL/Q1_2025.json": "388ae756b54806d8a46100bb71831ea551e8bbf16fb2fc28d906b7446fa4b81c",
+    "data/processed/eval/per_call/META/Q1_2025.json": "2307de8bab77c9b61440179a157a68a8d9fcd2876e52fcce9f568478d7a82d87",
+    "data/processed/eval/per_call/MSFT/Q1_2025.json": "417397248f79460ba8ecc32f03b18ef98f703b7104a8b0d2c66f76e8a7ec9434",
+    "data/processed/eval/per_call/NVDA/Q1_2025.json": "de702101c91fa5102d4b526f7bd2d1fc239f036b321a18cb5baabccaaf82ca69",
+    "data/processed/pipeline_runs/AAPL/Q1_2025.json": "1447ded8388aadfb1789f79c6270d359c559f57806490294a8b5e6ae78348e8d",
+    "data/processed/pipeline_runs/META/Q1_2025.json": "3359843333d68d33d81516a294212551c86dd4722bd5cf1ac4103b5fbe62f58c",
+    "data/processed/pipeline_runs/MSFT/Q1_2025.json": "80fda733f9f309ffb9f1975a1a2d8bf8ff5f1493fc62fdd8f7c7c8e6a925e2ec",
+    "data/processed/pipeline_runs/NVDA/Q1_2025.json": "90973c689cf13c197a571ef7984d9e583b02e9240498ca7a4ae41c8b903ae9cd",
+    "data/processed/reports_structured_citations_v1/AAPL/Q1_2025.json": "782e3d8a058877c5354e107ac08824cdbf115535c004dbafc2bf579e42b5aaa9",
+    "data/processed/reports_structured_citations_v1/META/Q1_2025.json": "f06de81a6854b769dd2890f303642cbf15ae2759c39e9edd995884a7fa889cfe",
+    "data/processed/reports_structured_citations_v1/MSFT/Q1_2025.json": "0bad8b1b9f835cfaf7ba2ba8575c08c210f547cd49816dc6a2b178c4124360e5",
+    "data/processed/reports_structured_citations_v1/NVDA/Q1_2025.json": "534271dfd4538d308831def246df6582db3085ff8a8823e7659bce2b41594120",
+    "data/processed/sentiment/segment/AAPL/Q1_2025.json": "81c3125276b8948d219180db7fa6b6e0cda5808d840c53806ad9a1ea7fded29a",
+    "data/processed/transcripts/AAPL/Q1_2025.json": "2d5cbdf457900f950520d301c20e77066a69e53b5698f0d75334a808ec5bf14e",
+    "data/processed/transcripts/META/Q1_2025.json": "f0461d42a908ae037ab0af4937f7309dd2648abad2a5d40b37ba5834c0b82d9d",
+    "data/processed/transcripts/MSFT/Q1_2025.json": "0587c6216dea197be0f6e5fbb38e5f1ed2342a01194096bdce6c14eaf988d6e0",
+    "data/processed/transcripts/NVDA/Q1_2025.json": "d8a5a1b50c9c5cb82559ab17c5254456e80be1e0196568461e0633f4b879a5a1",
+    "frontend/scripts/build-demo.mjs": "63b95592ad27848b4eb7814242c1b1cde9c1cf54ad6d38f62895f30fcc3a126a",
+    "frontend/src/data/demo.json": "65f7e0ac9e187e223139cf77ec27e3299bc501f6024e7ff30670741383fd5b10",
+    "src/common/schema.py": "0faebe9d8e71a23ec5a9bc635171f81d4ccd6d5a0c2594cfeb0483e218a140d0",
+    "src/eval/check_citations_structured.py": "1c1418f8711fef6edcde602235d785abed84ae6f4d03366004c1758d7ac83a03",
+    "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+    "src/report/promote.py": "7eb3639f70834ad2c6ca33f7a5232ae307f5d092830ddd578fd86c0683d6bd00"
+  },
+  "limitations": [
+    "AI-assisted support review; independent human review pending.",
+    "Call date checked against feed-derived registry; external verification pending.",
+    "Original generation request did not record a full configuration manifest."
+  ],
+  "output_sha256": {
+    "data/processed/eval/per_call/AAPL/Q1_2025.json": "c76cf922771f89b75a1d20f77d9efd21a2e6f17ca153c74fce419150e737c116",
+    "data/processed/pipeline_runs/AAPL/Q1_2025.json": "59be4f35013b8674d6fbc65bdc70f36eeced9839f0d555656ada7bc0e3555b16",
+    "data/processed/reports_structured_citations_v1/AAPL/Q1_2025.json": "f2fe29543329d56ef6e4652260004b2c45acbe7dccc8b24c1634aefca66d027f",
+    "frontend/src/data/demo.json": "16fb58c64e510ffc6b1858bfe9f00fbef628568cb40ede3ec7e4f72161e6f035"
+  },
+  "previous": {
+    "citation_evaluation": {
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "actual_segment_text": null,
+          "claim": "The iPhone 16 family performed stronger than models lacking Apple intelligence.",
+          "match_ratio": 1.0,
+          "source_text": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
+          "timestamp_sec": 1376,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Products revenue reached $98 billion, up 2% year over year, driven by iPad and Mac growth.",
+          "match_ratio": 1.0,
+          "source_text": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+          "timestamp_sec": 830,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Revenue grew 14% compared to a year ago.",
+          "match_ratio": 1.0,
+          "source_text": "growing 14% from a year ago.",
+          "timestamp_sec": 586,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Mac revenue was $9 billion for the December quarter, 16% higher year over year.",
+          "match_ratio": 1.0,
+          "source_text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by",
+          "timestamp_sec": 386,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "match_ratio": 1.0,
+          "source_text": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "timestamp_sec": 1054,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Greater China revenue declined 11% year over year.",
+          "match_ratio": 1.0,
+          "source_text": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+          "timestamp_sec": 1492,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "The company expects March quarter total revenue growth to be low.",
+          "match_ratio": 1.0,
+          "source_text": "With that headwind, we expect our March quarter total company revenue to grow low to",
+          "timestamp_sec": 1256,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "A negative impact of about 2.5 percentage points on year-over-year revenue is anticipated.",
+          "match_ratio": 1.0,
+          "source_text": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+          "timestamp_sec": 1249,
+          "verdict": "VERIFIED"
+        }
+      ],
+      "quarter": "Q1_2025",
+      "ticker": "AAPL",
+      "total_citations": 8,
+      "verified": 8
+    },
+    "report": {
+      "audio_features_summary": {
+        "mean_energy": 0.06,
+        "mean_pitch_hz": 142.98,
+        "mean_speaking_rate_wps": 2.38,
+        "segments_analyzed": 710
+      },
+      "call_date": "2025-01-30",
+      "citation_verification": {
+        "accuracy": 1.0,
+        "total_citations": 8,
+        "verified": 8
+      },
+      "company": "Apple",
+      "key_claims": [
+        {
+          "claim": "The iPhone 16 family performed stronger than models lacking Apple intelligence.",
+          "evidence": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
+          "sentiment": "positive",
+          "timestamp_sec": 1376
+        },
+        {
+          "claim": "Products revenue reached $98 billion, up 2% year over year, driven by iPad and Mac growth.",
+          "evidence": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+          "sentiment": "positive",
+          "timestamp_sec": 830
+        },
+        {
+          "claim": "Revenue grew 14% compared to a year ago.",
+          "evidence": "growing 14% from a year ago.",
+          "sentiment": "positive",
+          "timestamp_sec": 586
+        },
+        {
+          "claim": "Mac revenue was $9 billion for the December quarter, 16% higher year over year.",
+          "evidence": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by",
+          "sentiment": "positive",
+          "timestamp_sec": 386
+        },
+        {
+          "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "evidence": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "sentiment": "negative",
+          "timestamp_sec": 1054
+        },
+        {
+          "claim": "Greater China revenue declined 11% year over year.",
+          "evidence": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+          "sentiment": "negative",
+          "timestamp_sec": 1492
+        },
+        {
+          "claim": "The company expects March quarter total revenue growth to be low.",
+          "evidence": "With that headwind, we expect our March quarter total company revenue to grow low to",
+          "sentiment": "negative",
+          "timestamp_sec": 1256
+        },
+        {
+          "claim": "A negative impact of about 2.5 percentage points on year-over-year revenue is anticipated.",
+          "evidence": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+          "sentiment": "negative",
+          "timestamp_sec": 1249
+        }
+      ],
+      "management_outlook": [],
+      "overall_summary": "The earnings call highlighted modest growth in core product lines, with iPhone 16 performance and Mac revenue showing gains, while wearables and Greater China saw declines. Investor sentiment was largely neutral (72.5%), with a smaller share positive (24.2%) and minimal negative (3.2%).",
+      "pipeline_version": "1.0",
+      "prior_quarter_context_used": [
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 3213.7000000000003,
+          "text": "Okay, thanks. And then, Luca, one piece of unfinished business was your pledge to get to a net neutral cash position. And over the last two years, you stayed around 50 billion of net cash. We've clearly seen instances in the past where elevated marketing spend or other programs brought increases in market share. I guess my question looking back on your tenure is at your scale now of 57 billion of topics. Do you still see incremental ways to put that cash to work in the business? Or will we just continue to see increased shareholder returns? Well, obviously, as you see in our opx has gone up over the years. We've also seen at the same time a significant expansion in gross margin. Maybe to a level that I would have not expected a few years ago. But we've done a very good job on a number of fronts. And so I would say we when we plan every time we plan for the upcoming year we think about all the different areas where we can deploy our resources and we make them available to grow the business. I think we've done very well over the long term and but our fundamental philosophy is to look after the business first. And then if we have excess cash, we will continue to return it to our shareholders and the planners worked quite well so far. Okay. Thank you very much. Thank you, Richard. We'll take our last question. Please operator."
+        },
+        {
+          "quarter": "Q3 2025",
+          "start_sec": 3131.16,
+          "text": "how much, how much currency benefit should we be thinking about embedded in the guidance into the September quarter? And then the second quick question is, you know, CAPEX is clearly moving higher. I know you guys don't guide specifically to that number, but just kind of qualitatively, should we, as you lean in more on AI, should we really start to see that CAPEX, which is running close to about four billion annualized today, really start to move appreciably higher. Any color on that would be helpful. Thank you. Great, Aaron. Thanks for the questions. Let me answer the first one. First around foreign exchange. For Q3, we really had no impact from a foreign exchange standpoint on the year on your results. And so when we look at both the revenue growth as well as a gross margin, there was really, you know, virtually no impact from foreign exchange. As we look at going from Q3 to June quarter to the September quarter, again, very, very, as I mentioned earlier, a very small tailwind going from Q3 to Q4 from a foreign exchange standpoint on both revenue as well as a gross margin. And then on the second question, sure, on the CAPEX side, I think we talked about the fact that we are, and Tim mentioned the fact that we are increasing our investment significantly, AI, you are going to continue to see our CAPEX grow. It's not going to be exponential growth, but it is going to grow, you know, substantially."
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 1528.9,
+          "text": "and we couldn't be more excited about it. Great. Thank you very much. And my second one, just for Luca, first, congratulations again, Luca, on the new role, and it's been a real privilege being able to spend some time with you. A question that I think will overlap with your new role as well. Could you just talk a little bit about the CAPEX outlook and whether investments in things like private cloud compute could change the historical CAPEX range of roughly $10 billion a year? Thank you very much. Thank you, Michael. On the CAPEX front, I mentioned before a number of times we have a bit of a hybrid model in the way we run our data centers. In some cases we use our own data centers, in some cases we use third-party providers, and so our CAPEX numbers may not be fully comparable with others. But obviously we are rolling out these features, Apple Intelligence features already now, and so we are making all the capacity that is needed available for these features. You will see in our 10K the amount of CAPEX that we've incurred during the course of fiscal 24, and we will, in fiscal 25, we will continue to make all the investments that are necessary, and of course, investments in AI-related CAPEX will be made. Thank you, Tim. Thank you, Luca. All right. Thanks, Mike. Can we have the next question, please? Our next question is from Eric Woodring with Morgan Stanley."
+        }
+      ],
+      "quarter": "Q1 2025",
+      "risks": [],
+      "schema_version": "1.0",
+      "sentiment_distribution": {
+        "negative": 3.2,
+        "neutral": 72.5,
+        "positive": 24.2
+      },
+      "stage_durations_sec": {
+        "citation_check_sec": 0.0,
+        "generation_sec": 0.0,
+        "prosody_sec": 0.0,
+        "rag_sec": 7.6,
+        "sentiment_sec": 0.0,
+        "transcription_sec": 0.0
+      },
+      "ticker": "AAPL"
+    },
+    "structured_claims": {
+      "claims": [
+        {
+          "citation": {
+            "source_text": "performance on the iPhone 16 family was stronger than those where Apple intelligence was not",
+            "timestamp_sec": 1376
+          },
+          "claim": "The iPhone 16 family performed stronger than models lacking Apple intelligence.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+            "timestamp_sec": 830
+          },
+          "claim": "Products revenue reached $98 billion, up 2% year over year, driven by iPad and Mac growth.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "growing 14% from a year ago.",
+            "timestamp_sec": 586
+          },
+          "claim": "Revenue grew 14% compared to a year ago.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by",
+            "timestamp_sec": 386
+          },
+          "claim": "Mac revenue was $9 billion for the December quarter, 16% higher year over year.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+            "timestamp_sec": 1054
+          },
+          "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+            "timestamp_sec": 1492
+          },
+          "claim": "Greater China revenue declined 11% year over year.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "With that headwind, we expect our March quarter total company revenue to grow low to",
+            "timestamp_sec": 1256
+          },
+          "claim": "The company expects March quarter total revenue growth to be low.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+            "timestamp_sec": 1249
+          },
+          "claim": "A negative impact of about 2.5 percentage points on year-over-year revenue is anticipated.",
+          "sentiment": "negative"
+        }
+      ],
+      "overall_summary": "The earnings call highlighted modest growth in core product lines, with iPhone 16 performance and Mac revenue showing gains, while wearables and Greater China saw declines. Investor sentiment was largely neutral (72.5%), with a smaller share positive (24.2%) and minimal negative (3.2%)."
+    }
+  },
+  "previous_version": "legacy-60b0eeab4380",
+  "replacement": {
+    "citation_evaluation": {
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "actual_segment_text": null,
+          "claim": "Management reported stronger year-over-year iPhone 16 family performance in markets where Apple Intelligence was available than in markets where it was not.",
+          "match_ratio": 1.0,
+          "source_text": "We did see that the markets where we had rolled out Apple intelligence that the year-over-year performance on the iPhone 16 family was stronger than those where Apple intelligence was not available.",
+          "timestamp_sec": 1370,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+          "match_ratio": 1.0,
+          "source_text": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+          "timestamp_sec": 830,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Services set an all\u2011time revenue record of $26.3 billion for the December quarter, growing 14% from a year ago.",
+          "match_ratio": 1.0,
+          "source_text": "Turning to services, we set an all-time revenue record of $26.3 billion for the December quarter growing 14% from a year ago.",
+          "timestamp_sec": 579,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Apple reported Mac revenue of $9 billion for the December quarter, up 16% year over year; management attributed the growth to excitement around the latest Mac lineup.",
+          "match_ratio": 1.0,
+          "source_text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by significant excitement around the world for our latest Mac lineup.",
+          "timestamp_sec": 386,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year\u2011over\u2011year.",
+          "match_ratio": 1.0,
+          "source_text": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "timestamp_sec": 1054,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Greater China revenue was down 11% year over year for the quarter.",
+          "match_ratio": 1.0,
+          "source_text": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+          "timestamp_sec": 1492,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Apple expects March-quarter total company revenue to grow low to mid-single digits year over year.",
+          "match_ratio": 1.0,
+          "source_text": "With that headwind, we expect our March quarter total company revenue to grow low to mid-single digits year-over-year.",
+          "timestamp_sec": 1256,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "A significantly stronger dollar is expected to be a headwind, negatively impacting revenue by about 2.5 percentage points on a year\u2011over\u2011year basis.",
+          "match_ratio": 1.0,
+          "source_text": "As a dollar is strengthened significantly, we expect foreign exchange to be a headwind and to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+          "timestamp_sec": 1244,
+          "verdict": "VERIFIED"
+        }
+      ],
+      "quarter": "Q1_2025",
+      "report_version": "complete-passages-fc37b1640da2",
+      "ticker": "AAPL",
+      "total_citations": 8,
+      "verified": 8
+    },
+    "report": {
+      "audio_features_summary": {
+        "mean_energy": 0.06,
+        "mean_pitch_hz": 142.98,
+        "mean_speaking_rate_wps": 2.38,
+        "segments_analyzed": 710
+      },
+      "call_date": "2025-01-30",
+      "citation_verification": {
+        "accuracy": 1.0,
+        "total_citations": 8,
+        "verified": 8
+      },
+      "company": "Apple",
+      "evidence_policy": "complete_passages_v1",
+      "key_claims": [
+        {
+          "claim": "Management reported stronger year-over-year iPhone 16 family performance in markets where Apple Intelligence was available than in markets where it was not.",
+          "evidence": "We did see that the markets where we had rolled out Apple intelligence that the year-over-year performance on the iPhone 16 family was stronger than those where Apple intelligence was not available.",
+          "sentiment": "positive",
+          "timestamp_sec": 1370
+        },
+        {
+          "claim": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+          "evidence": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+          "sentiment": "positive",
+          "timestamp_sec": 830
+        },
+        {
+          "claim": "Services set an all\u2011time revenue record of $26.3 billion for the December quarter, growing 14% from a year ago.",
+          "evidence": "Turning to services, we set an all-time revenue record of $26.3 billion for the December quarter growing 14% from a year ago.",
+          "sentiment": "positive",
+          "timestamp_sec": 579
+        },
+        {
+          "claim": "Apple reported Mac revenue of $9 billion for the December quarter, up 16% year over year; management attributed the growth to excitement around the latest Mac lineup.",
+          "evidence": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by significant excitement around the world for our latest Mac lineup.",
+          "sentiment": "positive",
+          "timestamp_sec": 386
+        },
+        {
+          "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year\u2011over\u2011year.",
+          "evidence": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+          "sentiment": "negative",
+          "timestamp_sec": 1054
+        },
+        {
+          "claim": "Greater China revenue was down 11% year over year for the quarter.",
+          "evidence": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+          "sentiment": "negative",
+          "timestamp_sec": 1492
+        },
+        {
+          "claim": "Apple expects March-quarter total company revenue to grow low to mid-single digits year over year.",
+          "evidence": "With that headwind, we expect our March quarter total company revenue to grow low to mid-single digits year-over-year.",
+          "sentiment": "neutral",
+          "timestamp_sec": 1256
+        },
+        {
+          "claim": "A significantly stronger dollar is expected to be a headwind, negatively impacting revenue by about 2.5 percentage points on a year\u2011over\u2011year basis.",
+          "evidence": "As a dollar is strengthened significantly, we expect foreign exchange to be a headwind and to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+          "sentiment": "negative",
+          "timestamp_sec": 1244
+        }
+      ],
+      "management_outlook": [],
+      "overall_summary": "Apple reported products revenue growth of 2% and services revenue growth of 14%, alongside revenue declines of 11% in Greater China and 2% in Wearables, Home and Accessories. Management reported stronger year-over-year iPhone 16 family performance in markets with Apple Intelligence and expected March-quarter total company revenue growth in the low to mid-single digits. FinBERT classified 24.2% of scored transcript segments as positive, 3.2% as negative and 72.5% as neutral; these labels do not measure investor sentiment.",
+      "pipeline_version": "1.0",
+      "prior_quarter_context_used": [],
+      "publication": {
+        "call_date_verification": "registry_consistent_external_verification_pending",
+        "previous_report_version": "legacy-60b0eeab4380",
+        "review_status": "ai_assisted_review_human_review_pending",
+        "scope": "current_call_only"
+      },
+      "quarter": "Q1 2025",
+      "regeneration": {
+        "audio_features": "reused_from_previous_report_not_recomputed",
+        "claim_support_review": "ai_assisted_review_human_review_pending",
+        "generated_at": "2026-10-15T17:39:46.670204+00:00",
+        "historical_context": "explicitly_omitted",
+        "input": "saved_transcript_and_sentiment"
+      },
+      "report_version": "complete-passages-fc37b1640da2",
+      "risks": [],
+      "schema_version": "1.0",
+      "sentiment_distribution": {
+        "negative": 3.2,
+        "neutral": 72.5,
+        "positive": 24.2
+      },
+      "stage_durations_sec": {
+        "regeneration_sec": 5.32
+      },
+      "ticker": "AAPL"
+    },
+    "review": {
+      "claim_edits": [
+        {
+          "claim_index": 0,
+          "original": "In markets where Apple intelligence was rolled out, the year-over-year performance of the iPhone 16 family was stronger than in markets without Apple intelligence.",
+          "revised": "Management reported stronger year-over-year iPhone 16 family performance in markets where Apple Intelligence was available than in markets where it was not."
+        },
+        {
+          "claim_index": 3,
+          "original": "Mac revenue was $9 billion for the December quarter, 16% higher year over year, driven by significant excitement around the world for the latest Mac lineup.",
+          "revised": "Apple reported Mac revenue of $9 billion for the December quarter, up 16% year over year; management attributed the growth to excitement around the latest Mac lineup."
+        },
+        {
+          "claim_index": 6,
+          "original": "With that headwind, the company expects March quarter total revenue to grow low to mid\u2011single digits year\u2011over\u2011year.",
+          "revised": "Apple expects March-quarter total company revenue to grow low to mid-single digits year over year."
+        }
+      ],
+      "limitations": [
+        "Apple Intelligence comparison is management-reported association, not evidence of causation.",
+        "The Mac growth explanation is management attribution, not an independently established cause.",
+        "Historical context was explicitly omitted; this candidate does not evaluate changes across calls.",
+        "Exact citation matches do not provide an automated claim-entailment score."
+      ],
+      "new_context_quarters": [],
+      "note": "Exact citation matches do not establish that the generated claims are supported. Review claims and qualifications before publishing.",
+      "original_generated_summary": "Apple reported mixed performance in Q1 2025, with product and services revenues showing modest year\u2011over\u2011year growth, while certain regions and categories declined. The company highlighted strong iPhone 16 performance in markets with Apple intelligence and record services revenue, but noted headwinds from foreign\u2011exchange impacts and weakness in Greater China and wearables. FinBERT sentiment analysis shows 24.2% positive, 3.2% negative, and 72.5% neutral tones.",
+      "per_claim": [
+        {
+          "claim_index": 0,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1370
+        },
+        {
+          "claim_index": 1,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 830
+        },
+        {
+          "claim_index": 2,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 579
+        },
+        {
+          "claim_index": 3,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 386
+        },
+        {
+          "claim_index": 4,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1054
+        },
+        {
+          "claim_index": 5,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1492
+        },
+        {
+          "claim_index": 6,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1256
+        },
+        {
+          "claim_index": 7,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1244
+        }
+      ],
+      "previous_context_quarters": [
+        "Q4 2024",
+        "Q3 2025",
+        "Q4 2024"
+      ],
+      "reviewed_at": "2026-10-15T17:41:06.840268+00:00",
+      "scope": "All eight claims and the summary checked against saved transcript text and surrounding segments; no recording or external filing verification.",
+      "status": "ai_assisted_review_human_review_pending",
+      "summary_corrections": [
+        "Removed the unsupported qualitative description of 14% services growth as modest.",
+        "Preserved the relative comparison stronger rather than asserting absolute strong performance.",
+        "Described sentiment percentages as proportions of scored transcript segments."
+      ]
+    },
+    "structured_claims": {
+      "claims": [
+        {
+          "citation": {
+            "source_text": "We did see that the markets where we had rolled out Apple intelligence that the year-over-year performance on the iPhone 16 family was stronger than those where Apple intelligence was not available.",
+            "timestamp_sec": 1370
+          },
+          "claim": "Management reported stronger year-over-year iPhone 16 family performance in markets where Apple Intelligence was available than in markets where it was not.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+            "timestamp_sec": 830
+          },
+          "claim": "Products revenue was $98 billion, up 2% year over year, driven by growth from iPad and Mac.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Turning to services, we set an all-time revenue record of $26.3 billion for the December quarter growing 14% from a year ago.",
+            "timestamp_sec": 579
+          },
+          "claim": "Services set an all\u2011time revenue record of $26.3 billion for the December quarter, growing 14% from a year ago.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year over year driven by significant excitement around the world for our latest Mac lineup.",
+            "timestamp_sec": 386
+          },
+          "claim": "Apple reported Mac revenue of $9 billion for the December quarter, up 16% year over year; management attributed the growth to excitement around the latest Mac lineup.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Wearables Home and Accessories revenue was $11.7 billion, down 2% year-over-year.",
+            "timestamp_sec": 1054
+          },
+          "claim": "Wearables, Home and Accessories revenue was $11.7 billion, down 2% year\u2011over\u2011year.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "If you look at our greater China revenue for the quarter, we were down 11% year over year.",
+            "timestamp_sec": 1492
+          },
+          "claim": "Greater China revenue was down 11% year over year for the quarter.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "With that headwind, we expect our March quarter total company revenue to grow low to mid-single digits year-over-year.",
+            "timestamp_sec": 1256
+          },
+          "claim": "Apple expects March-quarter total company revenue to grow low to mid-single digits year over year.",
+          "sentiment": "neutral"
+        },
+        {
+          "citation": {
+            "source_text": "As a dollar is strengthened significantly, we expect foreign exchange to be a headwind and to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+            "timestamp_sec": 1244
+          },
+          "claim": "A significantly stronger dollar is expected to be a headwind, negatively impacting revenue by about 2.5 percentage points on a year\u2011over\u2011year basis.",
+          "sentiment": "negative"
+        }
+      ],
+      "evidence_policy": "complete_passages_v1",
+      "overall_summary": "Apple reported products revenue growth of 2% and services revenue growth of 14%, alongside revenue declines of 11% in Greater China and 2% in Wearables, Home and Accessories. Management reported stronger year-over-year iPhone 16 family performance in markets with Apple Intelligence and expected March-quarter total company revenue growth in the low to mid-single digits. FinBERT classified 24.2% of scored transcript segments as positive, 3.2% as negative and 72.5% as neutral; these labels do not measure investor sentiment.",
+      "report_version": "complete-passages-fc37b1640da2"
+    }
+  },
+  "version": "complete-passages-fc37b1640da2"
+}

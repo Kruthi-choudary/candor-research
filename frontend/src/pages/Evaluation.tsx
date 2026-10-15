@@ -65,7 +65,8 @@ export function Evaluation() {
                 <caption>
                   {evaluation.source === "demo"
                     ? "Demonstration snapshot of recorded project results; these are not live-fetched benchmark values."
-                    : "Values below are fetched from the saved evaluation runs."}
+                    : "Values below are fetched from archived evaluation runs."}
+                  {" "}These experiments do not evaluate newly regenerated reports.
                 </caption>
                 <thead>
                   <tr>
@@ -200,6 +201,11 @@ export function Evaluation() {
             />
           )}
           <div className="notice mt-6">
+            <p>
+              Coverage scores describe the archived generation run, not newly
+              regenerated reports. Citation validity and claim correctness require
+              separate assessment.
+            </p>
             <strong>Label provenance matters.</strong>
             <p>
               The repository documents the Apple reference set as independently
