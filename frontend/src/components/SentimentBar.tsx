@@ -1,17 +1,41 @@
 import type { SentimentDistribution } from "../lib/api";
 
-export function SentimentBar({ distribution }: { distribution: SentimentDistribution }) {
+export function SentimentBar({
+  distribution,
+}: {
+  distribution: SentimentDistribution;
+}) {
   return (
-    <div className="w-full">
-      <div className="flex h-1.5 w-full overflow-hidden rounded-full bg-raised-2">
-        <div className="h-full bg-mint" style={{ width: `${distribution.positive}%` }} />
-        <div className="h-full bg-neutral" style={{ width: `${distribution.neutral}%` }} />
-        <div className="h-full bg-negative" style={{ width: `${distribution.negative}%` }} />
+    <div
+      aria-label={`Transcript sentiment: ${distribution.positive}% positive, ${distribution.neutral}% neutral, ${distribution.negative}% negative`}
+    >
+      <div className="sentiment-track" aria-hidden="true">
+        <span
+          className="sentiment-positive"
+          style={{ width: `${distribution.positive}%` }}
+        />
+        <span
+          className="sentiment-neutral"
+          style={{ width: `${distribution.neutral}%` }}
+        />
+        <span
+          className="sentiment-negative"
+          style={{ width: `${distribution.negative}%` }}
+        />
       </div>
-      <div className="mt-1.5 flex gap-3 text-[11px] text-text-faint">
-        <span>{distribution.positive.toFixed(0)}% pos</span>
-        <span>{distribution.neutral.toFixed(0)}% neu</span>
-        <span>{distribution.negative.toFixed(0)}% neg</span>
+      <div className="sentiment-labels tabular" aria-hidden="true">
+        <span>
+          <i className="legend-dot sentiment-positive" />
+          {distribution.positive.toFixed(1)}% positive
+        </span>
+        <span>
+          <i className="legend-dot sentiment-neutral" />
+          {distribution.neutral.toFixed(1)}% neutral
+        </span>
+        <span>
+          <i className="legend-dot sentiment-negative" />
+          {distribution.negative.toFixed(1)}% negative
+        </span>
       </div>
     </div>
   );

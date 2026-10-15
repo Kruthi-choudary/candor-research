@@ -1,204 +1,211 @@
-import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { ArrowLeft, ChevronLeft, ChevronRight, Play, Pause } from "lucide-react";
-import WaveSurfer from "wavesurfer.js";
-import RegionsPlugin from "wavesurfer.js/plugins/regions";
-import { api, type KeyClaim, type Transcript } from "../lib/api";
-import { formatTimestamp } from "../lib/format";
+import {
+  ArrowLeft,
+  ArrowUpRight,
+  ChevronLeft,
+  ChevronRight,
+} from "lucide-react";
+import { formatTimestamp, formatPercent } from "../lib/format";
 import { VerdictBadge } from "../components/VerdictBadge";
-
-const WINDOW_BEFORE = 2; // seconds of context before the cited quote
-const WINDOW_AFTER = 8; // seconds of context after, since quotes run a few seconds long
+import { EmptyState, ErrorState, LoadingState } from "../components/States";
+import { EvidenceAudio } from "../components/EvidenceAudio";
+import { useCallData } from "../hooks/useCallData";
 
 export function ClaimDetail() {
   const { ticker = "", quarter = "", index = "0" } = useParams();
   const navigate = useNavigate();
   const idx = Number(index);
-
-  const [claims, setClaims] = useState<KeyClaim[] | null>(null);
-  const [transcript, setTranscript] = useState<Transcript | null>(null);
-  const [playing, setPlaying] = useState(false);
-  const [audioReady, setAudioReady] = useState(false);
-  const [audioError, setAudioError] = useState(false);
-
-  const waveformRef = useRef<HTMLDivElement>(null);
-  const wsRef = useRef<WaveSurfer | null>(null);
-  const regionsRef = useRef<InstanceType<typeof RegionsPlugin> | null>(null);
-
-  useEffect(() => {
-    api.getClaims(ticker, quarter).then((d) => setClaims(d.claims));
-    api.getTranscript(ticker, quarter).then(setTranscript);
-  }, [ticker, quarter]);
-
-  const claim = claims?.[idx];
-
-  // Load the audio ONCE per call — not per claim. Recreating WaveSurfer on every claim change
-  // meant re-downloading and re-decoding the whole file each time, which is why the waveform
-  // often looked empty: it just hadn't finished decoding yet.
-  useEffect(() => {
-    if (!waveformRef.current) return;
-    setAudioReady(false);
-    setAudioError(false);
-
-    // Guard against React StrictMode's dev-mode double-invoke: the first instance can get
-    // destroy()'d mid-load, and without this flag its late "ready" event would still fire and
-    // wire up a dead WaveSurfer instance, leaving the waveform permanently blank.
-    let cancelled = false;
-    const ws = WaveSurfer.create({
-      container: waveformRef.current,
-      waveColor: "#2a3029",
-      progressColor: "#3ecf8e",
-      cursorColor: "#f2f5f2",
-      height: 64,
-      url: api.audioUrl(ticker, quarter),
-    });
-    const regions = ws.registerPlugin(RegionsPlugin.create());
-
-    ws.on("ready", () => {
-      if (cancelled) return;
-      ws.zoom(40);
-      regionsRef.current = regions;
-      wsRef.current = ws;
-      setAudioReady(true);
-    });
-    ws.on("play", () => !cancelled && setPlaying(true));
-    ws.on("pause", () => !cancelled && setPlaying(false));
-    ws.on("finish", () => !cancelled && setPlaying(false));
-    // The source mp3 isn't in the repo (see README) -- on a fresh clone with only the
-    // committed data/processed/ JSON, this fires instead of "ready". Fail visibly, not silently.
-    ws.on("error", () => !cancelled && setAudioError(true));
-
-    return () => {
-      cancelled = true;
-      ws.destroy();
-      if (wsRef.current === ws) {
-        wsRef.current = null;
-        regionsRef.current = null;
-      }
-    };
-    // `claims` loading is in the deps deliberately: until it resolves, the component renders a
-    // "Loading…" placeholder instead of the waveform container, so `waveformRef.current` is null
-    // on the first run of this effect. Re-running once `claims` flips from null to loaded is what
-    // lets this retry after the real container has mounted. It does NOT depend on `idx`/`claim`,
-    // so navigating between claims in the same call never re-triggers a reload.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [ticker, quarter, !!claims]);
-
-  // Moving between claims just repositions the highlighted region on the already-loaded audio.
-  useEffect(() => {
-    if (!audioReady || !claim || !wsRef.current || !regionsRef.current) return;
-    regionsRef.current.clearRegions();
-    const start = Math.max(0, claim.timestamp_sec - WINDOW_BEFORE);
-    const end = claim.timestamp_sec + WINDOW_AFTER;
-    regionsRef.current.addRegion({ start, end, color: "rgba(62,207,142,0.15)", drag: false, resize: false });
-    wsRef.current.setTime(start);
-  }, [audioReady, claim?.timestamp_sec]);
-
-  if (!claims || !claim) {
-    return <div className="px-10 py-10 text-sm text-text-faint">Loading…</div>;
-  }
-
-  const total = claims.length;
-  const goTo = (next: number) => {
-    if (next >= 0 && next < total) navigate(`/app/calls/${ticker}/${quarter}/claims/${next}`);
-  };
-
-  const contextBefore = transcript?.segments.filter((s) => s.start < claim.timestamp_sec).slice(-1)[0];
-  const contextAfter = transcript?.segments.find((s) => s.start > claim.timestamp_sec);
+  const { data, error } = useCallData(ticker, quarter);
+  const reportUrl = `/app/calls/${ticker}/${quarter}`;
+  if (error)
+    return (
+      <div className="container page">
+        <ErrorState message={error} />
+      </div>
+    );
+  if (!data)
+    return (
+      <div className="container page">
+        <LoadingState label="Tracing the claim to its source…" />
+      </div>
+    );
+  const { claims, transcript, report, claimsError, transcriptError } = data;
+  if (claimsError)
+    return (
+      <div className="container page">
+        <ErrorState message={claimsError} />
+      </div>
+    );
+  const claim = Number.isInteger(idx) && idx >= 0 ? claims?.[idx] : undefined;
+  if (!claim)
+    return (
+      <div className="container page">
+        <Link className="back-link" to={reportUrl}>
+          <ArrowLeft size={14} />
+          Back to report
+        </Link>
+        <EmptyState
+          title="This claim isn’t in the report."
+          description="Return to the earnings brief to choose an available claim."
+        />
+      </div>
+    );
+  const segments = transcript?.segments ?? [];
+  const sourceIndex = segments.reduce(
+    (best, s, i) =>
+      Math.abs(s.start - claim.timestamp_sec) <= 2 &&
+      (best === -1 ||
+        Math.abs(s.start - claim.timestamp_sec) <
+          Math.abs(segments[best]!.start - claim.timestamp_sec))
+        ? i
+        : best,
+    -1,
+  );
+  const excerpt =
+    sourceIndex >= 0
+      ? segments.slice(Math.max(0, sourceIndex - 1), sourceIndex + 3)
+      : [];
+  const source = segments[sourceIndex];
 
   return (
-    <div className="mx-auto max-w-3xl px-10 py-10">
-      <div className="flex items-center justify-between">
-        <Link
-          to={`/app/calls/${ticker}/${quarter}`}
-          className="flex items-center gap-2 text-sm text-text-muted hover:text-text"
-        >
-          <ArrowLeft size={14} /> Back to report
+    <article className="container page reveal">
+      <div className="evidence-head">
+        <Link className="back-link" to={reportUrl}>
+          <ArrowLeft size={14} aria-hidden="true" />
+          Back to earnings brief
         </Link>
-        <div className="flex items-center gap-3 text-sm text-text-muted">
+        <nav className="claim-pager tabular" aria-label="Claim navigation">
           <button
+            className="icon-btn"
+            aria-label="Previous claim"
             disabled={idx === 0}
-            onClick={() => goTo(idx - 1)}
-            className="rounded-full border border-border p-1.5 disabled:opacity-30"
+            onClick={() => navigate(`${reportUrl}/claims/${idx - 1}`)}
           >
-            <ChevronLeft size={14} />
+            <ChevronLeft size={16} aria-hidden="true" />
           </button>
-          Claim {idx + 1} of {total}
+          <span>
+            Claim {idx + 1} of {claims?.length}
+          </span>
           <button
-            disabled={idx === total - 1}
-            onClick={() => goTo(idx + 1)}
-            className="rounded-full border border-border p-1.5 disabled:opacity-30"
+            className="icon-btn"
+            aria-label="Next claim"
+            disabled={idx === (claims?.length ?? 0) - 1}
+            onClick={() => navigate(`${reportUrl}/claims/${idx + 1}`)}
           >
-            <ChevronRight size={14} />
+            <ChevronRight size={16} aria-hidden="true" />
           </button>
-        </div>
+        </nav>
       </div>
-
-      <div className="mt-8 flex items-start justify-between gap-4">
-        <blockquote className="text-xl font-medium leading-snug text-text">
-          “{claim.claim}”
-        </blockquote>
-        <VerdictBadge verdict={claim.verdict} />
-      </div>
-
-      <div className="mt-6 grid grid-cols-2 gap-4">
-        <div className="rounded-lg border border-border bg-raised px-4 py-3">
-          <div className="text-xs uppercase tracking-wide text-text-faint">Timestamp</div>
-          <div className="mt-1 text-sm text-text">
-            {claim.timestamp_sec}s ({formatTimestamp(claim.timestamp_sec)})
-          </div>
+      <header className="rule-top">
+        <p className="eyebrow muted">
+          {report.company} / {report.quarter} / Evidence notebook
+        </p>
+        <h1 className="evidence-title">{claim.claim}</h1>
+        <div className="report-meta">
+          <VerdictBadge verdict={claim.verdict} />
+          <span className="capitalize">{claim.sentiment} language</span>
+          <span className="tabular">
+            Source at {formatTimestamp(claim.timestamp_sec)}
+          </span>
         </div>
-        <div className="rounded-lg border border-border bg-raised px-4 py-3">
-          <div className="text-xs uppercase tracking-wide text-text-faint">Source text</div>
-          <div className="mt-1 text-sm text-text">"{claim.evidence}"</div>
-        </div>
-      </div>
-
-      <div className="mt-8">
-        <div className="mb-2 flex items-center justify-between text-xs uppercase tracking-wide text-text-faint">
-          Evidence from transcript
-          {!audioError && (
-            <button
-              onClick={() => wsRef.current?.playPause()}
-              disabled={!audioReady}
-              className="flex items-center gap-1.5 rounded-full bg-mint px-3 py-1 text-xs font-medium text-[#06120c] disabled:cursor-not-allowed disabled:opacity-40"
-            >
-              {playing ? <Pause size={12} /> : <Play size={12} />}{" "}
-              {audioReady ? (playing ? "Pause" : "Play") : "Loading…"}
-            </button>
-          )}
-        </div>
-        <div className="relative overflow-hidden rounded-lg border border-border bg-raised p-3">
-          {audioError ? (
-            <div className="flex h-16 items-center justify-center text-xs text-text-faint">
-              Audio unavailable — the source file isn't included in this checkout (see README).
+      </header>
+      <div className="evidence-layout">
+        <div>
+          <p className="eyebrow muted">01 / The supporting evidence</p>
+          <blockquote className="evidence-quote">“{claim.evidence}”</blockquote>
+          <p className="caption muted">
+            Quoted from the automatic transcript. Read the surrounding passage
+            before drawing a conclusion.
+          </p>
+          <EvidenceAudio
+            ticker={ticker}
+            quarter={quarter}
+            timestamp={claim.timestamp_sec}
+            end={source?.end ?? claim.timestamp_sec + 8}
+          />
+          <section className="evidence-context">
+            <div className="section-top">
+              <h2 className="section-heading">The surrounding words</h2>
+              <Link
+                className="claim-action-link"
+                to={`${reportUrl}?t=${claim.timestamp_sec}`}
+              >
+                Open report <ArrowUpRight size={14} aria-hidden="true" />
+              </Link>
             </div>
-          ) : !audioReady ? (
-            <div className="flex h-16 items-center justify-center text-xs text-text-faint">
-              Decoding audio…
+            {transcriptError ? (
+              <p className="notice" role="alert">
+                {transcriptError}
+              </p>
+            ) : excerpt.length ? (
+              excerpt.map((s, i) => (
+                <div
+                  className={`context-line ${s === source ? "current" : ""}`}
+                  key={i}
+                >
+                  <Link
+                    className="timestamp mr-3"
+                    to={`${reportUrl}?t=${s.start}`}
+                    aria-label={`Open source at ${formatTimestamp(s.start)}`}
+                  >
+                    {formatTimestamp(s.start)}
+                  </Link>
+                  <span>{s.text}</span>
+                </div>
+              ))
+            ) : (
+              <p className="notice">
+                No transcript passage was found near this timestamp. Inspect the
+                citation verdict and full report before relying on it.
+              </p>
+            )}
+            <p className="caption muted mt-4">
+              Speakers are not identified in the current transcript.
+            </p>
+          </section>
+        </div>
+        <aside className="report-aside">
+          <p className="eyebrow muted mb-4">02 / The source check</p>
+          <h2 className="section-heading">What was checked?</h2>
+          <dl className="fact-list mt-4">
+            <div>
+              <dt>Citation status</dt>
+              <dd>
+                {claim.verdict === "VERIFIED"
+                  ? "Matched"
+                  : claim.verdict === "TEXT_MISMATCH"
+                    ? "Text mismatch"
+                    : claim.verdict === "TIMESTAMP_NOT_FOUND"
+                      ? "Time not found"
+                      : "Not checked"}
+              </dd>
             </div>
-          ) : null}
-          <div ref={waveformRef} className={audioReady && !audioError ? "" : "hidden"} />
-        </div>
-      </div>
-
-      {(contextBefore || contextAfter) && (
-        <div className="mt-8">
-          <div className="mb-2 text-xs uppercase tracking-wide text-text-faint">Context</div>
-          <div className="flex flex-col gap-2 text-xs text-text-faint">
-            {contextBefore && (
-              <div>
-                <span className="text-text-muted">{formatTimestamp(contextBefore.start)}</span> …{contextBefore.text}
-              </div>
-            )}
-            {contextAfter && (
-              <div>
-                <span className="text-text-muted">{formatTimestamp(contextAfter.start)}</span> {contextAfter.text}…
-              </div>
-            )}
+            <div>
+              <dt>Text similarity</dt>
+              <dd>{formatPercent(claim.match_ratio)}</dd>
+            </div>
+            <div>
+              <dt>Timestamp</dt>
+              <dd>{formatTimestamp(claim.timestamp_sec)}</dd>
+            </div>
+            <div>
+              <dt>Meaning reviewed</dt>
+              <dd>Not established</dd>
+            </div>
+          </dl>
+          <div className="notice mt-6">
+            <strong>A source match is a starting point.</strong>
+            <p>
+              The checker compares quote text near the cited time. It does not
+              determine whether the quote fully supports the claim, or whether
+              the transcript is error-free.
+            </p>
           </div>
-        </div>
-      )}
-    </div>
+          <Link className="text-link mt-5" to="/app/evaluation">
+            Read the evaluation <ArrowUpRight size={14} aria-hidden="true" />
+          </Link>
+        </aside>
+      </div>
+    </article>
   );
 }

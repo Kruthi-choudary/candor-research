@@ -1,99 +1,289 @@
 import { useEffect, useState } from "react";
+import { ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import { api, type EvalSummary } from "../lib/api";
 import { formatPercent } from "../lib/format";
+import { EmptyState, ErrorState, LoadingState } from "../components/States";
 
 export function Evaluation() {
   const [summary, setSummary] = useState<EvalSummary | null>(null);
   const [error, setError] = useState<string | null>(null);
-
   useEffect(() => {
-    api.getEvalSummary().then(setSummary).catch((e) => setError(e.message));
+    let cancelled = false;
+    api
+      .getEvalSummary()
+      .then((d) => {
+        if (!cancelled) setSummary(d);
+      })
+      .catch((e) => {
+        if (!cancelled) setError(e.message);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, []);
-
-  if (error) {
-    return <div className="px-10 py-10 text-sm text-negative">{error}</div>;
-  }
-  if (!summary) {
-    return <div className="px-10 py-10 text-sm text-text-faint">Loading…</div>;
-  }
-
-  const { baseline, structured } = summary.citation_grounding;
-
+  const baseline = summary?.citation_grounding.baseline;
+  const structured = summary?.citation_grounding.structured;
+  const coverage = summary?.claim_coverage;
   return (
-    <div className="mx-auto max-w-4xl px-10 py-10">
-      <h1 className="text-2xl font-medium text-text">Evaluation</h1>
-      <p className="mt-1 text-sm text-text-muted">
-        How Candor's citation-grounded generation was measured, and what changed.
-      </p>
-
-      <section className="mt-8">
-        <h2 className="text-sm font-medium text-text">Citation-grounding experiment</h2>
-        <p className="mt-1 text-xs text-text-faint">
-          Free-text citations (regex-parsed "quote" [mm:ss] markers) vs a JSON-schema-constrained
-          response that forces every claim to carry an exact, copy-verbatim citation.
-        </p>
-        <div className="mt-4 overflow-hidden rounded-lg border border-border">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-border bg-raised text-left text-xs uppercase tracking-wide text-text-faint">
-                <th className="px-4 py-3">Metric</th>
-                <th className="px-4 py-3">{baseline?.label ?? "Baseline"}</th>
-                <th className="px-4 py-3">{structured?.label ?? "Structured"}</th>
-              </tr>
-            </thead>
-            <tbody className="text-text-muted">
-              <Row label="Schema compliance" a={formatPercent(baseline?.schema_compliance)} b={formatPercent(structured?.schema_compliance)} />
-              <Row label="Citation accuracy" a={formatPercent(baseline?.citation_accuracy)} b={formatPercent(structured?.citation_accuracy)} highlight />
-              <Row label="Total citations" a={String(baseline?.total_citations ?? "—")} b={String(structured?.total_citations ?? "—")} />
-            </tbody>
-          </table>
+    <div className="container page reveal">
+      <div className="evaluation-lead">
+        <header>
+          <p className="eyebrow muted">Methodology & evaluation</p>
+          <h1 className="page-title">Evidence over assertion.</h1>
+          <p className="page-description">
+            Actual benchmark results, the method behind them, and the limits
+            that matter.
+          </p>
+        </header>
+        <div className="notice">
+          <strong>Two questions. Two different checks.</strong>
+          <p>
+            Does the citation match the source? And did the system extract the
+            right claims? A high score on one does not answer the other.
+          </p>
         </div>
-      </section>
-
-      <section className="mt-10">
-        <h2 className="text-sm font-medium text-text">Claim-extraction coverage</h2>
-        <p className="mt-1 text-xs text-text-faint">
-          Precision/recall/F1 against hand-labeled ground-truth claims — approximate text-similarity
-          matching, read per-call before trusting the aggregate.
-        </p>
-        {summary.claim_coverage ? (
-          <div className="mt-4 flex flex-col gap-3">
-            <div className="grid grid-cols-3 gap-4">
-              <Stat label="Avg precision" value={formatPercent(summary.claim_coverage.avg_precision)} />
-              <Stat label="Avg recall" value={formatPercent(summary.claim_coverage.avg_recall)} />
-              <Stat label="Avg F1" value={formatPercent(summary.claim_coverage.avg_f1)} />
+      </div>
+      {error ? (
+        <ErrorState message={error} />
+      ) : !summary ? (
+        <LoadingState label="Loading the recorded benchmark results…" />
+      ) : (
+        <>
+          <section
+            className="section-space rule-top"
+            aria-labelledby="citation-heading"
+          >
+            <div className="section-top">
+              <div>
+                <p className="eyebrow muted mb-2">01 / Citation matching</p>
+                <h2 className="section-heading" id="citation-heading">
+                  A more traceable output.
+                </h2>
+              </div>
+              <span className="badge">Recorded benchmark</span>
             </div>
-            <div className="text-xs text-text-faint">
-              {summary.claim_coverage.calls_evaluated} call(s) labeled
+            <p className="muted max-w-3xl mb-6">
+              A comparison of free-text generation with structured JSON output.
+              The checker uses approximate quote matching near a timestamp;
+              these results measure citation matching, rather than factual
+              correctness.
+            </p>
+            {!baseline && !structured ? (
+              <EmptyState
+                title="No citation benchmark recorded."
+                description="Results will appear here when the evaluation service has a recorded run."
+              />
+            ) : (
+              <div className="table-wrap">
+                <table className="data-table">
+                  <caption>
+                    Values below are fetched from the saved evaluation runs.
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Measure</th>
+                      <th scope="col">
+                        {baseline?.label ?? "Baseline unavailable"}
+                      </th>
+                      <th scope="col">
+                        {structured?.label ?? "Structured run unavailable"}
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <BenchmarkRow
+                      label="Output-format compliance"
+                      a={baseline?.schema_compliance}
+                      b={structured?.schema_compliance}
+                    />
+                    <BenchmarkRow
+                      label="Citation-match rate"
+                      a={baseline?.citation_accuracy}
+                      b={structured?.citation_accuracy}
+                    />
+                    <tr>
+                      <th scope="row">Citations evaluated</th>
+                      <td className="numeric">
+                        {baseline?.total_citations ?? "—"}
+                      </td>
+                      <td className="numeric">
+                        {structured?.total_citations ?? "—"}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            )}
+            <p className="caption muted mt-4">
+              The baseline and structured runs use different citation-parsing
+              and timestamp-matching procedures. Treat this as an implementation
+              comparison, not an isolated experiment proving schema alone caused
+              the change.
+            </p>
+          </section>
+          <section
+            className="section-space rule-top"
+            aria-labelledby="coverage-heading"
+          >
+            <div className="section-top">
+              <div>
+                <p className="eyebrow muted mb-2">02 / Claim coverage</p>
+                <h2 className="section-heading" id="coverage-heading">
+                  What made it into the brief?
+                </h2>
+              </div>
+              <span className="badge badge-warning">
+                Human review incomplete
+              </span>
             </div>
-          </div>
-        ) : (
-          <div className="mt-4 rounded-lg border border-dashed border-border px-4 py-6 text-center text-sm text-text-faint">
-            No calls hand-labeled yet. Run{" "}
-            <code className="text-text-muted">python -m src.eval.scaffold_labels</code> and{" "}
-            <code className="text-text-muted">check_claim_coverage</code> to populate this.
-          </div>
-        )}
-      </section>
+            <p className="muted max-w-3xl">
+              Generated claims are compared with labelled claims using
+              approximate text similarity. Precision measures how many generated
+              claims match the labels; recall measures how many labelled claims
+              were found. F1 balances both.
+            </p>
+            {coverage ? (
+              <>
+                <div className="metric-row">
+                  <div className="metric">
+                    <p className="metric-value">
+                      {formatPercent(coverage.avg_precision)}
+                    </p>
+                    <p className="metric-label">Mean precision</p>
+                  </div>
+                  <div className="metric">
+                    <p className="metric-value">
+                      {formatPercent(coverage.avg_recall)}
+                    </p>
+                    <p className="metric-label">Mean recall</p>
+                  </div>
+                  <div className="metric">
+                    <p className="metric-value">
+                      {formatPercent(coverage.avg_f1)}
+                    </p>
+                    <p className="metric-label">Mean F1 score</p>
+                  </div>
+                </div>
+                <div className="table-wrap mt-7">
+                  <table className="data-table">
+                    <caption>
+                      Per-call results · {coverage.calls_evaluated} labelled
+                      calls
+                    </caption>
+                    <thead>
+                      <tr>
+                        <th scope="col">Earnings call</th>
+                        <th scope="col">Precision</th>
+                        <th scope="col">Recall</th>
+                        <th scope="col">F1</th>
+                        <th scope="col">
+                          <span className="sr-only">Report</span>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {coverage.results.map((r) => (
+                        <tr key={`${r.ticker}/${r.quarter}`}>
+                          <th scope="row">
+                            {r.ticker}{" "}
+                            <span className="font-normal muted">
+                              / {r.quarter.replace("_", " ")}
+                            </span>
+                          </th>
+                          <td>{formatPercent(r.precision)}</td>
+                          <td>{formatPercent(r.recall)}</td>
+                          <td>{formatPercent(r.f1)}</td>
+                          <td>
+                            <Link
+                              className="claim-action-link"
+                              to={`/app/calls/${r.ticker}/${r.quarter.replace("_", "-")}`}
+                              aria-label={`Open ${r.ticker} ${r.quarter} report`}
+                            >
+                              <ArrowUpRight size={16} aria-hidden="true" />
+                            </Link>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </>
+            ) : (
+              <EmptyState
+                title="Claim coverage has not been recorded."
+                description="Coverage results require labelled reference claims and a completed evaluation run."
+              />
+            )}
+            <div className="notice mt-6">
+              <strong>Label provenance matters.</strong>
+              <p>
+                The repository documents the Apple reference set as
+                independently human-labelled. The Meta, Microsoft and Nvidia
+                reference files are marked AI-drafted, pending human review.
+                Their aggregate is not an independently human-validated quality
+                score.
+              </p>
+              <p>
+                These provenance notes describe the current dataset; the API
+                does not supply per-label review status.
+              </p>
+            </div>
+          </section>
+          <section className="section-space rule-top">
+            <p className="eyebrow muted mb-3">
+              03 / Reading the results responsibly
+            </p>
+            <div className="intro-grid">
+              <h2 className="editorial editorial-heading mt-0">
+                The source is the beginning.
+                <br />
+                Judgment is still yours.
+              </h2>
+              <div>
+                <p className="muted">
+                  Matching citations can still accompany incomplete, misleading
+                  or unsupported interpretations. Transcription errors and
+                  sentiment-based quote selection can also leave important
+                  information out of a brief.
+                </p>
+                <Link to="/app" className="text-link mt-5">
+                  Inspect the research yourself{" "}
+                  <ArrowUpRight size={14} aria-hidden="true" />
+                </Link>
+              </div>
+            </div>
+          </section>
+        </>
+      )}
     </div>
   );
 }
 
-function Row({ label, a, b, highlight }: { label: string; a: string; b: string; highlight?: boolean }) {
+function BenchmarkRow({
+  label,
+  a,
+  b,
+}: {
+  label: string;
+  a?: number | null;
+  b?: number | null;
+}) {
   return (
-    <tr className="border-b border-border last:border-0">
-      <td className="px-4 py-3 text-text-faint">{label}</td>
-      <td className="px-4 py-3">{a}</td>
-      <td className={`px-4 py-3 ${highlight ? "font-medium text-mint" : ""}`}>{b}</td>
+    <tr>
+      <th scope="row">{label}</th>
+      {[a, b].map((value, i) => (
+        <td key={i}>
+          <span className="numeric">{formatPercent(value)}</span>
+          {value != null && (
+            <div className="benchmark-bar" aria-hidden="true">
+              <span
+                style={{ width: `${Math.max(0, Math.min(1, value)) * 100}%` }}
+              />
+            </div>
+          )}
+        </td>
+      ))}
     </tr>
-  );
-}
-
-function Stat({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="rounded-lg border border-border bg-raised px-4 py-3">
-      <div className="text-xs uppercase tracking-wide text-text-faint">{label}</div>
-      <div className="mt-1 text-lg font-medium text-text">{value}</div>
-    </div>
   );
 }
