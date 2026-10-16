@@ -399,6 +399,8 @@ The first speaker-attribution milestone records **provisional** handoff labels f
 
 Run `.venv/bin/python -m src.speakers.annotations` to validate both records. The pilot covers 199 of 525 Q4 transcript segments and 308 of 751 Q1 segments. It deliberately leaves mixed handoffs and all Q&A turns unlabeled. **No voice identity has been confirmed from the recording, and zero pilot segments are eligible for executive baselines.** The validator rejects changed source files, overlapping ranges, inconsistent cross-call identity keys and premature baseline use. The next step is to listen to the saved recordings at each handoff, adjust turn boundaries, and verify speaker identity before extending labels to Q&A or other companies.
 
+To prepare that listening review locally, run `.venv/bin/python -m src.speakers.review_packet` and open `.local/speaker_review/index.html` in a browser. The command validates source hashes first, then cuts short clips around each proposed handoff and the two unlabeled Q&A boundaries. The clips and review page stay under ignored `.local/`; this command does not change speaker labels or certify identities. Compare Colette Kress's Q4 and Q1 samples, note any mixed transcript segments, and leave uncertain voices unassigned.
+
 ## Known limitations
 
 - **Evidence scope:** all 16 current reports now pass the exact complete-passage integrity check and have AI-assisted claim reviews. Punctuation and matching still cannot prove that every claim is correct; independent human and recording review remain pending.

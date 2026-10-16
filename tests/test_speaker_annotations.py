@@ -7,6 +7,7 @@ from pathlib import Path
 
 from src.common.manifest import ROOT
 from src.speakers.annotations import validate_annotation, validate_collection
+from src.speakers.review_packet import clip_window, review_items
 
 
 FILES = sorted((ROOT / "data/processed/speaker_annotations/pilot/NVDA").glob("*.json"))
@@ -52,6 +53,20 @@ class SpeakerAnnotationTests(unittest.TestCase):
         named["speaker_display_name"] = "Another Person"
         with self.assertRaisesRegex(ValueError, "conflicts across calls"):
             validate_collection([FILES[0], self.altered(changed)])
+
+    def test_review_packet_covers_handoffs_and_unlabeled_boundaries(self):
+        records = [json.loads(path.read_text()) for path in FILES]
+        items = review_items(records)
+        self.assertEqual(len(items), 7)
+        self.assertEqual(
+            {item["boundary_segment"] for item in items if item["quarter"] == "Q1_2025"},
+            {9, 38, 262, 308},
+        )
+        self.assertEqual(clip_window(5), (0.0, 17.0))
+        for item in items:
+            start, duration = clip_window(item["boundary_sec"])
+            self.assertLess(start, item["boundary_sec"])
+            self.assertGreater(start + duration, item["boundary_sec"])
 
 
 if __name__ == "__main__":
