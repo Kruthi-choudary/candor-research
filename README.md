@@ -393,15 +393,21 @@ Set `READ_ONLY_MODE=true` on the API and `ALLOWED_ORIGINS` to the exact frontend
 
 `READ_ONLY_MODE` and `ALLOWED_ORIGINS` are read from the API process environment; the API does not automatically load them from `.env`. `render.yaml` defines the read-only setting. `frontend/vercel.json` contains the SPA rewrite. Backend hosts that suspend idle services can make the first request slower.
 
+## Speaker attribution pilot
+
+The first speaker-attribution milestone records **provisional** handoff labels for the prepared remarks in Nvidia Q4 2024 and Q1 2025. The operator introduces Investor Relations, Investor Relations hands off to CFO Colette Kress, and the Q1 CFO remarks hand off to CEO Jensen Huang. Nvidia's 2024 [Q4](https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2024/) and [Q1](https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2025/) materials corroborate the named participants and roles. Exact segment ranges, handoff text, source URLs and transcript/audio hashes are saved under `data/processed/speaker_annotations/pilot/NVDA/`.
+
+Run `.venv/bin/python -m src.speakers.annotations` to validate both records. The pilot covers 199 of 525 Q4 transcript segments and 308 of 751 Q1 segments. It deliberately leaves mixed handoffs and all Q&A turns unlabeled. **No voice identity has been confirmed from the recording, and zero pilot segments are eligible for executive baselines.** The validator rejects changed source files, overlapping ranges, inconsistent cross-call identity keys and premature baseline use. The next step is to listen to the saved recordings at each handoff, adjust turn boundaries, and verify speaker identity before extending labels to Q&A or other companies.
+
 ## Known limitations
 
-- **Incomplete evidence in saved reports:** older outputs selected isolated fragments that can change or obscure meaning. New structured generation joins bounded passages, but saved reports still need regeneration and punctuation alone cannot establish complete context.
+- **Evidence scope:** all 16 current reports now pass the exact complete-passage integrity check and have AI-assisted claim reviews. Punctuation and matching still cannot prove that every claim is correct; independent human and recording review remain pending.
 - **Selection bias:** generation sees sentiment-selected quotes, not a comprehensive selection of financial facts or the full transcript.
-- **Older saved context:** after the Apple Q1 2025 and Q4 2024 corrections, 8 included reports still contain 17 later-quarter context passages from earlier runs. These reports and their generated claims need review and regeneration; removing context fields alone would not undo its possible influence on generation.
+- **Historical-context relevance:** current reports contain no later-quarter passages, but source-correct earlier business figures are not yet evidence of an executive communication change.
 - **Date provenance:** recorded dates agree with company announcements for the 16 scheduled calls, with source links and checking scope retained. The recordings' identities, actual occurrence and exact audio/time alignment are not independently verified; scheduled dates alone do not establish those facts.
-- **Limited verification:** citation matching checks text and time, not whether the evidence entails the claim. Failed matches remain in the saved report.
+- **Limited verification:** citation matching checks text and time; AI-assisted review has checked claim support against saved transcripts, but no independent human or recording-level verification has been completed.
 - **Limited reference labels:** only four calls have reference claims, three sets await human review, and provenance has not been independently audited.
-- **No speaker identification:** transcript segments do not distinguish management, analysts or individual speakers.
+- **No verified speaker identification:** transcript segments have no speaker labels. The two separate Nvidia pilot files contain provisional prepared-remarks labels only; Q&A and all other calls remain unlabeled.
 - **No historical communication baseline:** whole-call features mix speakers and passages; they cannot currently establish that a particular executive behaved unusually compared with their own history.
 - **Descriptive audio only:** vocal measurements are not validated indicators of confidence, deception or financial performance.
 - **File-based caching:** cache reuse depends on file existence, without automatic invalidation when prompts, models or configuration change.
@@ -412,15 +418,13 @@ These are outstanding work, not completed features.
 
 ### Reliability of the existing pipeline
 
-1. Regenerate saved claims using the implemented complete-passage selection and review whether each passage actually supports its claim.
-2. Verify call-date sources and regenerate reports produced before historical filtering was fixed.
-3. Add an independent claim-support review alongside citation matching.
-4. Expand independently human-reviewed reference claims and record reviewer provenance.
-5. Extend the historical-retrieval regression suite to cover misleading citations, other missing data and API failure cases.
+1. Independently review the 16 AI-assisted claim assessments against the original recordings and source filings.
+2. Expand independently human-reviewed reference claims and record reviewer provenance.
+3. Extend the historical-retrieval regression suite to cover misleading citations, other missing data and API failure cases.
 
 ### Communication-change research
 
-1. Identify speakers and consistently associate the same executive across calls.
+1. Verify the Nvidia pilot handoffs against audio, then identify speaker turns across all calls and consistently associate the same executive across calls.
 2. Compare like-for-like passages, accounting for recording quality, speaker turns and prepared remarks versus questions and answers.
 3. Build historical language and vocal-feature baselines using only earlier calls, with explicit minimum-history requirements.
 4. Evaluate changes in sentiment, uncertainty language, pauses, pitch, energy and speaking rate against those baselines.

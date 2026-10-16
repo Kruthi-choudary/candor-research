@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "ticker": "NVDA",
+  "quarter": "Q1_2025",
+  "status": "transcript_handoff_provisional",
+  "scope": "opening_prepared_remarks_only",
+  "transcript_sha256": "d8a5a1b50c9c5cb82559ab17c5254456e80be1e0196568461e0633f4b879a5a1",
+  "audio_sha256": "e67d63d15b042cda376d6aa004b7c8bdf3fb83f58ecb9594cec1b8e31293729a",
+  "turns": [
+    {
+      "start_segment": 0,
+      "end_segment_exclusive": 9,
+      "role": "operator",
+      "speaker_id": null,
+      "speaker_display_name": "Regina (first name only)",
+      "identity_status": "provisional_from_transcript_handoff",
+      "audio_identity_checked": false,
+      "usable_for_baseline": false,
+      "handoff_evidence": {
+        "segment_index": 0,
+        "source_text": "my name is Regina"
+      },
+      "role_source_url": null,
+      "review_note": "Operator self-introduction; surname and cross-call identity unknown."
+    },
+    {
+      "start_segment": 9,
+      "end_segment_exclusive": 38,
+      "role": "investor_relations",
+      "speaker_id": "nvda:simona_jankowski",
+      "speaker_display_name": "Simona Jankowski",
+      "identity_status": "provisional_from_transcript_handoff",
+      "audio_identity_checked": false,
+      "usable_for_baseline": false,
+      "handoff_evidence": {
+        "segment_index": 7,
+        "source_text": "Samona Jankowski"
+      },
+      "role_source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2025/",
+      "review_note": "Operator handoff; ASR misspells the given name. Nvidia lists Jankowski in Investor Relations."
+    },
+    {
+      "start_segment": 38,
+      "end_segment_exclusive": 262,
+      "role": "executive",
+      "speaker_id": "nvda:colette_kress",
+      "speaker_display_name": "Colette Kress",
+      "identity_status": "provisional_from_transcript_handoff",
+      "audio_identity_checked": false,
+      "usable_for_baseline": false,
+      "handoff_evidence": {
+        "segment_index": 37,
+        "source_text": "let me turn the call over to collect"
+      },
+      "role_source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2025/",
+      "review_note": "IR handoff to CFO; ASR renders Colette as collect. Stops at the explicit Jensen handoff."
+    },
+    {
+      "start_segment": 262,
+      "end_segment_exclusive": 308,
+      "role": "executive",
+      "speaker_id": "nvda:jensen_huang",
+      "speaker_display_name": "Jensen Huang",
+      "identity_status": "provisional_from_transcript_handoff",
+      "audio_identity_checked": false,
+      "usable_for_baseline": false,
+      "handoff_evidence": {
+        "segment_index": 261,
+        "source_text": "turn it over to Jensen"
+      },
+      "role_source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2025/",
+      "review_note": "CFO handoff to CEO; stops before an unlabeled short response and Q&A."
+    }
+  ],
+  "unlabeled_from_segment": 308,
+  "unlabeled_reason": "Boundary and Q&A turns require recording-level verification; no analyst or executive identity is inferred from an analyst question.",
+  "limitations": [
+    "Transcript handoffs and official role records suggest identities but do not confirm the voice in the downloaded recording.",
+    "The recording source and exact audio/transcript alignment have not been independently verified.",
+    "These provisional labels must not be used to compute per-executive baselines or report communication deviations."
+  ]
+}

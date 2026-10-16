@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "ticker": "NVDA",
+  "quarter": "Q4_2024",
+  "status": "transcript_handoff_provisional",
+  "scope": "opening_prepared_remarks_only",
+  "transcript_sha256": "1b062003db7d252679fad6dcc56166a75d7ff5dbcc1b7e7630dbe1283ded75c8",
+  "audio_sha256": "0707a54e42d0756d2964bbef8a796f64160b296d1908bac96509063ee843e223",
+  "turns": [
+    {
+      "start_segment": 0,
+      "end_segment_exclusive": 6,
+      "role": "operator",
+      "speaker_id": null,
+      "speaker_display_name": "Rob (first name only)",
+      "identity_status": "provisional_from_transcript_handoff",
+      "audio_identity_checked": false,
+      "usable_for_baseline": false,
+      "handoff_evidence": {
+        "segment_index": 0,
+        "source_text": "My name is Rob"
+      },
+      "role_source_url": null,
+      "review_note": "Operator self-introduction; surname and cross-call identity unknown."
+    },
+    {
+      "start_segment": 6,
+      "end_segment_exclusive": 23,
+      "role": "investor_relations",
+      "speaker_id": "nvda:simona_jankowski",
+      "speaker_display_name": "Simona Jankowski",
+      "identity_status": "provisional_from_transcript_handoff",
+      "audio_identity_checked": false,
+      "usable_for_baseline": false,
+      "handoff_evidence": {
+        "segment_index": 5,
+        "source_text": "Simona Jinkowski, you may begin"
+      },
+      "role_source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2024/",
+      "review_note": "Operator handoff; ASR misspells the surname. Nvidia lists Jankowski in Investor Relations."
+    },
+    {
+      "start_segment": 23,
+      "end_segment_exclusive": 199,
+      "role": "executive",
+      "speaker_id": "nvda:colette_kress",
+      "speaker_display_name": "Colette Kress",
+      "identity_status": "provisional_from_transcript_handoff",
+      "audio_identity_checked": false,
+      "usable_for_baseline": false,
+      "handoff_evidence": {
+        "segment_index": 22,
+        "source_text": "let me turn the call over to Collette"
+      },
+      "role_source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2024/",
+      "review_note": "IR handoff to the CFO; prepared remarks end before a mixed/unclear Q&A transition segment."
+    }
+  ],
+  "unlabeled_from_segment": 199,
+  "unlabeled_reason": "Boundary and Q&A turns require recording-level verification; no analyst or executive identity is inferred from an analyst question.",
+  "limitations": [
+    "Transcript handoffs and official role records suggest identities but do not confirm the voice in the downloaded recording.",
+    "The recording source and exact audio/transcript alignment have not been independently verified.",
+    "These provisional labels must not be used to compute per-executive baselines or report communication deviations."
+  ]
+}
