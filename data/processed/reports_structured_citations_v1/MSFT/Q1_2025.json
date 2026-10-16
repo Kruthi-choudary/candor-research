@@ -1,69 +1,59 @@
 {
   "claims": [
     {
-      "claim": "Microsoft's M365 consumer products revenue grew 5% and its cloud services revenue grew 6% in constant currency.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1386,
-        "source_text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency."
-      }
+        "source_text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+        "timestamp_sec": 1386
+      },
+      "claim": "Microsoft reported Q1 FY2025 M365 consumer products and cloud services revenue growth of 5%, or 6% in constant currency.",
+      "sentiment": "positive"
     },
     {
-      "claim": "LinkedIn revenue rose 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1412,
-        "source_text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business."
-      }
+        "source_text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+        "timestamp_sec": 1412
+      },
+      "claim": "Microsoft reported LinkedIn revenue growth of 10%, or 9% in constant currency, slightly ahead of expectations, with growth across its business lines.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Operating margins, excluding the net impact from the Activision acquisition, increased by 1.0 percentage point.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1310,
-        "source_text": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0."
-      }
+        "source_text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+        "timestamp_sec": 1689
+      },
+      "claim": "Microsoft reported free cash flow of $19.3 billion, down 7% year over year, reflecting higher capital expenditures for cloud and AI offerings.",
+      "sentiment": "negative"
     },
     {
-      "claim": "M365 commercial products revenue grew 2% and 3% in constant currency, surpassing expectations.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1376,
-        "source_text": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,"
-      }
+        "source_text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+        "timestamp_sec": 1528
+      },
+      "claim": "Microsoft reported enterprise and partner services revenue down 1%, or relatively unchanged in constant currency.",
+      "sentiment": "negative"
     },
     {
-      "claim": "Free cash flow fell 7% year over year to $19.3\u202fbillion, reflecting higher capital expenditures for cloud and AI.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 1689,
-        "source_text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings."
-      }
-    },
-    {
-      "claim": "Enterprise and partner services revenue declined 1% and was relatively flat in constant currency.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 1528,
-        "source_text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency."
-      }
-    },
-    {
-      "claim": "Revenue in the on-premises server business decreased 1%.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 1509,
-        "source_text": "In our on-premises server business, revenue decreased 1%."
-      }
-    },
-    {
-      "claim": "Microsoft's cloud gross margin percentage fell 2.0 points year over year to 71%.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 1245,
-        "source_text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%."
-      }
+        "source_text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+        "timestamp_sec": 1245
+      },
+      "claim": "Microsoft reported Microsoft Cloud gross margin of 71%, lower year over year.",
+      "sentiment": "negative"
     }
   ],
-  "overall_summary": "The call highlighted solid top\u2011line growth, with M365 consumer and commercial products, cloud services, and LinkedIn all posting double\u2011digit or low\u2011double\u2011digit increases, and operating margins improving modestly. However, pressure on cash flow, on\u2011premises server sales, enterprise services, and cloud gross margins tempered the outlook. Overall sentiment was 30% positive, 4.7% negative, and 65.2% neutral according to FinBERT."
+  "evidence_policy": "complete_passages_v1",
+  "generation_provenance": {
+    "generator_sha256": "a57529c348e8210d66d8ac8be791e7e3dc43bde51079b57591ef277c8e4489f2",
+    "input_segments_sha256": "9135587e2b532fd2c3bb3e57cd109f1c759e8ceaac1061ded87ae91ffd19b495",
+    "max_tokens": 8000,
+    "model": "openai/gpt-oss-120b",
+    "prompt_sha256": "72747cf75bd9c5b03bfa462c59b7f7e4afc2795f959b48dad81e5f0e41f219f6",
+    "response_id": "chatcmpl-15914ab6-ff6f-4a23-8097-75b1bbcc13a8",
+    "selection": {
+      "policy": "complete_passages_v1",
+      "top_k_per_seed_label": 4
+    }
+  },
+  "overall_summary": "Microsoft reported Q1 FY2025 M365 consumer products and cloud services revenue growth of 5%, or 6% in constant currency, and LinkedIn revenue growth of 10%, or 9% in constant currency. Enterprise and partner services revenue fell 1% but was relatively unchanged in constant currency; free cash flow was $19.3 billion, down 7% year over year, reflecting higher cloud and AI capital expenditures. Microsoft Cloud gross margin was 71%, lower year over year. FinBERT classified 30.0% of scored transcript segments as positive, 4.7% as negative and 65.2% as neutral; these text labels do not measure vocal confidence.",
+  "report_version": "complete-passages-405686888962"
 }

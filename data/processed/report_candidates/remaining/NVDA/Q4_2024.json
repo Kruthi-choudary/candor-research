@@ -1,0 +1,253 @@
+{
+  "structured_claims": {
+    "claims": [
+      {
+        "claim": "Fiscal year revenue was $1.55\u202fbillion, up 1% year over year.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 1101,
+          "source_text": "Fiscal year revenue of 1.55 billion was up 1%. Sequential growth in the quarter was driven by a rich mix of RTX data architecture GPUs continuing to ramp. Enterprises are refreshing their workstations to support generative AI related workloads such as data preparation, LLM fine tuning, and retrieval augmented generation. These key industrial verticals driving demand include manufacturing, automotive, and robotics. The automotive industry has also been an early adopter of NVIDIA Omniverse as it seeks to digitalize workflows from design to build, simulate, operate, and experience their factories and cars. At CES, we announced that creative partners and developers including Brickland, WPP, and ZeroLight are building Omniverse-powered car configurations, leading automakers like Lotus are adopting the technology to bring new levels of personalization, realism, and interactivity to the car buying experience."
+        }
+      },
+      {
+        "claim": "Q4 revenue was $22.1\u202fbillion, up 22% sequentially and 265% year over year, exceeding the outlook of $20\u202fbillion.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 120,
+          "source_text": "Thanks, Simona. Q4 was another record quarter. Revenue of 22.1 billion was up 22% sequentially, and up 265% year on year, and well above our outlook of 20 billion. For fiscal 2024, revenue was 60.9 billion and up 126% from the prior year. Starting with data center, data center revenue for the fiscal 2024 year was 4.7.5 billion, more than tripling from the prior year."
+        }
+      },
+      {
+        "claim": "The infinite band business grew 5\u202ftimes year over year.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 2210,
+          "source_text": "It weighs 70 pounds. These things are really complicated things. We've built people calling the AI supercomputer for good reason. If you ever look in the back of the data center, the systems, the cabling system is mind boggling. It is the most dense, complex cabling system for networking the world's ever seen. Our infinite band business grew 5X year over year. The supply chain is really doing fantastic supporting us. And so overall, the supply is improving."
+        }
+      },
+      {
+        "claim": "Pro visualization revenue was $463\u202fmillion, up 11% sequentially and 105% year over year.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 1054,
+          "source_text": "NVIDIA has an end-to-end platform for building and deploying generative AI applications for RTX PCs and workstations. This includes libraries, SDKs, tools, and services developers can incorporate into their generative AI workflows. NVIDIA is fueling the next wave of generative AI applications coming to the PC. With over 100 million RTX PCs in the installed base and over 500 AI-enabled PC applications and games, we are on our way. Moving to pro visualization, revenue of 463 million was up 11% sequentially and up 105% year on year."
+        }
+      },
+      {
+        "claim": "The business significantly declined as shipments were paused in the marketplace, and the company expects similar performance this quarter.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 3245,
+          "source_text": "This last quarter, our business significantly declined as we paused in the marketplace. We stopped shipping in the marketplace. We expect this quarter to be about the same. But after that, hopefully we can go compete for our business and do our best. And we'll see how it turns out."
+        }
+      },
+      {
+        "claim": "Automotive revenue was $281\u202fmillion, up 8% sequentially but down 4% year over year.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1172,
+          "source_text": "Moving to automotive, revenue was 281 million up 8% sequentially and down 4% year on year."
+        }
+      }
+    ],
+    "overall_summary": "Nvidia reported strong growth in several segments, with Q4 revenue of $22.1\u202fbillion up 22% sequentially and 265% YoY, and notable increases in pro visualization and infinite band businesses. However, the company noted a pause in shipments leading to a decline in overall business and mixed results in automotive revenue, which fell 4% YoY despite an 8% sequential gain. FinBERT analysis shows a predominantly neutral tone (82.3%) with modest positive (16.4%) and minimal negative (1.3%) sentiment.",
+    "evidence_policy": "complete_passages_v1",
+    "generation_provenance": {
+      "model": "openai/gpt-oss-120b",
+      "max_tokens": 8000,
+      "response_id": "chatcmpl-57fcedf2-509f-46ee-94c3-335b85e71f07",
+      "prompt_sha256": "9a6b453cd266f8f3bb2bc3991491b6106a951d00ab26d00d8e2badc6aaaa9007",
+      "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+      "input_segments_sha256": "af468ee9bbc96ba222538501499fd75fb196574e63ae9184b81be0325a0749e4",
+      "selection": {
+        "policy": "complete_passages_v1",
+        "top_k_per_seed_label": 4,
+        "citation_binding": "source_id_to_exact_selected_passage_v1"
+      }
+    }
+  },
+  "citation_evaluation": {
+    "ticker": "NVDA",
+    "quarter": "Q4_2024",
+    "total_citations": 6,
+    "verified": 6,
+    "accuracy": 1.0,
+    "citations": [
+      {
+        "claim": "Fiscal year revenue was $1.55\u202fbillion, up 1% year over year.",
+        "source_text": "Fiscal year revenue of 1.55 billion was up 1%. Sequential growth in the quarter was driven by a rich mix of RTX data architecture GPUs continuing to ramp. Enterprises are refreshing their workstations to support generative AI related workloads such as data preparation, LLM fine tuning, and retrieval augmented generation. These key industrial verticals driving demand include manufacturing, automotive, and robotics. The automotive industry has also been an early adopter of NVIDIA Omniverse as it seeks to digitalize workflows from design to build, simulate, operate, and experience their factories and cars. At CES, we announced that creative partners and developers including Brickland, WPP, and ZeroLight are building Omniverse-powered car configurations, leading automakers like Lotus are adopting the technology to bring new levels of personalization, realism, and interactivity to the car buying experience.",
+        "timestamp_sec": 1101,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Q4 revenue was $22.1\u202fbillion, up 22% sequentially and 265% year over year, exceeding the outlook of $20\u202fbillion.",
+        "source_text": "Thanks, Simona. Q4 was another record quarter. Revenue of 22.1 billion was up 22% sequentially, and up 265% year on year, and well above our outlook of 20 billion. For fiscal 2024, revenue was 60.9 billion and up 126% from the prior year. Starting with data center, data center revenue for the fiscal 2024 year was 4.7.5 billion, more than tripling from the prior year.",
+        "timestamp_sec": 120,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "The infinite band business grew 5\u202ftimes year over year.",
+        "source_text": "It weighs 70 pounds. These things are really complicated things. We've built people calling the AI supercomputer for good reason. If you ever look in the back of the data center, the systems, the cabling system is mind boggling. It is the most dense, complex cabling system for networking the world's ever seen. Our infinite band business grew 5X year over year. The supply chain is really doing fantastic supporting us. And so overall, the supply is improving.",
+        "timestamp_sec": 2210,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Pro visualization revenue was $463\u202fmillion, up 11% sequentially and 105% year over year.",
+        "source_text": "NVIDIA has an end-to-end platform for building and deploying generative AI applications for RTX PCs and workstations. This includes libraries, SDKs, tools, and services developers can incorporate into their generative AI workflows. NVIDIA is fueling the next wave of generative AI applications coming to the PC. With over 100 million RTX PCs in the installed base and over 500 AI-enabled PC applications and games, we are on our way. Moving to pro visualization, revenue of 463 million was up 11% sequentially and up 105% year on year.",
+        "timestamp_sec": 1054,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "The business significantly declined as shipments were paused in the marketplace, and the company expects similar performance this quarter.",
+        "source_text": "This last quarter, our business significantly declined as we paused in the marketplace. We stopped shipping in the marketplace. We expect this quarter to be about the same. But after that, hopefully we can go compete for our business and do our best. And we'll see how it turns out.",
+        "timestamp_sec": 3245,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Automotive revenue was $281\u202fmillion, up 8% sequentially but down 4% year over year.",
+        "source_text": "Moving to automotive, revenue was 281 million up 8% sequentially and down 4% year on year.",
+        "timestamp_sec": 1172,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      }
+    ]
+  },
+  "report": {
+    "schema_version": "1.0",
+    "ticker": "NVDA",
+    "company": "Nvidia",
+    "quarter": "Q4 2024",
+    "call_date": "2024-02-21",
+    "overall_summary": "Nvidia reported strong growth in several segments, with Q4 revenue of $22.1\u202fbillion up 22% sequentially and 265% YoY, and notable increases in pro visualization and infinite band businesses. However, the company noted a pause in shipments leading to a decline in overall business and mixed results in automotive revenue, which fell 4% YoY despite an 8% sequential gain. FinBERT analysis shows a predominantly neutral tone (82.3%) with modest positive (16.4%) and minimal negative (1.3%) sentiment.",
+    "evidence_policy": "complete_passages_v1",
+    "sentiment_distribution": {
+      "positive": 16.4,
+      "negative": 1.3,
+      "neutral": 82.3
+    },
+    "key_claims": [
+      {
+        "claim": "Fiscal year revenue was $1.55\u202fbillion, up 1% year over year.",
+        "evidence": "Fiscal year revenue of 1.55 billion was up 1%. Sequential growth in the quarter was driven by a rich mix of RTX data architecture GPUs continuing to ramp. Enterprises are refreshing their workstations to support generative AI related workloads such as data preparation, LLM fine tuning, and retrieval augmented generation. These key industrial verticals driving demand include manufacturing, automotive, and robotics. The automotive industry has also been an early adopter of NVIDIA Omniverse as it seeks to digitalize workflows from design to build, simulate, operate, and experience their factories and cars. At CES, we announced that creative partners and developers including Brickland, WPP, and ZeroLight are building Omniverse-powered car configurations, leading automakers like Lotus are adopting the technology to bring new levels of personalization, realism, and interactivity to the car buying experience.",
+        "timestamp_sec": 1101,
+        "sentiment": "neutral"
+      },
+      {
+        "claim": "Q4 revenue was $22.1\u202fbillion, up 22% sequentially and 265% year over year, exceeding the outlook of $20\u202fbillion.",
+        "evidence": "Thanks, Simona. Q4 was another record quarter. Revenue of 22.1 billion was up 22% sequentially, and up 265% year on year, and well above our outlook of 20 billion. For fiscal 2024, revenue was 60.9 billion and up 126% from the prior year. Starting with data center, data center revenue for the fiscal 2024 year was 4.7.5 billion, more than tripling from the prior year.",
+        "timestamp_sec": 120,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "The infinite band business grew 5\u202ftimes year over year.",
+        "evidence": "It weighs 70 pounds. These things are really complicated things. We've built people calling the AI supercomputer for good reason. If you ever look in the back of the data center, the systems, the cabling system is mind boggling. It is the most dense, complex cabling system for networking the world's ever seen. Our infinite band business grew 5X year over year. The supply chain is really doing fantastic supporting us. And so overall, the supply is improving.",
+        "timestamp_sec": 2210,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Pro visualization revenue was $463\u202fmillion, up 11% sequentially and 105% year over year.",
+        "evidence": "NVIDIA has an end-to-end platform for building and deploying generative AI applications for RTX PCs and workstations. This includes libraries, SDKs, tools, and services developers can incorporate into their generative AI workflows. NVIDIA is fueling the next wave of generative AI applications coming to the PC. With over 100 million RTX PCs in the installed base and over 500 AI-enabled PC applications and games, we are on our way. Moving to pro visualization, revenue of 463 million was up 11% sequentially and up 105% year on year.",
+        "timestamp_sec": 1054,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "The business significantly declined as shipments were paused in the marketplace, and the company expects similar performance this quarter.",
+        "evidence": "This last quarter, our business significantly declined as we paused in the marketplace. We stopped shipping in the marketplace. We expect this quarter to be about the same. But after that, hopefully we can go compete for our business and do our best. And we'll see how it turns out.",
+        "timestamp_sec": 3245,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Automotive revenue was $281\u202fmillion, up 8% sequentially but down 4% year over year.",
+        "evidence": "Moving to automotive, revenue was 281 million up 8% sequentially and down 4% year on year.",
+        "timestamp_sec": 1172,
+        "sentiment": "negative"
+      }
+    ],
+    "risks": [],
+    "management_outlook": [],
+    "citation_verification": {
+      "total_citations": 6,
+      "verified": 6,
+      "accuracy": 1.0
+    },
+    "audio_features_summary": {
+      "mean_pitch_hz": 169.2,
+      "mean_energy": 0.09,
+      "mean_speaking_rate_wps": 2.37,
+      "segments_analyzed": 525
+    },
+    "prior_quarter_context_used": [],
+    "pipeline_version": "1.0",
+    "stage_durations_sec": {
+      "regeneration_sec": 3.76
+    },
+    "regeneration": {
+      "generated_at": "2026-10-16T14:28:53.807394+00:00",
+      "input": "saved_transcript_and_sentiment",
+      "audio_features": "reused_from_previous_report_not_recomputed",
+      "historical_context": "none_returned",
+      "claim_support_review": "pending",
+      "provenance": {
+        "dataset_scope": [
+          {
+            "ticker": "NVDA",
+            "quarter": "Q4_2024"
+          }
+        ],
+        "generation": {
+          "model": "openai/gpt-oss-120b",
+          "max_tokens": 8000,
+          "response_id": "chatcmpl-57fcedf2-509f-46ee-94c3-335b85e71f07",
+          "prompt_sha256": "9a6b453cd266f8f3bb2bc3991491b6106a951d00ab26d00d8e2badc6aaaa9007",
+          "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+          "input_segments_sha256": "af468ee9bbc96ba222538501499fd75fb196574e63ae9184b81be0325a0749e4",
+          "selection": {
+            "policy": "complete_passages_v1",
+            "top_k_per_seed_label": 4,
+            "citation_binding": "source_id_to_exact_selected_passage_v1"
+          }
+        },
+        "retrieval": {
+          "query_policy": "selected_current_call_passages_v1",
+          "queries_sha256": "52a325d40815753e4090d877674c80512ef19a8c15dab4f9645f9476b6e08e0d",
+          "query_count": 4
+        },
+        "input_sha256": {
+          "data/processed/transcripts/NVDA/Q4_2024.json": "1b062003db7d252679fad6dcc56166a75d7ff5dbcc1b7e7630dbe1283ded75c8",
+          "data/processed/sentiment/segment/NVDA/Q4_2024.json": "5b6fe45039c72b99ee22ae4c38499044ac2091be0ae7d92b9f760a3bde4d745d",
+          "data/processed/pipeline_runs/NVDA/Q4_2024.json": "565843e180ab0e3229264a9f704ebfc6f4ffc74dfa5a0ac1cb7c00a43881e186",
+          "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+          "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+          "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+          "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+          "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f",
+          "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+          "src/report/generate_structured_report.py": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+          "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+          "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86"
+        }
+      }
+    }
+  },
+  "review": {
+    "status": "pending",
+    "previous_context_quarters": [
+      "Q2 2025",
+      "Q2 2025",
+      "Q2 2025"
+    ],
+    "new_context_quarters": [],
+    "note": "Exact citation matches do not establish that the generated claims are supported. Review claims and qualifications before publishing."
+  }
+}

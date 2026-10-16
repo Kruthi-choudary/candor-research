@@ -1,102 +1,152 @@
 {
-  "schema_version": "1.0",
-  "ticker": "META",
-  "company": "Meta",
-  "quarter": "Q1 2025",
-  "call_date": "2025-04-30",
-  "overall_summary": "The call highlighted strong ad revenue growth in key geographies and increased marketing, R&D, and cost of revenue driven by infrastructure spending, reflecting a largely positive outlook. However, declines were noted in Meta Quest sales, government and politics, gaming, and G&A expenses, contributing to a predominantly neutral sentiment with 26.1% positive, 3.2% negative, and 70.7% neutral sentiment overall.",
-  "sentiment_distribution": {
-    "positive": 26.1,
-    "negative": 3.2,
-    "neutral": 70.7
-  },
-  "key_claims": [
-    {
-      "claim": "Ad revenue growth was strongest in the rest of world and North America.",
-      "evidence": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at",
-      "timestamp_sec": 898,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "Marketing and sales expenses increased 8 percent, mainly due to higher infrastructure costs.",
-      "evidence": "infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in",
-      "timestamp_sec": 764,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "Cost of revenue rose 14 percent, primarily driven by higher infrastructure costs.",
-      "evidence": "cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and",
-      "timestamp_sec": 745,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "R&D spending grew 22 percent, largely from increased employee compensation and longer server useful lives.",
-      "evidence": "of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and",
-      "timestamp_sec": 756,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "Meta Quest sales declined, contributing to a $412 million drop (6% YoY).",
-      "evidence": "was 412 million dollars, down 6 percent year over year due to lower meta quest sales,",
-      "timestamp_sec": 998,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "Growth in the government and politics vertical fell sharply after the US elections, remaining a very small overall segment.",
-      "evidence": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall.",
-      "timestamp_sec": 3516,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "Gaming revenue declined YoY in Q1, impacted by reduced spend from China-based advertisers.",
-      "evidence": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024.",
-      "timestamp_sec": 3498,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "General and administrative expenses fell 34 percent, driven by lower legal costs.",
-      "evidence": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over",
-      "timestamp_sec": 777,
-      "sentiment": "negative"
-    }
-  ],
-  "risks": [],
-  "management_outlook": [],
-  "citation_verification": {
-    "total_citations": 8,
-    "verified": 8,
-    "accuracy": 1.0
-  },
   "audio_features_summary": {
-    "mean_pitch_hz": 159.18,
     "mean_energy": 0.04,
+    "mean_pitch_hz": 159.18,
     "mean_speaking_rate_wps": 2.7,
     "segments_analyzed": 467
   },
+  "call_date": "2025-04-30",
+  "citation_verification": {
+    "accuracy": 1.0,
+    "total_citations": 8,
+    "verified": 8
+  },
+  "company": "Meta",
+  "evidence_policy": "complete_passages_v1",
+  "key_claims": [
+    {
+      "claim": "Ad revenue growth was strongest in Rest of World (19%) and North America (18%) on a user geography basis, with Europe growing 14% and Asia Pacific 12%.",
+      "evidence": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at 19 percent and 18 percent respectively. Europe and Asia Pacific grew 14 percent and 12 percent.",
+      "sentiment": "positive",
+      "timestamp_sec": 898
+    },
+    {
+      "claim": "Meta reported Q1 total revenue of $42.3 billion, up 16% year over year, or 19% on a constant-currency basis.",
+      "evidence": "All comparisons are on a year-over-year basis unless otherwise noted. Q1 total revenue was 42.3 billion dollars, up 16 percent or 19 percent on a constant currency basis. Q1 total expenses were 24.8 billion dollars, up 9 percent, compared to last year. In terms of the specific line items, cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and payments to partners, partially offset by a benefit from the previously announced extension of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in professional services related to our ongoing platform integrity efforts.",
+      "sentiment": "positive",
+      "timestamp_sec": 719
+    },
+    {
+      "claim": "A speaker said Meta had increased planned investment for 2025 while accelerating work to bring capacity online sooner.",
+      "evidence": "So to that end, we are accelerating some of our efforts to bring capacity online more quickly this year, as well as some longer-term projects that will give us the flexibility to add capacity in the coming years as well. And that has increased our planned investment for this year.",
+      "sentiment": "positive",
+      "timestamp_sec": 667
+    },
+    {
+      "claim": "Meta said AI recommendation improvements delivered time-spent gains of 7% on Facebook and 6% on Instagram over six months.",
+      "evidence": "Since then, we've been able to deliver similar gains in just six months time with improvements to our AI recommendations delivering 7% and 6% time spent gains on Facebook and Instagram respectively.",
+      "sentiment": "positive",
+      "timestamp_sec": 1688
+    },
+    {
+      "claim": "Year-over-year growth in the government and politics vertical dropped sharply after the US elections, though the vertical remains very small overall.",
+      "evidence": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall.",
+      "sentiment": "negative",
+      "timestamp_sec": 3516
+    },
+    {
+      "claim": "Year-over-year growth in gaming was negative in Q1 as it lapped a period of strong spend from China-based advertisers in Q1 2024.",
+      "evidence": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024.",
+      "sentiment": "negative",
+      "timestamp_sec": 3498
+    },
+    {
+      "claim": "Meta reported Q1 operating income of $17.6 billion and a 41% operating margin.",
+      "evidence": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over 76,800 employees, up 4 percent quarter over quarter. First quarter operating income was 17.6 billion dollars, representing a 41 percent operating margin. Our tax rate for the quarter was 9 percent, as we recognized excess tax benefits from share-based compensation due to the increase in our share price versus prior periods. Netting. All expenditures, including principal payments on finance leases, were 13.7 billion dollars, driven by investments in servers, data centers, and network infrastructure.",
+      "sentiment": "positive",
+      "timestamp_sec": 777
+    },
+    {
+      "claim": "Reality Labs expenses were $4.6 billion, up 8% year over year, and its operating loss was $4.2 billion.",
+      "evidence": "Reality Labs expenses were 4.6 billion dollars, up 8 percent year over year driven primarily by higher employee compensation. Reality Labs operating loss was 4.2 billion dollars.",
+      "sentiment": "negative",
+      "timestamp_sec": 1010
+    }
+  ],
+  "management_outlook": [],
+  "overall_summary": "Meta reported Q1 revenue of $42.3 billion, up 16% year over year, and operating income of $17.6 billion at a 41% margin. Reality Labs reported a $4.2 billion operating loss; Meta also described increased planned investment to bring capacity online sooner. For business context, the earlier Q4 call reported Rest of World ad-revenue growth of 27% versus Q1\u2019s 19%, and a Reality Labs operating loss of $5.0 billion versus Q1\u2019s $4.2 billion. These company-level comparisons do not establish a change in any executive\u2019s communication. FinBERT classified 26.1% of scored transcript segments as positive, 3.2% as negative and 70.7% as neutral.",
+  "pipeline_version": "1.0",
   "prior_quarter_context_used": [
     {
       "quarter": "Q4 2024",
-      "start_sec": 1566.52,
-      "text": "towards our core business. On to tax abs and any changes to our tax landscape, we expect our full year 2025 tax rate to be in the range of 12 to 15 percent. In addition, we continue to monitor an active regulatory landscape including legal and regulatory headwinds in the EU and the US that could significantly impact our business and our financial results. In closing, this was a good year for our company with investments across our priority areas delivering strong business performance and innovative new products for our community. We have a compelling set of opportunities to invest in this year, which we expect will help us drive continued strong growth and develop transformative technologies that shape the future of our company and of the industry. With that, Krista, let's open up the call for questions. Thank you. We will now open the lines for a question and answer session. To ask a question, please press star 1 on your touchstone phone. To withdraw your question, again, press star 1. Please limit yourself to one question. Please pick up your hands up before asking your question to ensure clarity. If you are streaming today's call, please mute your computer speakers. And our first question comes from the line of Brian Nowak with Morgan Stanley. Please go ahead. Thanks for taking my question. Marc, sound very, we appreciate all the excitement about about this year and all the innovation to come. I know there's a lot of announcements throughout"
+      "start_sec": 739.0,
+      "text": "On a user geography basis, ad revenue growth was strongest in rest of world at 27%, followed by Asia Pacific in Europe at 23% and 22% respectively. North America grew 18%."
     },
     {
-      "quarter": "Q3 2025",
-      "start_sec": 1891.8600000000001,
-      "text": "that I alluded to. The biggest factor is we're lapping the introduction of Quest 3S and Q4 of last year and we don't have a new headset in the market this year. We also recorded all of our holiday-related Quest 3S sales in Q4 24 since the headset was launched in October 24. This year we're recognizing some of the requests in advance of the holiday season. We're still expecting significant year-over-year growth in A.I. Glasses revenue in Q4 as we benefit from strong demand for the recent products that we've introduced. But that is more than offset by the headwinds to the Quest headsets. Your next question comes from the line of Doug and move with JP Morgan. Please go ahead. Thanks for taking the time. I appreciate the strategy to front-load capacity for super intelligence. You can talk about your thought process in triangulating the CapEx dollar growth and the significantly faster expense growth next year with core growth in the business and then the impact on earnings and pre-cash flow. Do you have targets that we should be thinking about for cash on hand or net cash overall? Thanks, Doug. We're right now, I would say, in the process of relatively early, actually still in the process of putting together our budget for 2026. And it is on the capacity side a particularly dynamic process. We're certainly seeing that we wish we had more capacity today than we do. We would be able to put it towards"
+      "quarter": "Q4 2024",
+      "start_sec": 596.4399999999999,
+      "text": "In terms of the specific line items, cost of revenue increased 15% driven mostly by higher infrastructure costs. R&D increased 16% primarily driven by higher employee compensation and infrastructure costs, which were partially offset by lower restructuring costs."
     },
     {
-      "quarter": "Q2 2025",
-      "start_sec": 3060.0,
-      "text": "is kind of always the way that we work, whether we're building some new social product or this, something like MedAI or a new product around this, we're going to work on getting to leading scale, building the highest quality product, focus on that for a few years. And then once we're really confident in that position, then we'll focus on ramping up the business around it. So it's, I mean, going back to the last question a little bit, it's sort of when you compare this business to some of the cloud businesses, it's like we do have this delay, where we focus on building research and then doing research and ramping consumer products. And it often does take some period of time before we really are ramping up the business around it. I think that that's kind of a known property of our business and the cycle around it. But I guess on the flip side, we believe that if you are building super intelligence, you should use all of your GPUs to make it so that you're serving your customers really well with that. And we think that there's going to be a much higher return that we can do by generating that directly rather than just kind of renting or leasing out the infrastructure at other companies. On the second part of your question, you know, we've said in the past that our primary focus from a profitability perspective is driving consolidated operating profit growth over time. And it won't be linear. In some years, we'll"
+      "quarter": "Q4 2024",
+      "start_sec": 837.16,
+      "text": "Reality Labs expenses were $6 billion, up 6% year over year, driven primarily by higher infrastructure costs and employee compensation, partially offset by lower restructuring costs. Reality Labs operating loss was $5 billion."
     }
   ],
-  "pipeline_version": "1.0",
+  "publication": {
+    "call_date_verification": "registry_consistent_external_verification_pending",
+    "previous_report_version": "legacy-fd73c67e9455",
+    "review_status": "ai_assisted_review_human_review_pending",
+    "scope": "current_call_with_earlier_context"
+  },
+  "quarter": "Q1 2025",
+  "regeneration": {
+    "audio_features": "reused_from_previous_report_not_recomputed",
+    "claim_support_review": "ai_assisted_review_human_review_pending",
+    "generated_at": "2026-10-16T06:12:07.731380+00:00",
+    "historical_context": "retrieved",
+    "input": "saved_transcript_and_sentiment",
+    "provenance": {
+      "dataset_scope": [
+        {
+          "quarter": "Q1_2025",
+          "ticker": "META"
+        }
+      ],
+      "generation": {
+        "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+        "input_segments_sha256": "cc8d615ab27a716b50360b8fd7f8ddab4b9b3b93c5e05a34095ba8d132301275",
+        "max_tokens": 4000,
+        "model": "openai/gpt-oss-120b",
+        "prompt_sha256": "04c35574372f5ac4ba68e32173211d21dfc5b194a77c2cf9878f1534bc46f0bf",
+        "response_id": "chatcmpl-e75222b1-b120-4313-aa9b-3e195d55542a",
+        "selection": {
+          "policy": "complete_passages_v1",
+          "top_k_per_seed_label": 4
+        }
+      },
+      "input_sha256": {
+        "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+        "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+        "config/pipeline.yaml": "6a49b07006d37d5a843f38f738474428820fbc5ae960b1253d00231c333e897a",
+        "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+        "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+        "data/processed/pipeline_runs/META/Q1_2025.json": "3359843333d68d33d81516a294212551c86dd4722bd5cf1ac4103b5fbe62f58c",
+        "data/processed/sentiment/segment/META/Q1_2025.json": "dbb079ffb79a72ead0bd0bf7cf02640fe59ab1d791b111cda58a7e0e286484f1",
+        "data/processed/transcripts/META/Q1_2025.json": "f0461d42a908ae037ab0af4937f7309dd2648abad2a5d40b37ba5834c0b82d9d",
+        "data/processed/transcripts/META/Q4_2024.json": "0ab47b2f41fecdb196af4659423e1f95e3a01de5480b379cdeca5ef6f5955bf9",
+        "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+        "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+        "src/report/generate_structured_report.py": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+        "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f"
+      },
+      "retrieval": {
+        "queries_sha256": "a7a730a320a31e0972825a44bd32074a080066a33653b5f7a3e91a1a2a41278c",
+        "query_count": 4,
+        "query_policy": "selected_current_call_passages_v1"
+      }
+    }
+  },
+  "report_version": "complete-passages-40e17cd2837e",
+  "risks": [],
+  "schema_version": "1.0",
+  "sentiment_distribution": {
+    "negative": 3.2,
+    "neutral": 70.7,
+    "positive": 26.1
+  },
   "stage_durations_sec": {
-    "transcription_sec": 0.0,
-    "sentiment_sec": 0.0,
-    "prosody_sec": 0.0,
-    "rag_sec": 6.3,
-    "generation_sec": 0.0,
-    "citation_check_sec": 0.0
-  }
+    "regeneration_sec": 22.82
+  },
+  "ticker": "META"
 }

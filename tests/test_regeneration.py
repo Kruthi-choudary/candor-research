@@ -67,18 +67,49 @@ class RegenerationTests(unittest.TestCase):
         self.assert_originals_unchanged()
 
     def test_history_is_freshly_retrieved_instead_of_copied_from_saved_report(self):
-        context = [{"quarter": "Q4 2024", "start_sec": 5, "text": "Earlier evidence."}]
+        root = Path(__file__).resolve().parents[1]
+        first = json.loads((root / "data/processed/transcripts/AAPL/Q4_2024.json").read_text())["segments"][0]
+        context = [{"quarter": "Q4 2024", "start_sec": first["start"], "text": first["text"]}]
         self.retrieve.return_value = context
         client = object()
         candidate = self.regenerate.regenerate_candidate("AAPL", "Q1-2025", client)
-        self.retrieve.assert_called_once_with("AAPL", "Q1_2025")
+        self.retrieve.assert_called_once_with("AAPL", "Q1_2025", strict=True,
+                                              queries=[self.segments[0]["text"]])
         self.generate.assert_called_once_with("AAPL", "Q1_2025", client, prior_context=context)
         self.assertEqual(candidate["review"]["new_context_quarters"], ["Q4 2024"])
+        self.assert_originals_unchanged()
+
+    def test_future_or_wrong_source_context_fails_before_generation(self):
+        for context in [
+            {"quarter": "Q3 2025", "start_sec": 0, "text": "Later-quarter evidence."},
+            {"quarter": "Q4 2024", "start_sec": 0, "text": "Not the earlier transcript's opening."},
+        ]:
+            with self.subTest(context=context):
+                self.retrieve.return_value = [context]
+                with self.assertRaisesRegex(self.regenerate.PipelineError, "source/date validation"):
+                    self.regenerate.regenerate_candidate("AAPL", "Q1_2025", object())
+        self.generate.assert_not_called()
         self.assert_originals_unchanged()
 
     def test_generation_failure_keeps_existing_files(self):
         self.generate.side_effect = self.regenerate.PipelineError("Provider unreachable")
         with self.assertRaisesRegex(self.regenerate.PipelineError, "unreachable"):
+            self.regenerate.regenerate_candidate("AAPL", "Q1_2025", object(), include_history=False)
+        self.assert_originals_unchanged()
+
+    def test_input_changes_during_generation_prevent_staging(self):
+        def change_source(*args, **kwargs):
+            self.call.sentiment_path.write_bytes(self.call.sentiment_path.read_bytes() + b"\n")
+            return self.claims
+
+        self.generate.side_effect = change_source
+        with self.assertRaisesRegex(self.regenerate.PipelineError, "inputs changed"):
+            self.regenerate.regenerate_candidate("AAPL", "Q1_2025", object(), include_history=False)
+        self.assertEqual(self.call.pipeline_output_path.read_bytes(), self.originals[self.call.pipeline_output_path])
+
+    def test_generator_snapshot_must_match_the_audited_segments(self):
+        self.claims["generation_provenance"] = {"input_segments_sha256": "wrong-snapshot"}
+        with self.assertRaisesRegex(self.regenerate.PipelineError, "different transcript snapshot"):
             self.regenerate.regenerate_candidate("AAPL", "Q1_2025", object(), include_history=False)
         self.assert_originals_unchanged()
 

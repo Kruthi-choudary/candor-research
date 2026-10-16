@@ -1,0 +1,316 @@
+{
+  "structured_claims": {
+    "claims": [
+      {
+        "claim": "Ad revenue growth was strongest in Rest of World (19%) and North America (18%) on a user geography basis, with Europe growing 14% and Asia Pacific 12%.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 898,
+          "source_text": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at 19 percent and 18 percent respectively. Europe and Asia Pacific grew 14 percent and 12 percent."
+        }
+      },
+      {
+        "claim": "Q1 total revenue was 42.3 billion dollars, up 16 percent (or 19 percent on a constant currency basis) year over year.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 719,
+          "source_text": "All comparisons are on a year-over-year basis unless otherwise noted. Q1 total revenue was 42.3 billion dollars, up 16 percent or 19 percent on a constant currency basis. Q1 total expenses were 24.8 billion dollars, up 9 percent, compared to last year. In terms of the specific line items, cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and payments to partners, partially offset by a benefit from the previously announced extension of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in professional services related to our ongoing platform integrity efforts."
+        }
+      },
+      {
+        "claim": "The company is accelerating efforts to bring capacity online more quickly this year and has increased planned investment for the year.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 667,
+          "source_text": "So to that end, we are accelerating some of our efforts to bring capacity online more quickly this year, as well as some longer-term projects that will give us the flexibility to add capacity in the coming years as well. And that has increased our planned investment for this year."
+        }
+      },
+      {
+        "claim": "Improvements to AI recommendations delivered 7% time spent gains on Facebook and 6% on Instagram within six months.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 1688,
+          "source_text": "Since then, we've been able to deliver similar gains in just six months time with improvements to our AI recommendations delivering 7% and 6% time spent gains on Facebook and Instagram respectively."
+        }
+      },
+      {
+        "claim": "Year-over-year growth in the government and politics vertical dropped sharply after the US elections, though the vertical remains very small overall.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 3516,
+          "source_text": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall."
+        }
+      },
+      {
+        "claim": "Year-over-year growth in gaming was negative in Q1 as it lapped a period of strong spend from China-based advertisers in Q1 2024.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 3498,
+          "source_text": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024."
+        }
+      },
+      {
+        "claim": "First quarter operating income was 17.6 billion dollars, representing a 41 percent operating margin.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 777,
+          "source_text": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over 76,800 employees, up 4 percent quarter over quarter. First quarter operating income was 17.6 billion dollars, representing a 41 percent operating margin. Our tax rate for the quarter was 9 percent, as we recognized excess tax benefits from share-based compensation due to the increase in our share price versus prior periods. Netting. All expenditures, including principal payments on finance leases, were 13.7 billion dollars, driven by investments in servers, data centers, and network infrastructure."
+        }
+      },
+      {
+        "claim": "Reality Labs expenses were 4.6 billion dollars, up 8 percent year over year, and the segment posted an operating loss of 4.2 billion dollars.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1010,
+          "source_text": "Reality Labs expenses were 4.6 billion dollars, up 8 percent year over year driven primarily by higher employee compensation. Reality Labs operating loss was 4.2 billion dollars."
+        }
+      }
+    ],
+    "overall_summary": "Meta reported solid Q1 performance with revenue of $42.3\u202fbillion up 16% YoY, strong ad revenue growth in Rest of World (19%) and North America (18%), and AI recommendation improvements delivering 6\u20117% time\u2011spent gains, while operating income reached $17.6\u202fbillion at a 41% margin. At the same time, the company noted weakness in gaming and government/politics verticals and a widening Reality Labs operating loss of $4.2\u202fbillion, even as it accelerated capacity investments. FinBERT sentiment was 26.1% positive, 3.2% negative and 70.7% neutral.",
+    "evidence_policy": "complete_passages_v1",
+    "generation_provenance": {
+      "model": "openai/gpt-oss-120b",
+      "max_tokens": 4000,
+      "response_id": "chatcmpl-e75222b1-b120-4313-aa9b-3e195d55542a",
+      "prompt_sha256": "04c35574372f5ac4ba68e32173211d21dfc5b194a77c2cf9878f1534bc46f0bf",
+      "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+      "input_segments_sha256": "cc8d615ab27a716b50360b8fd7f8ddab4b9b3b93c5e05a34095ba8d132301275",
+      "selection": {
+        "policy": "complete_passages_v1",
+        "top_k_per_seed_label": 4
+      }
+    }
+  },
+  "citation_evaluation": {
+    "ticker": "META",
+    "quarter": "Q1_2025",
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0,
+    "citations": [
+      {
+        "claim": "Ad revenue growth was strongest in Rest of World (19%) and North America (18%) on a user geography basis, with Europe growing 14% and Asia Pacific 12%.",
+        "source_text": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at 19 percent and 18 percent respectively. Europe and Asia Pacific grew 14 percent and 12 percent.",
+        "timestamp_sec": 898,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Q1 total revenue was 42.3 billion dollars, up 16 percent (or 19 percent on a constant currency basis) year over year.",
+        "source_text": "All comparisons are on a year-over-year basis unless otherwise noted. Q1 total revenue was 42.3 billion dollars, up 16 percent or 19 percent on a constant currency basis. Q1 total expenses were 24.8 billion dollars, up 9 percent, compared to last year. In terms of the specific line items, cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and payments to partners, partially offset by a benefit from the previously announced extension of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in professional services related to our ongoing platform integrity efforts.",
+        "timestamp_sec": 719,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "The company is accelerating efforts to bring capacity online more quickly this year and has increased planned investment for the year.",
+        "source_text": "So to that end, we are accelerating some of our efforts to bring capacity online more quickly this year, as well as some longer-term projects that will give us the flexibility to add capacity in the coming years as well. And that has increased our planned investment for this year.",
+        "timestamp_sec": 667,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Improvements to AI recommendations delivered 7% time spent gains on Facebook and 6% on Instagram within six months.",
+        "source_text": "Since then, we've been able to deliver similar gains in just six months time with improvements to our AI recommendations delivering 7% and 6% time spent gains on Facebook and Instagram respectively.",
+        "timestamp_sec": 1688,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Year-over-year growth in the government and politics vertical dropped sharply after the US elections, though the vertical remains very small overall.",
+        "source_text": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall.",
+        "timestamp_sec": 3516,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Year-over-year growth in gaming was negative in Q1 as it lapped a period of strong spend from China-based advertisers in Q1 2024.",
+        "source_text": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024.",
+        "timestamp_sec": 3498,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "First quarter operating income was 17.6 billion dollars, representing a 41 percent operating margin.",
+        "source_text": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over 76,800 employees, up 4 percent quarter over quarter. First quarter operating income was 17.6 billion dollars, representing a 41 percent operating margin. Our tax rate for the quarter was 9 percent, as we recognized excess tax benefits from share-based compensation due to the increase in our share price versus prior periods. Netting. All expenditures, including principal payments on finance leases, were 13.7 billion dollars, driven by investments in servers, data centers, and network infrastructure.",
+        "timestamp_sec": 777,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Reality Labs expenses were 4.6 billion dollars, up 8 percent year over year, and the segment posted an operating loss of 4.2 billion dollars.",
+        "source_text": "Reality Labs expenses were 4.6 billion dollars, up 8 percent year over year driven primarily by higher employee compensation. Reality Labs operating loss was 4.2 billion dollars.",
+        "timestamp_sec": 1010,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      }
+    ]
+  },
+  "report": {
+    "schema_version": "1.0",
+    "ticker": "META",
+    "company": "Meta",
+    "quarter": "Q1 2025",
+    "call_date": "2025-04-30",
+    "overall_summary": "Meta reported solid Q1 performance with revenue of $42.3\u202fbillion up 16% YoY, strong ad revenue growth in Rest of World (19%) and North America (18%), and AI recommendation improvements delivering 6\u20117% time\u2011spent gains, while operating income reached $17.6\u202fbillion at a 41% margin. At the same time, the company noted weakness in gaming and government/politics verticals and a widening Reality Labs operating loss of $4.2\u202fbillion, even as it accelerated capacity investments. FinBERT sentiment was 26.1% positive, 3.2% negative and 70.7% neutral.",
+    "evidence_policy": "complete_passages_v1",
+    "sentiment_distribution": {
+      "positive": 26.1,
+      "negative": 3.2,
+      "neutral": 70.7
+    },
+    "key_claims": [
+      {
+        "claim": "Ad revenue growth was strongest in Rest of World (19%) and North America (18%) on a user geography basis, with Europe growing 14% and Asia Pacific 12%.",
+        "evidence": "On a user geography basis, ad revenue growth was strongest in rest of world and North America at 19 percent and 18 percent respectively. Europe and Asia Pacific grew 14 percent and 12 percent.",
+        "timestamp_sec": 898,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Q1 total revenue was 42.3 billion dollars, up 16 percent (or 19 percent on a constant currency basis) year over year.",
+        "evidence": "All comparisons are on a year-over-year basis unless otherwise noted. Q1 total revenue was 42.3 billion dollars, up 16 percent or 19 percent on a constant currency basis. Q1 total expenses were 24.8 billion dollars, up 9 percent, compared to last year. In terms of the specific line items, cost of revenue increased 14 percent, driven primarily by higher infrastructure costs and payments to partners, partially offset by a benefit from the previously announced extension of server useful lives. R&D increased 22 percent, mostly due to higher employee compensation and infrastructure costs. Marketing and sales increased 8 percent, driven mainly by an increase in professional services related to our ongoing platform integrity efforts.",
+        "timestamp_sec": 719,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "The company is accelerating efforts to bring capacity online more quickly this year and has increased planned investment for the year.",
+        "evidence": "So to that end, we are accelerating some of our efforts to bring capacity online more quickly this year, as well as some longer-term projects that will give us the flexibility to add capacity in the coming years as well. And that has increased our planned investment for this year.",
+        "timestamp_sec": 667,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Improvements to AI recommendations delivered 7% time spent gains on Facebook and 6% on Instagram within six months.",
+        "evidence": "Since then, we've been able to deliver similar gains in just six months time with improvements to our AI recommendations delivering 7% and 6% time spent gains on Facebook and Instagram respectively.",
+        "timestamp_sec": 1688,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Year-over-year growth in the government and politics vertical dropped sharply after the US elections, though the vertical remains very small overall.",
+        "evidence": "And then year-over-year growth in the government and politics vertical dropped sharply as expected with the conclusion of US elections, but that continues to just be a very small vertical overall.",
+        "timestamp_sec": 3516,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Year-over-year growth in gaming was negative in Q1 as it lapped a period of strong spend from China-based advertisers in Q1 2024.",
+        "evidence": "We did see some weakness in gaming and politics, so year-over-year growth in gaming was negative in Q1 as we lapped a period of strong spend from China-based advertisers that were promoting a larger volume of game titles in Q1 of 2024.",
+        "timestamp_sec": 3498,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "First quarter operating income was 17.6 billion dollars, representing a 41 percent operating margin.",
+        "evidence": "G&A decreased 34 percent, driven primarily by lower legal related costs. We ended Q1 with over 76,800 employees, up 4 percent quarter over quarter. First quarter operating income was 17.6 billion dollars, representing a 41 percent operating margin. Our tax rate for the quarter was 9 percent, as we recognized excess tax benefits from share-based compensation due to the increase in our share price versus prior periods. Netting. All expenditures, including principal payments on finance leases, were 13.7 billion dollars, driven by investments in servers, data centers, and network infrastructure.",
+        "timestamp_sec": 777,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Reality Labs expenses were 4.6 billion dollars, up 8 percent year over year, and the segment posted an operating loss of 4.2 billion dollars.",
+        "evidence": "Reality Labs expenses were 4.6 billion dollars, up 8 percent year over year driven primarily by higher employee compensation. Reality Labs operating loss was 4.2 billion dollars.",
+        "timestamp_sec": 1010,
+        "sentiment": "negative"
+      }
+    ],
+    "risks": [],
+    "management_outlook": [],
+    "citation_verification": {
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0
+    },
+    "audio_features_summary": {
+      "mean_pitch_hz": 159.18,
+      "mean_energy": 0.04,
+      "mean_speaking_rate_wps": 2.7,
+      "segments_analyzed": 467
+    },
+    "prior_quarter_context_used": [
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 715.32,
+        "text": "Q4 total family of apps revenue was $47.3 billion, up 21% year over year. And Q4 family of apps ad revenue was $46.8 billion, up 21% on both a reported and constant currency basis. Within ad revenue, the online commerce vertical was the largest contributor to year over year growth. On a user geography basis, ad revenue growth was strongest in rest of world at 27%, followed by Asia Pacific in Europe at 23% and 22% respectively. North America grew 18%. In Q4, the total number of ad impressions served across our services increased 6% and the average price per ad increased 14%. Impression growth was mainly driven by Asia Pacific. Pricing growth benefited from increased advertiser demand in part driven by improved ad performance. This was partially offset by impression growth, particularly from lower monetizing regions and surfaces. Family of apps other revenue was $519 million, up 55%, driven primarily by business messaging revenue growth from our WhatsApp business platform. We continue to direct the majority of our investments toward the development and operation of our family of apps. In Q4, family of apps expenses were $19 billion representing 76% of our overall expenses. Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee compensation, which were partially offset by lower legal related expenses. Family of apps operating income was $28.3 billion representing a 60% operating margin. Within our reality lab segment, Q4 revenue was $1.1 billion, driven by hardware sales and up 1% year over year."
+      },
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 582.76,
+        "text": "lines, I would note that our fourth quarter expense growth rate reflects a 13 percentage point favorable impact from legal accrual reductions in Q4 and lower year over year restructuring costs. In terms of the specific line items, cost of revenue increased 15% driven mostly by higher infrastructure costs. R&D increased 16% primarily driven by higher employee compensation and infrastructure costs, which were partially offset by lower restructuring costs. Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly by lower legal related expenses due to a $1.55 billion reduction in legal accruals related to certain legal proceedings. We ended the year with over 74,000 employees, up 10% year over year, with growth primarily driven by hiring and priority areas of monetization, infrastructure, generative AI, reality labs, as well as regulation and compliance. Fourth quarter operating income was $23.4 billion representing a 48% operating margin. Our tax rate for the quarter was 12%. Net income was $20.8 billion or $8.02 per share. Capital expenditures including principal payments on finance leases were $14.8 billion driven by investments in servers, data centers and network infrastructure. Free cash flow was $13.2 billion. We paid $1.3 billion in dividends to shareholders, ending the year with $77.8 billion in cash and marketable securities and $28.8 billion in debt. Moving now to our segment results. I'll begin with our family of apps segment. Our community across the family of apps continues to grow and we estimate more than 3.3 billion people used at least one of our family of apps on a daily basis in December."
+      },
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 837.16,
+        "text": "Reality Labs expenses were $6 billion, up 6% year over year, driven primarily by higher infrastructure costs and employee compensation, partially offset by lower restructuring costs. Reality Labs operating loss was $5 billion. Turning now to the business outlook, there are two primary factors that drive our revenue performance, our ability to deliver engaging experiences for our community and our effectiveness at monetizing that engagement over time. On the first, daily actives continue to grow across Facebook, Instagram, and WhatsApp year over year, both globally and in the United States. In Q4, global video time grew at double digit percentages year over year on Instagram, and we're seeing particular strength in the US on Facebook, where video time spent was also up double digit rates year over year. We see continued opportunities to drive video growth in 2025 through ongoing optimizations to our ranking systems. We're also making several product bets that are focused on setting up our platforms for longer term success. Creators are one of our central focuses. On Instagram, we continue to prioritize original posts and recommendations to help smaller creators get discovered. We also want to ensure creators have a place to experiment with their content, so we introduced a new feature in Q4 that allows creators to first share a reel with people who don't follow them. This allows them to test content and see what performs best before deciding to share it with their followers, and also helps introduce them to entirely new audiences. Creative"
+      }
+    ],
+    "pipeline_version": "1.0",
+    "stage_durations_sec": {
+      "regeneration_sec": 22.82
+    },
+    "regeneration": {
+      "generated_at": "2026-10-16T06:12:07.731380+00:00",
+      "input": "saved_transcript_and_sentiment",
+      "audio_features": "reused_from_previous_report_not_recomputed",
+      "historical_context": "retrieved",
+      "claim_support_review": "pending",
+      "provenance": {
+        "dataset_scope": [
+          {
+            "ticker": "META",
+            "quarter": "Q1_2025"
+          }
+        ],
+        "generation": {
+          "model": "openai/gpt-oss-120b",
+          "max_tokens": 4000,
+          "response_id": "chatcmpl-e75222b1-b120-4313-aa9b-3e195d55542a",
+          "prompt_sha256": "04c35574372f5ac4ba68e32173211d21dfc5b194a77c2cf9878f1534bc46f0bf",
+          "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+          "input_segments_sha256": "cc8d615ab27a716b50360b8fd7f8ddab4b9b3b93c5e05a34095ba8d132301275",
+          "selection": {
+            "policy": "complete_passages_v1",
+            "top_k_per_seed_label": 4
+          }
+        },
+        "retrieval": {
+          "query_policy": "selected_current_call_passages_v1",
+          "queries_sha256": "a7a730a320a31e0972825a44bd32074a080066a33653b5f7a3e91a1a2a41278c",
+          "query_count": 4
+        },
+        "input_sha256": {
+          "data/processed/transcripts/META/Q1_2025.json": "f0461d42a908ae037ab0af4937f7309dd2648abad2a5d40b37ba5834c0b82d9d",
+          "data/processed/sentiment/segment/META/Q1_2025.json": "dbb079ffb79a72ead0bd0bf7cf02640fe59ab1d791b111cda58a7e0e286484f1",
+          "data/processed/pipeline_runs/META/Q1_2025.json": "3359843333d68d33d81516a294212551c86dd4722bd5cf1ac4103b5fbe62f58c",
+          "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+          "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+          "config/pipeline.yaml": "6a49b07006d37d5a843f38f738474428820fbc5ae960b1253d00231c333e897a",
+          "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+          "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f",
+          "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+          "src/report/generate_structured_report.py": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+          "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+          "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+          "data/processed/transcripts/META/Q4_2024.json": "0ab47b2f41fecdb196af4659423e1f95e3a01de5480b379cdeca5ef6f5955bf9"
+        }
+      }
+    }
+  },
+  "review": {
+    "status": "pending",
+    "previous_context_quarters": [
+      "Q4 2024",
+      "Q3 2025",
+      "Q2 2025"
+    ],
+    "new_context_quarters": [
+      "Q4 2024",
+      "Q4 2024",
+      "Q4 2024"
+    ],
+    "note": "Exact citation matches do not establish that the generated claims are supported. Review claims and qualifications before publishing."
+  }
+}

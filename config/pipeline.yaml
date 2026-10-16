@@ -7,7 +7,7 @@ generation:
   llm_model: openai/gpt-oss-120b
   top_k_quotes: 4
   max_tokens: 1500             # baseline free-text report
-  max_tokens_structured: 4000  # structured citation-grounded report (the official pipeline output)
+  max_tokens_structured: 8000  # allow complete verbatim citations and the required summary
 
 retrieval:
   top_k: 3            # prior-quarter chunks surfaced as cross-quarter context

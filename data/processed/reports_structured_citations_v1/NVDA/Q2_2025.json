@@ -1,69 +1,60 @@
 {
   "claims": [
     {
-      "claim": "Operating cash flow from operations was 14.5, while expenses were up 12% primarily reflecting higher compensation-related costs.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1129,
-        "source_text": "were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was 14.5"
-      }
+        "source_text": "Moving to gaming and AI PCs, gaming revenue of 2.88 billion increased 9% sequentially and 16% year-on-year. We saw sequential growth in console, notebook, and desktop revenue and demand is strong and growing and channel inventory remains healthy. Every PC with RTX is an AI PC. RTX PCs can deliver up to 1,300 AI tops and are now over 200 RTX AI laptops designed from leading PC manufacturers.",
+        "timestamp_sec": 857
+      },
+      "claim": "Nvidia reported Q2 fiscal 2025 Gaming revenue of $2.88 billion, up 9% sequentially and 16% year over year.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Gaming revenue of 2.88 billion increased 9% sequentially and 16% as the company moved to gaming and AI PCs.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 857,
-        "source_text": "Moving to gaming and AI PCs, gaming revenue of 2.88 billion increased 9% sequentially and 16%"
-      }
+        "source_text": "Moving to automotive and robotics, revenue was 346 million up 5% sequentially and up 37% year-on-year.",
+        "timestamp_sec": 1049
+      },
+      "claim": "Nvidia reported Q2 fiscal 2025 Automotive revenue of $346 million, up 5% sequentially and 37% year over year.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Availability has improved and demand for Blackwell platforms is well above supply, reinforcing strong market positioning.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 475,
-        "source_text": "and availability have improved. Demand for Blackwell platforms is well above supply and we expect this"
-      }
+        "source_text": "Thanks, Stewart. Q2 was another record quarter. Revenue of 30 billion was up 15 percent sequentially and up 122 percent year on year and well above our outlook of 28 billion. Starting with data center, data center revenue of 26.3 billion was a record up 16 percent sequentially and up 154 percent year on year, driven by strong demand for NVIDIA Hopper, GPU computing, and our networking platforms.",
+        "timestamp_sec": 165
+      },
+      "claim": "Nvidia reported Q2 fiscal 2025 revenue of $30 billion, up 15% sequentially and 122% year over year, above its $28 billion outlook; Data Center revenue was $26.3 billion, up 16% sequentially and 154% year over year.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Revenue from automotive and robotics was 346 million, up 5% sequentially and 37% year\u2011on\u2011year.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1049,
-        "source_text": "Moving to automotive and robotics, revenue was 346 million up 5% sequentially and up 37% year-on-year."
-      }
+        "source_text": "Down sequentially due to a higher mix of new products within data center and inventory provisions for low yielding Blackwell material. Sequentially, gap and non-gap operating expenses were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was 14.5 billion. In Q2, we utilized cash of 7.4 billion towards shareholder returns in the form of share repurchases and cash dividends, reflecting the increase in dividend per shower.",
+        "timestamp_sec": 1116
+      },
+      "claim": "GAAP and non-GAAP operating expenses each rose 12% sequentially, primarily reflecting higher compensation-related costs.",
+      "sentiment": "negative"
     },
     {
-      "claim": "Revenue was down sequentially due to a higher mix of new products within data center and inventory.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 1116,
-        "source_text": "Down sequentially due to a higher mix of new products within data center and inventory"
-      }
-    },
-    {
-      "claim": "As a percentage of total data center revenue, it remains below the level seen prior to the.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 343,
-        "source_text": "As a percentage of total data center revenue, it remains below level seen prior to the"
-      }
-    },
-    {
-      "claim": "Customers hate that we do integration, and the supply chain also hates us doing it.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 3555,
-        "source_text": "doing the integration. Our customers hate that we do integration. The supply chain hates us doing"
-      }
-    },
-    {
-      "claim": "If we don't have a new approach, computing inflation would be driving up the cost for everyone.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 1482,
-        "source_text": "if we don't have a new approach, computing inflation would be driving up the cost for every"
-      }
+        "source_text": "As a percentage of total data center revenue, it remains below level seen prior to the imposition of export controls. We continue to expect the China market to be very competitive going forward. The latest round of ML Perf inference benchmarks highlighted in NVIDIA's inference leadership with both NVIDIA Hopper and Blackwell platforms combining to win gold medals on all tasks. At Computex NVIDIA with the top computer manufacturers unveiled an array of Blackwell architecture powered systems and NVIDIA networking for building AI factories and data centers. With the NVIDIA MDX modular reference architecture, our OEMs and ODM partners are building more than 100 Blackwell based systems designed quickly and cost effectively.",
+        "timestamp_sec": 343
+      },
+      "claim": "Nvidia said its Hopper and Blackwell platforms won gold medals on all tasks in the latest MLPerf Inference benchmark suite.",
+      "sentiment": "positive"
     }
   ],
-  "overall_summary": "The call highlighted strong growth in gaming, AI PCs, automotive, robotics and solid operating cash flow, while noting challenges such as a sequential revenue dip in data center, integration friction with customers and supply chain, and looming computing inflation. FinBERT sentiment shows 18.1% positive, 1.7% negative and 80.1% neutral, indicating an overall neutral tone despite mixed performance signals."
+  "evidence_policy": "complete_passages_v1",
+  "generation_provenance": {
+    "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+    "input_segments_sha256": "99fa9e510f4d4c94631aa762db66ea9dc86649cf14ae9974f8dc004cb3c502dc",
+    "max_tokens": 8000,
+    "model": "openai/gpt-oss-120b",
+    "prompt_sha256": "8f16f56107744f7d35cd9ea7e86fdf7af4be656a5bbdf948012fa9b7a804bb94",
+    "response_id": "chatcmpl-db8c5a64-04ae-463e-89a9-bd5426625cae",
+    "selection": {
+      "citation_binding": "source_id_to_exact_selected_passage_v1",
+      "policy": "complete_passages_v1",
+      "top_k_per_seed_label": 4
+    }
+  },
+  "overall_summary": "Nvidia reported Q2 fiscal 2025 revenue of $30 billion, up 15% sequentially and 122% year over year, above its $28 billion outlook. Data Center revenue reached $26.3 billion, while Gaming and Automotive revenue were $2.88 billion and $346 million, respectively. GAAP and non-GAAP operating expenses each rose 12% sequentially, primarily reflecting higher compensation-related costs. Earlier-call excerpts show prior Gaming and Automotive figures as business context; they do not establish an executive communication change. FinBERT classified 18.1% of scored transcript segments as positive, 1.7% as negative and 80.1% as neutral. These text labels do not measure vocal confidence.",
+  "report_version": "complete-passages-e6b57e536067"
 }

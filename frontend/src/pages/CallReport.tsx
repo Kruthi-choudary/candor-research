@@ -107,9 +107,11 @@ export function CallReport() {
           <p>
             AI-assisted review against the saved transcript; independent human
             review is pending. Citation matching does not verify a claim’s meaning.
-            Call dates follow the recorded registry and await external verification.
+            Scheduled call dates have linked company announcements; the recordings
+            have not been independently matched to those announcements. No
+            executive-specific historical communication baseline has been evaluated.
             {report.prior_quarter_context_used.length === 0 &&
-              " This report uses current-call evidence only; it does not assess historical communication changes."}
+              " This report uses current-call evidence only."}
           </p>
         </div>
       )}
@@ -291,9 +293,9 @@ export function CallReport() {
                 <div className="section-space">
                   <h3>Retrieved context</h3>
                   <p className="caption muted mb-4">
-                    Context saved with this report. Older reports can include
-                    later-quarter passages and have not yet been regenerated
-                    with the historical-retrieval fix.
+                    {report.report_version
+                      ? "Earlier company passages provide business context; they do not establish an executive communication baseline."
+                      : "Context saved with this report. Older reports can include later-quarter passages and have not yet been regenerated with the historical-retrieval fix."}
                   </p>
                   {report.prior_quarter_context_used.map((c, i) => (
                     <details key={i} className="border-t border-rule py-3">

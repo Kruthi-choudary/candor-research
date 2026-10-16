@@ -1,0 +1,415 @@
+{
+  "structured_claims": {
+    "claims": [
+      {
+        "claim": "Meta said Q4 ad revenue grew 27% in Rest of World, 23% in Asia Pacific, 22% in Europe and 18% in North America on a user-geography basis.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 739,
+          "source_text": "On a user geography basis, ad revenue growth was strongest in rest of world at 27%, followed by Asia Pacific in Europe at 23% and 22% respectively. North America grew 18%."
+        }
+      },
+      {
+        "claim": "Cost of revenue increased 15% driven mostly by higher infrastructure costs, and R&D increased 16% primarily due to higher employee compensation and infrastructure costs, partially offset by lower restructuring costs.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 596,
+          "source_text": "In terms of the specific line items, cost of revenue increased 15% driven mostly by higher infrastructure costs. R&D increased 16% primarily driven by higher employee compensation and infrastructure costs, which were partially offset by lower restructuring costs."
+        }
+      },
+      {
+        "claim": "In Q4, total ad impressions rose 6% and the average price per ad rose 14%, with impression growth mainly driven by Asia Pacific and pricing growth helped by increased advertiser demand and improved ad performance.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 754,
+          "source_text": "In Q4, the total number of ad impressions served across our services increased 6% and the average price per ad increased 14%. Impression growth was mainly driven by Asia Pacific. Pricing growth benefited from increased advertiser demand in part driven by improved ad performance."
+        }
+      },
+      {
+        "claim": "Family of Apps operating income was $28.3 billion at a 60% operating margin, while Reality Labs Q4 revenue was $1.1 billion, up 1% year over year.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 807,
+          "source_text": "Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee compensation, which were partially offset by lower legal related expenses. Family of apps operating income was $28.3 billion representing a 60% operating margin. Within our reality lab segment, Q4 revenue was $1.1 billion, driven by hardware sales and up 1% year over year."
+        }
+      },
+      {
+        "claim": "General and administrative expenses fell 67%, mainly due to lower legal expenses including a $1.55 billion reduction in legal accruals; Meta ended the year with more than 74,000 employees, up 10% year over year.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 615,
+          "source_text": "Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly by lower legal related expenses due to a $1.55 billion reduction in legal accruals related to certain legal proceedings. We ended the year with over 74,000 employees, up 10% year over year, with growth primarily driven by hiring and priority areas of monetization, infrastructure, generative AI, reality labs, as well as regulation and compliance."
+        }
+      },
+      {
+        "claim": "Reality Labs reported an operating loss of $5 billion.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 850,
+          "source_text": "Reality Labs operating loss was $5 billion. Turning now to the business outlook, there are two primary factors that drive our revenue performance, our ability to deliver engaging experiences for our community and our effectiveness at monetizing that engagement over time."
+        }
+      },
+      {
+        "claim": "A speaker said they believed a Community Notes-style system would be more effective than Meta’s previous approach and expected the product to improve.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 2419,
+          "source_text": "And I'm not afraid to admit when someone does something that's better than us. I think it's sort of our job to go and just do the best work and implement the best system. So I think that there's been a lot of people who have read this announcement as if we somehow don't care about adding context to things that are on our platform that are misinformation that's not right. I actually think that the community notes system, like what X has had for a while, is actually just more effective than what we were doing before. And I think our product is going to get better because of it."
+        }
+      }
+    ],
+    "overall_summary": "Meta said Q4 ad impressions rose 6% and average price per ad rose 14%. Family of Apps operating income was $28.3 billion at a 60% margin, while Reality Labs reported a $5 billion operating loss. Cost of revenue rose 15% and research and development expense rose 16% year over year. A speaker expressed the view that a Community Notes-style system would improve the product; that is a stated expectation, not a measured result. FinBERT classified 22.7% of scored transcript segments as positive, 1.2% as negative and 76.1% as neutral. This is the earliest Meta call in the included dataset, so no historical communication comparison is available.",
+    "evidence_policy": "complete_passages_v1",
+    "generation_provenance": {
+      "model": "openai/gpt-oss-120b",
+      "max_tokens": 4000,
+      "response_id": "chatcmpl-172fa536-dc95-4bc7-87e6-ed3f8c4b87ec",
+      "prompt_sha256": "f12caebb8f069e0cc39fa911f37c25a4f7c7ca02e31eeeab4c444bfb97dcbcce",
+      "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+      "input_segments_sha256": "b8a71f43271f5db99bf1e796f3f9538bd1e80b29a08e441c1ea336fbec6934ea",
+      "selection": {
+        "policy": "complete_passages_v1",
+        "top_k_per_seed_label": 4
+      }
+    }
+  },
+  "citation_evaluation": {
+    "ticker": "META",
+    "quarter": "Q4_2024",
+    "total_citations": 7,
+    "verified": 7,
+    "accuracy": 1.0,
+    "citations": [
+      {
+        "claim": "Meta said Q4 ad revenue grew 27% in Rest of World, 23% in Asia Pacific, 22% in Europe and 18% in North America on a user-geography basis.",
+        "source_text": "On a user geography basis, ad revenue growth was strongest in rest of world at 27%, followed by Asia Pacific in Europe at 23% and 22% respectively. North America grew 18%.",
+        "timestamp_sec": 739,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Cost of revenue increased 15% driven mostly by higher infrastructure costs, and R&D increased 16% primarily due to higher employee compensation and infrastructure costs, partially offset by lower restructuring costs.",
+        "source_text": "In terms of the specific line items, cost of revenue increased 15% driven mostly by higher infrastructure costs. R&D increased 16% primarily driven by higher employee compensation and infrastructure costs, which were partially offset by lower restructuring costs.",
+        "timestamp_sec": 596,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "In Q4, total ad impressions rose 6% and the average price per ad rose 14%, with impression growth mainly driven by Asia Pacific and pricing growth helped by increased advertiser demand and improved ad performance.",
+        "source_text": "In Q4, the total number of ad impressions served across our services increased 6% and the average price per ad increased 14%. Impression growth was mainly driven by Asia Pacific. Pricing growth benefited from increased advertiser demand in part driven by improved ad performance.",
+        "timestamp_sec": 754,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Family of Apps operating income was $28.3 billion at a 60% operating margin, while Reality Labs Q4 revenue was $1.1 billion, up 1% year over year.",
+        "source_text": "Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee compensation, which were partially offset by lower legal related expenses. Family of apps operating income was $28.3 billion representing a 60% operating margin. Within our reality lab segment, Q4 revenue was $1.1 billion, driven by hardware sales and up 1% year over year.",
+        "timestamp_sec": 807,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "General and administrative expenses fell 67%, mainly due to lower legal expenses including a $1.55 billion reduction in legal accruals; Meta ended the year with more than 74,000 employees, up 10% year over year.",
+        "source_text": "Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly by lower legal related expenses due to a $1.55 billion reduction in legal accruals related to certain legal proceedings. We ended the year with over 74,000 employees, up 10% year over year, with growth primarily driven by hiring and priority areas of monetization, infrastructure, generative AI, reality labs, as well as regulation and compliance.",
+        "timestamp_sec": 615,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Reality Labs reported an operating loss of $5 billion.",
+        "source_text": "Reality Labs operating loss was $5 billion. Turning now to the business outlook, there are two primary factors that drive our revenue performance, our ability to deliver engaging experiences for our community and our effectiveness at monetizing that engagement over time.",
+        "timestamp_sec": 850,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "A speaker said they believed a Community Notes-style system would be more effective than Meta’s previous approach and expected the product to improve.",
+        "source_text": "And I'm not afraid to admit when someone does something that's better than us. I think it's sort of our job to go and just do the best work and implement the best system. So I think that there's been a lot of people who have read this announcement as if we somehow don't care about adding context to things that are on our platform that are misinformation that's not right. I actually think that the community notes system, like what X has had for a while, is actually just more effective than what we were doing before. And I think our product is going to get better because of it.",
+        "timestamp_sec": 2419,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      }
+    ]
+  },
+  "report": {
+    "schema_version": "1.0",
+    "ticker": "META",
+    "company": "Meta",
+    "quarter": "Q4 2024",
+    "call_date": "2025-01-29",
+    "overall_summary": "Meta said Q4 ad impressions rose 6% and average price per ad rose 14%. Family of Apps operating income was $28.3 billion at a 60% margin, while Reality Labs reported a $5 billion operating loss. Cost of revenue rose 15% and research and development expense rose 16% year over year. A speaker expressed the view that a Community Notes-style system would improve the product; that is a stated expectation, not a measured result. FinBERT classified 22.7% of scored transcript segments as positive, 1.2% as negative and 76.1% as neutral. This is the earliest Meta call in the included dataset, so no historical communication comparison is available.",
+    "evidence_policy": "complete_passages_v1",
+    "sentiment_distribution": {
+      "positive": 22.7,
+      "negative": 1.2,
+      "neutral": 76.1
+    },
+    "key_claims": [
+      {
+        "claim": "Meta said Q4 ad revenue grew 27% in Rest of World, 23% in Asia Pacific, 22% in Europe and 18% in North America on a user-geography basis.",
+        "evidence": "On a user geography basis, ad revenue growth was strongest in rest of world at 27%, followed by Asia Pacific in Europe at 23% and 22% respectively. North America grew 18%.",
+        "timestamp_sec": 739,
+        "sentiment": "neutral"
+      },
+      {
+        "claim": "Cost of revenue increased 15% driven mostly by higher infrastructure costs, and R&D increased 16% primarily due to higher employee compensation and infrastructure costs, partially offset by lower restructuring costs.",
+        "evidence": "In terms of the specific line items, cost of revenue increased 15% driven mostly by higher infrastructure costs. R&D increased 16% primarily driven by higher employee compensation and infrastructure costs, which were partially offset by lower restructuring costs.",
+        "timestamp_sec": 596,
+        "sentiment": "neutral"
+      },
+      {
+        "claim": "In Q4, total ad impressions rose 6% and the average price per ad rose 14%, with impression growth mainly driven by Asia Pacific and pricing growth helped by increased advertiser demand and improved ad performance.",
+        "evidence": "In Q4, the total number of ad impressions served across our services increased 6% and the average price per ad increased 14%. Impression growth was mainly driven by Asia Pacific. Pricing growth benefited from increased advertiser demand in part driven by improved ad performance.",
+        "timestamp_sec": 754,
+        "sentiment": "neutral"
+      },
+      {
+        "claim": "Family of Apps operating income was $28.3 billion at a 60% operating margin, while Reality Labs Q4 revenue was $1.1 billion, up 1% year over year.",
+        "evidence": "Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee compensation, which were partially offset by lower legal related expenses. Family of apps operating income was $28.3 billion representing a 60% operating margin. Within our reality lab segment, Q4 revenue was $1.1 billion, driven by hardware sales and up 1% year over year.",
+        "timestamp_sec": 807,
+        "sentiment": "neutral"
+      },
+      {
+        "claim": "General and administrative expenses fell 67%, mainly due to lower legal expenses including a $1.55 billion reduction in legal accruals; Meta ended the year with more than 74,000 employees, up 10% year over year.",
+        "evidence": "Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly by lower legal related expenses due to a $1.55 billion reduction in legal accruals related to certain legal proceedings. We ended the year with over 74,000 employees, up 10% year over year, with growth primarily driven by hiring and priority areas of monetization, infrastructure, generative AI, reality labs, as well as regulation and compliance.",
+        "timestamp_sec": 615,
+        "sentiment": "neutral"
+      },
+      {
+        "claim": "Reality Labs reported an operating loss of $5 billion.",
+        "evidence": "Reality Labs operating loss was $5 billion. Turning now to the business outlook, there are two primary factors that drive our revenue performance, our ability to deliver engaging experiences for our community and our effectiveness at monetizing that engagement over time.",
+        "timestamp_sec": 850,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "A speaker said they believed a Community Notes-style system would be more effective than Meta’s previous approach and expected the product to improve.",
+        "evidence": "And I'm not afraid to admit when someone does something that's better than us. I think it's sort of our job to go and just do the best work and implement the best system. So I think that there's been a lot of people who have read this announcement as if we somehow don't care about adding context to things that are on our platform that are misinformation that's not right. I actually think that the community notes system, like what X has had for a while, is actually just more effective than what we were doing before. And I think our product is going to get better because of it.",
+        "timestamp_sec": 2419,
+        "sentiment": "positive"
+      }
+    ],
+    "risks": [],
+    "management_outlook": [],
+    "citation_verification": {
+      "total_citations": 7,
+      "verified": 7,
+      "accuracy": 1.0
+    },
+    "audio_features_summary": {
+      "mean_pitch_hz": 148.66,
+      "mean_energy": 0.04,
+      "mean_speaking_rate_wps": 2.85,
+      "segments_analyzed": 577
+    },
+    "prior_quarter_context_used": [],
+    "pipeline_version": "1.0",
+    "stage_durations_sec": {
+      "regeneration_sec": 7.72
+    },
+    "regeneration": {
+      "generated_at": "2026-10-16T05:02:07.280112+00:00",
+      "input": "saved_transcript_and_sentiment",
+      "audio_features": "reused_from_previous_report_not_recomputed",
+      "historical_context": "none_returned",
+      "claim_support_review": "ai_assisted_review_human_review_pending",
+      "provenance": {
+        "dataset_scope": [
+          {
+            "ticker": "META",
+            "quarter": "Q4_2024"
+          }
+        ],
+        "generation": {
+          "model": "openai/gpt-oss-120b",
+          "max_tokens": 4000,
+          "response_id": "chatcmpl-172fa536-dc95-4bc7-87e6-ed3f8c4b87ec",
+          "prompt_sha256": "f12caebb8f069e0cc39fa911f37c25a4f7c7ca02e31eeeab4c444bfb97dcbcce",
+          "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+          "input_segments_sha256": "b8a71f43271f5db99bf1e796f3f9538bd1e80b29a08e441c1ea336fbec6934ea",
+          "selection": {
+            "policy": "complete_passages_v1",
+            "top_k_per_seed_label": 4
+          }
+        },
+        "input_sha256": {
+          "data/processed/transcripts/META/Q4_2024.json": "0ab47b2f41fecdb196af4659423e1f95e3a01de5480b379cdeca5ef6f5955bf9",
+          "data/processed/sentiment/segment/META/Q4_2024.json": "0644e85d2ba360d37613d39b6847ede4a6e8ebb0f50c8ddf9db37946d8ffdab7",
+          "data/processed/pipeline_runs/META/Q4_2024.json": "a564ea7648cdc11dcf5662b1eba91cca2efcc35a9425726417704fa5ff17d040",
+          "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+          "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+          "config/pipeline.yaml": "6a49b07006d37d5a843f38f738474428820fbc5ae960b1253d00231c333e897a",
+          "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+          "src/report/regenerate.py": "e522c2ba7b085944a7e78e14051a4f7938bc8a89ca373f7afcd2d73aa7f988c6",
+          "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+          "src/report/generate_structured_report.py": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+          "src/rag/build_index.py": "c15cf6fe34d3310045dfb510680b4852e89e41e3fa6cf398e1b2d050b6ffcb3b",
+          "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86"
+        }
+      }
+    }
+  },
+  "review": {
+    "status": "ai_assisted_review_human_review_pending",
+    "reviewed_at": "2026-10-16T05:03:01.080167+00:00",
+    "scope": "AI-assisted review of saved transcript and surrounding passages; recording and human review pending.",
+    "original_candidate_path": "data/processed/report_candidates/remaining/META/Q4_2024.json",
+    "original_candidate_sha256": "37c74c4f53812a0ad3b805a371275d02eeda3c7d1f5403a8be190db1afaf1d20",
+    "original_generated_claims": [
+      {
+        "claim": "Ad revenue growth was strongest in the rest of world at 27%, with Asia Pacific at 23% and Europe at 22%, while North America grew 18%.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 739,
+          "source_text": "On a user geography basis, ad revenue growth was strongest in rest of world at 27%, followed by Asia Pacific in Europe at 23% and 22% respectively. North America grew 18%."
+        }
+      },
+      {
+        "claim": "Cost of revenue increased 15% driven mostly by higher infrastructure costs, and R&D increased 16% primarily due to higher employee compensation and infrastructure costs, partially offset by lower restructuring costs.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 596,
+          "source_text": "In terms of the specific line items, cost of revenue increased 15% driven mostly by higher infrastructure costs. R&D increased 16% primarily driven by higher employee compensation and infrastructure costs, which were partially offset by lower restructuring costs."
+        }
+      },
+      {
+        "claim": "In Q4, total ad impressions rose 6% and the average price per ad rose 14%, with impression growth mainly driven by Asia Pacific and pricing growth helped by increased advertiser demand and improved ad performance.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 754,
+          "source_text": "In Q4, the total number of ad impressions served across our services increased 6% and the average price per ad increased 14%. Impression growth was mainly driven by Asia Pacific. Pricing growth benefited from increased advertiser demand in part driven by improved ad performance."
+        }
+      },
+      {
+        "claim": "Family of apps expenses were up 5% mainly due to higher infrastructure costs and employee compensation, partially offset by lower legal expenses; family of apps operating income was $28.3 billion representing a 60% operating margin; Reality Labs Q4 revenue was $1.1 billion, driven by hardware sales and up 1% year over year.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 807,
+          "source_text": "Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee compensation, which were partially offset by lower legal related expenses. Family of apps operating income was $28.3 billion representing a 60% operating margin. Within our reality lab segment, Q4 revenue was $1.1 billion, driven by hardware sales and up 1% year over year."
+        }
+      },
+      {
+        "claim": "Marketing and sales were approximately flat year over year, G&A decreased 67% mainly from lower legal expenses due to a $1.55 billion reduction in legal accruals, and the company ended the year with over 74,000 employees, up 10% year over year.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 615,
+          "source_text": "Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly by lower legal related expenses due to a $1.55 billion reduction in legal accruals related to certain legal proceedings. We ended the year with over 74,000 employees, up 10% year over year, with growth primarily driven by hiring and priority areas of monetization, infrastructure, generative AI, reality labs, as well as regulation and compliance."
+        }
+      },
+      {
+        "claim": "Reality Labs reported an operating loss of $5 billion.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 850,
+          "source_text": "Reality Labs operating loss was $5 billion. Turning now to the business outlook, there are two primary factors that drive our revenue performance, our ability to deliver engaging experiences for our community and our effectiveness at monetizing that engagement over time."
+        }
+      },
+      {
+        "claim": "The company says the community notes system is more effective than previous approaches and expects the product to improve.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 2419,
+          "source_text": "And I'm not afraid to admit when someone does something that's better than us. I think it's sort of our job to go and just do the best work and implement the best system. So I think that there's been a lot of people who have read this announcement as if we somehow don't care about adding context to things that are on our platform that are misinformation that's not right. I actually think that the community notes system, like what X has had for a while, is actually just more effective than what we were doing before. And I think our product is going to get better because of it."
+        }
+      }
+    ],
+    "original_generated_summary": "Meta’s Q4 2024 earnings call highlighted solid ad revenue growth across regions, modest increases in costs, and a 6% rise in ad impressions with higher pricing, while family of apps delivered $28.3 billion operating income at a 60% margin. Reality Labs posted a $5 billion operating loss, though the company emphasized improvements to its community notes system and a positive outlook. FinBERT sentiment analysis shows the call was 22.7% positive, 1.2% negative, and 76.1% neutral.",
+    "previous_context_quarters": [
+      "Q1 2025",
+      "Q1 2025",
+      "Q3 2025"
+    ],
+    "new_context_quarters": [],
+    "historical_context_decision": "No earlier Meta call exists in the included dataset; no historical comparison is possible for this call.",
+    "excluded_claims": [],
+    "claim_edits": [
+      {
+        "original_claim_index": 0,
+        "original": "Ad revenue growth was strongest in the rest of world at 27%, with Asia Pacific at 23% and Europe at 22%, while North America grew 18%.",
+        "revised": "Meta said Q4 ad revenue grew 27% in Rest of World, 23% in Asia Pacific, 22% in Europe and 18% in North America on a user-geography basis.",
+        "reason": "Specified that these are user-geography ad revenue growth rates and preserved each regional percentage."
+      },
+      {
+        "original_claim_index": 3,
+        "original": "Family of apps expenses were up 5% mainly due to higher infrastructure costs and employee compensation, partially offset by lower legal expenses; family of apps operating income was $28.3 billion representing a 60% operating margin; Reality Labs Q4 revenue was $1.1 billion, driven by hardware sales and up 1% year over year.",
+        "revised": "Family of Apps operating income was $28.3 billion at a 60% operating margin, while Reality Labs Q4 revenue was $1.1 billion, up 1% year over year.",
+        "reason": "Focused one long passage on the reported operating income, margin and Reality Labs revenue; omitted crowded expense details."
+      },
+      {
+        "original_claim_index": 4,
+        "original": "Marketing and sales were approximately flat year over year, G&A decreased 67% mainly from lower legal expenses due to a $1.55 billion reduction in legal accruals, and the company ended the year with over 74,000 employees, up 10% year over year.",
+        "revised": "General and administrative expenses fell 67%, mainly due to lower legal expenses including a $1.55 billion reduction in legal accruals; Meta ended the year with more than 74,000 employees, up 10% year over year.",
+        "reason": "Clarified the general-and-administrative category and legal-accrual attribution."
+      },
+      {
+        "original_claim_index": 6,
+        "original": "The company says the community notes system is more effective than previous approaches and expects the product to improve.",
+        "revised": "A speaker said they believed a Community Notes-style system would be more effective than Meta’s previous approach and expected the product to improve.",
+        "reason": "Presented Community Notes effectiveness as a speaker’s belief and future expectation, not independently established performance or a verified speaker identity."
+      }
+    ],
+    "summary_corrections": [
+      "Removed the unsupported characterization of 15–16% cost increases as modest.",
+      "Separated the speaker’s Community Notes opinion from measured financial results and removed an unsupported broad positive-outlook claim.",
+      "Described FinBERT percentages as scored-segment shares rather than an overall emotion or investor response.",
+      "Disclosed that no earlier Meta call is available for a communication baseline."
+    ],
+    "per_claim": [
+      {
+        "claim_index": 0,
+        "original_claim_index": 0,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 739
+      },
+      {
+        "claim_index": 1,
+        "original_claim_index": 1,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 596
+      },
+      {
+        "claim_index": 2,
+        "original_claim_index": 2,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 754
+      },
+      {
+        "claim_index": 3,
+        "original_claim_index": 3,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 807
+      },
+      {
+        "claim_index": 4,
+        "original_claim_index": 4,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 615
+      },
+      {
+        "claim_index": 5,
+        "original_claim_index": 5,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 850
+      },
+      {
+        "claim_index": 6,
+        "original_claim_index": 6,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 2419
+      }
+    ],
+    "limitations": [
+      "AI-assisted transcript review is not independent human-labelled ground truth.",
+      "Speaker identity and original recording were not independently verified in this review.",
+      "Community Notes effectiveness is a speaker opinion, not an evaluated outcome.",
+      "Sentiment-selected passages do not comprehensively cover the call.",
+      "No earlier Meta call is available in the included dataset."
+    ]
+  }
+}

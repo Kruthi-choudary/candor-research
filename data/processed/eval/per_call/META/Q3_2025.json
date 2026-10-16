@@ -1,73 +1,74 @@
 {
-  "ticker": "META",
-  "quarter": "Q3_2025",
-  "total_citations": 8,
-  "verified": 8,
   "accuracy": 1.0,
   "citations": [
     {
-      "claim": "Overall service usage grew 14%.",
-      "source_text": "served across our services increased 14%.",
-      "timestamp_sec": 547,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Meta reported that Q3 ad impressions served across its services increased 14%.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "In Q3, the total number of ad impressions served across our services increased 14%.",
+      "timestamp_sec": 544,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Legal-related expenses grew more than in Q2.",
-      "source_text": "First, legal-related expense growth was higher than in Q2,",
+      "actual_segment_text": null,
+      "claim": "Meta said legal-related expense growth was higher than in Q2 because of Q3 charges and comparison with accrual reversals in Q3 a year earlier.",
+      "match_ratio": 1.0,
+      "source_text": "First, legal-related expense growth was higher than in Q2, due to charges we recorded in the third quarter, as well as us lapping a period of accrual reversals in the third quarter a year ago.",
       "timestamp_sec": 648,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "WhatsApp paid messaging revenue drove a 59% increase.",
-      "source_text": "up 59%, driven by WhatsApp paid messaging revenue growth,",
-      "timestamp_sec": 581,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Meta reported $690 million in Q3 Family of Apps other revenue, up 59%, driven by WhatsApp paid messaging and Meta Verified subscriptions.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Family of apps other revenue was $690 million, up 59%, driven by WhatsApp paid messaging revenue growth, as well as meta-verified subscriptions.",
+      "timestamp_sec": 577,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Ad performance improvements were a major driver of growth.",
-      "source_text": "largely driven by improved ad performance.",
-      "timestamp_sec": 566,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Meta reported that the average price per ad increased 10% year over year, benefiting from advertiser demand driven largely by improved ad performance.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "The average price per ad increased 10% year-over-year, benefiting from increased advertiser demand, largely driven by improved ad performance.",
+      "timestamp_sec": 559,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "The quarter included an accounting charge.",
-      "source_text": "resulted in an accounting charge in the third quarter,",
-      "timestamp_sec": 741,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Meta said the new US tax law caused a Q3 accounting charge but expected significant cash-tax savings for the rest of 2025 and future years.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Although the transition to the new US tax law resulted in an accounting charge in the third quarter, we continue to expect we will recognize significant cash tax savings for the remainder of the current year and future years under the new law, and this quarter's charge reflects the total expected impact from the transition to the new US tax law.",
+      "timestamp_sec": 738,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Charges recorded in the third quarter impacted results.",
-      "source_text": "due to charges we recorded in the third quarter,",
-      "timestamp_sec": 652,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Meta said infrastructure cost growth accelerated because of costs tied to its expanded data-center fleet, depreciation on capital spending and third-party cloud spending.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Finally, growth in infrastructure costs accelerated due to increased infrastructure operating costs associated with our expanded data center fleet, depreciation on our incremental CAPX spend, and third-party cloud spend.",
+      "timestamp_sec": 669,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Depreciation on incremental CAPX spend affected earnings.",
-      "source_text": "depreciation on our incremental CAPX spend,",
-      "timestamp_sec": 679,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Meta said increasing legal and regulatory headwinds in the EU and US could significantly affect its business and financial results.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Finally, we continue to monitor active legal and regulatory matters, including the increasing headwinds in the EU and the US that could significantly impact our business and financial results.",
+      "timestamp_sec": 1599,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "European revenue faced a negative impact.",
-      "source_text": "negative impact on our European revenue",
-      "timestamp_sec": 1629,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Meta reported an 87% Q3 tax rate, adversely affected by a one-time, non-cash reduction in deferred tax assets under the new US tax law.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Our tax rate for the quarter was 87%, which was unfavorably impacted by a one-time, non-cash reduction in deferred tax assets that we no longer anticipate using under new US tax law.",
+      "timestamp_sec": 719,
+      "verdict": "VERIFIED"
     }
-  ]
+  ],
+  "quarter": "Q3_2025",
+  "report_version": "complete-passages-fd7b95322459",
+  "ticker": "META",
+  "total_citations": 8,
+  "verified": 8
 }

@@ -1,73 +1,74 @@
 {
-  "ticker": "META",
-  "quarter": "Q2_2025",
-  "total_citations": 8,
-  "verified": 8,
   "accuracy": 1.0,
   "citations": [
     {
-      "claim": "Ad revenue growth was strongest in Europe and the rest of the world, reaching 24%",
-      "source_text": "On a user geography basis ad revenue growth was strongest in Europe and rest of world at 24%",
+      "actual_segment_text": null,
+      "claim": "Meta reported ad revenue growth by user geography of 24% in Europe, 23% in Rest of World, 21% in North America and 18% in Asia Pacific; ad impressions increased 11%, mainly driven by Asia Pacific.",
+      "match_ratio": 1.0,
+      "source_text": "On a user geography basis ad revenue growth was strongest in Europe and rest of world at 24% and 23% respectively. North America and Asia Pacific grew 21% and 18%. In Q2 the total number of ad impressions served across our services increased 11% with growth mainly driven by Asia Pacific.",
       "timestamp_sec": 705,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Revenue increased 16 percent, driven primarily by higher infrastructure costs and payments",
-      "source_text": "cost a revenue increased 16 percent driven mostly by higher infrastructure costs and payments to",
-      "timestamp_sec": 526,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Meta said the average price per ad rose 9%, benefiting from higher advertiser demand driven largely by improved ad performance.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Impression growth accelerated across all regions due primarily to engagement tailwinds on both Facebook and Instagram and to a lesser extent add load optimizations on Facebook. The average price per ad increased 9% benefiting from increased advertiser demand largely driven by improved ad performance.",
+      "timestamp_sec": 730,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "R&D spending rose 23 percent, mainly due to higher employee compensation and infrastructure",
-      "source_text": "useful lives. R&D increased 23 percent mostly due to higher employee compensation and infrastructure",
-      "timestamp_sec": 537,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Meta reported a $4.5 billion Reality Labs operating loss in Q2.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Reality Labs operating loss was $4.5 billion. Turning now to the business outlook there are two primary factors that drive our revenue performance. Our ability to deliver engaging experiences for our community and our effectiveness at monetizing that engagement over time. On the first daily actives continue to grow across Facebook, Instagram and WhatsApp as we make additional improvements to our recommendation systems and product experiences. We continue to see momentum with video engagement in particular. In Q2 Instagram video time was up more than 20% year over year globally. We're seeing strong traction on Facebook as well particularly in the U.S. where video time spent similarly expanded more than 20% year over year. These gains have been enabled by ongoing optimizations to our ranking systems to better identify the most relevant content to show.",
+      "timestamp_sec": 826,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Early pre\u2011launch tests show promising performance lifts across languages",
-      "source_text": "languages. While it's early, we've seen promising performance lifts in our pre-launch tests.",
-      "timestamp_sec": 1371,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Meta reported Q2 Family of Apps revenue of $47.1 billion, up 22% year over year.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "I'll begin with our family of apps segment. Our community across the family of apps continues to grow and we estimate more than 3.4 billion people used at least one of our family of apps on a daily basis in June. Q2 total family of apps revenue was $47.1 billion up 22% year over year. Q2 family of apps ad revenue was $46.6 billion up 21% or 22% on a constant currency basis.",
+      "timestamp_sec": 668,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Legal-related costs increased while the employee count fell to over 75,900, down 1% quarter over quarter",
-      "source_text": "legal related costs. We ended Q2 with over 75,900 employees down 1 percent quarter over quarter",
-      "timestamp_sec": 563,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Meta said pricing growth slowed modestly from Q1 as impression growth accelerated in Q2.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Engagement in Facebook feed and notifications dropped by roughly 30% over the past 10 months",
-      "source_text": "in Facebook feed and notifications dropping by roughly 30% over the past 10 months.",
-      "timestamp_sec": 964,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "The majority of employees affected were those impacted by performance\u2011related reductions earlier this quarter",
-      "source_text": "as the vast majority of the employees impacted by performance related reductions earlier this",
-      "timestamp_sec": 574,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Pricing growth slowed modestly from Q1 due to accelerated impression growth",
-      "source_text": "Pricing growth slowed modestly from the first quarter due to the accelerated impression growth",
+      "source_text": "Pricing growth slowed modestly from the first quarter due to the accelerated impression growth in Q2. Family of apps other revenue was $583 million up 50% driven by WhatsApp paid messaging revenue growth as well as meta verified subscriptions. We continue to direct the majority of our investments toward the development and operation of our family of apps. In Q2 family of apps expenses were 22.2 billion dollars representing 82% of our overall expenses. Family of apps expenses were up 14% mainly due to growth in employee compensation and infrastructure costs partially offset by lower legal related costs. Family of apps operating income was $25 billion representing a 53% operating margin. Within our reality lab segment Q2 revenue was $370 million up 5% year over year due to increased sales of AI glasses partially offset by lower quest sales. Reality Labs expenses were $4.9 billion up 1% year over year driven by higher non-headcount related technology development costs.",
       "timestamp_sec": 751,
-      "verdict": "VERIFIED",
+      "verdict": "VERIFIED"
+    },
+    {
+      "actual_segment_text": null,
+      "claim": "Meta said further EU-required changes to its less-personalized ads offering could materially worsen user and advertiser experience and significantly hurt European revenue.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "In addition, we continue to monitor an active regulatory landscape including the increasing legal and regulatory headwinds in the EU that could significantly impact our business and our financial results. For example, we continue to engage with the European Commission on our less personalized ads offering or LPA which we introduced in November 2024 based on feedback from the European Commission in connection with the DMA. As the Commission provides further feedback on LPA, we cannot rule out that it may seek to impose further modifications to it that would result in a materially worse user and advertiser experience. This could have a significant negative impact on our European revenue as early as later this quarter. We have appealed the European Commission's DMA decision, but any modifications to our model may be imposed during the appeal process.",
+      "timestamp_sec": 1735,
+      "verdict": "VERIFIED"
+    },
+    {
+      "actual_segment_text": null,
+      "claim": "Meta projected full-year 2025 total expenses of $114 billion to $118 billion, up 20% to 24% year over year, narrowing its prior range of $113 billion to $118 billion.",
+      "match_ratio": 1.0,
+      "source_text": "We expect full year 2025 total expenses to be in the range of 114 to 118 billion dollars, narrowed from our prior outlook of 113 to 118 billion dollars and reflecting a growth rate of 20 to 24 percent year over year. While we're still very early in planning for next year, there are a few factors we expect will provide meaningful upward pressure on our 2026 total expense growth rate. The largest single driver of growth will be infrastructure costs driven by a sharp acceleration in depreciation expense growth and higher operating costs as we continue to scale up our infrastructure fleet. Aside from infrastructure, we expect the second largest driver of growth to be employee compensation as we add technical talent in priority areas and recognize a full year of compensation expenses for employees hired throughout 2025. We expect these factors will result in a 2026 year over year expense growth rate that is above the 2025 expense growth rate.",
+      "timestamp_sec": 1593,
+      "verdict": "VERIFIED"
+    },
+    {
+      "actual_segment_text": null,
+      "claim": "Meta did not provide a Q4 revenue forecast but expected Q4 2025 year-over-year growth to be slower than Q3 as it compares with a stronger Q4 2024 period.",
+      "match_ratio": 1.0,
+      "source_text": "While we are not providing an outlook for fourth quarter revenue, we would expect our year over year growth rate in the fourth quarter of 2025 to be slower than the third quarter as we lap a period of stronger growth in the fourth quarter of 2024. Turning now to the expense outlook.",
+      "timestamp_sec": 1575,
+      "verdict": "VERIFIED"
     }
-  ]
+  ],
+  "quarter": "Q2_2025",
+  "report_version": "complete-passages-356c86ea735c",
+  "ticker": "META",
+  "total_citations": 8,
+  "verified": 8
 }

@@ -17,4 +17,11 @@ def load_companies() -> dict:
 
 
 def load_pipeline_config() -> dict:
-    return _load_yaml("pipeline.yaml")
+    config = dict(_load_yaml("pipeline.yaml"))
+    local_path = CONFIG_DIR / "pipeline.local.yaml"
+    if local_path.exists():
+        local = yaml.safe_load(local_path.read_text()) or {}
+        if set(local) - {"postgres"}:
+            raise ValueError("pipeline.local.yaml may override only the postgres section")
+        config["postgres"] = {**config["postgres"], **local.get("postgres", {})}
+    return config

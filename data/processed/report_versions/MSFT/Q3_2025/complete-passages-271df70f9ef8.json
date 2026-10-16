@@ -1,0 +1,717 @@
+{
+  "applied_at": "2026-10-16T14:27:25.366294+00:00",
+  "candidate_sha256": "271df70f9ef8f0ca63a03e5a69ca5847d22355aec5451881c10c3568b221c852",
+  "configuration_at_promotion": {
+    "evaluation": {
+      "citation_match_threshold": 0.6,
+      "citation_tolerance_sec": 2.0
+    },
+    "generation": {
+      "llm_model": "openai/gpt-oss-120b",
+      "max_tokens": 1500,
+      "max_tokens_structured": 8000,
+      "top_k_quotes": 4
+    },
+    "models": {
+      "embedding": "BAAI/bge-small-en-v1.5",
+      "sentiment": "ProsusAI/finbert",
+      "whisper": "base.en"
+    },
+    "retrieval": {
+      "chunk_words": 250,
+      "embed_dim": 384,
+      "table_name": "transcript_chunks",
+      "top_k": 3
+    }
+  },
+  "input_sha256": {
+    "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+    "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+    "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+    "data/processed/eval/citation_accuracy_baseline_free_text_v1.json": "8d7ca45472e067915f49912d5937f2cc830acf0f48351cfc99e61c6602ba886a",
+    "data/processed/eval/citation_accuracy_structured_citations_v1.json": "185b0d26062cc8732335afc933efe9b04fa586899027df20033e53a4442e128e",
+    "data/processed/eval/claim_coverage.json": "3ce127afcd847c446d18ead6198eafbc08022b1b52a2103855673719dd6b08b3",
+    "data/processed/eval/per_call/AAPL/Q1_2025.json": "c76cf922771f89b75a1d20f77d9efd21a2e6f17ca153c74fce419150e737c116",
+    "data/processed/eval/per_call/META/Q1_2025.json": "bade6789345c4053690076895dd8642579258309bfa04026dafb6fc79b9c88a8",
+    "data/processed/eval/per_call/MSFT/Q1_2025.json": "2c97dfba269ce10ea67fd884e6cd6938247e8fc9458c393d4286f9b591cade87",
+    "data/processed/eval/per_call/MSFT/Q3_2025.json": "e7161dc78e451fcfb660b567e21fd171bb43ebb7f796d6176d59124ffdff720f",
+    "data/processed/eval/per_call/NVDA/Q1_2025.json": "de702101c91fa5102d4b526f7bd2d1fc239f036b321a18cb5baabccaaf82ca69",
+    "data/processed/pipeline_runs/AAPL/Q1_2025.json": "59be4f35013b8674d6fbc65bdc70f36eeced9839f0d555656ada7bc0e3555b16",
+    "data/processed/pipeline_runs/META/Q1_2025.json": "537f595c0793448b26c9a4b735772608041117cfa21b87a00b7fd10b5fead3aa",
+    "data/processed/pipeline_runs/MSFT/Q1_2025.json": "fa312b97907c615250b17f48c26f26f98edf84a69801fb7f887bc33698fc0644",
+    "data/processed/pipeline_runs/MSFT/Q3_2025.json": "1f72c5cf39da687dd4b9967808bd2185a9e2d6578bbdb6517f2d249e6d5c4e4b",
+    "data/processed/pipeline_runs/NVDA/Q1_2025.json": "90973c689cf13c197a571ef7984d9e583b02e9240498ca7a4ae41c8b903ae9cd",
+    "data/processed/reports_structured_citations_v1/AAPL/Q1_2025.json": "f2fe29543329d56ef6e4652260004b2c45acbe7dccc8b24c1634aefca66d027f",
+    "data/processed/reports_structured_citations_v1/META/Q1_2025.json": "5e23ae802cd001a96f5616f917383ef11b65bbf110fe8d2244b1adb2997266e0",
+    "data/processed/reports_structured_citations_v1/MSFT/Q1_2025.json": "49f720acd0944e60fe6df8430d8160a688740340c7ff7e202cc08d104bf1e719",
+    "data/processed/reports_structured_citations_v1/MSFT/Q3_2025.json": "b309353ef1e3726a91527597adfefae061e1b732a9ad65dce3f8e9082a5ae584",
+    "data/processed/reports_structured_citations_v1/NVDA/Q1_2025.json": "534271dfd4538d308831def246df6582db3085ff8a8823e7659bce2b41594120",
+    "data/processed/sentiment/segment/MSFT/Q3_2025.json": "b82160b70e81e0ab5e7e8c60fcd579e8896820224216b726949710fa3347537c",
+    "data/processed/transcripts/AAPL/Q1_2025.json": "2d5cbdf457900f950520d301c20e77066a69e53b5698f0d75334a808ec5bf14e",
+    "data/processed/transcripts/META/Q1_2025.json": "f0461d42a908ae037ab0af4937f7309dd2648abad2a5d40b37ba5834c0b82d9d",
+    "data/processed/transcripts/MSFT/Q1_2025.json": "0587c6216dea197be0f6e5fbb38e5f1ed2342a01194096bdce6c14eaf988d6e0",
+    "data/processed/transcripts/MSFT/Q3_2025.json": "ca67fdc34f06d71597d351886ce6a78cf0101681e5ce389bb1965b5e6da03085",
+    "data/processed/transcripts/NVDA/Q1_2025.json": "d8a5a1b50c9c5cb82559ab17c5254456e80be1e0196568461e0633f4b879a5a1",
+    "frontend/scripts/build-demo.mjs": "63b95592ad27848b4eb7814242c1b1cde9c1cf54ad6d38f62895f30fcc3a126a",
+    "frontend/src/data/demo.json": "62c8cece4758573cb5389e786ffb434eaaca600f99eb05dc1b82d8cf30b822f8",
+    "src/common/schema.py": "0faebe9d8e71a23ec5a9bc635171f81d4ccd6d5a0c2594cfeb0483e218a140d0",
+    "src/eval/check_citations_structured.py": "1c1418f8711fef6edcde602235d785abed84ae6f4d03366004c1758d7ac83a03",
+    "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+    "src/report/promote.py": "7eb3639f70834ad2c6ca33f7a5232ae307f5d092830ddd578fd86c0683d6bd00"
+  },
+  "limitations": [
+    "AI-assisted support review; independent human review pending.",
+    "Call date checked against feed-derived registry; external verification pending."
+  ],
+  "output_sha256": {
+    "data/processed/eval/per_call/MSFT/Q3_2025.json": "97d42812a4e2c7fc893f55745b0ee55c466b8fef4ccc7c345e1bb72f0b386269",
+    "data/processed/pipeline_runs/MSFT/Q3_2025.json": "97ed41311be3ff2f46a0b22fc1e27bc16602d5a41f5b2af24f6815d4a0c19f26",
+    "data/processed/reports_structured_citations_v1/MSFT/Q3_2025.json": "7d9f6a2b430bc463358c4581dcdbec4525bbc421f2f74e172b348f1330983f8b",
+    "frontend/src/data/demo.json": "62c8cece4758573cb5389e786ffb434eaaca600f99eb05dc1b82d8cf30b822f8"
+  },
+  "previous": {
+    "citation_evaluation": {
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported better-than-expected performance across all segments.",
+          "match_ratio": 1.0,
+          "source_text": "In general, we saw better than expected performance across our segments.",
+          "timestamp_sec": 3086,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "M365 commercial product revenue grew 5%, driven by medium business and frontline worker offerings.",
+          "match_ratio": 1.0,
+          "source_text": "medium business and frontline worker offerings. M365 commercial products revenue increased 5%",
+          "timestamp_sec": 1245,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Gross margin dollars for the segment rose 9% and 11% in third-party and first-party content.",
+          "match_ratio": 1.0,
+          "source_text": "in third party and first party content. Segment gross margin dollars increased 9% and 11% in",
+          "timestamp_sec": 1466,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Segment gross margin dollars increased 13% and 14% in constant currency for services.",
+          "match_ratio": 1.0,
+          "source_text": "services. Segment gross margin dollars increased 13% and 14% in constant currency,",
+          "timestamp_sec": 1390,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Revenue declined 6% and 4% in constant currency, falling slightly short of expectations.",
+          "match_ratio": 1.0,
+          "source_text": "revenue decreased 6% and 4% in constant currency, slightly below expectations,",
+          "timestamp_sec": 1365,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Year-over-year decline reflects ongoing customer migration to cloud offerings.",
+          "match_ratio": 1.0,
+          "source_text": "The year over year decline is reflective of the continued customer shift to cloud offerings.",
+          "timestamp_sec": 1375,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Revenue is expected to drop in the mid-single digits due to continued cloud migration.",
+          "match_ratio": 1.0,
+          "source_text": "expect revenue to decline in the mid-single digits with the ongoing customer shift to cloud offerings.",
+          "timestamp_sec": 1818,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Revenue was down 67% year over year, mainly because of scaling AI infrastructure.",
+          "match_ratio": 1.0,
+          "source_text": "67% down year over year, primarily driven by the impact of scaling our AI infrastructure.",
+          "timestamp_sec": 1673,
+          "verdict": "VERIFIED"
+        }
+      ],
+      "quarter": "Q3_2025",
+      "ticker": "MSFT",
+      "total_citations": 8,
+      "verified": 8
+    },
+    "report": {
+      "audio_features_summary": {
+        "mean_energy": 0.08,
+        "mean_pitch_hz": 179.66,
+        "mean_speaking_rate_wps": 2.65,
+        "segments_analyzed": 532
+      },
+      "call_date": "2025-04-30",
+      "citation_verification": {
+        "accuracy": 1.0,
+        "total_citations": 8,
+        "verified": 8
+      },
+      "company": "Microsoft",
+      "key_claims": [
+        {
+          "claim": "Microsoft reported better-than-expected performance across all segments.",
+          "evidence": "In general, we saw better than expected performance across our segments.",
+          "sentiment": "positive",
+          "timestamp_sec": 3086
+        },
+        {
+          "claim": "M365 commercial product revenue grew 5%, driven by medium business and frontline worker offerings.",
+          "evidence": "medium business and frontline worker offerings. M365 commercial products revenue increased 5%",
+          "sentiment": "positive",
+          "timestamp_sec": 1245
+        },
+        {
+          "claim": "Gross margin dollars for the segment rose 9% and 11% in third-party and first-party content.",
+          "evidence": "in third party and first party content. Segment gross margin dollars increased 9% and 11% in",
+          "sentiment": "positive",
+          "timestamp_sec": 1466
+        },
+        {
+          "claim": "Segment gross margin dollars increased 13% and 14% in constant currency for services.",
+          "evidence": "services. Segment gross margin dollars increased 13% and 14% in constant currency,",
+          "sentiment": "positive",
+          "timestamp_sec": 1390
+        },
+        {
+          "claim": "Revenue declined 6% and 4% in constant currency, falling slightly short of expectations.",
+          "evidence": "revenue decreased 6% and 4% in constant currency, slightly below expectations,",
+          "sentiment": "negative",
+          "timestamp_sec": 1365
+        },
+        {
+          "claim": "Year-over-year decline reflects ongoing customer migration to cloud offerings.",
+          "evidence": "The year over year decline is reflective of the continued customer shift to cloud offerings.",
+          "sentiment": "negative",
+          "timestamp_sec": 1375
+        },
+        {
+          "claim": "Revenue is expected to drop in the mid-single digits due to continued cloud migration.",
+          "evidence": "expect revenue to decline in the mid-single digits with the ongoing customer shift to cloud offerings.",
+          "sentiment": "negative",
+          "timestamp_sec": 1818
+        },
+        {
+          "claim": "Revenue was down 67% year over year, mainly because of scaling AI infrastructure.",
+          "evidence": "67% down year over year, primarily driven by the impact of scaling our AI infrastructure.",
+          "sentiment": "negative",
+          "timestamp_sec": 1673
+        }
+      ],
+      "management_outlook": [],
+      "overall_summary": "The call highlighted mixed results, with positive remarks about better\u2011than\u2011expected segment performance, a 5% rise in M365 commercial revenue, and double\u2011digit gross\u2011margin growth, while negative comments pointed to revenue declines of up to 67% driven by cloud migration and AI infrastructure scaling. FinBERT sentiment was 32.9% positive, 6.2% negative, and 60.9% neutral.",
+      "pipeline_version": "1.0",
+      "prior_quarter_context_used": [
+        {
+          "quarter": "Q1 2025",
+          "start_sec": 2217.0,
+          "text": "You may press star two if you would like to remove your question from the queue. Participants using speaker equipment and may be necessary to pick up your handset before pressing the star keys. And our first question comes from the line of Keith Weiss with Morgan Stanley. Please proceed. Excellent. Thank you guys for taking the question. And congratulations on a really solid quarter. The expansion of capabilities, the speed of innovation, the magnitude of the opportunity to head for gender. It makes this the most exciting period for software I've seen in my 25 years of covering the space and based upon this call, it seems like you share that excitement. But in my investor conversation, that excitement also feeds two related questions and they both have to do with constraints. And the first is, like, what are the internal constraints or guardrails that Microsoft has when it comes to investing behind these innovations, particularly in relation to the funding of future generations of foundational models where people were talking about price tags, and then on the other side of the spectrum, what are the external constraints that Microsoft sees in building out this capacity to meet the demand and capture the opportunity, particularly constraints in your ability to power all these new data centers being built out, empowered in an environmentally sustainable fashion? I'd love to get to Microsoft perspective on both those questions. Thank you, Keith, for those questions. I think on the first point, ultimately, when you think about, let's say, a capital outlay for training, because that's essentially what you're asking."
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 2340.88,
+          "text": "commercial perceived side or on the consumption meters that's I think the fundamental driver. And Keith you know I do think and I really do appreciate how you phrase the question as well because I think the timing and some of the questions you all have had really led to how we were talking even about capital expense in our comments in my comments today. Being able to maybe share a little more about that when we talked about roughly half of FY24's total capital expense as well as half of Q4's expense it's really on land and builds and finance leases and those things really will be monetized over 15 years and beyond and they're incredibly flexible because we've built a consistent architecture first with a commercial cloud and second with the Azure Stack for AI regardless of whether the demand is at the platform layer or at the app layer or through third parties and partners or frankly our first party fast it uses the same infrastructure. So with that long life flexible assets and if you think about it that way you can see what we're doing and focused on is building out this network and parallel of across the globe because you know when we did this last transition the first transition to the cloud which seems a long time ago sometimes it rolled out quite differently we rolled out more geo by geo and this one because we have demand on a global basis we are doing it on a global basis which is important we have large"
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 2831.84,
+          "text": "distinction between our CAPEx number and on occasion the cash that we pay for PP&E and you're going to start to see that more often in this period because it happens when we use leases leases sort of show up all at once and so you'll see a little bit more volatility I've mentioned to that in my comments before but I mentioned again just because you're starting to see that distinction in my comments and hopefully that's helpful context. Just one other thing Amy if I want to add I think as people think about capital spend I think it's important separate out leases from build and when it comes to build I think it's important for us to think about we think about it in terms of what's the total percentage of cost that goes into each line item land which obviously has a very different duration and a very different lead time so those are the other two considerations we think about lead time and duration of the asset land you know network construction the system or the kit and then the ongoing cost and so if you think about it that way then it you know how to even adjust if you will the capital spend based on demand signal. Thank you it was triggered by the jump in CAPEx and as Amy pointed out you're guiding to accelerating Azure revenue growth rate which I guess follows the CAPEx thank you so much once again. Thanks Cash operator next question please."
+        }
+      ],
+      "quarter": "Q3 2025",
+      "risks": [],
+      "schema_version": "1.0",
+      "sentiment_distribution": {
+        "negative": 6.2,
+        "neutral": 60.9,
+        "positive": 32.9
+      },
+      "stage_durations_sec": {
+        "citation_check_sec": 0.0,
+        "generation_sec": 0.0,
+        "prosody_sec": 0.0,
+        "rag_sec": 6.2,
+        "sentiment_sec": 0.0,
+        "transcription_sec": 0.0
+      },
+      "ticker": "MSFT"
+    },
+    "structured_claims": {
+      "claims": [
+        {
+          "citation": {
+            "source_text": "In general, we saw better than expected performance across our segments.",
+            "timestamp_sec": 3086
+          },
+          "claim": "Microsoft reported better-than-expected performance across all segments.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "medium business and frontline worker offerings. M365 commercial products revenue increased 5%",
+            "timestamp_sec": 1245
+          },
+          "claim": "M365 commercial product revenue grew 5%, driven by medium business and frontline worker offerings.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "in third party and first party content. Segment gross margin dollars increased 9% and 11% in",
+            "timestamp_sec": 1466
+          },
+          "claim": "Gross margin dollars for the segment rose 9% and 11% in third-party and first-party content.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "services. Segment gross margin dollars increased 13% and 14% in constant currency,",
+            "timestamp_sec": 1390
+          },
+          "claim": "Segment gross margin dollars increased 13% and 14% in constant currency for services.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "revenue decreased 6% and 4% in constant currency, slightly below expectations,",
+            "timestamp_sec": 1365
+          },
+          "claim": "Revenue declined 6% and 4% in constant currency, falling slightly short of expectations.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "The year over year decline is reflective of the continued customer shift to cloud offerings.",
+            "timestamp_sec": 1375
+          },
+          "claim": "Year-over-year decline reflects ongoing customer migration to cloud offerings.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "expect revenue to decline in the mid-single digits with the ongoing customer shift to cloud offerings.",
+            "timestamp_sec": 1818
+          },
+          "claim": "Revenue is expected to drop in the mid-single digits due to continued cloud migration.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "67% down year over year, primarily driven by the impact of scaling our AI infrastructure.",
+            "timestamp_sec": 1673
+          },
+          "claim": "Revenue was down 67% year over year, mainly because of scaling AI infrastructure.",
+          "sentiment": "negative"
+        }
+      ],
+      "overall_summary": "The call highlighted mixed results, with positive remarks about better\u2011than\u2011expected segment performance, a 5% rise in M365 commercial revenue, and double\u2011digit gross\u2011margin growth, while negative comments pointed to revenue declines of up to 67% driven by cloud migration and AI infrastructure scaling. FinBERT sentiment was 32.9% positive, 6.2% negative, and 60.9% neutral."
+    }
+  },
+  "previous_version": "legacy-7f7082742667",
+  "replacement": {
+    "citation_evaluation": {
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported that the combined enterprise and partner services revenue line grew 5%, or 6% in constant currency, slightly ahead of expectations because enterprise support services performed better than expected.",
+          "match_ratio": 1.0,
+          "source_text": "Enterprise and partner services revenue increased 5% and 6% in constant currency, slightly ahead of expectations due to better than expected performance in enterprise support services. Segment gross margin dollars increased 13% and 14% in constant currency, and gross margin percentage decreased 4.0 over year, driven by scaling our AI infrastructure.",
+          "timestamp_sec": 1380,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported Cloud revenue of $42.4 billion, up 20%, or 22% in constant currency, ahead of expectations.",
+          "match_ratio": 1.0,
+          "source_text": "The remaining portion recognized beyond the next 12 months increased 47%. And this quarter, our annuity mix, was 98%. FX was roughly in line with expectations on total company revenue, segment-level revenue, and operating expense growth. FX decreased cod's growth by only one point, one point unfavorable to expectations. Microsoft cloud revenue was $42.4 billion ahead of expectations and grew 20% and 22% in constant currency. Microsoft cloud gross margin percentage was 69% in line with expectations and decreased three points year over year, driven by the impact of scaling our AI infrastructure. Company gross margin percentage was also 69% down one point year over year, driven by scaling our AI infrastructure. Operating expenses increased 2% and 3% in constant currency, lower than expected due to our focus on cost efficiencies, as well as investments that shifted to Q4. Operating margins increased one point year over year to 46%.",
+          "timestamp_sec": 1108,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft said commercial bookings increased 18%, or 17% in constant currency, significantly ahead of expectations, driven in part by an Azure commitment from OpenAI.",
+          "match_ratio": 1.0,
+          "source_text": "Commercial bookings increased 18% and 17% in constant currency, significantly ahead of expectations, again, this quarter, driven by an Azure commitment from OpenAI. We also saw consistent execution across our core annuity sales motions and continued long-term commitments to our platform.",
+          "timestamp_sec": 1075,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported on-premises server revenue down 6%, or 4% in constant currency, slightly below expectations because renewals carried lower in-period revenue recognition.",
+          "match_ratio": 1.0,
+          "source_text": "Focused execution drove non AI services results, where we saw accelerated growth in our enterprise customer segment, as well as some improvement in our scale motions. And in Azure AI services, we brought capacity online faster than expected. In our on-premises server business, revenue decreased 6% and 4% in constant currency, slightly below expectations, driven by renewals with lower in-period revenue recognition from the mix of contracts.",
+          "timestamp_sec": 1346,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "For Q4 FY2025, Microsoft expected Cloud gross-margin percentage of roughly 67%, lower year over year, primarily because of scaling AI infrastructure.",
+          "match_ratio": 1.0,
+          "source_text": "In commercial bookings, we expect solid growth on a significant prior year comparable and a growing X pre-base. Bookings growth will be driven by strong execution across our core annuity sales motions and continued long-term commitments to our platform. As a reminder, larger longer-term measure contracts, which are more unpredictable in their timing, can drive increased quarterly volatility in our bookings growth rate. Microsoft Cloud gross margin percentage should be roughly 67% down year over year, primarily driven by the impact of scaling our AI infrastructure.",
+          "timestamp_sec": 1643,
+          "verdict": "VERIFIED"
+        }
+      ],
+      "quarter": "Q3_2025",
+      "report_version": "complete-passages-271df70f9ef8",
+      "ticker": "MSFT",
+      "total_citations": 5,
+      "verified": 5
+    },
+    "report": {
+      "audio_features_summary": {
+        "mean_energy": 0.08,
+        "mean_pitch_hz": 179.66,
+        "mean_speaking_rate_wps": 2.65,
+        "segments_analyzed": 532
+      },
+      "call_date": "2025-04-30",
+      "citation_verification": {
+        "accuracy": 1.0,
+        "total_citations": 5,
+        "verified": 5
+      },
+      "company": "Microsoft",
+      "evidence_policy": "complete_passages_v1",
+      "key_claims": [
+        {
+          "claim": "Microsoft reported that the combined enterprise and partner services revenue line grew 5%, or 6% in constant currency, slightly ahead of expectations because enterprise support services performed better than expected.",
+          "evidence": "Enterprise and partner services revenue increased 5% and 6% in constant currency, slightly ahead of expectations due to better than expected performance in enterprise support services. Segment gross margin dollars increased 13% and 14% in constant currency, and gross margin percentage decreased 4.0 over year, driven by scaling our AI infrastructure.",
+          "sentiment": "positive",
+          "timestamp_sec": 1380
+        },
+        {
+          "claim": "Microsoft reported Cloud revenue of $42.4 billion, up 20%, or 22% in constant currency, ahead of expectations.",
+          "evidence": "The remaining portion recognized beyond the next 12 months increased 47%. And this quarter, our annuity mix, was 98%. FX was roughly in line with expectations on total company revenue, segment-level revenue, and operating expense growth. FX decreased cod's growth by only one point, one point unfavorable to expectations. Microsoft cloud revenue was $42.4 billion ahead of expectations and grew 20% and 22% in constant currency. Microsoft cloud gross margin percentage was 69% in line with expectations and decreased three points year over year, driven by the impact of scaling our AI infrastructure. Company gross margin percentage was also 69% down one point year over year, driven by scaling our AI infrastructure. Operating expenses increased 2% and 3% in constant currency, lower than expected due to our focus on cost efficiencies, as well as investments that shifted to Q4. Operating margins increased one point year over year to 46%.",
+          "sentiment": "positive",
+          "timestamp_sec": 1108
+        },
+        {
+          "claim": "Microsoft said commercial bookings increased 18%, or 17% in constant currency, significantly ahead of expectations, driven in part by an Azure commitment from OpenAI.",
+          "evidence": "Commercial bookings increased 18% and 17% in constant currency, significantly ahead of expectations, again, this quarter, driven by an Azure commitment from OpenAI. We also saw consistent execution across our core annuity sales motions and continued long-term commitments to our platform.",
+          "sentiment": "positive",
+          "timestamp_sec": 1075
+        },
+        {
+          "claim": "Microsoft reported on-premises server revenue down 6%, or 4% in constant currency, slightly below expectations because renewals carried lower in-period revenue recognition.",
+          "evidence": "Focused execution drove non AI services results, where we saw accelerated growth in our enterprise customer segment, as well as some improvement in our scale motions. And in Azure AI services, we brought capacity online faster than expected. In our on-premises server business, revenue decreased 6% and 4% in constant currency, slightly below expectations, driven by renewals with lower in-period revenue recognition from the mix of contracts.",
+          "sentiment": "negative",
+          "timestamp_sec": 1346
+        },
+        {
+          "claim": "For Q4 FY2025, Microsoft expected Cloud gross-margin percentage of roughly 67%, lower year over year, primarily because of scaling AI infrastructure.",
+          "evidence": "In commercial bookings, we expect solid growth on a significant prior year comparable and a growing X pre-base. Bookings growth will be driven by strong execution across our core annuity sales motions and continued long-term commitments to our platform. As a reminder, larger longer-term measure contracts, which are more unpredictable in their timing, can drive increased quarterly volatility in our bookings growth rate. Microsoft Cloud gross margin percentage should be roughly 67% down year over year, primarily driven by the impact of scaling our AI infrastructure.",
+          "sentiment": "negative",
+          "timestamp_sec": 1643
+        }
+      ],
+      "management_outlook": [],
+      "overall_summary": "Microsoft reported Cloud revenue of $42.4 billion, up 20%, or 22% in constant currency, and commercial bookings growth of 18%, or 17% in constant currency, both ahead of expectations. The combined enterprise and partner services revenue line grew 5%, or 6% in constant currency, while on-premises server revenue declined 6%, or 4% in constant currency. For Q4 FY2025, Microsoft expected Cloud gross margin of roughly 67%, lower year over year as it scaled AI infrastructure. FinBERT classified 32.9% of scored transcript segments as positive, 6.2% as negative and 60.9% as neutral; these text labels do not measure vocal confidence.",
+      "pipeline_version": "1.0",
+      "prior_quarter_context_used": [],
+      "publication": {
+        "call_date_verification": "registry_consistent_external_verification_pending",
+        "previous_report_version": "legacy-7f7082742667",
+        "review_status": "ai_assisted_review_human_review_pending",
+        "scope": "current_call_only"
+      },
+      "quarter": "Q3 2025",
+      "regeneration": {
+        "audio_features": "reused_from_previous_report_not_recomputed",
+        "claim_support_review": "ai_assisted_review_human_review_pending",
+        "generated_at": "2026-10-16T14:25:13.046898+00:00",
+        "historical_context": "retrieved",
+        "input": "saved_transcript_and_sentiment",
+        "provenance": {
+          "dataset_scope": [
+            {
+              "quarter": "Q3_2025",
+              "ticker": "MSFT"
+            }
+          ],
+          "generation": {
+            "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+            "input_segments_sha256": "0af6b2825171f44a9cf250edfdaf8143ca9c395aee940ec59a3d8421167c79a6",
+            "max_tokens": 8000,
+            "model": "openai/gpt-oss-120b",
+            "prompt_sha256": "3d07d32e46c2fd39632819f3af5163d3a45377a4701bc8d7b7ed616205a80581",
+            "response_id": "chatcmpl-53cc2ff5-af77-464a-95ab-bc40dec2a83c",
+            "selection": {
+              "citation_binding": "source_id_to_exact_selected_passage_v1",
+              "policy": "complete_passages_v1",
+              "top_k_per_seed_label": 4
+            }
+          },
+          "input_sha256": {
+            "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+            "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+            "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+            "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+            "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+            "data/processed/pipeline_runs/MSFT/Q3_2025.json": "1f72c5cf39da687dd4b9967808bd2185a9e2d6578bbdb6517f2d249e6d5c4e4b",
+            "data/processed/sentiment/segment/MSFT/Q3_2025.json": "b82160b70e81e0ab5e7e8c60fcd579e8896820224216b726949710fa3347537c",
+            "data/processed/transcripts/MSFT/Q2_2025.json": "5482e702eb525fe533cb1218a18340850b23e362a899ce7452d1f1dc46dbe677",
+            "data/processed/transcripts/MSFT/Q3_2025.json": "ca67fdc34f06d71597d351886ce6a78cf0101681e5ce389bb1965b5e6da03085",
+            "data/processed/transcripts/MSFT/Q4_2024.json": "b4fbc106ef8369a327d54e7bb7f7ed47fadd7cea32d8c6b03a36e963a0e97944",
+            "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+            "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+            "src/report/generate_structured_report.py": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+            "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f"
+          },
+          "retrieval": {
+            "queries_sha256": "c2d9c8a32a629bb840820fb6d4c8a07c78dbee0b488ca8fcba233df2c9c146c7",
+            "query_count": 4,
+            "query_policy": "selected_current_call_passages_v1"
+          }
+        }
+      },
+      "report_version": "complete-passages-271df70f9ef8",
+      "risks": [],
+      "schema_version": "1.0",
+      "sentiment_distribution": {
+        "negative": 6.2,
+        "neutral": 60.9,
+        "positive": 32.9
+      },
+      "stage_durations_sec": {
+        "regeneration_sec": 20.17
+      },
+      "ticker": "MSFT"
+    },
+    "review": {
+      "claim_edits": [
+        {
+          "original": "Enterprise services revenue increased 5% and partner services revenue increased 6% in constant currency, slightly ahead of expectations.",
+          "original_claim_index": 1,
+          "reason": "The source reports one combined enterprise-and-partner-services line, not separate 5% and 6% results.",
+          "revised": "Microsoft reported that the combined enterprise and partner services revenue line grew 5%, or 6% in constant currency, slightly ahead of expectations because enterprise support services performed better than expected."
+        },
+        {
+          "original": "Microsoft cloud revenue was $42.4\u202fbillion, grew 20% and 22% in constant currency, and was ahead of expectations.",
+          "original_claim_index": 2,
+          "reason": "Kept Microsoft Cloud scope, reported versus constant-currency growth and expectations qualifier.",
+          "revised": "Microsoft reported Cloud revenue of $42.4 billion, up 20%, or 22% in constant currency, ahead of expectations."
+        },
+        {
+          "original": "Commercial bookings rose 18% and 17% in constant currency, significantly ahead of expectations, driven by an Azure commitment from OpenAI.",
+          "original_claim_index": 3,
+          "reason": "Preserved the bookings scope, reported and constant-currency rates, and the company-stated OpenAI commitment driver.",
+          "revised": "Microsoft said commercial bookings increased 18%, or 17% in constant currency, significantly ahead of expectations, driven in part by an Azure commitment from OpenAI."
+        },
+        {
+          "original": "On\u2011premises server business revenue decreased 6% and 4% in constant currency, slightly below expectations.",
+          "original_claim_index": 4,
+          "reason": "Kept both on-premises server decline rates and the revenue-recognition qualification.",
+          "revised": "Microsoft reported on-premises server revenue down 6%, or 4% in constant currency, slightly below expectations because renewals carried lower in-period revenue recognition."
+        },
+        {
+          "original": "Microsoft Cloud gross margin percentage is expected to be roughly 67% year\u2011over\u2011year down, primarily due to scaling AI infrastructure.",
+          "original_claim_index": 5,
+          "reason": "Clarified that 67% is a projected Q4 FY2025 margin level, not a 67% year-over-year decline.",
+          "revised": "For Q4 FY2025, Microsoft expected Cloud gross-margin percentage of roughly 67%, lower year over year, primarily because of scaling AI infrastructure."
+        }
+      ],
+      "excluded_claims": [
+        {
+          "claim": "Better than expected performance across Microsoft\u2019s segments was observed.",
+          "original_claim_index": 0,
+          "reason": "The generic better-than-expected statement adds little beyond the specific, supported metrics and came from a Q&A passage without verified speaker identity."
+        }
+      ],
+      "historical_context_decision": "The retrieved Q2 excerpt discussed AI capacity and scale motions, while two Q4 excerpts covered different Azure/platform and older segment results. None supplied a clear executive-specific communication comparison for the retained claims, so no earlier context was published.",
+      "limitations": [
+        "AI-assisted transcript review is not independent human-labelled ground truth.",
+        "Saved transcript passages and timestamps have not been checked against the original recording.",
+        "No executive-specific linguistic or vocal baseline has been evaluated.",
+        "Sentiment-selected passages do not comprehensively cover the call."
+      ],
+      "new_context_quarters": [],
+      "original_candidate_path": "data/processed/report_candidates/remaining/MSFT/Q3_2025.json",
+      "original_candidate_sha256": "bac693cf6777da1f75f0c6401340cf683b0f4276c7c0b6b0b929f082f189f660",
+      "original_generated_claims": [
+        {
+          "citation": {
+            "source_text": "In general, we saw better than expected performance across our segments.",
+            "timestamp_sec": 3086
+          },
+          "claim": "Better than expected performance across Microsoft\u2019s segments was observed.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Enterprise and partner services revenue increased 5% and 6% in constant currency, slightly ahead of expectations due to better than expected performance in enterprise support services. Segment gross margin dollars increased 13% and 14% in constant currency, and gross margin percentage decreased 4.0 over year, driven by scaling our AI infrastructure.",
+            "timestamp_sec": 1380
+          },
+          "claim": "Enterprise services revenue increased 5% and partner services revenue increased 6% in constant currency, slightly ahead of expectations.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "The remaining portion recognized beyond the next 12 months increased 47%. And this quarter, our annuity mix, was 98%. FX was roughly in line with expectations on total company revenue, segment-level revenue, and operating expense growth. FX decreased cod's growth by only one point, one point unfavorable to expectations. Microsoft cloud revenue was $42.4 billion ahead of expectations and grew 20% and 22% in constant currency. Microsoft cloud gross margin percentage was 69% in line with expectations and decreased three points year over year, driven by the impact of scaling our AI infrastructure. Company gross margin percentage was also 69% down one point year over year, driven by scaling our AI infrastructure. Operating expenses increased 2% and 3% in constant currency, lower than expected due to our focus on cost efficiencies, as well as investments that shifted to Q4. Operating margins increased one point year over year to 46%.",
+            "timestamp_sec": 1108
+          },
+          "claim": "Microsoft cloud revenue was $42.4\u202fbillion, grew 20% and 22% in constant currency, and was ahead of expectations.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Commercial bookings increased 18% and 17% in constant currency, significantly ahead of expectations, again, this quarter, driven by an Azure commitment from OpenAI. We also saw consistent execution across our core annuity sales motions and continued long-term commitments to our platform.",
+            "timestamp_sec": 1075
+          },
+          "claim": "Commercial bookings rose 18% and 17% in constant currency, significantly ahead of expectations, driven by an Azure commitment from OpenAI.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Focused execution drove non AI services results, where we saw accelerated growth in our enterprise customer segment, as well as some improvement in our scale motions. And in Azure AI services, we brought capacity online faster than expected. In our on-premises server business, revenue decreased 6% and 4% in constant currency, slightly below expectations, driven by renewals with lower in-period revenue recognition from the mix of contracts.",
+            "timestamp_sec": 1346
+          },
+          "claim": "On\u2011premises server business revenue decreased 6% and 4% in constant currency, slightly below expectations.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "In commercial bookings, we expect solid growth on a significant prior year comparable and a growing X pre-base. Bookings growth will be driven by strong execution across our core annuity sales motions and continued long-term commitments to our platform. As a reminder, larger longer-term measure contracts, which are more unpredictable in their timing, can drive increased quarterly volatility in our bookings growth rate. Microsoft Cloud gross margin percentage should be roughly 67% down year over year, primarily driven by the impact of scaling our AI infrastructure.",
+            "timestamp_sec": 1643
+          },
+          "claim": "Microsoft Cloud gross margin percentage is expected to be roughly 67% year\u2011over\u2011year down, primarily due to scaling AI infrastructure.",
+          "sentiment": "negative"
+        }
+      ],
+      "original_generated_summary": "The call highlighted strong cloud and services revenue growth and commercial bookings that beat expectations, while on\u2011premises server revenue fell and cloud gross margin is projected to decline, reflecting a mixed performance picture. FinBERT sentiment distribution was 32.9% positive, 6.2% negative, and 60.9% neutral.",
+      "per_claim": [
+        {
+          "claim_index": 0,
+          "original_claim_index": 1,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1380
+        },
+        {
+          "claim_index": 1,
+          "original_claim_index": 2,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1108
+        },
+        {
+          "claim_index": 2,
+          "original_claim_index": 3,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1075
+        },
+        {
+          "claim_index": 3,
+          "original_claim_index": 4,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1346
+        },
+        {
+          "claim_index": 4,
+          "original_claim_index": 5,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1643
+        }
+      ],
+      "previous_context_quarters": [
+        "Q1 2025",
+        "Q4 2024",
+        "Q4 2024"
+      ],
+      "retrieved_context": [
+        {
+          "quarter": "Q2 2025",
+          "start_sec": 2110.0,
+          "text": "Our AI, Azure AI results were better than we thought due to very good work by the operating teams pulling in some delivery dates, even by weeks. When your capacity constrained weeks matter and it was good execution by the team and you see that in the revenue results. On the non AI side, really the challenges were in what we call the scale motions. So think about primarily, these are customers we reach through partners and through more indirect methods of selling. And really, the art form there is as these customers, which we reach in this way, are trying to balance how do you do an AI workload with continuing some of the work they've done on migrations and other fundamentals. We then took our sales motions in the summer and really changed to try to balance those two. As you do that, you learn with your customers and with your partners on sort of getting that balance right between where to put our investments, where to put the marketing dollars, and importantly, where to put people in terms of coverage and being able to help customers make those transitions. And I think we are going to make some adjustments to make sure we are in balance because when you make those changes in the summer by the time it works its way through the system, you can see the impacts and whether you have that balance right. And so the teams are working through that, they're already making adjustments."
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 2634.4,
+          "text": "we started giving you that you saw an acceleration of that this quarter. One of the other pieces Mark is AI doesn't sit on its own right so it's just for it we have a concept of design wins in Azure so in fact 50% of the folks who are using Azure AI are also using a data meter that's very exciting to us because the most important thing in Azure is to win workloads in the enterprise and that is starting to happen and these are generational things once they get going with you so that's I think how we think about it at least when I look at what's happening on our demand site and Mark answered the second half of your question on margin improvement looking different than it did through the last cloud cycle that's primarily for a reason I've mentioned a couple times we have a consistent platform so because we're building to one Azure AI stack we don't have to have multiple infrastructure investments we're making one we're using that internally first party and that's what we're using with customers to build on as well as ISVs so it does in fact make margins start off better and obviously scale consistently. Thank you. Thanks Mark operator next question please. The next question comes from the line of cash rangan with Goldman Sachs please proceed. I thank you very much and congrats on a great your fiscal year ending question for you Amy when you look at the capex how do you bring efficiencies out of the capex you disclose at 50% of the"
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 1335.84,
+          "text": "in accounting estimate, growth margin percentage decreased slightly driven by Office 365 as we scale our AI infrastructure. Operating expenses increased 5% and operating income increased 12% and 13% in constant currency. Next the intelligent cloud segment. Revenue was $28.5 billion increasing 19% and 20% in constant currency in line with expectations. Overall server products in cloud services revenue grew 21% and 22% in constant currency. Azure and other cloud services revenue grew 29% and 30% in constant currency in line with expectations and consistent with Q3 when adjusting for leap year. Azure growth included eight points from AI services where demand remained higher than our available capacity. In June we saw slightly lower than expected growth in a few European GOs. In our per user business the enterprise mobility and security install base grew 10% to over 281 billion seats with continued impact from moderated growth and seats sold outside the Microsoft 365 suite. Therefore our Azure consumption business continues to grow faster than total Azure. In our on-premises server business revenue increased 2% and 3% in constant currency. Growth was driven by demand for our hybrid solutions although was slightly lower than expected transactional purchasing. Enterprise and partner services revenue decreased 7% on a strong prior year comparable for enterprise support services. Segment gross margin dollars increased 16% and gross margin percentage decreased roughly 2.0 year over year. Excluding the impact of the change in accounting estimate gross margin percentage decreased slightly driven by sales mix shift to Azure partially offset by the improvement in Azure noted earlier even with the impact of"
+        }
+      ],
+      "reviewed_at": "2026-10-16T14:27:16.364168+00:00",
+      "scope": "AI-assisted review of saved transcripts and surrounding passages; recordings and independent human review pending.",
+      "status": "ai_assisted_review_human_review_pending",
+      "summary_corrections": [
+        "Kept the enterprise-and-partner-services line combined.",
+        "Clarified that roughly 67% is a projected Cloud gross-margin level for Q4 FY2025, not the amount of a decline.",
+        "Removed unsupported broad \u201cmixed performance\u201d interpretation.",
+        "Described FinBERT values as scored transcript-segment labels, not vocal confidence."
+      ]
+    },
+    "structured_claims": {
+      "claims": [
+        {
+          "citation": {
+            "source_text": "Enterprise and partner services revenue increased 5% and 6% in constant currency, slightly ahead of expectations due to better than expected performance in enterprise support services. Segment gross margin dollars increased 13% and 14% in constant currency, and gross margin percentage decreased 4.0 over year, driven by scaling our AI infrastructure.",
+            "timestamp_sec": 1380
+          },
+          "claim": "Microsoft reported that the combined enterprise and partner services revenue line grew 5%, or 6% in constant currency, slightly ahead of expectations because enterprise support services performed better than expected.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "The remaining portion recognized beyond the next 12 months increased 47%. And this quarter, our annuity mix, was 98%. FX was roughly in line with expectations on total company revenue, segment-level revenue, and operating expense growth. FX decreased cod's growth by only one point, one point unfavorable to expectations. Microsoft cloud revenue was $42.4 billion ahead of expectations and grew 20% and 22% in constant currency. Microsoft cloud gross margin percentage was 69% in line with expectations and decreased three points year over year, driven by the impact of scaling our AI infrastructure. Company gross margin percentage was also 69% down one point year over year, driven by scaling our AI infrastructure. Operating expenses increased 2% and 3% in constant currency, lower than expected due to our focus on cost efficiencies, as well as investments that shifted to Q4. Operating margins increased one point year over year to 46%.",
+            "timestamp_sec": 1108
+          },
+          "claim": "Microsoft reported Cloud revenue of $42.4 billion, up 20%, or 22% in constant currency, ahead of expectations.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Commercial bookings increased 18% and 17% in constant currency, significantly ahead of expectations, again, this quarter, driven by an Azure commitment from OpenAI. We also saw consistent execution across our core annuity sales motions and continued long-term commitments to our platform.",
+            "timestamp_sec": 1075
+          },
+          "claim": "Microsoft said commercial bookings increased 18%, or 17% in constant currency, significantly ahead of expectations, driven in part by an Azure commitment from OpenAI.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Focused execution drove non AI services results, where we saw accelerated growth in our enterprise customer segment, as well as some improvement in our scale motions. And in Azure AI services, we brought capacity online faster than expected. In our on-premises server business, revenue decreased 6% and 4% in constant currency, slightly below expectations, driven by renewals with lower in-period revenue recognition from the mix of contracts.",
+            "timestamp_sec": 1346
+          },
+          "claim": "Microsoft reported on-premises server revenue down 6%, or 4% in constant currency, slightly below expectations because renewals carried lower in-period revenue recognition.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "In commercial bookings, we expect solid growth on a significant prior year comparable and a growing X pre-base. Bookings growth will be driven by strong execution across our core annuity sales motions and continued long-term commitments to our platform. As a reminder, larger longer-term measure contracts, which are more unpredictable in their timing, can drive increased quarterly volatility in our bookings growth rate. Microsoft Cloud gross margin percentage should be roughly 67% down year over year, primarily driven by the impact of scaling our AI infrastructure.",
+            "timestamp_sec": 1643
+          },
+          "claim": "For Q4 FY2025, Microsoft expected Cloud gross-margin percentage of roughly 67%, lower year over year, primarily because of scaling AI infrastructure.",
+          "sentiment": "negative"
+        }
+      ],
+      "evidence_policy": "complete_passages_v1",
+      "generation_provenance": {
+        "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+        "input_segments_sha256": "0af6b2825171f44a9cf250edfdaf8143ca9c395aee940ec59a3d8421167c79a6",
+        "max_tokens": 8000,
+        "model": "openai/gpt-oss-120b",
+        "prompt_sha256": "3d07d32e46c2fd39632819f3af5163d3a45377a4701bc8d7b7ed616205a80581",
+        "response_id": "chatcmpl-53cc2ff5-af77-464a-95ab-bc40dec2a83c",
+        "selection": {
+          "citation_binding": "source_id_to_exact_selected_passage_v1",
+          "policy": "complete_passages_v1",
+          "top_k_per_seed_label": 4
+        }
+      },
+      "overall_summary": "Microsoft reported Cloud revenue of $42.4 billion, up 20%, or 22% in constant currency, and commercial bookings growth of 18%, or 17% in constant currency, both ahead of expectations. The combined enterprise and partner services revenue line grew 5%, or 6% in constant currency, while on-premises server revenue declined 6%, or 4% in constant currency. For Q4 FY2025, Microsoft expected Cloud gross margin of roughly 67%, lower year over year as it scaled AI infrastructure. FinBERT classified 32.9% of scored transcript segments as positive, 6.2% as negative and 60.9% as neutral; these text labels do not measure vocal confidence.",
+      "report_version": "complete-passages-271df70f9ef8"
+    }
+  },
+  "version": "complete-passages-271df70f9ef8"
+}

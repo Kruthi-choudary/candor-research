@@ -1,0 +1,317 @@
+{
+  "structured_claims": {
+    "claims": [
+      {
+        "claim": "Ad revenue growth was strongest in Europe (24%) and Rest of World (23%) on a geography basis, with North America and Asia Pacific growing 21% and 18% respectively, and total ad impressions increased 11% in Q2, mainly driven by Asia Pacific.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 705,
+          "source_text": "On a user geography basis ad revenue growth was strongest in Europe and rest of world at 24% and 23% respectively. North America and Asia Pacific grew 21% and 18%. In Q2 the total number of ad impressions served across our services increased 11% with growth mainly driven by Asia Pacific."
+        }
+      },
+      {
+        "claim": "The average price per ad increased 9% as a result of higher advertiser demand driven largely by improved ad performance.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 730,
+          "source_text": "Impression growth accelerated across all regions due primarily to engagement tailwinds on both Facebook and Instagram and to a lesser extent add load optimizations on Facebook. The average price per ad increased 9% benefiting from increased advertiser demand largely driven by improved ad performance."
+        }
+      },
+      {
+        "claim": "Reality Labs reported an operating loss of $4.5\u202fbillion for the quarter.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 826,
+          "source_text": "Reality Labs operating loss was $4.5 billion. Turning now to the business outlook there are two primary factors that drive our revenue performance. Our ability to deliver engaging experiences for our community and our effectiveness at monetizing that engagement over time. On the first daily actives continue to grow across Facebook, Instagram and WhatsApp as we make additional improvements to our recommendation systems and product experiences. We continue to see momentum with video engagement in particular. In Q2 Instagram video time was up more than 20% year over year globally. We're seeing strong traction on Facebook as well particularly in the U.S. where video time spent similarly expanded more than 20% year over year. These gains have been enabled by ongoing optimizations to our ranking systems to better identify the most relevant content to show."
+        }
+      },
+      {
+        "claim": "Q2 total family\u2011of\u2011apps revenue was $47.1\u202fbillion, up 22% year over year.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 668,
+          "source_text": "I'll begin with our family of apps segment. Our community across the family of apps continues to grow and we estimate more than 3.4 billion people used at least one of our family of apps on a daily basis in June. Q2 total family of apps revenue was $47.1 billion up 22% year over year. Q2 family of apps ad revenue was $46.6 billion up 21% or 22% on a constant currency basis."
+        }
+      },
+      {
+        "claim": "Pricing growth slowed modestly from the first quarter due to the accelerated impression growth in Q2.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 751,
+          "source_text": "Pricing growth slowed modestly from the first quarter due to the accelerated impression growth in Q2. Family of apps other revenue was $583 million up 50% driven by WhatsApp paid messaging revenue growth as well as meta verified subscriptions. We continue to direct the majority of our investments toward the development and operation of our family of apps. In Q2 family of apps expenses were 22.2 billion dollars representing 82% of our overall expenses. Family of apps expenses were up 14% mainly due to growth in employee compensation and infrastructure costs partially offset by lower legal related costs. Family of apps operating income was $25 billion representing a 53% operating margin. Within our reality lab segment Q2 revenue was $370 million up 5% year over year due to increased sales of AI glasses partially offset by lower quest sales. Reality Labs expenses were $4.9 billion up 1% year over year driven by higher non-headcount related technology development costs."
+        }
+      },
+      {
+        "claim": "Regulatory headwinds in the EU could materially worsen user and advertiser experience and have a significant negative impact on European revenue.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1735,
+          "source_text": "In addition, we continue to monitor an active regulatory landscape including the increasing legal and regulatory headwinds in the EU that could significantly impact our business and our financial results. For example, we continue to engage with the European Commission on our less personalized ads offering or LPA which we introduced in November 2024 based on feedback from the European Commission in connection with the DMA. As the Commission provides further feedback on LPA, we cannot rule out that it may seek to impose further modifications to it that would result in a materially worse user and advertiser experience. This could have a significant negative impact on our European revenue as early as later this quarter. We have appealed the European Commission's DMA decision, but any modifications to our model may be imposed during the appeal process."
+        }
+      },
+      {
+        "claim": "Full\u2011year 2025 total expenses are expected to be $114\u202fbillion\u2013$118\u202fbillion, reflecting 20%\u201324% year\u2011over\u2011year growth.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1593,
+          "source_text": "We expect full year 2025 total expenses to be in the range of 114 to 118 billion dollars, narrowed from our prior outlook of 113 to 118 billion dollars and reflecting a growth rate of 20 to 24 percent year over year. While we're still very early in planning for next year, there are a few factors we expect will provide meaningful upward pressure on our 2026 total expense growth rate. The largest single driver of growth will be infrastructure costs driven by a sharp acceleration in depreciation expense growth and higher operating costs as we continue to scale up our infrastructure fleet. Aside from infrastructure, we expect the second largest driver of growth to be employee compensation as we add technical talent in priority areas and recognize a full year of compensation expenses for employees hired throughout 2025. We expect these factors will result in a 2026 year over year expense growth rate that is above the 2025 expense growth rate."
+        }
+      },
+      {
+        "claim": "The company expects Q4 2025 year\u2011over\u2011year growth to be slower than Q3 2025, reflecting a lag from the stronger Q4 2024 growth period.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1575,
+          "source_text": "While we are not providing an outlook for fourth quarter revenue, we would expect our year over year growth rate in the fourth quarter of 2025 to be slower than the third quarter as we lap a period of stronger growth in the fourth quarter of 2024. Turning now to the expense outlook."
+        }
+      }
+    ],
+    "overall_summary": "Meta reported robust ad revenue growth and a record $47.1\u202fbillion family\u2011of\u2011apps revenue in Q2 2025, with ad impressions up 11% and average price per ad rising 9%, while daily active users exceeded 3.4\u202fbillion. At the same time, the company highlighted a $4.5\u202fbillion operating loss at Reality Labs, slower pricing growth, higher projected expenses, and potential European regulatory headwinds that could pressure future revenue. FinBERT analysis shows a predominantly neutral tone (70.9%), modest positivity (26.6%) and limited negativity (2.5%).",
+    "evidence_policy": "complete_passages_v1",
+    "generation_provenance": {
+      "model": "openai/gpt-oss-120b",
+      "max_tokens": 8000,
+      "response_id": "chatcmpl-db275d9b-e4c2-4278-9d62-0671f859c98a",
+      "prompt_sha256": "afec78ca7818695adace877c3ecc047f4799435fc717581078ad8054159a2b63",
+      "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+      "input_segments_sha256": "b1ff0766b0731fb655ca9f2367fda48fe63ab29bdf9c1870570d21c78f610e70",
+      "selection": {
+        "policy": "complete_passages_v1",
+        "top_k_per_seed_label": 4
+      }
+    }
+  },
+  "citation_evaluation": {
+    "ticker": "META",
+    "quarter": "Q2_2025",
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0,
+    "citations": [
+      {
+        "claim": "Ad revenue growth was strongest in Europe (24%) and Rest of World (23%) on a geography basis, with North America and Asia Pacific growing 21% and 18% respectively, and total ad impressions increased 11% in Q2, mainly driven by Asia Pacific.",
+        "source_text": "On a user geography basis ad revenue growth was strongest in Europe and rest of world at 24% and 23% respectively. North America and Asia Pacific grew 21% and 18%. In Q2 the total number of ad impressions served across our services increased 11% with growth mainly driven by Asia Pacific.",
+        "timestamp_sec": 705,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "The average price per ad increased 9% as a result of higher advertiser demand driven largely by improved ad performance.",
+        "source_text": "Impression growth accelerated across all regions due primarily to engagement tailwinds on both Facebook and Instagram and to a lesser extent add load optimizations on Facebook. The average price per ad increased 9% benefiting from increased advertiser demand largely driven by improved ad performance.",
+        "timestamp_sec": 730,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Reality Labs reported an operating loss of $4.5\u202fbillion for the quarter.",
+        "source_text": "Reality Labs operating loss was $4.5 billion. Turning now to the business outlook there are two primary factors that drive our revenue performance. Our ability to deliver engaging experiences for our community and our effectiveness at monetizing that engagement over time. On the first daily actives continue to grow across Facebook, Instagram and WhatsApp as we make additional improvements to our recommendation systems and product experiences. We continue to see momentum with video engagement in particular. In Q2 Instagram video time was up more than 20% year over year globally. We're seeing strong traction on Facebook as well particularly in the U.S. where video time spent similarly expanded more than 20% year over year. These gains have been enabled by ongoing optimizations to our ranking systems to better identify the most relevant content to show.",
+        "timestamp_sec": 826,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Q2 total family\u2011of\u2011apps revenue was $47.1\u202fbillion, up 22% year over year.",
+        "source_text": "I'll begin with our family of apps segment. Our community across the family of apps continues to grow and we estimate more than 3.4 billion people used at least one of our family of apps on a daily basis in June. Q2 total family of apps revenue was $47.1 billion up 22% year over year. Q2 family of apps ad revenue was $46.6 billion up 21% or 22% on a constant currency basis.",
+        "timestamp_sec": 668,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Pricing growth slowed modestly from the first quarter due to the accelerated impression growth in Q2.",
+        "source_text": "Pricing growth slowed modestly from the first quarter due to the accelerated impression growth in Q2. Family of apps other revenue was $583 million up 50% driven by WhatsApp paid messaging revenue growth as well as meta verified subscriptions. We continue to direct the majority of our investments toward the development and operation of our family of apps. In Q2 family of apps expenses were 22.2 billion dollars representing 82% of our overall expenses. Family of apps expenses were up 14% mainly due to growth in employee compensation and infrastructure costs partially offset by lower legal related costs. Family of apps operating income was $25 billion representing a 53% operating margin. Within our reality lab segment Q2 revenue was $370 million up 5% year over year due to increased sales of AI glasses partially offset by lower quest sales. Reality Labs expenses were $4.9 billion up 1% year over year driven by higher non-headcount related technology development costs.",
+        "timestamp_sec": 751,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Regulatory headwinds in the EU could materially worsen user and advertiser experience and have a significant negative impact on European revenue.",
+        "source_text": "In addition, we continue to monitor an active regulatory landscape including the increasing legal and regulatory headwinds in the EU that could significantly impact our business and our financial results. For example, we continue to engage with the European Commission on our less personalized ads offering or LPA which we introduced in November 2024 based on feedback from the European Commission in connection with the DMA. As the Commission provides further feedback on LPA, we cannot rule out that it may seek to impose further modifications to it that would result in a materially worse user and advertiser experience. This could have a significant negative impact on our European revenue as early as later this quarter. We have appealed the European Commission's DMA decision, but any modifications to our model may be imposed during the appeal process.",
+        "timestamp_sec": 1735,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Full\u2011year 2025 total expenses are expected to be $114\u202fbillion\u2013$118\u202fbillion, reflecting 20%\u201324% year\u2011over\u2011year growth.",
+        "source_text": "We expect full year 2025 total expenses to be in the range of 114 to 118 billion dollars, narrowed from our prior outlook of 113 to 118 billion dollars and reflecting a growth rate of 20 to 24 percent year over year. While we're still very early in planning for next year, there are a few factors we expect will provide meaningful upward pressure on our 2026 total expense growth rate. The largest single driver of growth will be infrastructure costs driven by a sharp acceleration in depreciation expense growth and higher operating costs as we continue to scale up our infrastructure fleet. Aside from infrastructure, we expect the second largest driver of growth to be employee compensation as we add technical talent in priority areas and recognize a full year of compensation expenses for employees hired throughout 2025. We expect these factors will result in a 2026 year over year expense growth rate that is above the 2025 expense growth rate.",
+        "timestamp_sec": 1593,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "The company expects Q4 2025 year\u2011over\u2011year growth to be slower than Q3 2025, reflecting a lag from the stronger Q4 2024 growth period.",
+        "source_text": "While we are not providing an outlook for fourth quarter revenue, we would expect our year over year growth rate in the fourth quarter of 2025 to be slower than the third quarter as we lap a period of stronger growth in the fourth quarter of 2024. Turning now to the expense outlook.",
+        "timestamp_sec": 1575,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      }
+    ]
+  },
+  "report": {
+    "schema_version": "1.0",
+    "ticker": "META",
+    "company": "Meta",
+    "quarter": "Q2 2025",
+    "call_date": "2025-07-30",
+    "overall_summary": "Meta reported robust ad revenue growth and a record $47.1\u202fbillion family\u2011of\u2011apps revenue in Q2 2025, with ad impressions up 11% and average price per ad rising 9%, while daily active users exceeded 3.4\u202fbillion. At the same time, the company highlighted a $4.5\u202fbillion operating loss at Reality Labs, slower pricing growth, higher projected expenses, and potential European regulatory headwinds that could pressure future revenue. FinBERT analysis shows a predominantly neutral tone (70.9%), modest positivity (26.6%) and limited negativity (2.5%).",
+    "evidence_policy": "complete_passages_v1",
+    "sentiment_distribution": {
+      "positive": 26.6,
+      "negative": 2.5,
+      "neutral": 70.9
+    },
+    "key_claims": [
+      {
+        "claim": "Ad revenue growth was strongest in Europe (24%) and Rest of World (23%) on a geography basis, with North America and Asia Pacific growing 21% and 18% respectively, and total ad impressions increased 11% in Q2, mainly driven by Asia Pacific.",
+        "evidence": "On a user geography basis ad revenue growth was strongest in Europe and rest of world at 24% and 23% respectively. North America and Asia Pacific grew 21% and 18%. In Q2 the total number of ad impressions served across our services increased 11% with growth mainly driven by Asia Pacific.",
+        "timestamp_sec": 705,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "The average price per ad increased 9% as a result of higher advertiser demand driven largely by improved ad performance.",
+        "evidence": "Impression growth accelerated across all regions due primarily to engagement tailwinds on both Facebook and Instagram and to a lesser extent add load optimizations on Facebook. The average price per ad increased 9% benefiting from increased advertiser demand largely driven by improved ad performance.",
+        "timestamp_sec": 730,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Reality Labs reported an operating loss of $4.5\u202fbillion for the quarter.",
+        "evidence": "Reality Labs operating loss was $4.5 billion. Turning now to the business outlook there are two primary factors that drive our revenue performance. Our ability to deliver engaging experiences for our community and our effectiveness at monetizing that engagement over time. On the first daily actives continue to grow across Facebook, Instagram and WhatsApp as we make additional improvements to our recommendation systems and product experiences. We continue to see momentum with video engagement in particular. In Q2 Instagram video time was up more than 20% year over year globally. We're seeing strong traction on Facebook as well particularly in the U.S. where video time spent similarly expanded more than 20% year over year. These gains have been enabled by ongoing optimizations to our ranking systems to better identify the most relevant content to show.",
+        "timestamp_sec": 826,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Q2 total family\u2011of\u2011apps revenue was $47.1\u202fbillion, up 22% year over year.",
+        "evidence": "I'll begin with our family of apps segment. Our community across the family of apps continues to grow and we estimate more than 3.4 billion people used at least one of our family of apps on a daily basis in June. Q2 total family of apps revenue was $47.1 billion up 22% year over year. Q2 family of apps ad revenue was $46.6 billion up 21% or 22% on a constant currency basis.",
+        "timestamp_sec": 668,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Pricing growth slowed modestly from the first quarter due to the accelerated impression growth in Q2.",
+        "evidence": "Pricing growth slowed modestly from the first quarter due to the accelerated impression growth in Q2. Family of apps other revenue was $583 million up 50% driven by WhatsApp paid messaging revenue growth as well as meta verified subscriptions. We continue to direct the majority of our investments toward the development and operation of our family of apps. In Q2 family of apps expenses were 22.2 billion dollars representing 82% of our overall expenses. Family of apps expenses were up 14% mainly due to growth in employee compensation and infrastructure costs partially offset by lower legal related costs. Family of apps operating income was $25 billion representing a 53% operating margin. Within our reality lab segment Q2 revenue was $370 million up 5% year over year due to increased sales of AI glasses partially offset by lower quest sales. Reality Labs expenses were $4.9 billion up 1% year over year driven by higher non-headcount related technology development costs.",
+        "timestamp_sec": 751,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Regulatory headwinds in the EU could materially worsen user and advertiser experience and have a significant negative impact on European revenue.",
+        "evidence": "In addition, we continue to monitor an active regulatory landscape including the increasing legal and regulatory headwinds in the EU that could significantly impact our business and our financial results. For example, we continue to engage with the European Commission on our less personalized ads offering or LPA which we introduced in November 2024 based on feedback from the European Commission in connection with the DMA. As the Commission provides further feedback on LPA, we cannot rule out that it may seek to impose further modifications to it that would result in a materially worse user and advertiser experience. This could have a significant negative impact on our European revenue as early as later this quarter. We have appealed the European Commission's DMA decision, but any modifications to our model may be imposed during the appeal process.",
+        "timestamp_sec": 1735,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Full\u2011year 2025 total expenses are expected to be $114\u202fbillion\u2013$118\u202fbillion, reflecting 20%\u201324% year\u2011over\u2011year growth.",
+        "evidence": "We expect full year 2025 total expenses to be in the range of 114 to 118 billion dollars, narrowed from our prior outlook of 113 to 118 billion dollars and reflecting a growth rate of 20 to 24 percent year over year. While we're still very early in planning for next year, there are a few factors we expect will provide meaningful upward pressure on our 2026 total expense growth rate. The largest single driver of growth will be infrastructure costs driven by a sharp acceleration in depreciation expense growth and higher operating costs as we continue to scale up our infrastructure fleet. Aside from infrastructure, we expect the second largest driver of growth to be employee compensation as we add technical talent in priority areas and recognize a full year of compensation expenses for employees hired throughout 2025. We expect these factors will result in a 2026 year over year expense growth rate that is above the 2025 expense growth rate.",
+        "timestamp_sec": 1593,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "The company expects Q4 2025 year\u2011over\u2011year growth to be slower than Q3 2025, reflecting a lag from the stronger Q4 2024 growth period.",
+        "evidence": "While we are not providing an outlook for fourth quarter revenue, we would expect our year over year growth rate in the fourth quarter of 2025 to be slower than the third quarter as we lap a period of stronger growth in the fourth quarter of 2024. Turning now to the expense outlook.",
+        "timestamp_sec": 1575,
+        "sentiment": "negative"
+      }
+    ],
+    "risks": [],
+    "management_outlook": [],
+    "citation_verification": {
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0
+    },
+    "audio_features_summary": {
+      "mean_pitch_hz": 188.66,
+      "mean_energy": 0.05,
+      "mean_speaking_rate_wps": 2.9,
+      "segments_analyzed": 602
+    },
+    "prior_quarter_context_used": [
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 715.32,
+        "text": "Q4 total family of apps revenue was $47.3 billion, up 21% year over year. And Q4 family of apps ad revenue was $46.8 billion, up 21% on both a reported and constant currency basis. Within ad revenue, the online commerce vertical was the largest contributor to year over year growth. On a user geography basis, ad revenue growth was strongest in rest of world at 27%, followed by Asia Pacific in Europe at 23% and 22% respectively. North America grew 18%. In Q4, the total number of ad impressions served across our services increased 6% and the average price per ad increased 14%. Impression growth was mainly driven by Asia Pacific. Pricing growth benefited from increased advertiser demand in part driven by improved ad performance. This was partially offset by impression growth, particularly from lower monetizing regions and surfaces. Family of apps other revenue was $519 million, up 55%, driven primarily by business messaging revenue growth from our WhatsApp business platform. We continue to direct the majority of our investments toward the development and operation of our family of apps. In Q4, family of apps expenses were $19 billion representing 76% of our overall expenses. Family of apps expenses were up 5%, primarily due to growth in infrastructure costs and employee compensation, which were partially offset by lower legal related expenses. Family of apps operating income was $28.3 billion representing a 60% operating margin. Within our reality lab segment, Q4 revenue was $1.1 billion, driven by hardware sales and up 1% year over year."
+      },
+      {
+        "quarter": "Q1 2025",
+        "start_sec": 905.12,
+        "text": "19 percent and 18 percent respectively. Europe and Asia Pacific grew 14 percent and 12 percent. In Q1, the total number of ad impressions served across our services increased 5 percent, and the average price per ad increased 10 percent. Impression growth was mainly driven by Asia Pacific. Pricing growth benefited from increased advertiser demand in part driven by improved ad performance. This was partially offset by impression growth, particularly from lower monetizing regions and surfaces. Family of apps other revenue was 510 million dollars, up 34 percent, driven mostly by business messaging revenue growth from our WhatsApp business platform, as well as meta verified subscriptions. We continue to direct the majority of our investments toward the development and operation of our family of apps. In Q1, family of apps expenses were 20.1 billion dollars, representing 81 percent of our overall expenses. Family of apps expenses were up 10 percent, mainly due to growth in employee compensation and infrastructure costs, which were partially offset by lower legal related expenses. Family of apps operating income was 21.8 billion dollars, representing a 52 percent operating margin. Within our reality lab segment, Q1 revenue was 412 million dollars, down 6 percent year over year due to lower meta quest sales, which were partially offset by increased sales of Rayban meta AI glasses. Reality Labs expenses were 4.6 billion dollars, up 8 percent year over year driven primarily by higher employee compensation. Reality Labs operating loss was 4.2 billion dollars. Turning now to the business outlook, there are two primary factors that drive our revenue"
+      },
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 1034.84,
+        "text": "and preferences. Now to the second driver of our revenue performance, increasing monetization efficiency. The first part of this work is optimizing the level of ads with an organic engagement. We continue to grow supply on lower monetizing surfaces, like video, while optimizing ad supply on each of our services to deliver ads at the time and place they will be most relevant to people. For example, we are continuing to better personalize when ads show up, including the optimal locations in the depth of someone's feed to introduce ad supply when it's most optimal for the user and revenue. This is enabling efficient supply growth. Longer term, we also see impression growth opportunities on unmonetized surfaces like threads, which we are beginning to test ads on this quarter. We expect the introduction of ads on threads will be gradual and don't anticipate it being a meaningful driver of overall impression or revenue growth in 2025. The second part of increasing monetization efficiency is improving marketing performance. The ongoing enhancements to our ads ranking systems are an important driver of this work. In the second half of 2024, we introduced an innovative new machine learning system in partnership with NVIDIA called Andromeda. This more efficient system enabled a 10,000 times increase in the complexity of models we use for ads retrieval, which is the part of the ranking process where we narrow down a pool of tens of millions of ads to the few thousand we consider showing someone. The increase in model complexity is enabling"
+      }
+    ],
+    "pipeline_version": "1.0",
+    "stage_durations_sec": {
+      "regeneration_sec": 27.29
+    },
+    "regeneration": {
+      "generated_at": "2026-10-16T09:42:52.164555+00:00",
+      "input": "saved_transcript_and_sentiment",
+      "audio_features": "reused_from_previous_report_not_recomputed",
+      "historical_context": "retrieved",
+      "claim_support_review": "pending",
+      "provenance": {
+        "dataset_scope": [
+          {
+            "ticker": "META",
+            "quarter": "Q2_2025"
+          }
+        ],
+        "generation": {
+          "model": "openai/gpt-oss-120b",
+          "max_tokens": 8000,
+          "response_id": "chatcmpl-db275d9b-e4c2-4278-9d62-0671f859c98a",
+          "prompt_sha256": "afec78ca7818695adace877c3ecc047f4799435fc717581078ad8054159a2b63",
+          "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+          "input_segments_sha256": "b1ff0766b0731fb655ca9f2367fda48fe63ab29bdf9c1870570d21c78f610e70",
+          "selection": {
+            "policy": "complete_passages_v1",
+            "top_k_per_seed_label": 4
+          }
+        },
+        "retrieval": {
+          "query_policy": "selected_current_call_passages_v1",
+          "queries_sha256": "341a12895e18a1af34806369a49b21018359f0f72d93f7858a97bdf357100dd9",
+          "query_count": 4
+        },
+        "input_sha256": {
+          "data/processed/transcripts/META/Q2_2025.json": "a062e54bc9eceeeedd23c5eecfece1565fee76f59cde4a8d1d6ee4ffad892d1c",
+          "data/processed/sentiment/segment/META/Q2_2025.json": "3cfccbe42f874a50d15f9d975502bf0a47049db4f19256995d4a98ea09ee42a2",
+          "data/processed/pipeline_runs/META/Q2_2025.json": "24cfcf4adcc7113aea17ce565597c3c170bef5a0f9d1347671320f96981b7074",
+          "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+          "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+          "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+          "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+          "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f",
+          "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+          "src/report/generate_structured_report.py": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+          "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+          "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+          "data/processed/transcripts/META/Q4_2024.json": "0ab47b2f41fecdb196af4659423e1f95e3a01de5480b379cdeca5ef6f5955bf9",
+          "data/processed/transcripts/META/Q1_2025.json": "f0461d42a908ae037ab0af4937f7309dd2648abad2a5d40b37ba5834c0b82d9d"
+        }
+      }
+    }
+  },
+  "review": {
+    "status": "pending",
+    "previous_context_quarters": [
+      "Q1 2025",
+      "Q1 2025",
+      "Q4 2024"
+    ],
+    "new_context_quarters": [
+      "Q4 2024",
+      "Q1 2025",
+      "Q4 2024"
+    ],
+    "note": "Exact citation matches do not establish that the generated claims are supported. Review claims and qualifications before publishing."
+  }
+}

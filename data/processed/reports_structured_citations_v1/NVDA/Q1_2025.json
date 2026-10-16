@@ -1,69 +1,68 @@
 {
   "claims": [
     {
-      "claim": "Non-GAAP growth margins increased to 78.9% due to lower inventory charges.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1296,
-        "source_text": "and non-gap growth margins to 78.9% on lower inventory charges."
-      }
+        "source_text": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our outlook of 24 billion.",
+        "timestamp_sec": 141
+      },
+      "claim": "Nvidia reported Q1 fiscal 2025 revenue of $26 billion, up 18% sequentially and 262% year over year, above its $24 billion outlook.",
+      "sentiment": "positive"
     },
     {
-      "claim": "GAAP operating expenses rose 10% sequentially, and non-GAAP operating expenses also increased.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1309,
-        "source_text": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up"
-      }
+        "source_text": "Okay, moving to the rest of the P&L, gap growth margin expanded sequentially to 78.4% and non-gap growth margins to 78.9% on lower inventory charges.",
+        "timestamp_sec": 1289
+      },
+      "claim": "GAAP gross margin rose sequentially to 78.4%, and non-GAAP gross margin to 78.9%, with lower inventory charges.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Automotive revenue reached $329 million, up 17% sequentially and 11% year-over-year.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1232,
-        "source_text": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year."
-      }
+        "source_text": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year.",
+        "timestamp_sec": 1232
+      },
+      "claim": "Automotive revenue was $329\u202fmillion, up 17% sequentially and 11% year\u2011over\u2011year.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Total revenue hit $26\u202fbillion, up 18% sequentially and 262% year-over-year, far exceeding expectations.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 141,
-        "source_text": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our"
-      }
+        "source_text": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up 13%, primarily reflecting higher compensation-related costs and increased compute and infrastructure investments.",
+        "timestamp_sec": 1309
+      },
+      "claim": "GAAP operating expenses rose 10% sequentially and non-GAAP operating expenses rose 13%, mainly reflecting higher compensation costs and compute and infrastructure investments.",
+      "sentiment": "negative"
     },
     {
-      "claim": "Gaming revenue fell to $2.65\u202fbillion, an 8% sequential decline.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 1037,
-        "source_text": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and"
-      }
+        "source_text": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and up 18% year-on-year consistent with our outlook for a seasonal decline.",
+        "timestamp_sec": 1037
+      },
+      "claim": "Gaming revenue was $2.65 billion, down 8% sequentially and up 18% year over year, consistent with Nvidia\u2019s earlier outlook for a seasonal decline.",
+      "sentiment": "negative"
     },
     {
-      "claim": "ProViz revenue dropped 8% sequentially to $427\u202fmillion, though it grew 45% year-over-year.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 1149,
-        "source_text": "Moving to ProViz, revenue of 427 million was down 8% sequentially and up 45% year on year."
-      }
-    },
-    {
-      "claim": "Data center revenue in China has declined sharply from pre-imposition levels.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 582,
-        "source_text": "Our data center revenue in China is down significantly from the level prior to the imposition of"
-      }
-    },
-    {
-      "claim": "Overall business in China remains substantially lower than previous levels.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 3204,
-        "source_text": "It is the case that our business in China is substantially lower than the levels of"
-      }
+        "source_text": "Our data center revenue in China is down significantly from the level prior to the imposition of the new export control restrictions in October.",
+        "timestamp_sec": 582
+      },
+      "claim": "Nvidia said its China Data Center revenue was significantly below the level before new export-control restrictions in October.",
+      "sentiment": "negative"
     }
   ],
-  "overall_summary": "The earnings call showed robust overall and automotive revenue growth and high margins, while gaming sales fell and the China business weakened. Sentiment was heavily neutral (81.0%) with modest positive (16.9%) and minimal negative (2.1%) tones."
+  "evidence_policy": "complete_passages_v1",
+  "generation_provenance": {
+    "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+    "input_segments_sha256": "54b366c5cbab406dd41c2bba15fd028d5d5d0a9292e65e1d497c40200f3ceeea",
+    "max_tokens": 8000,
+    "model": "openai/gpt-oss-120b",
+    "prompt_sha256": "27facf68aaf500326a90f47eaedc8273037cac0d7e2e9c22b4fc93195ea81eae",
+    "response_id": "chatcmpl-43cdc570-1ce9-484e-8e2f-b7ea2173fe6b",
+    "selection": {
+      "citation_binding": "source_id_to_exact_selected_passage_v1",
+      "policy": "complete_passages_v1",
+      "top_k_per_seed_label": 4
+    }
+  },
+  "overall_summary": "Nvidia reported Q1 fiscal 2025 revenue of $26 billion, up 18% sequentially and 262% year over year, above the $24 billion outlook stated in its previous call. GAAP and non-GAAP gross margins were 78.4% and 78.9%, respectively, while corresponding operating expenses rose 10% and 13% sequentially. Gaming revenue fell 8% sequentially to $2.65 billion, and Nvidia said China Data Center revenue remained significantly below the level before the October export-control restrictions. The earlier-call excerpts provide business context, not evidence of a change in an executive\u2019s communication. FinBERT classified 16.9% of scored transcript segments as positive, 2.1% as negative and 81.0% as neutral; these text labels do not measure vocal confidence.",
+  "report_version": "complete-passages-344c2e5dce4a"
 }

@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "scope": "Scheduled earnings-call dates and fiscal/calendar labels checked against company announcements. Recording identity, occurrence and exact audio alignment not independently verified.",
+  "calls": {
+    "AAPL": {
+      "Q3_2025": {
+        "call_date": "2025-07-31",
+        "status": "primary_source_checked",
+        "source_url": "https://www.apple.com/newsroom/2025/07/apple-reports-third-quarter-results/",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated earnings release explicitly schedules this fiscal-quarter conference call on the recorded day at 14:00 Pacific."
+      },
+      "Q2_2025": {
+        "call_date": "2025-05-01",
+        "status": "primary_source_checked",
+        "source_url": "https://www.apple.com/newsroom/2025/05/apple-reports-second-quarter-results/",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated earnings release explicitly schedules this fiscal-quarter conference call on the recorded day at 14:00 Pacific."
+      },
+      "Q1_2025": {
+        "call_date": "2025-01-30",
+        "status": "primary_source_checked",
+        "source_url": "https://www.apple.com/newsroom/2025/01/apple-reports-first-quarter-results/",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated earnings release explicitly schedules this fiscal-quarter conference call on the recorded day at 14:00 Pacific."
+      },
+      "Q4_2024": {
+        "call_date": "2024-10-31",
+        "status": "primary_source_checked",
+        "source_url": "https://www.apple.com/newsroom/2024/10/apple-reports-fourth-quarter-results/",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated earnings release explicitly schedules this fiscal-quarter conference call on the recorded day at 14:00 Pacific."
+      }
+    },
+    "MSFT": {
+      "Q3_2025": {
+        "call_date": "2025-04-30",
+        "status": "primary_source_checked",
+        "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q3/press-release-webcast",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated fiscal-quarter release schedules the earnings call at 14:30 Pacific on the release day."
+      },
+      "Q2_2025": {
+        "call_date": "2025-01-29",
+        "status": "primary_source_checked",
+        "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q2/press-release-webcast",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated fiscal-quarter release schedules the earnings call at 14:30 Pacific on the release day."
+      },
+      "Q1_2025": {
+        "call_date": "2024-10-30",
+        "status": "primary_source_checked",
+        "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q1/press-release-webcast",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated fiscal-quarter release schedules the earnings call at 14:30 Pacific on the release day."
+      },
+      "Q4_2024": {
+        "call_date": "2024-07-30",
+        "status": "primary_source_checked",
+        "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2024-Q4/press-release-webcast",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated fiscal-quarter release schedules the earnings call at 14:30 Pacific on the release day."
+      }
+    },
+    "NVDA": {
+      "Q3_2025": {
+        "call_date": "2024-11-20",
+        "status": "primary_source_checked",
+        "source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2025/default.aspx",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated fiscal-quarter release schedules the earnings call at 14:00 Pacific on the release day."
+      },
+      "Q2_2025": {
+        "call_date": "2024-08-28",
+        "status": "primary_source_checked",
+        "source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2025/default.aspx",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated fiscal-quarter release schedules the earnings call at 14:00 Pacific on the release day."
+      },
+      "Q1_2025": {
+        "call_date": "2024-05-22",
+        "status": "primary_source_checked",
+        "source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2025/default.aspx",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated fiscal-quarter release schedules the earnings call at 14:00 Pacific on the release day."
+      },
+      "Q4_2024": {
+        "call_date": "2024-02-21",
+        "status": "primary_source_checked",
+        "source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2024/default.aspx",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated fiscal-quarter release schedules the earnings call at 14:00 Pacific on the release day."
+      }
+    },
+    "META": {
+      "Q3_2025": {
+        "call_date": "2025-10-29",
+        "status": "primary_source_checked",
+        "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated calendar-quarter release schedules a same-day call at 13:30 Pacific."
+      },
+      "Q2_2025": {
+        "call_date": "2025-07-30",
+        "status": "primary_source_checked",
+        "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Second-Quarter-2025-Results/default.aspx",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated calendar-quarter release schedules a same-day call at 14:00 Pacific."
+      },
+      "Q1_2025": {
+        "call_date": "2025-04-30",
+        "status": "primary_source_checked",
+        "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-First-Quarter-2025-Results/default.aspx",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated calendar-quarter release schedules a same-day call at 14:00 Pacific."
+      },
+      "Q4_2024": {
+        "call_date": "2025-01-29",
+        "status": "primary_source_checked",
+        "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx",
+        "checked_on": "2026-10-16",
+        "checked_by": "ai_assisted_web_review",
+        "evidence_basis": "Dated calendar-quarter release schedules a same-day call at 14:00 Pacific."
+      }
+    }
+  }
+}

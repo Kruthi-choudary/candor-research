@@ -172,6 +172,33 @@ class VectorAdapterTests(unittest.TestCase):
             )
             embedding.assert_called_once_with(model_name=build_index.EMBED_MODEL)
 
+    def test_topical_queries_get_distinct_historical_passages(self):
+        first = node("AAPL", "Q1_2025", text="Mac revenue")
+        second = node("AAPL", "Q4_2024", text="Other Mac passage")
+        third = node("AAPL", "Q1_2025", text="iPad revenue")
+        for i, item in enumerate((first, second, third)):
+            item.node.node_id = f"node-{i}"
+        with (
+            patch("llama_index.embeddings.huggingface.HuggingFaceEmbedding"),
+            patch("llama_index.vector_stores.postgres.PGVectorStore.from_params"),
+            patch("llama_index.core.VectorStoreIndex.from_vector_store") as make_index,
+        ):
+            retriever = make_index.return_value.as_retriever.return_value
+            retriever.retrieve.side_effect = [[first, second], [first, third]]
+            result = build_index._retrieve_nodes("AAPL", ["Q4_2024", "Q1_2025"], 3,
+                                                 queries=["Mac revenue", "iPad revenue"])
+            self.assertEqual([item.node.node_id for item in result], ["node-0", "node-2", "node-1"])
+            self.assertEqual([call.args[0] for call in retriever.retrieve.call_args_list],
+                             ["Mac revenue", "iPad revenue"])
+
+    def test_current_call_queries_alternate_selected_positive_and_negative_topics(self):
+        with patch("src.report.evidence.select_evidence_passages", return_value=(
+            [{"text": "Mac revenue"}, {"text": "Services revenue"}],
+            [{"text": "iPad revenue"}, {"text": "Wearables revenue"}],
+        )):
+            self.assertEqual(build_index.current_call_queries([]),
+                             ["Mac revenue", "iPad revenue", "Services revenue", "Wearables revenue"])
+
 
 if __name__ == "__main__":
     unittest.main()

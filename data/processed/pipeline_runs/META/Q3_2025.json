@@ -1,102 +1,144 @@
 {
-  "schema_version": "1.0",
-  "ticker": "META",
-  "company": "Meta",
-  "quarter": "Q3 2025",
-  "call_date": "2025-10-29",
-  "overall_summary": "Meta's Q3 2025 earnings call highlighted strong growth in services usage, legal expenses, WhatsApp paid messaging, and ad performance, reflecting a largely positive tone. However, the company also noted accounting charges, depreciation from incremental CAPX spend, and a negative impact on European revenue, contributing to a predominantly neutral sentiment overall, with 12% positive, 1.3% negative, and 86.6% neutral.",
-  "sentiment_distribution": {
-    "positive": 12.0,
-    "negative": 1.3,
-    "neutral": 86.6
-  },
-  "key_claims": [
-    {
-      "claim": "Overall service usage grew 14%.",
-      "evidence": "served across our services increased 14%.",
-      "timestamp_sec": 547,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "Legal-related expenses grew more than in Q2.",
-      "evidence": "First, legal-related expense growth was higher than in Q2,",
-      "timestamp_sec": 648,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "WhatsApp paid messaging revenue drove a 59% increase.",
-      "evidence": "up 59%, driven by WhatsApp paid messaging revenue growth,",
-      "timestamp_sec": 581,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "Ad performance improvements were a major driver of growth.",
-      "evidence": "largely driven by improved ad performance.",
-      "timestamp_sec": 566,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "The quarter included an accounting charge.",
-      "evidence": "resulted in an accounting charge in the third quarter,",
-      "timestamp_sec": 741,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "Charges recorded in the third quarter impacted results.",
-      "evidence": "due to charges we recorded in the third quarter,",
-      "timestamp_sec": 652,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "Depreciation on incremental CAPX spend affected earnings.",
-      "evidence": "depreciation on our incremental CAPX spend,",
-      "timestamp_sec": 679,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "European revenue faced a negative impact.",
-      "evidence": "negative impact on our European revenue",
-      "timestamp_sec": 1629,
-      "sentiment": "negative"
-    }
-  ],
-  "risks": [],
-  "management_outlook": [],
-  "citation_verification": {
-    "total_citations": 8,
-    "verified": 8,
-    "accuracy": 1.0
-  },
   "audio_features_summary": {
-    "mean_pitch_hz": 158.56,
     "mean_energy": 0.07,
+    "mean_pitch_hz": 158.56,
     "mean_speaking_rate_wps": 2.87,
     "segments_analyzed": 1782
   },
-  "prior_quarter_context_used": [
+  "call_date": "2025-10-29",
+  "citation_verification": {
+    "accuracy": 1.0,
+    "total_citations": 8,
+    "verified": 8
+  },
+  "company": "Meta",
+  "evidence_policy": "complete_passages_v1",
+  "key_claims": [
     {
-      "quarter": "Q1 2025",
-      "start_sec": 2356.28,
-      "text": "How you thought about that in the guide and maybe how you're thinking about it for the back half. And then on a bigger picture question, you know, your CAPX spend is now close to some hyperscalers with very big client bases. Just double conceptualize the kind of ecosystem you're building with your CAPX. I know you gave a lot of help on the intro, but maybe the ROI works without direct enterprise spend to drive revenues. How you're thinking about that. Thank you. Thanks, Justin. You know, on the Q2 guide, there's uncertainty, obviously, in how the macro environment will evolve over time and how that could impact different segments of our business. You know, our Q2 revenue outlook aims to factor that in and partly that's partly why the $3 billion range reflects the potential for a wider range of outcomes. Specifically, we have seen some reduced spend in the US from Asia based e-commerce exporters, which we believe is an anticipation of the de minimis exemption going away on May 2nd. A portion of that spend has been redirected to other markets, but overall spend for those advertisers is below the levels prior to April. But our Q2 outlook reflects the trends we're seeing so far in April, which have generally been healthy. So it's very early, hard to know how things will play out over the quarter and certainly harder to know that for the rest of the year. Your second question is about why we're investing more in CAPX."
+      "claim": "Meta reported that Q3 ad impressions served across its services increased 14%.",
+      "evidence": "In Q3, the total number of ad impressions served across our services increased 14%.",
+      "sentiment": "positive",
+      "timestamp_sec": 544
     },
     {
-      "quarter": "Q1 2025",
-      "start_sec": 2758.28,
-      "text": "And that's partially offset by higher expected infrastructure costs related to our increased CAPX outlook, as well as higher expected reality labs cost of goods sold. And we've maintained our $5 billion range, just given the more dynamic operating environment that we're in. And what I would say is, you know, our investment posture today reflects, you know, those significant opportunities that we see across each of the company and priorities that we're investing in this year. We will obviously continue evaluating, depending on how macro conditions more broadly evolve, but we really feel like these are big strategic priorities for us and are critical for us to continue investing in. And in fact, you know, I think one of the aims of our efficiency work over the last two years was to put us in a stronger financial position so that we can continue investing in key priorities through tougher financial cycles. Your next question comes from the line of Ross Sandler with Barclays. Please go ahead. Great. Mark, yesterday in one of your many kind of podcasts or keynote presentations, you'd mentioned that like a bunch of projects that your teams want to or aspire to do are kind of bottlenecked by the AI capacity, which Susan just talked about earlier. And that even, you know, some of the testing that the ad ranking team wants to run by just getting kind of delayed. So I guess looking out either this year next year, whatever, when do you kind of see some of this constraint being eased back."
+      "claim": "Meta said legal-related expense growth was higher than in Q2 because of Q3 charges and comparison with accrual reversals in Q3 a year earlier.",
+      "evidence": "First, legal-related expense growth was higher than in Q2, due to charges we recorded in the third quarter, as well as us lapping a period of accrual reversals in the third quarter a year ago.",
+      "sentiment": "negative",
+      "timestamp_sec": 648
     },
     {
-      "quarter": "Q4 2024",
-      "start_sec": 1566.52,
-      "text": "towards our core business. On to tax abs and any changes to our tax landscape, we expect our full year 2025 tax rate to be in the range of 12 to 15 percent. In addition, we continue to monitor an active regulatory landscape including legal and regulatory headwinds in the EU and the US that could significantly impact our business and our financial results. In closing, this was a good year for our company with investments across our priority areas delivering strong business performance and innovative new products for our community. We have a compelling set of opportunities to invest in this year, which we expect will help us drive continued strong growth and develop transformative technologies that shape the future of our company and of the industry. With that, Krista, let's open up the call for questions. Thank you. We will now open the lines for a question and answer session. To ask a question, please press star 1 on your touchstone phone. To withdraw your question, again, press star 1. Please limit yourself to one question. Please pick up your hands up before asking your question to ensure clarity. If you are streaming today's call, please mute your computer speakers. And our first question comes from the line of Brian Nowak with Morgan Stanley. Please go ahead. Thanks for taking my question. Marc, sound very, we appreciate all the excitement about about this year and all the innovation to come. I know there's a lot of announcements throughout"
+      "claim": "Meta reported $690 million in Q3 Family of Apps other revenue, up 59%, driven by WhatsApp paid messaging and Meta Verified subscriptions.",
+      "evidence": "Family of apps other revenue was $690 million, up 59%, driven by WhatsApp paid messaging revenue growth, as well as meta-verified subscriptions.",
+      "sentiment": "positive",
+      "timestamp_sec": 577
+    },
+    {
+      "claim": "Meta reported that the average price per ad increased 10% year over year, benefiting from advertiser demand driven largely by improved ad performance.",
+      "evidence": "The average price per ad increased 10% year-over-year, benefiting from increased advertiser demand, largely driven by improved ad performance.",
+      "sentiment": "positive",
+      "timestamp_sec": 559
+    },
+    {
+      "claim": "Meta said the new US tax law caused a Q3 accounting charge but expected significant cash-tax savings for the rest of 2025 and future years.",
+      "evidence": "Although the transition to the new US tax law resulted in an accounting charge in the third quarter, we continue to expect we will recognize significant cash tax savings for the remainder of the current year and future years under the new law, and this quarter's charge reflects the total expected impact from the transition to the new US tax law.",
+      "sentiment": "neutral",
+      "timestamp_sec": 738
+    },
+    {
+      "claim": "Meta said infrastructure cost growth accelerated because of costs tied to its expanded data-center fleet, depreciation on capital spending and third-party cloud spending.",
+      "evidence": "Finally, growth in infrastructure costs accelerated due to increased infrastructure operating costs associated with our expanded data center fleet, depreciation on our incremental CAPX spend, and third-party cloud spend.",
+      "sentiment": "negative",
+      "timestamp_sec": 669
+    },
+    {
+      "claim": "Meta said increasing legal and regulatory headwinds in the EU and US could significantly affect its business and financial results.",
+      "evidence": "Finally, we continue to monitor active legal and regulatory matters, including the increasing headwinds in the EU and the US that could significantly impact our business and financial results.",
+      "sentiment": "negative",
+      "timestamp_sec": 1599
+    },
+    {
+      "claim": "Meta reported an 87% Q3 tax rate, adversely affected by a one-time, non-cash reduction in deferred tax assets under the new US tax law.",
+      "evidence": "Our tax rate for the quarter was 87%, which was unfavorably impacted by a one-time, non-cash reduction in deferred tax assets that we no longer anticipate using under new US tax law.",
+      "sentiment": "negative",
+      "timestamp_sec": 719
     }
   ],
+  "management_outlook": [],
+  "overall_summary": "Meta reported that Q3 ad impressions increased 14%, average price per ad rose 10% year over year, and Family of Apps other revenue reached $690 million, up 59%. It said legal-related and infrastructure costs grew faster, while a one-time, non-cash tax adjustment contributed to its reported 87% quarterly tax rate. Meta also warned that legal and regulatory headwinds in the EU and US could affect financial results. FinBERT classified 86.6% of scored transcript segments as neutral, 12.0% as positive and 1.3% as negative; these text labels do not measure vocal confidence.",
   "pipeline_version": "1.0",
+  "prior_quarter_context_used": [
+    {
+      "quarter": "Q2 2025",
+      "start_sec": 1708.88,
+      "text": "Onto tax. With the enactment of the new US tax law, we anticipate a reduction in our US federal cash tax for the remainder of the current year and future years. There are several alternative ways of implementing the provisions of the act which we are currently evaluating. While we estimate that the 2025 tax rate will be higher than our Q2 tax rate, we cannot quantify the magnitude at this time."
+    }
+  ],
+  "publication": {
+    "call_date_verification": "registry_consistent_external_verification_pending",
+    "previous_report_version": "legacy-dcd5c3515cf3",
+    "review_status": "ai_assisted_review_human_review_pending",
+    "scope": "current_call_with_earlier_context"
+  },
+  "quarter": "Q3 2025",
+  "regeneration": {
+    "audio_features": "reused_from_previous_report_not_recomputed",
+    "claim_support_review": "ai_assisted_review_human_review_pending",
+    "generated_at": "2026-10-16T09:50:19.760431+00:00",
+    "historical_context": "retrieved",
+    "input": "saved_transcript_and_sentiment",
+    "provenance": {
+      "dataset_scope": [
+        {
+          "quarter": "Q3_2025",
+          "ticker": "META"
+        }
+      ],
+      "generation": {
+        "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+        "input_segments_sha256": "a03cd98a6dc23f67582151407104780192f16582dfaedbc0f531343aa93e489e",
+        "max_tokens": 8000,
+        "model": "openai/gpt-oss-120b",
+        "prompt_sha256": "7a4f3605b49955fcd472fb40c5e8df0151f93ea498a50f56ea6444bd8a9b85f2",
+        "response_id": "chatcmpl-9b88300c-f565-4a5e-a58b-69e29c4b8386",
+        "selection": {
+          "policy": "complete_passages_v1",
+          "top_k_per_seed_label": 4
+        }
+      },
+      "input_sha256": {
+        "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+        "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+        "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+        "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+        "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+        "data/processed/pipeline_runs/META/Q3_2025.json": "17eaceab27d5d05baa01941fd3e348dc97185d360ce87c57cc108d69a243f731",
+        "data/processed/sentiment/segment/META/Q3_2025.json": "5dca2d7ce82a31aa3af669b6becec16b020cc4c4e1a3b8e3ea348f693c598980",
+        "data/processed/transcripts/META/Q1_2025.json": "f0461d42a908ae037ab0af4937f7309dd2648abad2a5d40b37ba5834c0b82d9d",
+        "data/processed/transcripts/META/Q2_2025.json": "a062e54bc9eceeeedd23c5eecfece1565fee76f59cde4a8d1d6ee4ffad892d1c",
+        "data/processed/transcripts/META/Q3_2025.json": "2f3dac5e8dddb26b43583edad50e58f826b0b645e1fc0570fa6cd568f405467e",
+        "data/processed/transcripts/META/Q4_2024.json": "0ab47b2f41fecdb196af4659423e1f95e3a01de5480b379cdeca5ef6f5955bf9",
+        "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+        "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+        "src/report/generate_structured_report.py": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+        "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f"
+      },
+      "retrieval": {
+        "queries_sha256": "1964cf4d8e520dba9bcc23327d43bd511412acfe225328f4fef1c702adae82cb",
+        "query_count": 4,
+        "query_policy": "selected_current_call_passages_v1"
+      }
+    }
+  },
+  "report_version": "complete-passages-fd7b95322459",
+  "risks": [],
+  "schema_version": "1.0",
+  "sentiment_distribution": {
+    "negative": 1.3,
+    "neutral": 86.6,
+    "positive": 12.0
+  },
   "stage_durations_sec": {
-    "transcription_sec": 0.0,
-    "sentiment_sec": 0.0,
-    "prosody_sec": 0.0,
-    "rag_sec": 5.7,
-    "generation_sec": 0.0,
-    "citation_check_sec": 0.0
-  }
+    "regeneration_sec": 23.94
+  },
+  "ticker": "META"
 }

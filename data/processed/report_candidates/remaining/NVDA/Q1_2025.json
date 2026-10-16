@@ -1,0 +1,274 @@
+{
+  "structured_claims": {
+    "claims": [
+      {
+        "claim": "Revenue was $26\u202fbillion, up 18% sequentially and 262% year\u2011over\u2011year, exceeding the outlook of $24\u202fbillion.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 141,
+          "source_text": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our outlook of 24 billion."
+        }
+      },
+      {
+        "claim": "Gap growth margin expanded sequentially to 78.4% and non\u2011gap growth margin to 78.9% on lower inventory charges.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 1289,
+          "source_text": "Okay, moving to the rest of the P&L, gap growth margin expanded sequentially to 78.4% and non-gap growth margins to 78.9% on lower inventory charges."
+        }
+      },
+      {
+        "claim": "Automotive revenue was $329\u202fmillion, up 17% sequentially and 11% year\u2011over\u2011year.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 1232,
+          "source_text": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year."
+        }
+      },
+      {
+        "claim": "Gap operating expenses were up 10% sequentially and non\u2011gap operating expenses were up 13% sequentially, reflecting higher compensation and increased compute and infrastructure investments.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1309,
+          "source_text": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up 13%, primarily reflecting higher compensation-related costs and increased compute and infrastructure investments."
+        }
+      },
+      {
+        "claim": "Gaming revenue was $2.65\u202fbillion, down 8% sequentially (though up 18% year\u2011over\u2011year) consistent with a seasonal decline.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1037,
+          "source_text": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and up 18% year-on-year consistent with our outlook for a seasonal decline."
+        }
+      },
+      {
+        "claim": "Data\u2011center revenue in China is down significantly from the level prior to the October export\u2011control restrictions.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 582,
+          "source_text": "Our data center revenue in China is down significantly from the level prior to the imposition of the new export control restrictions in October."
+        }
+      }
+    ],
+    "overall_summary": "Nvidia reported $26\u202fbillion in revenue, up 18% sequentially and 262% year\u2011over\u2011year, beating its $24\u202fbillion outlook, while gap and non\u2011gap growth margins rose to 78.4% and 78.9% respectively. Operating expenses rose 10%\u201313% sequentially and gaming revenue slipped 8% sequentially, and data\u2011center revenue in China has declined sharply since the new export controls. The call\u2019s FinBERT sentiment was dominated by neutrality (81.0%), with modest positive (16.9%) and minimal negative (2.1%) tones.",
+    "evidence_policy": "complete_passages_v1",
+    "generation_provenance": {
+      "model": "openai/gpt-oss-120b",
+      "max_tokens": 8000,
+      "response_id": "chatcmpl-43cdc570-1ce9-484e-8e2f-b7ea2173fe6b",
+      "prompt_sha256": "27facf68aaf500326a90f47eaedc8273037cac0d7e2e9c22b4fc93195ea81eae",
+      "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+      "input_segments_sha256": "54b366c5cbab406dd41c2bba15fd028d5d5d0a9292e65e1d497c40200f3ceeea",
+      "selection": {
+        "policy": "complete_passages_v1",
+        "top_k_per_seed_label": 4,
+        "citation_binding": "source_id_to_exact_selected_passage_v1"
+      }
+    }
+  },
+  "citation_evaluation": {
+    "ticker": "NVDA",
+    "quarter": "Q1_2025",
+    "total_citations": 6,
+    "verified": 6,
+    "accuracy": 1.0,
+    "citations": [
+      {
+        "claim": "Revenue was $26\u202fbillion, up 18% sequentially and 262% year\u2011over\u2011year, exceeding the outlook of $24\u202fbillion.",
+        "source_text": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our outlook of 24 billion.",
+        "timestamp_sec": 141,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Gap growth margin expanded sequentially to 78.4% and non\u2011gap growth margin to 78.9% on lower inventory charges.",
+        "source_text": "Okay, moving to the rest of the P&L, gap growth margin expanded sequentially to 78.4% and non-gap growth margins to 78.9% on lower inventory charges.",
+        "timestamp_sec": 1289,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Automotive revenue was $329\u202fmillion, up 17% sequentially and 11% year\u2011over\u2011year.",
+        "source_text": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year.",
+        "timestamp_sec": 1232,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Gap operating expenses were up 10% sequentially and non\u2011gap operating expenses were up 13% sequentially, reflecting higher compensation and increased compute and infrastructure investments.",
+        "source_text": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up 13%, primarily reflecting higher compensation-related costs and increased compute and infrastructure investments.",
+        "timestamp_sec": 1309,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Gaming revenue was $2.65\u202fbillion, down 8% sequentially (though up 18% year\u2011over\u2011year) consistent with a seasonal decline.",
+        "source_text": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and up 18% year-on-year consistent with our outlook for a seasonal decline.",
+        "timestamp_sec": 1037,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Data\u2011center revenue in China is down significantly from the level prior to the October export\u2011control restrictions.",
+        "source_text": "Our data center revenue in China is down significantly from the level prior to the imposition of the new export control restrictions in October.",
+        "timestamp_sec": 582,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      }
+    ]
+  },
+  "report": {
+    "schema_version": "1.0",
+    "ticker": "NVDA",
+    "company": "Nvidia",
+    "quarter": "Q1 2025",
+    "call_date": "2024-05-22",
+    "overall_summary": "Nvidia reported $26\u202fbillion in revenue, up 18% sequentially and 262% year\u2011over\u2011year, beating its $24\u202fbillion outlook, while gap and non\u2011gap growth margins rose to 78.4% and 78.9% respectively. Operating expenses rose 10%\u201313% sequentially and gaming revenue slipped 8% sequentially, and data\u2011center revenue in China has declined sharply since the new export controls. The call\u2019s FinBERT sentiment was dominated by neutrality (81.0%), with modest positive (16.9%) and minimal negative (2.1%) tones.",
+    "evidence_policy": "complete_passages_v1",
+    "sentiment_distribution": {
+      "positive": 16.9,
+      "negative": 2.1,
+      "neutral": 81.0
+    },
+    "key_claims": [
+      {
+        "claim": "Revenue was $26\u202fbillion, up 18% sequentially and 262% year\u2011over\u2011year, exceeding the outlook of $24\u202fbillion.",
+        "evidence": "Revenue of 26 billion was up 18% sequentially and up 262% year on year and well above our outlook of 24 billion.",
+        "timestamp_sec": 141,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Gap growth margin expanded sequentially to 78.4% and non\u2011gap growth margin to 78.9% on lower inventory charges.",
+        "evidence": "Okay, moving to the rest of the P&L, gap growth margin expanded sequentially to 78.4% and non-gap growth margins to 78.9% on lower inventory charges.",
+        "timestamp_sec": 1289,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Automotive revenue was $329\u202fmillion, up 17% sequentially and 11% year\u2011over\u2011year.",
+        "evidence": "Moving to automotive, revenue was 329 million, up 17% sequentially and up 11% year on year.",
+        "timestamp_sec": 1232,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Gap operating expenses were up 10% sequentially and non\u2011gap operating expenses were up 13% sequentially, reflecting higher compensation and increased compute and infrastructure investments.",
+        "evidence": "sequentially, gap operating expenses were up 10% and non-gap operating expenses were up 13%, primarily reflecting higher compensation-related costs and increased compute and infrastructure investments.",
+        "timestamp_sec": 1309,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Gaming revenue was $2.65\u202fbillion, down 8% sequentially (though up 18% year\u2011over\u2011year) consistent with a seasonal decline.",
+        "evidence": "Moving to gaming and AI PCs, gaming revenue of $2.65 billion was down 8% sequentially and up 18% year-on-year consistent with our outlook for a seasonal decline.",
+        "timestamp_sec": 1037,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Data\u2011center revenue in China is down significantly from the level prior to the October export\u2011control restrictions.",
+        "evidence": "Our data center revenue in China is down significantly from the level prior to the imposition of the new export control restrictions in October.",
+        "timestamp_sec": 582,
+        "sentiment": "negative"
+      }
+    ],
+    "risks": [],
+    "management_outlook": [],
+    "citation_verification": {
+      "total_citations": 6,
+      "verified": 6,
+      "accuracy": 1.0
+    },
+    "audio_features_summary": {
+      "mean_pitch_hz": 173.45,
+      "mean_energy": 0.07,
+      "mean_speaking_rate_wps": 2.22,
+      "segments_analyzed": 751
+    },
+    "prior_quarter_context_used": [
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 2825.8399999999997,
+        "text": "things in long lead times or things that needed capacity to be built for us? Your next question comes from a line of Ben writes from Amelia's research. Your line is open. Yeah, thanks. Congratulations on the results. Collette, I wanted to talk about your comment regarding gross margins and that they should go back to the mid 70s. If you don't mind unpacking that and also is that due to the HBM content and the new products and what do you think are the drivers of that comment? Thanks so much. Yeah, thanks for the question. We highlighted in our opening remarks really about our Q4 results and our Outlook for Q1. Both of those quarters are unique. Those two quarters are unique in their gross margin as they include some benefits from favorable component costs in the supply chain across both our compute and networking and also in several different stages of our manufacturing process. So looking forward, we have visibility into a mid 70s gross margin for the rest of the fiscal year taking us back to where we were before this Q4 and Q1 peak that we've had here. So we're really looking at just a balance of our mix. Mix is always going to be our largest driver of what we will be shipping for the rest of the year and those are really just the drivers. Your next question comes from a line of CJ Muse from Kent or Fitzgerald. Your line is open."
+      },
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 874.4,
+        "text": "spectrum X this quarter. We also made great progress with our software and services offerings which reached an annualized revenue run rate of $1 billion in Q4. We announced that NVIDIA DGX Cloud will expand its list of partners to include Amazon's AWS, joining Microsoft Azure, Google Cloud, and Oracle Cloud. DGX Cloud is used for NVIDIA's own AI R&D and custom model development as well as NVIDIA developers. It brings the CUDA ecosystem to NVIDIA CSP partners. Okay, moving to gaming. Gaming revenue was $2.87 billion with flat sequentially and up 56 percent year on year, better than our outlook on solid consumer demand for NVIDIA GeForce RTX GPUs during holidays. Fiscal year revenue of $10.45 billion was up 15 percent. As CES, we announced our GeForce RTX 40 super series family of GPUs. Starting at $599, they deliver incredible gaming performance and generative AI capabilities. Sales are off to a great start. NVIDIA AI tensor cores in the GPUs deliver up to 836 AI tops. Perfect for calling AI for gaming, creating, and everyday productivity. The rich software stack we offer with our RTX GPUs further accelerates AI. With our DLSS technology, seven out of eight pixels can be AI generated, resulting up to four X faster ray tracing and better image quality. And with the tensor RT LLM for Windows, our open source library that accelerates inference performance for the latest large language models, generative AI can run up to five X faster on RTX AI PCs. At CES, we also announced a wave of new RTX 40 series"
+      },
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 1292.32,
+        "text": "During fiscal year 24, we utilized cash of 9.9 billion towards shareholder returns including 9.5 billion in share repurchases. Let me turn to the outlook for the first quarter. Total revenue is expected to be 24 billion plus or minus 2%. We expect sequential growth in data center and provis partially offset by seasonal decline in gaming. Gap and non-gap growth margins are expected to be 76.3% and 77% respectively plus or minus 50 basis points. Similar to Q4, Q1 growth margins are benefiting from favorable component costs. Beyond Q1, for the remainder of the year, we expect growth margins to return to the mid-70s percent range. Gap and non-gap operating expenses are expected to be approximately 3.5 billion and 2.5 billion respectively. Fiscal year 2025, gap and non-gap operating expenses are expected to grow in the mid-30% range as we continue to invest in the large opportunities ahead of us. Gap and non-gap, other income and expenses are expected to be an income of approximately 250 million, excluding gains and losses from non-affiliated investments. Gap and non-gap tax rates are expected to be 17% plus or minus 1% excluding any discrete items. Further financial details are included in the CFO commentary and other information available on our IR website. In closing, let me highlight some upcoming events for the financial community. We will attend the Morgan Stanley Technology and Media and Telecom Conference in San Francisco on March 4th and the TD Cohen's 44th annual healthcare conference in Boston on March 5th. And of course, please join us for our annual"
+      }
+    ],
+    "pipeline_version": "1.0",
+    "stage_durations_sec": {
+      "regeneration_sec": 27.96
+    },
+    "regeneration": {
+      "generated_at": "2026-10-16T14:33:26.819710+00:00",
+      "input": "saved_transcript_and_sentiment",
+      "audio_features": "reused_from_previous_report_not_recomputed",
+      "historical_context": "retrieved",
+      "claim_support_review": "pending",
+      "provenance": {
+        "dataset_scope": [
+          {
+            "ticker": "NVDA",
+            "quarter": "Q1_2025"
+          }
+        ],
+        "generation": {
+          "model": "openai/gpt-oss-120b",
+          "max_tokens": 8000,
+          "response_id": "chatcmpl-43cdc570-1ce9-484e-8e2f-b7ea2173fe6b",
+          "prompt_sha256": "27facf68aaf500326a90f47eaedc8273037cac0d7e2e9c22b4fc93195ea81eae",
+          "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+          "input_segments_sha256": "54b366c5cbab406dd41c2bba15fd028d5d5d0a9292e65e1d497c40200f3ceeea",
+          "selection": {
+            "policy": "complete_passages_v1",
+            "top_k_per_seed_label": 4,
+            "citation_binding": "source_id_to_exact_selected_passage_v1"
+          }
+        },
+        "retrieval": {
+          "query_policy": "selected_current_call_passages_v1",
+          "queries_sha256": "19663149cbf59085fa5d01095a3d28a54477768703b4e2199b88df1c6e68dbe6",
+          "query_count": 4
+        },
+        "input_sha256": {
+          "data/processed/transcripts/NVDA/Q1_2025.json": "d8a5a1b50c9c5cb82559ab17c5254456e80be1e0196568461e0633f4b879a5a1",
+          "data/processed/sentiment/segment/NVDA/Q1_2025.json": "095adbf2a7e8f04713c0686e49304974ecb32a48c8863d1e77c80da30ad87c8b",
+          "data/processed/pipeline_runs/NVDA/Q1_2025.json": "90973c689cf13c197a571ef7984d9e583b02e9240498ca7a4ae41c8b903ae9cd",
+          "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+          "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+          "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+          "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+          "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f",
+          "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+          "src/report/generate_structured_report.py": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+          "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+          "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+          "data/processed/transcripts/NVDA/Q4_2024.json": "1b062003db7d252679fad6dcc56166a75d7ff5dbcc1b7e7630dbe1283ded75c8"
+        }
+      }
+    }
+  },
+  "review": {
+    "status": "pending",
+    "previous_context_quarters": [
+      "Q2 2025",
+      "Q2 2025",
+      "Q2 2025"
+    ],
+    "new_context_quarters": [
+      "Q4 2024",
+      "Q4 2024",
+      "Q4 2024"
+    ],
+    "note": "Exact citation matches do not establish that the generated claims are supported. Review claims and qualifications before publishing."
+  }
+}

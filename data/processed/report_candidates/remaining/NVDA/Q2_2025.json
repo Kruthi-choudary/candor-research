@@ -1,0 +1,252 @@
+{
+  "structured_claims": {
+    "claims": [
+      {
+        "claim": "Gaming revenue was $2.88\u202fbillion, up 9% sequentially and 16% year\u2011on\u2011year.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 857,
+          "source_text": "Moving to gaming and AI PCs, gaming revenue of 2.88 billion increased 9% sequentially and 16% year-on-year. We saw sequential growth in console, notebook, and desktop revenue and demand is strong and growing and channel inventory remains healthy. Every PC with RTX is an AI PC. RTX PCs can deliver up to 1,300 AI tops and are now over 200 RTX AI laptops designed from leading PC manufacturers."
+        }
+      },
+      {
+        "claim": "Automotive and robotics revenue was $346\u202fmillion, up 5% sequentially and 37% year\u2011on\u2011year.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 1049,
+          "source_text": "Moving to automotive and robotics, revenue was 346 million up 5% sequentially and up 37% year-on-year."
+        }
+      },
+      {
+        "claim": "Total Q2 revenue reached $30\u202fbillion, a 15% sequential increase and 122% year\u2011on\u2011year growth, exceeding the outlook of $28\u202fbillion; data\u2011center revenue was a record $26.3\u202fbillion, up 16% sequentially and 154% year\u2011on\u2011year.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 165,
+          "source_text": "Thanks, Stewart. Q2 was another record quarter. Revenue of 30 billion was up 15 percent sequentially and up 122 percent year on year and well above our outlook of 28 billion. Starting with data center, data center revenue of 26.3 billion was a record up 16 percent sequentially and up 154 percent year on year, driven by strong demand for NVIDIA Hopper, GPU computing, and our networking platforms."
+        }
+      },
+      {
+        "claim": "Gap and non\u2011gap operating expenses rose 12% sequentially, driven primarily by higher compensation\u2011related costs.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1116,
+          "source_text": "Down sequentially due to a higher mix of new products within data center and inventory provisions for low yielding Blackwell material. Sequentially, gap and non-gap operating expenses were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was 14.5 billion. In Q2, we utilized cash of 7.4 billion towards shareholder returns in the form of share repurchases and cash dividends, reflecting the increase in dividend per shower."
+        }
+      },
+      {
+        "claim": "NVIDIA\u2019s Hopper and Blackwell platforms won gold medals on all tasks in the latest ML\u202fPerf inference benchmark suite.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 343,
+          "source_text": "As a percentage of total data center revenue, it remains below level seen prior to the imposition of export controls. We continue to expect the China market to be very competitive going forward. The latest round of ML Perf inference benchmarks highlighted in NVIDIA's inference leadership with both NVIDIA Hopper and Blackwell platforms combining to win gold medals on all tasks. At Computex NVIDIA with the top computer manufacturers unveiled an array of Blackwell architecture powered systems and NVIDIA networking for building AI factories and data centers. With the NVIDIA MDX modular reference architecture, our OEMs and ODM partners are building more than 100 Blackwell based systems designed quickly and cost effectively."
+        }
+      }
+    ],
+    "overall_summary": "Nvidia delivered strong revenue growth across gaming, automotive\u2011robotics and data\u2011center segments, with Q2 revenue of $30\u202fbillion beating its $28\u202fbillion outlook, while operating expenses rose 12% sequentially. The company also highlighted winning gold medals on all ML\u202fPerf inference tasks. The call\u2019s sentiment distribution was 18.1% positive, 1.7% negative and 80.1% neutral.",
+    "evidence_policy": "complete_passages_v1",
+    "generation_provenance": {
+      "model": "openai/gpt-oss-120b",
+      "max_tokens": 8000,
+      "response_id": "chatcmpl-db8c5a64-04ae-463e-89a9-bd5426625cae",
+      "prompt_sha256": "8f16f56107744f7d35cd9ea7e86fdf7af4be656a5bbdf948012fa9b7a804bb94",
+      "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+      "input_segments_sha256": "99fa9e510f4d4c94631aa762db66ea9dc86649cf14ae9974f8dc004cb3c502dc",
+      "selection": {
+        "policy": "complete_passages_v1",
+        "top_k_per_seed_label": 4,
+        "citation_binding": "source_id_to_exact_selected_passage_v1"
+      }
+    }
+  },
+  "citation_evaluation": {
+    "ticker": "NVDA",
+    "quarter": "Q2_2025",
+    "total_citations": 5,
+    "verified": 5,
+    "accuracy": 1.0,
+    "citations": [
+      {
+        "claim": "Gaming revenue was $2.88\u202fbillion, up 9% sequentially and 16% year\u2011on\u2011year.",
+        "source_text": "Moving to gaming and AI PCs, gaming revenue of 2.88 billion increased 9% sequentially and 16% year-on-year. We saw sequential growth in console, notebook, and desktop revenue and demand is strong and growing and channel inventory remains healthy. Every PC with RTX is an AI PC. RTX PCs can deliver up to 1,300 AI tops and are now over 200 RTX AI laptops designed from leading PC manufacturers.",
+        "timestamp_sec": 857,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Automotive and robotics revenue was $346\u202fmillion, up 5% sequentially and 37% year\u2011on\u2011year.",
+        "source_text": "Moving to automotive and robotics, revenue was 346 million up 5% sequentially and up 37% year-on-year.",
+        "timestamp_sec": 1049,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Total Q2 revenue reached $30\u202fbillion, a 15% sequential increase and 122% year\u2011on\u2011year growth, exceeding the outlook of $28\u202fbillion; data\u2011center revenue was a record $26.3\u202fbillion, up 16% sequentially and 154% year\u2011on\u2011year.",
+        "source_text": "Thanks, Stewart. Q2 was another record quarter. Revenue of 30 billion was up 15 percent sequentially and up 122 percent year on year and well above our outlook of 28 billion. Starting with data center, data center revenue of 26.3 billion was a record up 16 percent sequentially and up 154 percent year on year, driven by strong demand for NVIDIA Hopper, GPU computing, and our networking platforms.",
+        "timestamp_sec": 165,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Gap and non\u2011gap operating expenses rose 12% sequentially, driven primarily by higher compensation\u2011related costs.",
+        "source_text": "Down sequentially due to a higher mix of new products within data center and inventory provisions for low yielding Blackwell material. Sequentially, gap and non-gap operating expenses were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was 14.5 billion. In Q2, we utilized cash of 7.4 billion towards shareholder returns in the form of share repurchases and cash dividends, reflecting the increase in dividend per shower.",
+        "timestamp_sec": 1116,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "NVIDIA\u2019s Hopper and Blackwell platforms won gold medals on all tasks in the latest ML\u202fPerf inference benchmark suite.",
+        "source_text": "As a percentage of total data center revenue, it remains below level seen prior to the imposition of export controls. We continue to expect the China market to be very competitive going forward. The latest round of ML Perf inference benchmarks highlighted in NVIDIA's inference leadership with both NVIDIA Hopper and Blackwell platforms combining to win gold medals on all tasks. At Computex NVIDIA with the top computer manufacturers unveiled an array of Blackwell architecture powered systems and NVIDIA networking for building AI factories and data centers. With the NVIDIA MDX modular reference architecture, our OEMs and ODM partners are building more than 100 Blackwell based systems designed quickly and cost effectively.",
+        "timestamp_sec": 343,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      }
+    ]
+  },
+  "report": {
+    "schema_version": "1.0",
+    "ticker": "NVDA",
+    "company": "Nvidia",
+    "quarter": "Q2 2025",
+    "call_date": "2024-08-28",
+    "overall_summary": "Nvidia delivered strong revenue growth across gaming, automotive\u2011robotics and data\u2011center segments, with Q2 revenue of $30\u202fbillion beating its $28\u202fbillion outlook, while operating expenses rose 12% sequentially. The company also highlighted winning gold medals on all ML\u202fPerf inference tasks. The call\u2019s sentiment distribution was 18.1% positive, 1.7% negative and 80.1% neutral.",
+    "evidence_policy": "complete_passages_v1",
+    "sentiment_distribution": {
+      "positive": 18.1,
+      "negative": 1.7,
+      "neutral": 80.1
+    },
+    "key_claims": [
+      {
+        "claim": "Gaming revenue was $2.88\u202fbillion, up 9% sequentially and 16% year\u2011on\u2011year.",
+        "evidence": "Moving to gaming and AI PCs, gaming revenue of 2.88 billion increased 9% sequentially and 16% year-on-year. We saw sequential growth in console, notebook, and desktop revenue and demand is strong and growing and channel inventory remains healthy. Every PC with RTX is an AI PC. RTX PCs can deliver up to 1,300 AI tops and are now over 200 RTX AI laptops designed from leading PC manufacturers.",
+        "timestamp_sec": 857,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Automotive and robotics revenue was $346\u202fmillion, up 5% sequentially and 37% year\u2011on\u2011year.",
+        "evidence": "Moving to automotive and robotics, revenue was 346 million up 5% sequentially and up 37% year-on-year.",
+        "timestamp_sec": 1049,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Total Q2 revenue reached $30\u202fbillion, a 15% sequential increase and 122% year\u2011on\u2011year growth, exceeding the outlook of $28\u202fbillion; data\u2011center revenue was a record $26.3\u202fbillion, up 16% sequentially and 154% year\u2011on\u2011year.",
+        "evidence": "Thanks, Stewart. Q2 was another record quarter. Revenue of 30 billion was up 15 percent sequentially and up 122 percent year on year and well above our outlook of 28 billion. Starting with data center, data center revenue of 26.3 billion was a record up 16 percent sequentially and up 154 percent year on year, driven by strong demand for NVIDIA Hopper, GPU computing, and our networking platforms.",
+        "timestamp_sec": 165,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Gap and non\u2011gap operating expenses rose 12% sequentially, driven primarily by higher compensation\u2011related costs.",
+        "evidence": "Down sequentially due to a higher mix of new products within data center and inventory provisions for low yielding Blackwell material. Sequentially, gap and non-gap operating expenses were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was 14.5 billion. In Q2, we utilized cash of 7.4 billion towards shareholder returns in the form of share repurchases and cash dividends, reflecting the increase in dividend per shower.",
+        "timestamp_sec": 1116,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "NVIDIA\u2019s Hopper and Blackwell platforms won gold medals on all tasks in the latest ML\u202fPerf inference benchmark suite.",
+        "evidence": "As a percentage of total data center revenue, it remains below level seen prior to the imposition of export controls. We continue to expect the China market to be very competitive going forward. The latest round of ML Perf inference benchmarks highlighted in NVIDIA's inference leadership with both NVIDIA Hopper and Blackwell platforms combining to win gold medals on all tasks. At Computex NVIDIA with the top computer manufacturers unveiled an array of Blackwell architecture powered systems and NVIDIA networking for building AI factories and data centers. With the NVIDIA MDX modular reference architecture, our OEMs and ODM partners are building more than 100 Blackwell based systems designed quickly and cost effectively.",
+        "timestamp_sec": 343,
+        "sentiment": "positive"
+      }
+    ],
+    "risks": [],
+    "management_outlook": [],
+    "citation_verification": {
+      "total_citations": 5,
+      "verified": 5,
+      "accuracy": 1.0
+    },
+    "audio_features_summary": {
+      "mean_pitch_hz": 163.92,
+      "mean_energy": 0.08,
+      "mean_speaking_rate_wps": 2.45,
+      "segments_analyzed": 574
+    },
+    "prior_quarter_context_used": [
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 1007.2,
+        "text": "AI laptops from every major OEM. These bring high performance gaming and AI capabilities to a wide range of form factors, including 14-inch and thin and light laptops. With up to 686 tops of AI performance, these next generations AI PCs increase generative AI performance by up to 60 X, making them the best performing AI PC platforms. At CES, we announced NVIDIA Avatar Cloud Engine microservices, which allowed developers to integrate state-of-the-art generative AI models into digital avatars, ACE, when several best of CES 2024 awards. NVIDIA has an end-to-end platform for building and deploying generative AI applications for RTX PCs and workstations. This includes libraries, SDKs, tools, and services developers can incorporate into their generative AI workflows. NVIDIA is fueling the next wave of generative AI applications coming to the PC. With over 100 million RTX PCs in the installed base and over 500 AI-enabled PC applications and games, we are on our way. Moving to pro visualization, revenue of 463 million was up 11% sequentially and up 105% year on year. Fiscal year revenue of 1.55 billion was up 1%. Sequential growth in the quarter was driven by a rich mix of RTX data architecture GPUs continuing to ramp. Enterprises are refreshing their workstations to support generative AI related workloads such as data preparation, LLM fine tuning, and retrieval augmented generation. These key industrial verticals driving demand include manufacturing, automotive, and robotics. The automotive industry has also been an early adopter of NVIDIA Omniverse as it seeks to digitalize workflows from design to build,"
+      },
+      {
+        "quarter": "Q1 2025",
+        "start_sec": 2624.64,
+        "text": "As you move to Blackwell, they're going to have very large installed bases, obviously software compatible, but large installed bases of product that's not nearly as performant as your new generation stuff and be interesting to hear what you see happening with customers along that path. Thank you. Yeah, I really appreciate it, three points that I'd like to make. If you're 5% into the build out versus if you're 95% into the build out, you're going to feel very differently. And because you're only 5% into the build out, anyhow, you build as fast as you can. And when Blackwell comes, it's going to be terrific. And then after Blackwell, as you mentioned, we have other Blackwells coming. And then there's a short, we're on a one-year rhythm as we've explained to the world. And we want our customers to see our roadmap for as far as they like, but they're early in their build out anyways. And so the ads just keep on building. And so there's going to be a whole bunch of chips coming at them. And they just got to keep on building. And just, you know, if you will, performance averages your way into it. So that's the smart thing to do. They need to make money today. They want to save money today. And time is really, really valuable to them. Let me give you an example of time being really valuable. Why this idea of standing up a data center instantaneously is so valuable."
+      },
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 1145.28,
+        "text": "simulate, operate, and experience their factories and cars. At CES, we announced that creative partners and developers including Brickland, WPP, and ZeroLight are building Omniverse-powered car configurations, leading automakers like Lotus are adopting the technology to bring new levels of personalization, realism, and interactivity to the car buying experience. Moving to automotive, revenue was 281 million up 8% sequentially and down 4% year on year. Fiscal year revenue of 1.09 billion was up 21%, crossing the 1 billion mark for the first time on continued adoption of the NVIDIA drive platform by automakers. NVIDIA drive Oren is the AI car computer of choice for software-defined AV fleets. Its successor NVIDIA drive 4 designed for vision transformers, Oren offers more AI performance and integrates a wide range of intelligent capabilities into a single AI compute platform including autonomous driving and parking, driver and passenger monitoring and AI cockpit functionality and will be available next year. There was so that several automotive customer announcements this quarter. Leato, Great Wall Motor, Zika, the premium EV subsidiary of DOE, and Xiaomi EV, all announced new vehicles built on NVIDIA. Moving to the rest of the P&L, gap growth margins expanded sequentially to 76% and non-gap growth margins to 76.7% on strong data center growth and mix. Our growth margins in Q4 benefited from favorable component costs. Sequentially, gap operating expenses were up 6% and non-gap operating expenses were up 9%, primarily reflecting higher compute and infrastructure investment and employee growth. In Q4, we returned 2.8 billion to shareholders in the form of share repurchases and cash dividends."
+      }
+    ],
+    "pipeline_version": "1.0",
+    "stage_durations_sec": {
+      "regeneration_sec": 20.73
+    },
+    "regeneration": {
+      "generated_at": "2026-10-16T14:36:44.656547+00:00",
+      "input": "saved_transcript_and_sentiment",
+      "audio_features": "reused_from_previous_report_not_recomputed",
+      "historical_context": "retrieved",
+      "claim_support_review": "pending",
+      "provenance": {
+        "dataset_scope": [
+          {
+            "ticker": "NVDA",
+            "quarter": "Q2_2025"
+          }
+        ],
+        "generation": {
+          "model": "openai/gpt-oss-120b",
+          "max_tokens": 8000,
+          "response_id": "chatcmpl-db8c5a64-04ae-463e-89a9-bd5426625cae",
+          "prompt_sha256": "8f16f56107744f7d35cd9ea7e86fdf7af4be656a5bbdf948012fa9b7a804bb94",
+          "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+          "input_segments_sha256": "99fa9e510f4d4c94631aa762db66ea9dc86649cf14ae9974f8dc004cb3c502dc",
+          "selection": {
+            "policy": "complete_passages_v1",
+            "top_k_per_seed_label": 4,
+            "citation_binding": "source_id_to_exact_selected_passage_v1"
+          }
+        },
+        "retrieval": {
+          "query_policy": "selected_current_call_passages_v1",
+          "queries_sha256": "29a26fae648f6c2a61a6de78d026cd7dbaa41cce70a36e06516be74a6dc24bee",
+          "query_count": 4
+        },
+        "input_sha256": {
+          "data/processed/transcripts/NVDA/Q2_2025.json": "0b0d0d389c50ec06fcd3f868406ead1c78d0a40e86673c8047863c6ca653a63b",
+          "data/processed/sentiment/segment/NVDA/Q2_2025.json": "b24209e22b44fe26523414fb8bfb053d4aac13dc0c8fe1f4bfbc3a6ec751e455",
+          "data/processed/pipeline_runs/NVDA/Q2_2025.json": "449b48fd1e6d1bac27f475daa26d66f21c65c339e85a6cdeba7643ddb2146c14",
+          "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+          "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+          "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+          "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+          "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f",
+          "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+          "src/report/generate_structured_report.py": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+          "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+          "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+          "data/processed/transcripts/NVDA/Q4_2024.json": "1b062003db7d252679fad6dcc56166a75d7ff5dbcc1b7e7630dbe1283ded75c8",
+          "data/processed/transcripts/NVDA/Q1_2025.json": "d8a5a1b50c9c5cb82559ab17c5254456e80be1e0196568461e0633f4b879a5a1"
+        }
+      }
+    }
+  },
+  "review": {
+    "status": "pending",
+    "previous_context_quarters": [
+      "Q4 2024",
+      "Q3 2025"
+    ],
+    "new_context_quarters": [
+      "Q4 2024",
+      "Q1 2025",
+      "Q4 2024"
+    ],
+    "note": "Exact citation matches do not establish that the generated claims are supported. Review claims and qualifications before publishing."
+  }
+}

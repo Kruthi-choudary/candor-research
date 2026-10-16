@@ -1,73 +1,50 @@
 {
-  "ticker": "MSFT",
-  "quarter": "Q3_2025",
-  "total_citations": 8,
-  "verified": 8,
   "accuracy": 1.0,
   "citations": [
     {
-      "claim": "Microsoft reported better-than-expected performance across all segments.",
-      "source_text": "In general, we saw better than expected performance across our segments.",
-      "timestamp_sec": 3086,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported that the combined enterprise and partner services revenue line grew 5%, or 6% in constant currency, slightly ahead of expectations because enterprise support services performed better than expected.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Enterprise and partner services revenue increased 5% and 6% in constant currency, slightly ahead of expectations due to better than expected performance in enterprise support services. Segment gross margin dollars increased 13% and 14% in constant currency, and gross margin percentage decreased 4.0 over year, driven by scaling our AI infrastructure.",
+      "timestamp_sec": 1380,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "M365 commercial product revenue grew 5%, driven by medium business and frontline worker offerings.",
-      "source_text": "medium business and frontline worker offerings. M365 commercial products revenue increased 5%",
-      "timestamp_sec": 1245,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported Cloud revenue of $42.4 billion, up 20%, or 22% in constant currency, ahead of expectations.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "The remaining portion recognized beyond the next 12 months increased 47%. And this quarter, our annuity mix, was 98%. FX was roughly in line with expectations on total company revenue, segment-level revenue, and operating expense growth. FX decreased cod's growth by only one point, one point unfavorable to expectations. Microsoft cloud revenue was $42.4 billion ahead of expectations and grew 20% and 22% in constant currency. Microsoft cloud gross margin percentage was 69% in line with expectations and decreased three points year over year, driven by the impact of scaling our AI infrastructure. Company gross margin percentage was also 69% down one point year over year, driven by scaling our AI infrastructure. Operating expenses increased 2% and 3% in constant currency, lower than expected due to our focus on cost efficiencies, as well as investments that shifted to Q4. Operating margins increased one point year over year to 46%.",
+      "timestamp_sec": 1108,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Gross margin dollars for the segment rose 9% and 11% in third-party and first-party content.",
-      "source_text": "in third party and first party content. Segment gross margin dollars increased 9% and 11% in",
-      "timestamp_sec": 1466,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Microsoft said commercial bookings increased 18%, or 17% in constant currency, significantly ahead of expectations, driven in part by an Azure commitment from OpenAI.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Commercial bookings increased 18% and 17% in constant currency, significantly ahead of expectations, again, this quarter, driven by an Azure commitment from OpenAI. We also saw consistent execution across our core annuity sales motions and continued long-term commitments to our platform.",
+      "timestamp_sec": 1075,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Segment gross margin dollars increased 13% and 14% in constant currency for services.",
-      "source_text": "services. Segment gross margin dollars increased 13% and 14% in constant currency,",
-      "timestamp_sec": 1390,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported on-premises server revenue down 6%, or 4% in constant currency, slightly below expectations because renewals carried lower in-period revenue recognition.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Focused execution drove non AI services results, where we saw accelerated growth in our enterprise customer segment, as well as some improvement in our scale motions. And in Azure AI services, we brought capacity online faster than expected. In our on-premises server business, revenue decreased 6% and 4% in constant currency, slightly below expectations, driven by renewals with lower in-period revenue recognition from the mix of contracts.",
+      "timestamp_sec": 1346,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Revenue declined 6% and 4% in constant currency, falling slightly short of expectations.",
-      "source_text": "revenue decreased 6% and 4% in constant currency, slightly below expectations,",
-      "timestamp_sec": 1365,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "For Q4 FY2025, Microsoft expected Cloud gross-margin percentage of roughly 67%, lower year over year, primarily because of scaling AI infrastructure.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Year-over-year decline reflects ongoing customer migration to cloud offerings.",
-      "source_text": "The year over year decline is reflective of the continued customer shift to cloud offerings.",
-      "timestamp_sec": 1375,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Revenue is expected to drop in the mid-single digits due to continued cloud migration.",
-      "source_text": "expect revenue to decline in the mid-single digits with the ongoing customer shift to cloud offerings.",
-      "timestamp_sec": 1818,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Revenue was down 67% year over year, mainly because of scaling AI infrastructure.",
-      "source_text": "67% down year over year, primarily driven by the impact of scaling our AI infrastructure.",
-      "timestamp_sec": 1673,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "In commercial bookings, we expect solid growth on a significant prior year comparable and a growing X pre-base. Bookings growth will be driven by strong execution across our core annuity sales motions and continued long-term commitments to our platform. As a reminder, larger longer-term measure contracts, which are more unpredictable in their timing, can drive increased quarterly volatility in our bookings growth rate. Microsoft Cloud gross margin percentage should be roughly 67% down year over year, primarily driven by the impact of scaling our AI infrastructure.",
+      "timestamp_sec": 1643,
+      "verdict": "VERIFIED"
     }
-  ]
+  ],
+  "quarter": "Q3_2025",
+  "report_version": "complete-passages-271df70f9ef8",
+  "ticker": "MSFT",
+  "total_citations": 5,
+  "verified": 5
 }

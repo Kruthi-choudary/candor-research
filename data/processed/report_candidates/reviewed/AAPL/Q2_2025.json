@@ -1,0 +1,421 @@
+{
+  "structured_claims": {
+    "claims": [
+      {
+        "claim": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 945,
+          "source_text": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family."
+        }
+      },
+      {
+        "claim": "Apple reported March-quarter revenue of $95.4 billion, up 5% year over year despite an almost 2.5 percentage-point foreign-exchange headwind; products revenue was $68.7 billion, up 3%, and the active-device installed base reached an all-time high across product categories and geographic segments.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 834,
+          "source_text": "Our March quarter revenue of $95.4 billion was up 5% year over year, despite a headwind of almost 2.5 percentage points from foreign exchange. We also grew in the majority of the markets we track. Products revenue was $68.7 billion, up 3% year over year, driven by growth in iPhone, iPad, and Mac. And thanks to our high levels of customer satisfaction and strong loyalty, our installed base of active devices reached an all-time high across all product categories in geographic segments."
+        }
+      },
+      {
+        "claim": "Apple reported net income of $24.8 billion and diluted earnings per share of $1.65; diluted EPS rose 8% year over year to a March-quarter record. Operating cash flow was $24 billion.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 925,
+          "source_text": "Net income was $24.8 billion, and diluted earnings per share was $1.65, up 8% year over year, and a March quarter record. Operating cash flow was also strong at $24 billion."
+        }
+      },
+      {
+        "claim": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix, foreign exchange, and a seasonal loss of leverage.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 896,
+          "source_text": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix, foreign exchange, and a seasonal loss of leverage."
+        }
+      },
+      {
+        "claim": "Management said China was down 2% in the March quarter and was roughly flat after removing foreign-exchange headwinds.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1776,
+          "source_text": "What are you thinking, you know, with regard to that trajectory in China, given all the geopolitical tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a little more transparency around that, we were roughly flat when you removed the headwinds from foreign exchange. And so we did see quite a bit of sequential improvement from the December quarter, which was down 11. And again, for going out of the way for transparency, the channel inventory at the end of March, the unit channel inventory was similar to where we started the quarter."
+        }
+      },
+      {
+        "claim": "Management said product gross margin fell 70 basis points year over year, citing a different mix and foreign exchange.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1976,
+          "source_text": "And I'll just say that the operational team has done an incredible job around optimizing the supply chain of the inventory. And we'll obviously continue to do those things to the degree that we can. Great. Thanks. And just as a quick follow-up, for Kevin, on product gross margins, I was just wondering if you could provide a little bit more color on some of the factors that may have impacted product gross margins in the quarter, obviously down sequentially on seasonal factors, but there was a year-over-year decline as well. So any additional color will be helpful. Thank you. Yeah, Michael, thanks. This is Kevin. So on the sequential, as we mentioned in the prior remarks, we had a decrease in the product gross margin by 340 basis points sequentially. That was primarily driven by mix, seasonal loss of leverage, foreign exchange. And that was partly offset by cost savings. And when we look at the year-on-year performance, we were down 70 basis points on a year-on-year basis. And that was driven by a different mix and foreign exchange. Great. Thank you. Thank you. Great. Thank you, Mike."
+        }
+      }
+    ],
+    "overall_summary": "Apple reported March-quarter revenue of $95.4 billion, up 5% year over year, and diluted EPS of $1.65, up 8% to a March-quarter record. Products gross margin was 35.9%, down 340 basis points sequentially. Management said China was down 2%, or roughly flat excluding foreign-exchange headwinds. FinBERT classified 22.4% of scored transcript segments as positive, 3.8% as negative and 73.9% as neutral. This brief does not assess a change in any executive’s historical communication pattern.",
+    "evidence_policy": "complete_passages_v1",
+    "generation_provenance": {
+      "model": "openai/gpt-oss-120b",
+      "max_tokens": 4000,
+      "response_id": "chatcmpl-144978df-c24e-451d-9d88-cb82a7aeb180",
+      "prompt_sha256": "6d86de6df9bf4d136735a71447f6e12e692e9234bfab34eefe0a56af5117852b",
+      "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+      "input_segments_sha256": "e232f29375c627945007c4e72bf8a20b9feebf6142e456913ab71c4788c2407b",
+      "selection": {
+        "policy": "complete_passages_v1",
+        "top_k_per_seed_label": 4
+      }
+    }
+  },
+  "citation_evaluation": {
+    "ticker": "AAPL",
+    "quarter": "Q2_2025",
+    "total_citations": 6,
+    "verified": 6,
+    "accuracy": 1.0,
+    "citations": [
+      {
+        "claim": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+        "source_text": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+        "timestamp_sec": 945,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Apple reported March-quarter revenue of $95.4 billion, up 5% year over year despite an almost 2.5 percentage-point foreign-exchange headwind; products revenue was $68.7 billion, up 3%, and the active-device installed base reached an all-time high across product categories and geographic segments.",
+        "source_text": "Our March quarter revenue of $95.4 billion was up 5% year over year, despite a headwind of almost 2.5 percentage points from foreign exchange. We also grew in the majority of the markets we track. Products revenue was $68.7 billion, up 3% year over year, driven by growth in iPhone, iPad, and Mac. And thanks to our high levels of customer satisfaction and strong loyalty, our installed base of active devices reached an all-time high across all product categories in geographic segments.",
+        "timestamp_sec": 834,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Apple reported net income of $24.8 billion and diluted earnings per share of $1.65; diluted EPS rose 8% year over year to a March-quarter record. Operating cash flow was $24 billion.",
+        "source_text": "Net income was $24.8 billion, and diluted earnings per share was $1.65, up 8% year over year, and a March quarter record. Operating cash flow was also strong at $24 billion.",
+        "timestamp_sec": 925,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix, foreign exchange, and a seasonal loss of leverage.",
+        "source_text": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix, foreign exchange, and a seasonal loss of leverage.",
+        "timestamp_sec": 896,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Management said China was down 2% in the March quarter and was roughly flat after removing foreign-exchange headwinds.",
+        "source_text": "What are you thinking, you know, with regard to that trajectory in China, given all the geopolitical tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a little more transparency around that, we were roughly flat when you removed the headwinds from foreign exchange. And so we did see quite a bit of sequential improvement from the December quarter, which was down 11. And again, for going out of the way for transparency, the channel inventory at the end of March, the unit channel inventory was similar to where we started the quarter.",
+        "timestamp_sec": 1776,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Management said product gross margin fell 70 basis points year over year, citing a different mix and foreign exchange.",
+        "source_text": "And I'll just say that the operational team has done an incredible job around optimizing the supply chain of the inventory. And we'll obviously continue to do those things to the degree that we can. Great. Thanks. And just as a quick follow-up, for Kevin, on product gross margins, I was just wondering if you could provide a little bit more color on some of the factors that may have impacted product gross margins in the quarter, obviously down sequentially on seasonal factors, but there was a year-over-year decline as well. So any additional color will be helpful. Thank you. Yeah, Michael, thanks. This is Kevin. So on the sequential, as we mentioned in the prior remarks, we had a decrease in the product gross margin by 340 basis points sequentially. That was primarily driven by mix, seasonal loss of leverage, foreign exchange. And that was partly offset by cost savings. And when we look at the year-on-year performance, we were down 70 basis points on a year-on-year basis. And that was driven by a different mix and foreign exchange. Great. Thank you. Thank you. Great. Thank you, Mike.",
+        "timestamp_sec": 1976,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      }
+    ]
+  },
+  "report": {
+    "schema_version": "1.0",
+    "ticker": "AAPL",
+    "company": "Apple",
+    "quarter": "Q2 2025",
+    "call_date": "2025-05-01",
+    "overall_summary": "Apple reported March-quarter revenue of $95.4 billion, up 5% year over year, and diluted EPS of $1.65, up 8% to a March-quarter record. Products gross margin was 35.9%, down 340 basis points sequentially. Management said China was down 2%, or roughly flat excluding foreign-exchange headwinds. FinBERT classified 22.4% of scored transcript segments as positive, 3.8% as negative and 73.9% as neutral. This brief does not assess a change in any executive’s historical communication pattern.",
+    "evidence_policy": "complete_passages_v1",
+    "sentiment_distribution": {
+      "positive": 22.4,
+      "negative": 3.8,
+      "neutral": 73.9
+    },
+    "key_claims": [
+      {
+        "claim": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+        "evidence": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+        "timestamp_sec": 945,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Apple reported March-quarter revenue of $95.4 billion, up 5% year over year despite an almost 2.5 percentage-point foreign-exchange headwind; products revenue was $68.7 billion, up 3%, and the active-device installed base reached an all-time high across product categories and geographic segments.",
+        "evidence": "Our March quarter revenue of $95.4 billion was up 5% year over year, despite a headwind of almost 2.5 percentage points from foreign exchange. We also grew in the majority of the markets we track. Products revenue was $68.7 billion, up 3% year over year, driven by growth in iPhone, iPad, and Mac. And thanks to our high levels of customer satisfaction and strong loyalty, our installed base of active devices reached an all-time high across all product categories in geographic segments.",
+        "timestamp_sec": 834,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Apple reported net income of $24.8 billion and diluted earnings per share of $1.65; diluted EPS rose 8% year over year to a March-quarter record. Operating cash flow was $24 billion.",
+        "evidence": "Net income was $24.8 billion, and diluted earnings per share was $1.65, up 8% year over year, and a March quarter record. Operating cash flow was also strong at $24 billion.",
+        "timestamp_sec": 925,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix, foreign exchange, and a seasonal loss of leverage.",
+        "evidence": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix, foreign exchange, and a seasonal loss of leverage.",
+        "timestamp_sec": 896,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Management said China was down 2% in the March quarter and was roughly flat after removing foreign-exchange headwinds.",
+        "evidence": "What are you thinking, you know, with regard to that trajectory in China, given all the geopolitical tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a little more transparency around that, we were roughly flat when you removed the headwinds from foreign exchange. And so we did see quite a bit of sequential improvement from the December quarter, which was down 11. And again, for going out of the way for transparency, the channel inventory at the end of March, the unit channel inventory was similar to where we started the quarter.",
+        "timestamp_sec": 1776,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Management said product gross margin fell 70 basis points year over year, citing a different mix and foreign exchange.",
+        "evidence": "And I'll just say that the operational team has done an incredible job around optimizing the supply chain of the inventory. And we'll obviously continue to do those things to the degree that we can. Great. Thanks. And just as a quick follow-up, for Kevin, on product gross margins, I was just wondering if you could provide a little bit more color on some of the factors that may have impacted product gross margins in the quarter, obviously down sequentially on seasonal factors, but there was a year-over-year decline as well. So any additional color will be helpful. Thank you. Yeah, Michael, thanks. This is Kevin. So on the sequential, as we mentioned in the prior remarks, we had a decrease in the product gross margin by 340 basis points sequentially. That was primarily driven by mix, seasonal loss of leverage, foreign exchange. And that was partly offset by cost savings. And when we look at the year-on-year performance, we were down 70 basis points on a year-on-year basis. And that was driven by a different mix and foreign exchange. Great. Thank you. Thank you. Great. Thank you, Mike.",
+        "timestamp_sec": 1976,
+        "sentiment": "negative"
+      }
+    ],
+    "risks": [],
+    "management_outlook": [],
+    "citation_verification": {
+      "total_citations": 6,
+      "verified": 6,
+      "accuracy": 1.0
+    },
+    "audio_features_summary": {
+      "mean_pitch_hz": 130.1,
+      "mean_energy": 0.06,
+      "mean_speaking_rate_wps": 2.65,
+      "segments_analyzed": 505
+    },
+    "prior_quarter_context_used": [],
+    "pipeline_version": "1.0",
+    "stage_durations_sec": {
+      "regeneration_sec": 22.7
+    },
+    "regeneration": {
+      "generated_at": "2026-10-16T04:52:22.997010+00:00",
+      "input": "saved_transcript_and_sentiment",
+      "audio_features": "reused_from_previous_report_not_recomputed",
+      "historical_context": "retrieved_but_excluded_after_review",
+      "claim_support_review": "ai_assisted_review_human_review_pending",
+      "provenance": {
+        "dataset_scope": [
+          {
+            "ticker": "AAPL",
+            "quarter": "Q2_2025"
+          }
+        ],
+        "generation": {
+          "model": "openai/gpt-oss-120b",
+          "max_tokens": 4000,
+          "response_id": "chatcmpl-144978df-c24e-451d-9d88-cb82a7aeb180",
+          "prompt_sha256": "6d86de6df9bf4d136735a71447f6e12e692e9234bfab34eefe0a56af5117852b",
+          "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+          "input_segments_sha256": "e232f29375c627945007c4e72bf8a20b9feebf6142e456913ab71c4788c2407b",
+          "selection": {
+            "policy": "complete_passages_v1",
+            "top_k_per_seed_label": 4
+          }
+        },
+        "input_sha256": {
+          "data/processed/transcripts/AAPL/Q2_2025.json": "9043e81a89b61855b657f431387cd9ecc1102eab9ee011ea821362abc8692a5b",
+          "data/processed/sentiment/segment/AAPL/Q2_2025.json": "937d059a14550ea66f37c34dc6bbcb465087c0df0c08563e993cf786ff18dafb",
+          "data/processed/pipeline_runs/AAPL/Q2_2025.json": "8b351edcbd4cbd711af983f8bf39c30a74cbab954d9ee65b3bccd7103f9b3b23",
+          "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+          "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+          "config/pipeline.yaml": "6a49b07006d37d5a843f38f738474428820fbc5ae960b1253d00231c333e897a",
+          "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+          "src/report/regenerate.py": "95f5a7d110f24248b307338b2cd4f99500514e73e1dd94ccf04d177a72449efc",
+          "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+          "src/report/generate_structured_report.py": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+          "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+          "data/processed/transcripts/AAPL/Q4_2024.json": "44b04c489d268c1419bccc24ca6f7bf0fee80eb535a45203640dad29b862b4f7",
+          "data/processed/transcripts/AAPL/Q1_2025.json": "2d5cbdf457900f950520d301c20e77066a69e53b5698f0d75334a808ec5bf14e"
+        }
+      }
+    }
+  },
+  "review": {
+    "status": "ai_assisted_review_human_review_pending",
+    "reviewed_at": "2026-10-16T04:54:25.193306+00:00",
+    "scope": "AI-assisted review of saved transcript and surrounding passages; recording and human review pending.",
+    "original_candidate_path": "data/processed/report_candidates/with_history/AAPL/Q2_2025.json",
+    "original_candidate_sha256": "d3ff4020df7c7c8185a74c5cbcf2f1fef4cff6a82f9e54d504f9a5b573916182",
+    "original_generated_claims": [
+      {
+        "claim": "The March quarter growth rate was comparable to the December quarter year-over-year after removing foreign-exchange impacts, and the expanding install base of active devices provides strong future opportunities.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 1074,
+          "source_text": "This growth rate was comparable to the December quarter year over year growth rate when we removed the negative impact from foreign exchange. We saw strong momentum in the March quarter, and the growth of our install base of active devices gives us great opportunities for the future."
+        }
+      },
+      {
+        "claim": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 945,
+          "source_text": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family."
+        }
+      },
+      {
+        "claim": "March quarter revenue was $95.4 billion, up 5% year over year despite a ~2.5 percentage‑point foreign‑exchange headwind; products revenue was $68.7 billion, up 3% year over year, and the installed base of active devices reached an all‑time high across all product categories.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 834,
+          "source_text": "Our March quarter revenue of $95.4 billion was up 5% year over year, despite a headwind of almost 2.5 percentage points from foreign exchange. We also grew in the majority of the markets we track. Products revenue was $68.7 billion, up 3% year over year, driven by growth in iPhone, iPad, and Mac. And thanks to our high levels of customer satisfaction and strong loyalty, our installed base of active devices reached an all-time high across all product categories in geographic segments."
+        }
+      },
+      {
+        "claim": "Net income was $24.8 billion, and diluted earnings per share was $1.65, up 8% year over year, a March quarter record, while operating cash flow was $24 billion.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 925,
+          "source_text": "Net income was $24.8 billion, and diluted earnings per share was $1.65, up 8% year over year, and a March quarter record. Operating cash flow was also strong at $24 billion."
+        }
+      },
+      {
+        "claim": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix, foreign exchange, and a seasonal loss of leverage.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 896,
+          "source_text": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix, foreign exchange, and a seasonal loss of leverage."
+        }
+      },
+      {
+        "claim": "The March quarter was down 2% overall, but was roughly flat after removing foreign‑exchange headwinds, and channel inventory at the end of March was similar to the start of the quarter.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1776,
+          "source_text": "What are you thinking, you know, with regard to that trajectory in China, given all the geopolitical tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a little more transparency around that, we were roughly flat when you removed the headwinds from foreign exchange. And so we did see quite a bit of sequential improvement from the December quarter, which was down 11. And again, for going out of the way for transparency, the channel inventory at the end of March, the unit channel inventory was similar to where we started the quarter."
+        }
+      },
+      {
+        "claim": "Product gross margin fell 340 basis points sequentially and 70 basis points year-over-year, driven by mix, seasonal loss of leverage, and foreign exchange, partially offset by cost savings.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1976,
+          "source_text": "And I'll just say that the operational team has done an incredible job around optimizing the supply chain of the inventory. And we'll obviously continue to do those things to the degree that we can. Great. Thanks. And just as a quick follow-up, for Kevin, on product gross margins, I was just wondering if you could provide a little bit more color on some of the factors that may have impacted product gross margins in the quarter, obviously down sequentially on seasonal factors, but there was a year-over-year decline as well. So any additional color will be helpful. Thank you. Yeah, Michael, thanks. This is Kevin. So on the sequential, as we mentioned in the prior remarks, we had a decrease in the product gross margin by 340 basis points sequentially. That was primarily driven by mix, seasonal loss of leverage, foreign exchange. And that was partly offset by cost savings. And when we look at the year-on-year performance, we were down 70 basis points on a year-on-year basis. And that was driven by a different mix and foreign exchange. Great. Thank you. Thank you. Great. Thank you, Mike."
+        }
+      },
+      {
+        "claim": "Performance in China was down 2% in the quarter.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1751,
+          "source_text": "And then just with regard to China, down 2%, I mean, you intuitively would have thought there would have been an increased nationalism there and perhaps it would have been worse than that."
+        }
+      }
+    ],
+    "original_generated_summary": "Apple’s Q2 2025 earnings call highlighted solid financial performance with revenue and earnings growth, record cash flow, and an expanding installed device base, but also noted pressure on product gross margins and a modest decline in China. FinBERT sentiment was 22.4% positive, 3.8% negative, and 73.9% neutral, reflecting the mix of upbeat growth statements and margin/headwind concerns.",
+    "previous_context_quarters": [
+      "Q4 2024",
+      "Q3 2025",
+      "Q4 2024"
+    ],
+    "retrieved_context": [
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 3213.7000000000003,
+        "text": "Okay, thanks. And then, Luca, one piece of unfinished business was your pledge to get to a net neutral cash position. And over the last two years, you stayed around 50 billion of net cash. We've clearly seen instances in the past where elevated marketing spend or other programs brought increases in market share. I guess my question looking back on your tenure is at your scale now of 57 billion of topics. Do you still see incremental ways to put that cash to work in the business? Or will we just continue to see increased shareholder returns? Well, obviously, as you see in our opx has gone up over the years. We've also seen at the same time a significant expansion in gross margin. Maybe to a level that I would have not expected a few years ago. But we've done a very good job on a number of fronts. And so I would say we when we plan every time we plan for the upcoming year we think about all the different areas where we can deploy our resources and we make them available to grow the business. I think we've done very well over the long term and but our fundamental philosophy is to look after the business first. And then if we have excess cash, we will continue to return it to our shareholders and the planners worked quite well so far. Okay. Thank you very much. Thank you, Richard. We'll take our last question. Please operator."
+      },
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 1528.9,
+        "text": "and we couldn't be more excited about it. Great. Thank you very much. And my second one, just for Luca, first, congratulations again, Luca, on the new role, and it's been a real privilege being able to spend some time with you. A question that I think will overlap with your new role as well. Could you just talk a little bit about the CAPEX outlook and whether investments in things like private cloud compute could change the historical CAPEX range of roughly $10 billion a year? Thank you very much. Thank you, Michael. On the CAPEX front, I mentioned before a number of times we have a bit of a hybrid model in the way we run our data centers. In some cases we use our own data centers, in some cases we use third-party providers, and so our CAPEX numbers may not be fully comparable with others. But obviously we are rolling out these features, Apple Intelligence features already now, and so we are making all the capacity that is needed available for these features. You will see in our 10K the amount of CAPEX that we've incurred during the course of fiscal 24, and we will, in fiscal 25, we will continue to make all the investments that are necessary, and of course, investments in AI-related CAPEX will be made. Thank you, Tim. Thank you, Luca. All right. Thanks, Mike. Can we have the next question, please? Our next question is from Eric Woodring with Morgan Stanley."
+      },
+      {
+        "quarter": "Q1 2025",
+        "start_sec": 2275.2599999999998,
+        "text": "all time highs, and we have over now a billion paid subscriptions across the services platform. All right, thanks, Womsey, operator, could we get the next question, please? Our next question is from stomach, Chatterjee, with JP Morgan, please go ahead. Thanks for taking my questions, I guess for the first one, if I, I mean you had a great number of people who are on the board, who are on the board, and I'm just curious in terms of if you can help us think about the sustainability of this double digit growth that you saw in both the product lines and more interest, who are also here. We're talking about Apple intelligence, sort of influencing volumes on iPhones, but any thoughts on sort of what does that influence look like in terms of volumes for Macs, for example, where I think there's a lot of conversation on EIPCs, how you're thinking what impact they're going to have a quick photo. If you look at Mac, Mac was up 16%, and on iPad we were up 15%. The Mac was driven by a very strong uptake on our new products during the quarter, and the continued success of the Macbook Air, and so as you know, we've launched an M4 based Mac Pro, an iMac, and a Mac Mini during the quarter. We believe we've got the best AIPC out there for running workloads, the silicon in the Mac and it has been for several years now, designed by us and really designed for these workloads."
+      }
+    ],
+    "new_context_quarters": [],
+    "historical_context_decision": "All three passages were from eligible earlier Apple calls and matched saved transcripts, but none was sufficiently relevant and clear to support a historical comparison in this Q2 brief; none is shown as context used.",
+    "excluded_claims": [
+      {
+        "original_claim_index": 0,
+        "reason": "The cited passage begins with “This growth rate” and omits the previous services-revenue sentence identifying the subject. The generated standalone claim is ambiguous."
+      },
+      {
+        "original_claim_index": 7,
+        "reason": "The passage is an analyst question about China, not an independently verified management statement; management’s later response is retained with the China qualifier."
+      }
+    ],
+    "claim_edits": [
+      {
+        "original_claim_index": 2,
+        "reason": "Restored “almost” before the 2.5-point foreign-exchange headwind and kept the all-time-high scope aligned with the quote.",
+        "original": "March quarter revenue was $95.4 billion, up 5% year over year despite a ~2.5 percentage‑point foreign‑exchange headwind; products revenue was $68.7 billion, up 3% year over year, and the installed base of active devices reached an all‑time high across all product categories.",
+        "revised": "Apple reported March-quarter revenue of $95.4 billion, up 5% year over year despite an almost 2.5 percentage-point foreign-exchange headwind; products revenue was $68.7 billion, up 3%, and the active-device installed base reached an all-time high across product categories and geographic segments."
+      },
+      {
+        "original_claim_index": 3,
+        "reason": "Made clear that the March-quarter record refers to diluted EPS; the source does not describe net income or operating cash flow as records.",
+        "original": "Net income was $24.8 billion, and diluted earnings per share was $1.65, up 8% year over year, a March quarter record, while operating cash flow was $24 billion.",
+        "revised": "Apple reported net income of $24.8 billion and diluted earnings per share of $1.65; diluted EPS rose 8% year over year to a March-quarter record. Operating cash flow was $24 billion."
+      },
+      {
+        "original_claim_index": 5,
+        "reason": "Restored the China subject from the analyst question and management answer; removed the false company-wide “overall” interpretation.",
+        "original": "The March quarter was down 2% overall, but was roughly flat after removing foreign‑exchange headwinds, and channel inventory at the end of March was similar to the start of the quarter.",
+        "revised": "Management said China was down 2% in the March quarter and was roughly flat after removing foreign-exchange headwinds."
+      },
+      {
+        "original_claim_index": 6,
+        "reason": "Separated year-over-year margin change and its stated causes from sequential causes and cost-savings offset already described elsewhere.",
+        "original": "Product gross margin fell 340 basis points sequentially and 70 basis points year-over-year, driven by mix, seasonal loss of leverage, and foreign exchange, partially offset by cost savings.",
+        "revised": "Management said product gross margin fell 70 basis points year over year, citing a different mix and foreign exchange."
+      }
+    ],
+    "summary_corrections": [
+      "Removed unsupported claim that operating cash flow was a record.",
+      "Kept March-quarter record attribution specific to diluted EPS.",
+      "Restored the China subject and described FinBERT percentages as scored-segment proportions.",
+      "Disclosed that no executive-level historical communication comparison was made."
+    ],
+    "per_claim": [
+      {
+        "claim_index": 0,
+        "original_claim_index": 1,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 945
+      },
+      {
+        "claim_index": 1,
+        "original_claim_index": 2,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 834
+      },
+      {
+        "claim_index": 2,
+        "original_claim_index": 3,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 925
+      },
+      {
+        "claim_index": 3,
+        "original_claim_index": 4,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 896
+      },
+      {
+        "claim_index": 4,
+        "original_claim_index": 5,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 1776
+      },
+      {
+        "claim_index": 5,
+        "original_claim_index": 6,
+        "support_assessment": "supported_by_saved_transcript",
+        "timestamp_sec": 1976
+      }
+    ],
+    "limitations": [
+      "AI-assisted transcript review is not independent human-labelled ground truth.",
+      "Saved transcript and timestamps were not checked against the original recording in this review.",
+      "Retrieved historical chunks were source-correct but unsuitable for a communication comparison.",
+      "Sentiment-selected passages do not provide comprehensive coverage of the call."
+    ]
+  }
+}

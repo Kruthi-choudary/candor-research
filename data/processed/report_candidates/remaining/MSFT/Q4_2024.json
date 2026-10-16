@@ -1,0 +1,251 @@
+{
+  "structured_claims": {
+    "claims": [
+      {
+        "claim": "Excluding the impact of the change in accounting estimate, gross margin percentage increased slightly even with the impact from purchase accounting adjustments, integration and transaction related cost from the Activision acquisition. Operating expenses increased 13% with nine points from the Activision acquisition. At a total company level, head count at the end of June was 3% higher than a year ago. Operating income increased 15% and 16% in constant currency and operating margins were 43% relatively unchanged year over year. Excluding the impact of the change in accounting estimate, operating margins increased slightly, driven by the higher gross margin noted earlier and improved operating leverage through continued cost discipline.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 1185,
+          "source_text": "Excluding the impact of the change in accounting estimate, gross margin percentage increased slightly even with the impact from purchase accounting adjustments, integration and transaction related cost from the Activision acquisition. Operating expenses increased 13% with nine points from the Activision acquisition. At a total company level, head count at the end of June was 3% higher than a year ago. Operating income increased 15% and 16% in constant currency and operating margins were 43% relatively unchanged year over year. Excluding the impact of the change in accounting estimate, operating margins increased slightly, driven by the higher gross margin noted earlier and improved operating leverage through continued cost discipline."
+        }
+      },
+      {
+        "claim": "Windows commercial products and cloud services revenue increased 11% and 12% in constant currency ahead of expectations due to higher in period revenue recognition from the mix of contracts.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 1480,
+          "source_text": "Windows commercial products and cloud services revenue increased 11% and 12% in constant currency ahead of expectations due to higher in period revenue recognition from the mix of contracts."
+        }
+      },
+      {
+        "claim": "We now have over 500 million monthly active users across platforms and devices and our content pipeline has never been stronger.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 937,
+          "source_text": "Thousands of news and entertainment publishers trust us to reach new audiences with Microsoft's start and in fact we have paid them 1 billion dollars over the last five years. We are helping advertisers increase their ROI2. We have seen positive response to performance Macs which uses AI to dynamically create and optimize ads and Co-Pilot in Microsoft ad platform helps marketeers create campaigns and troubleshoot using natural language. Now on to gaming. We now have over 500 million monthly active users across platforms and devices and our content pipeline has never been stronger."
+        }
+      },
+      {
+        "claim": "Our overall revenue, X-TAC increased 19% year-over-year and we again Tookshare across Bing and Edge.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 896,
+          "source_text": "Our overall revenue, X-TAC increased 19% year-over-year and we again Tookshare across Bing and Edge."
+        }
+      },
+      {
+        "claim": "Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations as we remain focused on our higher margin premium products.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1492,
+          "source_text": "Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations as we remain focused on our higher margin premium products. While early days we're excited about the recent launch of our co-pilot plus PC's. Search and news advertising revenue X-TAC increased 19% ahead of expectations primarily due to improved execution. Healthy volume growth was driven by Bing and Edge and in gaming revenue increased 44% with 48 points of net impact from the Activision acquisition. Xbox content and services revenue increased 61% slightly ahead of expectations with 58 points of net impact from the Activision acquisition. Stronger than expected performance in first party content was partially offset by third party content performance. Xbox hardware revenue decreased 42% and 41% in constant currency. Segment gross margin dollars increased 21% with 10 points of net impact from the Activision acquisition. Gross margin percentage increased roughly 3 points year over year primarily driven by sales mix shift to higher margin businesses."
+        }
+      },
+      {
+        "claim": "Microsoft cloud grows margin percentage should be roughly 70% down year over year driven by the impact of scaling our AI infrastructure.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1763,
+          "source_text": "Based on current rates we expect FX to decrease total revenue and segment level revenue growth by less than one point. We expect FX to decrease cogs growth by less than one point and to have no meaningful impact to operating expense growth. In commercial bookings increased long-term commitments to our platform and strong execution across core annuity sales motions should drive healthy growth on a growing expiry base. As a reminder larger long-term as our contracts which are more unpredictable in their timing can derive increased quarterly volatility in our bookings growth rate. Microsoft cloud grows margin percentage should be roughly 70% down year over year driven by the impact of scaling our AI infrastructure. We expect capital expenditures to increase on a sequential basis given our cloud and AI demand as well as existing AI capacity constraints. As a reminder there can be quarterly spend variability from cloud infrastructure build out and the timing of delivery of finance leases."
+        }
+      }
+    ],
+    "overall_summary": "The call highlighted strong operating income growth, double\u2011digit revenue gains in Windows and cloud services, and a user base exceeding 500\u202fmillion, while also noting declines such as devices revenue falling 11%\u20119% and cloud margin dropping roughly 70% year over year. FinBERT sentiment analysis shows the transcript was 28.4% positive, 5.5% negative and 66.1% neutral.",
+    "evidence_policy": "complete_passages_v1",
+    "generation_provenance": {
+      "model": "openai/gpt-oss-120b",
+      "max_tokens": 8000,
+      "response_id": "chatcmpl-2a78a7bf-3cc2-4603-9a84-7c9c031403c6",
+      "prompt_sha256": "53d37765dc46bbb955e15e9aa7a4a3210935e6fc62a4d46fa91c63f83ed0935c",
+      "generator_sha256": "a57529c348e8210d66d8ac8be791e7e3dc43bde51079b57591ef277c8e4489f2",
+      "input_segments_sha256": "aed5b979443076e6501b8dbd22ce0dc39aaf0f67c3265e3711eb57c5aeb76e90",
+      "selection": {
+        "policy": "complete_passages_v1",
+        "top_k_per_seed_label": 4
+      }
+    }
+  },
+  "citation_evaluation": {
+    "ticker": "MSFT",
+    "quarter": "Q4_2024",
+    "total_citations": 6,
+    "verified": 6,
+    "accuracy": 1.0,
+    "citations": [
+      {
+        "claim": "Excluding the impact of the change in accounting estimate, gross margin percentage increased slightly even with the impact from purchase accounting adjustments, integration and transaction related cost from the Activision acquisition. Operating expenses increased 13% with nine points from the Activision acquisition. At a total company level, head count at the end of June was 3% higher than a year ago. Operating income increased 15% and 16% in constant currency and operating margins were 43% relatively unchanged year over year. Excluding the impact of the change in accounting estimate, operating margins increased slightly, driven by the higher gross margin noted earlier and improved operating leverage through continued cost discipline.",
+        "source_text": "Excluding the impact of the change in accounting estimate, gross margin percentage increased slightly even with the impact from purchase accounting adjustments, integration and transaction related cost from the Activision acquisition. Operating expenses increased 13% with nine points from the Activision acquisition. At a total company level, head count at the end of June was 3% higher than a year ago. Operating income increased 15% and 16% in constant currency and operating margins were 43% relatively unchanged year over year. Excluding the impact of the change in accounting estimate, operating margins increased slightly, driven by the higher gross margin noted earlier and improved operating leverage through continued cost discipline.",
+        "timestamp_sec": 1185,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Windows commercial products and cloud services revenue increased 11% and 12% in constant currency ahead of expectations due to higher in period revenue recognition from the mix of contracts.",
+        "source_text": "Windows commercial products and cloud services revenue increased 11% and 12% in constant currency ahead of expectations due to higher in period revenue recognition from the mix of contracts.",
+        "timestamp_sec": 1480,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "We now have over 500 million monthly active users across platforms and devices and our content pipeline has never been stronger.",
+        "source_text": "Thousands of news and entertainment publishers trust us to reach new audiences with Microsoft's start and in fact we have paid them 1 billion dollars over the last five years. We are helping advertisers increase their ROI2. We have seen positive response to performance Macs which uses AI to dynamically create and optimize ads and Co-Pilot in Microsoft ad platform helps marketeers create campaigns and troubleshoot using natural language. Now on to gaming. We now have over 500 million monthly active users across platforms and devices and our content pipeline has never been stronger.",
+        "timestamp_sec": 937,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Our overall revenue, X-TAC increased 19% year-over-year and we again Tookshare across Bing and Edge.",
+        "source_text": "Our overall revenue, X-TAC increased 19% year-over-year and we again Tookshare across Bing and Edge.",
+        "timestamp_sec": 896,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations as we remain focused on our higher margin premium products.",
+        "source_text": "Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations as we remain focused on our higher margin premium products. While early days we're excited about the recent launch of our co-pilot plus PC's. Search and news advertising revenue X-TAC increased 19% ahead of expectations primarily due to improved execution. Healthy volume growth was driven by Bing and Edge and in gaming revenue increased 44% with 48 points of net impact from the Activision acquisition. Xbox content and services revenue increased 61% slightly ahead of expectations with 58 points of net impact from the Activision acquisition. Stronger than expected performance in first party content was partially offset by third party content performance. Xbox hardware revenue decreased 42% and 41% in constant currency. Segment gross margin dollars increased 21% with 10 points of net impact from the Activision acquisition. Gross margin percentage increased roughly 3 points year over year primarily driven by sales mix shift to higher margin businesses.",
+        "timestamp_sec": 1492,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Microsoft cloud grows margin percentage should be roughly 70% down year over year driven by the impact of scaling our AI infrastructure.",
+        "source_text": "Based on current rates we expect FX to decrease total revenue and segment level revenue growth by less than one point. We expect FX to decrease cogs growth by less than one point and to have no meaningful impact to operating expense growth. In commercial bookings increased long-term commitments to our platform and strong execution across core annuity sales motions should drive healthy growth on a growing expiry base. As a reminder larger long-term as our contracts which are more unpredictable in their timing can derive increased quarterly volatility in our bookings growth rate. Microsoft cloud grows margin percentage should be roughly 70% down year over year driven by the impact of scaling our AI infrastructure. We expect capital expenditures to increase on a sequential basis given our cloud and AI demand as well as existing AI capacity constraints. As a reminder there can be quarterly spend variability from cloud infrastructure build out and the timing of delivery of finance leases.",
+        "timestamp_sec": 1763,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      }
+    ]
+  },
+  "report": {
+    "schema_version": "1.0",
+    "ticker": "MSFT",
+    "company": "Microsoft",
+    "quarter": "Q4 2024",
+    "call_date": "2024-07-30",
+    "overall_summary": "The call highlighted strong operating income growth, double\u2011digit revenue gains in Windows and cloud services, and a user base exceeding 500\u202fmillion, while also noting declines such as devices revenue falling 11%\u20119% and cloud margin dropping roughly 70% year over year. FinBERT sentiment analysis shows the transcript was 28.4% positive, 5.5% negative and 66.1% neutral.",
+    "evidence_policy": "complete_passages_v1",
+    "sentiment_distribution": {
+      "positive": 28.4,
+      "negative": 5.5,
+      "neutral": 66.1
+    },
+    "key_claims": [
+      {
+        "claim": "Excluding the impact of the change in accounting estimate, gross margin percentage increased slightly even with the impact from purchase accounting adjustments, integration and transaction related cost from the Activision acquisition. Operating expenses increased 13% with nine points from the Activision acquisition. At a total company level, head count at the end of June was 3% higher than a year ago. Operating income increased 15% and 16% in constant currency and operating margins were 43% relatively unchanged year over year. Excluding the impact of the change in accounting estimate, operating margins increased slightly, driven by the higher gross margin noted earlier and improved operating leverage through continued cost discipline.",
+        "evidence": "Excluding the impact of the change in accounting estimate, gross margin percentage increased slightly even with the impact from purchase accounting adjustments, integration and transaction related cost from the Activision acquisition. Operating expenses increased 13% with nine points from the Activision acquisition. At a total company level, head count at the end of June was 3% higher than a year ago. Operating income increased 15% and 16% in constant currency and operating margins were 43% relatively unchanged year over year. Excluding the impact of the change in accounting estimate, operating margins increased slightly, driven by the higher gross margin noted earlier and improved operating leverage through continued cost discipline.",
+        "timestamp_sec": 1185,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Windows commercial products and cloud services revenue increased 11% and 12% in constant currency ahead of expectations due to higher in period revenue recognition from the mix of contracts.",
+        "evidence": "Windows commercial products and cloud services revenue increased 11% and 12% in constant currency ahead of expectations due to higher in period revenue recognition from the mix of contracts.",
+        "timestamp_sec": 1480,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "We now have over 500 million monthly active users across platforms and devices and our content pipeline has never been stronger.",
+        "evidence": "Thousands of news and entertainment publishers trust us to reach new audiences with Microsoft's start and in fact we have paid them 1 billion dollars over the last five years. We are helping advertisers increase their ROI2. We have seen positive response to performance Macs which uses AI to dynamically create and optimize ads and Co-Pilot in Microsoft ad platform helps marketeers create campaigns and troubleshoot using natural language. Now on to gaming. We now have over 500 million monthly active users across platforms and devices and our content pipeline has never been stronger.",
+        "timestamp_sec": 937,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Our overall revenue, X-TAC increased 19% year-over-year and we again Tookshare across Bing and Edge.",
+        "evidence": "Our overall revenue, X-TAC increased 19% year-over-year and we again Tookshare across Bing and Edge.",
+        "timestamp_sec": 896,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations as we remain focused on our higher margin premium products.",
+        "evidence": "Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations as we remain focused on our higher margin premium products. While early days we're excited about the recent launch of our co-pilot plus PC's. Search and news advertising revenue X-TAC increased 19% ahead of expectations primarily due to improved execution. Healthy volume growth was driven by Bing and Edge and in gaming revenue increased 44% with 48 points of net impact from the Activision acquisition. Xbox content and services revenue increased 61% slightly ahead of expectations with 58 points of net impact from the Activision acquisition. Stronger than expected performance in first party content was partially offset by third party content performance. Xbox hardware revenue decreased 42% and 41% in constant currency. Segment gross margin dollars increased 21% with 10 points of net impact from the Activision acquisition. Gross margin percentage increased roughly 3 points year over year primarily driven by sales mix shift to higher margin businesses.",
+        "timestamp_sec": 1492,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Microsoft cloud grows margin percentage should be roughly 70% down year over year driven by the impact of scaling our AI infrastructure.",
+        "evidence": "Based on current rates we expect FX to decrease total revenue and segment level revenue growth by less than one point. We expect FX to decrease cogs growth by less than one point and to have no meaningful impact to operating expense growth. In commercial bookings increased long-term commitments to our platform and strong execution across core annuity sales motions should drive healthy growth on a growing expiry base. As a reminder larger long-term as our contracts which are more unpredictable in their timing can derive increased quarterly volatility in our bookings growth rate. Microsoft cloud grows margin percentage should be roughly 70% down year over year driven by the impact of scaling our AI infrastructure. We expect capital expenditures to increase on a sequential basis given our cloud and AI demand as well as existing AI capacity constraints. As a reminder there can be quarterly spend variability from cloud infrastructure build out and the timing of delivery of finance leases.",
+        "timestamp_sec": 1763,
+        "sentiment": "negative"
+      }
+    ],
+    "risks": [],
+    "management_outlook": [],
+    "citation_verification": {
+      "total_citations": 6,
+      "verified": 6,
+      "accuracy": 1.0
+    },
+    "audio_features_summary": {
+      "mean_pitch_hz": 180.27,
+      "mean_energy": 0.1,
+      "mean_speaking_rate_wps": 2.62,
+      "segments_analyzed": 563
+    },
+    "prior_quarter_context_used": [],
+    "pipeline_version": "1.0",
+    "stage_durations_sec": {
+      "regeneration_sec": 8.05
+    },
+    "regeneration": {
+      "generated_at": "2026-10-16T10:04:07.040704+00:00",
+      "input": "saved_transcript_and_sentiment",
+      "audio_features": "reused_from_previous_report_not_recomputed",
+      "historical_context": "none_returned",
+      "claim_support_review": "pending",
+      "provenance": {
+        "dataset_scope": [
+          {
+            "ticker": "MSFT",
+            "quarter": "Q4_2024"
+          }
+        ],
+        "generation": {
+          "model": "openai/gpt-oss-120b",
+          "max_tokens": 8000,
+          "response_id": "chatcmpl-2a78a7bf-3cc2-4603-9a84-7c9c031403c6",
+          "prompt_sha256": "53d37765dc46bbb955e15e9aa7a4a3210935e6fc62a4d46fa91c63f83ed0935c",
+          "generator_sha256": "a57529c348e8210d66d8ac8be791e7e3dc43bde51079b57591ef277c8e4489f2",
+          "input_segments_sha256": "aed5b979443076e6501b8dbd22ce0dc39aaf0f67c3265e3711eb57c5aeb76e90",
+          "selection": {
+            "policy": "complete_passages_v1",
+            "top_k_per_seed_label": 4
+          }
+        },
+        "retrieval": {
+          "query_policy": "selected_current_call_passages_v1",
+          "queries_sha256": "6fe9fd31b034b2b6d92d6dd36fb25237376e69386b431235bc5a208ea6829172",
+          "query_count": 4
+        },
+        "input_sha256": {
+          "data/processed/transcripts/MSFT/Q4_2024.json": "b4fbc106ef8369a327d54e7bb7f7ed47fadd7cea32d8c6b03a36e963a0e97944",
+          "data/processed/sentiment/segment/MSFT/Q4_2024.json": "ec49f017315f339dfa4a7405bd6b3953b2093cbf07fd316e5e5331719565df9f",
+          "data/processed/pipeline_runs/MSFT/Q4_2024.json": "cfef213ac28c8a22ecd4660d6abd7ac7c71b97d30333aeb132ce5f7d8cc16f34",
+          "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+          "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+          "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+          "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+          "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f",
+          "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+          "src/report/generate_structured_report.py": "a57529c348e8210d66d8ac8be791e7e3dc43bde51079b57591ef277c8e4489f2",
+          "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+          "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86"
+        }
+      }
+    }
+  },
+  "review": {
+    "status": "pending",
+    "previous_context_quarters": [
+      "Q1 2025",
+      "Q3 2025",
+      "Q1 2025"
+    ],
+    "new_context_quarters": [],
+    "note": "Exact citation matches do not establish that the generated claims are supported. Review claims and qualifications before publishing."
+  }
+}

@@ -1,102 +1,137 @@
 {
-  "schema_version": "1.0",
-  "ticker": "NVDA",
-  "company": "Nvidia",
-  "quarter": "Q3 2025",
-  "call_date": "2024-11-20",
-  "overall_summary": "The call highlighted strong revenue and gaming growth alongside exceptional Hopper demand, but also noted rising operating expenses and challenges in networking and data\u2011center margins. Sentiment was largely neutral, with 20.7% positive and 2.9% negative statements.",
-  "sentiment_distribution": {
-    "positive": 20.7,
-    "negative": 2.9,
-    "neutral": 76.5
-  },
-  "key_claims": [
-    {
-      "claim": "Operating expenses increased by 9% due to higher compute, infrastructure, and engineering development.",
-      "evidence": "operating expenses were up 9%. Due to higher compute, infrastructure and engineering development",
-      "timestamp_sec": 1093,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "NVIDIA Hopper demand is exceptional and sequential NVIDIA H200 sales increased significantly.",
-      "evidence": "NVIDIA Hopper demand is exceptional and sequentially NVIDIA H200 sales increased significantly",
-      "timestamp_sec": 168,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "Revenue of 486 million grew 7% sequentially and 17% year on year.",
-      "evidence": "Revenue of 486 million was up 7% sequentially and 17% year on year.",
-      "timestamp_sec": 1009,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year.",
-      "evidence": "PCs. Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year. Q3 was a",
-      "timestamp_sec": 916,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "Networking business was down about 15 percent.",
-      "evidence": "quarter you know Klet you mentioned that obviously the networking business was down about 15 percent",
-      "timestamp_sec": 3022,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "Revenue was down 75% sequentially, primarily driven by a mix shift of the H100 systems to more complex configurations.",
-      "evidence": "was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex",
-      "timestamp_sec": 1078,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "Higher\u2011cost data\u2011center systems led to a sequential increase in operating expenses and non\u2011GAAP gaps.",
-      "evidence": "and higher cost systems within data center. Sequentially, gap operating expenses and non-gap",
-      "timestamp_sec": 1086,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "Suppliers indicate a tight quarter ahead as the company turns the corner into the new calendar year.",
-      "evidence": "more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter.",
-      "timestamp_sec": 3239,
-      "sentiment": "negative"
-    }
-  ],
-  "risks": [],
-  "management_outlook": [],
-  "citation_verification": {
-    "total_citations": 8,
-    "verified": 8,
-    "accuracy": 1.0
-  },
   "audio_features_summary": {
-    "mean_pitch_hz": 163.75,
     "mean_energy": 0.09,
+    "mean_pitch_hz": 163.75,
     "mean_speaking_rate_wps": 2.48,
     "segments_analyzed": 523
   },
+  "call_date": "2024-11-20",
+  "citation_verification": {
+    "accuracy": 1.0,
+    "total_citations": 6,
+    "verified": 6
+  },
+  "company": "Nvidia",
+  "evidence_policy": "complete_passages_v1",
+  "key_claims": [
+    {
+      "claim": "Nvidia reported Q3 fiscal 2025 revenue of $35.1 billion, up 17% sequentially and 94% year over year, above its $32.5 billion outlook.",
+      "evidence": "Revenue of 35.1 billion was up 17 percent sequentially and up 94 percent year on year and well above our outlook of 32.5 billion. All market platforms posted strong sequential and year over year growth fueled by the adoption of NVIDIA Accelerated Computing and AI.",
+      "sentiment": "positive",
+      "timestamp_sec": 132
+    },
+    {
+      "claim": "Nvidia said it returned $11.2 billion to shareholders in Q3 through share repurchases and cash dividends.",
+      "evidence": "Strong growth was driven by self-driving brands of NVIDIA orin and robust and market demand for NEVs. Global cars is rolling out its fully electric SUV built on NVIDIA orin and drive OS. Moving to the rest of the P&L, gap growth margin was 74.6% and non-gap growth margin was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex and higher cost systems within data center. Sequentially, gap operating expenses and non-gap operating expenses were up 9%. Due to higher compute, infrastructure and engineering development costs for new product introductions. In Q3, we returned 11.2 billion to shareholders in the form of share repurchases and cash dividends. Let me turn to the outlook for the fourth quarter.",
+      "sentiment": "positive",
+      "timestamp_sec": 1052
+    },
+    {
+      "claim": "Pro Visualization revenue was $486 million in Q3 fiscal 2025, up 7% sequentially and 17% year over year.",
+      "evidence": "Revenue of 486 million was up 7% sequentially and 17% year on year.",
+      "sentiment": "positive",
+      "timestamp_sec": 1009
+    },
+    {
+      "claim": "Automotive revenue was a record $449 million in Q3 fiscal 2025, up 30% sequentially and 72% year over year.",
+      "evidence": "Moving to automotive, revenue was a record 449 million, up 30% sequentially and up 72% year on year.",
+      "sentiment": "positive",
+      "timestamp_sec": 1043
+    },
+    {
+      "claim": "Nvidia expected Gaming product supply to remain tight for the quarter and said it aimed to improve availability after the calendar year turned.",
+      "evidence": "So our gaming right now from a supply we're busy trying to make sure that we can ramp all of our different products. And in this case our gaming supply given what we saw selling through was moving quite fast. Now the challenge that we have is how fast could we get that supply getting ready into the market for this quarter. Not to worry I think we'll be back on track with more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter.",
+      "sentiment": "negative",
+      "timestamp_sec": 3214
+    },
+    {
+      "claim": "Nvidia expected gross margin in the low-70% range during the early Blackwell ramp and hoped to return to the mid-70% range in later quarters.",
+      "evidence": "Collette, why don't you start? Sure. Let me first start with your question, Tim. Thank you regarding our gross margins. And we discussed that our gross margins as we are ramping Blackwell in the very beginning and the many different configurations, the many different tips that we are bringing to market, we are going to focus on making sure we have the best experience for our customers as they stand that up. We will start growing in for our gross margins, but we do believe those will be in the low 70s in that first part of the round. So you're correct. As you look at the quarters following after that, we will start increasing our gross margins. And we hope to get to the mid 70s quite quickly as part of that round. Hopper demand will continue through next year.",
+      "sentiment": "negative",
+      "timestamp_sec": 2060
+    }
+  ],
+  "management_outlook": [],
+  "overall_summary": "Nvidia reported Q3 fiscal 2025 revenue of $35.1 billion, up 17% sequentially and 94% year over year, above its $32.5 billion outlook. Pro Visualization revenue was $486 million and Automotive revenue was a record $449 million. Nvidia said Gaming supply would be tight for the quarter and expected gross margin in the low-70% range during the early Blackwell ramp, with a hoped-for return to the mid-70% range later. Earlier Q2 revenue and Automotive figures provide business context, not a measured change in an executive\u2019s communication. FinBERT classified 20.7% of scored transcript segments as positive, 2.9% as negative and 76.5% as neutral; these text labels do not measure vocal confidence.",
+  "pipeline_version": "1.0",
   "prior_quarter_context_used": [
     {
       "quarter": "Q2 2025",
-      "start_sec": 2297.44,
-      "text": "discussions about is with like the percentage of folks that you see that are spending all of this money and looking to sort of push the frontier towards AGI convergence. And as you just said, a new plateau in capability. And they're going to spend regardless to get to that level of capability because it opens up so many doors for the industry and for their company versus customers that are really, really focused today on CAPEx versus ROI. I don't know if that distinction makes sense. I'm just trying to get a sense of how you're seeing the priorities of people that are putting the dollars in the ground on the new technology and what their priorities are and their timeframes are for that investment. Thanks, Matt. The people who are investing in NVIDIA infrastructure are getting returns on it right away. It's the best ROI infrastructure, computing infrastructure investment you can make today. And so one way to think through it, probably the easiest way to think through it is just go back to first principles. You have a trillion dollars with a general purpose computing infrastructure and the question is do you want to build more of that or not? And for every billion dollars with a general CPU-based infrastructure that you stand up, you probably rent it for less than a billion. And so because it's commoditized, there's already a trillion dollars on the ground. What's the point of getting more? And so the people who are clamoring to get this infrastructure"
+      "start_sec": 165.04,
+      "text": "Thanks, Stewart. Q2 was another record quarter. Revenue of 30 billion was up 15 percent sequentially and up 122 percent year on year and well above our outlook of 28 billion. Starting with data center, data center revenue of 26.3 billion was a record up 16 percent sequentially and up 154 percent year on year, driven by strong demand for NVIDIA Hopper, GPU computing, and our networking platforms."
     },
     {
       "quarter": "Q2 2025",
-      "start_sec": 2515.76,
-      "text": "And your next question comes from the line of Timothy Arkery with UBS. Your line is open. Thanks a lot. I had a question on the shape of the revenue growth both near and longer term. I know Colette, you did increase op-ex for the year. And if I look at the increase in your purchase commitments and your supply obligations, that's also quite bullish. On the other hand, there's some school of thought that not that many customers really seem ready for liquid cooling. And I do recognize that some of these racks can be air-cooled. But, Johnson, is that something to consider sort of on the shape of how Blackwell is going to ramp? And then I guess when you look beyond next year, which is obviously going to be a great year, and you look into 26, do you worry about any other, you know, gating factors like, say, the power supply chain or at some point, models start to get smaller? I'm just wondering if you could speak to that thing. I'm going to work backwards. I really appreciate the question, Tim. So remember, the world is moving from general purpose computing to accelerated computing. And the world builds about a trillion dollars with the data centers. You know, a trillion dollars worth of data centers in a few years will be all accelerated computing. In the past, no GPUs are in data centers, just CPUs. In the future, every single data center world GPUs. And the reason for that is it's very clear because we need to accelerate workloads"
-    },
-    {
-      "quarter": "Q2 2025",
-      "start_sec": 2827.36,
-      "text": "you expected to hopper demand to strengthen in the second after. That means hopper strengthens Q3 to Q4 as well on top of Blackwell, adding several billion dollars. And the second question on gross margins, if I have mid-70s for the year, it's saying where I want to draw that. If I have 75 for the year, I'd be something like 71 to 72 for Q4 somewhere in that range. Is that the kind of exit rate for gross margins that you're expecting? And how should we think about the drivers of gross margin evolution in the next year as Blackwell ramps? I mean, hopefully, I guess the yields and the inventory results and everything come up. Yes, Stacey, let's first take your question that you had about hopper and Blackwell. So we believe our hopper will continue to grow into the second half. We have many new products for hopper, our existing products for hopper, that we believe will start continuing to ramp in the next quarters, including our Q3 and those new products moving to Q4. So let's say hopper there for versus H1 is a growth opportunity for that. Additionally, we have the Blackwell on top of that, and the Blackwell starting of ramping in Q4. So hope that helps you on those two pieces. Your second piece is in terms of our gross margin. We provided gross margin of 4RQ3. We provided our gross margin on a non-gap at about 75. We'll work with all the different transitions that we're"
+      "start_sec": 1049.04,
+      "text": "Moving to automotive and robotics, revenue was 346 million up 5% sequentially and up 37% year-on-year."
     }
   ],
-  "pipeline_version": "1.0",
+  "publication": {
+    "call_date_verification": "registry_consistent_external_verification_pending",
+    "previous_report_version": "legacy-cde85203db24",
+    "review_status": "ai_assisted_review_human_review_pending",
+    "scope": "current_call_with_earlier_context"
+  },
+  "quarter": "Q3 2025",
+  "regeneration": {
+    "audio_features": "reused_from_previous_report_not_recomputed",
+    "claim_support_review": "ai_assisted_review_human_review_pending",
+    "generated_at": "2026-10-16T14:39:52.422427+00:00",
+    "historical_context": "retrieved",
+    "input": "saved_transcript_and_sentiment",
+    "provenance": {
+      "dataset_scope": [
+        {
+          "quarter": "Q3_2025",
+          "ticker": "NVDA"
+        }
+      ],
+      "generation": {
+        "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+        "input_segments_sha256": "0ba622f60ff95166d1169696ff79590ddf62fb25f256ae14772706a16d66aeda",
+        "max_tokens": 8000,
+        "model": "openai/gpt-oss-120b",
+        "prompt_sha256": "ba1a96a186ef3d6af5121ff867fb451eb6da9841a14c08f414ee3470497549b9",
+        "response_id": "chatcmpl-7e872085-93f3-4586-8fac-aa0a3775a639",
+        "selection": {
+          "citation_binding": "source_id_to_exact_selected_passage_v1",
+          "policy": "complete_passages_v1",
+          "top_k_per_seed_label": 4
+        }
+      },
+      "input_sha256": {
+        "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+        "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+        "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+        "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+        "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+        "data/processed/pipeline_runs/NVDA/Q3_2025.json": "221e29e10807e24f8de71619f446856b0a5caf2a4da8b9adb6725ac7e3135f22",
+        "data/processed/sentiment/segment/NVDA/Q3_2025.json": "1db9db314fe4b8010f3f45b0add77fb49b41cd7a1ca3b04bd5bbe25ff6913018",
+        "data/processed/transcripts/NVDA/Q1_2025.json": "d8a5a1b50c9c5cb82559ab17c5254456e80be1e0196568461e0633f4b879a5a1",
+        "data/processed/transcripts/NVDA/Q2_2025.json": "0b0d0d389c50ec06fcd3f868406ead1c78d0a40e86673c8047863c6ca653a63b",
+        "data/processed/transcripts/NVDA/Q3_2025.json": "c9b1310ada99489d89f0e234688c80370368070b11dedee9af9e40fefcc4ff40",
+        "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+        "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+        "src/report/generate_structured_report.py": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+        "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f"
+      },
+      "retrieval": {
+        "queries_sha256": "39ddac45fdddb436a54393bf068abbc4e513bc24908fb6d36bf418eef1b53fd9",
+        "query_count": 4,
+        "query_policy": "selected_current_call_passages_v1"
+      }
+    }
+  },
+  "report_version": "complete-passages-be6cb0d7a6c2",
+  "risks": [],
+  "schema_version": "1.0",
+  "sentiment_distribution": {
+    "negative": 2.9,
+    "neutral": 76.5,
+    "positive": 20.7
+  },
   "stage_durations_sec": {
-    "transcription_sec": 0.0,
-    "sentiment_sec": 0.0,
-    "prosody_sec": 0.0,
-    "rag_sec": 6.7,
-    "generation_sec": 0.0,
-    "citation_check_sec": 0.0
-  }
+    "regeneration_sec": 19.62
+  },
+  "ticker": "NVDA"
 }

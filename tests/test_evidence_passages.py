@@ -162,7 +162,7 @@ class GenerationTests(unittest.TestCase):
             self.skipTest("Optional generation dependencies not installed")
         self.generation = generation
 
-    def test_mock_generation_receives_complete_evidence_and_rejects_shortened_citation(self):
+    def test_model_selects_source_id_and_code_binds_exact_citation(self):
         generation = self.generation
         segments = [segment("Revenue is expected to grow low to", 10, "negative"),
                     segment("mid-single digits year-over-year.", 11)]
@@ -170,21 +170,33 @@ class GenerationTests(unittest.TestCase):
         seen = []
 
         def complete(**kwargs):
-            seen.append(kwargs["messages"][0]["content"])
+            seen.append(kwargs)
             return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps({
                 "claims": [{"claim": "Growth guidance is low to mid-single digits.", "sentiment": "positive",
-                            "citation": {"timestamp_sec": 10, "source_text": full}}],
+                            "source_id": "P1"}],
                 "overall_summary": "Growth guidance.",
             })))])
 
         client = SimpleNamespace(chat=SimpleNamespace(completions=SimpleNamespace(create=complete)))
         with patch.object(generation, "load_segments", return_value=segments):
             result = generation.generate_structured("AAPL", "Q1_2025", client)
-            self.assertIn(full, seen[0])
-            self.assertIn("independently of the selection group", seen[0])
+            self.assertIn(full, seen[0]["messages"][0]["content"])
+            self.assertIn("independently of the selection group", seen[0]["messages"][0]["content"])
+            source_enum = seen[0]["response_format"]["json_schema"]["schema"]["properties"]["claims"]["items"]["properties"]["source_id"]["enum"]
+            self.assertEqual(source_enum, ["P1"])
+            self.assertEqual(result["claims"][0]["citation"], {"timestamp_sec": 10, "source_text": full})
             self.assertEqual(result["evidence_policy"], EVIDENCE_POLICY)
-            full = segments[0]["text"]
-            with self.assertRaisesRegex(generation.PipelineError, "not an exact provided passage"):
+            self.assertEqual(result["generation_provenance"]["selection"]["citation_binding"],
+                             "source_id_to_exact_selected_passage_v1")
+
+            def unknown(**kwargs):
+                return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps({
+                    "claims": [{"claim": "Wrong source.", "sentiment": "neutral", "source_id": "P9"}],
+                    "overall_summary": "Wrong source.",
+                })))])
+
+            client.chat.completions.create = unknown
+            with self.assertRaisesRegex(generation.PipelineError, "unknown or repeated"):
                 generation.generate_structured("AAPL", "Q1_2025", client)
 
 

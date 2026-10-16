@@ -1,0 +1,318 @@
+{
+  "structured_claims": {
+    "claims": [
+      {
+        "claim": "In Q3, the total number of ad impressions served across our services increased 14%.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 544,
+          "source_text": "In Q3, the total number of ad impressions served across our services increased 14%."
+        }
+      },
+      {
+        "claim": "Legal-related expense growth was higher than in Q2, due to charges we recorded in the third quarter, as well as us lapping a period of accrual reversals in the third quarter a year ago.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 648,
+          "source_text": "First, legal-related expense growth was higher than in Q2, due to charges we recorded in the third quarter, as well as us lapping a period of accrual reversals in the third quarter a year ago."
+        }
+      },
+      {
+        "claim": "Family of apps other revenue was $690 million, up 59%, driven by WhatsApp paid messaging revenue growth, as well as meta-verified subscriptions.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 577,
+          "source_text": "Family of apps other revenue was $690 million, up 59%, driven by WhatsApp paid messaging revenue growth, as well as meta-verified subscriptions."
+        }
+      },
+      {
+        "claim": "The average price per ad increased 10% year-over-year, benefiting from increased advertiser demand, largely driven by improved ad performance.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 559,
+          "source_text": "The average price per ad increased 10% year-over-year, benefiting from increased advertiser demand, largely driven by improved ad performance."
+        }
+      },
+      {
+        "claim": "The transition to the new US tax law resulted in an accounting charge in the third quarter, but we continue to expect we will recognize significant cash tax savings for the remainder of the current year and future years under the new law, and this quarter's charge reflects the total expected impact from the transition to the new US tax law.",
+        "sentiment": "neutral",
+        "citation": {
+          "timestamp_sec": 738,
+          "source_text": "Although the transition to the new US tax law resulted in an accounting charge in the third quarter, we continue to expect we will recognize significant cash tax savings for the remainder of the current year and future years under the new law, and this quarter's charge reflects the total expected impact from the transition to the new US tax law."
+        }
+      },
+      {
+        "claim": "Growth in infrastructure costs accelerated due to increased infrastructure operating costs associated with our expanded data center fleet, depreciation on our incremental CAPX spend, and third-party cloud spend.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 669,
+          "source_text": "Finally, growth in infrastructure costs accelerated due to increased infrastructure operating costs associated with our expanded data center fleet, depreciation on our incremental CAPX spend, and third-party cloud spend."
+        }
+      },
+      {
+        "claim": "We cannot rule out the commission imposing further changes to that offering that could have a significant negative impact on our European revenue as early as this quarter.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 1623,
+          "source_text": "However, we cannot rule out the commission imposing further changes to that offering that could have a significant negative impact on our European revenue as early as this quarter."
+        }
+      },
+      {
+        "claim": "Our tax rate for the quarter was 87%, which was unfavorably impacted by a one-time, non-cash reduction in deferred tax assets that we no longer anticipate using under new US tax law.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 719,
+          "source_text": "Our tax rate for the quarter was 87%, which was unfavorably impacted by a one-time, non-cash reduction in deferred tax assets that we no longer anticipate using under new US tax law."
+        }
+      }
+    ],
+    "overall_summary": "Meta reported a 14% rise in ad impressions and a 10% increase in average ad price, while family\u2011of\u2011apps other revenue jumped 59% to $690\u202fmillion, reflecting strong demand. However, higher legal\u2011related expenses, accelerated infrastructure costs, a high 87% tax rate and potential regulatory risks in Europe offset some of the positivity. The FinBERT analysis shows the call was largely neutral (86.6%), with modest positivity (12.0%) and little negativity (1.3%).",
+    "evidence_policy": "complete_passages_v1",
+    "generation_provenance": {
+      "model": "openai/gpt-oss-120b",
+      "max_tokens": 8000,
+      "response_id": "chatcmpl-9b88300c-f565-4a5e-a58b-69e29c4b8386",
+      "prompt_sha256": "7a4f3605b49955fcd472fb40c5e8df0151f93ea498a50f56ea6444bd8a9b85f2",
+      "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+      "input_segments_sha256": "a03cd98a6dc23f67582151407104780192f16582dfaedbc0f531343aa93e489e",
+      "selection": {
+        "policy": "complete_passages_v1",
+        "top_k_per_seed_label": 4
+      }
+    }
+  },
+  "citation_evaluation": {
+    "ticker": "META",
+    "quarter": "Q3_2025",
+    "total_citations": 8,
+    "verified": 8,
+    "accuracy": 1.0,
+    "citations": [
+      {
+        "claim": "In Q3, the total number of ad impressions served across our services increased 14%.",
+        "source_text": "In Q3, the total number of ad impressions served across our services increased 14%.",
+        "timestamp_sec": 544,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Legal-related expense growth was higher than in Q2, due to charges we recorded in the third quarter, as well as us lapping a period of accrual reversals in the third quarter a year ago.",
+        "source_text": "First, legal-related expense growth was higher than in Q2, due to charges we recorded in the third quarter, as well as us lapping a period of accrual reversals in the third quarter a year ago.",
+        "timestamp_sec": 648,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Family of apps other revenue was $690 million, up 59%, driven by WhatsApp paid messaging revenue growth, as well as meta-verified subscriptions.",
+        "source_text": "Family of apps other revenue was $690 million, up 59%, driven by WhatsApp paid messaging revenue growth, as well as meta-verified subscriptions.",
+        "timestamp_sec": 577,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "The average price per ad increased 10% year-over-year, benefiting from increased advertiser demand, largely driven by improved ad performance.",
+        "source_text": "The average price per ad increased 10% year-over-year, benefiting from increased advertiser demand, largely driven by improved ad performance.",
+        "timestamp_sec": 559,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "The transition to the new US tax law resulted in an accounting charge in the third quarter, but we continue to expect we will recognize significant cash tax savings for the remainder of the current year and future years under the new law, and this quarter's charge reflects the total expected impact from the transition to the new US tax law.",
+        "source_text": "Although the transition to the new US tax law resulted in an accounting charge in the third quarter, we continue to expect we will recognize significant cash tax savings for the remainder of the current year and future years under the new law, and this quarter's charge reflects the total expected impact from the transition to the new US tax law.",
+        "timestamp_sec": 738,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Growth in infrastructure costs accelerated due to increased infrastructure operating costs associated with our expanded data center fleet, depreciation on our incremental CAPX spend, and third-party cloud spend.",
+        "source_text": "Finally, growth in infrastructure costs accelerated due to increased infrastructure operating costs associated with our expanded data center fleet, depreciation on our incremental CAPX spend, and third-party cloud spend.",
+        "timestamp_sec": 669,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "We cannot rule out the commission imposing further changes to that offering that could have a significant negative impact on our European revenue as early as this quarter.",
+        "source_text": "However, we cannot rule out the commission imposing further changes to that offering that could have a significant negative impact on our European revenue as early as this quarter.",
+        "timestamp_sec": 1623,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Our tax rate for the quarter was 87%, which was unfavorably impacted by a one-time, non-cash reduction in deferred tax assets that we no longer anticipate using under new US tax law.",
+        "source_text": "Our tax rate for the quarter was 87%, which was unfavorably impacted by a one-time, non-cash reduction in deferred tax assets that we no longer anticipate using under new US tax law.",
+        "timestamp_sec": 719,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      }
+    ]
+  },
+  "report": {
+    "schema_version": "1.0",
+    "ticker": "META",
+    "company": "Meta",
+    "quarter": "Q3 2025",
+    "call_date": "2025-10-29",
+    "overall_summary": "Meta reported a 14% rise in ad impressions and a 10% increase in average ad price, while family\u2011of\u2011apps other revenue jumped 59% to $690\u202fmillion, reflecting strong demand. However, higher legal\u2011related expenses, accelerated infrastructure costs, a high 87% tax rate and potential regulatory risks in Europe offset some of the positivity. The FinBERT analysis shows the call was largely neutral (86.6%), with modest positivity (12.0%) and little negativity (1.3%).",
+    "evidence_policy": "complete_passages_v1",
+    "sentiment_distribution": {
+      "positive": 12.0,
+      "negative": 1.3,
+      "neutral": 86.6
+    },
+    "key_claims": [
+      {
+        "claim": "In Q3, the total number of ad impressions served across our services increased 14%.",
+        "evidence": "In Q3, the total number of ad impressions served across our services increased 14%.",
+        "timestamp_sec": 544,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Legal-related expense growth was higher than in Q2, due to charges we recorded in the third quarter, as well as us lapping a period of accrual reversals in the third quarter a year ago.",
+        "evidence": "First, legal-related expense growth was higher than in Q2, due to charges we recorded in the third quarter, as well as us lapping a period of accrual reversals in the third quarter a year ago.",
+        "timestamp_sec": 648,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Family of apps other revenue was $690 million, up 59%, driven by WhatsApp paid messaging revenue growth, as well as meta-verified subscriptions.",
+        "evidence": "Family of apps other revenue was $690 million, up 59%, driven by WhatsApp paid messaging revenue growth, as well as meta-verified subscriptions.",
+        "timestamp_sec": 577,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "The average price per ad increased 10% year-over-year, benefiting from increased advertiser demand, largely driven by improved ad performance.",
+        "evidence": "The average price per ad increased 10% year-over-year, benefiting from increased advertiser demand, largely driven by improved ad performance.",
+        "timestamp_sec": 559,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "The transition to the new US tax law resulted in an accounting charge in the third quarter, but we continue to expect we will recognize significant cash tax savings for the remainder of the current year and future years under the new law, and this quarter's charge reflects the total expected impact from the transition to the new US tax law.",
+        "evidence": "Although the transition to the new US tax law resulted in an accounting charge in the third quarter, we continue to expect we will recognize significant cash tax savings for the remainder of the current year and future years under the new law, and this quarter's charge reflects the total expected impact from the transition to the new US tax law.",
+        "timestamp_sec": 738,
+        "sentiment": "neutral"
+      },
+      {
+        "claim": "Growth in infrastructure costs accelerated due to increased infrastructure operating costs associated with our expanded data center fleet, depreciation on our incremental CAPX spend, and third-party cloud spend.",
+        "evidence": "Finally, growth in infrastructure costs accelerated due to increased infrastructure operating costs associated with our expanded data center fleet, depreciation on our incremental CAPX spend, and third-party cloud spend.",
+        "timestamp_sec": 669,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "We cannot rule out the commission imposing further changes to that offering that could have a significant negative impact on our European revenue as early as this quarter.",
+        "evidence": "However, we cannot rule out the commission imposing further changes to that offering that could have a significant negative impact on our European revenue as early as this quarter.",
+        "timestamp_sec": 1623,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Our tax rate for the quarter was 87%, which was unfavorably impacted by a one-time, non-cash reduction in deferred tax assets that we no longer anticipate using under new US tax law.",
+        "evidence": "Our tax rate for the quarter was 87%, which was unfavorably impacted by a one-time, non-cash reduction in deferred tax assets that we no longer anticipate using under new US tax law.",
+        "timestamp_sec": 719,
+        "sentiment": "negative"
+      }
+    ],
+    "risks": [],
+    "management_outlook": [],
+    "citation_verification": {
+      "total_citations": 8,
+      "verified": 8,
+      "accuracy": 1.0
+    },
+    "audio_features_summary": {
+      "mean_pitch_hz": 158.56,
+      "mean_energy": 0.07,
+      "mean_speaking_rate_wps": 2.87,
+      "segments_analyzed": 1782
+    },
+    "prior_quarter_context_used": [
+      {
+        "quarter": "Q1 2025",
+        "start_sec": 2865.28,
+        "text": "And, you know, more broadly, you know, we're kind of three years past the IDFA impact your business. So where do you, you know, where do you think we are in terms of just the overall improvements to the ad ranking system. The ROI that you guys are able to deliver and like what what ending are we in on that, in your opinion. Thank you very much. I can take a shot at both of those and Mark, you can obviously chime in on the first question, you know, the cap the capacity landscape we are in is pretty dynamic, both in terms of the many moving parts in terms of us bringing capacity online, but also in terms of the demand from different product groups in our company, whether they are in the gen AI teams or whether they're doing more of the core AI work around ranking and recommendations. Both the supply and demand, you know, are quite fluid. And so we don't have a sort of fixed answer in terms of, you know, when we expect that that we will sort of have enough supply to meet all demand, but that's something that we are working very hard to alleviate. And it's part of why we accelerated bringing more data center space online this year. And also we're very focused on increasing the efficiency of our workloads over the course of the year. On your second question about, you know, ads performance ads ranking, you know, we have invested for many years and continue to invest in driving ad performance improvements."
+      },
+      {
+        "quarter": "Q2 2025",
+        "start_sec": 1646.72,
+        "text": "year of compensation expenses for employees hired throughout 2025. We expect these factors will result in a 2026 year over year expense growth rate that is above the 2025 expense growth rate. Turning now to the CAPEX outlook. We currently expect 2025 capital expenditures including principal payments on finance leases to be in the range of 66 to 72 billion dollars, narrowed from our prior outlook of 64 to 72 billion dollars and up approximately 30 billion dollars year over year at the midpoint. While the infrastructure planning process remains highly dynamic, we currently expect another year of similarly significant CAPEX dollar growth in 2026 as we continue aggressively pursuing opportunities to bring additional capacity online to meet the needs of our AI efforts and business operations. Onto tax. With the enactment of the new US tax law, we anticipate a reduction in our US federal cash tax for the remainder of the current year and future years. There are several alternative ways of implementing the provisions of the act which we are currently evaluating. While we estimate that the 2025 tax rate will be higher than our Q2 tax rate, we cannot quantify the magnitude at this time. In addition, we continue to monitor an active regulatory landscape including the increasing legal and regulatory headwinds in the EU that could significantly impact our business and our financial results. For example, we continue to engage with the European Commission on our less personalized ads offering or LPA which we introduced in November 2024 based on feedback from the European Commission"
+      },
+      {
+        "quarter": "Q4 2024",
+        "start_sec": 582.76,
+        "text": "lines, I would note that our fourth quarter expense growth rate reflects a 13 percentage point favorable impact from legal accrual reductions in Q4 and lower year over year restructuring costs. In terms of the specific line items, cost of revenue increased 15% driven mostly by higher infrastructure costs. R&D increased 16% primarily driven by higher employee compensation and infrastructure costs, which were partially offset by lower restructuring costs. Marketing and sales were approximately flat year over year. G&A decreased 67% driven mostly by lower legal related expenses due to a $1.55 billion reduction in legal accruals related to certain legal proceedings. We ended the year with over 74,000 employees, up 10% year over year, with growth primarily driven by hiring and priority areas of monetization, infrastructure, generative AI, reality labs, as well as regulation and compliance. Fourth quarter operating income was $23.4 billion representing a 48% operating margin. Our tax rate for the quarter was 12%. Net income was $20.8 billion or $8.02 per share. Capital expenditures including principal payments on finance leases were $14.8 billion driven by investments in servers, data centers and network infrastructure. Free cash flow was $13.2 billion. We paid $1.3 billion in dividends to shareholders, ending the year with $77.8 billion in cash and marketable securities and $28.8 billion in debt. Moving now to our segment results. I'll begin with our family of apps segment. Our community across the family of apps continues to grow and we estimate more than 3.3 billion people used at least one of our family of apps on a daily basis in December."
+      }
+    ],
+    "pipeline_version": "1.0",
+    "stage_durations_sec": {
+      "regeneration_sec": 23.94
+    },
+    "regeneration": {
+      "generated_at": "2026-10-16T09:50:19.760431+00:00",
+      "input": "saved_transcript_and_sentiment",
+      "audio_features": "reused_from_previous_report_not_recomputed",
+      "historical_context": "retrieved",
+      "claim_support_review": "pending",
+      "provenance": {
+        "dataset_scope": [
+          {
+            "ticker": "META",
+            "quarter": "Q3_2025"
+          }
+        ],
+        "generation": {
+          "model": "openai/gpt-oss-120b",
+          "max_tokens": 8000,
+          "response_id": "chatcmpl-9b88300c-f565-4a5e-a58b-69e29c4b8386",
+          "prompt_sha256": "7a4f3605b49955fcd472fb40c5e8df0151f93ea498a50f56ea6444bd8a9b85f2",
+          "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+          "input_segments_sha256": "a03cd98a6dc23f67582151407104780192f16582dfaedbc0f531343aa93e489e",
+          "selection": {
+            "policy": "complete_passages_v1",
+            "top_k_per_seed_label": 4
+          }
+        },
+        "retrieval": {
+          "query_policy": "selected_current_call_passages_v1",
+          "queries_sha256": "1964cf4d8e520dba9bcc23327d43bd511412acfe225328f4fef1c702adae82cb",
+          "query_count": 4
+        },
+        "input_sha256": {
+          "data/processed/transcripts/META/Q3_2025.json": "2f3dac5e8dddb26b43583edad50e58f826b0b645e1fc0570fa6cd568f405467e",
+          "data/processed/sentiment/segment/META/Q3_2025.json": "5dca2d7ce82a31aa3af669b6becec16b020cc4c4e1a3b8e3ea348f693c598980",
+          "data/processed/pipeline_runs/META/Q3_2025.json": "17eaceab27d5d05baa01941fd3e348dc97185d360ce87c57cc108d69a243f731",
+          "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+          "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+          "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+          "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+          "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f",
+          "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+          "src/report/generate_structured_report.py": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+          "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+          "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+          "data/processed/transcripts/META/Q1_2025.json": "f0461d42a908ae037ab0af4937f7309dd2648abad2a5d40b37ba5834c0b82d9d",
+          "data/processed/transcripts/META/Q2_2025.json": "a062e54bc9eceeeedd23c5eecfece1565fee76f59cde4a8d1d6ee4ffad892d1c",
+          "data/processed/transcripts/META/Q4_2024.json": "0ab47b2f41fecdb196af4659423e1f95e3a01de5480b379cdeca5ef6f5955bf9"
+        }
+      }
+    }
+  },
+  "review": {
+    "status": "pending",
+    "previous_context_quarters": [
+      "Q1 2025",
+      "Q1 2025",
+      "Q4 2024"
+    ],
+    "new_context_quarters": [
+      "Q1 2025",
+      "Q2 2025",
+      "Q4 2024"
+    ],
+    "note": "Exact citation matches do not establish that the generated claims are supported. Review claims and qualifications before publishing."
+  }
+}

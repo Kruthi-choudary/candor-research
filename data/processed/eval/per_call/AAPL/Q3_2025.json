@@ -1,73 +1,50 @@
 {
-  "ticker": "AAPL",
-  "quarter": "Q3_2025",
-  "total_citations": 8,
-  "verified": 8,
   "accuracy": 1.0,
   "citations": [
     {
-      "claim": "Mac revenue was $8 billion, up 15% year over year.",
-      "source_text": "Mac revenue was $8 billion, up 15% year over year,",
+      "actual_segment_text": null,
+      "claim": "Mac revenue was $8 billion, up 15% year over year, driven by continued strength across the portfolio, including MacBook Air, Mac Mini, and MacBook Pro.",
+      "match_ratio": 1.0,
+      "source_text": "Mac revenue was $8 billion, up 15% year over year, driven by continued strength across the portfolio, including MacBook Air, Mac Mini, and MacBook Pro.",
       "timestamp_sec": 1157,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Total revenue reached $94 billion, representing a 10% increase year over year.",
-      "source_text": "Our revenue of $94 billion was up 10% year over year",
+      "actual_segment_text": null,
+      "claim": "Apple reported June-quarter revenue of $94 billion, up 10% year over year and a June-quarter record.",
+      "match_ratio": 1.0,
+      "source_text": "Our revenue of $94 billion was up 10% year over year and is a new June quarter record.",
       "timestamp_sec": 1007,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Revenue grew 10% from a year ago, exceeding expectations.",
-      "source_text": "up 10% from a year ago, which was better than we expected.",
-      "timestamp_sec": 117,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "iPad revenue was $6.6 billion, down 8% year over year, which was expected given the difficult compare against the launch of the iPad Air and iPad Pro in the year ago quarter.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Revenue grew 15% year over year.",
-      "source_text": "with revenue up 15% year over year.",
-      "timestamp_sec": 177,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "iPad revenue was $6.6 billion, down 8% year over year.",
-      "source_text": "iPad revenue was $6.6 billion, down 8% year over year,",
+      "source_text": "iPad revenue was $6.6 billion, down 8% year over year, which was expected given the difficult compare against the launch of the iPad Air and iPad Pro in the year ago quarter.",
       "timestamp_sec": 1187,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Revenue was $7.4 billion, down 9% year over year.",
-      "source_text": "was $7.4 billion, down 9% year over year.",
-      "timestamp_sec": 1219,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Wearables, Home and Accessories revenue was $7.4 billion, down 9% year over year.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "Wearables home and accessories revenue was $7.4 billion, down 9% year over year.",
+      "timestamp_sec": 1217,
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Diluted earnings per share were $1.57.",
-      "source_text": "and diluted earnings per share of $1.57,",
-      "timestamp_sec": 1093,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Apple reported June-quarter records for net income of $23.4 billion and diluted earnings per share of $1.57; diluted EPS was up 12% year over year.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "The situation also leads to a difficult comparison this year.",
-      "source_text": "which also leads to a difficult compare this year.",
-      "timestamp_sec": 2109,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "source_text": "This strong business performance led to June quarter records for both net income at $23.4 billion and diluted earnings per share of $1.57, which was up 12% year over year.",
+      "timestamp_sec": 1087,
+      "verdict": "VERIFIED"
     }
-  ]
+  ],
+  "quarter": "Q3_2025",
+  "report_version": "complete-passages-adc355d4fc98",
+  "ticker": "AAPL",
+  "total_citations": 5,
+  "verified": 5
 }

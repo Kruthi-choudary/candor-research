@@ -1,69 +1,68 @@
 {
   "claims": [
     {
-      "claim": "Operating expenses increased by 9% due to higher compute, infrastructure, and engineering development.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1093,
-        "source_text": "operating expenses were up 9%. Due to higher compute, infrastructure and engineering development"
-      }
+        "source_text": "Revenue of 35.1 billion was up 17 percent sequentially and up 94 percent year on year and well above our outlook of 32.5 billion. All market platforms posted strong sequential and year over year growth fueled by the adoption of NVIDIA Accelerated Computing and AI.",
+        "timestamp_sec": 132
+      },
+      "claim": "Nvidia reported Q3 fiscal 2025 revenue of $35.1 billion, up 17% sequentially and 94% year over year, above its $32.5 billion outlook.",
+      "sentiment": "positive"
     },
     {
-      "claim": "NVIDIA Hopper demand is exceptional and sequential NVIDIA H200 sales increased significantly.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 168,
-        "source_text": "NVIDIA Hopper demand is exceptional and sequentially NVIDIA H200 sales increased significantly"
-      }
+        "source_text": "Strong growth was driven by self-driving brands of NVIDIA orin and robust and market demand for NEVs. Global cars is rolling out its fully electric SUV built on NVIDIA orin and drive OS. Moving to the rest of the P&L, gap growth margin was 74.6% and non-gap growth margin was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex and higher cost systems within data center. Sequentially, gap operating expenses and non-gap operating expenses were up 9%. Due to higher compute, infrastructure and engineering development costs for new product introductions. In Q3, we returned 11.2 billion to shareholders in the form of share repurchases and cash dividends. Let me turn to the outlook for the fourth quarter.",
+        "timestamp_sec": 1052
+      },
+      "claim": "Nvidia said it returned $11.2 billion to shareholders in Q3 through share repurchases and cash dividends.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Revenue of 486 million grew 7% sequentially and 17% year on year.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1009,
-        "source_text": "Revenue of 486 million was up 7% sequentially and 17% year on year."
-      }
+        "source_text": "Revenue of 486 million was up 7% sequentially and 17% year on year.",
+        "timestamp_sec": 1009
+      },
+      "claim": "Pro Visualization revenue was $486 million in Q3 fiscal 2025, up 7% sequentially and 17% year over year.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 916,
-        "source_text": "PCs. Gaming revenue of 3.3 billion increased 14% sequentially and 15% year on year. Q3 was a"
-      }
+        "source_text": "Moving to automotive, revenue was a record 449 million, up 30% sequentially and up 72% year on year.",
+        "timestamp_sec": 1043
+      },
+      "claim": "Automotive revenue was a record $449 million in Q3 fiscal 2025, up 30% sequentially and 72% year over year.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Networking business was down about 15 percent.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 3022,
-        "source_text": "quarter you know Klet you mentioned that obviously the networking business was down about 15 percent"
-      }
+        "source_text": "So our gaming right now from a supply we're busy trying to make sure that we can ramp all of our different products. And in this case our gaming supply given what we saw selling through was moving quite fast. Now the challenge that we have is how fast could we get that supply getting ready into the market for this quarter. Not to worry I think we'll be back on track with more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter.",
+        "timestamp_sec": 3214
+      },
+      "claim": "Nvidia expected Gaming product supply to remain tight for the quarter and said it aimed to improve availability after the calendar year turned.",
+      "sentiment": "negative"
     },
     {
-      "claim": "Revenue was down 75% sequentially, primarily driven by a mix shift of the H100 systems to more complex configurations.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 1078,
-        "source_text": "was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex"
-      }
-    },
-    {
-      "claim": "Higher\u2011cost data\u2011center systems led to a sequential increase in operating expenses and non\u2011GAAP gaps.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 1086,
-        "source_text": "and higher cost systems within data center. Sequentially, gap operating expenses and non-gap"
-      }
-    },
-    {
-      "claim": "Suppliers indicate a tight quarter ahead as the company turns the corner into the new calendar year.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 3239,
-        "source_text": "more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter."
-      }
+        "source_text": "Collette, why don't you start? Sure. Let me first start with your question, Tim. Thank you regarding our gross margins. And we discussed that our gross margins as we are ramping Blackwell in the very beginning and the many different configurations, the many different tips that we are bringing to market, we are going to focus on making sure we have the best experience for our customers as they stand that up. We will start growing in for our gross margins, but we do believe those will be in the low 70s in that first part of the round. So you're correct. As you look at the quarters following after that, we will start increasing our gross margins. And we hope to get to the mid 70s quite quickly as part of that round. Hopper demand will continue through next year.",
+        "timestamp_sec": 2060
+      },
+      "claim": "Nvidia expected gross margin in the low-70% range during the early Blackwell ramp and hoped to return to the mid-70% range in later quarters.",
+      "sentiment": "negative"
     }
   ],
-  "overall_summary": "The call highlighted strong revenue and gaming growth alongside exceptional Hopper demand, but also noted rising operating expenses and challenges in networking and data\u2011center margins. Sentiment was largely neutral, with 20.7% positive and 2.9% negative statements."
+  "evidence_policy": "complete_passages_v1",
+  "generation_provenance": {
+    "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+    "input_segments_sha256": "0ba622f60ff95166d1169696ff79590ddf62fb25f256ae14772706a16d66aeda",
+    "max_tokens": 8000,
+    "model": "openai/gpt-oss-120b",
+    "prompt_sha256": "ba1a96a186ef3d6af5121ff867fb451eb6da9841a14c08f414ee3470497549b9",
+    "response_id": "chatcmpl-7e872085-93f3-4586-8fac-aa0a3775a639",
+    "selection": {
+      "citation_binding": "source_id_to_exact_selected_passage_v1",
+      "policy": "complete_passages_v1",
+      "top_k_per_seed_label": 4
+    }
+  },
+  "overall_summary": "Nvidia reported Q3 fiscal 2025 revenue of $35.1 billion, up 17% sequentially and 94% year over year, above its $32.5 billion outlook. Pro Visualization revenue was $486 million and Automotive revenue was a record $449 million. Nvidia said Gaming supply would be tight for the quarter and expected gross margin in the low-70% range during the early Blackwell ramp, with a hoped-for return to the mid-70% range later. Earlier Q2 revenue and Automotive figures provide business context, not a measured change in an executive\u2019s communication. FinBERT classified 20.7% of scored transcript segments as positive, 2.9% as negative and 76.5% as neutral; these text labels do not measure vocal confidence.",
+  "report_version": "complete-passages-be6cb0d7a6c2"
 }

@@ -1,0 +1,709 @@
+{
+  "applied_at": "2026-10-16T13:53:52.139252+00:00",
+  "candidate_sha256": "40568688896251382c6fd4114240ee90aa084dc3661af1e5d4d67bab36626b97",
+  "configuration_at_promotion": {
+    "evaluation": {
+      "citation_match_threshold": 0.6,
+      "citation_tolerance_sec": 2.0
+    },
+    "generation": {
+      "llm_model": "openai/gpt-oss-120b",
+      "max_tokens": 1500,
+      "max_tokens_structured": 8000,
+      "top_k_quotes": 4
+    },
+    "models": {
+      "embedding": "BAAI/bge-small-en-v1.5",
+      "sentiment": "ProsusAI/finbert",
+      "whisper": "base.en"
+    },
+    "retrieval": {
+      "chunk_words": 250,
+      "embed_dim": 384,
+      "table_name": "transcript_chunks",
+      "top_k": 3
+    }
+  },
+  "input_sha256": {
+    "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+    "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+    "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+    "data/processed/eval/citation_accuracy_baseline_free_text_v1.json": "8d7ca45472e067915f49912d5937f2cc830acf0f48351cfc99e61c6602ba886a",
+    "data/processed/eval/citation_accuracy_structured_citations_v1.json": "185b0d26062cc8732335afc933efe9b04fa586899027df20033e53a4442e128e",
+    "data/processed/eval/claim_coverage.json": "3ce127afcd847c446d18ead6198eafbc08022b1b52a2103855673719dd6b08b3",
+    "data/processed/eval/per_call/AAPL/Q1_2025.json": "c76cf922771f89b75a1d20f77d9efd21a2e6f17ca153c74fce419150e737c116",
+    "data/processed/eval/per_call/META/Q1_2025.json": "bade6789345c4053690076895dd8642579258309bfa04026dafb6fc79b9c88a8",
+    "data/processed/eval/per_call/MSFT/Q1_2025.json": "417397248f79460ba8ecc32f03b18ef98f703b7104a8b0d2c66f76e8a7ec9434",
+    "data/processed/eval/per_call/NVDA/Q1_2025.json": "de702101c91fa5102d4b526f7bd2d1fc239f036b321a18cb5baabccaaf82ca69",
+    "data/processed/pipeline_runs/AAPL/Q1_2025.json": "59be4f35013b8674d6fbc65bdc70f36eeced9839f0d555656ada7bc0e3555b16",
+    "data/processed/pipeline_runs/META/Q1_2025.json": "537f595c0793448b26c9a4b735772608041117cfa21b87a00b7fd10b5fead3aa",
+    "data/processed/pipeline_runs/MSFT/Q1_2025.json": "80fda733f9f309ffb9f1975a1a2d8bf8ff5f1493fc62fdd8f7c7c8e6a925e2ec",
+    "data/processed/pipeline_runs/NVDA/Q1_2025.json": "90973c689cf13c197a571ef7984d9e583b02e9240498ca7a4ae41c8b903ae9cd",
+    "data/processed/reports_structured_citations_v1/AAPL/Q1_2025.json": "f2fe29543329d56ef6e4652260004b2c45acbe7dccc8b24c1634aefca66d027f",
+    "data/processed/reports_structured_citations_v1/META/Q1_2025.json": "5e23ae802cd001a96f5616f917383ef11b65bbf110fe8d2244b1adb2997266e0",
+    "data/processed/reports_structured_citations_v1/MSFT/Q1_2025.json": "0bad8b1b9f835cfaf7ba2ba8575c08c210f547cd49816dc6a2b178c4124360e5",
+    "data/processed/reports_structured_citations_v1/NVDA/Q1_2025.json": "534271dfd4538d308831def246df6582db3085ff8a8823e7659bce2b41594120",
+    "data/processed/sentiment/segment/MSFT/Q1_2025.json": "9c6a911fafcf398d1e9c3493c211a23a1267ec5df515ad717b6ffda676fd698e",
+    "data/processed/transcripts/AAPL/Q1_2025.json": "2d5cbdf457900f950520d301c20e77066a69e53b5698f0d75334a808ec5bf14e",
+    "data/processed/transcripts/META/Q1_2025.json": "f0461d42a908ae037ab0af4937f7309dd2648abad2a5d40b37ba5834c0b82d9d",
+    "data/processed/transcripts/MSFT/Q1_2025.json": "0587c6216dea197be0f6e5fbb38e5f1ed2342a01194096bdce6c14eaf988d6e0",
+    "data/processed/transcripts/NVDA/Q1_2025.json": "d8a5a1b50c9c5cb82559ab17c5254456e80be1e0196568461e0633f4b879a5a1",
+    "frontend/scripts/build-demo.mjs": "63b95592ad27848b4eb7814242c1b1cde9c1cf54ad6d38f62895f30fcc3a126a",
+    "frontend/src/data/demo.json": "c8a84a4db75d635ea2e6e7d3dacfe1f6673a7f478333575a6829c739ff0fb5bc",
+    "src/common/schema.py": "0faebe9d8e71a23ec5a9bc635171f81d4ccd6d5a0c2594cfeb0483e218a140d0",
+    "src/eval/check_citations_structured.py": "1c1418f8711fef6edcde602235d785abed84ae6f4d03366004c1758d7ac83a03",
+    "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+    "src/report/promote.py": "7eb3639f70834ad2c6ca33f7a5232ae307f5d092830ddd578fd86c0683d6bd00"
+  },
+  "limitations": [
+    "AI-assisted support review; independent human review pending.",
+    "Call date checked against feed-derived registry; external verification pending."
+  ],
+  "output_sha256": {
+    "data/processed/eval/per_call/MSFT/Q1_2025.json": "2c97dfba269ce10ea67fd884e6cd6938247e8fc9458c393d4286f9b591cade87",
+    "data/processed/pipeline_runs/MSFT/Q1_2025.json": "fa312b97907c615250b17f48c26f26f98edf84a69801fb7f887bc33698fc0644",
+    "data/processed/reports_structured_citations_v1/MSFT/Q1_2025.json": "49f720acd0944e60fe6df8430d8160a688740340c7ff7e202cc08d104bf1e719",
+    "frontend/src/data/demo.json": "62c8cece4758573cb5389e786ffb434eaaca600f99eb05dc1b82d8cf30b822f8"
+  },
+  "previous": {
+    "citation_evaluation": {
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft's M365 consumer products revenue grew 5% and its cloud services revenue grew 6% in constant currency.",
+          "match_ratio": 1.0,
+          "source_text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+          "timestamp_sec": 1386,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "LinkedIn revenue rose 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "match_ratio": 1.0,
+          "source_text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "timestamp_sec": 1412,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Operating margins, excluding the net impact from the Activision acquisition, increased by 1.0 percentage point.",
+          "match_ratio": 1.0,
+          "source_text": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0.",
+          "timestamp_sec": 1310,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "M365 commercial products revenue grew 2% and 3% in constant currency, surpassing expectations.",
+          "match_ratio": 1.0,
+          "source_text": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,",
+          "timestamp_sec": 1376,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Free cash flow fell 7% year over year to $19.3\u202fbillion, reflecting higher capital expenditures for cloud and AI.",
+          "match_ratio": 1.0,
+          "source_text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+          "timestamp_sec": 1689,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Enterprise and partner services revenue declined 1% and was relatively flat in constant currency.",
+          "match_ratio": 1.0,
+          "source_text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+          "timestamp_sec": 1528,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Revenue in the on-premises server business decreased 1%.",
+          "match_ratio": 1.0,
+          "source_text": "In our on-premises server business, revenue decreased 1%.",
+          "timestamp_sec": 1509,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft's cloud gross margin percentage fell 2.0 points year over year to 71%.",
+          "match_ratio": 1.0,
+          "source_text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+          "timestamp_sec": 1245,
+          "verdict": "VERIFIED"
+        }
+      ],
+      "quarter": "Q1_2025",
+      "ticker": "MSFT",
+      "total_citations": 8,
+      "verified": 8
+    },
+    "report": {
+      "audio_features_summary": {
+        "mean_energy": 0.07,
+        "mean_pitch_hz": 180.19,
+        "mean_speaking_rate_wps": 2.56,
+        "segments_analyzed": 656
+      },
+      "call_date": "2024-10-30",
+      "citation_verification": {
+        "accuracy": 1.0,
+        "total_citations": 8,
+        "verified": 8
+      },
+      "company": "Microsoft",
+      "key_claims": [
+        {
+          "claim": "Microsoft's M365 consumer products revenue grew 5% and its cloud services revenue grew 6% in constant currency.",
+          "evidence": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+          "sentiment": "positive",
+          "timestamp_sec": 1386
+        },
+        {
+          "claim": "LinkedIn revenue rose 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "evidence": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "sentiment": "positive",
+          "timestamp_sec": 1412
+        },
+        {
+          "claim": "Operating margins, excluding the net impact from the Activision acquisition, increased by 1.0 percentage point.",
+          "evidence": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0.",
+          "sentiment": "positive",
+          "timestamp_sec": 1310
+        },
+        {
+          "claim": "M365 commercial products revenue grew 2% and 3% in constant currency, surpassing expectations.",
+          "evidence": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,",
+          "sentiment": "positive",
+          "timestamp_sec": 1376
+        },
+        {
+          "claim": "Free cash flow fell 7% year over year to $19.3\u202fbillion, reflecting higher capital expenditures for cloud and AI.",
+          "evidence": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+          "sentiment": "negative",
+          "timestamp_sec": 1689
+        },
+        {
+          "claim": "Enterprise and partner services revenue declined 1% and was relatively flat in constant currency.",
+          "evidence": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+          "sentiment": "negative",
+          "timestamp_sec": 1528
+        },
+        {
+          "claim": "Revenue in the on-premises server business decreased 1%.",
+          "evidence": "In our on-premises server business, revenue decreased 1%.",
+          "sentiment": "negative",
+          "timestamp_sec": 1509
+        },
+        {
+          "claim": "Microsoft's cloud gross margin percentage fell 2.0 points year over year to 71%.",
+          "evidence": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+          "sentiment": "negative",
+          "timestamp_sec": 1245
+        }
+      ],
+      "management_outlook": [],
+      "overall_summary": "The call highlighted solid top\u2011line growth, with M365 consumer and commercial products, cloud services, and LinkedIn all posting double\u2011digit or low\u2011double\u2011digit increases, and operating margins improving modestly. However, pressure on cash flow, on\u2011premises server sales, enterprise services, and cloud gross margins tempered the outlook. Overall sentiment was 30% positive, 4.7% negative, and 65.2% neutral according to FinBERT.",
+      "pipeline_version": "1.0",
+      "prior_quarter_context_used": [
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 2340.88,
+          "text": "commercial perceived side or on the consumption meters that's I think the fundamental driver. And Keith you know I do think and I really do appreciate how you phrase the question as well because I think the timing and some of the questions you all have had really led to how we were talking even about capital expense in our comments in my comments today. Being able to maybe share a little more about that when we talked about roughly half of FY24's total capital expense as well as half of Q4's expense it's really on land and builds and finance leases and those things really will be monetized over 15 years and beyond and they're incredibly flexible because we've built a consistent architecture first with a commercial cloud and second with the Azure Stack for AI regardless of whether the demand is at the platform layer or at the app layer or through third parties and partners or frankly our first party fast it uses the same infrastructure. So with that long life flexible assets and if you think about it that way you can see what we're doing and focused on is building out this network and parallel of across the globe because you know when we did this last transition the first transition to the cloud which seems a long time ago sometimes it rolled out quite differently we rolled out more geo by geo and this one because we have demand on a global basis we are doing it on a global basis which is important we have large"
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 2831.84,
+          "text": "distinction between our CAPEx number and on occasion the cash that we pay for PP&E and you're going to start to see that more often in this period because it happens when we use leases leases sort of show up all at once and so you'll see a little bit more volatility I've mentioned to that in my comments before but I mentioned again just because you're starting to see that distinction in my comments and hopefully that's helpful context. Just one other thing Amy if I want to add I think as people think about capital spend I think it's important separate out leases from build and when it comes to build I think it's important for us to think about we think about it in terms of what's the total percentage of cost that goes into each line item land which obviously has a very different duration and a very different lead time so those are the other two considerations we think about lead time and duration of the asset land you know network construction the system or the kit and then the ongoing cost and so if you think about it that way then it you know how to even adjust if you will the capital spend based on demand signal. Thank you it was triggered by the jump in CAPEx and as Amy pointed out you're guiding to accelerating Azure revenue growth rate which I guess follows the CAPEx thank you so much once again. Thanks Cash operator next question please."
+        },
+        {
+          "quarter": "Q3 2025",
+          "start_sec": 2452.4,
+          "text": "depends on that. So we want to stay disciplined and execute super well on that. Thank you. All right, Brent. All right. Next question, please. The next question comes from the line of Mark Mortler with Bernstein Research. Please proceed. Thank you very much for taking my question and I will reiterate what my peers have said. Congratulations on the great quarter. Satya and Amy, Microsoft is a very different business than it was during the last recession. Incredible job you've done. If we get into a recession, I hope we don't. How do you think about the sustainability, the sustainability, revenue volatility at Microsoft today, if we were to get into a recession? Would the business react early to recession or late? Would a recession have a more shallow impact on revenue? Any thoughts will be appreciated? Maybe I'll start and then Amy, Sadad, Mark, the way at least I think we will approach it is, quite frankly, the very focused on how we help our customers. If there is any turbulence in the macro, because one of the things that we feel we can do just because of the efficiencies of the cloud and the footprint we have and the differentiated layers of the stack from the SaaS application side to the infrastructure side, I think if you sort of buy into the argument that software is the most malleable resource we have to fight any type of inflationary pressure or any type of growth pressure where you need to do more with less, I think we can be super helpful"
+        }
+      ],
+      "quarter": "Q1 2025",
+      "risks": [],
+      "schema_version": "1.0",
+      "sentiment_distribution": {
+        "negative": 4.7,
+        "neutral": 65.2,
+        "positive": 30.0
+      },
+      "stage_durations_sec": {
+        "citation_check_sec": 0.0,
+        "generation_sec": 0.0,
+        "prosody_sec": 0.0,
+        "rag_sec": 5.6,
+        "sentiment_sec": 0.0,
+        "transcription_sec": 0.0
+      },
+      "ticker": "MSFT"
+    },
+    "structured_claims": {
+      "claims": [
+        {
+          "citation": {
+            "source_text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+            "timestamp_sec": 1386
+          },
+          "claim": "Microsoft's M365 consumer products revenue grew 5% and its cloud services revenue grew 6% in constant currency.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+            "timestamp_sec": 1412
+          },
+          "claim": "LinkedIn revenue rose 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0.",
+            "timestamp_sec": 1310
+          },
+          "claim": "Operating margins, excluding the net impact from the Activision acquisition, increased by 1.0 percentage point.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,",
+            "timestamp_sec": 1376
+          },
+          "claim": "M365 commercial products revenue grew 2% and 3% in constant currency, surpassing expectations.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+            "timestamp_sec": 1689
+          },
+          "claim": "Free cash flow fell 7% year over year to $19.3\u202fbillion, reflecting higher capital expenditures for cloud and AI.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+            "timestamp_sec": 1528
+          },
+          "claim": "Enterprise and partner services revenue declined 1% and was relatively flat in constant currency.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "In our on-premises server business, revenue decreased 1%.",
+            "timestamp_sec": 1509
+          },
+          "claim": "Revenue in the on-premises server business decreased 1%.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+            "timestamp_sec": 1245
+          },
+          "claim": "Microsoft's cloud gross margin percentage fell 2.0 points year over year to 71%.",
+          "sentiment": "negative"
+        }
+      ],
+      "overall_summary": "The call highlighted solid top\u2011line growth, with M365 consumer and commercial products, cloud services, and LinkedIn all posting double\u2011digit or low\u2011double\u2011digit increases, and operating margins improving modestly. However, pressure on cash flow, on\u2011premises server sales, enterprise services, and cloud gross margins tempered the outlook. Overall sentiment was 30% positive, 4.7% negative, and 65.2% neutral according to FinBERT."
+    }
+  },
+  "previous_version": "legacy-ee0b689b5663",
+  "replacement": {
+    "citation_evaluation": {
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported Q1 FY2025 M365 consumer products and cloud services revenue growth of 5%, or 6% in constant currency.",
+          "match_ratio": 1.0,
+          "source_text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+          "timestamp_sec": 1386,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported LinkedIn revenue growth of 10%, or 9% in constant currency, slightly ahead of expectations, with growth across its business lines.",
+          "match_ratio": 1.0,
+          "source_text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "timestamp_sec": 1412,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported free cash flow of $19.3 billion, down 7% year over year, reflecting higher capital expenditures for cloud and AI offerings.",
+          "match_ratio": 1.0,
+          "source_text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+          "timestamp_sec": 1689,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported enterprise and partner services revenue down 1%, or relatively unchanged in constant currency.",
+          "match_ratio": 1.0,
+          "source_text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+          "timestamp_sec": 1528,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported Microsoft Cloud gross margin of 71%, lower year over year.",
+          "match_ratio": 1.0,
+          "source_text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+          "timestamp_sec": 1245,
+          "verdict": "VERIFIED"
+        }
+      ],
+      "quarter": "Q1_2025",
+      "report_version": "complete-passages-405686888962",
+      "ticker": "MSFT",
+      "total_citations": 5,
+      "verified": 5
+    },
+    "report": {
+      "audio_features_summary": {
+        "mean_energy": 0.07,
+        "mean_pitch_hz": 180.19,
+        "mean_speaking_rate_wps": 2.56,
+        "segments_analyzed": 656
+      },
+      "call_date": "2024-10-30",
+      "citation_verification": {
+        "accuracy": 1.0,
+        "total_citations": 5,
+        "verified": 5
+      },
+      "company": "Microsoft",
+      "evidence_policy": "complete_passages_v1",
+      "key_claims": [
+        {
+          "claim": "Microsoft reported Q1 FY2025 M365 consumer products and cloud services revenue growth of 5%, or 6% in constant currency.",
+          "evidence": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+          "sentiment": "positive",
+          "timestamp_sec": 1386
+        },
+        {
+          "claim": "Microsoft reported LinkedIn revenue growth of 10%, or 9% in constant currency, slightly ahead of expectations, with growth across its business lines.",
+          "evidence": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "sentiment": "positive",
+          "timestamp_sec": 1412
+        },
+        {
+          "claim": "Microsoft reported free cash flow of $19.3 billion, down 7% year over year, reflecting higher capital expenditures for cloud and AI offerings.",
+          "evidence": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+          "sentiment": "negative",
+          "timestamp_sec": 1689
+        },
+        {
+          "claim": "Microsoft reported enterprise and partner services revenue down 1%, or relatively unchanged in constant currency.",
+          "evidence": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+          "sentiment": "negative",
+          "timestamp_sec": 1528
+        },
+        {
+          "claim": "Microsoft reported Microsoft Cloud gross margin of 71%, lower year over year.",
+          "evidence": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+          "sentiment": "negative",
+          "timestamp_sec": 1245
+        }
+      ],
+      "management_outlook": [],
+      "overall_summary": "Microsoft reported Q1 FY2025 M365 consumer products and cloud services revenue growth of 5%, or 6% in constant currency, and LinkedIn revenue growth of 10%, or 9% in constant currency. Enterprise and partner services revenue fell 1% but was relatively unchanged in constant currency; free cash flow was $19.3 billion, down 7% year over year, reflecting higher cloud and AI capital expenditures. Microsoft Cloud gross margin was 71%, lower year over year. FinBERT classified 30.0% of scored transcript segments as positive, 4.7% as negative and 65.2% as neutral; these text labels do not measure vocal confidence.",
+      "pipeline_version": "1.0",
+      "prior_quarter_context_used": [],
+      "publication": {
+        "call_date_verification": "registry_consistent_external_verification_pending",
+        "previous_report_version": "legacy-ee0b689b5663",
+        "review_status": "ai_assisted_review_human_review_pending",
+        "scope": "current_call_only"
+      },
+      "quarter": "Q1 2025",
+      "regeneration": {
+        "audio_features": "reused_from_previous_report_not_recomputed",
+        "claim_support_review": "ai_assisted_review_human_review_pending",
+        "generated_at": "2026-10-16T10:13:28.871842+00:00",
+        "historical_context": "retrieved",
+        "input": "saved_transcript_and_sentiment",
+        "provenance": {
+          "dataset_scope": [
+            {
+              "quarter": "Q1_2025",
+              "ticker": "MSFT"
+            }
+          ],
+          "generation": {
+            "generator_sha256": "a57529c348e8210d66d8ac8be791e7e3dc43bde51079b57591ef277c8e4489f2",
+            "input_segments_sha256": "9135587e2b532fd2c3bb3e57cd109f1c759e8ceaac1061ded87ae91ffd19b495",
+            "max_tokens": 8000,
+            "model": "openai/gpt-oss-120b",
+            "prompt_sha256": "72747cf75bd9c5b03bfa462c59b7f7e4afc2795f959b48dad81e5f0e41f219f6",
+            "response_id": "chatcmpl-15914ab6-ff6f-4a23-8097-75b1bbcc13a8",
+            "selection": {
+              "policy": "complete_passages_v1",
+              "top_k_per_seed_label": 4
+            }
+          },
+          "input_sha256": {
+            "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+            "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+            "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+            "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+            "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+            "data/processed/pipeline_runs/MSFT/Q1_2025.json": "80fda733f9f309ffb9f1975a1a2d8bf8ff5f1493fc62fdd8f7c7c8e6a925e2ec",
+            "data/processed/sentiment/segment/MSFT/Q1_2025.json": "9c6a911fafcf398d1e9c3493c211a23a1267ec5df515ad717b6ffda676fd698e",
+            "data/processed/transcripts/MSFT/Q1_2025.json": "0587c6216dea197be0f6e5fbb38e5f1ed2342a01194096bdce6c14eaf988d6e0",
+            "data/processed/transcripts/MSFT/Q4_2024.json": "b4fbc106ef8369a327d54e7bb7f7ed47fadd7cea32d8c6b03a36e963a0e97944",
+            "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+            "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+            "src/report/generate_structured_report.py": "a57529c348e8210d66d8ac8be791e7e3dc43bde51079b57591ef277c8e4489f2",
+            "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f"
+          },
+          "retrieval": {
+            "queries_sha256": "de3439f3578932b0d7343ad66ad39f2a8c6ddcf2450f269f6cf240467872792f",
+            "query_count": 4,
+            "query_policy": "selected_current_call_passages_v1"
+          }
+        }
+      },
+      "report_version": "complete-passages-405686888962",
+      "risks": [],
+      "schema_version": "1.0",
+      "sentiment_distribution": {
+        "negative": 4.7,
+        "neutral": 65.2,
+        "positive": 30.0
+      },
+      "stage_durations_sec": {
+        "regeneration_sec": 37.95
+      },
+      "ticker": "MSFT"
+    },
+    "review": {
+      "claim_edits": [
+        {
+          "original": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+          "original_claim_index": 0,
+          "reason": "Clarified fiscal quarter and reported versus constant-currency M365 growth.",
+          "revised": "Microsoft reported Q1 FY2025 M365 consumer products and cloud services revenue growth of 5%, or 6% in constant currency."
+        },
+        {
+          "original": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "original_claim_index": 1,
+          "reason": "Kept LinkedIn revenue scope, both growth rates and the expectations qualifier.",
+          "revised": "Microsoft reported LinkedIn revenue growth of 10%, or 9% in constant currency, slightly ahead of expectations, with growth across its business lines."
+        },
+        {
+          "original": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+          "original_claim_index": 3,
+          "reason": "Attributed the free-cash-flow decline and stated capital-spending driver to Microsoft.",
+          "revised": "Microsoft reported free cash flow of $19.3 billion, down 7% year over year, reflecting higher capital expenditures for cloud and AI offerings."
+        },
+        {
+          "original": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+          "original_claim_index": 4,
+          "reason": "Distinguished reported decline from a relatively flat constant-currency result.",
+          "revised": "Microsoft reported enterprise and partner services revenue down 1%, or relatively unchanged in constant currency."
+        },
+        {
+          "original": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+          "original_claim_index": 5,
+          "reason": "Kept the 71% margin level and year-over-year direction without treating the transcription\u2019s \u201c2.0\u201d as a verified unit.",
+          "revised": "Microsoft reported Microsoft Cloud gross margin of 71%, lower year over year."
+        }
+      ],
+      "excluded_claims": [
+        {
+          "claim": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0.",
+          "original_claim_index": 2,
+          "reason": "The isolated claim says margins were up only after excluding Activision\u2019s net impact. The immediately preceding transcript says reported operating margin was 47%, down about one point year over year; using the isolated statement as a general margin improvement would mislead."
+        }
+      ],
+      "historical_context_decision": "All three retrieved Q4 2024 chunks were source/date-correct but unsuitable for a clear communication comparison here: one covered unrelated segments, one was a diffuse capital-spending answer, and one contained ambiguous cloud-margin transcription. No historical context was retained; the old report\u2019s future Q3 2025 excerpt was removed.",
+      "limitations": [
+        "AI-assisted transcript review is not independent human-labelled ground truth.",
+        "Saved transcript passages and timestamps have not been checked against the original recording.",
+        "No executive-specific linguistic or vocal baseline has been evaluated.",
+        "Sentiment-selected passages do not comprehensively cover the call."
+      ],
+      "new_context_quarters": [],
+      "original_candidate_path": "data/processed/report_candidates/remaining/MSFT/Q1_2025.json",
+      "original_candidate_sha256": "121b3d5c9d4ffe1bde18bcef15f75618bd2745cf9d3fd64ff3d2a87d4d4bf14a",
+      "original_generated_claims": [
+        {
+          "citation": {
+            "source_text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+            "timestamp_sec": 1386
+          },
+          "claim": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+            "timestamp_sec": 1412
+          },
+          "claim": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0.",
+            "timestamp_sec": 1310
+          },
+          "claim": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+            "timestamp_sec": 1689
+          },
+          "claim": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+            "timestamp_sec": 1528
+          },
+          "claim": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+            "timestamp_sec": 1245
+          },
+          "claim": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+          "sentiment": "negative"
+        }
+      ],
+      "original_generated_summary": "Microsoft reported mixed results in Q1\u202f2025. Revenue grew in several segments, with M365 consumer and cloud services up 5%\u20116%, LinkedIn revenue up 9%\u201110% ahead of expectations, and operating margins rising 1 point, while free cash flow fell 7% and both enterprise services and cloud gross margin declined. The FinBERT analysis showed 30% of statements were positive, 4.7% negative and 65.2% neutral.",
+      "per_claim": [
+        {
+          "claim_index": 0,
+          "original_claim_index": 0,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1386
+        },
+        {
+          "claim_index": 1,
+          "original_claim_index": 1,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1412
+        },
+        {
+          "claim_index": 2,
+          "original_claim_index": 3,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1689
+        },
+        {
+          "claim_index": 3,
+          "original_claim_index": 4,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1528
+        },
+        {
+          "claim_index": 4,
+          "original_claim_index": 5,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1245
+        }
+      ],
+      "previous_context_quarters": [
+        "Q4 2024",
+        "Q4 2024",
+        "Q3 2025"
+      ],
+      "retrieved_context": [
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 1450.72,
+          "text": "scaling our AI infrastructure. Operating expenses increased 5% and operating income through 22% and 23% in constant currency. Now to more personal computing revenue was 15.9 billion dollars increasing 14% and 15% in constant currency with 12 points of net impact from the Activision acquisition. Results were above expectations driven by Windows commercial and search. The PC market was as expected and Windows OEM revenue increased 4% year over year. Windows commercial products and cloud services revenue increased 11% and 12% in constant currency ahead of expectations due to higher in period revenue recognition from the mix of contracts. Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations as we remain focused on our higher margin premium products. While early days we're excited about the recent launch of our co-pilot plus PC's. Search and news advertising revenue X-TAC increased 19% ahead of expectations primarily due to improved execution. Healthy volume growth was driven by Bing and Edge and in gaming revenue increased 44% with 48 points of net impact from the Activision acquisition. Xbox content and services revenue increased 61% slightly ahead of expectations with 58 points of net impact from the Activision acquisition. Stronger than expected performance in first party content was partially offset by third party content performance. Xbox hardware revenue decreased 42% and 41% in constant currency. Segment gross margin dollars increased 21% with 10 points of net impact from the Activision acquisition. Gross margin percentage increased roughly 3 points year over year primarily driven by sales mix shift to higher margin businesses."
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 2340.88,
+          "text": "commercial perceived side or on the consumption meters that's I think the fundamental driver. And Keith you know I do think and I really do appreciate how you phrase the question as well because I think the timing and some of the questions you all have had really led to how we were talking even about capital expense in our comments in my comments today. Being able to maybe share a little more about that when we talked about roughly half of FY24's total capital expense as well as half of Q4's expense it's really on land and builds and finance leases and those things really will be monetized over 15 years and beyond and they're incredibly flexible because we've built a consistent architecture first with a commercial cloud and second with the Azure Stack for AI regardless of whether the demand is at the platform layer or at the app layer or through third parties and partners or frankly our first party fast it uses the same infrastructure. So with that long life flexible assets and if you think about it that way you can see what we're doing and focused on is building out this network and parallel of across the globe because you know when we did this last transition the first transition to the cloud which seems a long time ago sometimes it rolled out quite differently we rolled out more geo by geo and this one because we have demand on a global basis we are doing it on a global basis which is important we have large"
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 1768.72,
+          "text": "by less than one point. We expect FX to decrease cogs growth by less than one point and to have no meaningful impact to operating expense growth. In commercial bookings increased long-term commitments to our platform and strong execution across core annuity sales motions should drive healthy growth on a growing expiry base. As a reminder larger long-term as our contracts which are more unpredictable in their timing can derive increased quarterly volatility in our bookings growth rate. Microsoft cloud grows margin percentage should be roughly 70% down year over year driven by the impact of scaling our AI infrastructure. We expect capital expenditures to increase on a sequential basis given our cloud and AI demand as well as existing AI capacity constraints. As a reminder there can be quarterly spend variability from cloud infrastructure build out and the timing of delivery of finance leases. Next is segment guidance. In productivity and business processes we expect revenue to grow between 10 and 11% in constant currency or 20.3 to 20.6 billion US dollars. In office commercial revenue growth will again be driven by office 365 with seat growth across customer segments and our progress through E5 and co-pilot for Microsoft 365. We expect office 365 revenue growth to be approximately 14% in constant currency. In our on-premises business we expect revenue to decline in the mid to high teens. In office consumer we expect revenue growth in the low to mid single digits driven by Microsoft 365 subscriptions. For LinkedIn we expect revenue growth in the high"
+        }
+      ],
+      "reviewed_at": "2026-10-16T13:53:46.038064+00:00",
+      "scope": "AI-assisted review of saved transcripts and surrounding passages; recordings and independent human review pending.",
+      "status": "ai_assisted_review_human_review_pending",
+      "summary_corrections": [
+        "Removed the misleading unqualified statement that operating margins rose one point.",
+        "Separated reported growth from constant-currency growth and kept company/segment scope explicit.",
+        "Described FinBERT results as proportions of scored transcript segments, not speaker confidence."
+      ]
+    },
+    "structured_claims": {
+      "claims": [
+        {
+          "citation": {
+            "source_text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
+            "timestamp_sec": 1386
+          },
+          "claim": "Microsoft reported Q1 FY2025 M365 consumer products and cloud services revenue growth of 5%, or 6% in constant currency.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+            "timestamp_sec": 1412
+          },
+          "claim": "Microsoft reported LinkedIn revenue growth of 10%, or 9% in constant currency, slightly ahead of expectations, with growth across its business lines.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
+            "timestamp_sec": 1689
+          },
+          "claim": "Microsoft reported free cash flow of $19.3 billion, down 7% year over year, reflecting higher capital expenditures for cloud and AI offerings.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
+            "timestamp_sec": 1528
+          },
+          "claim": "Microsoft reported enterprise and partner services revenue down 1%, or relatively unchanged in constant currency.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
+            "timestamp_sec": 1245
+          },
+          "claim": "Microsoft reported Microsoft Cloud gross margin of 71%, lower year over year.",
+          "sentiment": "negative"
+        }
+      ],
+      "evidence_policy": "complete_passages_v1",
+      "generation_provenance": {
+        "generator_sha256": "a57529c348e8210d66d8ac8be791e7e3dc43bde51079b57591ef277c8e4489f2",
+        "input_segments_sha256": "9135587e2b532fd2c3bb3e57cd109f1c759e8ceaac1061ded87ae91ffd19b495",
+        "max_tokens": 8000,
+        "model": "openai/gpt-oss-120b",
+        "prompt_sha256": "72747cf75bd9c5b03bfa462c59b7f7e4afc2795f959b48dad81e5f0e41f219f6",
+        "response_id": "chatcmpl-15914ab6-ff6f-4a23-8097-75b1bbcc13a8",
+        "selection": {
+          "policy": "complete_passages_v1",
+          "top_k_per_seed_label": 4
+        }
+      },
+      "overall_summary": "Microsoft reported Q1 FY2025 M365 consumer products and cloud services revenue growth of 5%, or 6% in constant currency, and LinkedIn revenue growth of 10%, or 9% in constant currency. Enterprise and partner services revenue fell 1% but was relatively unchanged in constant currency; free cash flow was $19.3 billion, down 7% year over year, reflecting higher cloud and AI capital expenditures. Microsoft Cloud gross margin was 71%, lower year over year. FinBERT classified 30.0% of scored transcript segments as positive, 4.7% as negative and 65.2% as neutral; these text labels do not measure vocal confidence.",
+      "report_version": "complete-passages-405686888962"
+    }
+  },
+  "version": "complete-passages-405686888962"
+}

@@ -1,73 +1,50 @@
 {
-  "ticker": "MSFT",
-  "quarter": "Q1_2025",
-  "total_citations": 8,
-  "verified": 8,
   "accuracy": 1.0,
   "citations": [
     {
-      "claim": "Microsoft's M365 consumer products revenue grew 5% and its cloud services revenue grew 6% in constant currency.",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported Q1 FY2025 M365 consumer products and cloud services revenue growth of 5%, or 6% in constant currency.",
+      "match_ratio": 1.0,
       "source_text": "M365 consumer products and cloud services revenue increased 5% and 6% in constant currency.",
       "timestamp_sec": 1386,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "LinkedIn revenue rose 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported LinkedIn revenue growth of 10%, or 9% in constant currency, slightly ahead of expectations, with growth across its business lines.",
+      "match_ratio": 1.0,
       "source_text": "Linked in revenue increased 10% and 9% in constant currency, slightly ahead of expectations, with growth across all lines of business.",
       "timestamp_sec": 1412,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Operating margins, excluding the net impact from the Activision acquisition, increased by 1.0 percentage point.",
-      "source_text": "Excluding the net impact from the Activision acquisition, operating margins were up 1.0.",
-      "timestamp_sec": 1310,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported free cash flow of $19.3 billion, down 7% year over year, reflecting higher capital expenditures for cloud and AI offerings.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "M365 commercial products revenue grew 2% and 3% in constant currency, surpassing expectations.",
-      "source_text": "M365 commercial products revenue increased 2% and 3% in constant currency ahead of expectations,",
-      "timestamp_sec": 1376,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Free cash flow fell 7% year over year to $19.3\u202fbillion, reflecting higher capital expenditures for cloud and AI.",
       "source_text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings.",
       "timestamp_sec": 1689,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Enterprise and partner services revenue declined 1% and was relatively flat in constant currency.",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported enterprise and partner services revenue down 1%, or relatively unchanged in constant currency.",
+      "match_ratio": 1.0,
       "source_text": "Enterprise and partner services revenue decreased 1% and was relatively unchanged in constant currency.",
       "timestamp_sec": 1528,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Revenue in the on-premises server business decreased 1%.",
-      "source_text": "In our on-premises server business, revenue decreased 1%.",
-      "timestamp_sec": 1509,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported Microsoft Cloud gross margin of 71%, lower year over year.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Microsoft's cloud gross margin percentage fell 2.0 points year over year to 71%.",
       "source_text": "Microsoft cloud gross margin percentage decreased 2.0 over year to 71%.",
       "timestamp_sec": 1245,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     }
-  ]
+  ],
+  "quarter": "Q1_2025",
+  "report_version": "complete-passages-405686888962",
+  "ticker": "MSFT",
+  "total_citations": 5,
+  "verified": 5
 }

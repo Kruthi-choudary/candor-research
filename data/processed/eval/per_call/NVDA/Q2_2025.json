@@ -1,73 +1,50 @@
 {
-  "ticker": "NVDA",
-  "quarter": "Q2_2025",
-  "total_citations": 8,
-  "verified": 8,
   "accuracy": 1.0,
   "citations": [
     {
-      "claim": "Operating cash flow from operations was 14.5, while expenses were up 12% primarily reflecting higher compensation-related costs.",
-      "source_text": "were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was 14.5",
-      "timestamp_sec": 1129,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Nvidia reported Q2 fiscal 2025 Gaming revenue of $2.88 billion, up 9% sequentially and 16% year over year.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Gaming revenue of 2.88 billion increased 9% sequentially and 16% as the company moved to gaming and AI PCs.",
-      "source_text": "Moving to gaming and AI PCs, gaming revenue of 2.88 billion increased 9% sequentially and 16%",
+      "source_text": "Moving to gaming and AI PCs, gaming revenue of 2.88 billion increased 9% sequentially and 16% year-on-year. We saw sequential growth in console, notebook, and desktop revenue and demand is strong and growing and channel inventory remains healthy. Every PC with RTX is an AI PC. RTX PCs can deliver up to 1,300 AI tops and are now over 200 RTX AI laptops designed from leading PC manufacturers.",
       "timestamp_sec": 857,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Availability has improved and demand for Blackwell platforms is well above supply, reinforcing strong market positioning.",
-      "source_text": "and availability have improved. Demand for Blackwell platforms is well above supply and we expect this",
-      "timestamp_sec": 475,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Nvidia reported Q2 fiscal 2025 Automotive revenue of $346 million, up 5% sequentially and 37% year over year.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Revenue from automotive and robotics was 346 million, up 5% sequentially and 37% year\u2011on\u2011year.",
       "source_text": "Moving to automotive and robotics, revenue was 346 million up 5% sequentially and up 37% year-on-year.",
       "timestamp_sec": 1049,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Revenue was down sequentially due to a higher mix of new products within data center and inventory.",
-      "source_text": "Down sequentially due to a higher mix of new products within data center and inventory",
+      "actual_segment_text": null,
+      "claim": "Nvidia reported Q2 fiscal 2025 revenue of $30 billion, up 15% sequentially and 122% year over year, above its $28 billion outlook; Data Center revenue was $26.3 billion, up 16% sequentially and 154% year over year.",
+      "match_ratio": 1.0,
+      "source_text": "Thanks, Stewart. Q2 was another record quarter. Revenue of 30 billion was up 15 percent sequentially and up 122 percent year on year and well above our outlook of 28 billion. Starting with data center, data center revenue of 26.3 billion was a record up 16 percent sequentially and up 154 percent year on year, driven by strong demand for NVIDIA Hopper, GPU computing, and our networking platforms.",
+      "timestamp_sec": 165,
+      "verdict": "VERIFIED"
+    },
+    {
+      "actual_segment_text": null,
+      "claim": "GAAP and non-GAAP operating expenses each rose 12% sequentially, primarily reflecting higher compensation-related costs.",
+      "match_ratio": 1.0,
+      "source_text": "Down sequentially due to a higher mix of new products within data center and inventory provisions for low yielding Blackwell material. Sequentially, gap and non-gap operating expenses were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was 14.5 billion. In Q2, we utilized cash of 7.4 billion towards shareholder returns in the form of share repurchases and cash dividends, reflecting the increase in dividend per shower.",
       "timestamp_sec": 1116,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "As a percentage of total data center revenue, it remains below the level seen prior to the.",
-      "source_text": "As a percentage of total data center revenue, it remains below level seen prior to the",
+      "actual_segment_text": null,
+      "claim": "Nvidia said its Hopper and Blackwell platforms won gold medals on all tasks in the latest MLPerf Inference benchmark suite.",
+      "match_ratio": 1.0,
+      "source_text": "As a percentage of total data center revenue, it remains below level seen prior to the imposition of export controls. We continue to expect the China market to be very competitive going forward. The latest round of ML Perf inference benchmarks highlighted in NVIDIA's inference leadership with both NVIDIA Hopper and Blackwell platforms combining to win gold medals on all tasks. At Computex NVIDIA with the top computer manufacturers unveiled an array of Blackwell architecture powered systems and NVIDIA networking for building AI factories and data centers. With the NVIDIA MDX modular reference architecture, our OEMs and ODM partners are building more than 100 Blackwell based systems designed quickly and cost effectively.",
       "timestamp_sec": 343,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Customers hate that we do integration, and the supply chain also hates us doing it.",
-      "source_text": "doing the integration. Our customers hate that we do integration. The supply chain hates us doing",
-      "timestamp_sec": 3555,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "If we don't have a new approach, computing inflation would be driving up the cost for everyone.",
-      "source_text": "if we don't have a new approach, computing inflation would be driving up the cost for every",
-      "timestamp_sec": 1482,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     }
-  ]
+  ],
+  "quarter": "Q2_2025",
+  "report_version": "complete-passages-e6b57e536067",
+  "ticker": "NVDA",
+  "total_citations": 5,
+  "verified": 5
 }

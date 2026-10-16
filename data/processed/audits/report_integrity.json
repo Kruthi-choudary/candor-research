@@ -1,0 +1,491 @@
+{
+  "schema_version": "1.0",
+  "scope": "Saved report integrity and evidence continuity; not claim correctness, recording identity, deviation detection or market evaluation.",
+  "date_check_scope": "Scheduled earnings-call dates and fiscal/calendar labels checked against company announcements. Recording identity, occurrence and exact audio alignment not independently verified.",
+  "input_sha256": {
+    "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+    "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+    "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+    "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+    "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+    "data/processed/eval/per_call/AAPL/Q1_2025.json": "c76cf922771f89b75a1d20f77d9efd21a2e6f17ca153c74fce419150e737c116",
+    "data/processed/eval/per_call/AAPL/Q2_2025.json": "92c35ed4a9c2582e879f81cfdb066fd149a59271f31e9801020c4b10ab74c15f",
+    "data/processed/eval/per_call/AAPL/Q3_2025.json": "b5d453e2367cbfa531faff9905ade052f71caf8dd5b76d44f5b1da58574b4cf6",
+    "data/processed/eval/per_call/AAPL/Q4_2024.json": "c35fe199130fae4137d40297006af6e2a59d913ad709090e8b0c08ba142080ae",
+    "data/processed/eval/per_call/META/Q1_2025.json": "bade6789345c4053690076895dd8642579258309bfa04026dafb6fc79b9c88a8",
+    "data/processed/eval/per_call/META/Q2_2025.json": "1d1104af90684ea12cfd8e517ff36a313ab15b904cddb1bad32daef617287bc5",
+    "data/processed/eval/per_call/META/Q3_2025.json": "434d66474e62efe7bf9031869a599b5dc80874dd5c3808ee618214dbdf8c563d",
+    "data/processed/eval/per_call/META/Q4_2024.json": "e132c22f12f96d2b04f37498898b3a5636c6bfe1a9291143bb6da7e5ad30a366",
+    "data/processed/eval/per_call/MSFT/Q1_2025.json": "2c97dfba269ce10ea67fd884e6cd6938247e8fc9458c393d4286f9b591cade87",
+    "data/processed/eval/per_call/MSFT/Q2_2025.json": "59f473f2804fd02aa69d0940ef3c6f7aee09e2b4d066039403cd56142750c59c",
+    "data/processed/eval/per_call/MSFT/Q3_2025.json": "97d42812a4e2c7fc893f55745b0ee55c466b8fef4ccc7c345e1bb72f0b386269",
+    "data/processed/eval/per_call/MSFT/Q4_2024.json": "0abb24fbc0a6012b13588273d1576d196d08fb9a56f44e400959a45f2dc02aea",
+    "data/processed/eval/per_call/NVDA/Q1_2025.json": "be163ecefa7a3ea139808e0d35b3d71db87cc8861ee9e055e405b31b65aed7f1",
+    "data/processed/eval/per_call/NVDA/Q2_2025.json": "cbf395881f4635e6e0e8165cf04792115be9aa33ed7dca338657b6c2bce2e13f",
+    "data/processed/eval/per_call/NVDA/Q3_2025.json": "a0d51cb217ff6f7739ffcc6936bad8a8cff1df6d580fd7d08bce84b2ec74302c",
+    "data/processed/eval/per_call/NVDA/Q4_2024.json": "39e7ccecabc471915a71be549724729d6b54cb3b40f1eaa898bfae6d38410098",
+    "data/processed/pipeline_runs/AAPL/Q1_2025.json": "59be4f35013b8674d6fbc65bdc70f36eeced9839f0d555656ada7bc0e3555b16",
+    "data/processed/pipeline_runs/AAPL/Q2_2025.json": "79ec952d731406fdf630bc00c45f7e66cdc6c9d93b869a233f3b389e2b091026",
+    "data/processed/pipeline_runs/AAPL/Q3_2025.json": "98b4fc852af246c9d6b9ae6e030e12180a17cf673b8a8789cecd79b5363cfa14",
+    "data/processed/pipeline_runs/AAPL/Q4_2024.json": "aa07cc278a4451411ff3c7449b3daf01d54fc9a1e9308c0d9e0c9ce51f710be0",
+    "data/processed/pipeline_runs/META/Q1_2025.json": "537f595c0793448b26c9a4b735772608041117cfa21b87a00b7fd10b5fead3aa",
+    "data/processed/pipeline_runs/META/Q2_2025.json": "730847e8cf24b8d7928b36245bf83e4b38daef6bf0dfbb73e99903b04687ec04",
+    "data/processed/pipeline_runs/META/Q3_2025.json": "9bdb0179972ded628af555778907d92a43edef7c99050071a7abf3c31e195d8d",
+    "data/processed/pipeline_runs/META/Q4_2024.json": "ac7629cff8c052feed28c088e6fb609731ecb2f2835f4971a656816d55fedb99",
+    "data/processed/pipeline_runs/MSFT/Q1_2025.json": "fa312b97907c615250b17f48c26f26f98edf84a69801fb7f887bc33698fc0644",
+    "data/processed/pipeline_runs/MSFT/Q2_2025.json": "77905e8bf1093f068fc5bb29eb4293c596ceb25aac2725664315adfbf32bf792",
+    "data/processed/pipeline_runs/MSFT/Q3_2025.json": "97ed41311be3ff2f46a0b22fc1e27bc16602d5a41f5b2af24f6815d4a0c19f26",
+    "data/processed/pipeline_runs/MSFT/Q4_2024.json": "dca452ff75fe890d933b2b461779185de60213cd3b352fd1a14ed0d880603d40",
+    "data/processed/pipeline_runs/NVDA/Q1_2025.json": "4701abf913cf234f8c4c61ae59e977b00376ce06abbd8a7c086a28a3c0922c0a",
+    "data/processed/pipeline_runs/NVDA/Q2_2025.json": "03a57260b81ce1df4b7dd91b7e6e631bb7a48a8f3c4c883e2f137a1115129fce",
+    "data/processed/pipeline_runs/NVDA/Q3_2025.json": "395b9ed7506e0fe404d890f68972e8648f86ea9178d0dacbebecbe415944fec7",
+    "data/processed/pipeline_runs/NVDA/Q4_2024.json": "a8f5247b159f37788fbf95a554b8d2ff022efc5b97770894345931dc34372678",
+    "data/processed/reports_structured_citations_v1/AAPL/Q1_2025.json": "f2fe29543329d56ef6e4652260004b2c45acbe7dccc8b24c1634aefca66d027f",
+    "data/processed/reports_structured_citations_v1/AAPL/Q2_2025.json": "876ddf7cc7a9ece088827dcd35aa26f21e7222e34bbee2efa8b5972036e38b41",
+    "data/processed/reports_structured_citations_v1/AAPL/Q3_2025.json": "cfcd81c79abd863015797aba72488292e3fcb71fc864ddb8161f35452b8472bb",
+    "data/processed/reports_structured_citations_v1/AAPL/Q4_2024.json": "19ff25597c0df996782086eac74f351f45c4ba2aef48232d558a5a581b82e068",
+    "data/processed/reports_structured_citations_v1/META/Q1_2025.json": "5e23ae802cd001a96f5616f917383ef11b65bbf110fe8d2244b1adb2997266e0",
+    "data/processed/reports_structured_citations_v1/META/Q2_2025.json": "f9530ff7a8b344fe43b7d6eb607641640d267e62f1e9e879014ee8968482569d",
+    "data/processed/reports_structured_citations_v1/META/Q3_2025.json": "51d0aed6a6e809a4fe58db4856c1d04058aa3c5c72e6a632e19131ed38d29368",
+    "data/processed/reports_structured_citations_v1/META/Q4_2024.json": "21b59fd96e7d6f79a9b298e9f380b164fa9d4e9fc1b255dc063bb5bf76b28410",
+    "data/processed/reports_structured_citations_v1/MSFT/Q1_2025.json": "49f720acd0944e60fe6df8430d8160a688740340c7ff7e202cc08d104bf1e719",
+    "data/processed/reports_structured_citations_v1/MSFT/Q2_2025.json": "c034ff2e2d793aa724220100a6227b836608235dbfd0f962986430533516aaa8",
+    "data/processed/reports_structured_citations_v1/MSFT/Q3_2025.json": "7d9f6a2b430bc463358c4581dcdbec4525bbc421f2f74e172b348f1330983f8b",
+    "data/processed/reports_structured_citations_v1/MSFT/Q4_2024.json": "ff153dde0d71ebd241a3bbbb50c8ccf64713445df2482a172ed1e0822da0f7a8",
+    "data/processed/reports_structured_citations_v1/NVDA/Q1_2025.json": "6652f630efb01fe8a698225f4d3b01bd2f3353c4bba85e9f86923e2cab0fd110",
+    "data/processed/reports_structured_citations_v1/NVDA/Q2_2025.json": "91497f0b290d3fdbe270bbcbc676ec39f50c4733fa5608366073109520b5e039",
+    "data/processed/reports_structured_citations_v1/NVDA/Q3_2025.json": "0e91e9f4f2ce388be86cb731b63fd5cd632fc60fb32677cd492c0669f724a0a1",
+    "data/processed/reports_structured_citations_v1/NVDA/Q4_2024.json": "6387c8ec839682140560300b8fbe27122b38ccaf4b200b2e4c2acc3f3a870338",
+    "data/processed/sentiment/segment/AAPL/Q1_2025.json": "81c3125276b8948d219180db7fa6b6e0cda5808d840c53806ad9a1ea7fded29a",
+    "data/processed/sentiment/segment/AAPL/Q2_2025.json": "937d059a14550ea66f37c34dc6bbcb465087c0df0c08563e993cf786ff18dafb",
+    "data/processed/sentiment/segment/AAPL/Q3_2025.json": "5520d4537f7a0ecc8ad0c9a89d1abe9cf828fab833363835e8a55c05094e5ef2",
+    "data/processed/sentiment/segment/AAPL/Q4_2024.json": "2d2f819a14d7f85a492b9ad04192a6c8ee42d77f776578550db2068521dd0387",
+    "data/processed/sentiment/segment/META/Q1_2025.json": "dbb079ffb79a72ead0bd0bf7cf02640fe59ab1d791b111cda58a7e0e286484f1",
+    "data/processed/sentiment/segment/META/Q2_2025.json": "3cfccbe42f874a50d15f9d975502bf0a47049db4f19256995d4a98ea09ee42a2",
+    "data/processed/sentiment/segment/META/Q3_2025.json": "5dca2d7ce82a31aa3af669b6becec16b020cc4c4e1a3b8e3ea348f693c598980",
+    "data/processed/sentiment/segment/META/Q4_2024.json": "0644e85d2ba360d37613d39b6847ede4a6e8ebb0f50c8ddf9db37946d8ffdab7",
+    "data/processed/sentiment/segment/MSFT/Q1_2025.json": "9c6a911fafcf398d1e9c3493c211a23a1267ec5df515ad717b6ffda676fd698e",
+    "data/processed/sentiment/segment/MSFT/Q2_2025.json": "24b30750e649912700328c449975cdc432f2327bdcd6fb742b54d33e9126e6f1",
+    "data/processed/sentiment/segment/MSFT/Q3_2025.json": "b82160b70e81e0ab5e7e8c60fcd579e8896820224216b726949710fa3347537c",
+    "data/processed/sentiment/segment/MSFT/Q4_2024.json": "ec49f017315f339dfa4a7405bd6b3953b2093cbf07fd316e5e5331719565df9f",
+    "data/processed/sentiment/segment/NVDA/Q1_2025.json": "095adbf2a7e8f04713c0686e49304974ecb32a48c8863d1e77c80da30ad87c8b",
+    "data/processed/sentiment/segment/NVDA/Q2_2025.json": "b24209e22b44fe26523414fb8bfb053d4aac13dc0c8fe1f4bfbc3a6ec751e455",
+    "data/processed/sentiment/segment/NVDA/Q3_2025.json": "1db9db314fe4b8010f3f45b0add77fb49b41cd7a1ca3b04bd5bbe25ff6913018",
+    "data/processed/sentiment/segment/NVDA/Q4_2024.json": "5b6fe45039c72b99ee22ae4c38499044ac2091be0ae7d92b9f760a3bde4d745d",
+    "data/processed/transcripts/AAPL/Q1_2025.json": "2d5cbdf457900f950520d301c20e77066a69e53b5698f0d75334a808ec5bf14e",
+    "data/processed/transcripts/AAPL/Q2_2025.json": "9043e81a89b61855b657f431387cd9ecc1102eab9ee011ea821362abc8692a5b",
+    "data/processed/transcripts/AAPL/Q3_2025.json": "8fbf99fa2394b7d39cd2948916bb24448589cd302edf408ea9ed14dcea6dd29e",
+    "data/processed/transcripts/AAPL/Q4_2024.json": "44b04c489d268c1419bccc24ca6f7bf0fee80eb535a45203640dad29b862b4f7",
+    "data/processed/transcripts/META/Q1_2025.json": "f0461d42a908ae037ab0af4937f7309dd2648abad2a5d40b37ba5834c0b82d9d",
+    "data/processed/transcripts/META/Q2_2025.json": "a062e54bc9eceeeedd23c5eecfece1565fee76f59cde4a8d1d6ee4ffad892d1c",
+    "data/processed/transcripts/META/Q3_2025.json": "2f3dac5e8dddb26b43583edad50e58f826b0b645e1fc0570fa6cd568f405467e",
+    "data/processed/transcripts/META/Q4_2024.json": "0ab47b2f41fecdb196af4659423e1f95e3a01de5480b379cdeca5ef6f5955bf9",
+    "data/processed/transcripts/MSFT/Q1_2025.json": "0587c6216dea197be0f6e5fbb38e5f1ed2342a01194096bdce6c14eaf988d6e0",
+    "data/processed/transcripts/MSFT/Q2_2025.json": "5482e702eb525fe533cb1218a18340850b23e362a899ce7452d1f1dc46dbe677",
+    "data/processed/transcripts/MSFT/Q3_2025.json": "ca67fdc34f06d71597d351886ce6a78cf0101681e5ce389bb1965b5e6da03085",
+    "data/processed/transcripts/MSFT/Q4_2024.json": "b4fbc106ef8369a327d54e7bb7f7ed47fadd7cea32d8c6b03a36e963a0e97944",
+    "data/processed/transcripts/NVDA/Q1_2025.json": "d8a5a1b50c9c5cb82559ab17c5254456e80be1e0196568461e0633f4b879a5a1",
+    "data/processed/transcripts/NVDA/Q2_2025.json": "0b0d0d389c50ec06fcd3f868406ead1c78d0a40e86673c8047863c6ca653a63b",
+    "data/processed/transcripts/NVDA/Q3_2025.json": "c9b1310ada99489d89f0e234688c80370368070b11dedee9af9e40fefcc4ff40",
+    "data/processed/transcripts/NVDA/Q4_2024.json": "1b062003db7d252679fad6dcc56166a75d7ff5dbcc1b7e7630dbe1283ded75c8",
+    "src/eval/audit_reports.py": "cd08d56231952802d33ede128555b3e9547c85ac45c901a0b3a50acb2655a12c",
+    "src/eval/check_citations_structured.py": "1c1418f8711fef6edcde602235d785abed84ae6f4d03366004c1758d7ac83a03",
+    "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+    "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+    "src/report/generate_structured_report.py": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+    "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f"
+  },
+  "summary": {
+    "calls": 16,
+    "needs_regeneration": 0,
+    "calls_with_nonhistorical_context": 0,
+    "nonhistorical_context_passages": 0,
+    "incomplete_or_nonexact_passages": 0
+  },
+  "reports": [
+    {
+      "ticker": "AAPL",
+      "quarter": "Q1_2025",
+      "call_date": "2025-01-30",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 8,
+        "total": 8
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "AAPL",
+      "quarter": "Q2_2025",
+      "call_date": "2025-05-01",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 6,
+        "total": 6
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "AAPL",
+      "quarter": "Q3_2025",
+      "call_date": "2025-07-31",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 5,
+        "total": 5
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "AAPL",
+      "quarter": "Q4_2024",
+      "call_date": "2024-10-31",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 3,
+        "total": 3
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q1_2025",
+      "call_date": "2025-04-30",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 8,
+        "total": 8
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q2_2025",
+      "call_date": "2025-07-30",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 8,
+        "total": 8
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q3_2025",
+      "call_date": "2025-10-29",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 8,
+        "total": 8
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "META",
+      "quarter": "Q4_2024",
+      "call_date": "2025-01-29",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 7,
+        "total": 7
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 3
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q1_2025",
+      "call_date": "2024-10-30",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 5,
+        "total": 5
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q2_2025",
+      "call_date": "2025-01-29",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 5,
+        "total": 5
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q3_2025",
+      "call_date": "2025-04-30",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 5,
+        "total": 5
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "MSFT",
+      "quarter": "Q4_2024",
+      "call_date": "2024-07-30",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 5,
+        "total": 5
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q1_2025",
+      "call_date": "2024-05-22",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 6,
+        "total": 6
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q2_2025",
+      "call_date": "2024-08-28",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 5,
+        "total": 5
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q3_2025",
+      "call_date": "2024-11-20",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 6,
+        "total": 6
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    },
+    {
+      "ticker": "NVDA",
+      "quarter": "Q4_2024",
+      "call_date": "2024-02-21",
+      "date_source_record_matches": true,
+      "report_date_matches_registry": true,
+      "source_transcript_and_sentiment_agree": true,
+      "report_claims_and_summary_agree": true,
+      "citation_matches": {
+        "matched": 6,
+        "total": 6
+      },
+      "saved_citation_evaluation_matches": true,
+      "incomplete_or_nonexact_passage_claim_indices": [],
+      "out_of_range_timestamp_claim_indices": [],
+      "historical_context_issues": [],
+      "eligible_complete_passages": {
+        "positive_seed": 4,
+        "negative_seed": 4
+      },
+      "needs_regeneration": false,
+      "ready_to_stage": true,
+      "claim_support_review": "ai_assisted_review_human_review_pending"
+    }
+  ]
+}

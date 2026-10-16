@@ -1,69 +1,83 @@
 {
   "claims": [
     {
-      "claim": "Overall service usage grew 14%.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 547,
-        "source_text": "served across our services increased 14%."
-      }
+        "source_text": "In Q3, the total number of ad impressions served across our services increased 14%.",
+        "timestamp_sec": 544
+      },
+      "claim": "Meta reported that Q3 ad impressions served across its services increased 14%.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Legal-related expenses grew more than in Q2.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 648,
-        "source_text": "First, legal-related expense growth was higher than in Q2,"
-      }
+        "source_text": "First, legal-related expense growth was higher than in Q2, due to charges we recorded in the third quarter, as well as us lapping a period of accrual reversals in the third quarter a year ago.",
+        "timestamp_sec": 648
+      },
+      "claim": "Meta said legal-related expense growth was higher than in Q2 because of Q3 charges and comparison with accrual reversals in Q3 a year earlier.",
+      "sentiment": "negative"
     },
     {
-      "claim": "WhatsApp paid messaging revenue drove a 59% increase.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 581,
-        "source_text": "up 59%, driven by WhatsApp paid messaging revenue growth,"
-      }
+        "source_text": "Family of apps other revenue was $690 million, up 59%, driven by WhatsApp paid messaging revenue growth, as well as meta-verified subscriptions.",
+        "timestamp_sec": 577
+      },
+      "claim": "Meta reported $690 million in Q3 Family of Apps other revenue, up 59%, driven by WhatsApp paid messaging and Meta Verified subscriptions.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Ad performance improvements were a major driver of growth.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 566,
-        "source_text": "largely driven by improved ad performance."
-      }
+        "source_text": "The average price per ad increased 10% year-over-year, benefiting from increased advertiser demand, largely driven by improved ad performance.",
+        "timestamp_sec": 559
+      },
+      "claim": "Meta reported that the average price per ad increased 10% year over year, benefiting from advertiser demand driven largely by improved ad performance.",
+      "sentiment": "positive"
     },
     {
-      "claim": "The quarter included an accounting charge.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 741,
-        "source_text": "resulted in an accounting charge in the third quarter,"
-      }
+        "source_text": "Although the transition to the new US tax law resulted in an accounting charge in the third quarter, we continue to expect we will recognize significant cash tax savings for the remainder of the current year and future years under the new law, and this quarter's charge reflects the total expected impact from the transition to the new US tax law.",
+        "timestamp_sec": 738
+      },
+      "claim": "Meta said the new US tax law caused a Q3 accounting charge but expected significant cash-tax savings for the rest of 2025 and future years.",
+      "sentiment": "neutral"
     },
     {
-      "claim": "Charges recorded in the third quarter impacted results.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 652,
-        "source_text": "due to charges we recorded in the third quarter,"
-      }
+        "source_text": "Finally, growth in infrastructure costs accelerated due to increased infrastructure operating costs associated with our expanded data center fleet, depreciation on our incremental CAPX spend, and third-party cloud spend.",
+        "timestamp_sec": 669
+      },
+      "claim": "Meta said infrastructure cost growth accelerated because of costs tied to its expanded data-center fleet, depreciation on capital spending and third-party cloud spending.",
+      "sentiment": "negative"
     },
     {
-      "claim": "Depreciation on incremental CAPX spend affected earnings.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 679,
-        "source_text": "depreciation on our incremental CAPX spend,"
-      }
+        "source_text": "Finally, we continue to monitor active legal and regulatory matters, including the increasing headwinds in the EU and the US that could significantly impact our business and financial results.",
+        "timestamp_sec": 1599
+      },
+      "claim": "Meta said increasing legal and regulatory headwinds in the EU and US could significantly affect its business and financial results.",
+      "sentiment": "negative"
     },
     {
-      "claim": "European revenue faced a negative impact.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 1629,
-        "source_text": "negative impact on our European revenue"
-      }
+        "source_text": "Our tax rate for the quarter was 87%, which was unfavorably impacted by a one-time, non-cash reduction in deferred tax assets that we no longer anticipate using under new US tax law.",
+        "timestamp_sec": 719
+      },
+      "claim": "Meta reported an 87% Q3 tax rate, adversely affected by a one-time, non-cash reduction in deferred tax assets under the new US tax law.",
+      "sentiment": "negative"
     }
   ],
-  "overall_summary": "Meta's Q3 2025 earnings call highlighted strong growth in services usage, legal expenses, WhatsApp paid messaging, and ad performance, reflecting a largely positive tone. However, the company also noted accounting charges, depreciation from incremental CAPX spend, and a negative impact on European revenue, contributing to a predominantly neutral sentiment overall, with 12% positive, 1.3% negative, and 86.6% neutral."
+  "evidence_policy": "complete_passages_v1",
+  "generation_provenance": {
+    "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+    "input_segments_sha256": "a03cd98a6dc23f67582151407104780192f16582dfaedbc0f531343aa93e489e",
+    "max_tokens": 8000,
+    "model": "openai/gpt-oss-120b",
+    "prompt_sha256": "7a4f3605b49955fcd472fb40c5e8df0151f93ea498a50f56ea6444bd8a9b85f2",
+    "response_id": "chatcmpl-9b88300c-f565-4a5e-a58b-69e29c4b8386",
+    "selection": {
+      "policy": "complete_passages_v1",
+      "top_k_per_seed_label": 4
+    }
+  },
+  "overall_summary": "Meta reported that Q3 ad impressions increased 14%, average price per ad rose 10% year over year, and Family of Apps other revenue reached $690 million, up 59%. It said legal-related and infrastructure costs grew faster, while a one-time, non-cash tax adjustment contributed to its reported 87% quarterly tax rate. Meta also warned that legal and regulatory headwinds in the EU and US could affect financial results. FinBERT classified 86.6% of scored transcript segments as neutral, 12.0% as positive and 1.3% as negative; these text labels do not measure vocal confidence.",
+  "report_version": "complete-passages-fd7b95322459"
 }

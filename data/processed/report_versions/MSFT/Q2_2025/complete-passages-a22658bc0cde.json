@@ -1,0 +1,724 @@
+{
+  "applied_at": "2026-10-16T14:23:35.056148+00:00",
+  "candidate_sha256": "a22658bc0cde0638a15dc84ff78b93e49c983686dd7800a7c6a02ae67c2dd675",
+  "configuration_at_promotion": {
+    "evaluation": {
+      "citation_match_threshold": 0.6,
+      "citation_tolerance_sec": 2.0
+    },
+    "generation": {
+      "llm_model": "openai/gpt-oss-120b",
+      "max_tokens": 1500,
+      "max_tokens_structured": 8000,
+      "top_k_quotes": 4
+    },
+    "models": {
+      "embedding": "BAAI/bge-small-en-v1.5",
+      "sentiment": "ProsusAI/finbert",
+      "whisper": "base.en"
+    },
+    "retrieval": {
+      "chunk_words": 250,
+      "embed_dim": 384,
+      "table_name": "transcript_chunks",
+      "top_k": 3
+    }
+  },
+  "input_sha256": {
+    "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+    "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+    "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+    "data/processed/eval/citation_accuracy_baseline_free_text_v1.json": "8d7ca45472e067915f49912d5937f2cc830acf0f48351cfc99e61c6602ba886a",
+    "data/processed/eval/citation_accuracy_structured_citations_v1.json": "185b0d26062cc8732335afc933efe9b04fa586899027df20033e53a4442e128e",
+    "data/processed/eval/claim_coverage.json": "3ce127afcd847c446d18ead6198eafbc08022b1b52a2103855673719dd6b08b3",
+    "data/processed/eval/per_call/AAPL/Q1_2025.json": "c76cf922771f89b75a1d20f77d9efd21a2e6f17ca153c74fce419150e737c116",
+    "data/processed/eval/per_call/META/Q1_2025.json": "bade6789345c4053690076895dd8642579258309bfa04026dafb6fc79b9c88a8",
+    "data/processed/eval/per_call/MSFT/Q1_2025.json": "2c97dfba269ce10ea67fd884e6cd6938247e8fc9458c393d4286f9b591cade87",
+    "data/processed/eval/per_call/MSFT/Q2_2025.json": "568f92f59084c6209e7492f6dd3b27baa75f897dc00c76606d46f2a113b977e7",
+    "data/processed/eval/per_call/NVDA/Q1_2025.json": "de702101c91fa5102d4b526f7bd2d1fc239f036b321a18cb5baabccaaf82ca69",
+    "data/processed/pipeline_runs/AAPL/Q1_2025.json": "59be4f35013b8674d6fbc65bdc70f36eeced9839f0d555656ada7bc0e3555b16",
+    "data/processed/pipeline_runs/META/Q1_2025.json": "537f595c0793448b26c9a4b735772608041117cfa21b87a00b7fd10b5fead3aa",
+    "data/processed/pipeline_runs/MSFT/Q1_2025.json": "fa312b97907c615250b17f48c26f26f98edf84a69801fb7f887bc33698fc0644",
+    "data/processed/pipeline_runs/MSFT/Q2_2025.json": "b37e0dc8963b40ecdbef68382dd8d9c4e1e2148c8c6f0326551186db491f1933",
+    "data/processed/pipeline_runs/NVDA/Q1_2025.json": "90973c689cf13c197a571ef7984d9e583b02e9240498ca7a4ae41c8b903ae9cd",
+    "data/processed/reports_structured_citations_v1/AAPL/Q1_2025.json": "f2fe29543329d56ef6e4652260004b2c45acbe7dccc8b24c1634aefca66d027f",
+    "data/processed/reports_structured_citations_v1/META/Q1_2025.json": "5e23ae802cd001a96f5616f917383ef11b65bbf110fe8d2244b1adb2997266e0",
+    "data/processed/reports_structured_citations_v1/MSFT/Q1_2025.json": "49f720acd0944e60fe6df8430d8160a688740340c7ff7e202cc08d104bf1e719",
+    "data/processed/reports_structured_citations_v1/MSFT/Q2_2025.json": "0d63e94ff285229312a210c4810d154238d0fc3fb2967b2f7e00627522c626c1",
+    "data/processed/reports_structured_citations_v1/NVDA/Q1_2025.json": "534271dfd4538d308831def246df6582db3085ff8a8823e7659bce2b41594120",
+    "data/processed/sentiment/segment/MSFT/Q2_2025.json": "24b30750e649912700328c449975cdc432f2327bdcd6fb742b54d33e9126e6f1",
+    "data/processed/transcripts/AAPL/Q1_2025.json": "2d5cbdf457900f950520d301c20e77066a69e53b5698f0d75334a808ec5bf14e",
+    "data/processed/transcripts/META/Q1_2025.json": "f0461d42a908ae037ab0af4937f7309dd2648abad2a5d40b37ba5834c0b82d9d",
+    "data/processed/transcripts/MSFT/Q1_2025.json": "0587c6216dea197be0f6e5fbb38e5f1ed2342a01194096bdce6c14eaf988d6e0",
+    "data/processed/transcripts/MSFT/Q2_2025.json": "5482e702eb525fe533cb1218a18340850b23e362a899ce7452d1f1dc46dbe677",
+    "data/processed/transcripts/NVDA/Q1_2025.json": "d8a5a1b50c9c5cb82559ab17c5254456e80be1e0196568461e0633f4b879a5a1",
+    "frontend/scripts/build-demo.mjs": "63b95592ad27848b4eb7814242c1b1cde9c1cf54ad6d38f62895f30fcc3a126a",
+    "frontend/src/data/demo.json": "62c8cece4758573cb5389e786ffb434eaaca600f99eb05dc1b82d8cf30b822f8",
+    "src/common/schema.py": "0faebe9d8e71a23ec5a9bc635171f81d4ccd6d5a0c2594cfeb0483e218a140d0",
+    "src/eval/check_citations_structured.py": "1c1418f8711fef6edcde602235d785abed84ae6f4d03366004c1758d7ac83a03",
+    "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+    "src/report/promote.py": "7eb3639f70834ad2c6ca33f7a5232ae307f5d092830ddd578fd86c0683d6bd00"
+  },
+  "limitations": [
+    "AI-assisted support review; independent human review pending.",
+    "Call date checked against feed-derived registry; external verification pending."
+  ],
+  "output_sha256": {
+    "data/processed/eval/per_call/MSFT/Q2_2025.json": "59f473f2804fd02aa69d0940ef3c6f7aee09e2b4d066039403cd56142750c59c",
+    "data/processed/pipeline_runs/MSFT/Q2_2025.json": "77905e8bf1093f068fc5bb29eb4293c596ceb25aac2725664315adfbf32bf792",
+    "data/processed/reports_structured_citations_v1/MSFT/Q2_2025.json": "c034ff2e2d793aa724220100a6227b836608235dbfd0f962986430533516aaa8",
+    "frontend/src/data/demo.json": "62c8cece4758573cb5389e786ffb434eaaca600f99eb05dc1b82d8cf30b822f8"
+  },
+  "previous": {
+    "citation_evaluation": {
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "actual_segment_text": null,
+          "claim": "Xbox content and services revenue grew 2% year-over-year, exceeding expectations, helped by strong Blizzard and Activision titles such as Call of Duty.",
+          "match_ratio": 1.0,
+          "source_text": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
+          "timestamp_sec": 1400,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Gross margin percentage rose 6 points year-over-year, driven by a shift toward higher\u2011margin businesses and margin improvements in gaming and search.",
+          "match_ratio": 1.0,
+          "source_text": "Gross margin percentage increased 6.0 over year, driven by sales mix shift to higher margin businesses, as well as strong execution on margin improvement in gaming and search.",
+          "timestamp_sec": 1415,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Segment gross margin dollars increased 13% and 12% in constant currency.",
+          "match_ratio": 1.0,
+          "source_text": "Segment gross margin dollars increased 13% and 12% in constant currency.",
+          "timestamp_sec": 1411,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "M365 commercial products revenue rose 13%, well ahead of expectations, boosted by higher transactional purchases linked to the Office 2024 launch and strong Windows commercial on\u2011premises sales.",
+          "match_ratio": 1.0,
+          "source_text": "M365 commercial products revenue increased 13% significantly ahead of expectations driven by higher than expected transactional purchasing with the launch of Office 2024, as well as the Windows commercial on-premises components from the better than expected performance of M365 suite noted earlier.",
+          "timestamp_sec": 1177,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Free cash flow fell to $6.5\u202fbillion, a 29% year\u2011over\u2011year decline, reflecting higher capital expenditures.",
+          "match_ratio": 1.0,
+          "source_text": "Free cashflow was $6.5 billion down 29% year over year, reflecting the capital expenditures, noted earlier.",
+          "timestamp_sec": 1480,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "On\u2011premises server revenue declined 3%, slightly below expectations, due to slower purchasing around the Windows Server 2025 launch.",
+          "match_ratio": 1.0,
+          "source_text": "In our on-premises server business, revenue decreased 3%, slightly below expectations, driven by slower than expected purchasing around Windows Server 2025 launch.",
+          "timestamp_sec": 1308,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Enterprise and partner services revenue dropped 1%, missing expectations because of weaker performance in enterprise support services and industry solutions.",
+          "match_ratio": 1.0,
+          "source_text": "Enterprise and partner services revenue decreased 1%, below expectations, with lower than expected performance across enterprise support services and industry solutions.",
+          "timestamp_sec": 1319,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "A stronger US dollar in October is expected to reduce Q4 revenue and COGS growth by over one point and operating expense growth by roughly one point.",
+          "match_ratio": 1.0,
+          "source_text": "With the strengthening of the US dollars in October, we now expect FX to decrease Q4 revenue and cogs growth by more than one point and operating expense growth by roughly one point.",
+          "timestamp_sec": 1867,
+          "verdict": "VERIFIED"
+        }
+      ],
+      "quarter": "Q2_2025",
+      "ticker": "MSFT",
+      "total_citations": 8,
+      "verified": 8
+    },
+    "report": {
+      "audio_features_summary": {
+        "mean_energy": 0.07,
+        "mean_pitch_hz": 176.65,
+        "mean_speaking_rate_wps": 2.61,
+        "segments_analyzed": 672
+      },
+      "call_date": "2025-01-29",
+      "citation_verification": {
+        "accuracy": 1.0,
+        "total_citations": 8,
+        "verified": 8
+      },
+      "company": "Microsoft",
+      "key_claims": [
+        {
+          "claim": "Xbox content and services revenue grew 2% year-over-year, exceeding expectations, helped by strong Blizzard and Activision titles such as Call of Duty.",
+          "evidence": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
+          "sentiment": "positive",
+          "timestamp_sec": 1400
+        },
+        {
+          "claim": "Gross margin percentage rose 6 points year-over-year, driven by a shift toward higher\u2011margin businesses and margin improvements in gaming and search.",
+          "evidence": "Gross margin percentage increased 6.0 over year, driven by sales mix shift to higher margin businesses, as well as strong execution on margin improvement in gaming and search.",
+          "sentiment": "positive",
+          "timestamp_sec": 1415
+        },
+        {
+          "claim": "Segment gross margin dollars increased 13% and 12% in constant currency.",
+          "evidence": "Segment gross margin dollars increased 13% and 12% in constant currency.",
+          "sentiment": "positive",
+          "timestamp_sec": 1411
+        },
+        {
+          "claim": "M365 commercial products revenue rose 13%, well ahead of expectations, boosted by higher transactional purchases linked to the Office 2024 launch and strong Windows commercial on\u2011premises sales.",
+          "evidence": "M365 commercial products revenue increased 13% significantly ahead of expectations driven by higher than expected transactional purchasing with the launch of Office 2024, as well as the Windows commercial on-premises components from the better than expected performance of M365 suite noted earlier.",
+          "sentiment": "positive",
+          "timestamp_sec": 1177
+        },
+        {
+          "claim": "Free cash flow fell to $6.5\u202fbillion, a 29% year\u2011over\u2011year decline, reflecting higher capital expenditures.",
+          "evidence": "Free cashflow was $6.5 billion down 29% year over year, reflecting the capital expenditures, noted earlier.",
+          "sentiment": "negative",
+          "timestamp_sec": 1480
+        },
+        {
+          "claim": "On\u2011premises server revenue declined 3%, slightly below expectations, due to slower purchasing around the Windows Server 2025 launch.",
+          "evidence": "In our on-premises server business, revenue decreased 3%, slightly below expectations, driven by slower than expected purchasing around Windows Server 2025 launch.",
+          "sentiment": "negative",
+          "timestamp_sec": 1308
+        },
+        {
+          "claim": "Enterprise and partner services revenue dropped 1%, missing expectations because of weaker performance in enterprise support services and industry solutions.",
+          "evidence": "Enterprise and partner services revenue decreased 1%, below expectations, with lower than expected performance across enterprise support services and industry solutions.",
+          "sentiment": "negative",
+          "timestamp_sec": 1319
+        },
+        {
+          "claim": "A stronger US dollar in October is expected to reduce Q4 revenue and COGS growth by over one point and operating expense growth by roughly one point.",
+          "evidence": "With the strengthening of the US dollars in October, we now expect FX to decrease Q4 revenue and cogs growth by more than one point and operating expense growth by roughly one point.",
+          "sentiment": "negative",
+          "timestamp_sec": 1867
+        }
+      ],
+      "management_outlook": [],
+      "overall_summary": "Microsoft\u2019s Q2\u202f2025 earnings call highlighted solid growth in gaming margins, M365 commercial revenue, and overall gross margin, contributing to a predominantly positive sentiment (27.2% positive) despite a large neutral share. However, declines in free cash flow, on\u2011premises server, and enterprise services revenue, along with currency headwinds, generated negative sentiment (6.0%). The mix of strong segment performance and cost pressures led to a balanced but largely neutral investor outlook.",
+      "pipeline_version": "1.0",
+      "prior_quarter_context_used": [
+        {
+          "quarter": "Q1 2025",
+          "start_sec": 2217.0,
+          "text": "You may press star two if you would like to remove your question from the queue. Participants using speaker equipment and may be necessary to pick up your handset before pressing the star keys. And our first question comes from the line of Keith Weiss with Morgan Stanley. Please proceed. Excellent. Thank you guys for taking the question. And congratulations on a really solid quarter. The expansion of capabilities, the speed of innovation, the magnitude of the opportunity to head for gender. It makes this the most exciting period for software I've seen in my 25 years of covering the space and based upon this call, it seems like you share that excitement. But in my investor conversation, that excitement also feeds two related questions and they both have to do with constraints. And the first is, like, what are the internal constraints or guardrails that Microsoft has when it comes to investing behind these innovations, particularly in relation to the funding of future generations of foundational models where people were talking about price tags, and then on the other side of the spectrum, what are the external constraints that Microsoft sees in building out this capacity to meet the demand and capture the opportunity, particularly constraints in your ability to power all these new data centers being built out, empowered in an environmentally sustainable fashion? I'd love to get to Microsoft perspective on both those questions. Thank you, Keith, for those questions. I think on the first point, ultimately, when you think about, let's say, a capital outlay for training, because that's essentially what you're asking."
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 2340.88,
+          "text": "commercial perceived side or on the consumption meters that's I think the fundamental driver. And Keith you know I do think and I really do appreciate how you phrase the question as well because I think the timing and some of the questions you all have had really led to how we were talking even about capital expense in our comments in my comments today. Being able to maybe share a little more about that when we talked about roughly half of FY24's total capital expense as well as half of Q4's expense it's really on land and builds and finance leases and those things really will be monetized over 15 years and beyond and they're incredibly flexible because we've built a consistent architecture first with a commercial cloud and second with the Azure Stack for AI regardless of whether the demand is at the platform layer or at the app layer or through third parties and partners or frankly our first party fast it uses the same infrastructure. So with that long life flexible assets and if you think about it that way you can see what we're doing and focused on is building out this network and parallel of across the globe because you know when we did this last transition the first transition to the cloud which seems a long time ago sometimes it rolled out quite differently we rolled out more geo by geo and this one because we have demand on a global basis we are doing it on a global basis which is important we have large"
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 2831.84,
+          "text": "distinction between our CAPEx number and on occasion the cash that we pay for PP&E and you're going to start to see that more often in this period because it happens when we use leases leases sort of show up all at once and so you'll see a little bit more volatility I've mentioned to that in my comments before but I mentioned again just because you're starting to see that distinction in my comments and hopefully that's helpful context. Just one other thing Amy if I want to add I think as people think about capital spend I think it's important separate out leases from build and when it comes to build I think it's important for us to think about we think about it in terms of what's the total percentage of cost that goes into each line item land which obviously has a very different duration and a very different lead time so those are the other two considerations we think about lead time and duration of the asset land you know network construction the system or the kit and then the ongoing cost and so if you think about it that way then it you know how to even adjust if you will the capital spend based on demand signal. Thank you it was triggered by the jump in CAPEx and as Amy pointed out you're guiding to accelerating Azure revenue growth rate which I guess follows the CAPEx thank you so much once again. Thanks Cash operator next question please."
+        }
+      ],
+      "quarter": "Q2 2025",
+      "risks": [],
+      "schema_version": "1.0",
+      "sentiment_distribution": {
+        "negative": 6.0,
+        "neutral": 66.8,
+        "positive": 27.2
+      },
+      "stage_durations_sec": {
+        "citation_check_sec": 0.0,
+        "generation_sec": 0.0,
+        "prosody_sec": 0.0,
+        "rag_sec": 4.8,
+        "sentiment_sec": 0.0,
+        "transcription_sec": 0.0
+      },
+      "ticker": "MSFT"
+    },
+    "structured_claims": {
+      "claims": [
+        {
+          "citation": {
+            "source_text": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
+            "timestamp_sec": 1400
+          },
+          "claim": "Xbox content and services revenue grew 2% year-over-year, exceeding expectations, helped by strong Blizzard and Activision titles such as Call of Duty.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Gross margin percentage increased 6.0 over year, driven by sales mix shift to higher margin businesses, as well as strong execution on margin improvement in gaming and search.",
+            "timestamp_sec": 1415
+          },
+          "claim": "Gross margin percentage rose 6 points year-over-year, driven by a shift toward higher\u2011margin businesses and margin improvements in gaming and search.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Segment gross margin dollars increased 13% and 12% in constant currency.",
+            "timestamp_sec": 1411
+          },
+          "claim": "Segment gross margin dollars increased 13% and 12% in constant currency.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "M365 commercial products revenue increased 13% significantly ahead of expectations driven by higher than expected transactional purchasing with the launch of Office 2024, as well as the Windows commercial on-premises components from the better than expected performance of M365 suite noted earlier.",
+            "timestamp_sec": 1177
+          },
+          "claim": "M365 commercial products revenue rose 13%, well ahead of expectations, boosted by higher transactional purchases linked to the Office 2024 launch and strong Windows commercial on\u2011premises sales.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Free cashflow was $6.5 billion down 29% year over year, reflecting the capital expenditures, noted earlier.",
+            "timestamp_sec": 1480
+          },
+          "claim": "Free cash flow fell to $6.5\u202fbillion, a 29% year\u2011over\u2011year decline, reflecting higher capital expenditures.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "In our on-premises server business, revenue decreased 3%, slightly below expectations, driven by slower than expected purchasing around Windows Server 2025 launch.",
+            "timestamp_sec": 1308
+          },
+          "claim": "On\u2011premises server revenue declined 3%, slightly below expectations, due to slower purchasing around the Windows Server 2025 launch.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "Enterprise and partner services revenue decreased 1%, below expectations, with lower than expected performance across enterprise support services and industry solutions.",
+            "timestamp_sec": 1319
+          },
+          "claim": "Enterprise and partner services revenue dropped 1%, missing expectations because of weaker performance in enterprise support services and industry solutions.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "With the strengthening of the US dollars in October, we now expect FX to decrease Q4 revenue and cogs growth by more than one point and operating expense growth by roughly one point.",
+            "timestamp_sec": 1867
+          },
+          "claim": "A stronger US dollar in October is expected to reduce Q4 revenue and COGS growth by over one point and operating expense growth by roughly one point.",
+          "sentiment": "negative"
+        }
+      ],
+      "overall_summary": "Microsoft\u2019s Q2\u202f2025 earnings call highlighted solid growth in gaming margins, M365 commercial revenue, and overall gross margin, contributing to a predominantly positive sentiment (27.2% positive) despite a large neutral share. However, declines in free cash flow, on\u2011premises server, and enterprise services revenue, along with currency headwinds, generated negative sentiment (6.0%). The mix of strong segment performance and cost pressures led to a balanced but largely neutral investor outlook."
+    }
+  },
+  "previous_version": "legacy-06a92130d34a",
+  "replacement": {
+    "citation_evaluation": {
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported Xbox content and services revenue growth of 2%, ahead of expectations, driven by stronger-than-expected Blizzard and Activision content, including Call of Duty.",
+          "match_ratio": 1.0,
+          "source_text": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
+          "timestamp_sec": 1400,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported M365 commercial products revenue growth of 13%, significantly ahead of expectations.",
+          "match_ratio": 1.0,
+          "source_text": "M365 commercial products revenue increased 13% significantly ahead of expectations driven by higher than expected transactional purchasing with the launch of Office 2024, as well as the Windows commercial on-premises components from the better than expected performance of M365 suite noted earlier.",
+          "timestamp_sec": 1177,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported free cash flow of $6.5 billion, down 29% year over year, reflecting higher capital expenditures.",
+          "match_ratio": 1.0,
+          "source_text": "Free cashflow was $6.5 billion down 29% year over year, reflecting the capital expenditures, noted earlier.",
+          "timestamp_sec": 1480,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft said on-premises server revenue fell 3%, slightly below expectations, because purchasing around the Windows Server 2025 launch was slower than expected.",
+          "match_ratio": 1.0,
+          "source_text": "In our on-premises server business, revenue decreased 3%, slightly below expectations, driven by slower than expected purchasing around Windows Server 2025 launch.",
+          "timestamp_sec": 1308,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Microsoft reported enterprise and partner services revenue down 1%, below expectations, with lower-than-expected performance in enterprise support services and industry solutions.",
+          "match_ratio": 1.0,
+          "source_text": "Enterprise and partner services revenue decreased 1%, below expectations, with lower than expected performance across enterprise support services and industry solutions.",
+          "timestamp_sec": 1319,
+          "verdict": "VERIFIED"
+        }
+      ],
+      "quarter": "Q2_2025",
+      "report_version": "complete-passages-a22658bc0cde",
+      "ticker": "MSFT",
+      "total_citations": 5,
+      "verified": 5
+    },
+    "report": {
+      "audio_features_summary": {
+        "mean_energy": 0.07,
+        "mean_pitch_hz": 176.65,
+        "mean_speaking_rate_wps": 2.61,
+        "segments_analyzed": 672
+      },
+      "call_date": "2025-01-29",
+      "citation_verification": {
+        "accuracy": 1.0,
+        "total_citations": 5,
+        "verified": 5
+      },
+      "company": "Microsoft",
+      "evidence_policy": "complete_passages_v1",
+      "key_claims": [
+        {
+          "claim": "Microsoft reported Xbox content and services revenue growth of 2%, ahead of expectations, driven by stronger-than-expected Blizzard and Activision content, including Call of Duty.",
+          "evidence": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
+          "sentiment": "positive",
+          "timestamp_sec": 1400
+        },
+        {
+          "claim": "Microsoft reported M365 commercial products revenue growth of 13%, significantly ahead of expectations.",
+          "evidence": "M365 commercial products revenue increased 13% significantly ahead of expectations driven by higher than expected transactional purchasing with the launch of Office 2024, as well as the Windows commercial on-premises components from the better than expected performance of M365 suite noted earlier.",
+          "sentiment": "positive",
+          "timestamp_sec": 1177
+        },
+        {
+          "claim": "Microsoft reported free cash flow of $6.5 billion, down 29% year over year, reflecting higher capital expenditures.",
+          "evidence": "Free cashflow was $6.5 billion down 29% year over year, reflecting the capital expenditures, noted earlier.",
+          "sentiment": "negative",
+          "timestamp_sec": 1480
+        },
+        {
+          "claim": "Microsoft said on-premises server revenue fell 3%, slightly below expectations, because purchasing around the Windows Server 2025 launch was slower than expected.",
+          "evidence": "In our on-premises server business, revenue decreased 3%, slightly below expectations, driven by slower than expected purchasing around Windows Server 2025 launch.",
+          "sentiment": "negative",
+          "timestamp_sec": 1308
+        },
+        {
+          "claim": "Microsoft reported enterprise and partner services revenue down 1%, below expectations, with lower-than-expected performance in enterprise support services and industry solutions.",
+          "evidence": "Enterprise and partner services revenue decreased 1%, below expectations, with lower than expected performance across enterprise support services and industry solutions.",
+          "sentiment": "negative",
+          "timestamp_sec": 1319
+        }
+      ],
+      "management_outlook": [],
+      "overall_summary": "Microsoft reported Xbox content and services revenue growth of 2% and M365 commercial products revenue growth of 13%, both ahead of expectations. Free cash flow was $6.5 billion, down 29% year over year, while on-premises server revenue fell 3% and enterprise and partner services revenue fell 1%. FinBERT classified 27.2% of scored transcript segments as positive, 6.0% as negative and 66.8% as neutral; these text labels do not measure vocal confidence.",
+      "pipeline_version": "1.0",
+      "prior_quarter_context_used": [
+        {
+          "quarter": "Q1 2025",
+          "start_sec": 1689.0,
+          "text": "Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings."
+        }
+      ],
+      "publication": {
+        "call_date_verification": "registry_consistent_external_verification_pending",
+        "previous_report_version": "legacy-06a92130d34a",
+        "review_status": "ai_assisted_review_human_review_pending",
+        "scope": "current_call_with_earlier_context"
+      },
+      "quarter": "Q2 2025",
+      "regeneration": {
+        "audio_features": "reused_from_previous_report_not_recomputed",
+        "claim_support_review": "ai_assisted_review_human_review_pending",
+        "generated_at": "2026-10-16T14:20:58.471573+00:00",
+        "historical_context": "retrieved",
+        "input": "saved_transcript_and_sentiment",
+        "provenance": {
+          "dataset_scope": [
+            {
+              "quarter": "Q2_2025",
+              "ticker": "MSFT"
+            }
+          ],
+          "generation": {
+            "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+            "input_segments_sha256": "bd0fd01aa24ced6022aa0b73a39c185359561a04b8ce85775a54f5efd927d428",
+            "max_tokens": 8000,
+            "model": "openai/gpt-oss-120b",
+            "prompt_sha256": "97922ddc69dc826ea7edb186da271ab6ff5a3c64c00003ea9dd79a5de897be75",
+            "response_id": "chatcmpl-57652535-f0c4-4ed5-a11e-eb42e24428fa",
+            "selection": {
+              "citation_binding": "source_id_to_exact_selected_passage_v1",
+              "policy": "complete_passages_v1",
+              "top_k_per_seed_label": 4
+            }
+          },
+          "input_sha256": {
+            "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+            "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+            "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+            "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+            "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+            "data/processed/pipeline_runs/MSFT/Q2_2025.json": "b37e0dc8963b40ecdbef68382dd8d9c4e1e2148c8c6f0326551186db491f1933",
+            "data/processed/sentiment/segment/MSFT/Q2_2025.json": "24b30750e649912700328c449975cdc432f2327bdcd6fb742b54d33e9126e6f1",
+            "data/processed/transcripts/MSFT/Q1_2025.json": "0587c6216dea197be0f6e5fbb38e5f1ed2342a01194096bdce6c14eaf988d6e0",
+            "data/processed/transcripts/MSFT/Q2_2025.json": "5482e702eb525fe533cb1218a18340850b23e362a899ce7452d1f1dc46dbe677",
+            "data/processed/transcripts/MSFT/Q4_2024.json": "b4fbc106ef8369a327d54e7bb7f7ed47fadd7cea32d8c6b03a36e963a0e97944",
+            "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+            "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+            "src/report/generate_structured_report.py": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+            "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f"
+          },
+          "retrieval": {
+            "queries_sha256": "470c47c65f91233f0cb6426cf9520c0447b8213e87ab2da501c2ee924233d0fd",
+            "query_count": 4,
+            "query_policy": "selected_current_call_passages_v1"
+          }
+        }
+      },
+      "report_version": "complete-passages-a22658bc0cde",
+      "risks": [],
+      "schema_version": "1.0",
+      "sentiment_distribution": {
+        "negative": 6.0,
+        "neutral": 66.8,
+        "positive": 27.2
+      },
+      "stage_durations_sec": {
+        "regeneration_sec": 21.95
+      },
+      "ticker": "MSFT"
+    },
+    "review": {
+      "claim_edits": [
+        {
+          "original": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
+          "original_claim_index": 0,
+          "reason": "Attributed the Xbox growth and retained the cited content drivers.",
+          "revised": "Microsoft reported Xbox content and services revenue growth of 2%, ahead of expectations, driven by stronger-than-expected Blizzard and Activision content, including Call of Duty."
+        },
+        {
+          "original": "M365 commercial products revenue increased 13% significantly ahead of expectations, driven by higher than expected transactional purchasing with the launch of Office 2024 and better than expected performance of the M365 suite.",
+          "original_claim_index": 2,
+          "reason": "Kept the M365 commercial-products scope and ahead-of-expectations qualifier; omitted ambiguous transcription of component drivers.",
+          "revised": "Microsoft reported M365 commercial products revenue growth of 13%, significantly ahead of expectations."
+        },
+        {
+          "original": "Free cashflow was $6.5\u202fbillion, down 29% year over year.",
+          "original_claim_index": 3,
+          "reason": "Preserved the free-cash-flow figure, year-over-year comparison and stated capital-spending explanation.",
+          "revised": "Microsoft reported free cash flow of $6.5 billion, down 29% year over year, reflecting higher capital expenditures."
+        },
+        {
+          "original": "On-premises server business revenue decreased 3%, slightly below expectations, due to slower than expected purchasing around the Windows Server 2025 launch.",
+          "original_claim_index": 4,
+          "reason": "Retained the 3% server decline and slower Windows Server 2025 purchasing explanation.",
+          "revised": "Microsoft said on-premises server revenue fell 3%, slightly below expectations, because purchasing around the Windows Server 2025 launch was slower than expected."
+        },
+        {
+          "original": "Enterprise and partner services revenue decreased 1%, below expectations, because of lower than expected performance across enterprise support services and industry solutions.",
+          "original_claim_index": 5,
+          "reason": "Retained the enterprise/partner-services scope, decline and stated underperformance.",
+          "revised": "Microsoft reported enterprise and partner services revenue down 1%, below expectations, with lower-than-expected performance in enterprise support services and industry solutions."
+        }
+      ],
+      "excluded_claims": [
+        {
+          "claim": "Gross margin percentage increased 6.0 over year, driven by sales mix shift to higher margin businesses and strong execution on margin improvement in gaming and search.",
+          "original_claim_index": 1,
+          "reason": "The saved transcript says gross-margin percentage increased \u201c6.0\u201d without an explicit unit in the passage; the draft summary asserted six percentage points and did not identify the segment. Omitted pending recording review."
+        }
+      ],
+      "historical_context_decision": "Retained only a short Q1 2025 excerpt reporting earlier free cash flow and capital expenditures. The Q4 capital-spending answer was too diffuse, and the Q1 company gross-margin chunk was not the same segment as the Q2 gaming/search gross-margin statement. Earlier figures are descriptive business context, not a measured executive communication deviation.",
+      "limitations": [
+        "AI-assisted transcript review is not independent human-labelled ground truth.",
+        "Saved transcript passages and timestamps have not been checked against the original recording.",
+        "The earlier Q1 free-cash-flow figure is descriptive business context, not an executive-specific linguistic or vocal baseline.",
+        "Sentiment-selected passages do not comprehensively cover the call."
+      ],
+      "new_context_quarters": [
+        "Q1 2025"
+      ],
+      "original_candidate_path": "data/processed/report_candidates/remaining/MSFT/Q2_2025.json",
+      "original_candidate_sha256": "ab3b11255e69427fdf6a5e215282c5c3d15c2dc808cb8c02b39cdced71775a46",
+      "original_generated_claims": [
+        {
+          "citation": {
+            "source_text": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
+            "timestamp_sec": 1400
+          },
+          "claim": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Gross margin percentage increased 6.0 over year, driven by sales mix shift to higher margin businesses, as well as strong execution on margin improvement in gaming and search.",
+            "timestamp_sec": 1415
+          },
+          "claim": "Gross margin percentage increased 6.0 over year, driven by sales mix shift to higher margin businesses and strong execution on margin improvement in gaming and search.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "M365 commercial products revenue increased 13% significantly ahead of expectations driven by higher than expected transactional purchasing with the launch of Office 2024, as well as the Windows commercial on-premises components from the better than expected performance of M365 suite noted earlier.",
+            "timestamp_sec": 1177
+          },
+          "claim": "M365 commercial products revenue increased 13% significantly ahead of expectations, driven by higher than expected transactional purchasing with the launch of Office 2024 and better than expected performance of the M365 suite.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Free cashflow was $6.5 billion down 29% year over year, reflecting the capital expenditures, noted earlier.",
+            "timestamp_sec": 1480
+          },
+          "claim": "Free cashflow was $6.5\u202fbillion, down 29% year over year.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "In our on-premises server business, revenue decreased 3%, slightly below expectations, driven by slower than expected purchasing around Windows Server 2025 launch.",
+            "timestamp_sec": 1308
+          },
+          "claim": "On-premises server business revenue decreased 3%, slightly below expectations, due to slower than expected purchasing around the Windows Server 2025 launch.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "Enterprise and partner services revenue decreased 1%, below expectations, with lower than expected performance across enterprise support services and industry solutions.",
+            "timestamp_sec": 1319
+          },
+          "claim": "Enterprise and partner services revenue decreased 1%, below expectations, because of lower than expected performance across enterprise support services and industry solutions.",
+          "sentiment": "negative"
+        }
+      ],
+      "original_generated_summary": "Microsoft\u2019s Q2 2025 earnings call highlighted modest revenue gains, with Xbox content and services up 2%, gross margin percentage up 6.0 points year\u2011over\u2011year, and M365 commercial products revenue up 13% ahead of expectations. At the same time, free cash flow fell 29% to $6.5\u202fbillion, on\u2011premises server revenue slipped 3%, and enterprise and partner services revenue dropped 1%, reflecting negative pressures. The FinBERT analysis shows 27.2% positive, 6.0% negative, and 66.8% neutral sentiment across the transcript.",
+      "per_claim": [
+        {
+          "claim_index": 0,
+          "original_claim_index": 0,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1400
+        },
+        {
+          "claim_index": 1,
+          "original_claim_index": 2,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1177
+        },
+        {
+          "claim_index": 2,
+          "original_claim_index": 3,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1480
+        },
+        {
+          "claim_index": 3,
+          "original_claim_index": 4,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1308
+        },
+        {
+          "claim_index": 4,
+          "original_claim_index": 5,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1319
+        }
+      ],
+      "previous_context_quarters": [
+        "Q1 2025",
+        "Q4 2024",
+        "Q4 2024"
+      ],
+      "retrieved_context": [
+        {
+          "quarter": "Q1 2025",
+          "start_sec": 1604.0,
+          "text": "Results were ahead of expectation driven by stronger than expected performance in both first and third party content as well as consoles. Xbox content services revenue increased 61% with 53 points of net impact from the Activision acquisition. Segment gross margin dollars increased 16% and 17% in constant currency with 12 points of net impact from the Activision acquisition. Gross margin percentage was relatively unchanged year over year. Our strong execution on margin improvement in gaming and search was offset by sales mix shift to those businesses. Operating expenses increased 49% with 51 points from the Activision acquisition operating income decreased 4%. Now back to total company results. Capital expenditures including finance leases were $20 billion in line with expectations and cash paid for PP&E was 14.9 billion dollars. Roughly half of our cloud and AI related spend continues to be for long lived assets that will support monetization over the next 15 years and beyond. The remaining cloud and AI spend is primarily for servers both CPUs and GPUs to serve customers based on demand signals. Cashflow from operations with $34.2 billion up 12% driven by strong cloud buildings and collections partially offset by higher supplier employee and tax payments. Free cash flow was 19.3 billion dollars down 7% year over year reflecting higher capital expenditures to support our cloud and AI offerings. This quarter other income expense was negative $283 million significantly more favorable than anticipated due to foreign currency re measurement and net gains on investments. Our losses on investments accounted for under the equity method were as expected."
+        },
+        {
+          "quarter": "Q4 2024",
+          "start_sec": 2340.88,
+          "text": "commercial perceived side or on the consumption meters that's I think the fundamental driver. And Keith you know I do think and I really do appreciate how you phrase the question as well because I think the timing and some of the questions you all have had really led to how we were talking even about capital expense in our comments in my comments today. Being able to maybe share a little more about that when we talked about roughly half of FY24's total capital expense as well as half of Q4's expense it's really on land and builds and finance leases and those things really will be monetized over 15 years and beyond and they're incredibly flexible because we've built a consistent architecture first with a commercial cloud and second with the Azure Stack for AI regardless of whether the demand is at the platform layer or at the app layer or through third parties and partners or frankly our first party fast it uses the same infrastructure. So with that long life flexible assets and if you think about it that way you can see what we're doing and focused on is building out this network and parallel of across the globe because you know when we did this last transition the first transition to the cloud which seems a long time ago sometimes it rolled out quite differently we rolled out more geo by geo and this one because we have demand on a global basis we are doing it on a global basis which is important we have large"
+        },
+        {
+          "quarter": "Q1 2025",
+          "start_sec": 1261.0,
+          "text": "Company gross margin dollars increased 13% and 14% in constant currency and gross margin percentage was 69% down 2.0 over year, driven by the lower Microsoft cloud gross margin noted earlier, as well as the impact from purchase accounting adjustments, integration and transaction related cost from the Activision acquisition. Operating expenses increased 12% lower than expected due to our focus on cost efficiencies and ongoing prioritization work. Operating expense growth included 9 points from the Activision acquisition. At a total company level, headcount at the end of September was 8% higher than a year ago. Excluding the growth from the Activision acquisition, headcount was 2% higher. Operating income increased 14% and operating margins were 47% down 1.0 over year. Excluding the net impact from the Activision acquisition, operating margins were up 1.0. We continue to drive efficiencies across our businesses as we invest in AI infrastructure and capabilities. Now to our segment results. Revenue from productivity and business processes was $28.3 billion in grew 12% and 13% in constant currency, ahead of expectations, driven by better than expected results across all businesses. M365 commercial cloud revenue increased 15% and 16% in constant currency with business trends that were as expected. The better than expected result was due to a small benefit from the end period revenue recognition noted earlier. Our pregrowth was primarily driven by E5 as well as M365 co-pilot. Paid M365 commercial seats grew 8% year over year with installed basic expansion across all customer segments. Seat growth was driven by our small and medium business and frontline worker offerings."
+        }
+      ],
+      "reviewed_at": "2026-10-16T14:23:28.603959+00:00",
+      "scope": "AI-assisted review of saved transcripts and surrounding passages; recordings and independent human review pending.",
+      "status": "ai_assisted_review_human_review_pending",
+      "summary_corrections": [
+        "Removed unsupported \u201c6.0 points\u201d gross-margin language and vague \u201cnegative pressures\u201d interpretation.",
+        "Kept segment-specific revenue figures separate from company-wide revenue.",
+        "Described FinBERT percentages as scored transcript-segment labels, not speaker confidence."
+      ]
+    },
+    "structured_claims": {
+      "claims": [
+        {
+          "citation": {
+            "source_text": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
+            "timestamp_sec": 1400
+          },
+          "claim": "Microsoft reported Xbox content and services revenue growth of 2%, ahead of expectations, driven by stronger-than-expected Blizzard and Activision content, including Call of Duty.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "M365 commercial products revenue increased 13% significantly ahead of expectations driven by higher than expected transactional purchasing with the launch of Office 2024, as well as the Windows commercial on-premises components from the better than expected performance of M365 suite noted earlier.",
+            "timestamp_sec": 1177
+          },
+          "claim": "Microsoft reported M365 commercial products revenue growth of 13%, significantly ahead of expectations.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Free cashflow was $6.5 billion down 29% year over year, reflecting the capital expenditures, noted earlier.",
+            "timestamp_sec": 1480
+          },
+          "claim": "Microsoft reported free cash flow of $6.5 billion, down 29% year over year, reflecting higher capital expenditures.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "In our on-premises server business, revenue decreased 3%, slightly below expectations, driven by slower than expected purchasing around Windows Server 2025 launch.",
+            "timestamp_sec": 1308
+          },
+          "claim": "Microsoft said on-premises server revenue fell 3%, slightly below expectations, because purchasing around the Windows Server 2025 launch was slower than expected.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "Enterprise and partner services revenue decreased 1%, below expectations, with lower than expected performance across enterprise support services and industry solutions.",
+            "timestamp_sec": 1319
+          },
+          "claim": "Microsoft reported enterprise and partner services revenue down 1%, below expectations, with lower-than-expected performance in enterprise support services and industry solutions.",
+          "sentiment": "negative"
+        }
+      ],
+      "evidence_policy": "complete_passages_v1",
+      "generation_provenance": {
+        "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+        "input_segments_sha256": "bd0fd01aa24ced6022aa0b73a39c185359561a04b8ce85775a54f5efd927d428",
+        "max_tokens": 8000,
+        "model": "openai/gpt-oss-120b",
+        "prompt_sha256": "97922ddc69dc826ea7edb186da271ab6ff5a3c64c00003ea9dd79a5de897be75",
+        "response_id": "chatcmpl-57652535-f0c4-4ed5-a11e-eb42e24428fa",
+        "selection": {
+          "citation_binding": "source_id_to_exact_selected_passage_v1",
+          "policy": "complete_passages_v1",
+          "top_k_per_seed_label": 4
+        }
+      },
+      "overall_summary": "Microsoft reported Xbox content and services revenue growth of 2% and M365 commercial products revenue growth of 13%, both ahead of expectations. Free cash flow was $6.5 billion, down 29% year over year, while on-premises server revenue fell 3% and enterprise and partner services revenue fell 1%. FinBERT classified 27.2% of scored transcript segments as positive, 6.0% as negative and 66.8% as neutral; these text labels do not measure vocal confidence.",
+      "report_version": "complete-passages-a22658bc0cde"
+    }
+  },
+  "version": "complete-passages-a22658bc0cde"
+}

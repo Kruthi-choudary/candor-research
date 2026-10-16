@@ -1,0 +1,623 @@
+{
+  "applied_at": "2026-10-15T18:47:51.714387+00:00",
+  "candidate_sha256": "b8e1d3ead46d4b894ead8e4a484e942a80e4f8172056fd85bef99e1cb5b6001d",
+  "configuration_at_promotion": {
+    "evaluation": {
+      "citation_match_threshold": 0.6,
+      "citation_tolerance_sec": 2.0
+    },
+    "generation": {
+      "llm_model": "openai/gpt-oss-120b",
+      "max_tokens": 1500,
+      "max_tokens_structured": 4000,
+      "top_k_quotes": 4
+    },
+    "models": {
+      "embedding": "BAAI/bge-small-en-v1.5",
+      "sentiment": "ProsusAI/finbert",
+      "whisper": "base.en"
+    },
+    "retrieval": {
+      "chunk_words": 250,
+      "embed_dim": 384,
+      "table_name": "transcript_chunks",
+      "top_k": 3
+    }
+  },
+  "input_sha256": {
+    "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+    "config/pipeline.yaml": "6a49b07006d37d5a843f38f738474428820fbc5ae960b1253d00231c333e897a",
+    "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+    "data/processed/eval/citation_accuracy_baseline_free_text_v1.json": "8d7ca45472e067915f49912d5937f2cc830acf0f48351cfc99e61c6602ba886a",
+    "data/processed/eval/citation_accuracy_structured_citations_v1.json": "185b0d26062cc8732335afc933efe9b04fa586899027df20033e53a4442e128e",
+    "data/processed/eval/claim_coverage.json": "3ce127afcd847c446d18ead6198eafbc08022b1b52a2103855673719dd6b08b3",
+    "data/processed/eval/per_call/AAPL/Q1_2025.json": "c76cf922771f89b75a1d20f77d9efd21a2e6f17ca153c74fce419150e737c116",
+    "data/processed/eval/per_call/AAPL/Q4_2024.json": "3f05498efbabdd25d1fd60c6b1dc8f4fa5333631013059b21398a9b2dc6ab8f8",
+    "data/processed/eval/per_call/META/Q1_2025.json": "2307de8bab77c9b61440179a157a68a8d9fcd2876e52fcce9f568478d7a82d87",
+    "data/processed/eval/per_call/MSFT/Q1_2025.json": "417397248f79460ba8ecc32f03b18ef98f703b7104a8b0d2c66f76e8a7ec9434",
+    "data/processed/eval/per_call/NVDA/Q1_2025.json": "de702101c91fa5102d4b526f7bd2d1fc239f036b321a18cb5baabccaaf82ca69",
+    "data/processed/pipeline_runs/AAPL/Q1_2025.json": "59be4f35013b8674d6fbc65bdc70f36eeced9839f0d555656ada7bc0e3555b16",
+    "data/processed/pipeline_runs/AAPL/Q4_2024.json": "c771508bb041923b6e90410771fd1352edd9dc542ef8f9786396f4540f5e43f0",
+    "data/processed/pipeline_runs/META/Q1_2025.json": "3359843333d68d33d81516a294212551c86dd4722bd5cf1ac4103b5fbe62f58c",
+    "data/processed/pipeline_runs/MSFT/Q1_2025.json": "80fda733f9f309ffb9f1975a1a2d8bf8ff5f1493fc62fdd8f7c7c8e6a925e2ec",
+    "data/processed/pipeline_runs/NVDA/Q1_2025.json": "90973c689cf13c197a571ef7984d9e583b02e9240498ca7a4ae41c8b903ae9cd",
+    "data/processed/reports_structured_citations_v1/AAPL/Q1_2025.json": "f2fe29543329d56ef6e4652260004b2c45acbe7dccc8b24c1634aefca66d027f",
+    "data/processed/reports_structured_citations_v1/AAPL/Q4_2024.json": "78f10442da0056fba01e300551ff0a43f7712377231cd4f19ef6cbac689966f8",
+    "data/processed/reports_structured_citations_v1/META/Q1_2025.json": "f06de81a6854b769dd2890f303642cbf15ae2759c39e9edd995884a7fa889cfe",
+    "data/processed/reports_structured_citations_v1/MSFT/Q1_2025.json": "0bad8b1b9f835cfaf7ba2ba8575c08c210f547cd49816dc6a2b178c4124360e5",
+    "data/processed/reports_structured_citations_v1/NVDA/Q1_2025.json": "534271dfd4538d308831def246df6582db3085ff8a8823e7659bce2b41594120",
+    "data/processed/sentiment/segment/AAPL/Q4_2024.json": "2d2f819a14d7f85a492b9ad04192a6c8ee42d77f776578550db2068521dd0387",
+    "data/processed/transcripts/AAPL/Q1_2025.json": "2d5cbdf457900f950520d301c20e77066a69e53b5698f0d75334a808ec5bf14e",
+    "data/processed/transcripts/AAPL/Q4_2024.json": "44b04c489d268c1419bccc24ca6f7bf0fee80eb535a45203640dad29b862b4f7",
+    "data/processed/transcripts/META/Q1_2025.json": "f0461d42a908ae037ab0af4937f7309dd2648abad2a5d40b37ba5834c0b82d9d",
+    "data/processed/transcripts/MSFT/Q1_2025.json": "0587c6216dea197be0f6e5fbb38e5f1ed2342a01194096bdce6c14eaf988d6e0",
+    "data/processed/transcripts/NVDA/Q1_2025.json": "d8a5a1b50c9c5cb82559ab17c5254456e80be1e0196568461e0633f4b879a5a1",
+    "frontend/scripts/build-demo.mjs": "63b95592ad27848b4eb7814242c1b1cde9c1cf54ad6d38f62895f30fcc3a126a",
+    "frontend/src/data/demo.json": "16fb58c64e510ffc6b1858bfe9f00fbef628568cb40ede3ec7e4f72161e6f035",
+    "src/common/schema.py": "0faebe9d8e71a23ec5a9bc635171f81d4ccd6d5a0c2594cfeb0483e218a140d0",
+    "src/eval/check_citations_structured.py": "1c1418f8711fef6edcde602235d785abed84ae6f4d03366004c1758d7ac83a03",
+    "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+    "src/report/promote.py": "7eb3639f70834ad2c6ca33f7a5232ae307f5d092830ddd578fd86c0683d6bd00"
+  },
+  "limitations": [
+    "AI-assisted support review; independent human review pending.",
+    "Call date checked against feed-derived registry; external verification pending."
+  ],
+  "output_sha256": {
+    "data/processed/eval/per_call/AAPL/Q4_2024.json": "c35fe199130fae4137d40297006af6e2a59d913ad709090e8b0c08ba142080ae",
+    "data/processed/pipeline_runs/AAPL/Q4_2024.json": "aa07cc278a4451411ff3c7449b3daf01d54fc9a1e9308c0d9e0c9ce51f710be0",
+    "data/processed/reports_structured_citations_v1/AAPL/Q4_2024.json": "19ff25597c0df996782086eac74f351f45c4ba2aef48232d558a5a581b82e068",
+    "frontend/src/data/demo.json": "16fb58c64e510ffc6b1858bfe9f00fbef628568cb40ede3ec7e4f72161e6f035"
+  },
+  "previous": {
+    "citation_evaluation": {
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "actual_segment_text": null,
+          "claim": "Apple saw strong performance in many emerging markets during Q4 2024.",
+          "match_ratio": 1.0,
+          "source_text": "we also saw strong performance in many emerging markets,",
+          "timestamp_sec": 1063,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Sequential foreign\u2011exchange improvements contributed to better year\u2011over\u2011year performance.",
+          "match_ratio": 1.0,
+          "source_text": "improvement relative to the year over year performance that we had been achieving is that there was a sequential improvement in foreign exchange.",
+          "timestamp_sec": 2309,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Products revenue reached $70\u202fbillion, a 4% year\u2011over\u2011year increase.",
+          "match_ratio": 1.0,
+          "source_text": "Products revenue was 70 billion, up 4% year over year,",
+          "timestamp_sec": 863,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "The entire segment delivered very good results in the quarter.",
+          "match_ratio": 1.0,
+          "source_text": "So we've seen very, very good results for us in the entire segment.",
+          "timestamp_sec": 2437,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Overall revenue declined to $9\u202fbillion, down 3% year over year.",
+          "match_ratio": 1.0,
+          "source_text": "revenue was $9 billion, down 3% from a year ago.",
+          "timestamp_sec": 414,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "There is a risk that product revenue could be down in the December quarter based on current commentary.",
+          "match_ratio": 1.0,
+          "source_text": "Are we to assume based on sort of the commentary that there is a risk that maybe the product revenue portfolio could be down in the December quarter if I take your numbers at face value?",
+          "timestamp_sec": 2474,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Apple has been facing headwinds that have persisted for a period of time.",
+          "match_ratio": 1.0,
+          "source_text": "As you know, it's been a headwind that we've been reporting for a period of time.",
+          "timestamp_sec": 2324,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "The company incurred unspecified costs during fiscal 24.",
+          "match_ratio": 1.0,
+          "source_text": "that we've incurred during the course of fiscal 24,",
+          "timestamp_sec": 1611,
+          "verdict": "VERIFIED"
+        }
+      ],
+      "quarter": "Q4_2024",
+      "ticker": "AAPL",
+      "total_citations": 8,
+      "verified": 8
+    },
+    "report": {
+      "audio_features_summary": {
+        "mean_energy": 0.04,
+        "mean_pitch_hz": 133.44,
+        "mean_speaking_rate_wps": 2.48,
+        "segments_analyzed": 886
+      },
+      "call_date": "2024-10-31",
+      "citation_verification": {
+        "accuracy": 1.0,
+        "total_citations": 8,
+        "verified": 8
+      },
+      "company": "Apple",
+      "key_claims": [
+        {
+          "claim": "Apple saw strong performance in many emerging markets during Q4 2024.",
+          "evidence": "we also saw strong performance in many emerging markets,",
+          "sentiment": "positive",
+          "timestamp_sec": 1063
+        },
+        {
+          "claim": "Sequential foreign\u2011exchange improvements contributed to better year\u2011over\u2011year performance.",
+          "evidence": "improvement relative to the year over year performance that we had been achieving is that there was a sequential improvement in foreign exchange.",
+          "sentiment": "positive",
+          "timestamp_sec": 2309
+        },
+        {
+          "claim": "Products revenue reached $70\u202fbillion, a 4% year\u2011over\u2011year increase.",
+          "evidence": "Products revenue was 70 billion, up 4% year over year,",
+          "sentiment": "positive",
+          "timestamp_sec": 863
+        },
+        {
+          "claim": "The entire segment delivered very good results in the quarter.",
+          "evidence": "So we've seen very, very good results for us in the entire segment.",
+          "sentiment": "positive",
+          "timestamp_sec": 2437
+        },
+        {
+          "claim": "Overall revenue declined to $9\u202fbillion, down 3% year over year.",
+          "evidence": "revenue was $9 billion, down 3% from a year ago.",
+          "sentiment": "negative",
+          "timestamp_sec": 414
+        },
+        {
+          "claim": "There is a risk that product revenue could be down in the December quarter based on current commentary.",
+          "evidence": "Are we to assume based on sort of the commentary that there is a risk that maybe the product revenue portfolio could be down in the December quarter if I take your numbers at face value?",
+          "sentiment": "negative",
+          "timestamp_sec": 2474
+        },
+        {
+          "claim": "Apple has been facing headwinds that have persisted for a period of time.",
+          "evidence": "As you know, it's been a headwind that we've been reporting for a period of time.",
+          "sentiment": "negative",
+          "timestamp_sec": 2324
+        },
+        {
+          "claim": "The company incurred unspecified costs during fiscal 24.",
+          "evidence": "that we've incurred during the course of fiscal 24,",
+          "sentiment": "negative",
+          "timestamp_sec": 1611
+        }
+      ],
+      "management_outlook": [],
+      "overall_summary": "Apple's Q4\u202f2024 earnings call highlighted several positive themes, including strong emerging\u2011market performance, sequential foreign\u2011exchange gains and a 4% increase in product revenue to $70\u202fbillion, while also noting very good segment results. However, concerns were raised about a revenue dip to $9\u202fbillion, potential product\u2011revenue weakness in the December quarter, ongoing headwinds and costs incurred during fiscal\u202f24. The sentiment distribution was 19.0% positive, 2.1% negative and 78.9% neutral.",
+      "pipeline_version": "1.0",
+      "prior_quarter_context_used": [
+        {
+          "quarter": "Q3 2025",
+          "start_sec": 3131.16,
+          "text": "how much, how much currency benefit should we be thinking about embedded in the guidance into the September quarter? And then the second quick question is, you know, CAPEX is clearly moving higher. I know you guys don't guide specifically to that number, but just kind of qualitatively, should we, as you lean in more on AI, should we really start to see that CAPEX, which is running close to about four billion annualized today, really start to move appreciably higher. Any color on that would be helpful. Thank you. Great, Aaron. Thanks for the questions. Let me answer the first one. First around foreign exchange. For Q3, we really had no impact from a foreign exchange standpoint on the year on your results. And so when we look at both the revenue growth as well as a gross margin, there was really, you know, virtually no impact from foreign exchange. As we look at going from Q3 to June quarter to the September quarter, again, very, very, as I mentioned earlier, a very small tailwind going from Q3 to Q4 from a foreign exchange standpoint on both revenue as well as a gross margin. And then on the second question, sure, on the CAPEX side, I think we talked about the fact that we are, and Tim mentioned the fact that we are increasing our investment significantly, AI, you are going to continue to see our CAPEX grow. It's not going to be exponential growth, but it is going to grow, you know, substantially."
+        },
+        {
+          "quarter": "Q3 2025",
+          "start_sec": 1522.52,
+          "text": "Okay. Your new CAPX serves? Yeah, I'll see CAPX first. Yeah, just on the CAPX, you know, it's up notably year to date. Could you just comment on your capital spending plans this year next and provide some qualitative color in terms of what's driving that growth? Is it AI-related or supply chain diversification, for instance, thank you. Yeah, Mike, it's a combination of factors. I would say a pretty significant driver of his Tim talked about is the fact we are increasing our investment significantly AI. So that is certainly a component of it. As you know, we've been investing in private cloud compute, which is also in our first party data centers. The other piece is, you know, is we do have a hybrid strategy where in cases we do use third parties to make capital investments and we also invest in our own. So you are going to see an increase in CAPX. We also, from time to time, have other investments in facilities and tooling, but I would say a significant portion of the driver of growth that you're seeing now is really driven by some of our AI-related investments. On the upgrades, Michael, if you look at iPhone, the 16 family grew double digit, as opposed to the 15 family from the year ago quarter. And so we did set an upgrade record. I think it directly is because of the strength of the product. Mac also set records on upgrade. And I think, you know, we continue to see a move to Apple Silicon"
+        },
+        {
+          "quarter": "Q3 2025",
+          "start_sec": 1960.88,
+          "text": "that are deeply personal, private, and seamlessly integrated. And of course, we've done that with more than 20 Apple intelligence features so far from visual intelligence to clean up to writing tools and all the rest. We are significantly growing our investment. We did during the June quarter. We will again in the September quarter. I'm not putting specific numbers behind that at this point, but you can probably tell them the guidance that things are moving up. We are also reallocating a fair number of people to focus on AI features within the company that we have a great team. And we're putting all of our energy behind it. In terms of other products, I don't want to really comment on specific other products, but we have an exciting roadmap ahead. And I could not be more excited about it. That's great, Tim. Thanks for the color. Just with regard to my second question, it's about the overall revenue guide. And I appreciate that you guide the best you can see it. But I just wanted to challenge it from a different way. Why would it decelerate if services is staying the same at 13? Is there conservatism there? I would think even currency is just as favorable, if not more favorable. So why would it decelerate to the higher single digits from where you were in the quarter? Or is it just being conservative? And if there's something decelerating or a comp, do you mind just pointing that out?"
+        }
+      ],
+      "quarter": "Q4 2024",
+      "risks": [],
+      "schema_version": "1.0",
+      "sentiment_distribution": {
+        "negative": 2.1,
+        "neutral": 78.9,
+        "positive": 19.0
+      },
+      "stage_durations_sec": {
+        "citation_check_sec": 0.0,
+        "generation_sec": 0.0,
+        "prosody_sec": 0.0,
+        "rag_sec": 6.0,
+        "sentiment_sec": 0.0,
+        "transcription_sec": 0.0
+      },
+      "ticker": "AAPL"
+    },
+    "structured_claims": {
+      "claims": [
+        {
+          "citation": {
+            "source_text": "we also saw strong performance in many emerging markets,",
+            "timestamp_sec": 1063
+          },
+          "claim": "Apple saw strong performance in many emerging markets during Q4 2024.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "improvement relative to the year over year performance that we had been achieving is that there was a sequential improvement in foreign exchange.",
+            "timestamp_sec": 2309
+          },
+          "claim": "Sequential foreign\u2011exchange improvements contributed to better year\u2011over\u2011year performance.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "Products revenue was 70 billion, up 4% year over year,",
+            "timestamp_sec": 863
+          },
+          "claim": "Products revenue reached $70\u202fbillion, a 4% year\u2011over\u2011year increase.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "So we've seen very, very good results for us in the entire segment.",
+            "timestamp_sec": 2437
+          },
+          "claim": "The entire segment delivered very good results in the quarter.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "revenue was $9 billion, down 3% from a year ago.",
+            "timestamp_sec": 414
+          },
+          "claim": "Overall revenue declined to $9\u202fbillion, down 3% year over year.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "Are we to assume based on sort of the commentary that there is a risk that maybe the product revenue portfolio could be down in the December quarter if I take your numbers at face value?",
+            "timestamp_sec": 2474
+          },
+          "claim": "There is a risk that product revenue could be down in the December quarter based on current commentary.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "As you know, it's been a headwind that we've been reporting for a period of time.",
+            "timestamp_sec": 2324
+          },
+          "claim": "Apple has been facing headwinds that have persisted for a period of time.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "that we've incurred during the course of fiscal 24,",
+            "timestamp_sec": 1611
+          },
+          "claim": "The company incurred unspecified costs during fiscal 24.",
+          "sentiment": "negative"
+        }
+      ],
+      "overall_summary": "Apple's Q4\u202f2024 earnings call highlighted several positive themes, including strong emerging\u2011market performance, sequential foreign\u2011exchange gains and a 4% increase in product revenue to $70\u202fbillion, while also noting very good segment results. However, concerns were raised about a revenue dip to $9\u202fbillion, potential product\u2011revenue weakness in the December quarter, ongoing headwinds and costs incurred during fiscal\u202f24. The sentiment distribution was 19.0% positive, 2.1% negative and 78.9% neutral."
+    }
+  },
+  "previous_version": "legacy-5dfc3d9f3ba9",
+  "replacement": {
+    "citation_evaluation": {
+      "accuracy": 1.0,
+      "citations": [
+        {
+          "actual_segment_text": null,
+          "claim": "Products revenue was $70 billion, up 4% year over year, driven by growth in iPhone, iPad, and Mac.",
+          "match_ratio": 1.0,
+          "source_text": "Products revenue was 70 billion, up 4% year over year, driven by growth in iPhone, iPad, and Mac.",
+          "timestamp_sec": 863,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Wearables, Home and Accessories revenue was $9 billion, down 3% from a year ago.",
+          "match_ratio": 1.0,
+          "source_text": "In wearable's home and accessories, revenue was $9 billion, down 3% from a year ago.",
+          "timestamp_sec": 412,
+          "verdict": "VERIFIED"
+        },
+        {
+          "actual_segment_text": null,
+          "claim": "Management said Apple planned to continue necessary investments in fiscal 2025, including AI-related capital expenditure.",
+          "match_ratio": 1.0,
+          "source_text": "You will see in our 10K the amount of CAPEX that we've incurred during the course of fiscal 24, and we will, in fiscal 25, we will continue to make all the investments that are necessary, and of course, investments in AI-related CAPEX will be made.",
+          "timestamp_sec": 1606,
+          "verdict": "VERIFIED"
+        }
+      ],
+      "quarter": "Q4_2024",
+      "report_version": "complete-passages-b8e1d3ead46d",
+      "ticker": "AAPL",
+      "total_citations": 3,
+      "verified": 3
+    },
+    "report": {
+      "audio_features_summary": {
+        "mean_energy": 0.04,
+        "mean_pitch_hz": 133.44,
+        "mean_speaking_rate_wps": 2.48,
+        "segments_analyzed": 886
+      },
+      "call_date": "2024-10-31",
+      "citation_verification": {
+        "accuracy": 1.0,
+        "total_citations": 3,
+        "verified": 3
+      },
+      "company": "Apple",
+      "evidence_policy": "complete_passages_v1",
+      "key_claims": [
+        {
+          "claim": "Products revenue was $70 billion, up 4% year over year, driven by growth in iPhone, iPad, and Mac.",
+          "evidence": "Products revenue was 70 billion, up 4% year over year, driven by growth in iPhone, iPad, and Mac.",
+          "sentiment": "positive",
+          "timestamp_sec": 863
+        },
+        {
+          "claim": "Wearables, Home and Accessories revenue was $9 billion, down 3% from a year ago.",
+          "evidence": "In wearable's home and accessories, revenue was $9 billion, down 3% from a year ago.",
+          "sentiment": "negative",
+          "timestamp_sec": 412
+        },
+        {
+          "claim": "Management said Apple planned to continue necessary investments in fiscal 2025, including AI-related capital expenditure.",
+          "evidence": "You will see in our 10K the amount of CAPEX that we've incurred during the course of fiscal 24, and we will, in fiscal 25, we will continue to make all the investments that are necessary, and of course, investments in AI-related CAPEX will be made.",
+          "sentiment": "neutral",
+          "timestamp_sec": 1606
+        }
+      ],
+      "management_outlook": [],
+      "overall_summary": "Apple reported products revenue of $70 billion, up 4% year over year, with growth in iPhone, iPad and Mac; Wearables, Home and Accessories revenue was $9 billion, down 3%. Management said it planned to continue necessary investments in fiscal 2025, including AI-related capital expenditure. FinBERT classified 19.0% of scored transcript segments as positive, 2.1% as negative and 78.9% as neutral; those proportions do not measure investor sentiment.",
+      "pipeline_version": "1.0",
+      "prior_quarter_context_used": [],
+      "publication": {
+        "call_date_verification": "registry_consistent_external_verification_pending",
+        "previous_report_version": "legacy-5dfc3d9f3ba9",
+        "review_status": "ai_assisted_review_human_review_pending",
+        "scope": "current_call_only"
+      },
+      "quarter": "Q4 2024",
+      "regeneration": {
+        "audio_features": "reused_from_previous_report_not_recomputed",
+        "claim_support_review": "ai_assisted_review_human_review_pending",
+        "generated_at": "2026-10-15T18:45:30.380499+00:00",
+        "historical_context": "none_returned",
+        "historical_context_note": "Earliest recorded Apple call in this dataset; no earlier same-company call is eligible.",
+        "input": "saved_transcript_and_sentiment",
+        "provenance": {
+          "dataset_scope": [
+            {
+              "quarter": "Q4_2024",
+              "ticker": "AAPL"
+            }
+          ],
+          "generation": {
+            "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+            "input_segments_sha256": "8ec5715cc953dc168e3c1eddfb4c30ee38e5d8f60d34751139b9dc6f5a9bbf39",
+            "max_tokens": 4000,
+            "model": "openai/gpt-oss-120b",
+            "prompt_sha256": "5cd18774e470fe91e116591dcd18d8fa3d297038577d7434511f4f7289de2959",
+            "response_id": "chatcmpl-851f775e-c50e-4adb-be0a-97e0112b6d0a",
+            "selection": {
+              "policy": "complete_passages_v1",
+              "top_k_per_seed_label": 4
+            }
+          },
+          "input_sha256": {
+            "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+            "config/pipeline.yaml": "6a49b07006d37d5a843f38f738474428820fbc5ae960b1253d00231c333e897a",
+            "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+            "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+            "data/processed/pipeline_runs/AAPL/Q4_2024.json": "c771508bb041923b6e90410771fd1352edd9dc542ef8f9786396f4540f5e43f0",
+            "data/processed/sentiment/segment/AAPL/Q4_2024.json": "2d2f819a14d7f85a492b9ad04192a6c8ee42d77f776578550db2068521dd0387",
+            "data/processed/transcripts/AAPL/Q4_2024.json": "44b04c489d268c1419bccc24ca6f7bf0fee80eb535a45203640dad29b862b4f7",
+            "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+            "src/report/generate_structured_report.py": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+            "src/report/regenerate.py": "6330af0e73cdd358aa7e5951fd437fe63439dee2ac19d09207f25387ecc381cd"
+          }
+        }
+      },
+      "report_version": "complete-passages-b8e1d3ead46d",
+      "risks": [],
+      "schema_version": "1.0",
+      "sentiment_distribution": {
+        "negative": 2.1,
+        "neutral": 78.9,
+        "positive": 19.0
+      },
+      "stage_durations_sec": {
+        "regeneration_sec": 5.06
+      },
+      "ticker": "AAPL"
+    },
+    "review": {
+      "claim_edits": [
+        {
+          "original": "Apple will continue CAPEX investments in fiscal 25, including AI\u2011related CAPEX, as disclosed in its 10K for fiscal 24.",
+          "original_claim_index": 5,
+          "reason": "The fiscal 2024 10-K reference concerns expenditure already incurred. The passage states a fiscal 2025 investment intention, not that those future plans were disclosed in that 10-K.",
+          "revised": "Management said Apple planned to continue necessary investments in fiscal 2025, including AI-related capital expenditure."
+        }
+      ],
+      "excluded_claims": [
+        {
+          "context_start_sec": 1056.66,
+          "context_text": "iPad generated 7 billion in revenue, up 8% year over year.",
+          "original_claim_index": 0,
+          "reason": "The preceding transcript sentence is about iPad revenue. The isolated evidence passage does not explicitly identify that category; a standalone company-wide interpretation would be misleading."
+        },
+        {
+          "context_start_sec": 2294.9,
+          "context_text": "Yeah, I'll take the China question.",
+          "original_claim_index": 1,
+          "reason": "The preceding question and response identify China. The generated claim and summary incorrectly describe Apple overall as flat; this statement must not be presented as company-wide performance."
+        },
+        {
+          "context_start_sec": 2409.9,
+          "context_text": "Keep in mind our definition of Europe in our segment reporting includes a number of emerging markets like Turkey, where we've grown very strongly.",
+          "original_claim_index": 3,
+          "reason": "The isolated quote names no segment and offers no specific financial result. Nearby discussion is about the Europe reporting segment; omit the vague standalone assertion."
+        }
+      ],
+      "limitations": [
+        "This is an AI-assisted review, not independent human-labelled ground truth.",
+        "Punctuation-complete passages can still omit the subject or financial category; citation matching does not establish semantic sufficiency.",
+        "No historical comparison is possible for the earliest included Apple call.",
+        "Sentiment-selected evidence is not comprehensive coverage of the call."
+      ],
+      "new_context_quarters": [],
+      "note": "Exact citation matches do not establish that the generated claims are supported. Review claims and qualifications before publishing.",
+      "original_candidate_path": "data/processed/report_candidates/remaining/AAPL/Q4_2024.json",
+      "original_candidate_sha256": "5b82a50ba1e048828b3589a5e4bd49558e473d9d6b6eeed37c1a50aa34cc0cd5",
+      "original_generated_claims": [
+        {
+          "citation": {
+            "source_text": "In addition to growth in developed markets, we also saw strong performance in many emerging markets, with double-digit growth in Mexico, Brazil, the Middle East, India, and South Asia.",
+            "timestamp_sec": 1061
+          },
+          "claim": "Apple saw double-digit growth in many emerging markets, including Mexico, Brazil, the Middle East, India, and South Asia.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "If you look at how we did for the quarter, we were relatively flat year over year and a key component of that improvement relative to the year over year performance that we had been achieving is that there was a sequential improvement in foreign exchange.",
+            "timestamp_sec": 2297
+          },
+          "claim": "Apple was relatively flat year over year for the quarter, with a sequential improvement in foreign exchange contributing to performance.",
+          "sentiment": "neutral"
+        },
+        {
+          "citation": {
+            "source_text": "Products revenue was 70 billion, up 4% year over year, driven by growth in iPhone, iPad, and Mac.",
+            "timestamp_sec": 863
+          },
+          "claim": "Products revenue was $70 billion, up 4% year over year, driven by growth in iPhone, iPad, and Mac.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "So we've seen very, very good results for us in the entire segment.",
+            "timestamp_sec": 2437
+          },
+          "claim": "Apple reported very, very good results across the entire segment.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "In wearable's home and accessories, revenue was $9 billion, down 3% from a year ago.",
+            "timestamp_sec": 412
+          },
+          "claim": "Wearables, Home and Accessories revenue was $9 billion, down 3% from a year ago.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "You will see in our 10K the amount of CAPEX that we've incurred during the course of fiscal 24, and we will, in fiscal 25, we will continue to make all the investments that are necessary, and of course, investments in AI-related CAPEX will be made.",
+            "timestamp_sec": 1606
+          },
+          "claim": "Apple will continue CAPEX investments in fiscal 25, including AI\u2011related CAPEX, as disclosed in its 10K for fiscal 24.",
+          "sentiment": "neutral"
+        }
+      ],
+      "original_generated_summary": "Apple's Q4 2024 earnings call highlighted a 4% year\u2011over\u2011year increase in product revenue to $70\u202fbillion, driven by iPhone, iPad and Mac sales, and double\u2011digit growth in several emerging markets, while wearables revenue fell 3%. The quarter was overall flat year over year, with foreign\u2011exchange gains offsetting other pressures, and the company reaffirmed its CAPEX plans, including AI investment. FinBERT analysis shows sentiment is predominantly neutral (78.9%) with modest positive (19%) and minimal negative (2.1%).",
+      "per_claim": [
+        {
+          "claim_index": 0,
+          "original_claim_index": 2,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 863
+        },
+        {
+          "claim_index": 1,
+          "original_claim_index": 4,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 412
+        },
+        {
+          "claim_index": 2,
+          "original_claim_index": 5,
+          "support_assessment": "supported_by_saved_transcript",
+          "timestamp_sec": 1606
+        }
+      ],
+      "previous_context_quarters": [
+        "Q3 2025",
+        "Q3 2025",
+        "Q3 2025"
+      ],
+      "reviewed_at": "2026-10-15T18:47:28.429225+00:00",
+      "scope": "AI-assisted comparison with saved transcript and surrounding passages; no independent recording verification or human labels.",
+      "status": "ai_assisted_review_human_review_pending",
+      "summary_corrections": [
+        "Removed the false company-wide flat-performance statement and unsupported offsetting-pressures explanation.",
+        "Omitted the context-dependent emerging-market and unnamed-segment claims.",
+        "Kept historical capital expenditure disclosure distinct from future investment plans.",
+        "Described FinBERT percentages as proportions of scored transcript segments."
+      ]
+    },
+    "structured_claims": {
+      "claims": [
+        {
+          "citation": {
+            "source_text": "Products revenue was 70 billion, up 4% year over year, driven by growth in iPhone, iPad, and Mac.",
+            "timestamp_sec": 863
+          },
+          "claim": "Products revenue was $70 billion, up 4% year over year, driven by growth in iPhone, iPad, and Mac.",
+          "sentiment": "positive"
+        },
+        {
+          "citation": {
+            "source_text": "In wearable's home and accessories, revenue was $9 billion, down 3% from a year ago.",
+            "timestamp_sec": 412
+          },
+          "claim": "Wearables, Home and Accessories revenue was $9 billion, down 3% from a year ago.",
+          "sentiment": "negative"
+        },
+        {
+          "citation": {
+            "source_text": "You will see in our 10K the amount of CAPEX that we've incurred during the course of fiscal 24, and we will, in fiscal 25, we will continue to make all the investments that are necessary, and of course, investments in AI-related CAPEX will be made.",
+            "timestamp_sec": 1606
+          },
+          "claim": "Management said Apple planned to continue necessary investments in fiscal 2025, including AI-related capital expenditure.",
+          "sentiment": "neutral"
+        }
+      ],
+      "evidence_policy": "complete_passages_v1",
+      "generation_provenance": {
+        "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+        "input_segments_sha256": "8ec5715cc953dc168e3c1eddfb4c30ee38e5d8f60d34751139b9dc6f5a9bbf39",
+        "max_tokens": 4000,
+        "model": "openai/gpt-oss-120b",
+        "prompt_sha256": "5cd18774e470fe91e116591dcd18d8fa3d297038577d7434511f4f7289de2959",
+        "response_id": "chatcmpl-851f775e-c50e-4adb-be0a-97e0112b6d0a",
+        "selection": {
+          "policy": "complete_passages_v1",
+          "top_k_per_seed_label": 4
+        }
+      },
+      "overall_summary": "Apple reported products revenue of $70 billion, up 4% year over year, with growth in iPhone, iPad and Mac; Wearables, Home and Accessories revenue was $9 billion, down 3%. Management said it planned to continue necessary investments in fiscal 2025, including AI-related capital expenditure. FinBERT classified 19.0% of scored transcript segments as positive, 2.1% as negative and 78.9% as neutral; those proportions do not measure investor sentiment.",
+      "report_version": "complete-passages-b8e1d3ead46d"
+    }
+  },
+  "version": "complete-passages-b8e1d3ead46d"
+}

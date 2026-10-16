@@ -1,0 +1,275 @@
+{
+  "structured_claims": {
+    "claims": [
+      {
+        "claim": "Nvidia returned $11.2\u202fbillion to shareholders in Q3 via share repurchases and cash dividends.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 1052,
+          "source_text": "Strong growth was driven by self-driving brands of NVIDIA orin and robust and market demand for NEVs. Global cars is rolling out its fully electric SUV built on NVIDIA orin and drive OS. Moving to the rest of the P&L, gap growth margin was 74.6% and non-gap growth margin was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex and higher cost systems within data center. Sequentially, gap operating expenses and non-gap operating expenses were up 9%. Due to higher compute, infrastructure and engineering development costs for new product introductions. In Q3, we returned 11.2 billion to shareholders in the form of share repurchases and cash dividends. Let me turn to the outlook for the fourth quarter."
+        }
+      },
+      {
+        "claim": "Revenue was $486\u202fmillion, up 7\u202f% sequentially and 17\u202f% year over year.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 1009,
+          "source_text": "Revenue of 486 million was up 7% sequentially and 17% year on year."
+        }
+      },
+      {
+        "claim": "Automotive revenue reached a record $449\u202fmillion, up 30\u202f% sequentially and 72\u202f% year over year.",
+        "sentiment": "positive",
+        "citation": {
+          "timestamp_sec": 1043,
+          "source_text": "Moving to automotive, revenue was a record 449 million, up 30% sequentially and up 72% year on year."
+        }
+      },
+      {
+        "claim": "The networking business revenue declined about 15\u202f% sequentially.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 3010,
+          "source_text": "The line is open. Yeah thanks for taking a question. I want to ask you as we kind of focus on the blackboard cycle and think about the data center business. When I look at the results this last quarter you know Klet you mentioned that obviously the networking business was down about 15 percent sequentially but then your comments were that you were seeing very strong demand. You mentioned also that you had multiple cloud you know CFP design wins for these large scale clusters so I'm curious if you could unpack what's going on in the networking business and where maybe you've seen some constraints and just your your confidence in the pace of spectrum X progressing to that multiple billions of dollars that you previously had talked about. Thank you."
+        }
+      },
+      {
+        "claim": "Gaming supply constraints are expected to make inventory tight for the quarter.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 3214,
+          "source_text": "So our gaming right now from a supply we're busy trying to make sure that we can ramp all of our different products. And in this case our gaming supply given what we saw selling through was moving quite fast. Now the challenge that we have is how fast could we get that supply getting ready into the market for this quarter. Not to worry I think we'll be back on track with more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter."
+        }
+      },
+      {
+        "claim": "The rollout of Blackwell is expected to reduce gross margin to the low\u201170\u202f% range starting in April.",
+        "sentiment": "negative",
+        "citation": {
+          "timestamp_sec": 2034,
+          "source_text": "That Blackwell will cross over Hopper in April. And then, Collette, you kind of talked about Blackwell bringing down gross margin to the low 70s as it ramps. So I guess if April is the crossover, is that the worst of the pressure on gross margins? So you're going to be kind of in the low 70s as soon as April. I'm just wondering if you can sort of shape that for us, thanks."
+        }
+      }
+    ],
+    "overall_summary": "Nvidia reported strong financial performance in Q3, returning $11.2\u202fbillion to shareholders and posting revenue growth across its core and automotive segments, with automotive revenue hitting a record $449\u202fmillion. However, the company noted challenges including a 15\u202f% sequential drop in networking revenue, tight gaming supply for the quarter, and anticipated margin pressure as Blackwell ramps, bringing gross margin down to the low\u201170\u202f% range. FinBERT sentiment was 20.7\u202f% positive, 2.9\u202f% negative and 76.5\u202f% neutral.",
+    "evidence_policy": "complete_passages_v1",
+    "generation_provenance": {
+      "model": "openai/gpt-oss-120b",
+      "max_tokens": 8000,
+      "response_id": "chatcmpl-7e872085-93f3-4586-8fac-aa0a3775a639",
+      "prompt_sha256": "ba1a96a186ef3d6af5121ff867fb451eb6da9841a14c08f414ee3470497549b9",
+      "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+      "input_segments_sha256": "0ba622f60ff95166d1169696ff79590ddf62fb25f256ae14772706a16d66aeda",
+      "selection": {
+        "policy": "complete_passages_v1",
+        "top_k_per_seed_label": 4,
+        "citation_binding": "source_id_to_exact_selected_passage_v1"
+      }
+    }
+  },
+  "citation_evaluation": {
+    "ticker": "NVDA",
+    "quarter": "Q3_2025",
+    "total_citations": 6,
+    "verified": 6,
+    "accuracy": 1.0,
+    "citations": [
+      {
+        "claim": "Nvidia returned $11.2\u202fbillion to shareholders in Q3 via share repurchases and cash dividends.",
+        "source_text": "Strong growth was driven by self-driving brands of NVIDIA orin and robust and market demand for NEVs. Global cars is rolling out its fully electric SUV built on NVIDIA orin and drive OS. Moving to the rest of the P&L, gap growth margin was 74.6% and non-gap growth margin was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex and higher cost systems within data center. Sequentially, gap operating expenses and non-gap operating expenses were up 9%. Due to higher compute, infrastructure and engineering development costs for new product introductions. In Q3, we returned 11.2 billion to shareholders in the form of share repurchases and cash dividends. Let me turn to the outlook for the fourth quarter.",
+        "timestamp_sec": 1052,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Revenue was $486\u202fmillion, up 7\u202f% sequentially and 17\u202f% year over year.",
+        "source_text": "Revenue of 486 million was up 7% sequentially and 17% year on year.",
+        "timestamp_sec": 1009,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Automotive revenue reached a record $449\u202fmillion, up 30\u202f% sequentially and 72\u202f% year over year.",
+        "source_text": "Moving to automotive, revenue was a record 449 million, up 30% sequentially and up 72% year on year.",
+        "timestamp_sec": 1043,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "The networking business revenue declined about 15\u202f% sequentially.",
+        "source_text": "The line is open. Yeah thanks for taking a question. I want to ask you as we kind of focus on the blackboard cycle and think about the data center business. When I look at the results this last quarter you know Klet you mentioned that obviously the networking business was down about 15 percent sequentially but then your comments were that you were seeing very strong demand. You mentioned also that you had multiple cloud you know CFP design wins for these large scale clusters so I'm curious if you could unpack what's going on in the networking business and where maybe you've seen some constraints and just your your confidence in the pace of spectrum X progressing to that multiple billions of dollars that you previously had talked about. Thank you.",
+        "timestamp_sec": 3010,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "Gaming supply constraints are expected to make inventory tight for the quarter.",
+        "source_text": "So our gaming right now from a supply we're busy trying to make sure that we can ramp all of our different products. And in this case our gaming supply given what we saw selling through was moving quite fast. Now the challenge that we have is how fast could we get that supply getting ready into the market for this quarter. Not to worry I think we'll be back on track with more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter.",
+        "timestamp_sec": 3214,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      },
+      {
+        "claim": "The rollout of Blackwell is expected to reduce gross margin to the low\u201170\u202f% range starting in April.",
+        "source_text": "That Blackwell will cross over Hopper in April. And then, Collette, you kind of talked about Blackwell bringing down gross margin to the low 70s as it ramps. So I guess if April is the crossover, is that the worst of the pressure on gross margins? So you're going to be kind of in the low 70s as soon as April. I'm just wondering if you can sort of shape that for us, thanks.",
+        "timestamp_sec": 2034,
+        "verdict": "VERIFIED",
+        "match_ratio": 1.0,
+        "actual_segment_text": null
+      }
+    ]
+  },
+  "report": {
+    "schema_version": "1.0",
+    "ticker": "NVDA",
+    "company": "Nvidia",
+    "quarter": "Q3 2025",
+    "call_date": "2024-11-20",
+    "overall_summary": "Nvidia reported strong financial performance in Q3, returning $11.2\u202fbillion to shareholders and posting revenue growth across its core and automotive segments, with automotive revenue hitting a record $449\u202fmillion. However, the company noted challenges including a 15\u202f% sequential drop in networking revenue, tight gaming supply for the quarter, and anticipated margin pressure as Blackwell ramps, bringing gross margin down to the low\u201170\u202f% range. FinBERT sentiment was 20.7\u202f% positive, 2.9\u202f% negative and 76.5\u202f% neutral.",
+    "evidence_policy": "complete_passages_v1",
+    "sentiment_distribution": {
+      "positive": 20.7,
+      "negative": 2.9,
+      "neutral": 76.5
+    },
+    "key_claims": [
+      {
+        "claim": "Nvidia returned $11.2\u202fbillion to shareholders in Q3 via share repurchases and cash dividends.",
+        "evidence": "Strong growth was driven by self-driving brands of NVIDIA orin and robust and market demand for NEVs. Global cars is rolling out its fully electric SUV built on NVIDIA orin and drive OS. Moving to the rest of the P&L, gap growth margin was 74.6% and non-gap growth margin was 75%. Down sequentially, primarily driven by a mix shift of the H100 systems to more complex and higher cost systems within data center. Sequentially, gap operating expenses and non-gap operating expenses were up 9%. Due to higher compute, infrastructure and engineering development costs for new product introductions. In Q3, we returned 11.2 billion to shareholders in the form of share repurchases and cash dividends. Let me turn to the outlook for the fourth quarter.",
+        "timestamp_sec": 1052,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Revenue was $486\u202fmillion, up 7\u202f% sequentially and 17\u202f% year over year.",
+        "evidence": "Revenue of 486 million was up 7% sequentially and 17% year on year.",
+        "timestamp_sec": 1009,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "Automotive revenue reached a record $449\u202fmillion, up 30\u202f% sequentially and 72\u202f% year over year.",
+        "evidence": "Moving to automotive, revenue was a record 449 million, up 30% sequentially and up 72% year on year.",
+        "timestamp_sec": 1043,
+        "sentiment": "positive"
+      },
+      {
+        "claim": "The networking business revenue declined about 15\u202f% sequentially.",
+        "evidence": "The line is open. Yeah thanks for taking a question. I want to ask you as we kind of focus on the blackboard cycle and think about the data center business. When I look at the results this last quarter you know Klet you mentioned that obviously the networking business was down about 15 percent sequentially but then your comments were that you were seeing very strong demand. You mentioned also that you had multiple cloud you know CFP design wins for these large scale clusters so I'm curious if you could unpack what's going on in the networking business and where maybe you've seen some constraints and just your your confidence in the pace of spectrum X progressing to that multiple billions of dollars that you previously had talked about. Thank you.",
+        "timestamp_sec": 3010,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "Gaming supply constraints are expected to make inventory tight for the quarter.",
+        "evidence": "So our gaming right now from a supply we're busy trying to make sure that we can ramp all of our different products. And in this case our gaming supply given what we saw selling through was moving quite fast. Now the challenge that we have is how fast could we get that supply getting ready into the market for this quarter. Not to worry I think we'll be back on track with more suppliers we turn the corner into the new calendar year we're just going to be tight for this quarter.",
+        "timestamp_sec": 3214,
+        "sentiment": "negative"
+      },
+      {
+        "claim": "The rollout of Blackwell is expected to reduce gross margin to the low\u201170\u202f% range starting in April.",
+        "evidence": "That Blackwell will cross over Hopper in April. And then, Collette, you kind of talked about Blackwell bringing down gross margin to the low 70s as it ramps. So I guess if April is the crossover, is that the worst of the pressure on gross margins? So you're going to be kind of in the low 70s as soon as April. I'm just wondering if you can sort of shape that for us, thanks.",
+        "timestamp_sec": 2034,
+        "sentiment": "negative"
+      }
+    ],
+    "risks": [],
+    "management_outlook": [],
+    "citation_verification": {
+      "total_citations": 6,
+      "verified": 6,
+      "accuracy": 1.0
+    },
+    "audio_features_summary": {
+      "mean_pitch_hz": 163.75,
+      "mean_energy": 0.09,
+      "mean_speaking_rate_wps": 2.48,
+      "segments_analyzed": 523
+    },
+    "prior_quarter_context_used": [
+      {
+        "quarter": "Q1 2025",
+        "start_sec": 1284.1200000000001,
+        "text": "Drive Thor is slated for production vehicles starting next year. Okay, moving to the rest of the P&L, gap growth margin expanded sequentially to 78.4% and non-gap growth margins to 78.9% on lower inventory charges. As noted last quarter, both Q4 and Q1 benefited from favorable component costs. sequentially, gap operating expenses were up 10% and non-gap operating expenses were up 13%, primarily reflecting higher compensation-related costs and increased compute and infrastructure investments. In Q1, we returned $7.8 billion to shareholders in the form of share repurchases and cash dividends. Today, we announced a 10-for-one split of our shares with June 10th as the first day of trading on a split adjusted basis. We are also increasing our dividend by 150%. Let me turn to the outlook for the second quarter. Total revenues expected to be $28 billion plus or minus 2%. We expect sequential growth in all market platforms. Gap and non-gap growth margins are expected to be 74.8% and 75.5%, respectively, plus or minus 50 basis points, consistent with our discussion last quarter. For the full year, we expect growth margins to be in the mid-70s percent range. Gap and non-gap operating expenses are expected to be approximately 4 billion and 2.8 billion respectively. Full year op-ex is expected to grow in a low 40% range. Gap and non-gap other income and expenses are expected to be an income of approximately 300 million, excluding gains and losses from non-affiliated investments. Gap and non-gap tax rates are expected to be 17% plus or minus 1%, excluding any discrete"
+      },
+      {
+        "quarter": "Q2 2025",
+        "start_sec": 2515.76,
+        "text": "And your next question comes from the line of Timothy Arkery with UBS. Your line is open. Thanks a lot. I had a question on the shape of the revenue growth both near and longer term. I know Colette, you did increase op-ex for the year. And if I look at the increase in your purchase commitments and your supply obligations, that's also quite bullish. On the other hand, there's some school of thought that not that many customers really seem ready for liquid cooling. And I do recognize that some of these racks can be air-cooled. But, Johnson, is that something to consider sort of on the shape of how Blackwell is going to ramp? And then I guess when you look beyond next year, which is obviously going to be a great year, and you look into 26, do you worry about any other, you know, gating factors like, say, the power supply chain or at some point, models start to get smaller? I'm just wondering if you could speak to that thing. I'm going to work backwards. I really appreciate the question, Tim. So remember, the world is moving from general purpose computing to accelerated computing. And the world builds about a trillion dollars with the data centers. You know, a trillion dollars worth of data centers in a few years will be all accelerated computing. In the past, no GPUs are in data centers, just CPUs. In the future, every single data center world GPUs. And the reason for that is it's very clear because we need to accelerate workloads"
+      },
+      {
+        "quarter": "Q1 2025",
+        "start_sec": 597.32,
+        "text": "From a product perspective, the vast majority of compute revenue was driven by our Hopper GPU architecture. Demand for Hopper during the quarter continues to increase. Thanks to CUDA algorithm innovations, we've been able to accelerate LLM inference on H100 by up to 3X, which can translate to a 3X cost reduction for serving popular models like LLM3. We started sampling the H200 in ANK-1 and are currently in production with shipments on track for Q2. The first H200 system was delivered by Jensen to Sam Altman and the team at OpenAI and powered their amazing GPT-4O demos last week. H200 nearly doubles the inference performance of H100, delivering significant value for production deployments. For example, using VOMA-3 with 700 billion parameters, a single NVIDIA HDX H200 server can deliver 24,000 tokens per second, supporting more than 2,400 users at the same time. That means for every $1 spent on NVIDIA HDX H200 servers at current prices per token, an API provider serving LLM3 tokens can generate $7 in revenue over four years. With ongoing software optimizations, we continue to improve the performance of NVIDIA AI infrastructure for serving AI models. While supply for H100 improved, we are still constrained on H200. At the same time, Blackwell is in full production. We are working to bring up our system and cloud partners for global availability later this year. Demand for H200 and Blackwell is well ahead of supply, and we expect demand may exceed supply well into next year. Grace Hopper's superchip is shipping and volume."
+      }
+    ],
+    "pipeline_version": "1.0",
+    "stage_durations_sec": {
+      "regeneration_sec": 19.62
+    },
+    "regeneration": {
+      "generated_at": "2026-10-16T14:39:52.422427+00:00",
+      "input": "saved_transcript_and_sentiment",
+      "audio_features": "reused_from_previous_report_not_recomputed",
+      "historical_context": "retrieved",
+      "claim_support_review": "pending",
+      "provenance": {
+        "dataset_scope": [
+          {
+            "ticker": "NVDA",
+            "quarter": "Q3_2025"
+          }
+        ],
+        "generation": {
+          "model": "openai/gpt-oss-120b",
+          "max_tokens": 8000,
+          "response_id": "chatcmpl-7e872085-93f3-4586-8fac-aa0a3775a639",
+          "prompt_sha256": "ba1a96a186ef3d6af5121ff867fb451eb6da9841a14c08f414ee3470497549b9",
+          "generator_sha256": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+          "input_segments_sha256": "0ba622f60ff95166d1169696ff79590ddf62fb25f256ae14772706a16d66aeda",
+          "selection": {
+            "policy": "complete_passages_v1",
+            "top_k_per_seed_label": 4,
+            "citation_binding": "source_id_to_exact_selected_passage_v1"
+          }
+        },
+        "retrieval": {
+          "query_policy": "selected_current_call_passages_v1",
+          "queries_sha256": "39ddac45fdddb436a54393bf068abbc4e513bc24908fb6d36bf418eef1b53fd9",
+          "query_count": 4
+        },
+        "input_sha256": {
+          "data/processed/transcripts/NVDA/Q3_2025.json": "c9b1310ada99489d89f0e234688c80370368070b11dedee9af9e40fefcc4ff40",
+          "data/processed/sentiment/segment/NVDA/Q3_2025.json": "1db9db314fe4b8010f3f45b0add77fb49b41cd7a1ca3b04bd5bbe25ff6913018",
+          "data/processed/pipeline_runs/NVDA/Q3_2025.json": "221e29e10807e24f8de71619f446856b0a5caf2a4da8b9adb6725ac7e3135f22",
+          "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+          "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+          "config/pipeline.yaml": "ba92cae3555db7e07e584f279640f6df47a05cec901e61b7a82d4909fbd3f826",
+          "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+          "src/report/regenerate.py": "1378f71c2b184d5bc6f9d2410baf30ab0ab6e5d9b3b6112aa90386dc2e36301f",
+          "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+          "src/report/generate_structured_report.py": "c135231b10bba0ebb5740949a6e9c48ec9162a968e2c91f94c483a592ebc50b7",
+          "src/rag/build_index.py": "07c6a6fa288e0db03c775a0d4b069ec4b2d64aeb537d1c59597c1544b4593706",
+          "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+          "data/processed/transcripts/NVDA/Q1_2025.json": "d8a5a1b50c9c5cb82559ab17c5254456e80be1e0196568461e0633f4b879a5a1",
+          "data/processed/transcripts/NVDA/Q2_2025.json": "0b0d0d389c50ec06fcd3f868406ead1c78d0a40e86673c8047863c6ca653a63b"
+        }
+      }
+    }
+  },
+  "review": {
+    "status": "pending",
+    "previous_context_quarters": [
+      "Q2 2025",
+      "Q2 2025",
+      "Q2 2025"
+    ],
+    "new_context_quarters": [
+      "Q1 2025",
+      "Q2 2025",
+      "Q1 2025"
+    ],
+    "note": "Exact citation matches do not establish that the generated claims are supported. Review claims and qualifications before publishing."
+  }
+}

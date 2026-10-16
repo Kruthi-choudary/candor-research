@@ -1,73 +1,50 @@
 {
-  "ticker": "MSFT",
-  "quarter": "Q2_2025",
-  "total_citations": 8,
-  "verified": 8,
   "accuracy": 1.0,
   "citations": [
     {
-      "claim": "Xbox content and services revenue grew 2% year-over-year, exceeding expectations, helped by strong Blizzard and Activision titles such as Call of Duty.",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported Xbox content and services revenue growth of 2%, ahead of expectations, driven by stronger-than-expected Blizzard and Activision content, including Call of Duty.",
+      "match_ratio": 1.0,
       "source_text": "Xbox content and services revenue increased 2% ahead of expectations, driven by stronger than expected performance in Blizzard and Activision content, including Call of Duty.",
       "timestamp_sec": 1400,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Gross margin percentage rose 6 points year-over-year, driven by a shift toward higher\u2011margin businesses and margin improvements in gaming and search.",
-      "source_text": "Gross margin percentage increased 6.0 over year, driven by sales mix shift to higher margin businesses, as well as strong execution on margin improvement in gaming and search.",
-      "timestamp_sec": 1415,
-      "verdict": "VERIFIED",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported M365 commercial products revenue growth of 13%, significantly ahead of expectations.",
       "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "Segment gross margin dollars increased 13% and 12% in constant currency.",
-      "source_text": "Segment gross margin dollars increased 13% and 12% in constant currency.",
-      "timestamp_sec": 1411,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "M365 commercial products revenue rose 13%, well ahead of expectations, boosted by higher transactional purchases linked to the Office 2024 launch and strong Windows commercial on\u2011premises sales.",
       "source_text": "M365 commercial products revenue increased 13% significantly ahead of expectations driven by higher than expected transactional purchasing with the launch of Office 2024, as well as the Windows commercial on-premises components from the better than expected performance of M365 suite noted earlier.",
       "timestamp_sec": 1177,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Free cash flow fell to $6.5\u202fbillion, a 29% year\u2011over\u2011year decline, reflecting higher capital expenditures.",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported free cash flow of $6.5 billion, down 29% year over year, reflecting higher capital expenditures.",
+      "match_ratio": 1.0,
       "source_text": "Free cashflow was $6.5 billion down 29% year over year, reflecting the capital expenditures, noted earlier.",
       "timestamp_sec": 1480,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "On\u2011premises server revenue declined 3%, slightly below expectations, due to slower purchasing around the Windows Server 2025 launch.",
+      "actual_segment_text": null,
+      "claim": "Microsoft said on-premises server revenue fell 3%, slightly below expectations, because purchasing around the Windows Server 2025 launch was slower than expected.",
+      "match_ratio": 1.0,
       "source_text": "In our on-premises server business, revenue decreased 3%, slightly below expectations, driven by slower than expected purchasing around Windows Server 2025 launch.",
       "timestamp_sec": 1308,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     },
     {
-      "claim": "Enterprise and partner services revenue dropped 1%, missing expectations because of weaker performance in enterprise support services and industry solutions.",
+      "actual_segment_text": null,
+      "claim": "Microsoft reported enterprise and partner services revenue down 1%, below expectations, with lower-than-expected performance in enterprise support services and industry solutions.",
+      "match_ratio": 1.0,
       "source_text": "Enterprise and partner services revenue decreased 1%, below expectations, with lower than expected performance across enterprise support services and industry solutions.",
       "timestamp_sec": 1319,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
-    },
-    {
-      "claim": "A stronger US dollar in October is expected to reduce Q4 revenue and COGS growth by over one point and operating expense growth by roughly one point.",
-      "source_text": "With the strengthening of the US dollars in October, we now expect FX to decrease Q4 revenue and cogs growth by more than one point and operating expense growth by roughly one point.",
-      "timestamp_sec": 1867,
-      "verdict": "VERIFIED",
-      "match_ratio": 1.0,
-      "actual_segment_text": null
+      "verdict": "VERIFIED"
     }
-  ]
+  ],
+  "quarter": "Q2_2025",
+  "report_version": "complete-passages-a22658bc0cde",
+  "ticker": "MSFT",
+  "total_citations": 5,
+  "verified": 5
 }

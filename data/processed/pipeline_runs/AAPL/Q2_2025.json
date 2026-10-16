@@ -1,102 +1,119 @@
 {
-  "schema_version": "1.0",
-  "ticker": "AAPL",
-  "company": "Apple",
-  "quarter": "Q2 2025",
-  "call_date": "2025-05-01",
-  "overall_summary": "Apple\u2019s iPhone segment showed modest growth, with revenue hitting $46.8\u202fbillion and a 2% YoY increase, while foreign\u2011exchange conditions are expected to improve. However, product margins contracted and wearables revenue declined, leading to a largely neutral sentiment overall (22.4% positive, 3.8% negative, 73.9% neutral).",
-  "sentiment_distribution": {
-    "positive": 22.4,
-    "negative": 3.8,
-    "neutral": 73.9
-  },
-  "key_claims": [
-    {
-      "claim": "iPhone revenue reached $46.8 billion, a 2% year-over-year increase.",
-      "evidence": "iPhone. iPhone revenue was $46.8 billion, up 2% from a year ago. During the quarter, we introduced",
-      "timestamp_sec": 217,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "The company observed strong momentum in the March quarter despite a negative foreign-exchange impact.",
-      "evidence": "the negative impact from foreign exchange. We saw strong momentum in the March quarter,",
-      "timestamp_sec": 1078,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "Management expects foreign-exchange conditions to improve sequentially in the June quarter.",
-      "evidence": "over year, we do expect foreign exchange in the June quarter to improve sequentially. However,",
-      "timestamp_sec": 2139,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "The iPhone 16 family drove iPhone revenue to $46.8 billion, up 2% YoY.",
-      "evidence": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
-      "timestamp_sec": 945,
-      "sentiment": "positive"
-    },
-    {
-      "claim": "Product gross margin fell to 35.9%, down 340 basis points sequentially due to product mix.",
-      "evidence": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix,",
-      "timestamp_sec": 896,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "Revenue of $7.5 billion declined 5% year over year, reflecting a tougher comparative environment.",
-      "evidence": "was $7.5 billion, down 5% year over year. Keep in mind, we did face a more difficult compare",
-      "timestamp_sec": 1040,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "The company\u2019s performance was down 2% in the March quarter.",
-      "evidence": "tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a",
-      "timestamp_sec": 1780,
-      "sentiment": "negative"
-    },
-    {
-      "claim": "Wearables and accessories revenue was $7.5 billion, down 5% year over year.",
-      "evidence": "wearables home in accessories, revenue was $7.5 billion down 5% from a year ago. From walking trails",
-      "timestamp_sec": 378,
-      "sentiment": "negative"
-    }
-  ],
-  "risks": [],
-  "management_outlook": [],
-  "citation_verification": {
-    "total_citations": 8,
-    "verified": 8,
-    "accuracy": 1.0
-  },
   "audio_features_summary": {
-    "mean_pitch_hz": 130.1,
     "mean_energy": 0.06,
+    "mean_pitch_hz": 130.1,
     "mean_speaking_rate_wps": 2.65,
     "segments_analyzed": 505
   },
-  "prior_quarter_context_used": [
+  "call_date": "2025-05-01",
+  "citation_verification": {
+    "accuracy": 1.0,
+    "total_citations": 6,
+    "verified": 6
+  },
+  "company": "Apple",
+  "evidence_policy": "complete_passages_v1",
+  "key_claims": [
     {
-      "quarter": "Q4 2024",
-      "start_sec": 3213.7000000000003,
-      "text": "Okay, thanks. And then, Luca, one piece of unfinished business was your pledge to get to a net neutral cash position. And over the last two years, you stayed around 50 billion of net cash. We've clearly seen instances in the past where elevated marketing spend or other programs brought increases in market share. I guess my question looking back on your tenure is at your scale now of 57 billion of topics. Do you still see incremental ways to put that cash to work in the business? Or will we just continue to see increased shareholder returns? Well, obviously, as you see in our opx has gone up over the years. We've also seen at the same time a significant expansion in gross margin. Maybe to a level that I would have not expected a few years ago. But we've done a very good job on a number of fronts. And so I would say we when we plan every time we plan for the upcoming year we think about all the different areas where we can deploy our resources and we make them available to grow the business. I think we've done very well over the long term and but our fundamental philosophy is to look after the business first. And then if we have excess cash, we will continue to return it to our shareholders and the planners worked quite well so far. Okay. Thank you very much. Thank you, Richard. We'll take our last question. Please operator."
+      "claim": "iPhone revenue was $46.8\u202fbillion, up 2% year over year, driven by the iPhone\u202f16 family.",
+      "evidence": "iPhone revenue was $46.8 billion, up 2% year over year, driven by the iPhone 16 family.",
+      "sentiment": "positive",
+      "timestamp_sec": 945
     },
     {
-      "quarter": "Q3 2025",
-      "start_sec": 3131.16,
-      "text": "how much, how much currency benefit should we be thinking about embedded in the guidance into the September quarter? And then the second quick question is, you know, CAPEX is clearly moving higher. I know you guys don't guide specifically to that number, but just kind of qualitatively, should we, as you lean in more on AI, should we really start to see that CAPEX, which is running close to about four billion annualized today, really start to move appreciably higher. Any color on that would be helpful. Thank you. Great, Aaron. Thanks for the questions. Let me answer the first one. First around foreign exchange. For Q3, we really had no impact from a foreign exchange standpoint on the year on your results. And so when we look at both the revenue growth as well as a gross margin, there was really, you know, virtually no impact from foreign exchange. As we look at going from Q3 to June quarter to the September quarter, again, very, very, as I mentioned earlier, a very small tailwind going from Q3 to Q4 from a foreign exchange standpoint on both revenue as well as a gross margin. And then on the second question, sure, on the CAPEX side, I think we talked about the fact that we are, and Tim mentioned the fact that we are increasing our investment significantly, AI, you are going to continue to see our CAPEX grow. It's not going to be exponential growth, but it is going to grow, you know, substantially."
+      "claim": "Apple reported March-quarter revenue of $95.4 billion, up 5% year over year despite an almost 2.5 percentage-point foreign-exchange headwind; products revenue was $68.7 billion, up 3%, and the active-device installed base reached an all-time high across product categories and geographic segments.",
+      "evidence": "Our March quarter revenue of $95.4 billion was up 5% year over year, despite a headwind of almost 2.5 percentage points from foreign exchange. We also grew in the majority of the markets we track. Products revenue was $68.7 billion, up 3% year over year, driven by growth in iPhone, iPad, and Mac. And thanks to our high levels of customer satisfaction and strong loyalty, our installed base of active devices reached an all-time high across all product categories in geographic segments.",
+      "sentiment": "positive",
+      "timestamp_sec": 834
     },
     {
-      "quarter": "Q4 2024",
-      "start_sec": 1528.9,
-      "text": "and we couldn't be more excited about it. Great. Thank you very much. And my second one, just for Luca, first, congratulations again, Luca, on the new role, and it's been a real privilege being able to spend some time with you. A question that I think will overlap with your new role as well. Could you just talk a little bit about the CAPEX outlook and whether investments in things like private cloud compute could change the historical CAPEX range of roughly $10 billion a year? Thank you very much. Thank you, Michael. On the CAPEX front, I mentioned before a number of times we have a bit of a hybrid model in the way we run our data centers. In some cases we use our own data centers, in some cases we use third-party providers, and so our CAPEX numbers may not be fully comparable with others. But obviously we are rolling out these features, Apple Intelligence features already now, and so we are making all the capacity that is needed available for these features. You will see in our 10K the amount of CAPEX that we've incurred during the course of fiscal 24, and we will, in fiscal 25, we will continue to make all the investments that are necessary, and of course, investments in AI-related CAPEX will be made. Thank you, Tim. Thank you, Luca. All right. Thanks, Mike. Can we have the next question, please? Our next question is from Eric Woodring with Morgan Stanley."
+      "claim": "Apple reported net income of $24.8 billion and diluted earnings per share of $1.65; diluted EPS rose 8% year over year to a March-quarter record. Operating cash flow was $24 billion.",
+      "evidence": "Net income was $24.8 billion, and diluted earnings per share was $1.65, up 8% year over year, and a March quarter record. Operating cash flow was also strong at $24 billion.",
+      "sentiment": "positive",
+      "timestamp_sec": 925
+    },
+    {
+      "claim": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix, foreign exchange, and a seasonal loss of leverage.",
+      "evidence": "Products gross margin was 35.9%, down 340 basis points sequentially, driven by mix, foreign exchange, and a seasonal loss of leverage.",
+      "sentiment": "negative",
+      "timestamp_sec": 896
+    },
+    {
+      "claim": "Management said China was down 2% in the March quarter and was roughly flat after removing foreign-exchange headwinds.",
+      "evidence": "What are you thinking, you know, with regard to that trajectory in China, given all the geopolitical tensions? Thanks. Yeah, we were down 2% as you point out for the March quarter and to provide a little more transparency around that, we were roughly flat when you removed the headwinds from foreign exchange. And so we did see quite a bit of sequential improvement from the December quarter, which was down 11. And again, for going out of the way for transparency, the channel inventory at the end of March, the unit channel inventory was similar to where we started the quarter.",
+      "sentiment": "negative",
+      "timestamp_sec": 1776
+    },
+    {
+      "claim": "Management said product gross margin fell 70 basis points year over year, citing a different mix and foreign exchange.",
+      "evidence": "And I'll just say that the operational team has done an incredible job around optimizing the supply chain of the inventory. And we'll obviously continue to do those things to the degree that we can. Great. Thanks. And just as a quick follow-up, for Kevin, on product gross margins, I was just wondering if you could provide a little bit more color on some of the factors that may have impacted product gross margins in the quarter, obviously down sequentially on seasonal factors, but there was a year-over-year decline as well. So any additional color will be helpful. Thank you. Yeah, Michael, thanks. This is Kevin. So on the sequential, as we mentioned in the prior remarks, we had a decrease in the product gross margin by 340 basis points sequentially. That was primarily driven by mix, seasonal loss of leverage, foreign exchange. And that was partly offset by cost savings. And when we look at the year-on-year performance, we were down 70 basis points on a year-on-year basis. And that was driven by a different mix and foreign exchange. Great. Thank you. Thank you. Great. Thank you, Mike.",
+      "sentiment": "negative",
+      "timestamp_sec": 1976
     }
   ],
+  "management_outlook": [],
+  "overall_summary": "Apple reported March-quarter revenue of $95.4 billion, up 5% year over year, and diluted EPS of $1.65, up 8% to a March-quarter record. Products gross margin was 35.9%, down 340 basis points sequentially. Management said China was down 2%, or roughly flat excluding foreign-exchange headwinds. FinBERT classified 22.4% of scored transcript segments as positive, 3.8% as negative and 73.9% as neutral. This brief does not assess a change in any executive\u2019s historical communication pattern.",
   "pipeline_version": "1.0",
+  "prior_quarter_context_used": [],
+  "publication": {
+    "call_date_verification": "registry_consistent_external_verification_pending",
+    "previous_report_version": "legacy-b4a6b41de7f1",
+    "review_status": "ai_assisted_review_human_review_pending",
+    "scope": "current_call_only"
+  },
+  "quarter": "Q2 2025",
+  "regeneration": {
+    "audio_features": "reused_from_previous_report_not_recomputed",
+    "claim_support_review": "ai_assisted_review_human_review_pending",
+    "generated_at": "2026-10-16T04:52:22.997010+00:00",
+    "historical_context": "retrieved_but_excluded_after_review",
+    "input": "saved_transcript_and_sentiment",
+    "provenance": {
+      "dataset_scope": [
+        {
+          "quarter": "Q2_2025",
+          "ticker": "AAPL"
+        }
+      ],
+      "generation": {
+        "generator_sha256": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+        "input_segments_sha256": "e232f29375c627945007c4e72bf8a20b9feebf6142e456913ab71c4788c2407b",
+        "max_tokens": 4000,
+        "model": "openai/gpt-oss-120b",
+        "prompt_sha256": "6d86de6df9bf4d136735a71447f6e12e692e9234bfab34eefe0a56af5117852b",
+        "response_id": "chatcmpl-144978df-c24e-451d-9d88-cb82a7aeb180",
+        "selection": {
+          "policy": "complete_passages_v1",
+          "top_k_per_seed_label": 4
+        }
+      },
+      "input_sha256": {
+        "config/companies.yaml": "58dc7db1d445f6b0a154db75a7547e73cb496f0df5b961c7fba9c35934f10ace",
+        "config/pipeline.local.yaml": "45b0f66200a08e21fc413a5fdeed68cd762a1c7b35535d1d530ae463e0cbea86",
+        "config/pipeline.yaml": "6a49b07006d37d5a843f38f738474428820fbc5ae960b1253d00231c333e897a",
+        "data/processed/call_date_sources.json": "ec0f246a55c5acc412eac11864facaf5bb1ca74fa27cdbcb4a09e03083e02ae9",
+        "data/processed/call_dates.json": "f62322127b477ee4b2b057407c2078298b88fe47bcfccadad9762a661f985adc",
+        "data/processed/pipeline_runs/AAPL/Q2_2025.json": "8b351edcbd4cbd711af983f8bf39c30a74cbab954d9ee65b3bccd7103f9b3b23",
+        "data/processed/sentiment/segment/AAPL/Q2_2025.json": "937d059a14550ea66f37c34dc6bbcb465087c0df0c08563e993cf786ff18dafb",
+        "data/processed/transcripts/AAPL/Q1_2025.json": "2d5cbdf457900f950520d301c20e77066a69e53b5698f0d75334a808ec5bf14e",
+        "data/processed/transcripts/AAPL/Q2_2025.json": "9043e81a89b61855b657f431387cd9ecc1102eab9ee011ea821362abc8692a5b",
+        "data/processed/transcripts/AAPL/Q4_2024.json": "44b04c489d268c1419bccc24ca6f7bf0fee80eb535a45203640dad29b862b4f7",
+        "src/report/evidence.py": "c362a45d05281746b903e65dc4b6dfff00c31a54b774e414dded5ed1beae8df0",
+        "src/report/generate_structured_report.py": "821b6ced1e76a0893186712b67199a86aa62f261503da12bc2cbf8980eea7f33",
+        "src/report/regenerate.py": "95f5a7d110f24248b307338b2cd4f99500514e73e1dd94ccf04d177a72449efc"
+      }
+    }
+  },
+  "report_version": "complete-passages-1fb9bab5129f",
+  "risks": [],
+  "schema_version": "1.0",
+  "sentiment_distribution": {
+    "negative": 3.8,
+    "neutral": 73.9,
+    "positive": 22.4
+  },
   "stage_durations_sec": {
-    "transcription_sec": 0.0,
-    "sentiment_sec": 0.0,
-    "prosody_sec": 0.0,
-    "rag_sec": 6.2,
-    "generation_sec": 0.0,
-    "citation_check_sec": 0.0
-  }
+    "regeneration_sec": 22.7
+  },
+  "ticker": "AAPL"
 }

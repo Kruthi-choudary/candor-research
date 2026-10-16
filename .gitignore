@@ -2,6 +2,8 @@
 __pycache__/
 *.pyc
 .env
+.local/
+config/pipeline.local.yaml
 data/raw/
 # data/processed/ IS committed on purpose: it's our own derived JSON (transcripts, sentiment,
 # reports, eval results), not third-party audio, and it's what makes the repo demo-able without

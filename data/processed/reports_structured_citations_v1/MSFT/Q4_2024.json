@@ -1,69 +1,59 @@
 {
   "claims": [
     {
-      "claim": "AI infrastructure scaling contributed to a 14% increase in gross margin dollars.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1171,
-        "source_text": "with the impact of scaling our AI infrastructure. Company gross margin dollars increased 14% and"
-      }
+        "source_text": "Excluding the impact of the change in accounting estimate, gross margin percentage increased slightly even with the impact from purchase accounting adjustments, integration and transaction related cost from the Activision acquisition. Operating expenses increased 13% with nine points from the Activision acquisition. At a total company level, head count at the end of June was 3% higher than a year ago. Operating income increased 15% and 16% in constant currency and operating margins were 43% relatively unchanged year over year. Excluding the impact of the change in accounting estimate, operating margins increased slightly, driven by the higher gross margin noted earlier and improved operating leverage through continued cost discipline.",
+        "timestamp_sec": 1185
+      },
+      "claim": "Microsoft reported operating income growth of 15%, or 16% in constant currency, and a 43% operating margin that was relatively unchanged year over year.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Better-than-expected performance across all businesses drove Dynamics revenue up 16%.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1301,
-        "source_text": "driven by better than expected performance across all businesses. Dynamics revenue grew 16%"
-      }
+        "source_text": "Windows commercial products and cloud services revenue increased 11% and 12% in constant currency ahead of expectations due to higher in period revenue recognition from the mix of contracts.",
+        "timestamp_sec": 1480
+      },
+      "claim": "Microsoft reported that Windows commercial products and cloud services revenue grew 11%, or 12% in constant currency, ahead of expectations because of contract-mix revenue recognition.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Dynamics revenue grew, with segment margin dollars increasing 9% and 10% in constant currency.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1324,
-        "source_text": "dynamics revenue. Segment growth margin dollars increased 9% and 10% in constant currency and"
-      }
+        "source_text": "Thousands of news and entertainment publishers trust us to reach new audiences with Microsoft's start and in fact we have paid them 1 billion dollars over the last five years. We are helping advertisers increase their ROI2. We have seen positive response to performance Macs which uses AI to dynamically create and optimize ads and Co-Pilot in Microsoft ad platform helps marketeers create campaigns and troubleshoot using natural language. Now on to gaming. We now have over 500 million monthly active users across platforms and devices and our content pipeline has never been stronger.",
+        "timestamp_sec": 937
+      },
+      "claim": "Microsoft said it had more than 500 million monthly active users across gaming platforms and devices.",
+      "sentiment": "positive"
     },
     {
-      "claim": "Operating margins increased slightly, driven by a higher gross following an accounting estimate change.",
-      "sentiment": "positive",
       "citation": {
-        "timestamp_sec": 1220,
-        "source_text": "change in accounting estimate, operating margins increased slightly, driven by the higher gross"
-      }
+        "source_text": "Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations as we remain focused on our higher margin premium products. While early days we're excited about the recent launch of our co-pilot plus PC's. Search and news advertising revenue X-TAC increased 19% ahead of expectations primarily due to improved execution. Healthy volume growth was driven by Bing and Edge and in gaming revenue increased 44% with 48 points of net impact from the Activision acquisition. Xbox content and services revenue increased 61% slightly ahead of expectations with 58 points of net impact from the Activision acquisition. Stronger than expected performance in first party content was partially offset by third party content performance. Xbox hardware revenue decreased 42% and 41% in constant currency. Segment gross margin dollars increased 21% with 10 points of net impact from the Activision acquisition. Gross margin percentage increased roughly 3 points year over year primarily driven by sales mix shift to higher margin businesses.",
+        "timestamp_sec": 1492
+      },
+      "claim": "Microsoft reported that Devices revenue decreased 11%, or 9% in constant currency, roughly in line with expectations.",
+      "sentiment": "negative"
     },
     {
-      "claim": "Devices revenue decreased 11% and 9% in constant currency, roughly in line with expectations.",
-      "sentiment": "negative",
       "citation": {
-        "timestamp_sec": 1492,
-        "source_text": "Devices revenue decreased 11% and 9% in constant currency roughly in line with expectations"
-      }
-    },
-    {
-      "claim": "The server business is expected to see revenue decline in low single digits as hybrid demand continues.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 1940,
-        "source_text": "server business we expect revenue to decline in low single digits as continued hybrid demand"
-      }
-    },
-    {
-      "claim": "Current FX rates are expected to reduce total revenue and segment-level revenue growth.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 1763,
-        "source_text": "Based on current rates we expect FX to decrease total revenue and segment level revenue growth"
-      }
-    },
-    {
-      "claim": "Operating margins are projected to be down about one point year over year, with FY25 expectations outlined.",
-      "sentiment": "negative",
-      "citation": {
-        "timestamp_sec": 1748,
-        "source_text": "operating margins to be down only about one point year over year. And finally we expect our FY 25"
-      }
+        "source_text": "And given our focus commitment to managing at the operating margin level we still expect FY 25 operating margins to be down only about one point year over year. And finally we expect our FY 25 effective tax rate to be around 19%. Now to the outlook for our first quarter.",
+        "timestamp_sec": 1742
+      },
+      "claim": "Microsoft expected FY2025 operating margin to be about one percentage point lower year over year.",
+      "sentiment": "negative"
     }
   ],
-  "overall_summary": "The call highlighted strong AI-driven margin expansion and robust Dynamics growth, while noting declines in Devices and server revenue and pressure from FX and operating margin contraction. Sentiment analysis showed a predominance of neutral tones (66.1%) with positive sentiment at 28.4% and negative at 5.5%."
+  "evidence_policy": "complete_passages_v1",
+  "generation_provenance": {
+    "generator_sha256": "a57529c348e8210d66d8ac8be791e7e3dc43bde51079b57591ef277c8e4489f2",
+    "input_segments_sha256": "aed5b979443076e6501b8dbd22ce0dc39aaf0f67c3265e3711eb57c5aeb76e90",
+    "max_tokens": 8000,
+    "model": "openai/gpt-oss-120b",
+    "prompt_sha256": "53d37765dc46bbb955e15e9aa7a4a3210935e6fc62a4d46fa91c63f83ed0935c",
+    "response_id": "chatcmpl-2a78a7bf-3cc2-4603-9a84-7c9c031403c6",
+    "selection": {
+      "policy": "complete_passages_v1",
+      "top_k_per_seed_label": 4
+    }
+  },
+  "overall_summary": "Microsoft reported operating income growth of 15%, or 16% in constant currency, and a 43% operating margin that was relatively unchanged year over year. Windows commercial products and cloud services revenue grew 11%, or 12% in constant currency, while Devices revenue fell 11%, or 9% in constant currency; Microsoft also reported more than 500 million monthly active gaming users across platforms and devices. It expected FY2025 operating margin to be about one percentage point lower year over year. FinBERT classified 28.4% of scored transcript segments as positive, 5.5% as negative and 66.1% as neutral; these text labels do not measure vocal confidence.",
+  "report_version": "complete-passages-0d767ce5e3ac"
 }
